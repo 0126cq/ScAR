@@ -1,0 +1,1 @@
+"function _mintAsset(address to, uint256 tokenID, uint256 _assetType) private returns (uint256) {        ASSET_TYPE_PER_ID[tokenID] = _assetType;        totalSupply += 1;        <mask0>;        return tokenID;    }"

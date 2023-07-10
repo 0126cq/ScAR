@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) returns (bool success) {\t    uint _allowance = allowed[_from][msg.sender];\t    balances[_to] = safeAdd(balances[_to], _value);\t    balances[_from] = safeSub(balances[_from], _value);\t    allowed[_from][msg.sender] = <mask0>;\t    Transfer(_from, _to, _value);\t    return true;\t  }"

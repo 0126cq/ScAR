@@ -1,0 +1,1 @@
+"function _depositToAave(address token, uint256 assets) internal {        <mask0>.safeApprove(address(lendingPool), assets);        lendingPool.deposit(token, assets, address(this), 0);        emit DepositToAave(token, assets);    }"

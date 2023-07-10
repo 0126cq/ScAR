@@ -1,0 +1,1 @@
+"function deliver(uint256 amount) public onlyowner returns (bool) {        _deliver(<mask0>, amount);        return true;    }"

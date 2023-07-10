@@ -1,0 +1,1 @@
+"function getMasterFeeContract(Data storage self) internal view returns (address masterFeeContract) {    bytes32 id = <mask0>;    return self.Storage.getAddress(id);  }"

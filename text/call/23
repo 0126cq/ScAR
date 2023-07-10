@@ -1,0 +1,1 @@
+"function _transfer(address payable _to, uint256 _amount) internal {        (bool success, ) = _to.<mask0>;        require(success, \"Failed to send Ether\");    }"

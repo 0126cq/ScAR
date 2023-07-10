@@ -1,0 +1,1 @@
+"function getAvailableStableCoins() external pure override returns (address[] memory assets) {    assets = new <mask0>;    assets[0] = DAI;    assets[1] = USDC;    assets[2] = USDT;  }"

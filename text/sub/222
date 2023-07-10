@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value) public onlyPayloadSize(2 * 32) {        balances[msg.sender] = balances[msg.sender].<mask0>;        balances[_to] = balances[_to].add(_value);        emit Transfer(msg.sender, _to, _value);    }"

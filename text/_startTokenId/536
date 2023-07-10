@@ -1,0 +1,1 @@
+"function _totalMinted() internal view returns (uint256) {    unchecked {      return currentIndex - <mask0>;    }  }"

@@ -1,0 +1,1 @@
+"function _burnFrom(address account, uint256 value) internal {        _allowed[account][msg.sender] = _allowed[account][msg.sender].sub(value);        <mask0>;        emit Approval(account, msg.sender, _allowed[account][msg.sender]);    }"

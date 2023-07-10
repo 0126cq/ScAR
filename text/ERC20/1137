@@ -1,0 +1,1 @@
+"function multisend(address _tokenAddr, address[] dests, uint256[] values)  public  onlyOwner  returns (uint256) {    uint256 i = 0;    while (i < dests.length) {      <mask0>.transfer(dests[i], values[i]);      i += 1;    }    return(i);  }"

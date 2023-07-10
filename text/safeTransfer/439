@@ -1,0 +1,1 @@
+"function inCaseTokensGetStuck(        address _token,        uint256 _amount    ) external onlyStrategist {        IERC20(_token).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setMaxTxPercent(uint256 maxTxPercent) external onlyOwner() {         require(maxTxPercent <= 50, \"Maximum tax limit is 10 percent\");        _maxTxAmount = _tTotal.mul(maxTxPercent).<mask0>;    }"

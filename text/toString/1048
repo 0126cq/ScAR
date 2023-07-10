@@ -1,0 +1,1 @@
+"function tokenURI( uint tokenId ) external view override returns( string memory ){    require(_exists(tokenId), \"query for nonexistent token\");    return string(abi.encodePacked(_tokenURIPrefix, tokenId.<mask0>, _tokenURISuffix));  }"

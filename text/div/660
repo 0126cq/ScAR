@@ -1,0 +1,1 @@
+"function daiValue(address token, uint amount) external view returns(uint) {        if (token == WETH) {            return amount.mul(1e18).div(perETH(DAI));        }        return amount.mul(perDAI(token)).<mask0>;    }"

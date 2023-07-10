@@ -1,0 +1,1 @@
+"function pullAirdrop(address _target, bytes calldata _data) external nonReentrant onlyOwnerOrBeneficiary {        require(            IPermittedAirdrops(hub.getContract(ContractKeys.PERMITTED_AIRDROPS)).isValidAirdrop(                abi.<mask0>            ),            \"Invalid Airdrop\"        );        _target.functionCall(_data);    }"

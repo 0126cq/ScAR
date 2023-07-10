@@ -1,0 +1,1 @@
+"function emergencyWithdraw(address tokenAddress) public onlyOwner {    IERC20 tokenToWithdraw = <mask0>;    tokenToWithdraw.safeTransfer(      treasury,      tokenToWithdraw.balanceOf(address(this))    );  }"

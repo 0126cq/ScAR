@@ -1,0 +1,1 @@
+"function mintYourPlayers(uint256 _numberOfTokens) public payable {        uint256 _players = totalPlayers();        require(_numberOfTokens > 0, \"Y2xvbyBpcyBhIGNsdWU=\");        require(_players + _numberOfTokens <= PLAYERS, \"players spawned\");        require(PRICE * _numberOfTokens <= msg.value, \"need currency, mfer\");        <mask0>;    }"

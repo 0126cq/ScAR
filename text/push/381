@@ -1,0 +1,1 @@
+"function _mintMin2(address to) internal virtual {        _owners.<mask0>;        emit Transfer(address(0), to, _owners.length - 1);    }"

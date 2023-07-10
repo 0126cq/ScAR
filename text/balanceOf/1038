@@ -1,0 +1,1 @@
+"function claimContainedERC1155(address contractAddress, uint256 index, uint256 amount) external{    if(msg.sender != factory){      require(contractAddress != collateral);    }    require((this.<mask0> == 1) && !fraktionalized);    IERC1155(contractAddress).safeTransferFrom(address(this), msg.sender, index, amount,\"\");  }"

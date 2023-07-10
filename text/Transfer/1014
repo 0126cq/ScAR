@@ -1,0 +1,1 @@
+"function VPE_Token() public {        uint _thousands = 10**3 * 10**18;        balances[ICO_PRE_SALE]  = 500 * _thousands;         balances[ICO_TEAM]      = 500 * _thousands;         balances[address(this)] =   0;        <mask0>;        Transfer(address(this), ICO_TEAM, balances[ICO_TEAM]);    }"

@@ -1,0 +1,1 @@
+"function _convert(address _from, address _to, uint256 _amount) internal {        require(converter.convert_rate(_from, _to, _amount) > 0, \"!convert_rate\");        IERC20(_from).<mask0>;        converter.convert(_from, _to, _amount);    }"

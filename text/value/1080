@@ -1,0 +1,1 @@
+"function claim_bounty(){    if (bought_tokens) return;    if (kill_switch) throw;    bought_tokens = true;    time_bought = now;    token.proxyPayment.<mask0>;    msg.sender.transfer(bounty);  }"

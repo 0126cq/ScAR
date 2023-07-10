@@ -1,0 +1,1 @@
+"function _withdraw1155(        address _from,        address _to,        uint256 _tokenId,        uint256 value    ) internal {        IERC1155(nftAddress).<mask0>;    }"

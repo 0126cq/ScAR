@@ -1,0 +1,1 @@
+"function mint(uint256 numberOfTokens)      external      payable  {    require(isPublicSaleActive, \"Public sale is not open\");    if(totalSupply() + numberOfTokens > TOTAL_FREE_MINTS || numberOfTokens > FREE_MINTS_PER_TX){        require(            (PUBLIC_SALE_PRICE * numberOfTokens) <= msg.value,            \"Incorrect ETH value sent\"        );    }    <mask0>;  }"

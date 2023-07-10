@@ -1,0 +1,1 @@
+"function itemsForSaleLimit (uint256 _from, uint256 _take) public view returns (uint256[] _items) {    uint256[] memory items = new <mask0>;    for (uint256 i = 0; i < _take; i++) {      items[i] = listedItems[_from + i];    }    return items;  }"

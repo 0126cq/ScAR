@@ -1,0 +1,1 @@
+"function externalPurchase(address _to, string _tx, string _currency, uint _value, uint256 _rate, uint256 _tokens) whenNotPaused onlyManager public {        token.<mask0>;        ExternalPurchase(_to, _tx, _currency, _value, _rate, _tokens);    }"

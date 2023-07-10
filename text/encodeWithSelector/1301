@@ -1,0 +1,1 @@
+"function compatTransfer(        IERC20TokenV06 token,        address to,        uint256 amount    )        internal    {        bytes memory callData = abi.<mask0>;        _callWithOptionalBooleanResult(address(token), callData);    }"

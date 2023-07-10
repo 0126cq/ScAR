@@ -1,0 +1,1 @@
+"function decodeInterchainConnectionMessage(bytes calldata data)        internal        pure        returns (InterchainConnectionMessage memory)    {        require(getMessageType(data) == MessageType.INTERCHAIN_CONNECTION, \"Message type is not Interchain connection\");        return abi.<mask0>;    }"

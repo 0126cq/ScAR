@@ -1,0 +1,1 @@
+"function valueOfToken( address _principalTokenAddress, uint _amount ) public view returns ( uint value_ ) {        value_ = _amount.mul( 10 ** IERC20( payoutToken ).decimals() ).div( 10 ** <mask0>.decimals() );    }"

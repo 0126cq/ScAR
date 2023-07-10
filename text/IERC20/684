@@ -1,0 +1,1 @@
+"function sendPayoutTokens(uint _amountPayoutToken) external {        require(bondContract[msg.sender], \"msg.sender is not a bond contract\");        <mask0>.safeTransfer(msg.sender, _amountPayoutToken);    }"

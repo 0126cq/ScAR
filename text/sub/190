@@ -1,0 +1,1 @@
+"function sub(uint a, uint b) internal pure returns(uint) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function setAsAllocator(address _address) public returns (bool) {    bool retVal = false;    if(<mask0>){      grantRole(ROLE_ALLOCATE, _address);      retVal = true;    }    return retVal;  }"

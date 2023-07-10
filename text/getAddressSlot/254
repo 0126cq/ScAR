@@ -1,0 +1,1 @@
+"function freeze() external ifAdmin {        emit AdminChanged(_getAdmin(), address(0));        StorageSlot.<mask0>.value = address(0);    }"

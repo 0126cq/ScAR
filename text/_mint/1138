@@ -1,0 +1,1 @@
+"function mintOnAvatar(address _avatar, uint256 mintAmount) external onlyDelegatee(_avatar) returns (uint256) {        return <mask0>;    }"

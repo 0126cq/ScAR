@@ -1,0 +1,1 @@
+"function isRedemptionAddress(address account) internal pure returns (bool) {        return uint256(account) < REDEMPTION_ADDRESS_COUNT && <mask0> != 0;    }"

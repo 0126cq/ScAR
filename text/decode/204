@@ -1,0 +1,1 @@
+"function check(bytes memory _params) external view returns (bool) {        Params memory params = abi.<mask0>;        return params.target.balance < params.threshold;    }"

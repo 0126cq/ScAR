@@ -1,0 +1,1 @@
+"function mintRewards( address _recipient, uint _amount ) external {        require( isRewardManager[ msg.sender ], \"Not approved\" );        require( _amount <= excessReserves(), \"Insufficient reserves\" );        IERC20Mintable( BTRFLY ).<mask0>;        emit RewardsMinted( msg.sender, _recipient, _amount );    }"

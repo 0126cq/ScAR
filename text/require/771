@@ -1,0 +1,1 @@
+"function setPublicSaleState(bool newState) external onlyOwner {        if (newState) {            <mask0>;            require(!_config.isRaffleSaleActive, \"SeKira: raffle sale is started\");        }        _config.isPublicSaleActive = newState;    }"

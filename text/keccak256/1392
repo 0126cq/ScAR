@@ -1,0 +1,1 @@
+"function hasSchainContract(string calldata schainName) external view override returns (bool) {        return schainLinks[<mask0>] != address(0);    }"

@@ -1,0 +1,1 @@
+"function encodeTransferErc721Message(        address token,        address receiver,        uint256 tokenId    ) internal pure returns (bytes memory) {        TransferErc721Message memory message = TransferErc721Message(            BaseMessage(MessageType.TRANSFER_ERC721),            token,            receiver,            tokenId        );        return abi.<mask0>;    }"

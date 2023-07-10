@@ -1,0 +1,1 @@
+"function __isApprovedOrOwner(address spender, uint256 tokenId)        external        view        override        onlyInternal        returns (bool)    {        return <mask0>;    }"

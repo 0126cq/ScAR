@@ -1,0 +1,1 @@
+"function increaseApproval(address _spender, uint _addedValue) public returns (bool) {allowed[msg.sender][_spender] = allowed[msg.sender][_spender].add(_addedValue);<mask0>;return true;}"

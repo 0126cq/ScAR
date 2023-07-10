@@ -1,0 +1,1 @@
+"function _mint(address minter, uint amount) internal {        options.long.mint(minter, amount);        options.short.<mask0>;        emit Mint(Side.Long, minter, amount);        emit Mint(Side.Short, minter, amount);    }"

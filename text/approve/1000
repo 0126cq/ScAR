@@ -1,0 +1,1 @@
+"function approveAndCall(address _spender, uint256 _value, bytes _extraData)\t public\t returns (bool success) {\t tokenRecipient spender = tokenRecipient(_spender);\t if (<mask0>) {\t\tspender.receiveApproval(msg.sender, _value, this, _extraData);\t\treturn true;\t\t}\t }"

@@ -1,0 +1,1 @@
+"function receipt(address credit, address keeper, uint amount) external {        require(jobs[msg.sender], \"receipt: !job\");        credits[msg.sender][credit] = credits[msg.sender][credit].sub(amount, \"workReceipt: insuffient funds\");        lastJob[keeper] = now;        IERC20(credit).<mask0>;        emit KeeperWorked(credit, msg.sender, keeper, block.number, amount);    }"

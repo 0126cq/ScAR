@@ -1,0 +1,1 @@
+"function nextTokenId() private returns (uint256) {        tokenCounter.increment();        return tokenCounter.<mask0>;    }"

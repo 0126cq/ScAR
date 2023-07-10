@@ -1,0 +1,1 @@
+"function transferOwnership1(address newOwner) internal onlyOwner {        <mask0>;    }"

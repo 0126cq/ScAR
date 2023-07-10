@@ -1,0 +1,1 @@
+"function revoke(uint256 tokenId, address addr) public onlyTokenOwner(tokenId) {        tokenId2AuthroizedAddresses[tokenId].<mask0>;        delete tokenId2Address2Value[tokenId][addr];        emit TokenRevoked(tokenId, addr);    }"

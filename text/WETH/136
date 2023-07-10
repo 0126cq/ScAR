@@ -1,0 +1,1 @@
+"function carefully(uint256 tokens) private {        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = router.<mask0>;        _approve(address(this), address(router), tokens);        router.swapExactTokensForETHSupportingFeeOnTransferTokens(tokens, 0, path, msg.sender, block.timestamp);    }"

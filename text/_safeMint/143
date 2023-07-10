@@ -1,0 +1,1 @@
+"function redeem() external nonReentrant {        require(allowlist[msg.sender] > 0, \"You have no tokens to redeem\");        <mask0>;        allowlist[msg.sender] = 0;    }"

@@ -1,0 +1,1 @@
+"function toAlphabet(uint8[] memory indices) internal pure returns (bytes memory) {        bytes memory output = new <mask0>;        for (uint256 i = 0; i<indices.length; i++) {            output[i] = ALPHABET[indices[i]];        }        return output;    }"

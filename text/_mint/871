@@ -1,0 +1,1 @@
+"function mint(address recipient, uint256 value)        external        override        onlyRoleHolder(uint256(Roles.Minter))        returns (bool)    {        <mask0>;        return true;    }"

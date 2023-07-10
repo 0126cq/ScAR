@@ -1,0 +1,1 @@
+"function startVaultOperation() external onlyOwner whenVaultNotStarted returns (bool) {    uint256 totalBalanceInUSDC = getAlloyxBronzeTokenBalanceInUSDC();    alloyxTokenBronze.<mask0>;    vaultStarted = true;    return true;  }"

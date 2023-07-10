@@ -1,0 +1,1 @@
+"function addComponent(address _component) external onlyModule whenLockedOnlyLocker {        require(!isComponent(_component), \"Must not be component\");        components.<mask0>;        emit ComponentAdded(_component);    }"

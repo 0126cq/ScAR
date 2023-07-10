@@ -1,0 +1,1 @@
+"function stop() public onlyOwner {    <mask0>;    payOut();    destroy();  }"

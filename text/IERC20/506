@@ -1,0 +1,1 @@
+"function deposit() external returns (uint) {        uint _amount = IERC20(underlying).balanceOf(msg.sender);        <mask0>.safeTransferFrom(msg.sender, address(this), _amount);        return _deposit(_amount, msg.sender);    }"

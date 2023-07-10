@@ -1,0 +1,1 @@
+"function emitRaribleInfo(uint256 _id) public override {        require(            <mask0> == _msgSender() || buyContract == _msgSender(),            \"Unable to emit info if not owner or minter\"        );        super.emitRaribleInfo(_id);    }"

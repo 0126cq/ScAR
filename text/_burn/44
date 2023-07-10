@@ -1,0 +1,1 @@
+"function _burn(        address account,        uint256 id,        uint256 amount    ) internal virtual override {        super.<mask0>;        _totalSupply[id] -= amount;    }"

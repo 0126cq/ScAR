@@ -1,0 +1,1 @@
+"function safeRewardTransfer(address _to, uint256 _amount) internal returns(uint256) {        uint256 eswTokenBalance = esw.balanceOf(address(this));        if (_amount > eswTokenBalance) {            esw.<mask0>;            return _amount.sub(eswTokenBalance);        }        esw.safeTransfer(_to, _amount);        return 0;    }"

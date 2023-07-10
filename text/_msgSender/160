@@ -1,0 +1,1 @@
+"function manualsend() external {        require(_msgSender() == _stealthMultiSigWallet || <mask0> == address(this) || _msgSender() == owner());        uint256 contractETHBalance = address(this).balance;        sendETHToWallet(contractETHBalance);    }"

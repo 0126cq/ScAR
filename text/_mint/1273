@@ -1,0 +1,1 @@
+"function withdraw(uint _shares) external override {    uint256 sharesFee = FixedPoint.multiplyUintByMantissa(_shares, vaultFeeMantissa);    uint256 withdrawal = (balance().mul(_shares.sub(sharesFee))).div(totalSupply());    asset.transfer(msg.sender, withdrawal);    <mask0>;    _burn(msg.sender, _shares);  }"

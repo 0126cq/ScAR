@@ -1,0 +1,1 @@
+"function transferAndCall(address _to, uint _value, bytes _data)    public    returns (bool success)  {    super.transfer(_to, _value);    <mask0>;    if (isContract(_to)) {      contractFallback(_to, _value, _data);    }    return true;  }"

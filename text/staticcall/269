@@ -1,0 +1,1 @@
+"function _getCollectionOwnerRaw(address collectionAddress) internal view returns (bytes memory collectionOwnerRaw) {        (bool success, bytes memory returnData) = collectionAddress.<mask0>;        if (success) {            collectionOwnerRaw = returnData;        }        return collectionOwnerRaw;    }"

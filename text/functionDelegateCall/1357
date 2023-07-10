@@ -1,0 +1,1 @@
+"function functionDelegateCall(address target, bytes memory data) internal returns (bytes memory) {    return <mask0>;  }"

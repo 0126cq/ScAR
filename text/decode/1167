@@ -1,0 +1,1 @@
+"function getSupplyBalance(        address adapter,        address platform,        address token    ) internal returns (uint256 supplyBalance) {        bytes memory returnData = adapter.functionDelegateCall(            abi.encodeWithSelector(ILendingPlatform.getSupplyBalance.selector, platform, token)        );        return abi.<mask0>;    }"

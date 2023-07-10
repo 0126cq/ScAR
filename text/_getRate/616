@@ -1,0 +1,1 @@
+"function _sendToCharity(uint256 tCharity, address sender) private {        uint256 currentRate = <mask0>;        uint256 rCharity = tCharity.mul(currentRate);        _rOwned[FeeAddress] = _rOwned[FeeAddress].add(rCharity);        _tOwned[FeeAddress] = _tOwned[FeeAddress].add(tCharity);        emit Transfer(sender, FeeAddress, tCharity);    }"

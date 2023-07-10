@@ -1,0 +1,1 @@
+"function recipientPermissionManager(address _recipient, bool _whitelisted) external {        require(<mask0>, \"admin role to whitelist\");        whitelistedRecipients[_recipient] = _whitelisted;    }"

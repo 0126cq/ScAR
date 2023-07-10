@@ -1,0 +1,1 @@
+"function mintNext(address reciever, uint256 amount) public override {        require(config.allowPrivilege, \"df\");        require(<mask0>, \"require permission\");        _mintNext(reciever, amount);    }"

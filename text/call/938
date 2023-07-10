@@ -1,0 +1,1 @@
+"function withdrawAllViaCall(address payable _to) public onlyOwner {    uint256 balance = address(this).balance;    (bool sent, bytes memory data) = _to.<mask0>;    require(sent, \"Failed to send Ether\");  }"

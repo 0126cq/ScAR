@@ -1,0 +1,1 @@
+"function approveToken() public {      IERC20(token).<mask0>;      IERC20(token).safeApprove(dydx, uint(-1));      IERC20(token).safeApprove(getAaveCore(), uint(-1));      IERC20(token).safeApprove(fulcrum, uint(-1));  }"

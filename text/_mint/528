@@ -1,0 +1,1 @@
+"function mintToSender(uint numberOfTokens, uint tokenID) internal {        require(totalSupply(intelligentID) + sentient + (numberOfTokens) <= _max_intelligent + _max_sentient, \"Minting would exceed max supply\");        <mask0>;        }"

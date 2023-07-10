@@ -1,0 +1,1 @@
+"function mintWithPoap(address receiver_, uint256 years_)        external        onlyRole(MINTER_ROLE)    {        <mask0>;    }"

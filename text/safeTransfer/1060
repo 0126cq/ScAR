@@ -1,0 +1,1 @@
+"function _withdraw(uint256 amount) internal virtual {\t\trequire(amount > 0, \"StakedRewardsPool: cannot withdraw zero\");\t\t_updateRewardFor(_msgSender());\t\t_totalSupply = _totalSupply.sub(amount);\t\t_balances[_msgSender()] = _balances[_msgSender()].sub(amount);\t\t_stakingToken.<mask0>;\t\temit Withdrawn(_msgSender(), amount);\t}"

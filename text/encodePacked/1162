@@ -1,0 +1,1 @@
+"function setFxUSDBPSRate(Data storage self, string currency, uint bpsRate) internal returns (bool success) {    bytes32 id = keccak256(abi.<mask0>);    require(      self.Storage.setUint(id, bpsRate),      \"Error: Unable to update account spending period.\");    return true;  }"

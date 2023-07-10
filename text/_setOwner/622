@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) public virtual onlyOwner {        require(newOwner != address(0) || newOwner != RENOUNCED_OWNER, \"StorageSlotOwnable: new owner is invalid\");        emit OwnershipTransferred(_getOwner(), newOwner);        <mask0>;    }"

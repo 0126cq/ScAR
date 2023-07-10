@@ -1,0 +1,1 @@
+"function transfer(address _recipient, uint256 _value) onlyPayloadSize(2*32) public {\t\trequire(balances[msg.sender] >= _value && _value > 0);\t    balances[msg.sender] -= _value;\t    balances[_recipient] += _value;\t    <mask0>;            }"

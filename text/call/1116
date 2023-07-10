@@ -1,0 +1,1 @@
+"function withdrawToOwner() external nonReentrant onlyOwner {    require(vault != address(0), 'Vault Invalid');    (bool success, ) = _msgSender().<mask0>;    require(success, \"Failed to send to vault.\");  }"

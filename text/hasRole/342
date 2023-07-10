@@ -1,0 +1,1 @@
+"function setTokenCurrency(address _currency)        external    {        require(            <mask0>,            \"PrivateSale: Caller is not an admin\"        );        tokenAddress = _currency;    }"

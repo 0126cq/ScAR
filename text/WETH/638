@@ -1,0 +1,1 @@
+"function createPair() external {        require(address(uniswapPair) == address(0), \"!uniswapPair\");        uniswapPair = address(            IUniswapV2Factory(factory()).createPair(                <mask0>,                address(lendflareToken)            )        );    }"

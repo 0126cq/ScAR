@@ -1,0 +1,1 @@
+"function balanceOfPool() public view override returns (uint256) {        if (ERC20(yvToken).<mask0> == 0) {            return 0;        }        uint256 balance = IERC20(yvToken).balanceOf(address(this));        return balance            .mul(IYearnV2Vault(yvToken).pricePerShare())            .div(1e18);    }"

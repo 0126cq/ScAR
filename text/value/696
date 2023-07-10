@@ -1,0 +1,1 @@
+"function wrapEther()        external        nonReentrant    {        if (address(this).balance > 0) {            WETHInterface(wethContract).deposit.<mask0>;        }    }"

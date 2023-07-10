@@ -1,0 +1,1 @@
+"function gift(address[] calldata receivers) external onlyOwner {        require(_tokensMinted.current() + receivers.length <= CAC_MAX, \"EXCEED_MAX\");        for (uint256 i = 0; i < receivers.length; i++) {             _tokensMinted.increment();            _safeMint(receivers[i], _tokensMinted.<mask0>);        }    }"

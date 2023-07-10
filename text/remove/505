@@ -1,0 +1,1 @@
+"function removeStrategy(address _strategy) external override onlyGovernor {    require(requiredHarvest[_strategy] > 0, 'dforce-strategy-keep3r::remove-strategy:strategy-not-added');    requiredHarvest[_strategy] = 0;    availableStrategies.<mask0>;    emit StrategyRemoved(_strategy);  }"

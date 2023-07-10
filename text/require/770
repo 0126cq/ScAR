@@ -1,0 +1,1 @@
+"function setRaffleSaleState(bool newState) external onlyOwner {        if (newState) {            <mask0>;        }        _config.isRaffleSaleActive = newState;    }"

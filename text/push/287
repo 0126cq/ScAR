@@ -1,0 +1,1 @@
+"function startNewPoll(uint256 _nOptions) external onlyOwner {        Ballots.Ballot storage newBallot = ballots.<mask0>;        newBallot.createNewPoll(_nOptions);        totalBallots.increment();    }"

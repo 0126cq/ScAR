@@ -1,0 +1,1 @@
+"function mintBaseBatch(address to, string[] calldata uris)        public        virtual        override        nonReentrant        adminRequired        returns (uint256[] memory tokenIds)    {        tokenIds = new <mask0>;        for (uint256 i = 0; i < uris.length; i++) {            tokenIds[i] = _mintBase(to, uris[i]);        }        return tokenIds;    }"

@@ -1,0 +1,1 @@
+"function setApprovalForAll(address operator, bool approved)    public    virtual    override  {    require(operator != _msgSender(), \"ERC721: approve to caller\");    _operatorApprovals[<mask0>][operator] = approved;    emit ApprovalForAll(_msgSender(), operator, approved);  }"

@@ -1,0 +1,1 @@
+"function totalBalance(address _token) public view returns (uint256) {        if (_token == ETHEREUM) {            return address(this).balance;        } else {            return <mask0>.balanceOf(address(this));        }    }"

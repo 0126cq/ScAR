@@ -1,0 +1,1 @@
+"function write(bytes memory _data) internal returns (address pointer) {    bytes memory code = Bytecode.creationCodeFor(      abi.<mask0>    );    assembly { pointer := create(0, add(code, 32), mload(code)) }    if (pointer == address(0)) revert WriteError();  }"

@@ -1,0 +1,1 @@
+"function setGasPrice(uint256 _gasPrice)       external {        require(<mask0> || hasRole(DEFAULT_ADMIN_ROLE, _msgSender()), 'no access');        gasPrice = _gasPrice;  }"

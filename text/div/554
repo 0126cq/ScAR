@@ -1,0 +1,1 @@
+"function mulBP(uint256 amt, uint256 bp) internal pure returns (uint256) {        return amt.mul(bp).<mask0>;    }"

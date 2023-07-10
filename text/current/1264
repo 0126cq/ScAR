@@ -1,0 +1,1 @@
+"function singleMint(address to, string calldata uri) public onlyOwner {        uint256 tokenId = _tokenIdCounter.<mask0>;        _tokenIdCounter.increment();        drawnEggs++;        _safeMint(to, tokenId);        _setTokenURI(tokenId, uri);    }"

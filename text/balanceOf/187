@@ -1,0 +1,1 @@
+"function totalSupply() public view returns (uint) {         uint supply = add(ERC20(SRC).<mask0>,address(this).balance);        supply = div(supply,100000000000000);        return(supply);    }"

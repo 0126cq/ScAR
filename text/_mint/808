@@ -1,0 +1,1 @@
+"function mint(string memory tokenIPFSPath) public returns (uint256 tokenId) {    tokenId = nextTokenId++;    <mask0>;    _updateTokenCreator(tokenId, msg.sender);    _setTokenIPFSPath(tokenId, tokenIPFSPath);    emit Minted(msg.sender, tokenId, tokenIPFSPath, tokenIPFSPath);  }"

@@ -1,0 +1,1 @@
+"function recoverERC1155(address tokenAddress, uint256 tokenId, uint256 amount) external virtual adminRequired {        IERC1155(tokenAddress).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function mint(CToken _cToken, uint _amount) internal {        if (address(_cToken) == address(CETHER)) {            CETHER.mint{ value: _amount }();        } else {            require(CErc20(address(_cToken)).<mask0> == 0, \"failed to mint cERC20\");        }    }"

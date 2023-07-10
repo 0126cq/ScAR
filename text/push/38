@@ -1,0 +1,1 @@
+"function initialize(address newGovernance, address newStrategistGuild) public {    require(governance == address(0));    governance = newGovernance;    strategistGuild = newStrategistGuild;    developer = address(0);    versions.push(\"v1\");     versions.push(\"v1.5\");     versions.<mask0>;   }"

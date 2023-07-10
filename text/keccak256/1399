@@ -1,0 +1,1 @@
+"function getIncomingMessagesCounter(string calldata fromSchainName)        external        view        override        returns (uint256)    {        bytes32 srcChainHash = <mask0>;        require(connectedChains[srcChainHash].inited, \"Source chain is not initialized\");        return connectedChains[srcChainHash].incomingMessageCounter;    }"

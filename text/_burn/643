@@ -1,0 +1,1 @@
+"function _burn(uint tokenId) internal override(ERC721, ERC721URIStorage) {    super.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function _checkRole(bytes32 role) internal view virtual {        _checkRole(role, <mask0>);    }"

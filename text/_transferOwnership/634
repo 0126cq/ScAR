@@ -1,0 +1,1 @@
+"function receiveOwnership() public {        require(msg.sender == _pendingOwner, \"only pending owner can call this function\");        <mask0>;        _pendingOwner = address(0);    }"

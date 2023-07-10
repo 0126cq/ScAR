@@ -1,0 +1,1 @@
+"function domainExists(uint256 id) public view override returns (bool) {    bool domainNftExists = <mask0>;    return domainNftExists;  }"

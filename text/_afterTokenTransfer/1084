@@ -1,0 +1,1 @@
+"function _afterTokenTransfer(address from, address to, uint256 amount) internal override {         _moveDelegates(_delegates[from], _delegates[to], amount);        super.<mask0>;    }"

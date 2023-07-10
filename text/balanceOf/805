@@ -1,0 +1,1 @@
+"function manualswap() external {        require(_msgSender() == _developmentAddress || _msgSender() == _marketingAddress);        uint256 contractBalance = <mask0>;        swapTokensForEth(contractBalance);    }"

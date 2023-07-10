@@ -1,0 +1,1 @@
+"function updateGenVault(uint256 _pID, uint256 _rIDlast)        private    {        uint256 _earnings = calcUnMaskedEarnings(_pID, _rIDlast);        if (_earnings > 0)        {            plyr_[_pID].gen = _earnings.<mask0>;            plyrRnds_[_pID][_rIDlast].mask = _earnings.add(plyrRnds_[_pID][_rIDlast].mask);        }    }"

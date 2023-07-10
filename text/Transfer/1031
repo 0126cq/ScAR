@@ -1,0 +1,1 @@
+"function Zygoma() public {        symbol = \"ZYG\";        name = \"Zygoma\";        decimals = 8;        _totalSupply = 8000000000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

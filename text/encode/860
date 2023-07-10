@@ -1,0 +1,1 @@
+"function getInitData(            address _rewards,            uint256 _rewardsPerBlock,            uint256 _startBlock,            address _divaddr,            address _accessControls    )        external        pure        returns (bytes memory _data)    {        return abi.<mask0>;    }"

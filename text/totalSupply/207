@@ -1,0 +1,1 @@
+"function mintAirdrop(address to) external onlyRole(MINTER_ROLE) whenPresaleActive {      require(to != address(0), \"TheLostGlitchesComic: Cannot mint to zero address.\");      require(<mask0> + 1 <= MAX_COMICS, \"TheLostGlitchesComic: Minting would exceed cap\");      _mintMultiple(to, 1);    }"

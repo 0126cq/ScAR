@@ -1,0 +1,1 @@
+"function mintRound(uint256 tokenNum, uint256 copy) private {\t\tif (totalSupply[tokenNum] + copy < copyMax + 1) {\t\t\ttotalSupply[tokenNum] = totalSupply[tokenNum] + copy;\t\t\t<mask0>;\t\t\treturn;\t\t\t} \t\trevert(\"sorry you couldn't find one of the remaining tokens\");\t}"

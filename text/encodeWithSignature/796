@@ -1,0 +1,1 @@
+"function logBytes17(bytes17 p0) internal view {\t\t_sendLogPayload(abi.<mask0>);\t}"

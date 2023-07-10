@@ -1,0 +1,1 @@
+"function _addLP(uint256 _ETH, uint256 _GDAO) private{        IERC20(GDAO).approve(address(uniswapRouter),_GDAO);        uniswapRouter.<mask0>;    }"

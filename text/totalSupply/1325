@@ -1,0 +1,1 @@
+"function endPublicSale() external onlyOwner {        require(isPublicSaleOn(), \"Public sale is not active\");        saleConfig = SaleConfig(0, 0, 0, 0, 0);        MaxSupply = <mask0>;    }"

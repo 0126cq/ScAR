@@ -1,0 +1,1 @@
+"function withdrawForStrategy(        uint256 sharesToWithdraw,         address yearnVault        ) public onlyStrategy{        IYearnVault v = IYearnVault(yearnVault);        strategyBalances[msg.sender] = strategyBalances[msg.sender].sub(sharesToWithdraw);        v.<mask0>;    }"

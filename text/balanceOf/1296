@@ -1,0 +1,1 @@
+"function discardReferralShareVote() external {        _referralShare.updateVote(msg.sender, _referralShare.votes[msg.sender], Vote.init(), <mask0>, MooniswapConstants._DEFAULT_REFERRAL_SHARE, _emitReferralShareVoteUpdate);    }"

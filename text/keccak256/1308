@@ -1,0 +1,1 @@
+"function verify(bytes32[] memory proof) internal view returns (bool)     {        bytes32 leaf = <mask0>;        return MerkleProof.verify(proof, root, leaf);    }"

@@ -1,0 +1,1 @@
+"function mint(address _account, uint _amount) public {        require(minters[msg.sender] >= _amount, \"HATToken: amount greater than limitation\");        minters[msg.sender] = SafeMath.sub(minters[msg.sender], _amount);        <mask0>;    }"

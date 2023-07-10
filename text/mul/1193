@@ -1,0 +1,1 @@
+"function convertTo18(address gemJoin, uint256 amt) internal returns (uint256 wad) {        wad = <mask0>;    }"

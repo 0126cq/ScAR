@@ -1,0 +1,1 @@
+"function addCurrency(address currencyAddress)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        currencies[<mask0>] = true;    }"

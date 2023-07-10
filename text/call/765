@@ -1,0 +1,1 @@
+"function _withdraw(address _address, uint256 _amount) private {        (bool success, ) = payable(_address).<mask0>;        require(success, \"Transfer failed.\");    }"

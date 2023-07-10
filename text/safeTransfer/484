@@ -1,0 +1,1 @@
+"function withdraw(uint _amount) external override {        want.<mask0>;        amounts[msg.sender] = amounts[msg.sender].sub(_amount);    }"

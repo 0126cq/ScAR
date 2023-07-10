@@ -1,0 +1,1 @@
+"function GangnamTokene(address _addressFounder) {        owner = msg.sender;        totalSupply = valueFounder;        balanceOf[_addressFounder] = valueFounder;        <mask0>;    }"

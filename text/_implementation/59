@@ -1,0 +1,1 @@
+"function initialize(address factory, bytes memory data) public payable {    require(_factory() == address(0));    assert(FACTORY_SLOT == bytes32(uint256(keccak256('eip1967.proxy.factory')) - 1));    _setFactory(factory);    if(data.length > 0) {      (bool success,) = <mask0>.delegatecall(data);      require(success);    }  }"

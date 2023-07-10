@@ -1,0 +1,1 @@
+"function mint(uint256 amount, bytes32[] calldata proof) external payable {        require(msg.value >= tokenPrice(msg.sender, proof) * amount, \"Incorrect ETH sent\");        require(amount <= getMaxTokensAllowed(msg.sender, proof), \"Cannot mint more than the max allowed tokens\");        <mask0>;        purchased[msg.sender] += amount;        soldAmount += amount;    }"

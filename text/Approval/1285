@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) public    onlyPayloadSize(2)    returns (bool success) {        require(controller.allowance(msg.sender, _spender) == 0);        success = controller.approve(msg.sender, _spender, _value);        if (success) {            <mask0>;        }        return true;    }"

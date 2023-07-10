@@ -1,0 +1,1 @@
+"function withdrawAndClaimReward(uint256 amount) external {        claimReward();        <mask0>;    }"

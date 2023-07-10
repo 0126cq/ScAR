@@ -1,0 +1,1 @@
+"function update(VirtualBalance.Data storage self, uint256 decayPeriod, uint256 realBalance) internal {        set(self, <mask0>);    }"

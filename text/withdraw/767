@@ -1,0 +1,1 @@
+"function _withdraw(address _account, uint256 _withdrawalID) internal override {        uint256 amount = withdrawPool.<mask0>;        steak.safeTransfer(_account, amount);        emit Withdraw(_account, amount, _withdrawalID);    }"

@@ -1,0 +1,1 @@
+"function _acceptAdmin() external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"_acceptAdmin()\"));        return abi.<mask0>;    }"

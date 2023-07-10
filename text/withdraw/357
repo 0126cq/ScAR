@@ -1,0 +1,1 @@
+"function exit() external {        for (uint256 i; i <= lpTokens.length; i++) {            if (balanceByPool[i][msg.sender] > 0) {                <mask0>;            }        }        points[msg.sender] = 0;         lastUpdateTime[msg.sender] = block.timestamp;    }"

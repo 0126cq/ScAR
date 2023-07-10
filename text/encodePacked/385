@@ -1,0 +1,1 @@
+"function hash(AddAddress request) internal pure returns (bytes32) {    return keccak256(      abi.encodePacked(        ADD_ADDRESS_TYPEHASH,        keccak256(          abi.<mask0>        )    ));  }"

@@ -1,0 +1,1 @@
+"function stakedNFTs(address nftOwner)        internal        view        returns (uint256[] memory staked_)    {        EnumerableSet.UintSet storage nfts = s().stakedNFTs[nftOwner];        staked_ = new <mask0>;        for (uint256 i; i < staked_.length; i++) {            staked_[i] = EnumerableSet.at(nfts, i);        }    }"

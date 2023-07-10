@@ -1,0 +1,1 @@
+"function removeCollection(address collection) external onlyOwner {        _collections.<mask0>;    }"

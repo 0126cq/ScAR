@@ -1,0 +1,1 @@
+"function WETHBlanceOfShareTokenContract()  external view returns(uint,uint,uint) {        return (ERC20(WETH[0]).balanceOf(share),                ERC20(WETH[1]).<mask0>,                ERC20(WETH[2]).balanceOf(share));          }"

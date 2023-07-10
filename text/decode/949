@@ -1,0 +1,1 @@
+"function borrowBalanceCurrent(address account) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"borrowBalanceCurrent(address)\", account));        return abi.<mask0>;    }"

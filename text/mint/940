@@ -1,0 +1,1 @@
+"function harvest() external {        require(msg.sender == authorizedController() || isOwner(), \"HARVEST_NO_AUTH\");        uint earned = earned();        if (earned > 0) {            dusd.<mask0>;        }    }"

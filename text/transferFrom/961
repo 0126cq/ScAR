@@ -1,0 +1,1 @@
+"function redeem(uint256 _tokenID) external {        require (redemptionPhase == true, \"It is not your time.\");        if (sendOnRedeem) {            <mask0>;        }        emit Redeem(msg.sender, _tokenID);    }"

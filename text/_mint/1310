@@ -1,0 +1,1 @@
+"function _receive(address to, uint256 volume) virtual override internal {        <mask0>;    }"

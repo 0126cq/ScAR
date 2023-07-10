@@ -1,0 +1,1 @@
+"function nftListCancel(uint256 _id) public {        require(            _isApprovedOrOwner(msg.sender, _id),            \"You arent the owner of this NFT\"        );        _swapMap.<mask0>;    }"

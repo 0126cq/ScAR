@@ -1,0 +1,1 @@
+"function mintForAddress(uint256 amount, address _receiver) public mintCompliance(amount) onlyOwner {        <mask0>;    }"

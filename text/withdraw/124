@@ -1,0 +1,1 @@
+"function _vaultWithdraw(        address fromVault,        uint256 amount,        address underlyingVaultToken    ) internal returns (uint256 underlyingReceived) {        uint256 iniUnderlyingBal = _getBalance(underlyingVaultToken);        IVault(fromVault).<mask0>;        underlyingReceived =            _getBalance(underlyingVaultToken) -            iniUnderlyingBal;    }"

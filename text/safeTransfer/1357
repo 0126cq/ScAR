@@ -1,0 +1,1 @@
+"function claimFees(address _distroContract, address _token) external returns (uint256){        require(msg.sender == operator, \"!auth\");        IFeeDistro(_distroContract).claim();        uint256 _balance = IERC20(_token).balanceOf(address(this));        IERC20(_token).<mask0>;        return _balance;    }"

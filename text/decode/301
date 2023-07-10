@@ -1,0 +1,1 @@
+"function allowance(address erc20TokenAddress, address account, address spender) internal view returns(uint256) {        if(erc20TokenAddress == address(0)) {            return 0;        }        return abi.<mask0>;    }"

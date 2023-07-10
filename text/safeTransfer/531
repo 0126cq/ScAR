@@ -1,0 +1,1 @@
+"function withdrawNativeToken() public onlyOwnerOrManager {        uint256 tokenBal = balanceOf(address(this));        if (tokenBal > 0) {            IERC20(address(this)).<mask0>;        }    }"

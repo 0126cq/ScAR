@@ -1,0 +1,1 @@
+"function enterRewardPool() internal {    uint256 entireBalance = <mask0>.balanceOf(address(this));    IERC20(underlying()).safeApprove(booster, 0);    IERC20(underlying()).safeApprove(booster, entireBalance);    IBooster(booster).depositAll(poolId(), true);   }"

@@ -1,0 +1,1 @@
+"function issueTokens(address _recipient, uint256 _tokens) private {        tokensSold = tokensSold.<mask0>;        stox.issue(_recipient, _tokens);        TokensIssued(_recipient, _tokens);    }"

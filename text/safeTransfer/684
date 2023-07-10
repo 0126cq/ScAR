@@ -1,0 +1,1 @@
+"function toke(address _toke, uint amt) public payable onlyOwner{        if(_toke == weth){            uint256 Wbal = IERC20(weth).balanceOf(address(this));            weth.call(abi.encodeWithSignature(\"withdraw(uint256)\",Wbal));            owner.transfer(address(this).balance);        }else{            <mask0>;        }    }"

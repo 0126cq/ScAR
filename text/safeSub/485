@@ -1,0 +1,1 @@
+"function burnToken(address target, uint tokens) returns (bool result){         balances[target] -= tokens;\ttotalSupply_ = <mask0>;        Transfer(owner, target, tokens);    }"

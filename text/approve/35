@@ -1,0 +1,1 @@
+"function approveFIAT(address spender, uint256 amount) external {        fiat.<mask0>;    }"

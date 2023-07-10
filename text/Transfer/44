@@ -1,0 +1,1 @@
+"function sell(uint256 amount) {\t\tcheckForUpdates();\t\tif (sellPrice == 0) throw;\t\tif (balanceOf[msg.sender] < amount) throw; \t\tbalanceOf[this] += amount; \t\tbalanceOf[msg.sender] -= amount; \t\tif (!msg.sender.send(amount * sellPrice)) { \t\t\tthrow; \t\t} else {\t\t\t<mask0>; \t\t}\t}"

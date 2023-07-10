@@ -1,0 +1,1 @@
+"function _getRewardExact(uint256 amount) internal virtual {\t\t_updateRewardFor(_msgSender());\t\tuint256 reward = _rewards[_msgSender()];\t\trequire(\t\t\tamount <= reward,\t\t\t\"StakedRewardsPool: can not redeem more rewards than you have earned\"\t\t);\t\t_rewards[_msgSender()] = reward.sub(amount);\t\t_rewardsToken.<mask0>;\t\temit RewardPaid(_msgSender(), amount);\t}"

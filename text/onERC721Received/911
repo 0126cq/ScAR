@@ -1,0 +1,1 @@
+"function safeTransferFrom(\t\taddress from,\t\taddress to,\t\tuint256 id,\t\tbytes memory data\t) public virtual {\t\t_transfer(from, to, id);\t\trequire(to.code.length == 0 || ERC721TokenReceiver(to).<mask0> == ERC721TokenReceiver.onERC721Received.selector, \"UNSAFE_RECIPIENT\");\t}"

@@ -1,0 +1,1 @@
+"function balanceOf(address account, uint8 tokenIndex)        external        view        override        returns (uint256)    {        address token = addressOf(tokenIndex);        return IERC20(token).<mask0>;    }"

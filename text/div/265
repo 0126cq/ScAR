@@ -1,0 +1,1 @@
+"function storedCollateralisation() public view returns (uint256 collat) {        (uint256 lend, uint256 borrow) = getCurrentPosition();        if (lend == 0) {            return 0;        }        collat = uint256(1e18).mul(borrow).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function ethToWant(uint256 _amount) public view returns (uint256) {        if (_amount == 0) {            return 0;        }        address[] memory path = new <mask0>;        path[0] = address(weth);        path[1] = address(want);        uint256[] memory amounts = IUniswapRouter(uniswapRouterV2).getAmountsOut(_amount, path);        return amounts[amounts.length - 1];    }"

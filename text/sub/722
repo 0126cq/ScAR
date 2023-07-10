@@ -1,0 +1,1 @@
+"function _addNodeToSpaceToNodes(uint nodeIndex, uint8 space) private {        spaceToNodes[space].push(nodeIndex);        spaceOfNodes[nodeIndex].indexInSpaceMap = spaceToNodes[space].length.<mask0>;    }"

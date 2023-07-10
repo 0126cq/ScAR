@@ -1,0 +1,1 @@
+"function _setImplementation(address newImplementation) internal {        require(Address.isContract(newImplementation), \"ProjectProxy: new implementation is not a contract\");        StorageSlot.<mask0>.value = newImplementation;    }"

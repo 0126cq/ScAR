@@ -1,0 +1,1 @@
+"function rescueTokens(address token, address recipient, uint256 amount) external onlyOwner {        require(token != recipient, \"Invalid address\");        require(<mask0>.transfer(recipient, amount), \"Retrieve failed\");    }"

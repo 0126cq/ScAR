@@ -1,0 +1,1 @@
+"function adminWithdrawERC721(address token, uint256 _tokenId) external {        require(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), \"Caller is not admin\");        IERC721(token).<mask0>;    }"

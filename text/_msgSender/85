@@ -1,0 +1,1 @@
+"function increaseAllowance(address spender, uint256 addedValue)    public    virtual    returns (bool)    {        _approve(            <mask0>,            spender,            _allowances[_msgSender()][spender].add(addedValue)        );        return true;    }"

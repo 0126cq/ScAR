@@ -1,0 +1,1 @@
+"function decodeTransferErc721AndTokenInfoMessage(        bytes calldata data    ) internal pure returns (TransferErc721AndTokenInfoMessage memory) {        require(            getMessageType(data) == MessageType.TRANSFER_ERC721_AND_TOKEN_INFO,            \"Message type is not ERC721 transfer with token info\"        );        return abi.<mask0>;    }"

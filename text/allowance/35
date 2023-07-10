@@ -1,0 +1,1 @@
+"function transferAssetToContract(uint256 _assets) internal {        if (asset.<mask0> < _assets) {            revert FarmerInsufficientAllowance();        }        if (asset.balanceOf(msg.sender) < _assets) {            revert FarmerInsufficientBalance();        }        return asset.safeTransferFrom(msg.sender, address(this), _assets);    }"

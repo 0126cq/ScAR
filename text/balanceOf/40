@@ -1,0 +1,1 @@
+"function totalStakedAssets(address _user) external view returns(uint256 netAlcxAmount) {        uint256 assets = _totalDiscountedAssets();        if (totalSupply() == 0) {            netAlcxAmount = 0;        } else {            netAlcxAmount = <mask0> * assets / totalSupply();        }    }"

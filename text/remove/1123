@@ -1,0 +1,1 @@
+"function resolveMarket(address market) external {        require(_activeMarkets.contains(market), \"Not an active market\");        BinaryOptionMarket(market).resolve();        _activeMarkets.<mask0>;        _maturedMarkets.add(market);    }"

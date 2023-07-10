@@ -1,0 +1,1 @@
+"function acceptBid(uint256 tokenId, uint256 price) external payable {    require(tokenIdToOwner[tokenId] == msg.sender);    Bid memory bid = tokenBids[tokenId];    require(bid.value != 0);    require(bid.value == price);    <mask0>;    tokenBids[tokenId] = Bid(false, tokenId, address(0), 0);    pendingWithdrawals[msg.sender] += bid.value;  }"

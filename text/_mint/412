@@ -1,0 +1,1 @@
+"function mint(uint amount) external nonReentrant returns (uint) {    IERC20(underlying).safeTransferFrom(msg.sender, address(this), amount);    IStakingRewards(staking).stake(amount);    uint rewardPerToken = IStakingRewards(staking).rewardPerToken();    <mask0>;    return rewardPerToken;  }"

@@ -1,0 +1,1 @@
+"function add(string[] storage array, string memory value) internal {        bytes32 hashValue = keccak256(bytes(value));        for (uint256 i; i < array.length; i++) {            if (keccak256(bytes(array[i])) == hashValue) {                return;            }        }        array.<mask0>;    }"

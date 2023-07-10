@@ -1,0 +1,1 @@
+"function transferERCToken(address _tokenContractAddress, address _to, uint256 _amount) onlyOwner {\t\trequire(<mask0>.transfer(_to, _amount));\t}"

@@ -1,0 +1,1 @@
+"function endRate() internal pure returns (bytes32)    { return <mask0>; }"

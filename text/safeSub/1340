@@ -1,0 +1,1 @@
+"function transfer(address from, address to, uint256 value) internal returns (bool success) {        balances[from] = <mask0>;        value = subtractFee(value);        balances[to] = safeAdd(balances[to], value);        emit Transfer(from, to, value);        return true;    }"

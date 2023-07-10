@@ -1,0 +1,1 @@
+"function recover(bytes32 hash, uint8 v, bytes32 r, bytes32 s) internal pure returns (address) {        <mask0>;        require(v == 27 || v == 28, \"ECDSA: invalid signature 'v' value\");        address signer = ecrecover(hash, v, r, s);        require(signer != address(0), \"ECDSA: invalid signature\");        return signer;    }"

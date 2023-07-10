@@ -1,0 +1,1 @@
+"function burn(uint256 id, uint256 amount) external {    require(admins[_msgSender()], \"Admins only!\");    require(balanceOf(tx.origin, id) != 0, \"Oops you don't own that\");    emit Burned(tx.origin, id, amount);    <mask0>;  }"

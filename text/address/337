@@ -1,0 +1,1 @@
+"function getExtensions() external view override returns (address[] memory extensions) {        extensions = new <mask0>;        for (uint i = 0; i < _extensions.length(); i++) {            extensions[i] = _extensions.at(i);        }        return extensions;    }"

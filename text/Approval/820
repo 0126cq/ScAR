@@ -1,0 +1,1 @@
+"function approve(address _spender, uint _value) returns (bool success) {\t    require((_value == 0) || (allowed[msg.sender][_spender] == 0));\t    allowed[msg.sender][_spender] = _value;\t    <mask0>;\t    return true;\t  }"

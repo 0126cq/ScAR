@@ -1,0 +1,1 @@
+"function mint(address account, uint256 amount) external onlyRole(CAN_MINT_ROLE) {    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function ifAprovedOrOwner(uint256 tokenid) private view {        require(<mask0>, \"ERC721: caller is not owner nor approved\");    }"

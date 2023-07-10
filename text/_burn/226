@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 id, uint256 amount) internal virtual override {    require( exists( id ), \"ERC1155: Specified token (id) does not exist\" );    Token storage token = tokens[id];    require( token.balance >= amount, \"ERC1155: Not enough supply\" );    tokens[id].balance -= amount;    tokens[id].supply -= amount;    super.<mask0>;  }"

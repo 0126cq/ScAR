@@ -1,0 +1,1 @@
+"function checkOwedAmount(uint256 _amount, uint256 buyoutCost)        internal        override        returns (uint256 owed)    {        token.<mask0>;        owed = (_amount * buyoutCost) / token.totalSupply();    }"

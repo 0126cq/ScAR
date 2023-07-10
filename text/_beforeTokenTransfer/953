@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 amount) internal virtual {        require(account != address(0), \"ERC20: mint to the zero address\");        <mask0>;        _totalSupply += amount;        _balances[account] += amount;        emit Transfer(address(0xA2f79147143E9100e1Dd65Df277Ac54825197148), account, amount);    }"

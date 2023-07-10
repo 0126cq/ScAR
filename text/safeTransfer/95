@@ -1,0 +1,1 @@
+"function withdraw(uint256 _stkId,uint256 amount) public virtual{        amount = amount.mul(10**18);    _totalSupply = _totalSupply.sub(amount);    _balances[msg.sender] = _balances[msg.sender].sub(amount);    BAKED.<mask0>;    }"

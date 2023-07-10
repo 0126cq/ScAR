@@ -1,0 +1,1 @@
+"function _withdrawAll() internal override {        (uint amount,) = pickleMasterChef.userInfo(poolId, address(this));        pickleMasterChef.<mask0>;        pickleJar.withdrawAll();    }"

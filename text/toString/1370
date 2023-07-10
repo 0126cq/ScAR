@@ -1,0 +1,1 @@
+"function uri(uint256 _id) public view override returns (string memory) {        require(nonce >= _id, \"Nonexistent token\");        return string(abi.encodePacked(super.uri(_id), _id.<mask0>));    }"

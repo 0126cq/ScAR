@@ -1,0 +1,1 @@
+"function emergencyWithdraw(uint256 pid) public {        PoolInfo memory pool = updatePool(pid);        UserInfo storage user = userInfo[pid][msg.sender];        uint256 amount = user.amount;        user.amount = 0;        user.rewardDebt = 0;        pool.lpToken.<mask0>;        emit LogEmergencyWithdraw(msg.sender, pid, amount);    }"

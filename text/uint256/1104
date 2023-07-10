@@ -1,0 +1,1 @@
+"function balancesOf(        address wallet    ) external view returns (uint256[] memory tokens, uint256[] memory balances) {        tokens = tokenIds;        balances = new <mask0>;        for (uint256 i = 0; i < tokens.length; ++i) {            balances[i] = balanceOf(wallet, tokens[i]);        }    }"

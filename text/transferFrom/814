@@ -1,0 +1,1 @@
+"function checkAndTransferHEX(uint256 _amount) private {        require(hexToken.<mask0> == true, \"transfer must succeed\");    }"

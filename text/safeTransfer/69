@@ -1,0 +1,1 @@
+"function rescue(address token, address target) external virtual {        _authorizeRescue(token, target);        IERC20 tokenContract = IERC20(token);        tokenContract.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _transferRevenue(address payable _user, uint256 _amount) internal nonReentrant returns (bool _success) {        if(address(chargeToken) != address(0)){            chargeToken.<mask0>;            _success = true;        }else{            _success = _transferETH(_user, _amount);        }    }"

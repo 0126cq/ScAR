@@ -1,0 +1,1 @@
+"function reserve(uint256 _count) public onlyOwner {        uint256 total = totalSupply();        require(total + _count <= MAX_ELEMENTS, \"Exceeded\");        for (uint256 i = 0; i < _count; i++) {            <mask0>;        }    }"

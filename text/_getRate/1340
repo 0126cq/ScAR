@@ -1,0 +1,1 @@
+"function tokenFromRefraction(uint256 rAmount) public view returns(uint256) {        require(rAmount <= _rTotal, \"Amount must be less than total refractions\");        uint256 currentRate =  <mask0>;        return rAmount.div(currentRate);    }"

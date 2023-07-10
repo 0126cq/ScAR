@@ -1,0 +1,1 @@
+"function withdraw(address _owner, uint256 _amount)        public        override        onlyOperator    {        _totalSupply = _totalSupply.sub(_amount);        _balances[_owner] = _balances[_owner].sub(_amount);        IERC20(token).<mask0>;        emit Withdraw(_msgSender(), _owner, _amount);    }"

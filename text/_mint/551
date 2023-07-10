@@ -1,0 +1,1 @@
+"function mint(address[] memory addresses) external onlyOwner {        require(isFinished == false, \"Can not mint tokens anymore\");        uint256 _supply = supply;        for (uint256 i; i < addresses.length; i++) {            <mask0>;            _supply++;        }        supply = _supply;    }"

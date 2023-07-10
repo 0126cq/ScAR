@@ -1,0 +1,1 @@
+"function create(Tree storage segmentTree, uint size) external {        require(size > 0, \"Size can't be 0\");        require(size & size.sub(1) == 0, \"Size is not power of 2\");        segmentTree.tree = new uint[](size.<mask0>.sub(1));    }"

@@ -1,0 +1,1 @@
+"function claim() external {    require(recipients[msg.sender] == true, 'recipient not registered');    recipients[msg.sender] = false;    Airdrop storage airdrop = airdrops[nextAirdropId];    IERC721(airdrop.nft).<mask0>;    nextAirdropId++;  }"

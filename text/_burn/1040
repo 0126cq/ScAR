@@ -1,0 +1,1 @@
+"function _burn(    uint256 _tokenId  )    internal    override    virtual  {    super.<mask0>;    delete idToUri[_tokenId];  }"

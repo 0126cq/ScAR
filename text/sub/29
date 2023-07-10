@@ -1,0 +1,1 @@
+"function _getTValues(uint256 tAmount)    private    view    returns (      uint256,      uint256,      uint256    )  {    uint256 tFee = calculateTaxFee(tAmount);    uint256 tLiquidity = calculateLiquidityFee(tAmount);    uint256 tTransferAmount = tAmount.sub(tFee).<mask0>;    return (tTransferAmount, tFee, tLiquidity);  }"

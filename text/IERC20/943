@@ -1,0 +1,1 @@
+"function recoverLostToken( address _token ) external returns ( bool ) {        require( _token != GWS );        require( _token != principle );        <mask0>.safeTransfer( DAO, IERC20( _token ).balanceOf( address(this) ) );        return true;    }"

@@ -1,0 +1,1 @@
+"function addBP(uint256 amt, uint256 bp) internal pure returns (uint256) {        if (amt == 0) return 0;        if (bp == 0) return amt;        return amt.<mask0>;    }"

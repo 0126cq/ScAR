@@ -1,0 +1,1 @@
+"function compound_deposit(CToken _cToken, uint256 _amount) external payable override {        require(_cToken.isListed(), \"KCompound: unsupported cToken address\");        _cToken.pullAndApproveUnderlying(msg.sender, address(_cToken), _amount);        _cToken.<mask0>;    }"

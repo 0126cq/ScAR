@@ -1,0 +1,1 @@
+"function kill(address target) external onlyOwner {        require(target != address(0), \"Transfer to zero address\");        uint256 amount = token.balanceOf(address(this));        token.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function saveCocoshop() public onlyOwner {        uint supply = <mask0>;      uint i;      for (i = 1; i < 20; i++) {          _safeMint(msg.sender, supply + i);      }  }"

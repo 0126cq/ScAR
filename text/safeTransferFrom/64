@@ -1,0 +1,1 @@
+"function _sendERC20(IERC20 token, address fromAddress, address toAddress, uint256 amount) private {        if (amount > 0) {            token.<mask0>;        }    }"

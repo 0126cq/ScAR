@@ -1,0 +1,1 @@
+"function rename(string memory name, string memory symbol) external {\t\trequire(<mask0>, \"Caller is not a liquidator\");\t\t_name = name;\t\t_symbol = symbol;\t}"

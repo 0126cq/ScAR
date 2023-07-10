@@ -1,0 +1,1 @@
+"function checkBalanceViaSelector(        address token,        address account,        bytes4 balanceOfSelector    ) internal returns (uint256 balance) {        (bool success, bytes memory returnData) = token.<mask0>;        require(success);        (balance) = abi.decode(returnData, (uint256));    }"

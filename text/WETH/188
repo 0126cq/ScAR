@@ -1,0 +1,1 @@
+"function _getCollateralInPlay(address _borrowAsset, uint256 _amountToReceive)    internal    view    returns (uint256)  {    address[] memory path = new address[](2);    path[0] = swapper.<mask0>;    path[1] = _borrowAsset;    uint256[] memory amounts = swapper.getAmountsIn(_amountToReceive, path);    return amounts[0];  }"

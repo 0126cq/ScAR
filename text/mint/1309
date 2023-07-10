@@ -1,0 +1,1 @@
+"function buy(\t\tuint tokenId\t) public payable {\t\trequire(block.timestamp >= saleStart, \"sale has not started\");\t\t(, uint price) = nft.tokenTypeAndPrice(tokenId);\t\trequire(price == msg.value, \"wrong price\");\t\tnft.<mask0>;\t\t_safeTransferETH(ethReceiver, address(this).balance);\t}"

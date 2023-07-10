@@ -1,0 +1,1 @@
+"function whitelist(address _operator)    public    view    returns (bool)  {    return <mask0>;  }"

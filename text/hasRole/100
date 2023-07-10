@@ -1,0 +1,1 @@
+"function setStakingNodeEOA(address _nodeEOA) public {        require(<mask0>, \"admin only\");        stakeNodeOwnerEOA = _nodeEOA;    }"

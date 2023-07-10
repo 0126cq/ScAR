@@ -1,0 +1,1 @@
+"function mint(address recipient) public payable returns (uint256) {        require(isfullMintActive, \"Minting is not active\");        require(msg.value >= priceWei, \"Not enough ETH sent; check price!\");        require(            _tokenIds.<mask0> < maxSupply,            \"Minting would exceed maximum supply\"        );        return _mintNFTheme(recipient);    }"

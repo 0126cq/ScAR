@@ -1,0 +1,1 @@
+"function getNumberOfTokensMinted() public view returns(uint256) {    uint256 totalNumberOfTokensMinted = <mask0>;    return totalNumberOfTokensMinted;  }"

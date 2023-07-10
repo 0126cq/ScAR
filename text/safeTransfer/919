@@ -1,0 +1,1 @@
+"function sendToken(        address _token,        address _receiver,        uint256 _amount    ) internal {        if (_token == address(0) || _token == ZERO_ADDRESS) {            payable(_receiver).sendValue(_amount);        } else {            IERC20(_token).<mask0>;        }    }"

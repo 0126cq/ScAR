@@ -1,0 +1,1 @@
+"function isSaleStart() public view returns (bool) {        uint256 id = _roundIdTracker.<mask0>;        return block.timestamp >= rounds[id].exclusiveSaleStartTime;    }"

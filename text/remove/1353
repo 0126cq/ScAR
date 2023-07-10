@@ -1,0 +1,1 @@
+"function lenderExitMarket(uint256 _marketId) external {        bool response = markets[_marketId].verifiedLendersForMarket.<mask0>;        if (response) {            emit LenderExitMarket(_marketId, _msgSender());        }    }"

@@ -1,0 +1,1 @@
+"function _encodePriceRequest(        bytes32 identifier,        uint256 time,        bytes memory ancillaryData    ) private pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

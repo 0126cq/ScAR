@@ -1,0 +1,1 @@
+"function supportLevelAccess(address account) public view returns (bool) {    return <mask0> || adminLevelAccess(account);  }"

@@ -1,0 +1,1 @@
+"function _canMint() internal view override {\t\trequire(\t\t\t_msgSender() == nameService.getAddress(\"GDAO_CLAIMERS\") ||\t\t\t\t_msgSender() == nameService.getAddress(\"GDAO_STAKING\") ||\t\t\t\t_msgSender() == nameService.getAddress(\"GDAO_STAKERS\") ||\t\t\t\t<mask0>,\t\t\t\"GReputation: need minter role or be GDAO contract\"\t\t);\t}"

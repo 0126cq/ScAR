@@ -1,0 +1,1 @@
+"function addAddressToWhitelist(address _address) external onlyWhitelister {        _whitelist.add(_address);        _frozenlist.<mask0>;    }"

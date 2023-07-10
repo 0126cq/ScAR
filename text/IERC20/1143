@@ -1,0 +1,1 @@
+"function revokeReceivedToken() external onlyApprovedParties {        uint256 receivedTokenBalance = <mask0>.balanceOf(address(this));        IERC20(receivedToken).safeTransfer(beneficiary, receivedTokenBalance);    }"

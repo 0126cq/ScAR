@@ -1,0 +1,1 @@
+"function receiveAndApproveToken(        IERC20Upgradeable token,        uint256 amount,        address spender    ) internal {        require(            token.<mask0>,            \"Token could not be transferred from sender\"        );        require(            token.approve(spender, amount),            \"Token could not be approved for spender\"        );    }"

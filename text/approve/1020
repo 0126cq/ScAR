@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) public returns (bool) {        require(_value == 0 || allowance(msg.sender, _spender) == 0, \"Use increaseApproval or decreaseApproval to prevent double-spend.\");        return ERC20.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setLendingPool(address _lendingPool) public onlyGovernor {        require(_lendingPool != address(0), \"Zero address\");        lendingPool = _lendingPool;        IERC20(wantAddress).safeApprove(lendingPool, uint256(-1));        IERC20(lendingPool).<mask0>;    }"

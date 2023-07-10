@@ -1,0 +1,1 @@
+"function setOwnersURI(string memory _owners_uri) public onlyAdmin {        require(<mask0> != keccak256(abi.encodePacked((_owners_uri))), \"this uri is already setted\");        owners_uri = _owners_uri;    }"

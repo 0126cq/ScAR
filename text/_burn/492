@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public {        uint256 ret = (balance().mul(_amount)).div(totalSupply());        <mask0>;        underlying.safeTransfer(msg.sender, ret);    }"

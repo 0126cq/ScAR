@@ -1,0 +1,1 @@
+"function returnUBT(uint256 _amount) public {        require(<mask0>, \"finmgmt only\");        moverPool.returnInvested(_amount);        amountStaked = amountStaked.sub(_amount);        emit UBTReturned(_amount, amountStaked);    }"

@@ -1,0 +1,1 @@
+"function totalSupply() public view returns (uint256) {    return supply.<mask0>;"

@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        require(bridge.balanceOf(address(this)) > 0, \"value error\");        bridge.<mask0>;    }"

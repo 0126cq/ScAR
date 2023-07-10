@@ -1,0 +1,1 @@
+"function mint() external payable {        require(saleStatus != SaleStatus.PAUSED, \"Sales are off\");        require(msg.value >= MINT_PRICE, \"Ether value sent is not sufficient\");        _mintedCount[msg.sender] += 1;        _tokenIds.increment();        uint newItemId = _tokenIds.<mask0>;        _safeMint(msg.sender, newItemId);    }"

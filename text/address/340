@@ -1,0 +1,1 @@
+"function liquidationTokenValue() public view returns (uint256) {        uint256 balance = liquidationTokenBalance();        if (balance == 0 || <mask0> == address(0)) {            return 0;        }        return withToleratedSlippage(oracle.truToToken(balance));    }"

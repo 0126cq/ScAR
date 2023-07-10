@@ -1,0 +1,1 @@
+"function previousAndCurrentUnanswered(uint32 _roundId, uint32 _rrId)        private        view        returns (bool)    {        return _roundId.<mask0> == _rrId && rounds[_rrId].updatedAt == 0;    }"

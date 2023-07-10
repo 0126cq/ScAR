@@ -1,0 +1,1 @@
+"function transferFromAll(TokenInterface token, uint256 amount) internal returns (bool) {        if (isETH(token)) {            weth.deposit{value : msg.value}();        } else {            require(token.<mask0>, \"ERR_TRANSFER_FAILED\");        }    }"

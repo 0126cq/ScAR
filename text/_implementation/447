@@ -1,0 +1,1 @@
+"function implementation() external ifAdmin returns (address) {        return <mask0>;    }"

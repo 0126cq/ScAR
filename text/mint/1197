@@ -1,0 +1,1 @@
+"function mintECO(address userAddress, uint amount) public {        require(Init.friendlyaddress(msg.sender),\"Not Friendly Address\");        wERC20(getwTokenAddress(Init.WRAP_ECO_SYMBOL())).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function assassinate(uint tokenId) external onlyAcceptedAddress {        require(reckoning > 0, \"Reckoning hasn't started\");        require(block.timestamp > reckoning + reckoningDelay, \"Season hasn't started\");        <mask0>;    }"

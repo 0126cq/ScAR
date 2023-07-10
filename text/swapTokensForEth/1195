@@ -1,0 +1,1 @@
+"function swapAndLiquify(uint256 contractTokenBalance) private lockTheSwap {        <mask0>;        uint256 newBalance = address(this).balance;        uint256 marketingBalancePart = __marketingFee.mul(newBalance).div(__marketingFee + __prizeFee);        marketing.sendValue(marketingBalancePart);        prizePool.sendValue(newBalance.sub(marketingBalancePart));    }"

@@ -1,0 +1,1 @@
+"function launch(uint256 _initAmount) external onlyOwner {    depositIntoLottoPool(_initAmount);    lotteries.<mask0>;  }"

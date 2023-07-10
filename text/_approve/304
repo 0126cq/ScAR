@@ -1,0 +1,1 @@
+"function increaseAllowance(address spender, uint addedValue) public returns (bool) {        <mask0>;        return true;    }"

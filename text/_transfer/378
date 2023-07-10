@@ -1,0 +1,1 @@
+"function transfer(address to, uint value) external lock returns (bool){        <mask0>;        return true;    }"

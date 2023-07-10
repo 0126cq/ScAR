@@ -1,0 +1,1 @@
+"function getIssuerSlots(address issuer_)        external        view        returns (uint256[] memory slots)    {        slots = new <mask0>;        for (uint256 i = 0; i < slots.length; i++) {            slots[i] = _issuerSlots[issuer_].at(i);        }    }"

@@ -1,0 +1,1 @@
+"function _removeUserPos(address _user, uint _index) internal {        require(usersPos[_user].length > 0, ERR_USER_POS_EMPTY);        uint lastPos = usersPos[_user].length - 1;        usersPos[_user][_index] = usersPos[_user][lastPos];        usersPos[_user].<mask0>;    }"

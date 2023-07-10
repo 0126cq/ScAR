@@ -1,0 +1,1 @@
+"function safeTransferETH(address to, uint256 value) internal {        (bool success, ) = to.<mask0>;        require(success, \"TransferHelper: ETH_TRANSFER_FAILED\");    }"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyOwner canMint onlyPayloadSize(2 * 32) public returns (bool) {    return super.<mask0>;  }"

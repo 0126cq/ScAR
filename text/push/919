@@ -1,0 +1,1 @@
+"function addExternalPositionModule(address _component, address _positionModule) external onlyModule whenLockedOnlyLocker {        require(!isExternalPositionModule(_component, _positionModule), \"Module already added\");        componentPositions[_component].externalPositionModules.<mask0>;        emit PositionModuleAdded(_component, _positionModule);    }"

@@ -1,0 +1,1 @@
+"function earned(address account) public view returns (uint256) {        return            balanceOf(account)                .mul(rewardPerToken().sub(userRewardPerTokenPaid[account]))                .<mask0>                .add(rewards[account]);    }"

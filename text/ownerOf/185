@@ -1,0 +1,1 @@
+"function owner() public view virtual returns (address ownerAddress) {        return IERC721(_nftAddress).<mask0>;    }"

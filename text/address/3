@@ -1,0 +1,1 @@
+"function getVaults(string memory version, address author) public view returns (address[] memory) {    uint256 length = vaults[author][version].length();    address[] memory list = new <mask0>;    for (uint256 i = 0; i < length; i++) {      list[i] = vaults[author][version].at(i);    }    return list;  }"

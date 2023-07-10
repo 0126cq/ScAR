@@ -1,0 +1,1 @@
+"function updateApproval() public {    address _token = vault.token();    IDetailedERC20(_token).<mask0>;  }"

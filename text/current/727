@@ -1,0 +1,1 @@
+"function shareParameters() external view override returns(uint256, uint256, address, address) {        return (_referralShare.data.current(), _governanceShare.data.<mask0>, governanceWallet, feeCollector);    }"

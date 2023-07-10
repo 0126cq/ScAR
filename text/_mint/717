@@ -1,0 +1,1 @@
+"function deposit(uint256 _amount) external override {        uint256 _toMint = _amount.mul(1e18).div(pricePerToken());        IERC20(underlyingAsset).safeTransferFrom(msg.sender, address(this), _amount);        <mask0>;        userInfo[_msgSender()].depositTime = block.timestamp;     }"

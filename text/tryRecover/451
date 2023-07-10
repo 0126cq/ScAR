@@ -1,0 +1,1 @@
+"function isAuthorized(bytes32 structHash, bytes memory signature) internal view returns (bool) {        bytes32 hash = _hashTypedDataV4(structHash);        (address recovered, ECDSA.RecoverError error) = ECDSA.<mask0>;        if (error == ECDSA.RecoverError.NoError && hasRole(AUTHORIZER_ROLE, recovered)) {            return true;        }        return false;    }"

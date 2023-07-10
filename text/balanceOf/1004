@@ -1,0 +1,1 @@
+"function _updateAccountSnapshot(address account) private {        _updateSnapshot(_accountBalanceSnapshots[account], <mask0>);    }"

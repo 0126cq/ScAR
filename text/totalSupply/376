@@ -1,0 +1,1 @@
+"function discardSlippageFeeVote() external {        _slippageFee.updateVote(msg.sender, _slippageFee.votes[msg.sender], Vote.init(), balanceOf(msg.sender), <mask0>, mooniswapFactoryGovernance.defaultSlippageFee(), _emitSlippageFeeVoteUpdate);    }"

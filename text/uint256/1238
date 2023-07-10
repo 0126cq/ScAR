@@ -1,0 +1,1 @@
+"function allCarsInfo() public view returns (address[] owners, address[] renters, uint256[] prices, uint256[] profits) { \tuint256 totalResultCars = totalSupply();    if (totalResultCars == 0) {      return (new address[](0),new address[](0),new uint256[](0),new <mask0>);    }"

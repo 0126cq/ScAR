@@ -1,0 +1,1 @@
+"function increaseApproval (address _spender, uint _addedValue) onlyPayloadSize(2) notPaused returns (bool success) {\t\tif (controller.increaseApproval(msg.sender, _spender, _addedValue)) {\t\t\tuint newval = controller.allowance(msg.sender, _spender);\t\t\t<mask0>;\t\t\treturn true;\t\t}\t\treturn false;\t}"

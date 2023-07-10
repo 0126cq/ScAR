@@ -1,0 +1,1 @@
+"function _initImplementation(address _nftImplementation) private {        StorageSlotUpgradeable            .<mask0>            .value = _nftImplementation;    }"

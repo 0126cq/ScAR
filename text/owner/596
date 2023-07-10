@@ -1,0 +1,1 @@
+"function afterItEnds() public onlyRewardDistribution {        require(block.timestamp > periodFinish);        uint256 balance = xbse.balanceOf(address(this));        require(balance > 0,\"No more rewards in the contract\");        xbse.safeTransfer(<mask0>, balance);    }"

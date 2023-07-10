@@ -1,0 +1,1 @@
+"function decodeTransferErc1155BatchAndTokenInfoMessage(        bytes calldata data    ) internal pure returns (TransferErc1155BatchAndTokenInfoMessage memory) {        require(            getMessageType(data) == MessageType.TRANSFER_ERC1155_BATCH_AND_TOKEN_INFO,            \"Message type is not ERC1155BatchAndTokenInfo transfer\"        );        return abi.<mask0>;    }"

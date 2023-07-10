@@ -1,0 +1,1 @@
+"function recoverLostToken( address _token ) external returns ( bool ) {        require( _token != GWS );        require( _token != principle );        IERC20( _token ).<mask0>;        return true;    }"

@@ -1,0 +1,1 @@
+"function deposit(uint amount) external {        require(Jira.allowance(msg.sender, address(this)) >= amount, \"Not enough allowances\");        require(Jira.<mask0>, \"Transfer failed\");        Jira.burn(amount);        emit MarketplaceDeposit(msg.sender, amount);    }"

@@ -1,0 +1,1 @@
+"function dnaTrait(uint256 dna)        public        pure        returns (string memory)    {        return traitDefinition('DNA', dna.<mask0>);    }"

@@ -1,0 +1,1 @@
+"function _computeScalingFactor(IERC20 token) private view returns (uint256) {        uint256 tokenDecimals = <mask0>.decimals();        uint256 decimalsDifference = Math.sub(18, tokenDecimals);        return FixedPoint.ONE * 10**decimalsDifference;    }"

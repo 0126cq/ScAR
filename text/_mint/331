@@ -1,0 +1,1 @@
+"function mintTokensToVault(uint256 amount    ) public whenNotPaused {        require(            isOperatorFor(_msgSender(), _msgSender()),            \"Money printer for the Fed goes brrrr, but not for you. You are not an operator.\"        );        <mask0>;    }"

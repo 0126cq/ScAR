@@ -1,0 +1,1 @@
+"function transferFrom(        address _sender,        address _recipient,        uint256 _amount    ) public nonReentrant returns (bool success_) {        success_ = Curves.<mask0>;    }"

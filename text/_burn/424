@@ -1,0 +1,1 @@
+"function burn(address _account, uint256 _amount) external onlyStaking {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function getCurrentPosition() public view returns (uint256 deposits, uint256 borrows) {        (, uint256 ctokenBalance, uint256 borrowBalance, uint256 exchangeRate) = cToken.getAccountSnapshot(address(this));        borrows = borrowBalance;        deposits = ctokenBalance.mul(exchangeRate).<mask0>;    }"

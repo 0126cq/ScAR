@@ -1,0 +1,1 @@
+"function addToDeposit(address stakerAddress, uint256 tokenAmount)        external        onlyValidator        whenNotPaused    {        _addToDeposit(stakerAddress, tokenAmount);        require(            <mask0>.transferFrom(msg.sender, address(this), tokenAmount),            \"TRANSFER_FAIL\"        );    }"

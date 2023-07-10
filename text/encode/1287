@@ -1,0 +1,1 @@
+"function __PlusToken__init(string memory _name, string memory _symbol) internal initializer {        __ERC20_init(_name, _symbol);        index = WAD;        governance = msg.sender;        treasury = msg.sender;        uint _chainId;        assembly {            _chainId := chainid()        }        DOMAIN_SEPARATOR = keccak256(            abi.<mask0>        );    }"

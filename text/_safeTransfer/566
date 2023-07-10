@@ -1,0 +1,1 @@
+"function safeRewardsTransfer(address _to, uint256 _amount) internal {        uint256 rewardsBal = rewards.balanceOf(address(this));        if (_amount > rewardsBal) {            _safeTransfer(address(rewards), _to, rewardsBal);        } else {            <mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function ownerSetBankroll(address newBankroll) public  onlyOwner  {    ZTHTKN.<mask0>;    ZethrBankroll = newBankroll;    ZTHTKN.approve(newBankroll, MAX_INT);  }"

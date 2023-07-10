@@ -1,0 +1,1 @@
+"function requestOracleValue() public view onlyOwner returns(bytes32) {    return oracle.<mask0>;  }"

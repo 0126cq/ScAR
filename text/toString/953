@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {        if (!_exists(tokenId)) revert URIQueryForNonexistentToken();        string memory baseURI = _metadataURI;        return string(abi.encodePacked(baseURI, tokenId.<mask0>, \".json\"));    }"

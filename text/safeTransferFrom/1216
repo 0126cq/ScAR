@@ -1,0 +1,1 @@
+"function donate(uint256 _amount) external payable returns (bool) {        require(_amount > 0, \"!_amount\");        if (rewardToken == address(0)) {            require(msg.value == _amount, \"!_amount\");        } else {            IERC20(rewardToken).<mask0>;        }        notifyRewardAmount(_amount);        return true;    }"

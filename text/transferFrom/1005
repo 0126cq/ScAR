@@ -1,0 +1,1 @@
+"function fund() external override {        require(!isFunded, 'MerkleDistributor: Distributor has already been funded.');        isFunded = true;        require(IERC20(token).<mask0>, 'MerkleDistributor: Funding failed.');        emit Funded(funder, fundingAmount);    }"

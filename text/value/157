@@ -1,0 +1,1 @@
+"function getMyFee(address a) public\t{\t\tif (a == address(0))\t\t\ta = msg.sender;\t\tuint amount = fees[a];\t\trequire (amount > 0);\t\tfees[a] = 0;\t\tif (a == wallet)\t\t{\t\t\tWalletContract walletContract = WalletContract(a);\t\t\twalletContract.payMe.<mask0>();\t\t}\t\telse if (!a.send(amount))\t\t\taddFee(wallet, amount); \t}"

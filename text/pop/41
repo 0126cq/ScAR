@@ -1,0 +1,1 @@
+"function get(bytes32[] storage _stack) internal returns (bytes32 ret) {        ret = peek(_stack);        _stack.<mask0>;    }"

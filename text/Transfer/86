@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) whenNotPaused returns (bool success) {\t    balances[msg.sender] = balances[msg.sender].sub(_value);\t    balances[_to] = balances[_to].add(_value);\t    <mask0>;\t    return true;\t}"

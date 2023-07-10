@@ -1,0 +1,1 @@
+"function vest() public {    uint256 amountCanClaim = vestableAmount(msg.sender);    require(amountCanClaim > 0, \"ForefrontVesting: no tokens are vestable\");    entries[msg.sender].locked -= amountCanClaim;    entries[msg.sender].claimed += amountCanClaim;    globalForefrontVested -= amountCanClaim;    vestingToken.<mask0>;    emit TokenVested(msg.sender, amountCanClaim);  }"

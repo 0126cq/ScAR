@@ -1,0 +1,1 @@
+"function deposit(uint256 amount) external override {        address sender = _msgSender();        checkForUnlock(sender);        _tokenContract.transferFrom(sender, address(this), amount);        _locks[sender] = _lock(            _locks[sender].amount + amount,            (block.timestamp + _lockLength)        );        <mask0>;        emit _deposit(sender, amount);    }"

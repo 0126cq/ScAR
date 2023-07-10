@@ -1,0 +1,1 @@
+"function checkedTransferFrom(ERC20 _token, address _from, address _to, uint256 _value) internal {        if (_value == 0) {            return;        }        uint256 toBalance = _token.balanceOf(_to);        _token.<mask0>;        require(_token.balanceOf(_to) == toBalance.add(_value), \"checkedTransfer: Final balance didn't match\");    }"

@@ -1,0 +1,1 @@
+"function distributeRewards() internal virtual {        uint256 balance = vault.<mask0>;        if (balance > 0) {            vault.transfer(rewards, balance);        }    }"

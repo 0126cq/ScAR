@@ -1,0 +1,1 @@
+"function _removeReward(IERC20 token) private {\t\tuint256 _rewardTokensCount = rewardTokens.length;\t\tfor (uint256 i; i < _rewardTokensCount; i++) {\t\t\tif (rewardTokens[i] == token) {\t\t\t\trewardTokens[i] = rewardTokens[_rewardTokensCount - 1];\t\t\t\trewardTokens.<mask0>;\t\t\t\temit RewardRemoved(token);\t\t\t\tbreak;\t\t\t}\t\t}\t}"

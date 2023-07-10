@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) public returns (bool) {        require(!frozenAccount[_from]);                             require(!frozenAccount[_to]);          return super.<mask0>;    }"

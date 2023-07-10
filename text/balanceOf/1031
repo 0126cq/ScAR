@@ -1,0 +1,1 @@
+"function setMajority(uint16 newValue) external {    require((this.<mask0> == 1)&&    (newValue <= 10000*10**18)    );    majority = newValue;    emit MajorityValueChanged(newValue);  }"

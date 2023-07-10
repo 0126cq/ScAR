@@ -1,0 +1,1 @@
+"function mintReserved(uint256 quantity) public onlyOwner {        uint256 supply = totalSupply();        require( quantity <= reserved, \"Can't reserve more than set amount\" );        require( supply + quantity <= MAX_SUPPLY,    \"Can't mint more than max supply\" );        reserved -= quantity;        <mask0>;    }"

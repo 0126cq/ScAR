@@ -1,0 +1,1 @@
+"function __MappableToken_init_unchained(address factory_, address creator_) public initializer {        factory = factory_;        mainChainId = _chainId();        token = address(0);        creator = creator_;        _DOMAIN_SEPARATOR = keccak256(abi.<mask0>);\t}"

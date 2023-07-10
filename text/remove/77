@@ -1,0 +1,1 @@
+"function cleanUpHolders() internal {    uint16 cur = 0;    while(cur < holders.length()){      if (this.balanceOf(holders.at(cur), fraktionsIndex) < 1) {        holders.<mask0>;        cur=0;      }      cur++;    }  }"

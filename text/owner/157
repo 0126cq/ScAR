@@ -1,0 +1,1 @@
+"function __owner()        public        view        override(IBaseERC721Interface)        returns (address)    {        return <mask0>;    }"

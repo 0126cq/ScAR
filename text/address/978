@@ -1,0 +1,1 @@
+"function estimatedUSD(uint256 amount) internal view returns (uint256) {        address[] memory path = new <mask0>;        path[0] = USDCaddress;        path[1] = WETHaddress;         return uniswapV2Router.getAmountsIn(amount, path)[0];    }"

@@ -1,0 +1,1 @@
+"function buyTokens(uint256 amount, address to) internal swapping {        address[] memory path = new address[](2);        path[0] = router.<mask0>;        path[1] = address(this);        router.swapExactETHForTokensSupportingFeeOnTransferTokens{value: amount}(            0,            path,            to,            block.timestamp        );    }"

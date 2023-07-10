@@ -1,0 +1,1 @@
+"function TransferGraft (uint _twigId, uint _graftId, uint _newTwigId)         external    {        onlyTwigOwner (_twigId);         uint pos = CheckGraft(_twigId, _graftId);        GraftsData[_newTwigId].push (GraftsData[_twigId][pos]);        GraftsData[_twigId][pos] = GraftsData[_twigId][GraftsData[_twigId].length - 1];        GraftsData[_twigId].<mask0>;    }"

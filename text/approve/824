@@ -1,0 +1,1 @@
+"function AzwieToken(address admin) public {\t\ttotalSupply_ = INITIAL_SUPPLY;\t\tbalances[msg.sender] = totalSupply_;\t\tTransfer(address(0x0), msg.sender, totalSupply_);\t\tadminAddr = admin;\t\t<mask0>;\t}"

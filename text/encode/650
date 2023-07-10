@@ -1,0 +1,1 @@
+"function hashBatchHeader(        Lib_OVMCodec.ChainBatchHeader memory _batchHeader    )        internal        pure        returns (            bytes32        )    {        return keccak256(            abi.<mask0>        );    }"

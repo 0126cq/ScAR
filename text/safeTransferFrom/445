@@ -1,0 +1,1 @@
+"function stake(uint16[] memory tokenIds) external {        for (uint16 i = 0; i < tokenIds.length; i++) {            thiccNFT.<mask0>;            tokenOwnerOf[tokenIds[i]] = msg.sender;             tokenStakedAt[tokenIds[i]] = block.timestamp;            tokenIdsOfUser[msg.sender].push(tokenIds[i]);        }    }"

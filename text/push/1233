@@ -1,0 +1,1 @@
+"function AddMessage(address _adr,uint _val,string _data)        public        {            LastMsg.Sender = _adr;            LastMsg.Time = now;            LastMsg.Val = _val;            LastMsg.Data = _data;            History.<mask0>;        }"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount)public onlyOwner canMint returns (bool) {        totalSupply = totalSupply.<mask0>;        balances[_to] = balances[_to].add(_amount);        Mint(_to, _amount);        Transfer(0, _to, _amount);        return true;    }"

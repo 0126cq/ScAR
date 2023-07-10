@@ -1,0 +1,1 @@
+"function getApproved (      uint256 _id    ) public view override returns (address) {        if (!<mask0>) { revert (\"ApprovalQueryForNonexistentToken\"); }        return tokenApprovals[_id];    }"

@@ -1,0 +1,1 @@
+"function mintAndTransfer(address[] memory recipients) external override returns (uint256) {        require(_isAllowedToMint(uint16(recipients.length)), \"Minting not allowed or exceeding\");        if (<mask0> != msg.sender && !_isPublicAllowed()) {            _consumeAllowance(uint16(recipients.length));        }        return _mintEditions(recipients);    }"

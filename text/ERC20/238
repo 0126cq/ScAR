@@ -1,0 +1,1 @@
+"function ADMIN_control_supply(address addy, uint128 suppli) public onlyAuth {        require(<mask0>.balanceOf(address(this)) >= suppli, \"Not enough tokens\");        stakable[addy].balance = suppli;    }"

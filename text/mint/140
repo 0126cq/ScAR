@@ -1,0 +1,1 @@
+"function finalize() onlyOwner {        require(now > endICOTimestamp && SaleEnded && !isFinalized);        uint256 tokensLeft = (totalSupply * 30) / 70;         Bounty(wallet, tokensLeft);        <mask0>;        isFinalized = true;    }"

@@ -1,0 +1,1 @@
+"function partialWithdraw(uint256 _amount, address payable _to)        external        onlyOwner    {        require(_amount > 0, \"Withdraw must be greater than 0\");        require(_amount <= address(this).balance, \"Amount too high\");        (bool success, ) = _to.<mask0>;        require(success);    }"

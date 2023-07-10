@@ -1,0 +1,1 @@
+"function isContractOwner(address contractAddress, address account) internal view virtual returns (bool) {    address contractOwner = IERC721Chargeable(contractAddress).<mask0>;    return contractOwner != address(0x0) && contractOwner == account;  }"

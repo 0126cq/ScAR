@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount)    public    onlyBurner    onlyWithBurnAllowance(msg.sender, account, amount)  returns (bool) {    _burnAllowed[account][msg.sender] = _burnAllowed[account][msg.sender].sub(amount);    <mask0>;    emit BurnApproval(account, msg.sender, _burnAllowed[account][msg.sender]);    return true;  }"

@@ -1,0 +1,1 @@
+"function emitIssuanceDebtRatioEntry(        address account,        uint debtRatio,        uint debtEntryIndex,        uint feePeriodStartingDebtIndex    ) internal {        proxy._emit(            abi.<mask0>,            2,            ISSUANCEDEBTRATIOENTRY_SIG,            bytes32(uint256(uint160(account))),            0,            0        );    }"

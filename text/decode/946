@@ -1,0 +1,1 @@
+"function borrowRatePerBlock() external view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"borrowRatePerBlock()\"));        return abi.<mask0>;    }"

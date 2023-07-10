@@ -1,0 +1,1 @@
+"function addConnectedChain(string calldata schainName) external override {        bytes32 schainHash = <mask0>;        require(ISchainsInternal(            contractManagerOfSkaleManager.getContract(\"SchainsInternal\")        ).isSchainExist(schainHash), \"SKALE chain must exist\");        _addConnectedChain(schainHash);    }"

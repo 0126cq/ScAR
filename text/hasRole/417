@@ -1,0 +1,1 @@
+"function setMinTransactionGas(uint newMinTransactionGas) external {        require(<mask0>, \"CONSTANT_SETTER_ROLE is required\");        emit MinTransactionGasWasChanged(minTransactionGas, newMinTransactionGas);        minTransactionGas = newMinTransactionGas;    }"

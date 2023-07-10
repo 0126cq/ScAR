@@ -1,0 +1,1 @@
+"function approveTarget(address _target, address _token, uint256 _amount, bool use_safe_approve) public onlyByOwnGov {        if (use_safe_approve) {            TransferHelper.<mask0>;        }        else {            ERC20(_token).approve(_target, _amount);        }    }"

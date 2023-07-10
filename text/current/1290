@@ -1,0 +1,1 @@
+"function _mintAnElement(address _to) private {        _tokenIdTracker.increment();        _safeMint(_to, _tokenIdTracker.current());        emit welcomeSimp(_tokenIdTracker.<mask0>);    }"

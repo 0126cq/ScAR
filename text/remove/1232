@@ -1,0 +1,1 @@
+"function updateKey(Data storage self, address _id, uint256 _newKey, address _prevId, address _nextId) public {        require(contains(self, _id), \"node not in list\");        <mask0>;        if (_newKey > 0) {            insert(self, _id, _newKey, _prevId, _nextId);        }    }"

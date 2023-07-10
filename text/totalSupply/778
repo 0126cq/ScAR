@@ -1,0 +1,1 @@
+"function presale(bool _presale) external onlyOwner {        if (_presale) {            setSwapAndLiquifyEnabled(false);            removeAllFee();            _previousMaxTxAmount = _maxTxAmount;            _maxTxAmount = <mask0>;        } else {            setSwapAndLiquifyEnabled(true);            restoreAllFee();            _maxTxAmount = _previousMaxTxAmount;        }    }"

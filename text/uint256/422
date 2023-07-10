@@ -1,0 +1,1 @@
+"function _burnBatch(address account, uint256[] memory ids) private {        uint256[] memory amounts = new <mask0>;        for (uint i = 0; i < ids.length; i++) {            delete _starBelongTo[ids[i]];            amounts[i] = 1;        }        emit TransferBatch(msg.sender, account, address(0), ids, amounts);    }"

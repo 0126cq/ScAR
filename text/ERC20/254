@@ -1,0 +1,1 @@
+"function currentPrice() public view returns (uint256) {\t\treturn getMarketMaker().currentPrice(<mask0>);\t}"

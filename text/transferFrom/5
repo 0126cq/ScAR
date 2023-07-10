@@ -1,0 +1,1 @@
+"function deposit(uint amount) public {        ERC20(SRC).<mask0>;        balanceOf[msg.sender] = add(balanceOf[msg.sender],div(amount,100000000000000));        emit Deposit(msg.sender, amount);    }"

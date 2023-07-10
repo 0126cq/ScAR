@@ -1,0 +1,1 @@
+"function mint(address player) public onlyMinter returns (uint256) {        _tokenIds.increment();        uint256 newItemId = _tokenIds.current();        <mask0>;        emit Mint(player);        return newItemId;    }"

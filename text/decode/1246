@@ -1,0 +1,1 @@
+"function initFarm(        bytes calldata _data    ) public override {        (address _rewards,        uint256 _rewardsPerBlock,        uint256 _startBlock,        address _devaddr,        address _admin) = abi.<mask0>;        initFarm(_rewards,_rewardsPerBlock,_startBlock,_devaddr,_admin );    }"

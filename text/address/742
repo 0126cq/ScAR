@@ -1,0 +1,1 @@
+"function isLpTokenAdded(IERC20 _lpToken) public view override returns (bool) {        uint256 pid = poolPidByAddress[address(_lpToken)];        return pools.length > pid && <mask0> == address(_lpToken);    }"

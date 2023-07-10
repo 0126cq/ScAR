@@ -1,0 +1,1 @@
+"function ownerRefundPlayer(bytes32 originalPlayerBetId, address sendTo, uint originalPlayerProfit, uint originalPlayerBetValue) publiconlyOwner{maxPendingPayouts = <mask0>;require(sendTo.send(originalPlayerBetValue));LogRefund(originalPlayerBetId, sendTo, originalPlayerBetValue);}"

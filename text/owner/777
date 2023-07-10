@@ -1,0 +1,1 @@
+"function mintToken() public payable {        require(msg.value == mintCost, \"You did not supply the correct amount of Ether to mint a token.\");        require(_msgSender() != <mask0>, \"Owner should call mint.\");        mintInternal(_msgSender());    }"

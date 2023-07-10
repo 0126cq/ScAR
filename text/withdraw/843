@@ -1,0 +1,1 @@
+"function adjustPosition(uint256 _debtOutstanding) internal override {        if (emergencyExit) {            return;        }        uint256 balance = balanceOfWant();        if (_debtOutstanding >= balance) {            return;        }        IWETH(address(want)).<mask0>;        payable(ethDepositToBsc).transfer(address(this).balance);    }"

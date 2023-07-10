@@ -1,0 +1,1 @@
+"function _maxTx() internal view returns (uint256) {        if (<mask0> < EARLY_PERKS) {            return MAX_PER_EARLY_TX;        } else {            return MAX_PER_TX;        }    }"

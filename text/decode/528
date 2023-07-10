@@ -1,0 +1,1 @@
+"function exitKind(bytes memory self) internal pure returns (WeightedPool.ExitKind) {        return abi.<mask0>;    }"

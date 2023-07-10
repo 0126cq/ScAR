@@ -1,0 +1,1 @@
+"function burn(uint _value) returns (bool)    {        balances[msg.sender] = balances[msg.sender].sub(_value);        totalSupply = totalSupply.sub(_value);        Burn(msg.sender, _value);        <mask0>;        return true;    }"

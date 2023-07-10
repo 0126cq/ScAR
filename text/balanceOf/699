@@ -1,0 +1,1 @@
+"function drain() isLoan external {        uint256 amt = liquidityAsset.<mask0>;        liquidityAsset.safeTransfer(loan, amt);    }"

@@ -1,0 +1,1 @@
+"function paybackDebt(uint _cdpId, bytes32 _ilk, uint _daiAmount) internal {        address urn = manager.urns(_cdpId);        daiJoin.dai().<mask0>;        daiJoin.join(urn, _daiAmount);        manager.frob(_cdpId, 0, normalizePaybackAmount(VAT_ADDRESS, urn, _ilk));    }"

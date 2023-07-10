@@ -1,0 +1,1 @@
+"function transferTokenToWinner(        address contractAddr,        uint256 tokenId,        address toAddr    ) public onlyAdmin {        IERC721(contractAddr).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function increaseSupplyToken(address to, uint256 tokenId, uint256 amount) external virtual {        require(<mask0>, \"ERC1155PresetMinterPauser: must have minter role to mint\");        require(totalSupply(tokenId) > 1, \"ERC1155: This token is not Semi-Fungible\" );        _mint(to, tokenId, amount, '');        _totalSupply[tokenId] += amount;    }"

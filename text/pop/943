@@ -1,0 +1,1 @@
+"function removeItemsForLastWeek() public onlyOwner {      require(getCurrentWeek() < points.length - 1, \"Cannot remove this week items\");      points.<mask0>;    }"

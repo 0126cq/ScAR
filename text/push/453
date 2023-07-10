@@ -1,0 +1,1 @@
+"function addPool(uint ticketPrice, uint ticketCount, uint duration) public\t{\t\trequire(msg.sender == owner);\t\trequire(ticketPrice >= ticketPriceMultiple && ticketPrice % ticketPriceMultiple == 0);\t\tpools.<mask0>;\t}"

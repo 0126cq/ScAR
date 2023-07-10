@@ -1,0 +1,1 @@
+"function mint(uint256 num, address recipient) public onlyOwner    {        for(uint256 i = 0; i < num; ++i) {            _tokenIds.increment();            _safeMint(recipient, _tokenIds.<mask0>);        }    }"

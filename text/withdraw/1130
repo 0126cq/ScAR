@@ -1,0 +1,1 @@
+"function exitETH(        address manager,        address ethJoin,        uint cdp,        uint wad    ) public {        flux(manager, cdp, address(this), wad);        GemJoinLike(ethJoin).exit(address(this), wad);        GemJoinLike(ethJoin).gem().<mask0>;        msg.sender.transfer(wad);    }"

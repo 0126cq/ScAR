@@ -1,0 +1,1 @@
+"function mint(uint256 numTokens) public payable {        require(numTokens > 0 && numTokens <= max_per_txn);        require(totalSupply() + numTokens <= supply);        require(msg.value >= price * numTokens);        <mask0>;    }"

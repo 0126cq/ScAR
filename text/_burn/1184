@@ -1,0 +1,1 @@
+"function burn(uint256 _tokenId, uint256 _minBurnPrice) public returns (bool){    require(ownerOf(_tokenId) == msg.sender, \"NO\");    totalSupply.decrement();    <mask0>;    uint256 burnPrice = currentPrice();    require(burnPrice >= _minBurnPrice, \"MBPI\");    payable(msg.sender).sendValue(burnPrice);    emit Burned(_tokenId, burnPrice);    return true;  }"

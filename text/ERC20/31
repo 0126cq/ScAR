@@ -1,0 +1,1 @@
+"function rescue(address token) external onlyConcave {        if (token == address(0)) payable(treasury).transfer( address(this).balance );        else <mask0>.transfer(treasury, ERC20(token).balanceOf(address(this)));    }"

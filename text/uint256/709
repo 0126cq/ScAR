@@ -1,0 +1,1 @@
+"function allWeights() public view returns(uint256[] _weights) {        _weights = new <mask0>;        for (uint i = 0; i < tokens.length; i++) {            _weights[i] = weights[tokens[i]];        }    }"

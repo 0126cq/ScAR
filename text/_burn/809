@@ -1,0 +1,1 @@
+"function emergencyBurn(address user, uint256 tokenId) external onlyOwner {        require(user == ownerOf(tokenId), 'INO');        <mask0>;        address cohortId = tokenIdToCohortId[tokenId];        IUnifarmCohort(cohortId).unStake(user, tokenId, 1);    }"

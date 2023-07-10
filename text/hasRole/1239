@@ -1,0 +1,1 @@
+"function seal() public {      require(<mask0>, \"ERC721: must have admin role to set uri\");      _sealed = true;    }"

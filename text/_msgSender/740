@@ -1,0 +1,1 @@
+"function _addmonth(uint256 _cost, uint256 _limit, bool _live) private {        if (exists(nextID)) nextID++;        accessInfo[nextID]  = AccessInfo(_cost * 10 ** 18, _limit, _live);        accessIDs.push(nextID);        _mint(<mask0>, nextID, 1, \"\");        nextID ++;    }"

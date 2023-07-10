@@ -1,0 +1,1 @@
+"function _transferFree(address sender, address recipient, uint256 tAmount) private {        _balances[sender] = _balances[sender].<mask0>;        _balances[recipient] = _balances[recipient].add(tAmount);         emit Transfer(sender, recipient, tAmount);    }"

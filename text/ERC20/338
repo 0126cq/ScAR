@@ -1,0 +1,1 @@
+"function stopFarming() public {        require(fdetails[msg.sender]._amount != 0);        require(block.number - fdetails[msg.sender]._block >= blockTime);        <mask0>.transfer(msg.sender, fdetails[msg.sender]._amount);        emit RemoveLiq(msg.sender, fdetails[msg.sender]._amount.div(10 ** uint256(decimals)));        fdetails[msg.sender] = fdetailz(0, 0);    }"

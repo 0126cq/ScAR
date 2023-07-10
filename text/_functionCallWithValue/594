@@ -1,0 +1,1 @@
+"function functionCallWithValue(address target, bytes memory data, uint256 value, string memory errorMessage) internal returns (bytes memory) {\t\trequire(address(this).balance >= value, \"Address: insufficient balance for call\");\t\treturn <mask0>;\t}"

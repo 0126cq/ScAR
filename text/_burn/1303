@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) public {        if (!hasRole(BURN_AUTHORITY, msg.sender)) _spendAllowance(account, msg.sender, amount);        <mask0>;    }"

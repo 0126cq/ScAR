@@ -1,0 +1,1 @@
+"function _withdraw() internal override {        uint amount = <mask0>.balanceOf(address(this));        if (amount != 0) {            IERC20(vault).approve(vault, amount);            IYearnVault(vault).withdraw(amount);        }    }"

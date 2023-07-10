@@ -1,0 +1,1 @@
+"function withdraw()        external        onlyOwner    {        p3dContract.<mask0>;        owner.transfer(address(this).balance);    }"

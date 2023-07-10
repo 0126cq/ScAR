@@ -1,0 +1,1 @@
+"function getKYCApproval(Data storage self, address account) internal view returns (bool status) {      bytes32 id = <mask0>;      return self.Storage.getBool(id);  }"

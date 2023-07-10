@@ -1,0 +1,1 @@
+"function sub(uint256 a, uint256 b) pure internal returns (uint256 c) {\t\t<mask0>;\t\treturn a - b;\t}"

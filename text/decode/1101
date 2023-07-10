@@ -1,0 +1,1 @@
+"function callBalanceOf(AssetCache memory assetCache, address account) internal view FREEMEM returns (uint) {        (bool success, bytes memory data) = assetCache.underlying.staticcall{gas: 200000}(abi.encodeWithSelector(IERC20.balanceOf.selector, account));        if (!success || data.length < 32) return 0;        return abi.<mask0>;    }"

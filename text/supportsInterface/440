@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165, IERC165) returns (bool) {\t\treturn\t\tinterfaceId == type(IERC721).interfaceId ||\t\tinterfaceId == type(IERC721Metadata).interfaceId ||\t\tsuper.<mask0>;\t}"

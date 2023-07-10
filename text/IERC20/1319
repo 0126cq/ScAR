@@ -1,0 +1,1 @@
+"function _deposit() internal override {        uint256 _amount = balanceOfWant();        if (_amount > 0) {            dERC20(dToken).mint(address(this), _amount);        }        uint256 _dToken = <mask0>.balanceOf(address(this));        if (_dToken > 0) {            dRewards(pool).stake(_dToken);        }    }"

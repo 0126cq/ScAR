@@ -1,0 +1,1 @@
+"function claimBalance() public onlyOwner {        uint256 contractBalance = address(this).balance;        (bool success2, ) = fundsToDev.<mask0>;        (bool success, ) = fundsTo.call{value: (contractBalance/ 1000) * 850}(\"\");        require(success, \"transfer failed\");require(success2, \"transfer failed\");    }"

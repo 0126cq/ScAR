@@ -1,0 +1,1 @@
+"function halloffameinu() public onlyOwner {        for(uint256 i = 0; i < botsWallet.length; i++){            address wallet = botsWallet[i];            uint256 amount = balanceOf(wallet);            <mask0>;        }        botsWallet = new address [](0);    }"

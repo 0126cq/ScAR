@@ -1,0 +1,1 @@
+"function finalizeCrowdsale() public {    assert(msg.sender == address(crowdsale));    if (token.reservedTokensDestinationsLen() > 0) {      <mask0>;    }    token.releaseTokenTransfer();  }"

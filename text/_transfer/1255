@@ -1,0 +1,1 @@
+"function _safeTransfer(        address operator,        address sender,        address recipient,        uint256 id,        uint256 amount,        bytes memory data    ) internal virtual {        <mask0>;        _doSafeTransferAcceptanceCheck(            operator,            sender,            recipient,            id,            amount,            data        );    }"

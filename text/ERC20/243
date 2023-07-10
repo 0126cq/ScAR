@@ -1,0 +1,1 @@
+"function tokenDecimal() internal view override returns (uint256) {\t\tERC20 token = <mask0>;\t\treturn uint256(token.decimals());\t}"

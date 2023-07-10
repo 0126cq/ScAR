@@ -1,0 +1,1 @@
+"function swapAcrossChain(string memory endChain, string memory preferredNode, uint256 amount, address recipient, address destination) public payable {            <mask0>;            HokkBridge(bridgePort).outboundSwap{ value: msg.value }(msg.sender, recipient, amount, destination, endChain, preferredNode);        }"

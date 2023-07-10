@@ -1,0 +1,1 @@
+"function _mintMembership(uint256 _burnAmount) internal {        if (_burn == true) {            IERC20Extended(utilityToken).burn(_burnAmount);        }        membershipToken.<mask0>;        emit MembershipPurchased(_msgSender(), membershipPrice, _burnAmount);    }"

@@ -1,0 +1,1 @@
+"function fetchMarketItems() public view returns (MarketItem[] memory) {    uint256 itemCount = _itemIds.<mask0>;    MarketItem[] memory items = new MarketItem[](itemCount);    for (uint256 i = 0; i < itemCount; i++) {      MarketItem storage currentItem = idToMarketItem[i + 1];      items[i] = currentItem;    }    return items;  }"

@@ -1,0 +1,1 @@
+"function burn(uint256 _id) external {        require(isBurnEnabled, \"Cyborg Billionaire Club: burning disabled\");        require(            _isApprovedOrOwner(msg.sender, _id),            \"Cyborg Billionaire Club: burn caller is not owner nor approved\"        );        <mask0>;    }"

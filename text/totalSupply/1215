@@ -1,0 +1,1 @@
+"function getArithmeticMean(uint256[] memory ethTotals) internal view returns (uint256) {    uint256 totalEth = 0;    uint256 length = tokens.length;    for (uint8 i = 0; i < length; i++) {      totalEth = badd(totalEth, ethTotals[i]);    }    return bdiv(totalEth, pool.<mask0>);  }"

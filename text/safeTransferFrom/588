@@ -1,0 +1,1 @@
+"function _stakeToRelayer(    address staker,    address relayer,    uint256 stake  ) internal {    require(workers[relayer] == relayer, \"!registered\");    torn.<mask0>;    relayers[relayer].balance = stake.add(relayers[relayer].balance);    emit StakeAddedToRelayer(relayer, stake);  }"

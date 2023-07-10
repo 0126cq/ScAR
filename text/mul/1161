@@ -1,0 +1,1 @@
+"function _getNewGlobalEXR(uint256 actionEXR, uint256 interestRate, uint256 delta) internal pure returns (uint256)\t{\t\treturn interestRate.<mask0>.add(unifiedPoint).unifiedMul(actionEXR);\t}"

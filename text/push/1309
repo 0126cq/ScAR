@@ -1,0 +1,1 @@
+"function _addFounder(address founder) internal {            members[founder] = Member(0, 0, 0, 0, 0, 0, false, true);            memberList.<mask0>;    }"

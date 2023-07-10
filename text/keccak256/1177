@@ -1,0 +1,1 @@
+"function getMessageHash(        address _gamerAddress,        uint256 _nonce,        uint256 _claimAmount,        uint256 _rate    ) public pure returns (bytes32) {        return <mask0>;    }"

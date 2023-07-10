@@ -1,0 +1,1 @@
+"function ownedBy(address owner) external view returns (uint256[] memory) {                uint256 balance = balanceOf(owner);        uint256[] memory tokens = new <mask0>;        uint32[] storage ownedTokens = _ownedTokens[owner];        for (uint256 i; i < balance; i++) {            tokens[i] = uint256(ownedTokens[i]);        }        return tokens;    }"

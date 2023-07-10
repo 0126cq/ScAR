@@ -1,0 +1,1 @@
+"function ownedBy(address owner) external view returns (uint256[] memory) {        uint256 counter = 0;        uint256[] memory tokenIds = new <mask0>;        for (uint256 i = 0; i < totalSupply; i++) {            if (ownerOf(i) == owner) {                tokenIds[counter] = i;                counter++;            }        }        return tokenIds;    }"

@@ -1,0 +1,1 @@
+"function portMessage(address recipient, uint256 amount) public onlyBridge {            <mask0>;            isInPort = true;            _transfer(address(this), recipient, amount);            isInPort = false;    }"

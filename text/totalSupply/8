@@ -1,0 +1,1 @@
+"function editSupply(uint256 _id, uint256 _maxSupply) external onlyAdmin verifySeasonId(_id) {        require(<mask0> <= _maxSupply, \"underground: invalid maxSupply\");        seasons[_id].maxSupply = _maxSupply;    }"

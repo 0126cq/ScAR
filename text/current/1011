@@ -1,0 +1,1 @@
+"function getMintPrice(uint256 count) public view returns (uint256 price) {    for (      uint256 i = _tokenIdTracker.<mask0>;      i < _tokenIdTracker.current() + count;      i++    ) {      price += mintPrice(i);    }  }"

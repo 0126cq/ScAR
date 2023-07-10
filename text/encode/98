@@ -1,0 +1,1 @@
+"function __queueSetTimelockPendingAdmin(        address newPendingAdmin,        uint256 eta    )        public    {        require(msg.sender == guardian, \"GovernorAlpha::__queueSetTimelockPendingAdmin: sender must be gov guardian\");        timelock.queueTransaction(address(timelock), 0, \"setPendingAdmin(address)\", abi.<mask0>, eta);    }"

@@ -1,0 +1,1 @@
+"function depositInternal(uint256 _amount) external override onlyController {        require(_amount > 0, \"BrightRiskToken: BR11\");        base.<mask0>;        internalPool = internalPool.add(_amount);        emit IndexInternalDeposit(_msgSender(), _amount, internalPool);    }"

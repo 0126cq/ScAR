@@ -1,0 +1,1 @@
+"function dividendsOf(address _user) public view returns (uint256) {\t\treturn uint256(int256(info.scaledJAMPerToken * <mask0>) - info.users[_user].scaledPayout) / FLOAT_SCALAR;\t}"

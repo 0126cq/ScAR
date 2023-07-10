@@ -1,0 +1,1 @@
+"function mintIdleToken(uint256 _amount, bool, address) external override returns (uint256 mintedTokens) {        mintedTokens = _amount.mul(1e18).div(tokenPrice());        IERC20(token).safeTransferFrom(msg.sender, address(this), _amount);        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function redeem(uint256[] calldata tokenIDs) external {        for (uint256 i = 0; i < tokenIDs.length; i++) {            require(<mask0> == msg.sender, \"Merch: not owner\");            _redeemed[tokenIDs[i]] = true;        }    }"

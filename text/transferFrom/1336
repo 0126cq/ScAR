@@ -1,0 +1,1 @@
+"function multiTransferFrom(address from_, address to_, uint256[] calldata tokenIds_) public {        for (uint256 i = 0; i < tokenIds_.length; i++) {            ERC721.<mask0>;        }    }"

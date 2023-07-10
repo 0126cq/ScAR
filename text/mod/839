@@ -1,0 +1,1 @@
+"function mod(uint80 a, uint80 b) internal pure returns (uint80) {        return <mask0>;    }"

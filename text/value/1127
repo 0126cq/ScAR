@@ -1,0 +1,1 @@
+"function participateCrowdsaleInvestor(address investor) public onlyOwner {    require(address(crowdsale) != 0);    if(balances[investor] > 0) {      uint amount = balances[investor];      uint tokenAmount = tokenDue[investor];      delete balances[investor];      delete tokenDue[investor];      crowdsale.invest.<mask0>;    }  }"

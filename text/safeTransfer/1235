@@ -1,0 +1,1 @@
+"function getReward() external {    if (halvingCount != 3) {      checkHalving();    }    address sender = msg.sender;    uint256 reward = earned(sender);    if (reward != 0) {        startStaking[sender] = block.number;        ETFX.<mask0>;        rewards[sender] = 0;    }  }"

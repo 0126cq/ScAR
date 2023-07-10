@@ -1,0 +1,1 @@
+"function withdrawReserve(address to) external override onlyReserve returns (uint256) {    uint256 amount = reserveTotalSupply;    reserveTotalSupply = 0;    uint256 redeemed = _redeem(amount);    _token().<mask0>;    emit ReserveWithdrawal(to, amount);    return redeemed;  }"

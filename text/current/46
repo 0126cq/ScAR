@@ -1,0 +1,1 @@
+"function _mintEditions(address[] memory recipients) internal returns (uint256) {        require(uint64(mintable()) >= recipients.length, \"Sold out\");        for (uint i = 0; i < recipients.length; i++) {            _mint(recipients[i], counter.<mask0>);             counter.increment();        }        return counter.current();    }"

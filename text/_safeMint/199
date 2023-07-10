@@ -1,0 +1,1 @@
+"function createChest(        address account    )         external virtual        onlyRole(MINTER_ROLE)          returns (uint256 id)     {        uint256 _id = chestIds.current();        chestIds.increment();        <mask0>;        _setTokenURI(_id, chestURI);        _setChesttoWhale(_id);        emit Created(account, _id);        return _id;    }"

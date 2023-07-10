@@ -1,0 +1,1 @@
+"function getTokenExists(uint256 _tokenId) public view returns(bool) {    bool tokenExists = <mask0>;    return tokenExists;  }"

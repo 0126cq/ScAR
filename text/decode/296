@@ -1,0 +1,1 @@
+"function asBytesArray(bytes memory b) internal pure returns(bytes[] memory callResult) {        if(b.length > 0) {            return abi.<mask0>;        }    }"

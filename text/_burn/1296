@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId) internal virtual override {        super.<mask0>;        if (bytes(_tokenURIs[tokenId]).length != 0) {            delete _tokenURIs[tokenId];        }    }"

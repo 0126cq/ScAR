@@ -1,0 +1,1 @@
+"function flashPayback(        address token,        uint amt,        uint getId,        uint setId    ) external payable {        uint _amt = getUint(getId, amt);        IERC20 tokenContract = IERC20(token);        tokenContract.<mask0>;        setUint(setId, _amt);        emit LogFlashPayback(token, _amt);    }"

@@ -1,0 +1,1 @@
+"function updateNameChangeToken(address token) external {    require(<mask0>, 'Only Admin can update');    _nameChangeToken = token;  }"

@@ -1,0 +1,1 @@
+"function withdraw() public onlyGrantee {        require(            requestedNewGrantee == address(0),            \"Can not withdraw with pending reassignment\"        );        tokenGrant.withdraw(grantId);        uint256 amount = token.balanceOf(address(this));        token.<mask0>;        emit TokensWithdrawn(grantee, amount);    }"

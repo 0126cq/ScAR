@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 id,        uint256 amount,        bytes memory data    ) public override {        require(amount > 0, \"AMOUNT_CANNOT_BE_ZERO\");        return super.<mask0>;    }"

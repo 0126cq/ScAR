@@ -1,0 +1,1 @@
+"function mintWithToken(uint256 oneInchAmount) external whenNotPaused {        require(oneInchAmount > 0, \"Must send token\");        oneInch.<mask0>;        uint256 fee = _calculateFee(oneInchAmount, feeDivisors.mintFee);        _incrementWithdrawableOneInchFees(fee);        return _mintInternal(oneInchAmount.sub(fee));    }"

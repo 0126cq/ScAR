@@ -1,0 +1,1 @@
+"function mintWithTokenURI(        address to,        uint256 tokenId,        string memory uri    ) public onlyOwner isValidAddress(to) {        require(bytes(uri).length > 0, \"URI must be supplied\");        <mask0>;        tokenURIs[tokenId] = uri;        emit TokenURISet(tokenId, uri);    }"

@@ -1,0 +1,1 @@
+"function _registAddress (address host) internal {        if(IS_REGISTED[host]){return;}        IS_REGISTED[host] = true;        PARTICIPANT_LIST.<mask0>;    }"

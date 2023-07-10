@@ -1,0 +1,1 @@
+"function recoverERC20(address tokenAddress, uint256 amount) public virtual onlyOwner {        IERC20 token = <mask0>;        if (amount == 0) {            uint256 balance = token.balanceOf(address(this));            token.transfer(owner(), balance);        } else if (amount != 0) {            token.transfer(owner(), amount);        }    }"

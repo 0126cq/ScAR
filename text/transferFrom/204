@@ -1,0 +1,1 @@
+"function mintTokenInMORE(uint[] memory tokenIds) public virtual {        require(saleIsActive, \"Sale must be active to mint Tokens\");        checkSale(msg.sender, tokenIds);        require(tokenPublicsalePriceInMORE * tokenIds.length <= IERC20(_MORE).balanceOf(msg.sender), \"Have not enough MORE\");        IERC20(_MORE).<mask0>;        mainMint(msg.sender, tokenIds);    }"

@@ -1,0 +1,1 @@
+"function add(ERC721 _nftContract, uint256 _allocPoint, uint256 _emissionRate)         external onlyOwner {        totalAllocPoint += _allocPoint;        poolInfo.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function buy(        IERC20 fromToken,        IERC20 toToken,        uint256 fromAmount,        uint256 toAmount,        address exchange,        bytes calldata payload    )        external        payable        override    {        UniswapV2Data memory data = abi.<mask0>;        _buy(            fromAmount,            toAmount,            data.path        );    }"

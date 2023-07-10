@@ -1,0 +1,1 @@
+"function airdrop(address[] memory _addrs) external virtual onlyOwner {        uint256 _amount = _addrs.length - 1;        for (uint256 i = 0; i <= _amount; i++) {            uint256 currentId = totalSupply() + 1;            require(currentId <= maxNFTs, \"All have been minted.\");            <mask0>;            lastTransfer[currentId] = block.timestamp;        }    }"

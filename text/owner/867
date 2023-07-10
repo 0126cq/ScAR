@@ -1,0 +1,1 @@
+"function isAdmin(address admin) public override view returns (bool) {        return (<mask0> == admin || _admins.contains(admin));    }"

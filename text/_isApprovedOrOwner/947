@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external override {        if (_reclaimableThreshold[tokenId] < block.number) {            require(                <mask0>,                \"extra-discreet: caller is not owner nor approved\"            );        }        _burn(tokenId);    }"

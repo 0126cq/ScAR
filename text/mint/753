@@ -1,0 +1,1 @@
+"function lockCurve() external {        require(!cooldown, \"cooldown\");        _lockCurve();        if(incentiveCrv > 0){            ITokenMinter(minter).<mask0>;            incentiveCrv = 0;        }    }"

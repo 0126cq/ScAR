@@ -1,0 +1,1 @@
+"function _mint(        address account,        uint256 amount    ) internal virtual override (ERC20) {        require(ERC20.totalSupply() + amount <= 10000000 *10**18, \"ERC20Capped: cap exceeded\");        super.<mask0>;    }"

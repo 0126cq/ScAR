@@ -1,0 +1,1 @@
+"function adminSetOwner(address owner_) external onlyAdmin {        <mask0>;    }"

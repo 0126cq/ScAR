@@ -1,0 +1,1 @@
+"function increaseRewardsPool(uint256 _amount) public {      TKN.<mask0>;      rewardsPool += _amount;      emit IncreaseRewardsPool(msg.sender, _amount, rewardsPool);    }"

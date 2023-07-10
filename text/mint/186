@@ -1,0 +1,1 @@
+"function _supplyFulcrum(uint amount) internal {      require(Fulcrum(fulcrum).<mask0> > 0, \"FULCRUM: supply failed\");  }"

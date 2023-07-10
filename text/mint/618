@@ -1,0 +1,1 @@
+"function lockToken() external {\t\t_lockToken();\t\tif (incentiveToken > 0) {\t\t\tITokenMinter(minter).<mask0>;\t\t\temit IncentiveReceived(msg.sender, incentiveToken);\t\t\tincentiveToken = 0;\t\t}\t}"

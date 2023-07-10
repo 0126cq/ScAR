@@ -1,0 +1,1 @@
+"function _getRValues(uint256 tAmount, uint256 tFee, uint256 currentRate) private pure returns (uint256, uint256, uint256) {            uint256 rAmount = tAmount.mul(currentRate);            uint256 rFee = tFee.mul(currentRate);            uint256 rTransferAmount = rAmount.<mask0>;            return (rAmount, rTransferAmount, rFee);        }"

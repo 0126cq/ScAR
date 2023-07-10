@@ -1,0 +1,1 @@
+"function mint(address receiver) public onlyMinter  {    <mask0>;    nextTokenId +=1;  }"

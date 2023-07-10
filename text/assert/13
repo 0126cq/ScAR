@@ -1,0 +1,1 @@
+"function safeAdd(uint a, uint b) private pure returns (uint) {        uint c = a + b;        <mask0>;        return c;    }"

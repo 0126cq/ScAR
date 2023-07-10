@@ -1,0 +1,1 @@
+"function userClaim()        external    {        require(isBought(msg.sender), \"PreIdo: User must buy pre IDO\");        uint code = investorsMap[msg.sender];        uint claimableToken = getClaimable();        investorDetails[code].claimedTokenAmount += claimableToken;        <mask0>.transfer(msg.sender, claimableToken);    }"

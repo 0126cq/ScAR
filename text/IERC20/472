@@ -1,0 +1,1 @@
+"function setYFI(address YFIAddress,address BPTAddress) external onlyRewardDistribution {        setBPT(BPTAddress);        yfi = <mask0>;    }"

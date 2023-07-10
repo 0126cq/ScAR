@@ -1,0 +1,1 @@
+"function initialize(    address logic,    address admin,    bytes memory data  ) public payable {    require(<mask0> == address(0));    InitializableUpgradeabilityProxy.initialize(logic, data);    assert(ADMIN_SLOT == bytes32(uint256(keccak256('eip1967.proxy.admin')) - 1));    _setAdmin(admin);  }"

@@ -1,0 +1,1 @@
+"function burn(uint256 amount) external onlyOwner {        <mask0>;        emit Burn(amount);    }"

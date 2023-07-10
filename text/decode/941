@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 amount) external returns (bool) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"approve(address,uint256)\", spender, amount));        return abi.<mask0>;    }"

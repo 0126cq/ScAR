@@ -1,0 +1,1 @@
+"function mint() external nonReentrant {        require(!onlyWl, \"only wl allowed\");        require(nextMintId < maxMintId - reservedSupply, \"max supply reached\");        require(            publicMints[msg.sender] < publicLimit,            \"address limit reached\"        );        <mask0>;        publicMints[msg.sender]++;    }"

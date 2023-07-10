@@ -1,0 +1,1 @@
+"function zapFromBento(        address pair,        address to,        uint256 amount    ) external returns (uint256 amount0, uint256 amount1) {        bento.<mask0>;         (amount0, amount1) = ISushiSwap(pair).burn(to);     }"

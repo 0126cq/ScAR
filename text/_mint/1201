@@ -1,0 +1,1 @@
+"function increaseSupply(uint256 _value) public onlySupplyController returns (bool success) {        <mask0>;        return true;    }"

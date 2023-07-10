@@ -1,0 +1,1 @@
+"function renounceOwnership() public virtual onlyOwner {        emit OwnershipTransferred(_getOwner(), RENOUNCED_OWNER);        <mask0>;    }"

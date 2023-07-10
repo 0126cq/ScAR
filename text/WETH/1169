@@ -1,0 +1,1 @@
+"function create_weth_pair(address token) private returns (address, IUniswapV2Pair) {       address pair_address = IUniswapFactory(router.factory()).createPair(token, router.<mask0>);       return (pair_address, IUniswapV2Pair(pair_address));    }"

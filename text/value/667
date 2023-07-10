@@ -1,0 +1,1 @@
+"function payForDemocracy(IxIface ix, bytes32 democHash) internal {        ix.getPayments().payForDemocracy.<mask0>(democHash);    }"

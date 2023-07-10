@@ -1,0 +1,1 @@
+"function transferInternal(address payable _destination, address _reserve, uint256  _amount) internal {        if(_reserve == EthAddressLib.ethAddress()) {            _destination.call{value: _amount}(\"\");            return;        }        <mask0>.safeTransfer(_destination, _amount);    }"

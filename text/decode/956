@@ -1,0 +1,1 @@
+"function _setPendingAdmin(address payable newPendingAdmin) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"_setPendingAdmin(address)\", newPendingAdmin));        return abi.<mask0>;    }"

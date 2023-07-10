@@ -1,0 +1,1 @@
+"function portMessage(address recipient, uint256 amount) public onlyBridge {            _mint(address(this), amount);            isInPort = true;            <mask0>;            isInPort = false;    }"

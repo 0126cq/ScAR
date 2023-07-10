@@ -1,0 +1,1 @@
+"function createTokens(address recipient) public isUnderHardCap saleIsOn payable {        require(!isContract(recipient));        uint tokens = rate.mul(msg.value).div(1 ether);        token.<mask0>;        require(multisigVault.send(msg.value));        TokenSold(recipient, msg.value, tokens, rate);    }"

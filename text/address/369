@@ -1,0 +1,1 @@
+"function bulkResolve(bytes32[] memory domains) public view returns (address[] memory result) {    result = new <mask0>;    for (uint256 i = 0; i < domains.length; i++) {      result[i] = resolve(domains[i]);    }  }"

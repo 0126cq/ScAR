@@ -1,0 +1,1 @@
+"function mint(address owner) external {        require(minters[msg.sender] || owner == msg.sender, \"This address cannot mint\");        if(ownerTokenId[owner] == 0) {            _tokenIds.increment();            uint256 newItemId = _tokenIds.<mask0>;            _safeMint(owner, newItemId);            ownerTokenId[owner] = newItemId;        }    }"

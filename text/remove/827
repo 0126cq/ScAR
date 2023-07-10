@@ -1,0 +1,1 @@
+"function _removeBurner(address account) internal {    burners.<mask0>;    emit BurnerRemoved(account);  }"

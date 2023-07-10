@@ -1,0 +1,1 @@
+"function rescueTokens(ERC20Basic _token) external onlyOwner {        uint256 balance = _token.balanceOf(this);        <mask0>;    }"

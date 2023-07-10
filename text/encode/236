@@ -1,0 +1,1 @@
+"function encodeParams(uint256[] calldata ids) public view returns(bytes memory){    \tbytes[] memory params = new bytes[](ids.length);    \tfor(uint i = 0; i < ids.length; i++)    \t\tparams[i] = encodeParams(ids[i]);    \treturn abi.<mask0>;    }"

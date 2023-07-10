@@ -1,0 +1,1 @@
+"function dividendsOf(address staker) public view returns (uint256) {        require(_dividendsPerRug >= _dividendsSnapshot[staker], \"dividend calc overflow\");        uint256 sum = balanceOf(staker).mul((_dividendsPerRug.<mask0>)).div(1e18);        return sum;    }"

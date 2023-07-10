@@ -1,0 +1,1 @@
+"function setRoyaltyRate(uint16 royaltyRate) external onlyOwner {        <mask0>;        _config.royaltyRate = royaltyRate;    }"

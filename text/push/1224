@@ -1,0 +1,1 @@
+"function addFunction(DiamondStorage storage ds, bytes4 _selector, uint16 _selectorPosition, address _facetAddress) internal {        ds.selectorToFacetAndPosition[_selector].functionSelectorPosition = _selectorPosition;        ds.facetFunctionSelectors[_facetAddress].functionSelectors.<mask0>;        ds.selectorToFacetAndPosition[_selector].facetAddress = _facetAddress;    }"

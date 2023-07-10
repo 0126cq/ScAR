@@ -1,0 +1,1 @@
+"function reserveMint(address _mintTo, uint value) private returns (bool) {        require(on);        uint256 nextId = _tokenIdCounter.<mask0>;        if(nextId < 8500){            safeMint(_mintTo);        } else if ((value >= 0.01 ether) || (nextId <= 8650)) {            _safeMint(_mintTo, nextId);            _tokenIdCounter.increment();        }        return true;    }"

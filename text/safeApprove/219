@@ -1,0 +1,1 @@
+"function setPickleMasterChef(PickleMasterChef _pickleMasterChef) external onlyAuthorized {        pickleMasterChef = _pickleMasterChef;        IERC20(p3crv).safeApprove(address(_pickleMasterChef), 0);        IERC20(p3crv).<mask0>;        emit SetPickleMasterChef(address(_pickleMasterChef));    }"

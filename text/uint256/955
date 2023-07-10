@@ -1,0 +1,1 @@
+"function getUserItems(address user) public view returns (uint256[] memory) {      uint256 itemsInGame = points.length * ITEMS_PER_WEEK;      uint256[] memory output = new <mask0>;      for (uint256 i; i < itemsInGame; i++) {        output[i] = _tokenToUserBalance[i][user];      }      return output;    }"

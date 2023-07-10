@@ -1,0 +1,1 @@
+"function constructTokenURI(TokenURIParams memory params, mapping(uint8 => string[]) storage palettes)        public        view        returns (string memory)    {        string memory image = generateSVGImage(            SVGParams({ parts: params.parts, background: params.background }),            palettes        );        return string(            abi.<mask0>        );    }"

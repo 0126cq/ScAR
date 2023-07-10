@@ -1,0 +1,1 @@
+"function _removeBatchWhitelist(address[] memory newAddresses) internal {    uint length = newAddresses.length;    for(uint x = 0; x < length;) {      whitelist.<mask0>;      unchecked { ++x; }    }  }"

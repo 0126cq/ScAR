@@ -1,0 +1,1 @@
+"function buyMicroLot(uint256 amount) external {        require(amount > 0, \"Amount is zero\");        saveProfits(msg.sender);        lastMicroBoughtTimestamp[msg.sender] = block.timestamp;        microLotsTotal += amount;        microBalance[msg.sender] += amount;        HEGIC.<mask0>;        emit MicroLotsAcquired(msg.sender, amount);    }"

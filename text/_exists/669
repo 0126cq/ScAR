@@ -1,0 +1,1 @@
+"function setHolder(uint256 token_id, address addr) public onlyOwner {        require(token_id > 0, \"TokenID must be greater than 0\");        require(token_id <= MAX_CRYPTOFREAKS, \"TokenID must be less than or equal to 250\");        require(!<mask0>, \"Token has already been minted\");        holders[token_id] = addr;    }"

@@ -1,0 +1,1 @@
+"function initialize() initializer() public {\t\t__Ownable_init();\t\t__ERC20_init_unchained('OMNI Token', 'OAI');\t\t__Pausable_init_unchained();\t\t__ERC20Permit_init('OMNI Token');\t\t<mask0>;\t}"

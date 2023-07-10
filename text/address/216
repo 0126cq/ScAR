@@ -1,0 +1,1 @@
+"function toUniV2Path(bytes memory data) internal pure returns (address[] memory path) {        data = slice(data, dexNameLength, data.length - dexNameLength);        uint pathLength = data.length / 20;        path = new <mask0>;        for (uint i = 0; i < pathLength; i++) {            path[i] = toAddress(data, 20 * i);        }    }"

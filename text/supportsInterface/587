@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)\t\tpublic\t\tview\t\toverride(ERC721, ERC721Enumerable)\t\treturns (bool)\t{\t\treturn super.<mask0>;\t}"

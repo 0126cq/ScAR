@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual override nonReentrant {        require(_isApprovedOrOwner(msg.sender, tokenId), \"Caller is not owner nor approved\");        address owner = ownerOf(tokenId);        <mask0>;        _postBurn(owner, tokenId);    }"

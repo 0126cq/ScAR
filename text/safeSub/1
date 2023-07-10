@@ -1,0 +1,1 @@
+"function balanceSub(address tokenAddr, address user, uint amount) private {        require(balanceOf[tokenAddr][user] >= amount);        balanceOf[tokenAddr][user] =            <mask0>;    }"

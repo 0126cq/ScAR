@@ -1,0 +1,1 @@
+"function receiveAirDrop() public {        require(isValidAirDropForIndividual());        invalidAirDrop[msg.sender] = true;        arrayAirDropReceivers.<mask0>;        require(erc20.transfer(msg.sender, airDropAmount));        emit LogAirDrop(msg.sender, airDropAmount);    }"

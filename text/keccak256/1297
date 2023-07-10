@@ -1,0 +1,1 @@
+"function hashLeaf(bytes memory _key, bytes memory _value) public pure returns (bytes32) {    return <mask0>;  }"

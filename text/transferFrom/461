@@ -1,0 +1,1 @@
+"function payUSDT(uint256 amount) external {        INterfacesNoR(usdt).<mask0>;        _pay(msg.sender, amount );        _deposited[usdt] += amount;    }"

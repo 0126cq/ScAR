@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyMinters canMint public returns (bool) {        require(totalSupply.add(_amount) <= cap);        return super.<mask0>;    }"

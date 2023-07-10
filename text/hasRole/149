@@ -1,0 +1,1 @@
+"function recoverERC20(        address token,        address to,        uint256 amount    ) external {        if (!<mask0>) {            revert ErrForbidden();        }        _recoverERC20(token, to, amount);    }"

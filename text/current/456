@@ -1,0 +1,1 @@
+"function totalSupply() public view returns (uint256) {\t\treturn _countTokenLoot.current() + _countTokenMLoot.<mask0> + _countTokenGA.current() + _supplySpecialSet;\t}"

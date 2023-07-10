@@ -1,0 +1,1 @@
+"function addLocker(string memory locker) public onlyOwner {        _lockers.<mask0>;        emit LockerWasAdded(locker);    }"

@@ -1,0 +1,1 @@
+"function _mintAndTransfer(address erc20TokenAddress, address recipient, uint256 value) internal virtual {        IERC20Mintable(erc20TokenAddress).<mask0>;    }"

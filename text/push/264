@@ -1,0 +1,1 @@
+"function lift(address src) external auth {        require(live == 1, \"Cure/not-live\");        require(pos[src] == 0, \"Cure/already-existing-source\");        srcs.<mask0>;        pos[src] = srcs.length;        emit Lift(src);    }"

@@ -1,0 +1,1 @@
+"function buyTokens() payable {        uint256 weiAmount = msg.value;        uint256 tokens = calculator.getAmount(weiAmount);        <mask0>;        token.transferFrom(tokenSeller, msg.sender, tokens);        TokenPurchase(msg.sender, weiAmount, tokens);    }"

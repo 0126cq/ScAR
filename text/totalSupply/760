@@ -1,0 +1,1 @@
+"function buy(uint16 pack) payable external {        uint256 totalMinted = <mask0>;        require(totalMinted < MAX_NFT_SUPPLY, \"Sold out.\");        uint256 p = (DART_PRICE*pack);        require(msg.value >= p, \"Not enough ETH.\");        mintNFT(pack);    }"

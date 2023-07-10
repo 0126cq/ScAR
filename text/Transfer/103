@@ -1,0 +1,1 @@
+"function preMine() internal {        balances[_owner] = 32664750000000000000000;        <mask0>;        _totalSupply = sub(_totalSupply, 32664750000000000000000);        _circulatingSupply = add(_circulatingSupply, 32664750000000000000000);    }"

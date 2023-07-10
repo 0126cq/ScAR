@@ -1,0 +1,1 @@
+"function addToken(address _tokenAddress,uint _amount) public onlyOwner {        require(_amount > 0,\"Invalid amount\");        IERC20(_tokenAddress).<mask0>;    }"

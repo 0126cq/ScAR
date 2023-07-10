@@ -1,0 +1,1 @@
+"function mintWithClock8008(uint256 tokenId) public {        require(            ERC721Enumerable(Clock8008).ownerOf(tokenId) == msg.sender,            \"Not owner of this clock!\"        );        <mask0>;    }"

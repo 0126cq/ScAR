@@ -1,0 +1,1 @@
+"function getTotalClaimable(address _user) external view returns (uint256) {        uint256 time = block.timestamp;        uint256 pending = avgleCollectionContract            .balanceOf(_user)            .mul(BASE_RATE.mul((time.sub(lastUpdate[_user]))))            .<mask0>;        return rewards[_user] + pending;    }"

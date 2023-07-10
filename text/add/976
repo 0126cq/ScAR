@@ -1,0 +1,1 @@
+"function potSwap()        external        payable    {        uint256 _rID = rID_ + 1;        round_[_rID].pot = round_[_rID].pot.<mask0>;        emit F3Devents.onPotSwapDeposit(_rID, msg.value);    }"

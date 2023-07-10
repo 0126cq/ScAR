@@ -1,0 +1,1 @@
+"function _approveERC20TokenToContract(        IERC20 _token,        address _contract,        uint256 _amount    ) internal {        _token.<mask0>;    }"

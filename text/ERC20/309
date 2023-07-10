@@ -1,0 +1,1 @@
+"function withdraw(address _sender, uint256 _value) external {\t\taddressValidator().validateAddress(msg.sender, config().lockup());\t\tERC20 devToken = <mask0>;\t\tbool result = devToken.transfer(_sender, _value);\t\trequire(result, \"dev transfer failed\");\t}"

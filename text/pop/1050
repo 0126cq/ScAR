@@ -1,0 +1,1 @@
+"function _eraseData(uint256 id) internal {    uint256 length = savedData[id].length;    if (length > 0) {      for (uint256 i = 0; i < length; i++) {        delete savedData[id][length - 1 - i];        savedData[id].<mask0>;      }    }    pointer[id] = 0;  }"

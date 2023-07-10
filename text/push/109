@@ -1,0 +1,1 @@
+"function updateTo(address[] memory _receivers, uint16 amount) external onlyRole(DEFAULT_ADMIN_ROLE) {        for (uint i = 0; i < _receivers.length; i++) {            if (amount != 0 && allowances[_receivers[i]] == 0) {                minters.<mask0>;            }            allowances[_receivers[i]] = amount;        }    }"

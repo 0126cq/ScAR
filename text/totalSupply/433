@@ -1,0 +1,1 @@
+"function setMaxPasses(uint256 _maxPasses) public onlyOwner {        require(_maxPasses > <mask0>, \"Max passes must be greater than current supply.\");        maxPasses = _maxPasses;    }"

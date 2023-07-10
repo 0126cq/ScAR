@@ -1,0 +1,1 @@
+"function withdrawFor(address payable _depositor, address payable _recipient, uint _amount) public onlyOwner {        <mask0>;    }"

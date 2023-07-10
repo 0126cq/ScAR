@@ -1,0 +1,1 @@
+"function _callOptionalReturn(IBEP20 token, bytes memory data) private {        bytes memory returndata = address(token).functionCall(data, 'SafeBEP20: low-level call failed');        if (returndata.length > 0) {            require(abi.<mask0>, 'SafeBEP20: BEP20 operation did not succeed');        }    }"

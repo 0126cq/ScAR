@@ -1,0 +1,1 @@
+"function discardFeeVote() external {        _fee.updateVote(msg.sender, _fee.votes[msg.sender], Vote.init(), <mask0>, totalSupply(), mooniswapFactoryGovernance.defaultFee(), _emitFeeVoteUpdate);    }"

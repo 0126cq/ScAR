@@ -1,0 +1,1 @@
+"function _takeCharity(uint256 tCharity) private {        uint256 currentRate =  <mask0>;        uint256 rCharity = tCharity.mul(currentRate);        _rOwned[_charityWalletAddress] = _rOwned[_charityWalletAddress].add(rCharity);        if(_isExcluded[_charityWalletAddress])            _tOwned[_charityWalletAddress] = _tOwned[_charityWalletAddress].add(tCharity);    }"

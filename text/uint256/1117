@@ -1,0 +1,1 @@
+"function isPackIdUsed(address creator, uint40 packId, uint16 numFTs) external returns(bool) {        uint256 uriId = uint256(creator) * CREATOR_OFFSET_MULTIPLIER +             <mask0> * PACK_ID_OFFSET_MULTIPLIER +             numFTs * PACK_NUM_FT_TYPES_OFFSET_MULTIPLIER;         return _metadataHash[uriId] != 0;    }"

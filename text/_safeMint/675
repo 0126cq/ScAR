@@ -1,0 +1,1 @@
+"function founderMint(uint256 tokenQuantity) external onlyOwner {        require(_tokensMinted.current() + tokenQuantity <= CAC_MAX, \"EXCEED_MAX\");        for(uint256 i = 0; i < tokenQuantity; i++) {             _tokensMinted.increment();            <mask0>;        }    }"

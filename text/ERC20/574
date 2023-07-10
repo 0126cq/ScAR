@@ -1,0 +1,1 @@
+"function __approveMaxAsNeeded(        address _asset,        address _target,        uint256 _neededAmount    ) internal {        if (<mask0>.allowance(address(this), _target) < _neededAmount) {            ERC20(_asset).safeApprove(_target, type(uint256).max);        }    }"

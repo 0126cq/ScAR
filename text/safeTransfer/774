@@ -1,0 +1,1 @@
+"function release() public {    require(block.timestamp >= _releaseTime);    uint256 amount = _token.balanceOf(address(this));    require(amount > 0);    _token.<mask0>;    emit UnLock(_beneficiary, amount);  }"

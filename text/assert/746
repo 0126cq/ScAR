@@ -1,0 +1,1 @@
+"function removePool(address pool) onlyOwner{        <mask0>;        if (!isPool(pool)) throw;        for (uint i=0; i<pools.length - 1; i++) {            if (pools[i] == pool) {                pools[i] = pools[pools.length - 1];                break;            }        }        pools.length -= 1;    }"

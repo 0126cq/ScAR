@@ -1,0 +1,1 @@
+"function setMerkleRoot(string memory roundName, bytes32 root)        public        onlyRole(DEFAULT_ADMIN_ROLE)    {        bytes32 key = <mask0>;        merkleRoot[key] = root;    }"

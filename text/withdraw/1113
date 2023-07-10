@@ -1,0 +1,1 @@
+"function execute() external {    CONTROLLER_OF_COLLECTOR.transfer(      ETHEREUM_V2_COLLECTOR,      AUSDC,      address(this),      USDC_AMOUNT    );    POOL.<mask0>;  }"

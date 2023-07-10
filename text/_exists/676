@@ -1,0 +1,1 @@
+"function _requireMinted(uint256 tokenId) internal view virtual {        require(<mask0>, \"ERC721: invalid token ID\");    }"

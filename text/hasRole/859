@@ -1,0 +1,1 @@
+"function setTokenParam(uint256 tokenID, uint256 i, uint32 v) public {      require(<mask0>, \"Deafbeef721: must have minter role to update tokenparams\");      require(tokenID < _tokenIdTracker.current(),\"TokenId out of range\");      require(i<7,\"Parameter index must be less than 7\");      tokenParams[tokenID].p[i] = v;    }"

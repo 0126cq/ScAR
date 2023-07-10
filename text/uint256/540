@@ -1,0 +1,1 @@
+"function stakeOf(address _addr) public view returns (uint256[] memory) {        uint256[] memory _iids = new <mask0>;        for (uint256 i = 0; i < stakes[_addr].length; i++) {            _iids[i] = stakes[_addr][i].nft_id;        }        return _iids;    }"

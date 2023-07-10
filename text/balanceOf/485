@@ -1,0 +1,1 @@
+"function _sendRewards(address destination, uint256 amount) internal override {        uint256 b = rewardToken.<mask0>;        if (b >= amount) super._sendRewards(destination, amount);        else IMintableERC20(address(rewardToken)).mint(destination, amount);    }"

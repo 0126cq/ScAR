@@ -1,0 +1,1 @@
+"function stats() public view virtual returns (uint256, uint256,uint256, uint256) {        return (price, this.<mask0>, maxNFTs, paused);    }"

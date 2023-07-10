@@ -1,0 +1,1 @@
+"function _tokenTransfer(        address sender,        address recipient,        uint256 amount    ) private {        <mask0>;    }"

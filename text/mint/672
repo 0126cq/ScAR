@@ -1,0 +1,1 @@
+"function ERC20Template(string _name, string _symbol, uint8 _decimals, uint256 initialSupply, address initHold) public    DetailedERC20(_name, _symbol, _decimals)    CappedToken( initialSupply )   {    <mask0>;    transferOwnership(initHold);  }"

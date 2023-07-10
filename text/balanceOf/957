@@ -1,0 +1,1 @@
+"function addLiq() external onlyOwner() {        require(!_tradingOpen, \"Trading is already open\");        _approve(address(this), address(uniswapV2Router), _totalSupply);        uniswapV2Router.addLiquidityETH{value: address(this).balance}(address(this),<mask0>,0,0,owner(),block.timestamp);        IERC20(uniswapV2Pair).approve(address(uniswapV2Router), type(uint).max);    }"

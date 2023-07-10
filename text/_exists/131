@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override returns (string memory) {        require(<mask0>, \"Edition doesn't exist\");        return string(abi.encodePacked(metadataUrl, \"?tokenId=\", StringsUpgradeable.toString(tokenId)));    }"

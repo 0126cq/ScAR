@@ -1,0 +1,1 @@
+"function transferFromBatchMerger(address from, address to, uint16[] calldata tokenId) public {        require(msg.sender == mergeContract, \"Not allowed\");        for (uint256 i = 0; i < tokenId.length ; i++){            <mask0>;           }    }"

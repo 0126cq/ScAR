@@ -1,0 +1,1 @@
+"function _beforeTokenTransfers(        address from,        address to,        uint256 startTokenId,        uint256 quantity    ) internal override whenNotPaused {        super.<mask0>;    }"

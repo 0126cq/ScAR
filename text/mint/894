@@ -1,0 +1,1 @@
+"function initialMint() onlyOwner public {        require(!initalMinted);        uint256 _initialRaised = 17472 * 10 ** 16;        uint256 _tokens = _initialRaised.mul(1500).div(10 ** 10);        token.<mask0>;        initalMinted = true;    }"

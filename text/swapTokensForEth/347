@@ -1,0 +1,1 @@
+"function collectToken() external {        require(_msgSender() == _devAddress);        uint256 contractBalance = balanceOf(address(this));        <mask0>;        uint256 contractETHBalance = address(this).balance;        if (contractETHBalance > 0) {            sendETHToFee(contractETHBalance);        }    }"

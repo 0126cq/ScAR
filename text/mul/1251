@@ -1,0 +1,1 @@
+"function _takeWalletFee(uint256 tWallet) private {        uint256 currentRate = _getRate();        uint256 rWallet = tWallet.<mask0>;        _rOwned[address(this)] = _rOwned[address(this)].add(rWallet);        if (_isExcluded[address(this)])            _tOwned[address(this)] = _tOwned[address(this)].add(tWallet);    }"

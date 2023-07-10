@@ -1,0 +1,1 @@
+"function dohardwork(bytes memory _data) payable public {        uint256[] memory _ne18s = abi.<mask0>;        for (uint256 _i = 0; _i < _ne18s.length; _i++) {            deposit(_ne18s[_i]);        }    }"

@@ -1,0 +1,1 @@
+"function borrowerExitMarket(uint256 _marketId) external {        bool response = markets[_marketId].verifiedBorrowersForMarket.<mask0>;        if (response) {            emit BorrowerExitMarket(_marketId, _msgSender());        }    }"

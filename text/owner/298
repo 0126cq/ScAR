@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner nonReentrant {        uint balance = address(this).balance;        Address.sendValue(payable(<mask0>), balance);    }"

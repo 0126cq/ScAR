@@ -1,0 +1,1 @@
+"function sendFullContractBalance(address _token, address _user) public {        if (_token == ETH_ADDR) {            sendContractBalance(_token, _user, address(this).balance);        } else {            sendContractBalance(_token, _user, <mask0>.balanceOf(address(this)));        }    }"

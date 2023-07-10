@@ -1,0 +1,1 @@
+"function _swap(uint _amountIn) internal {        address[] memory path = new <mask0>;        path[0] = dai;        path[1] = weth;        path[2] = address(want);        Uni(dex).swapExactTokensForTokens(_amountIn, 0, path, address(this), now);    }"

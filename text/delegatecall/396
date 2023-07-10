@@ -1,0 +1,1 @@
+"function upgrade() external {    (bool should, address newImplementation) = IUpgradeSource(address(this)).shouldUpgrade();    require(should, \"Upgrade not scheduled\");    _upgradeTo(newImplementation);    (bool success,) = address(this).<mask0>;    require(success, \"Issue when finalizing the upgrade\");  }"

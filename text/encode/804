@@ -1,0 +1,1 @@
+"function _checkUnstakeFeeSignature(        uint256 fee, uint256 useBeforeBlock, address staker, bytes memory signature    ) private view returns (bool) {        bytes32 payloadHash = keccak256(abi.<mask0>);        return ECDSAUpgradeable.recover(payloadHash, signature) == _notary;    }"

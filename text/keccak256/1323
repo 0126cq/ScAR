@@ -1,0 +1,1 @@
+"function _rnd(address _owner, uint256 _tokenId, uint256 _dna, uint256 _dnaExtension) internal returns (uint256) {    return uint256(<mask0>);  }"

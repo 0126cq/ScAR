@@ -1,0 +1,1 @@
+"function burn(address _owner, uint _amount) onlyController {\t\tbalanceOf[_owner] = safeSub(balanceOf[_owner], _amount);\t\ttotalSupply = <mask0>;\t}"

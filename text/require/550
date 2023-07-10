@@ -1,0 +1,1 @@
+"function nominateTreasury(address nomination) external {        <mask0>;        pendingTresury = nomination;    }"

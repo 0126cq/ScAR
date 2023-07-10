@@ -1,0 +1,1 @@
+"function claim(Proof memory proof) external {        bytes32 node = keccak256(abi.<mask0>);        require(MerkleProof.verify(proof.merkleProof, giveaway, node), \"INVALID_PROOF\");        require(!claimed[proof.account], \"CLAIMED\");        claimed[proof.account] = true;        _mint(proof.account, proof.quantity * 10 * unit);    }"

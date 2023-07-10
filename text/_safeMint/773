@@ -1,0 +1,1 @@
+"function mintMultipleByOwner(        address[] memory _to    )        public        onlyOwner    {        for(uint256 i = 0; i < _to.length; i++){            require(totalSupply()+1 <= MAX_NFT, \"Tokens number to mint cannot exceed number of MAX tokens\");            <mask0>;        }    }"

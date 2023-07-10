@@ -1,0 +1,1 @@
+"function _withdrawAll() internal override {        dRewards(pool).exit();        uint256 _amount = <mask0>.balanceOf(address(this));        if (_amount > 0) {            dERC20(dToken).redeem(address(this), _amount);            _amount = balanceOfWant();            _convert(want, _vaultWant(), _amount);        }    }"

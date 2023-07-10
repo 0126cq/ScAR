@@ -1,0 +1,1 @@
+"function withdrawToken(address _token, address _to, uint256 _value) public onlyOwner returns (bool) {        require(_to != address(0));        require(_token != address(0));        ERC20 tk = <mask0>;        tk.transfer(_to, _value);        emit WithdrawToken(_token, _to, _value);        return true;    }"

@@ -1,0 +1,1 @@
+"function addInvestmentPreIco(address _from, uint256 _value) internal {        if (investmentsPreIco[_from] == 0) {            investorsPreIco.<mask0>;        }        investmentsPreIco[_from] = investmentsPreIco[_from].add(_value);    }"

@@ -1,0 +1,1 @@
+"function distribute(address origin, uint256 amount) public onlyWhitelisted() runPhasedDistribution() {        IERC20Burnable(Token).<mask0>;        buffer = buffer.add(amount);    }"

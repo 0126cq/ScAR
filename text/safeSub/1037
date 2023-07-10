@@ -1,0 +1,1 @@
+"function TradingForest(address _founder) payable {\t        owner = msg.sender;\t        founder = _founder;\t        balances[founder] = team;\t        totalTokens = safeSub(totalTokens, team);\t        totalTokens = <mask0>;\t        totalSupply = totalTokens;\t        balances[owner] = totalSupply;\t    }"

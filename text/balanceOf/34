@@ -1,0 +1,1 @@
+"function updatefedVote(address fed)    public    updatesDividends(msg.sender)    returns (bool)    {        fvote[fvotedaddrs[msg.sender]] -= fvoted[msg.sender];        fvote[fed] += uint256(balanceOf(msg.sender));        fvotedaddrs[msg.sender] = fed;        fvoted[msg.sender] = uint256(<mask0>);        return true;    }"

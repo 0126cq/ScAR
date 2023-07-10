@@ -1,0 +1,1 @@
+"function managerMint(address to)        external        isSaleActive        tokensLeft        canStillMint(to, 1)        onlyManager    {        uint256 tokenId = _tokenIdCounter.<mask0>;        _tokenIdCounter.increment();        minted[to]+=1;        _safeMint(to, tokenId);    }"

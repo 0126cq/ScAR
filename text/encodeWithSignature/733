@@ -1,0 +1,1 @@
+"function log(address p0, string memory p1, bool p2, uint p3) internal view {\t\t_sendLogPayload(abi.<mask0>);\t}"

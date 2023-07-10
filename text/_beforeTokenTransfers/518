@@ -1,0 +1,1 @@
+"function _beforeTokenTransfers(\t\taddress from,\t\taddress to,\t\tuint256 startTokenId,\t\tuint256 quantity\t) internal virtual override whenNotPaused {\t\tsuper.<mask0>;\t}"

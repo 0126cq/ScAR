@@ -1,0 +1,1 @@
+"function _mint(        address account,        uint256 tokenId,        uint256 amount    ) internal {        <mask0>;    }"

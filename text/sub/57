@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 qty) external returns (bool) {    allowance[from][msg.sender] = allowance[from][msg.sender].<mask0>;    balanceOf[from] = balanceOf[from].sub(qty);    balanceOf[to] = balanceOf[to].add(qty);    emit Transfer(from, to, qty);    return true;  }"

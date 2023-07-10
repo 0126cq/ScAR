@@ -1,0 +1,1 @@
+"function transferToFeeWallet(address account, uint256 amount) internal {        _marketingFeeBalance = 0;        <mask0>;        if(marketing_address_index == marketing_address.length - 1) {            marketing_address_index = 0;        } else {            marketing_address_index += 1;        }    }"

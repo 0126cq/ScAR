@@ -1,0 +1,1 @@
+"function removeAsAllocator(address _address) public returns (bool) {    bool retVal = false;    if(<mask0>){      if(hasRole(ROLE_ALLOCATE, _address)){        revokeRole(ROLE_ALLOCATE, _address);        retVal = true;      }    }    return retVal;  }"

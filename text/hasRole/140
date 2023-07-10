@@ -1,0 +1,1 @@
+"function setRewardPerBlock(uint256 rewardPerBlock) public {        require(<mask0>, \"Caller is not a manager\");        calculateNewRewardSinceLastRewardBlock();        _state.REWARD_PER_BLOCK = rewardPerBlock;    }"

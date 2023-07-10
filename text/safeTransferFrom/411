@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint id) public payable {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public returns (bool) {\t\trequire(_to != address(0));\t\trequire(_value <= balances[msg.sender]);\t\tbalances[msg.sender] = balances[msg.sender].sub(_value);\t\tbalances[_to] = balances[_to].add(_value);\t\t<mask0>;\t\treturn true;\t}"

@@ -1,0 +1,1 @@
+"function earn_crv() public onlyController{    require(crv_minter_addr != MinterInterfaceERC20(0x0), \"no crv minter\");    crv_minter_addr.<mask0>;    IERC20(crv_token_addr).transfer(msg.sender, IERC20(crv_token_addr).balanceOf(address(this)));  }"

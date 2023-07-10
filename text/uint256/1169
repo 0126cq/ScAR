@@ -1,0 +1,1 @@
+"function mintBaseBatch(address to, uint16 count)        public        virtual        override        nonReentrant        adminRequired        returns (uint256[] memory tokenIds)    {        tokenIds = new <mask0>;        for (uint16 i = 0; i < count; i++) {            tokenIds[i] = _mintBase(to, \"\");        }        return tokenIds;    }"

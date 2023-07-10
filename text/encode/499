@@ -1,0 +1,1 @@
+"function setDefaultHashes(uint256 depth) internal {        defaultHashes[0] = keccak256(abi.encode(0));        for (uint256 i = 1; i < depth; i++) {            defaultHashes[i] = keccak256(                abi.<mask0>            );        }    }"

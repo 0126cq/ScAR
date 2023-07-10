@@ -1,0 +1,1 @@
+"function cancelproposal(uint256 proposal)    public    {        require(proposals[proposal].executed == false);        <mask0>;        proposals[proposal].executed = true;        emit Proposalcanceled(proposal);    }"

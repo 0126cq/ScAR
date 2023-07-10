@@ -1,0 +1,1 @@
+"function sendBatch(address _tokenAddress, uint _tokenDecimals, address[] _to, uint256[] _values)  public  {    require(_to.length == _values.length);\trequire(_to.length <= 255);    StandardToken token = StandardToken(_tokenAddress);\tfor (uint8 i = 0; i < _to.length; i++) {\t\ttoken.<mask0>;\t\t}    }"

@@ -1,0 +1,1 @@
+"function _calculateDomainSeparator(uint256 chainId) private view returns (bytes32) {        return keccak256(            abi.encode(                <mask0>,                keccak256(bytes(name)),                keccak256(bytes(version())),                chainId,                address(this)            )        );    }"

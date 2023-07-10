@@ -1,0 +1,1 @@
+"function unwrapFor(uint256 _amount, address _account) external onlyGeyser {    IMasterChef(masterChef).<mask0>;    _burn(_account, _amount);    IERC20(token).safeTransfer(_account, _amount);  }"

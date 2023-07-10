@@ -1,0 +1,1 @@
+"function withdrawMoney() external onlyAdmin nonReentrant {        (bool success, ) = msg.sender.<mask0>;        require(success, \"Transfer failed.\");    }"

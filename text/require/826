@@ -1,0 +1,1 @@
+"function updateProvenance(string memory hash, uint256 _startingIndex) public onlyAdmin {        <mask0>;        provenanceHash = hash;        provenanceHashUpdated = true;        startingIndex = _startingIndex;    }"

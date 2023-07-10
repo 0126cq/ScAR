@@ -1,0 +1,1 @@
+"function collect() external override onlyGovernance returns (uint256 amount0, uint256 amount1) {    (, , , uint128 tokensOwed0, uint128 tokensOwed1) = IUniswapV3Pool(pool).positions(      <mask0>    );    (amount0, amount1) = IUniswapV3Pool(pool).collect(governance, _TICK_LOWER, _TICK_UPPER, tokensOwed0, tokensOwed1);  }"

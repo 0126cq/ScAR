@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override returns (string memory) {        require(<mask0>, \"CosmoDoodle: URI query for nonexistent token\");        string memory base = baseURI();        return string(abi.encodePacked(base, tokenId.toString(), \".json\"));    }"

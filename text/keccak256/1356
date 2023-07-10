@@ -1,0 +1,1 @@
+"function _verify(        address _sender,        uint256 _tokenId,        bytes memory _signature    ) internal view returns (bool) {        return            <mask0>                .toEthSignedMessageHash()                .recover(_signature) == _signer;    }"

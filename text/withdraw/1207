@@ -1,0 +1,1 @@
+"function withdrawAll(Data storage _self, address _recipient) internal returns (uint256, uint256) {\t\tuint256 _withdrawAmount = _self.totalDeposited;\t\tif (_withdrawAmount > _self.totalValue()) {\t\t\t_withdrawAmount = _self.totalValue(); \t\t}\t\treturn _self.<mask0>;\t}"

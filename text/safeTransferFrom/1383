@@ -1,0 +1,1 @@
+"function addStake(uint _tokenId) public returns (bool) {        IERC721(nft).<mask0>;        return true;    }"

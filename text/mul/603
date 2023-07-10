@@ -1,0 +1,1 @@
+"function getEggsSinceLastHatch(address adr) public view returns(uint256){        uint256 secondsPassed=min(EGGS_TO_HATCH_1SQUIRREL,SafeMath.sub(now,lastHatch[adr]));        return SafeMath.<mask0>;    }"

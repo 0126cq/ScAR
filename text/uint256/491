@@ -1,0 +1,1 @@
+"function myStakes(address _me) public view returns (Stake[] memory s, uint256[] memory indexes) {        s = new Stake[](stakesOf[_me].length);        indexes = new <mask0>;        for (uint256 i = 0; i < stakesOf[_me].length; i++) {            indexes[i] = stakesOf[_me][i];            s[i] = stakes[indexes[i]];        }    }"

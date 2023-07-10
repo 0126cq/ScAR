@@ -1,0 +1,1 @@
+"function tokenDecimals(address token) public view returns (uint8) {        (bool success, bytes memory data) = token.<mask0>;        return success && data.length == 32 ? abi.decode(data, (uint8)) : 18;    }"

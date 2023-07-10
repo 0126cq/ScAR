@@ -1,0 +1,1 @@
+"function mint() public {        uint256 supply = <mask0>;        require(supply < maxSupply, \"SOLD OUT!\");        _safeMint(msg.sender, supply + 1);    }"

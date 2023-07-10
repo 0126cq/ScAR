@@ -1,0 +1,1 @@
+"function swapAndLiquify(uint256 tokensToSwap) private lockTheSwap {\t\tuint256 tokensHalf = tokensToSwap / 2;\t\tuint256 contractETHBalance = address(this).balance;\t\t<mask0>;\t\tuint256 ethSwapped = address(this).balance - contractETHBalance;\t\taddLiquidity(tokensHalf,ethSwapped);\t\temit SwapAndLiquify(tokensToSwap, tokensHalf, ethSwapped);\t}"

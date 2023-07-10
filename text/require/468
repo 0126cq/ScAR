@@ -1,0 +1,1 @@
+"function createGame(bytes32 hash) payable external returns (uint176 id) {        <mask0>;        id = encodeGameID(msg.sender, msg.value);        require(games[id] == 0, \"Game exists\");        games[id] = encodeGameData(1, address(0));        playerHashes[id + 1] = hash;        emit GameCreated(id, msg.sender, msg.value);    }"

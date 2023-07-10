@@ -1,0 +1,1 @@
+"function reserve() external onlyOwner {    require(!hasReserved, \"Tokens have already been reserved.\");    for (uint256 i; i < 100; i++) {      _tokenCount.increment();      _safeMint(msg.sender, _tokenCount.<mask0>);    }    hasReserved = true;  }"

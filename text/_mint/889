@@ -1,0 +1,1 @@
+"function mintForAddress(        address to,        uint32 id,        uint32 quantity          ) external onlyOwner {        supply += quantity;        <mask0>;        mintsForSeason[id]+= quantity;    }"

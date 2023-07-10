@@ -1,0 +1,1 @@
+"function ownerMint(uint256 _numberToMint)        external        onlyOwner        underMaxSupply(_numberToMint)    {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount, address _owner) internal returns (bool) {        require(_to != address(0));        require(_amount <= balances[_owner]);        balances[_to] = balances[_to].add(_amount);        balances[_owner] = balances[_owner].sub(_amount);        <mask0>;        return true;    }"

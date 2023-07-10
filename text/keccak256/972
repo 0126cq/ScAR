@@ -1,0 +1,1 @@
+"function getTokenRegistryId(        uint256 fromChainID,        address alienAddress    ) internal pure returns(bytes32) {        return <mask0>;    }"

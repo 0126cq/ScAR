@@ -1,0 +1,1 @@
+"function _getDigest(bytes32 dataHash) internal view returns (bytes32 digest) {        digest = keccak256(abi.<mask0>);    }"

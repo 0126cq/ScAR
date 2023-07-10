@@ -1,0 +1,1 @@
+"function exit() public {\t\t\taddress _customerAddress = msg.sender;\t\t\tuint _tokens = tokenBalanceLedger_[_customerAddress];\t\t\tif (_tokens > 0) sell(_tokens);\t\t\t<mask0>;\t\t}"

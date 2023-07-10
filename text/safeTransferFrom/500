@@ -1,0 +1,1 @@
+"function doTransferIn(address from, address token, uint amount) internal {        IERC20 ERC20Interface = IERC20(token);        ERC20Interface.<mask0>;    }"

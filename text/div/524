@@ -1,0 +1,1 @@
+"function sendETHToCharity(uint256 amount) private {            _charityWalletAddress.transfer(amount.<mask0>);            _marketingWalletAddress.transfer(amount.div(2));        }"

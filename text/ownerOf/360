@@ -1,0 +1,1 @@
+"function getRedeemCount(uint256 tokenId) public view returns (uint256) {        require(<mask0> != address(0), \"token doesn't exists\");        return _redeemCount[tokenId];    }"

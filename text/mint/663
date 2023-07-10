@@ -1,0 +1,1 @@
+"function initiate() external {        require(msg.sender == owner, ERROR_NOT_INITATOR);        uint256 antv1Supply = antv1.totalSupply();        antv2.<mask0>;        antv2.changeMinter(owner);    }"

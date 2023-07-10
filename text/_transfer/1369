@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public override returns (bool success) {        <mask0>;        return true;    }"

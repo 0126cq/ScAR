@@ -1,0 +1,1 @@
+"function decodeTransferEthMessage(        bytes calldata data    ) internal pure returns (TransferEthMessage memory) {        require(getMessageType(data) == MessageType.TRANSFER_ETH, \"Message type is not ETH transfer\");        return abi.<mask0>;    }"

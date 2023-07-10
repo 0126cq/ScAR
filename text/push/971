@@ -1,0 +1,1 @@
+"function LotteryCore(address _ktAddress) public {        bonusPool = _ktAddress;        dogCore = DogCoreInterface(_ktAddress);        CLottery memory _clottery;        _clottery.luckyGenes = [0,0,0,0,0,0,0];        _clottery.totalAmount = uint256(0);        _clottery.isReward = false;        _clottery.openBlock = uint256(0);        CLotteries.<mask0>;    }"

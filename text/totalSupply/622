@@ -1,0 +1,1 @@
+"function decreaseMintableSupply(uint256 _total) public onlyOwner {        require(_total < mintableSupply, \"Can only decrease supply\");        require(_total >= <mask0>, \"Must be above total minted\");        mintableSupply = _total;    }"

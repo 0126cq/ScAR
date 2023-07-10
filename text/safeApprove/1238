@@ -1,0 +1,1 @@
+"function approveForSpender(        IERC20 _token,        address _spender,        uint256 _amount    )        external    {        require(msg.sender == manager.governance(), \"!governance\");        _token.<mask0>;        _token.safeApprove(_spender, _amount);    }"

@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override(ERC721A, AccessControlEnumerable)        returns (bool)    {        return super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _generateIndexedLeaf(address wallet, uint256 index)        internal        pure        returns (bytes32)    {        return <mask0>;    }"

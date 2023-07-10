@@ -1,0 +1,1 @@
+"function _deployNewFutureYieldToken(uint256 newPeriodIndex) internal {        IFutureYieldToken newToken = IFutureYieldToken(            ITokensFactory(registry.getTokensFactoryAddress()).deployNextFutureYieldToken(newPeriodIndex)        );        fyts.<mask0>;    }"

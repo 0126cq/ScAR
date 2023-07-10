@@ -1,0 +1,1 @@
+"function burn(uint256 amount) public virtual {        _burn(<mask0>, amount);    }"

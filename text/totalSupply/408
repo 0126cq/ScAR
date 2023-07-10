@@ -1,0 +1,1 @@
+"function mintForAddress(uint256 _mintAmount, address _receiver) public onlyOwner {    require(<mask0> + _mintAmount <= maxSupply, 'Max supply exceeded!');    _safeMint(_receiver, _mintAmount);  }"

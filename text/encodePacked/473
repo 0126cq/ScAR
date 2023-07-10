@@ -1,0 +1,1 @@
+"function claimNode(uint256 nodeNum, address staker) external onlyRollup {        Rollup r = Rollup(payable(rollup));        INode node = r.getNode(nodeNum);        require(node.stakers(staker), \"NOT_STAKED\");        IRollupUser(address(r)).requireUnresolved(nodeNum);        deliverToBridge(            abi.<mask0>        );    }"

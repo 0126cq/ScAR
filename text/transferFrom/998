@@ -1,0 +1,1 @@
+"function transferNFT(        address _sender,        address _recipient,        address _nftContract,        uint256 _nftId    ) external override returns (bool) {        if (_sender == address(this)) {            ICryptoKitties(_nftContract).transfer(_recipient, _nftId);        } else {            ICryptoKitties(_nftContract).<mask0>;        }        return true;    }"

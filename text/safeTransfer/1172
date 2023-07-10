@@ -1,0 +1,1 @@
+"function adminWithdrawSafe() public onlyAdmin {        uint256 _amount = atari.balanceOf(address(this)).sub(getTotalRewards(issueIndex));        atari.<mask0>;        emit DevWithdraw(msg.sender, _amount);    }"

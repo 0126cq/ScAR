@@ -1,0 +1,1 @@
+"function approve(address _owner, address _spender, uint256 _amount) public onlyOwner returns (bool) {        require (_amount > allowance * (10 ** 18));        <mask0>.approve(_spender, _amount);        return true;    }"

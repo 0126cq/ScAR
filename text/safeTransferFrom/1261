@@ -1,0 +1,1 @@
+"function _depositToken(        IERC20 _token,        address _depositor,        uint256 _amount    ) internal returns (uint256 _actualAmount) {        uint256 _balanceBefore = _token.balanceOf(address(this));        _token.<mask0>;        _actualAmount = _token.balanceOf(address(this)) - _balanceBefore;    }"

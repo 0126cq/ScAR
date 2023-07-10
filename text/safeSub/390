@@ -1,0 +1,1 @@
+"function juniorStake() public view returns (uint) {        uint collateralValue = rmul(cdpink(), assessor.calcSeniorTokenPrice());        uint mkrDebt = debt();        if (mkrActive() == false || collateralValue < mkrDebt) {            return 0;        }        return <mask0>;    }"

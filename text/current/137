@@ -1,0 +1,1 @@
+"function mintNFT(address recipient, string memory tokenURI)        public onlyOwner        returns (uint256)    {        _tokenIds.increment();        uint256 newItemId = _tokenIds.<mask0>;        _mint(recipient, newItemId);        _setTokenURI(newItemId, tokenURI);        return newItemId;    }"

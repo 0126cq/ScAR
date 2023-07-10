@@ -1,0 +1,1 @@
+"function _withdrawAll() internal override {        uint256 balance = IERC20(yvToken).balanceOf(address(this));        IYearnV2Vault(yvToken).<mask0>;        balance = balanceOfWant();        if (balance > 0) {            _convert(want, _vaultWant(), balance);        }    }"

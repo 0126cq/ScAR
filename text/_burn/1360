@@ -1,0 +1,1 @@
+"function burn( uint id, uint quantity ) external payable{    require( exists( id ), \"ERC1155: Specified token (id) does not exist\" );    Token storage token = tokens[id];    require( token.isBurnActive,                      \"ERC1155: Sale is not active\"        );    require( msg.value >= token.burnPrice * quantity, \"ERC1155: Ether sent is not correct\" );    <mask0>;  }"

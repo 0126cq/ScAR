@@ -1,0 +1,1 @@
+"function _buildPath(address _from, address _WETH, address _to) internal pure returns (address[] memory _path)\t{\t\tif (_from == _WETH || _to == _WETH) {\t\t\t_path = new <mask0>;\t\t\t_path[0] = _from;\t\t\t_path[1] = _to;\t\t\treturn _path;\t\t} else {\t\t\t_path = new address[](3);\t\t\t_path[0] = _from;\t\t\t_path[1] = _WETH;\t\t\t_path[2] = _to;\t\t\treturn _path;\t\t}\t}"

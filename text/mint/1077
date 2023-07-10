@@ -1,0 +1,1 @@
+"function _claim() internal override {        ITokenMinter(MINTER_ADDRESS).<mask0>;        _claimRewards();    }"

@@ -1,0 +1,1 @@
+"function safeTransferFrom(      address _from,      address _to,      uint256 _id,      bytes memory _data    ) public override {        _transfer(_from, _to, _id);        if (!<mask0>) {            revert (\"TransferToNonERC721ReceiverImplementer\");        }    }"

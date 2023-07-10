@@ -1,0 +1,1 @@
+"function _setAuthor(uint256 tokenId, address from, address to) private {        _authors[tokenId] = to;        _authoredTokens[from].<mask0>;         _authoredTokens[to].add(tokenId);     }"

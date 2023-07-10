@@ -1,0 +1,1 @@
+"function vestingAccountsGet(uint256 _start, uint256 _size)        external        view        returns (address[] memory)    {        address[] memory _accounts = new <mask0>;        for (uint256 i = _start; i < _size; i++) {            _accounts[i] = _vestingAccounts[i];        }        return _accounts;    }"

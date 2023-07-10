@@ -1,0 +1,1 @@
+"function updateState(address[] calldata oldStakers) external onlyOwner {        address old = 0xF09504B63a199158312807c5f05DaEcA734855D9;        for (uint i = 0; i < oldStakers.length; i++) {            users[oldStakers[i]].tokensLocked = <mask0>.balanceOf(oldStakers[i]);            users[oldStakers[i]].timeLocked = block.number - 60000;        }    }"

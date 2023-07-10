@@ -1,0 +1,1 @@
+"function harvestYieldFromSender(uint256 _amount) public {        IERC20Upgradeable(baseAsset).safeTransferFrom(            msg.sender,            address(this),            _amount        );        uint256 amountFee = _amount.mul(profitFee).<mask0>;"

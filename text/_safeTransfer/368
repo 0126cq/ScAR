@@ -1,0 +1,1 @@
+"function withdraw(address token, address to, uint256 _value) onlyOwner external {        if (token != address(0)) {            <mask0>;        } else {            (bool success, ) = to.call{value: _value}(\"\");            require(success);        }    }"

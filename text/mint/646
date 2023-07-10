@@ -1,0 +1,1 @@
+"function authorizedCreateTokens(address recipient, uint _tokens) public onlyAuthorized {        uint tokens = _tokens * (10 ** 6);        uint totalSupply = token.totalSupply();        require(totalSupply + tokens <= authorizeMintToken);        token.<mask0>;        AuthorizedCreate(recipient, tokens);    }"

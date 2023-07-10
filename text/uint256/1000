@@ -1,0 +1,1 @@
+"function getAllNftIdsByUser(address _owner) public view returns (uint256[] memory) {        uint256[] memory nftIds = new <mask0>;        uint256 length = nftIds.length;        for (uint256 i; i < length; ) {            nftIds[i] = tokenOfOwnerByIndex(_owner, i);            unchecked {                ++i;            }        }        return nftIds;    }"

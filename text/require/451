@@ -1,0 +1,1 @@
+"function setLocationWithGAN(uint _id, string calldata _location) active external {      <mask0>;      GANLocationWithGAN[_id] = _location;   }"

@@ -1,0 +1,1 @@
+"function WhitelistAddressdisable(address _addr)    public  {    Whitelist.<mask0>;   emit AddressRemoved(_addr);  }"

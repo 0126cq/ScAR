@@ -1,0 +1,1 @@
+"function transferToUser(address _reserve, address payable _user, uint256 _amount)        external        onlyLendingPool    {        if (_reserve != EthAddressLib.ethAddress()) {            ERC20(_reserve).<mask0>;        } else {            (bool result, ) = _user.call.value(_amount).gas(50000)(\"\");            require(result, \"Transfer of ETH failed\");        }    }"

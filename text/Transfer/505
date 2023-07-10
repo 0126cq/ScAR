@@ -1,0 +1,1 @@
+"function CatsToken(address admin) public {\t\ttotalSupply_ = INITIAL_SUPPLY;\t\tbalances[msg.sender] = totalSupply_;\t\t<mask0>;\t\tadminAddr = admin;\t\tapprove(adminAddr, ADMIN_ALLOWANCE);\t}"

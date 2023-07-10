@@ -1,0 +1,1 @@
+"function transfer(TokenStorage storage self, address _to, uint _value) internal returns (bool success) {        self.balances[msg.sender] = self.balances[msg.sender].minus(_value);        self.balances[_to] = self.balances[_to].plus(_value);        <mask0>;        return true;    }"

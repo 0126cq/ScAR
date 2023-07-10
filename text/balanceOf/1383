@@ -1,0 +1,1 @@
+"function recover(ERC20 _token) public {\t\t_onlyAvatar();\t\trequire(\t\t\t_token.transfer(address(avatar), _token.<mask0>),\t\t\t\"recover transfer failed\"\t\t);\t}"

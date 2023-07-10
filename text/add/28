@@ -1,0 +1,1 @@
+"function claimDividends(address account, uint256 until) public {        uint256 owed = getDividendsOwed(account, until);        if (owed > 0) {            _balances[account] = _balances[account].<mask0>;        }        lastDisbursalIndex[account] = until;    }"

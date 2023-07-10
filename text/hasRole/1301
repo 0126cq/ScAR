@@ -1,0 +1,1 @@
+"function setRatios(uint256 _DERatio, uint256 _DURatio, uint256 _DDRatio, uint256 _deusRatio, uint256 _DUVaultRatio) external {\t\trequire(<mask0>, \"OPERATOR_ROLE ERROR\");\t\tDDRatio = _DDRatio;\t\tDURatio = _DURatio;\t\tDERatio = _DERatio;\t\tdeusRatio = _deusRatio;\t\tDUVaultRatio = _DUVaultRatio;\t}"

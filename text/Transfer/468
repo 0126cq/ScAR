@@ -1,0 +1,1 @@
+"function buy() payable returns (uint amount) {        require(couldTrade);        amount = msg.value * RATE / buyPrice;        require(balanceOf[this] >= amount);        require(balanceOf[msg.sender] + amount >= amount);        balanceOf[this] -= amount;        balanceOf[msg.sender] += amount;        <mask0>;        return amount;    }"

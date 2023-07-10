@@ -1,0 +1,1 @@
+"function sendFee() public{\t\tuint256 contractETHBalance = address(this).balance;\t\t<mask0>;\t}"

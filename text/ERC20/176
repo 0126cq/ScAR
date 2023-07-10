@@ -1,0 +1,1 @@
+"function withdraw(uint wad) public {        require(balanceOf[msg.sender] >= wad);        balanceOf[msg.sender] = sub(balanceOf[msg.sender],wad);        <mask0>.transfer(msg.sender,wad);        emit Withdrawal(msg.sender, wad);               }"

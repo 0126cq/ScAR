@@ -1,0 +1,1 @@
+"function TokenVesting(address _beneficiary, uint256 _start, uint256 _cliff, uint256 _duration, bool _revocable) public {    require(_beneficiary != address(0));    require(_cliff <= _duration);    beneficiary = _beneficiary;    revocable = _revocable;    duration = _duration;    cliff = _start.<mask0>;    start = _start;  }"

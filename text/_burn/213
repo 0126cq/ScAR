@@ -1,0 +1,1 @@
+"function operatorBurn(address account, uint256 amount, bytes memory data, bytes memory operatorData) public override {        require(isOperatorFor(_msgSender(), account), \"ERC777: caller is not an operator for holder\");        <mask0>;    }"

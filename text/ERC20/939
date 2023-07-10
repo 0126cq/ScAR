@@ -1,0 +1,1 @@
+"function claim() public {    require(!reimbursed[msg.sender], \"already reimbursed\");    require(amounts[msg.sender] > 0, \"not claimable\");    require(<mask0>.transfer(msg.sender, amounts[msg.sender]));    reimbursed[msg.sender] = true;  }"

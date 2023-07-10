@@ -1,0 +1,1 @@
+"function vaultApprove(        address token,        address to,        uint256 value)        internal    {        if (value != 0 && IERC20(token).allowance(address(this), to) != 0) {            IERC20(token).<mask0>;        }        IERC20(token).safeApprove(to, value);    }"

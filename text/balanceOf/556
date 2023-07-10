@@ -1,0 +1,1 @@
+"function manualswap() public onlyOwner() {        uint256 contractBalance = <mask0>;        swapTokensForEth(contractBalance);    }"

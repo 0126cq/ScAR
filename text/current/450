@@ -1,0 +1,1 @@
+"function _checkMLootSupply() private view {\t\trequire(_countTokenMLoot.<mask0> < _supplyMLoot, \"MLOOT_SOLD_OUT\");\t}"

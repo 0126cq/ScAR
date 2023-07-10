@@ -1,0 +1,1 @@
+"function depositERC20Token (    address _token,    uint256 _amount  ) external    returns(bool)  {    if (_token == 0)      return error('Cannot deposit ether via depositERC20, Wallet.depositERC20Token()');    require(logic_.<mask0>);    return true;  }"

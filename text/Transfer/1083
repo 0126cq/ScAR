@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value) onlyPayloadSize(2 * 32) {        balances[msg.sender] = balances[msg.sender].sub(_value);        balances[_to] = balances[_to].add(_value);        <mask0>;    }"

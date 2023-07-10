@@ -1,0 +1,1 @@
+"function perDAI(address token) public view returns(uint) {        address[] memory path = new address[](3);        path[0] = token;        path[1] = WETH;        path[2] = DAI;        return uniswap.getAmountsOut(10**uint256(<mask0>.decimals()), path)[2];    }"

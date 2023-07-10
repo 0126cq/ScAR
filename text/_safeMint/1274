@@ -1,0 +1,1 @@
+"function mint(uint256 tokenId) public payable virtual nonReentrant {        require(!onlyNHolders, \"NFlat:OPEN_MINTING_DISABLED\");        require(tokenId > MAX_N_TOKEN_ID, \"NFlat:INVALID_ID\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function buyOne() external payable {        require(saleActive, \"SALE_CLOSED\");        require(!disableSalesWithETH, \"NO_ETH_SALES\");        require(price == msg.value, \"INCORRECT_ETH\");        require(maxMintForOne > _owners.length, \"EXCEED_MAX_SALE_SUPPLY\");        require(maxPerAddress == 0 || <mask0> < maxPerAddress, \"EXCEED_MAX_PER_USER\");        _mintMin();    }"

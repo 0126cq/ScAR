@@ -1,0 +1,1 @@
+"function setParter(address _parter, uint256 _amount) public onlyOwner {        require(parterAcc.length <= 49);        parterAcc.<mask0>;        frozenBalances[_parter] = _amount;        SetParter(_parter, _amount);    }"

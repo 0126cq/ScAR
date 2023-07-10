@@ -1,0 +1,1 @@
+"function makeCall(address _target, bytes _data) external payable onlyOwner returns (bool) {        return _target.call.<mask0>(_data);    }"

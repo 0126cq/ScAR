@@ -1,0 +1,1 @@
+"function withdraw_tokens_for(address _addy) {\t\tfor (uint8 i = contributors[_addy].rounds; i < rounds; i++) {\t\t\t<mask0>;\t\t}\t}"

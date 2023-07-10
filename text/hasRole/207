@@ -1,0 +1,1 @@
+"function burn(address from, uint256 amount) public {        require(<mask0>, \"Caller is not an owner\");        _burn(from, amount);    }"

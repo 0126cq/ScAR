@@ -1,0 +1,1 @@
+"function _addAllowedAssets(address[] memory _assets) internal {        for (uint256 i = 0; i < _assets.length; i++) {            address asset = _assets[i];            require(!assetAllowlist[asset], \"Asset already added\");            allowedAssets.<mask0>;            assetAllowlist[asset] = true;            emit AllowedAssetAdded(asset);        }    }"

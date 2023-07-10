@@ -1,0 +1,1 @@
+"function getDSAWallets(uint len) public view returns(address[] memory) {        address[] memory wallets = new <mask0>;        for (uint i = 0; i < len; i++) {            ListInterface list = ListInterface(0x4c8a1BEb8a87765788946D6B19C6C6355194AbEb);            wallets[i] = list.accountAddr(uint64(i+1));        }        return wallets;    }"

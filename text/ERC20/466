@@ -1,0 +1,1 @@
+"function rewardToken() public pure returns (ERC20 rewardToken_) {        return <mask0>;    }"

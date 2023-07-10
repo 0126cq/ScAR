@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public override updateReward(msg.sender) {    require(_amount > 0, \"Cannot withdraw 0\");    super.<mask0>;    emit Withdrawn(msg.sender, _amount);  }"

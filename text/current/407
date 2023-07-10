@@ -1,0 +1,1 @@
+"function award (address _to) external  {    require(!paused, \"the contract is paused\");    require(            msg.sender == address(SideQuestMoose),            \"Caller not authorized\"        );        _tokenId.increment();        uint256 tokenId = _tokenId.<mask0>;        _safeMint(_to, tokenId);        emit MiniMooseMinted(tokenId);    }"

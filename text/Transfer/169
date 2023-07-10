@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyOwner canMint public returns (bool) {\t\ttotalSupply = totalSupply.add(_amount);\t\tbalances[_to] = balances[_to].add(_amount);\t\tMint(_to, _amount);\t\t<mask0>;\t\treturn true;\t}"

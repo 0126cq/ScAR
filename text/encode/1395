@@ -1,0 +1,1 @@
+"function etherBalances(address[] calldata addresses) external view returns (Result[] memory results) {    results = new Result[](addresses.length);    for (uint256 i = 0; i < addresses.length; i++) {      results[i] = Result(true, abi.<mask0>);    }  }"

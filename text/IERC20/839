@@ -1,0 +1,1 @@
+"function _withdrawSome(uint256 _amount) internal returns (uint256) {    uint256 wantBefore = <mask0>.balanceOf(address(this));    IBaseRewardPool(baseRewardPool).withdrawAndUnwrap(_amount, false);    uint256 wantAfter = IERC20(want).balanceOf(address(this));    return wantAfter.sub(wantBefore);  }"

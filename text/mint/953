@@ -1,0 +1,1 @@
+"function bulkMint(address[] memory accounts, uint256[] memory values)    public  {    require(accounts.length == values.length, \"Accounts array and values array don't have the same length\");    for (uint i = 0; i<accounts.length; i++) {      <mask0>;    }  }"

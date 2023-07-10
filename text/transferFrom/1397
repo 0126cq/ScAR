@@ -1,0 +1,1 @@
+"function manualTransfer(ERC721AQueryable _nft, address _to, uint _tokenId) public onlyOwner {        require(_nft.ownerOf(_tokenId) == address(this), \"Contract does not hold this token\");        _nft.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 _value) public {        if (balances[msg.sender] < _value) return;            balances[msg.sender] = <mask0>;        burn = safeAdd(burn,_value);        emit Burn(msg.sender, _value);    }"

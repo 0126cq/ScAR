@@ -1,0 +1,1 @@
+"function initializeModule(IStreamingFeeModule.FeeState memory _settings)        external        mutualUpgrade(manager.operator(), manager.methodologist())    {        bytes memory callData = abi.<mask0>;        invokeManager(address(streamingFeeModule), callData);    }"

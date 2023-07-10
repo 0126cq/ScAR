@@ -1,0 +1,1 @@
+"function exitRewardPool() internal {      uint256 bal = rewardPoolBalance();      if (bal != 0) {          IMasterChef(rewardPool()).<mask0>;      }  }"

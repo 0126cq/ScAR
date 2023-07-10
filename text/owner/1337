@@ -1,0 +1,1 @@
+"function isActive() public view virtual override returns (bool) {        return anchor.<mask0> == address(this);    }"

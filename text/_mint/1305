@@ -1,0 +1,1 @@
+"function claimBlootMFInitialReward(uint256 nftId) public {        require(BlootMF.ownerOf(nftId) ==  msg.sender, \"You don't hold this NFT in your wallet\");        require(blootMFClaims[nftId] == false, \"You have already claimed this reward\");        blootMFClaims[nftId] = true;        nftRewardCounter += 1;        <mask0>;    }"

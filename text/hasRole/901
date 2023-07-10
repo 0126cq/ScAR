@@ -1,0 +1,1 @@
+"function moveVotingDelegates(    address _source,    address _destination,    uint256 _amount) public returns (bool) {    require(<mask0>, \"UPGT_ERROR: ROLE_TEST Required\");    return _moveVotingDelegates(_source, _destination, _amount);  }"

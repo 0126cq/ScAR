@@ -1,0 +1,1 @@
+"function totalEthSupply() public view returns (uint256) { return ethSupply.<mask0>; }"

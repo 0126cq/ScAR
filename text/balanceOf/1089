@@ -1,0 +1,1 @@
+"function reclaimParsecCredit() external onlyOwner {    require(firstAuctionConcluded, \"The first auction must have been concluded.\");    _sendTo(owner, parsecCreditContract.<mask0>);  }"

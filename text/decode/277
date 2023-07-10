@@ -1,0 +1,1 @@
+"function _safeTransferFrom(address erc20TokenAddress, address from, address to, uint256 value) private {        bytes memory returnData = _call(erc20TokenAddress, abi.encodeWithSelector(IERC20(erc20TokenAddress).transferFrom.selector, from, to, value));        require(returnData.length == 0 || abi.<mask0>, 'TRANSFERFROM_FAILED');    }"

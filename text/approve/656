@@ -1,0 +1,1 @@
+"function approveBulk(address[] spender, uint[] tokens) public    {        require(spender.length == tokens.length);        for (uint i = 0; i < spender.length; i++)        {            <mask0>;        }    }"

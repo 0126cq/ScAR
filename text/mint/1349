@@ -1,0 +1,1 @@
+"function exit(address user, uint256 amount) external override {        if (live == 0) revert Moneta__exit_notLive();        codex.transferCredit(msg.sender, address(this), amount);        fiat.<mask0>;        emit Exit(user, amount);    }"

@@ -1,0 +1,1 @@
+"function claim() external nonReentrant {        uint256 claimable = balanceOf(msg.sender);        require(claimable > 0, \"nothing to claim\");        totalClaimed[msg.sender] = totalClaimed[msg.sender].add(claimable);        require(<mask0>.transfer(msg.sender, claimable));        emit Claim(msg.sender, claimable);    }"

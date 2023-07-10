@@ -1,0 +1,1 @@
+"function withdraw()    external    onlyOwner  {    (bool success, ) = payable(theAgency).<mask0>;    require(success, \"Withdraw failed\");  }"

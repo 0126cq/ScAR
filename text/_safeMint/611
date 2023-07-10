@@ -1,0 +1,1 @@
+"function claim(uint256 tokenId) public nonReentrant {        require(tokenId > 0 && tokenId < 7900, \"Token ID invalid\");        <mask0>;    }"

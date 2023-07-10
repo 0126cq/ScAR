@@ -1,0 +1,1 @@
+"function _mintMultiple(uint _amount) private {        for(uint i = 0; i < _amount; i++) {            uint id = SALE_OFFSET + _publicSale.<mask0>;            _publicSale.increment();            _safeMint(msg.sender, id);        }    }"

@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public updateEpochRewards {        require(amount > 0, \"Cannot withdraw 0\");        updateClaimUserRewardAndBooster(msg.sender);        super.<mask0>;        updateBoostBalanceAndSupply(msg.sender, 0);        stakeToken.safeTransfer(msg.sender, amount);    }"

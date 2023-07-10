@@ -1,0 +1,1 @@
+"function _getCurrentPrice() internal view returns (uint256) {        if (<mask0> < EARLY_PERKS) {            return earlyPrice;        } else {            return latePrice;        }    }"

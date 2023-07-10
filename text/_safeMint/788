@@ -1,0 +1,1 @@
+"function reservemint(address receiver)public{        require(!reserve,\"can't call this function\");        for (uint256 i = 0; i < mintdropzReserve; i++) <mask0>;        reserve = true;    }"

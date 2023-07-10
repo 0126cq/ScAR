@@ -1,0 +1,1 @@
+"function tokenURI(Params memory params, IPaletteProvider paletteProvider) external view returns (string memory) {        string memory output = Base64.encode(bytes(generateSVG(params, paletteProvider)));        string memory json = Base64.<mask0>;        output = string(abi.encodePacked('data:application/json;base64,', json));        return output;    }"

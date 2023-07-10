@@ -1,0 +1,1 @@
+"function getReward() public {      uint256 reward = earned(_msgSender());      if (reward > 0) {          rewards[_msgSender()] = 0;          startStaking[_msgSender()] = getBlockNumber();          uFFYI.<mask0>;      }  }"

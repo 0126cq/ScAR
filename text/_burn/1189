@@ -1,0 +1,1 @@
+"function controllerBurn(address _user, uint256 _amount) external virtual override onlyController {    <mask0>;  }"

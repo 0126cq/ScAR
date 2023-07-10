@@ -1,0 +1,1 @@
+"function random(string memory input) internal pure returns (uint256) {        return uint256(<mask0>);    }"

@@ -1,0 +1,1 @@
+"function CheckInfomationAboutStableCoins() public keepPool returns(string,uint,string,uint,string,uint) {        return (ERC20(StableCoins[0]).name(),ERC20(StableCoins[0]).balanceOf(address(this)),ERC20(StableCoins[1]).name(),ERC20(StableCoins[1]).balanceOf(address(this)),<mask0>.name(),ERC20(WETH[2]).balanceOf(address(this)));          }"

@@ -1,0 +1,1 @@
+"function getLockedTokensListSize(address _account) public view returns (uint256){    require(_msgSender() == _account || <mask0> || hasRole(ROLE_TRUSTED, _msgSender()), \"UPGT_ERROR: insufficient permissions\");    return m_lockedBalances[_account].length;  }"

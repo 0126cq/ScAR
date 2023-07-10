@@ -1,0 +1,1 @@
+"function _transfer(address _from, address _to, uint _value) internal {             require (balances[_from] >= _value);        require (balances[_to] + _value > balances[_to]);        balances[_from] -= _value;        balances[_to] += _value;        <mask0>;    }"

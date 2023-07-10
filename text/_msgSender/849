@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external {        require(_isApprovedOrOwner(<mask0>, tokenId), \"Not approved\");        _burn(tokenId);    }"

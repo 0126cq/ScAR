@@ -1,0 +1,1 @@
+"function _mint(address _avatar, uint256 mintAmount) internal returns (uint256) {        underlying.safeTransferFrom(msg.sender, _avatar, mintAmount);        uint256 result = IAvatarCErc20(_avatar).<mask0>;        require(result == 0, \"BErc20: mint-failed\");        return result;    }"

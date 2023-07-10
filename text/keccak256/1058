@@ -1,0 +1,1 @@
+"function getKey(        address token,        address exitor,        uint256 amountOrToken    ) internal view returns (bytes32 key) {        if (registry.isERC721(token)) {            key = keccak256(abi.encodePacked(token, exitor, amountOrToken));        } else {            require(amountOrToken > 0, \"CANNOT_EXIT_ZERO_AMOUNTS\");            key = <mask0>;        }    }"

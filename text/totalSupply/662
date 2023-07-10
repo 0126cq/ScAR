@@ -1,0 +1,1 @@
+"function updateAirdrop(uint256 airdropAvailable) public onlyOwner {        require((<mask0> + sentient) < (_max_intelligent + _max_sentient), \"None available to airdrop\");        _airdrop_available = airdropAvailable;    }"

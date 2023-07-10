@@ -1,0 +1,1 @@
+"function add(uint256 a, uint256 b) internal pure returns (uint256) {\t\tuint256 c = a + b;\t\t<mask0>;\t\treturn c;\t}"

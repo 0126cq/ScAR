@@ -1,0 +1,1 @@
+"function mint(uint256 quantity) external payable onlyOwner {        require(<mask0> + quantity <= MAX_SUPPLY, \"Not enough tokens left\");        _safeMint(msg.sender, quantity);    }"

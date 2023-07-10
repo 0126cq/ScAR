@@ -1,0 +1,1 @@
+"function deposit(uint amount) public returns (bool) {        IERC20(RESERVE).<mask0>;        uint _shares = 0;        if (reserves() == 0) {            _shares = amount;        } else {            _shares = amount.mul(totalSupply).div(reserves());        }        _mint(msg.sender, _shares);        emit Deposited(msg.sender, _shares, amount);        return true;    }"

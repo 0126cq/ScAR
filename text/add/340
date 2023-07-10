@@ -1,0 +1,1 @@
+"function mint(address to, uint amount) public returns (bool) {        require(isMinter(msg.sender));        if (amount.add(supply) > mintLimit) {            return false;        }         supply = supply.add(amount);        balances[to] = balances[to].<mask0>;        emit Transfer(address(0), to, amount);        return true;    }"

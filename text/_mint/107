@@ -1,0 +1,1 @@
+"function giveAway(address _wallet, uint16 _amount) public {        require(approvedManagers[msg.sender] == true);        require(giveAwayMinted + _amount <= maxGiveAway, \"Out of limit\");        uint16 fromToken = tokensMinted + giveAwayMinted + 1;        giveAwayMinted += _amount;        for (uint16 i = 0; i < _amount; i++) {            <mask0>;        }    }"

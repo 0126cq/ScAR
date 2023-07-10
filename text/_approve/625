@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    ) public override returns (bool) {        _transfer(sender, recipient, amount);        <mask0>;        return true;    }"

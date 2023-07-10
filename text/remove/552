@@ -1,0 +1,1 @@
+"function remove(address _vesting) external onlyOwner {        bool success = vestings.<mask0>;        require(success, \"Register: Not found\");        emit RemoveVesting(msg.sender, _vesting);    }"

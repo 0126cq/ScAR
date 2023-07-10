@@ -1,0 +1,1 @@
+"function verifyProofForBlock(    uint256 _blockId,    bytes32[] memory _proof,    bytes memory _key,    bytes memory _value  ) public view returns (bool) {    return squashedRoots[_blockId].verifySquashedRoot(_proof, <mask0>);  }"

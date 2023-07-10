@@ -1,0 +1,1 @@
+"function genericCall(address _contract, bytes memory _data, uint256 _value)    public    onlyOwner    returns(bool success, bytes memory returnValue) {        (success, returnValue) = _contract.call.<mask0>(_data);        emit GenericCall(_contract, _data, _value, success);    }"

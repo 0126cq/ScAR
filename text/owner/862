@@ -1,0 +1,1 @@
+"function _hasLimits(address from, address to) internal view returns (bool) {        return from != owner()            && to != <mask0>            && !_liquidityHolders[to]            && !_liquidityHolders[from]            && to != DEAD            && to != address(0)            && from != address(this);    }"

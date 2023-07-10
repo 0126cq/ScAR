@@ -1,0 +1,1 @@
+"function donateToWhale(uint256 amount)     internal     {        whale.call.<mask0>;        totalDonated += amount;        emit Donate(amount, whale, msg.sender);    }"

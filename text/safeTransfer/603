@@ -1,0 +1,1 @@
+"function withdrawERC20(address token, address recipient) public onlyOwner {        IERC20(token).<mask0>;    }"

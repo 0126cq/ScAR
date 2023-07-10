@@ -1,0 +1,1 @@
+"function payOracleFeesErc20(address erc20Address, FixedPoint.Unsigned calldata amount) external override {        IERC20 erc20 = IERC20(erc20Address);        require(amount.isGreaterThan(0), \"Amount sent can't be zero\");        erc20.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function burn(address who, uint32 amount) external {        require(msg.sender == _burner, \"ShitPlunger: ?\");        <mask0>;    }"

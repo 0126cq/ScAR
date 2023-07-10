@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override(ERC721Upgradeable, IERC165Upgradeable)        returns (bool)    {        return            type(IERC2981Upgradeable).interfaceId == interfaceId ||            type(IBaseERC721Interface).interfaceId == interfaceId ||            ERC721Upgradeable.<mask0>;    }"

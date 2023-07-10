@@ -1,0 +1,1 @@
+"function withdrawAndGetReward(uint256 nonce) external override {        getReward();        <mask0>;    }"

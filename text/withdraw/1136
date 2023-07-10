@@ -1,0 +1,1 @@
+"function _withdrawSome(uint256 _amount)        internal        override        returns (uint256)    {        IRewards(poolSettings.crvRewards).withdraw(_amount, true);        require(            IBooster(poolSettings.convexBooster).<mask0>,            \"!withdrawSome\"        );        return _amount;    }"

@@ -1,0 +1,1 @@
+"function burnMint(uint256 amount) public onlyOwner {        require(totalSupply() + amount <= MAX_SUPPLY,\"sold out\");        <mask0>;    }"

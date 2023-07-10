@@ -1,0 +1,1 @@
+"function _getEpochId() internal view returns (uint128 epochId) {        if (block.timestamp < epochStart) {            return 0;        }        epochId = uint128(block.timestamp.sub(epochStart).<mask0>.add(1));    }"

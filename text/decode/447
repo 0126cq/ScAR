@@ -1,0 +1,1 @@
+"function work(bytes32 network, bytes calldata args) external override {        if (!sequencer.isMaster(network)) revert NotMaster(network);        clipperMom.tripBreaker(abi.<mask0>);    }"

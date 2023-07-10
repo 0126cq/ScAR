@@ -1,0 +1,1 @@
+"function read(bytes memory _code) public view returns (address) {        bytes32 hash = <mask0>;        return cache[hash];    }"

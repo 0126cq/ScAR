@@ -1,0 +1,1 @@
+"function WhitelistMint(uint256 _mintAmount) public payable mintCompliance(_mintAmount) {    require(!WhitelistPaused, \"The contract is paused!\");    require(msg.value >= whitelistCost * _mintAmount, \"Insufficient funds!\");    require(supply.<mask0> + _mintAmount <= 500, \"Whitelist supply exceeded!\");    _mintLoop(msg.sender, _mintAmount);  }"

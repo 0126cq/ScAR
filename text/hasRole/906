@@ -1,0 +1,1 @@
+"function recoverSigner(bytes32 _digest, uint8 _ecv, bytes32 _ecr, bytes32 _ecs) public view returns (address) {    require(<mask0>, \"UPGT_ERROR: ROLE_TEST Required\");    return _recoverSigner(_digest, _ecv, _ecr, _ecs);  }"

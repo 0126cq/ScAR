@@ -1,0 +1,1 @@
+"function claim() external nonReentrant _updateReward {        uint256 owed = balance[_msgSender()];        balance[_msgSender()] = 0;        upload.<mask0>;    }"

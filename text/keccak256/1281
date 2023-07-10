@@ -1,0 +1,1 @@
+"function getEthSignedAtomicOrderHash(RedeemOrder calldata _order) internal view returns (bytes32) {        uint256 chId;        assembly {            chId := chainid()        }        return <mask0>.toEthSignedMessageHash();    }"

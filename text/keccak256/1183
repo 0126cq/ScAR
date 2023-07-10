@@ -1,0 +1,1 @@
+"function memcmp(bytes memory a, bytes memory b) internal pure returns(bool) {        return (a.length == b.length) && (keccak256(a) == <mask0>);    }"

@@ -1,0 +1,1 @@
+"function withdrawAll() public {\t\tuint256 _deposited = depositedOf(msg.sender);\t\tif (_deposited > 0) {\t\t\t<mask0>;\t\t}\t}"

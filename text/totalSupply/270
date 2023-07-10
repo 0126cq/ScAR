@@ -1,0 +1,1 @@
+"function adminMint(address[] calldata recipient) external onlyOwner{\tuint256 s = <mask0>;\trequire(s + recipient.length <= maxSupply, \"Too many\" );\tfor(uint i = 0; i < recipient.length; ++i){\t_safeMint(recipient[i], s++, \"\" );\t}\tdelete s;\t\t}"

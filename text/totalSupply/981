@@ -1,0 +1,1 @@
+"function _getErc20TotalSupply(ERC20Upgradeable erc20Token) private view returns (uint256) {        return erc20Token.<mask0>;    }"

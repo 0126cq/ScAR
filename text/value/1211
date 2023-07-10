@@ -1,0 +1,1 @@
+"function fetchData(address oracleId, uint256 timestamp) public payable nonReentrant enoughEtherProvided(oracleId, 1) {        _registerQuery(oracleId, timestamp);        IOracleId(oracleId).fetchData.<mask0>;    }"

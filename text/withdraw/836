@@ -1,0 +1,1 @@
+"function gameDidEnd(address payable _address) external payable {    BattleRoyale battle = BattleRoyale(_address);    delete eliminationState[_address];    uint256 balance = battle.getCurrentBalance();    battle.<mask0>;    battleQueue.remove(_address);  }"

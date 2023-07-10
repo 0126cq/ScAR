@@ -1,0 +1,1 @@
+"function safeApprove(ERC20 token, address spender, uint256 value) internal {        _callOptionalReturn(token, abi.<mask0>);        _callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, value));    }"

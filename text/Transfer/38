@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) returns(bool success) {\t\tif (balanceOf[_from] < _value) throw; \t\tif (balanceOf[_to] + _value < balanceOf[_to]) throw; \t\tif (_value > allowance[_from][msg.sender]) throw; \t\tbalanceOf[_from] -= _value; \t\tbalanceOf[_to] += _value; \t\tallowance[_from][msg.sender] -= _value;\t\t<mask0>;\t\treturn true;\t}"

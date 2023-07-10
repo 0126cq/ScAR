@@ -1,0 +1,1 @@
+"function depositCollateral(        BalanceSheetInterface balanceSheet,        FyTokenInterface fyToken,        uint256 collateralAmount    ) public {        fyToken.collateral().<mask0>;        depositCollateralInternal(balanceSheet, fyToken, collateralAmount);    }"

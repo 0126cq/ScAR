@@ -1,0 +1,1 @@
+"function getFirmFromAuthority(Data storage self, address authorityAddress) internal view returns (string issuerFirm) {    bytes32 id = keccak256(abi.<mask0>);    return self.Storage.getString(id);  }"

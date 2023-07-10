@@ -1,0 +1,1 @@
+"function claimMintingPoolReward(uint256 rank) public {\t\trequire(!genesisPhase);\t\taddress claimer = msg.sender;\t\trequire(balanceOf(claimer, rank) > 0);\t\tuint256 reward = rankClaims[rank];\t\trequire(<mask0>.transfer(claimer, reward));\t\trankClaims[rank] = 0;\t\temit ClaimedMintingPoolReward(rank, claimer);\t}"

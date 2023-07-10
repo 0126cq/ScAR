@@ -1,0 +1,1 @@
+"function getBridgeKey(IERC20Mintable fromToken, IERC20Mintable toToken, uint256 fromChain, uint256 toChain) public pure returns (bytes32) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function mintInitial() public onlyOwner {        for(uint i = 0; i < EARLY_ADOPTERS.length; i++){            <mask0>;        }    }"

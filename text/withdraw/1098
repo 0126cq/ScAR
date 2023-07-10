@@ -1,0 +1,1 @@
+"function _withdrawNxm()      internal      returns (uint256 amount)    {        IPooledStaking pool = IPooledStaking( _getPool() );        amount = pool.stakerMaxWithdrawable( address(this) );        pool.<mask0>;    }"

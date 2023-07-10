@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external onlyRole(BRIDGER_ROLE) {        require(_isApprovedOrOwner(_msgSender(), tokenId), \"Caller is not owner nor approved\");        <mask0>;    }"

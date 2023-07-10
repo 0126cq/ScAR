@@ -1,0 +1,1 @@
+"function mint(address _account, uint256 _amount) external {        uint256 _toMint = _amount.mul(1e18).div(getExchangeRate());        underlying.safeTransferFrom(msg.sender, address(this), _amount);        <mask0>;    }"

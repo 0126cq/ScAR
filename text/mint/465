@@ -1,0 +1,1 @@
+"function _claim(uint amount) internal returns (uint) {        uint _strike = calc(amount);        uint _expiry = block.timestamp + OPTION_EXPIRY;        options.push(option(amount, _strike, _expiry, false));        oKP3R.<mask0>;        emit Created(msg.sender, amount, _strike, _expiry, nextIndex);        return nextIndex++;    }"

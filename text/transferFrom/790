@@ -1,0 +1,1 @@
+"function migrateFunds(address[] memory _cTokens, address _account) private {        for (uint32 i = 0; i < _cTokens.length; i++) {            CToken cToken = CToken(_cTokens[i]);            require(cToken.<mask0>, \"LibCompound: failed to transfer CETHER\");               }    }"

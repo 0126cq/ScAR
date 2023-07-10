@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    )        public        override        whenNotPaused        isBlackedListed(sender, recipient)        returns (bool)    {        isTimeLimited(msg.sender, recipient);        return super.<mask0>;    }"

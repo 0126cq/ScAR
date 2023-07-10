@@ -1,0 +1,1 @@
+"function _permanentLock() internal virtual whenNotLocked {        _permanentlyLocked = true;        emit PermanentlyLocked(<mask0>);    }"

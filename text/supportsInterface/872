@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721RedeemBase, IERC165) returns (bool) {        return interfaceId == type(IERC721BurnRedeem).interfaceId || interfaceId == type(IERC1155Receiver).interfaceId            || interfaceId == type(IERC721Receiver).interfaceId || super.<mask0>;    }"

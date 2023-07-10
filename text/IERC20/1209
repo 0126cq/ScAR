@@ -1,0 +1,1 @@
+"function initialize(address _usdx) public initializer {        __ReentrancyGuard_init_unchained();        __Context_init_unchained();        __Ownable_init_unchained();        usdx = <mask0>;        require(usdx.approve(address(this), type(uint256).max));    }"

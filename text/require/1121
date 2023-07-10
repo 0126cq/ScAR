@@ -1,0 +1,1 @@
+"function ProcessPendingWithdrawal(address toAddress,uint amount) public returns (bool) {        <mask0>;        toAddress.transfer(amount);        emit Withdrawal(toAddress, amount);         return true;    }"

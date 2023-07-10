@@ -1,0 +1,1 @@
+"function getConduit(bytes32 conduitKey)        external        view        override        returns (address conduit, bool exists)    {        conduit = address(            uint160(                uint256(                    <mask0>                )            )        );        exists = (conduit.codehash == _CONDUIT_RUNTIME_CODE_HASH);    }"

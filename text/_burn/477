@@ -1,0 +1,1 @@
+"function withdraw(uint256 _share) external override {        uint256 totalShares = totalSupply();        uint256 shareInRuler = _share * ruler.balanceOf(address(this)) / totalShares;        <mask0>;        ruler.safeTransfer(msg.sender, shareInRuler);        emit Withdraw(msg.sender, _share, shareInRuler);    }"

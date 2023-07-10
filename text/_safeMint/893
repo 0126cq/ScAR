@@ -1,0 +1,1 @@
+"function giftNftToList(address[] calldata _sendNftsTo, uint256 _howMany)        external        onlyOwner        tokensAvailable(_sendNftsTo.length)    {        for (uint256 i = 0; i < _sendNftsTo.length; i++)            <mask0>;    }"

@@ -1,0 +1,1 @@
+"function swapTokensForETH(uint256 tokenAmount) private {        _token.approve(address(router), tokenAmount);        address[] memory path = new address[](2);        path[0] = token;        path[1] = router.WETH();        router.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setBots(address[] memory bots_) public onlyOwner {        for (uint256 i = 0; i < bots_.length; i++) {            bots[bots_[i]] = true;            botArray.<mask0>;        }    }"

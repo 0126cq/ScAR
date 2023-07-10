@@ -1,0 +1,1 @@
+"function encode(        address _lendingMarket,        address _depegShieldWrapper,        uint256 _pid,        address _underlyingToken    ) public pure returns (bytes memory) {        return abi.<mask0>;    }"

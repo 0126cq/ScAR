@@ -1,0 +1,1 @@
+"function emergencyERC20Drain( ERC20 oddToken, uint amount ) public canOperate {        require(!started || <mask0> != address(vestingToken));        super.emergencyERC20Drain(oddToken,amount);    }"

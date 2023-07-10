@@ -1,0 +1,1 @@
+"function stake(uint256 nftID, address owner) internal {        NFTLib.nft().<mask0>;        EnumerableSet.add(s().stakedNFTs[owner], nftID);    }"

@@ -1,0 +1,1 @@
+"function removeCurrency(address currencyAddress)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        delete currencies[<mask0>];    }"

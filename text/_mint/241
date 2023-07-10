@@ -1,0 +1,1 @@
+"function mint(    uint256 _projectId,    address _account,    uint256 _amount  ) external override onlyOwner {    _projectId;     return <mask0>;  }"

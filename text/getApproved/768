@@ -1,0 +1,1 @@
+"function canBuy(uint256 tokenId) public view returns (uint256) {        if (!auctions[tokenId].open && sellBidPrice[tokenId]>0 && sellBidPrice[tokenId]>0 && <mask0> == address(this)) {            return sellBidPrice[tokenId];        } else {            return 0;        }    }"

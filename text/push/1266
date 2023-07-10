@@ -1,0 +1,1 @@
+"function addUser(address _user) internal {\t\tif (!isAdded[_user]) {            users.<mask0>;            monthlyLimit[_user] = 5000000000000;            isAdded[_user] = true;        }\t}"

@@ -1,0 +1,1 @@
+"function indexedTokenURI(uint256 rTokenId)        internal        view        returns (string memory)    {        return            string(                abi.encodePacked(<mask0>, \"/\", rTokenId.toString(), \".json\")            );    }"

@@ -1,0 +1,1 @@
+"function _getCurrentRandomness(uint256 initialRandomness, uint256 i) private view returns (uint256) {        return uint256(keccak256(abi.<mask0>));    }"

@@ -1,0 +1,1 @@
+"function claimERCtoknes(IERC20 tokenAddress) external {        tokenAddress.transfer(feeaddress, tokenAddress.<mask0>);    }"

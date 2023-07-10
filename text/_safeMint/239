@@ -1,0 +1,1 @@
+"function mintOwner(address _to, uint _mintAmount) public mintCompliance(_mintAmount) onlyOwner {        <mask0>;    }"

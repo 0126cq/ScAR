@@ -1,0 +1,1 @@
+"function setDev(address newDev) public {    <mask0>;    devGovernance = newDev;  }"

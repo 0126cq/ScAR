@@ -1,0 +1,1 @@
+"function delegateAndExecuteOnce(address delegatee, address payable target, bytes calldata data) external payable {        getAvatar(msg.sender);        delegateAvatar(delegatee);        dummyCaller.execute.<mask0>(target, data);        revokeDelegateAvatar(delegatee);    }"

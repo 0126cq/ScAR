@@ -1,0 +1,1 @@
+"function _unpause() override internal {        super._unpause();        IERC20(CPOOL).safeApprove(address(swapRouter), uint256(-1));        IERC20(wantAddress).<mask0>;        IERC20(wantAddress).safeApprove(lendingPool, uint256(-1));        IERC20(lendingPool).safeApprove(poolFactory, uint256(-1));    }"

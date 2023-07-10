@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual {        require(<mask0>, \"ERC721: caller is not token owner nor approved\");        _burn(tokenId);    }"

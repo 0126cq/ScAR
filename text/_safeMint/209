@@ -1,0 +1,1 @@
+"function _internalMint(uint quantity) internal {        require(_totalMinted() + quantity <= maxSupply, \"Attempting to mint over max supply\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual {    require(_isApprovedOrOwner(_msgSender(), tokenId), \"not token owner\");    <mask0>;  }"

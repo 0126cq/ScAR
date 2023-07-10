@@ -1,0 +1,1 @@
+"function hash(ReleaseTokens request) internal pure returns (bytes32) {    return keccak256(      abi.encodePacked(        RELEASE_TOKENS_TYPEHASH,        <mask0>    ));  }"

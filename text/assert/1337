@@ -1,0 +1,1 @@
+"function updateJoinedCrowdsalesMultiple(address[] addrs) public onlyOwner {    <mask0>;    assert(joinedCrowdsalesLen == 0);    assert(addrs.length <= joinedCrowdsalesLenMax);    for (uint8 iter = 0; iter < addrs.length; iter++) {      setJoinedCrowdsales(addrs[iter]);    }  }"

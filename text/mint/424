@@ -1,0 +1,1 @@
+"function mint(address tokenOwner, uint tokens, bool lockAccount) public returns (bool success) {        return data.<mask0>;    }"

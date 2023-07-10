@@ -1,0 +1,1 @@
+"function mintByRole(address to, uint256 count) external {        require(<mask0>, \"NOT_MINTER_ROLE\");        _mintTo(to, count);    }"

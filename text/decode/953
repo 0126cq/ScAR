@@ -1,0 +1,1 @@
+"function getCash() external view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"getCash()\"));        return abi.<mask0>;    }"

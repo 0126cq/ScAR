@@ -1,0 +1,1 @@
+"function setMinter(address minter) public onlyOwner {        require(minter != address(0), \"ZildFinanceCoin: minter is the zero address\");        require(_balances[minter] == 0, \"ZildFinanceCoin: minter has been initialized\");        <mask0>;        emit SetMinter(minter);    }"

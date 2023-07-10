@@ -1,0 +1,1 @@
+"function derivedBalance(address account) public view returns (uint) {        uint _balance = _balances[account];        uint _derived = _balance.mul(40).div(100);        uint _adjusted = (_totalSupply.mul(DILL.balanceOf(account)).div(DILL.<mask0>)).mul(60).div(100);        return Math.min(_derived.add(_adjusted), _balance);    }"

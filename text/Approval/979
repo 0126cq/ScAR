@@ -1,0 +1,1 @@
+"function approve(address guy, uint wad) public returns (bool) {        _approvals[msg.sender][guy] = wad;        <mask0>;        return true;    }"

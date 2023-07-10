@@ -1,0 +1,1 @@
+"function _isAllowed(      bytes32 root,      address account,      bytes32[] calldata proof  ) external pure returns (bool) {    bytes32 leaf = <mask0>;    if (MerkleProof.verify(proof, root, leaf)) {      return true;    }    return false;  }"

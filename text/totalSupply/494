@@ -1,0 +1,1 @@
+"function mint() external payable nonReentrant {        require(saleIsActive, \"Sale not active\");        require(msg.value >= mintPrice, \"More eth required\");        require(<mask0> < totalTokens, \"Sold out\");        require(balanceOf(_msgSender()) <= 100, \"Only 100 per wallet\");        _safeMint(_msgSender(), nextTokenId());    }"

@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) public override notBlacklisted(sender) returns (bool) {        return super.<mask0>;    }"

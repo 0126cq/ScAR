@@ -1,0 +1,1 @@
+"function removeProfitAccount(address account) public onlyAdministrator {        _profitAccountSet.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function balanceOf(address _holder) public view returns (uint256 balance) {        uint256 lockedBalance = 0;        for(uint256 i = 0; i < lockInfo[_holder].length ; i++ ) {            lockedBalance = lockedBalance.add(lockInfo[_holder][i].balance);        }        return super.<mask0>.add(lockedBalance);    }"

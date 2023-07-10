@@ -1,0 +1,1 @@
+"function join(address usr, uint wad) external note {        require(live == 1, \"GemJoin/not-live\");        require(int(wad) >= 0, \"GemJoin/overflow\");        vat.slip(ilk, usr, int(wad));        require(gem.<mask0>, \"GemJoin/failed-transfer\");    }"

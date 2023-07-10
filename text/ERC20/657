@@ -1,0 +1,1 @@
+"function approve0xProxy(address _tokenAddr, uint _amount) internal {        if (_tokenAddr != KYBER_ETH_ADDRESS) {            <mask0>.safeApprove(address(ERC20_PROXY_0X), _amount);        }    }"

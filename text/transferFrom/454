@@ -1,0 +1,1 @@
+"function buyDollarsWithFCM(uint256 _amountFCM) external nonReentrant() {        FCM.<mask0>;        stakedErc20Tokens[address(FCM)] += _amountFCM;        _mint(msg.sender, _amountFCM * DollarsPerFCM / 100000);        emit FCMConvertedToDollars(msg.sender, _amountFCM * DollarsPerFCM / 100000, _amountFCM);    }"

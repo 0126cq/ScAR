@@ -1,0 +1,1 @@
+"function isRegisteredAuthority(Data storage self, address authorityAddress) internal view returns (bool registered) {    bytes32 id = <mask0>;    return self.Storage.getBool(id);  }"

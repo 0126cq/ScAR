@@ -1,0 +1,1 @@
+"function mintNFT(address to) internal {        totalMinted++;        userMintCount[_msgSender()]+=1;        _tokenIdCounter.increment();        uint256 tokenId = _tokenIdCounter.current();        <mask0>;    }"

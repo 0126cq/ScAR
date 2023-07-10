@@ -1,0 +1,1 @@
+"function canAuction(uint256 tokenId) external view returns (bool) {        return (<mask0>==msg.sender && !auctions[tokenId].open && sellBidPrice[tokenId]==0);    }"

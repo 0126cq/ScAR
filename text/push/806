@@ -1,0 +1,1 @@
+"function addOmniWallet(address _account) public validAddress(_account) onlyOwner() returns (bool) {\t\trequire(!isOmniWallet(_account), \"ERC20 OMN: wallet is already\");\t\tomni_wallets.<mask0>;\t\temit InOmniWallet(_account);\t\treturn true;\t}"

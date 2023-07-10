@@ -1,0 +1,1 @@
+"function transferAllFrom(address to, uint[] ids) public payable {        for (uint i = 0; i < ids.length; i++) {            <mask0>;        }    }"

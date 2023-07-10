@@ -1,0 +1,1 @@
+"function setHarvestFee(uint256 _harvestFee) external onlyStrategist {        <mask0>;        harvestFee = _harvestFee;        emit ChangedHarvestFee(_harvestFee);    }"

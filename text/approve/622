@@ -1,0 +1,1 @@
+"function multiDeposit(uint256 amount) public {        bond.<mask0>;        barn.deposit(amount);        barn.deposit(amount);        barn.deposit(amount);    }"

@@ -1,0 +1,1 @@
+"function depositToken(address token, uint amount) public {     if (token==0) revert();    if (blackERC20[token]) revert();    if (!Token(token).<mask0>) revert();    tokens[token][msg.sender] = safeAdd(tokens[token][msg.sender], amount);    emit Deposit(token, msg.sender, amount, tokens[token][msg.sender]);  }"

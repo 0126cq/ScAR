@@ -1,0 +1,1 @@
+"function tokensOfOwner(address _owner) external view returns (uint256[]) {    uint256 tokenCount = ownershipCounts[_owner];    if (tokenCount == 0) {      return new <mask0>;    }    uint256[] memory result = new uint256[](tokenCount);    for (uint256 i = 0; i < tokenCount; i++) {      result[i] = ownerBank[_owner][i];    }    return result;  }"

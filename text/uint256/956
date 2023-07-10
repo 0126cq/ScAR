@@ -1,0 +1,1 @@
+"function getUserShards(address user) public view returns (uint256[] memory) {      uint256[] memory shards = new <mask0>;      for (uint256 i; i < points.length; i++) {        uint256 shardIndex = i * ITEMS_PER_WEEK + SHARDS_INDEX;        shards[i] = _tokenToUserBalance[shardIndex][user];      }      return shards;    }"

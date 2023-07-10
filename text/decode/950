@@ -1,0 +1,1 @@
+"function borrowBalanceStored(address account) public view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"borrowBalanceStored(address)\", account));        return abi.<mask0>;    }"

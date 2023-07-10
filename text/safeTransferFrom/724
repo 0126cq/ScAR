@@ -1,0 +1,1 @@
+"function executeSell(        address seller,        address buyer,        bytes calldata data    ) external onlyRole(DELEGATION_CALLER) returns (bool) {        Pair[] memory pairs = decode(data);        for (uint256 i = 0; i < pairs.length; i++) {            Pair memory p = pairs[i];            _assertAmount(p);            p.token.<mask0>;        }        return true;    }"

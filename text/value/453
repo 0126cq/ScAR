@@ -1,0 +1,1 @@
+"function withdrawFunds() {\t\tif (0 == this.balance) throw;\t\tif (!devETHDestination.call.<mask0>()) throw;\t}"

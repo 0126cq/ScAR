@@ -1,0 +1,1 @@
+"function infiniteApproveLinkRegistry(address registry, IERC20 token) public onlyOwner {        if (            token.allowance(                address(this),                registry            ) != 0        ) {            token.safeApprove(                registry,                0            );        }        token.<mask0>;    }"

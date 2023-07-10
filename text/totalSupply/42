@@ -1,0 +1,1 @@
+"function isFreeMint() public view returns (bool) {    return <mask0> < FREE_MINT_MAX;  }"

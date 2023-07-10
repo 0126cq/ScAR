@@ -1,0 +1,1 @@
+"function issue(address benefactor, uint amount) onlyOwner {    if(issued[benefactor]) throw;    token.<mask0>;    issued[benefactor] = true;    issuedCount += amount;  }"

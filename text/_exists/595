@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId)        public        view        override        returns (string memory)    {        require(<mask0>, \"URI query for nonexistent token\");        return            isMetadataRevealed ? super.tokenURI(tokenId) : unrevealedTokenURI;    }"

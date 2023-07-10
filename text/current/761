@@ -1,0 +1,1 @@
+"function fulfillRandomWords(uint256, uint256[] memory randomWords) internal override {    randomizations[counter.current()-1].randomNumber = randomWords[0];    randomizations[counter.<mask0>-1].isFulfilled = true;  }"

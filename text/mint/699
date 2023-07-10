@@ -1,0 +1,1 @@
+"function _claimRewards() private {        LiquidityGaugeV2(GAUGE).claim_rewards();        Minter(MINTER).<mask0>;        uint ldoBal = IERC20(LDO).balanceOf(address(this));        if (ldoBal > 0) {            _swapToEth(LDO, ldoBal);        }        uint crvBal = IERC20(CRV).balanceOf(address(this));        if (crvBal > 0) {            _swapToEth(CRV, crvBal);        }    }"

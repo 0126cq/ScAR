@@ -1,0 +1,1 @@
+"function mint(        address to,        uint256 editionIndex,        uint256 numPieces    ) public onlyOwner    {        <mask0>;    }"

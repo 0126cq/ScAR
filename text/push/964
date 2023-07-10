@@ -1,0 +1,1 @@
+"function createGroup(address _owner, bytes calldata _metadata) external returns (uint256 groupId) {        Group memory newGroup = Group(_owner, _metadata);        groups.<mask0>;        emit GroupCreated(_owner, groups.length.sub(1), _metadata);        return groups.length.sub(1);    }"

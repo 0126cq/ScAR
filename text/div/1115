@@ -1,0 +1,1 @@
+"function getMaxDebt(uint _cdpId, bytes32 _ilk) public virtual view returns (uint) {        uint price = getPrice(_ilk);        (, uint mat) = spotter.ilks(_ilk);        (uint collateral, uint debt) = getCdpInfo(manager, _cdpId, _ilk);        return sub(sub(<mask0>, debt), 10);    }"

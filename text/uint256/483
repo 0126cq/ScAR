@@ -1,0 +1,1 @@
+"function shuffle(uint8[] memory arr) internal view {        for (uint256 i = 0; i < arr.length; i++) {            uint256 n = i + <mask0> % (arr.length - i);            uint256 temp = arr[n];            arr[n] = arr[i];            arr[i] = uint8(temp);        }    }"

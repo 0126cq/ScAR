@@ -1,0 +1,1 @@
+"function initialize(string calldata _clientName, address _initialAuthority)    external  {    require(!initialized, \"Already initialized\");    require(keccak256(abi.encodePacked(_clientName)) != keccak256(abi.encodePacked(\"\")), \"Missing client name\");    isAuthority[_initialAuthority] = true;    authorities.<mask0>;    clientName = _clientName;    initialized = true;  }"

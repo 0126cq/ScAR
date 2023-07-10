@@ -1,0 +1,1 @@
+"function hashEIP712Domain(EIP712Domain memory _eip712Domain) public view returns (bytes32) {    require(<mask0>, \"UPGT_ERROR: ROLE_TEST Required\");    return _hash(_eip712Domain);  }"

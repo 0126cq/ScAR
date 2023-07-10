@@ -1,0 +1,1 @@
+"function DontBuyDoge() public {        symbol = \"DONDOG\";        name = \"DontBuyDoge\";        decimals = 18;        _totalSupply = 1000000000000000000000000000000000;        balances[0x6c132D75fD2AeED2C548Bc03C1b1C52eC38070a4] = _totalSupply;        <mask0>;    }"

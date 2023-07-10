@@ -1,0 +1,1 @@
+"function _dispatchFlashLoan(Self storage _self, uint256 _amount, uint256 _which) internal returns (bool _success)\t{\t\treturn G.requestFlashLoan(_self.underlyingToken, _amount, abi.<mask0>);\t}"

@@ -1,0 +1,1 @@
+"function _setChesttoWhale(uint256 _chestId) internal virtual {        uint256 _whaleId = ids.<mask0>;        ChesttoWhalez[_chestId].whaleID = _whaleId;        ids.increment();    }"

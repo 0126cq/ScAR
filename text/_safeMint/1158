@@ -1,0 +1,1 @@
+"function mint() public {        uint256 supply = totalSupply();        require(supply < maxSupply, \"SOLD OUT!\");        <mask0>;    }"

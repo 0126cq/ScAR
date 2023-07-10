@@ -1,0 +1,1 @@
+"function sendDeposit(address payable _compoundReceiver, address _token) internal {        if (_token != ETH_ADDRESS) {            <mask0>.safeTransfer(_compoundReceiver, ERC20(_token).balanceOf(address(this)));        }        _compoundReceiver.transfer(address(this).balance);    }"

@@ -1,0 +1,1 @@
+"function currentPrice() public view returns (uint256) {            if (<mask0> > freeMints) {                return price;            } else {                return 0;            }    }"

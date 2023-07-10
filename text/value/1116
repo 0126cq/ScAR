@@ -1,0 +1,1 @@
+"function payFund() payable public {        uint256 ethToPay = SafeMath.sub(totalEthFundCollected, totalEthFundRecieved);        require(ethToPay > 0);        totalEthFundRecieved = SafeMath.add(totalEthFundRecieved, ethToPay);        if(!giveEthFundAddress.call.<mask0>.gas(400000)()) {           totalEthFundRecieved = SafeMath.sub(totalEthFundRecieved, ethToPay);        }    }"

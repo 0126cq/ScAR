@@ -1,0 +1,1 @@
+"function nextToken() internal virtual ensureAvailability returns (uint256) {        uint256 token = _tokenCount.<mask0>;        _tokenCount.increment();        return token;    }"

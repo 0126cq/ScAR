@@ -1,0 +1,1 @@
+"function getFirstLiquidity(uint256 wethAmount) public view returns (uint256) {    uint64 ratioE8 = calcs.ratioE8();    if (ratioE8 >= 10**8) {      return wethAmount;    }    return wethAmount.<mask0>.div(10**8);  }"

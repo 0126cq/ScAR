@@ -1,0 +1,1 @@
+"function addExtraReward(address _reward) external override returns (bool) {        require(msg.sender == owner, \"ConvexRewardPool: !authorized addExtraReward\");        require(_reward != address(0), \"!reward setting\");        extraRewards.<mask0>;        return true;    }"

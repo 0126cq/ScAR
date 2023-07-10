@@ -1,0 +1,1 @@
+"function claimReputation() public {\t\tStakersDistribution sd = StakersDistribution(\t\t\tnameService.getAddress(\"GDAO_STAKERS\")\t\t);\t\tif (address(sd) != address(0)) {\t\t\taddress[] memory contracts = new <mask0>;\t\t\tcontracts[0] = (address(this));\t\t\tsd.claimReputation(_msgSender(), contracts);\t\t}\t}"

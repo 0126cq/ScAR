@@ -1,0 +1,1 @@
+"function burn(address tokenOwner, uint256 typeId, uint256 amount)        public nonReentrant override(ERC1155Burnable) {       require(msg.sender == burnAAddress,\"not allowed to burn\");       <mask0>;    }"

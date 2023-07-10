@@ -1,0 +1,1 @@
+"function withdrawTokens(address tokenAddress) external onlyOwner() {    <mask0>.transfer(msg.sender, IERC20(tokenAddress).balanceOf(address(this)));  }"

@@ -1,0 +1,1 @@
+"function _burnFrom(address account, uint256 amount) internal {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function release(IERC20 token) public {        require(            block.timestamp >= releaseTime(),            \"HLTPs: Current time is earlier than the release time\"        );        uint256 amount = token.balanceOf(address(this));        require(amount > 0, \"HLTPs: No rewards to be released\");        token.<mask0>;    }"

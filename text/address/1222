@@ -1,0 +1,1 @@
+"function claimMoar(address holder, MToken[] memory mTokens) public {        address[] memory holders = new <mask0>;        holders[0] = holder;        claimMoar(holders, mTokens, true, true);    }"

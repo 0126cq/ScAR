@@ -1,0 +1,1 @@
+"function _exchangeAfter(address tokenJ, uint256 balanceBefore)        internal        returns (uint256)    {        uint256 balance = _getBalance(tokenJ, type(uint256).max);        if (balance <= balanceBefore) {            _revertMsg(\"_exchangeAfter\", \"after <= before\");        }        if (tokenJ != ETH_ADDRESS) _updateToken(tokenJ);        return balance.<mask0>;    }"

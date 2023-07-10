@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override        returns (bool)    {        return            interfaceId == 0x2a55205a || super.<mask0>;    }"

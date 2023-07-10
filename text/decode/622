@@ -1,0 +1,1 @@
+"function safeTransfer(IERC20Token _token, address _to, uint256 _value) internal {       (bool success, bytes memory data) = address(_token).call(abi.encodeWithSelector(TRANSFER_FUNC_SELECTOR, _to, _value));        require(success && (data.length == 0 || abi.<mask0>), 'ERR_TRANSFER_FAILED');    }"

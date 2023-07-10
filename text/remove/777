@@ -1,0 +1,1 @@
+"function removeOracle(IOracle oracle) external onlyOwner {        require(_oracles.<mask0>, \"Unknown oracle\");        emit OracleRemoved(oracle);    }"

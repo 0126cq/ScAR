@@ -1,0 +1,1 @@
+"function skim() external override onlyAuthorized {        IERC20(want).<mask0>;        emit Skim();    }"

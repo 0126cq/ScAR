@@ -1,0 +1,1 @@
+"function tokenMintsLeft(address _operator)    external    view    returns (uint256 _remaining)  {    _remaining =      AstroGrill.getTotalClaims(_operator) +      RickstroGrill.getTotalClaims(_operator) -      stats[MINTS][_operator].<mask0>;  }"

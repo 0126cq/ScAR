@@ -1,0 +1,1 @@
+"function mint() public nonReentrant {    require(saleIsActive, \"Sale not active\");    require(<mask0> < MAX_SUPPLY, \"Exceeds max supply\");    _safeMint(_msgSender(), totalSupply());    supplyCounter.increment();  }"

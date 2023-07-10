@@ -1,0 +1,1 @@
+"function emergencyWithdraw(address _to) external whenPause() onlyOwner() {        uint balance = IERC20(nfta).balanceOf(address(this));        <mask0>.transfer(_to, balance);    }"

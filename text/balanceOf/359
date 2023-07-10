@@ -1,0 +1,1 @@
+"function withdrawForeignTokens(address _tokenContract) onlyOwner public returns (bool) {        ForeignToken token = ForeignToken(_tokenContract);        uint256 amount = token.<mask0>;        return token.transfer(owner, amount);    }"

@@ -1,0 +1,1 @@
+"function add(string memory version, address vault) public {    bool added = vaults[msg.sender][version].<mask0>;    if (added) {      emit NewVault(msg.sender, version, vault);    }  }"

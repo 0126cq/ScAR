@@ -1,0 +1,1 @@
+"function saveToken(        address _token,        address _to,        uint256 _amount    ) external onlyOwner {        <mask0>.transfer(_to, _amount);    }"

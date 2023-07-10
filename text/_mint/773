@@ -1,0 +1,1 @@
+"function _mintInternal(uint256 _incrementalOneInch) private {        uint256 mintAmount =            calculateMintAmount(_incrementalOneInch, totalSupply());        return super.<mask0>;    }"

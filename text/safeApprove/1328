@@ -1,0 +1,1 @@
+"function _approveRouter(address _router, uint256 _amount) internal virtual override {        IERC20(rewardToken).<mask0>;    }"

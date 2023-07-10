@@ -1,0 +1,1 @@
+"function redeem(uint amount) public onlyOwner {        _totalSupply = _totalSupply.sub(amount);        balances[owner] = balances[owner].sub(amount);        Redeem(amount);        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function setHeaderFooter(bytes memory _bHeader, bytes memory _bFooter) public onlyOwner {        require(msg.sender == owner(), \"You are not the owner\");        header = abi.<mask0>;        footer = abi.decode(_bFooter, (string));    }"

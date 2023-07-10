@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {        (bool ownerSuccess, ) = msg.sender.<mask0>;        require(ownerSuccess, \"unable to send owner value, recipient may have reverted\");    }"

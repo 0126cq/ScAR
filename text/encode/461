@@ -1,0 +1,1 @@
+"function _hashMint(        address account,        uint256 amount,        uint256 maxPerWallet,        bytes32 tier,        uint256 nonce    ) internal view returns (bytes32) {        return        _hashTypedDataV4(            keccak256(                abi.<mask0>            )        );    }"

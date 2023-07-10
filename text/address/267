@@ -1,0 +1,1 @@
+"function _swapTokensForCurrency(uint256 tokensAmount) private {        address[] memory path = new <mask0>;        path[0] = address(this);        path[1] = dexRouter.WETH();        _approve(address(this), address(dexRouter), tokensAmount);        dexRouter.swapExactTokensForETHSupportingFeeOnTransferTokens(tokensAmount, 0, path, address(this), block.timestamp);    }"

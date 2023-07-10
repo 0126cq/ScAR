@@ -1,0 +1,1 @@
+"function _pairDeposit(    address _vault,    address _underlying,    address _pair,    uint    _amount  ) internal {    IERC20(_underlying).<mask0>;    ILendingPair(_pair).deposit(_vault, _underlying, _amount);    pairDeposits[_pair] = _balanceWithPendingInterest(_vault, _underlying, _pair);  }"

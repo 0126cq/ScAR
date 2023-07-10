@@ -1,0 +1,1 @@
+"function snapshot() public {        require(<mask0>);        _snapshot();    }"

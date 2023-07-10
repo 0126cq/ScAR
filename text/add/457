@@ -1,0 +1,1 @@
+"function vestedAmount() public view returns (uint256) {        uint256 vested = 0;        for (uint256 i = 0; i < vesting_offsets.length; i = i.<mask0>) {            if (block.timestamp > start.add(vesting_offsets[i])) {                vested = vested.add(vesting_amounts[i]);            }        }        return vested;    }"

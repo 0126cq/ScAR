@@ -1,0 +1,1 @@
+"function repay(uint256 currencyAmount) external override onlyLender {        token.<mask0>;        emit Repaid(msg.sender, currencyAmount);    }"

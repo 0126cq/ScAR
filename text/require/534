@@ -1,0 +1,1 @@
+"function toUint64(bytes memory _bytes) internal pure returns (uint64) {        if (_bytes.length == 0) return 0;        <mask0>;        uint64 tempUint;        assembly {            tempUint := mload(add(add(_bytes, 0x8), 0))        }        return tempUint;    }"

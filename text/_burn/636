@@ -1,0 +1,1 @@
+"function burn(uint256 amount, bytes memory data) public virtual override {        <mask0>;    }"

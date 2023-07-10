@@ -1,0 +1,1 @@
+"function getParent(bytes32 _left, bytes32 _right)        public        pure        returns (bytes32)    {        return keccak256(abi.<mask0>);    }"

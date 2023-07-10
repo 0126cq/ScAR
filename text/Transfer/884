@@ -1,0 +1,1 @@
+"function _transfer(address _from, address _to, uint256 _ColorId) internal {        ColorIdToOwner[_ColorId] = _to;                <mask0>;    }"

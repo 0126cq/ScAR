@@ -1,0 +1,1 @@
+"function transferToken(address beneficiary, uint256 tokens) onlyOwner whenNotPaused public {    require(ICOEndTime > now);    tokens = SafeMath.mul(tokens,1 ether);    require(remainingPublicSupply >= tokens);    remainingPublicSupply = SafeMath.sub(remainingPublicSupply,tokens);    token.<mask0>;  }"

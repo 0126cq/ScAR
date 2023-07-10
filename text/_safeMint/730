@@ -1,0 +1,1 @@
+"function adminMint(uint amount_, address receiver_) external onlyOwner {        require(_mintedEvent + amount_ <= EVENT_SUPPLY, \"max event supply reached\");        require(totalSupply() + amount_ <= MAX_SUPPLY, \"max regular supply reached\");        _mintedEvent = _mintedEvent + amount_;        <mask0>;    }"

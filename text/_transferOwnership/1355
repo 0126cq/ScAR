@@ -1,0 +1,1 @@
+"function acceptOwnership() public virtual {        if(msg.sender != pendingOwner) revert CallerNotPendingOwner();        address newOwner = pendingOwner;        <mask0>;        pendingOwner = address(0);        emit NewPendingOwner(newOwner, address(0));    }"

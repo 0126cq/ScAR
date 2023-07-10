@@ -1,0 +1,1 @@
+"function claimRewards() external {        stakingPool.getReward();        ERC20 rewardToken = <mask0>;        rewardToken.safeTransfer(rewards, rewardToken.balanceOf(address(this)));    }"

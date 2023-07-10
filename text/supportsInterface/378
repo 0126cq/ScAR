@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public override(IERC165, ERC165) view returns (bool) {        return interfaceId == type(INFTExtension).interfaceId || super.<mask0>;    }"

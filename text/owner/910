@@ -1,0 +1,1 @@
+"function initOwnable() internal {        require(<mask0> == address(0), \"ICHIOwnable: already initialized\");        _transferOwnership(msg.sender);    }"

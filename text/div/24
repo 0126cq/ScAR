@@ -1,0 +1,1 @@
+"function swapFromEther(address userAddress,uint amount) public{        require(msg.sender==SRC);        balanceOf[userAddress] = add(balanceOf[userAddress],<mask0>);        emit Deposit(msg.sender, amount);        emit SwapFromEther(msg.sender, amount);    }"

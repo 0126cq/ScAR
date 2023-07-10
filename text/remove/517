@@ -1,0 +1,1 @@
+"function del(map storage _map, bytes4  _key)\tinternal returns (bool)\t{\t\t_map.keyset.<mask0>;\t\tdelete _map.values1[_key];\t\tdelete _map.values2[_key];\t\treturn true;\t}"

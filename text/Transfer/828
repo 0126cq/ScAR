@@ -1,0 +1,1 @@
+"function NamCoin(address _fundsWallet) public {        fundsWallet = _fundsWallet;        totalSupply_ = crowdsaleSupply + tokenContractSupply;        balances[fundsWallet] = crowdsaleSupply;        <mask0>;        balances[this] = tokenContractSupply;        Transfer(0x0, this, tokenContractSupply);    }"

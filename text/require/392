@@ -1,0 +1,1 @@
+"function withdraw() external {        <mask0>;        uint balance = address(this).balance;        payable(beneficiaryAddress).transfer(balance);    }"

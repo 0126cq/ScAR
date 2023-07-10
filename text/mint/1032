@@ -1,0 +1,1 @@
+"function mint(uint256 tokenId, bytes32[] memory merkleProof) public {        bytes32 leafHash = keccak256(abi.encodePacked(msg.sender, tokenId));        require(            MerkleProof.verify(merkleProof, merkleRoot, leafHash),            \"Invalid Proof\"        );        elfNFT.<mask0>;    }"

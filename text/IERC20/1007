@@ -1,0 +1,1 @@
+"function recover(    address _token,    address _to,    uint _amount  ) external nonReentrant {    require(msg.sender == betaBank, 'recover/not-BetaBank');    if (_amount == type(uint).max) {      _amount = <mask0>.balanceOf(address(this));    }    IERC20(_token).safeTransfer(_to, _amount);  }"

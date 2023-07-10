@@ -1,0 +1,1 @@
+"function _takeDev(uint256 tDev) private {        uint256 currentRate =  _getRate();        uint256 rDev = tDev.<mask0>;        _rOwned[address(this)] = _rOwned[address(this)].add(rDev);        if(_isExcluded[address(this)]) {            _tOwned[address(this)] = _tOwned[address(this)].add(tDev);        }    }"

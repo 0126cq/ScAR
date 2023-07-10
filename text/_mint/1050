@@ -1,0 +1,1 @@
+"function mintTwo() public payable nonReentrant {    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function buyPublic(uint256 _mintAmount)    external    payable    mintCompliance(_mintAmount)  {    require(!publicSalePaused, \"Public minting is paused.\");    require(msg.value >= (PRICE * _mintAmount), \"Insufficient funds!\");    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function mintInternal(address _to, uint256 _amount) internal canMint returns (bool) {        require(totalSupply_.add(_amount) <= maxTokensToMint);        totalSupply_ = totalSupply_.add(_amount);        balances[_to] = balances[_to].add(_amount);        Mint(_to, _amount);        <mask0>;        return true;    }"

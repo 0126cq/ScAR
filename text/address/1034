@@ -1,0 +1,1 @@
+"function getProtectedTokens()        public        view        virtual        override        returns (address[] memory)    {        address[] memory protectedTokens = new <mask0>;        protectedTokens[0] = want;        return protectedTokens;    }"

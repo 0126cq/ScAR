@@ -1,0 +1,1 @@
+"function ResetBot(address addr) public BotPower returns (bool) {        <mask0>;        bot = addr;        return true;    }"

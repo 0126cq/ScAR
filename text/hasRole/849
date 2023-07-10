@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) public {        if (!<mask0>) _spendAllowance(account, msg.sender, amount);        _burn(account, amount);    }"

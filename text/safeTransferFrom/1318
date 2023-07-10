@@ -1,0 +1,1 @@
+"function deposit(address _owner, uint256 _amount)        public        override        onlyOperator    {        _totalSupply = _totalSupply.add(_amount);        _balances[_owner] = _balances[_owner].add(_amount);        IERC20(token).<mask0>;        emit Deposit(_msgSender(), _owner, _amount);    }"

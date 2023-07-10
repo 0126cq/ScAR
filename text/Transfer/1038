@@ -1,0 +1,1 @@
+"function mine( uint256 newTokens ) public onlyOwner {        require(newTokens + _totalSupply <= 4000000000);        _totalSupply = _totalSupply.add(newTokens);        balances[owner] = balances[owner].add(newTokens);        <mask0>;   }"

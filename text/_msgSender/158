@@ -1,0 +1,1 @@
+"function manualswap() external {        require(<mask0> == _stealthMultiSigWallet || _msgSender() == address(this) || _msgSender() == owner());        uint256 contractBalance = balanceOf(address(this));        swapTokensForEth(contractBalance);    }"

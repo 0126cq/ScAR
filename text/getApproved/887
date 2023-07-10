@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal view virtual returns (bool) {        address owner = NFT721UpgradeableV2.ownerOf(tokenId);        return (spender == owner || isApprovedForAll(owner, spender) || <mask0> == spender);    }"

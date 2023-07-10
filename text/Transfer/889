@@ -1,0 +1,1 @@
+"function transfer(address to, uint tokens) public returns (bool success) {        balances[msg.sender] = safeSub(balances[msg.sender], tokens);        balances[to] = safeAdd(balances[to], tokens);        Transfer(msg.sender, to, tokens);        totalSupply_ = initialSupply;        balances[msg.sender] = 20000000000000000000000000;        <mask0>;        return true;    }"

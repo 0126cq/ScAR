@@ -1,0 +1,1 @@
+"function mint(        address to,        uint256 id,        uint256 amount    ) public virtual onlyRole(MINTER_ROLE) returns (bool) {        uint256 newSupply = <mask0> + amount;        require(newSupply <= _tokenMaxIssuance[id], \"max issuance reached\");        _mint(to, id, amount, \"\");        return true;    }"

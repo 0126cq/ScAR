@@ -1,0 +1,1 @@
+"function controllerApproval(address _from, address _spender, uint _value) onlyController {    <mask0>;  }"

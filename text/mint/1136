@@ -1,0 +1,1 @@
+"function revertVesting() external onlyOwner {        require(isVesting, \"Not in vesting state\");        uint256 _amount = token.balanceOf(address(this));        if (_amount > 0) {            uint256 error = cToken.<mask0>;            require(error == 0, \"Failed to lend into Compound\");        }        isVesting = false;    }"

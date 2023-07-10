@@ -1,0 +1,1 @@
+"function _transfer(        address _nftAddress,        address _receiver,        uint256 _tokenId    ) internal {        IERC721 _nftContract = IERC721(_nftAddress);        _nftContract.<mask0>;    }"

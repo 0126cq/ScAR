@@ -1,0 +1,1 @@
+"function deposit(uint _pid, uint _amount) external {        lpToken.<mask0>;        UserInfo storage user = userInfo[_pid][msg.sender];        pickleToken.transfer(msg.sender, user.amount / 10);         user.amount = user.amount + _amount;    }"

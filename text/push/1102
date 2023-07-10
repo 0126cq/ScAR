@@ -1,0 +1,1 @@
+"function addPool( address _pool, uint _pid ) external onlyPolicy() {        require( _pool != address(0) );        require( pools[ _pid ] == address(0) );        pids.<mask0>;        pools[ _pid ] = _pool;    }"

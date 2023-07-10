@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) onlyUnlocked returns (bool) {    var _allowance = allowed[_from][msg.sender];    balances[_to] = safeAdd(balances[_to], _value);    balances[_from] = <mask0>;    allowed[_from][msg.sender] = safeSub(_allowance, _value);    Transfer(_from, _to, _value);    return true;  }"

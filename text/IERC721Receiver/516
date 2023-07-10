@@ -1,0 +1,1 @@
+"function onERC721Received(address, address, uint256, bytes calldata) external override returns (bytes4) {    return <mask0>.onERC721Received.selector;  }"

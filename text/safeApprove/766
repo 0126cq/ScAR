@@ -1,0 +1,1 @@
+"function repay() external {        uint _balance = underlying.balanceOf(address(this));        underlying.<mask0>;        require(cy.repayBorrow(_balance) == 0, \"repay failed\");    }"

@@ -1,0 +1,1 @@
+"function transferNft(        address nftAddress,        uint256 nftType,        address _from,        address _to,        uint256 _tokenId    ) internal {        if (nftType == 721) {            IERC721(nftAddress).safeTransferFrom(_from, _to, _tokenId);        } else if (nftType == 1155) {            IERC1155(nftAddress).<mask0>;        }    }"

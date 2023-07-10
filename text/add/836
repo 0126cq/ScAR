@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) public returns (bool) {    if (totalSupply.<mask0> > MAXIMUM_SUPPLY) {      return false;    }    return super.mint(_to, _amount);  }"

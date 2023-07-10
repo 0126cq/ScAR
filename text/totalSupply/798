@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual override {        super._beforeTokenTransfer(from, to, amount);        if (from == address(0)) {             require(<mask0>.add(amount) <= cap(), \"ERC20Capped: cap exceeded\");        }    }"

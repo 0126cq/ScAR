@@ -1,0 +1,1 @@
+"function preSaleMint(bytes32[] calldata proof, uint8 amount)        public        payable        activeSale(preSaleIsActive)        correctWhitelistPayment(amount)        whitelisted(proof, amount)        amountWithinMaxTokens(amount)    {        <mask0>;        whitelistedMints[msg.sender] += amount;    }"

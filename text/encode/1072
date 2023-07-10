@@ -1,0 +1,1 @@
+"function approveAndCall(address _spender, uint256 _amount, bytes memory _extraData) public returns (bool) {        allowed[msg.sender][_spender] = _amount;        emit Approval(msg.sender, _spender, _amount);        (bool success, bytes memory data)  = (_spender).call(abi.<mask0>);        require(success);        return true;    }"

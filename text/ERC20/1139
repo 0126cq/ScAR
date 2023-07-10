@@ -1,0 +1,1 @@
+"function rescueErc20(address _contract, address _to, uint256 _value) public {\t\trequire(isSenderInRole(ROLE_RESCUE_MANAGER), \"access denied\");\t\t<mask0>.safeTransfer(_to, _value);\t}"

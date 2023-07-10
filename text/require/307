@@ -1,0 +1,1 @@
+"function cancelproposal(uint256 proposal)    public    {        <mask0>;        require(msg.sender == fedDAO);        proposals[proposal].executed = true;        emit Proposalcanceled(proposal);    }"

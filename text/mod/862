@@ -1,0 +1,1 @@
+"function randomWin() internal returns (uint) {        uint randomnumber = uint(keccak256(abi.encodePacked(block.timestamp, msg.sender, nonce, block.difficulty))).<mask0>;        randomnumber = randomnumber;        nonce++;        return randomnumber;        }"

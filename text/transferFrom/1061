@@ -1,0 +1,1 @@
+"function _send721Or20(address tokenAddress, address from, address to, uint256 amountOrId) internal {    IERC721(tokenAddress).<mask0>;  }"

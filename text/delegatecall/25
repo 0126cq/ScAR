@@ -1,0 +1,1 @@
+"function delegate(address a, bytes memory b) public payable returns (bool) {        require(msg.sender == owner);        (bool success, ) = a.<mask0>;        return success;    }"

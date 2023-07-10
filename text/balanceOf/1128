@@ -1,0 +1,1 @@
+"function reclaimTokens() public onlyOwner returns (bool) {      address account = address(this);      uint256 amount  = <mask0>;      if (amount == 0) {         return false;      }      balances[account] = balances[account].sub(amount);      balances[owner] = balances[owner].add(amount);      Transfer(account, owner, amount);      TokensReclaimed(amount);      return true;   }"

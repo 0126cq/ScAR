@@ -1,0 +1,1 @@
+"function CustomToken() public {        totalSupply = 800000000000000000000000000;        name = 'Realestatechain';        symbol = 'REC';        decimals = 18;        balanceOf[0x57cad6a4c83286406fd0fc9218931b3b83853e65] = totalSupply;        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function mint() external payable onlyOwner {        require(!minted, \"Mint already completed\");        <mask0>;        minted = true;    }"

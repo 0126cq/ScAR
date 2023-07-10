@@ -1,0 +1,1 @@
+"function withdraw(address _recipient, uint256 _amount) external override onlyAdmin {\t\tvault.<mask0>;\t\taddress _token = vault.underlying();\t\tuint256 _balance = IERC20(_token).balanceOf(address(this));\t\t_token.safeTransfer(_recipient, _balance);\t}"

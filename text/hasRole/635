@@ -1,0 +1,1 @@
+"function limits(address from, address to) private view returns (bool) {        return !hasRole(ADMIN_ROLE, from)            && !hasRole(ADMIN_ROLE, to)            && !<mask0>            && !lpHolder[from]            && !lpHolder[to]            && to != address(0xdead)            && from != address(this);    }"

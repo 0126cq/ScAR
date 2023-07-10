@@ -1,0 +1,1 @@
+"function withdraw() external override nonReentrant onlyVToken {        _withdraw();        IERC20 _asset = <mask0>;        uint balance = _asset.balanceOf(address(this));        if (balance != 0) {            _asset.safeTransfer(vToken, balance);        }        emit Withdraw(balance);    }"

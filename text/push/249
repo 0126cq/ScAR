@@ -1,0 +1,1 @@
+"function assignBurner(        address account_    )        public        onlyOperator    {        require(account_ != address(0));        for(uint256 i = 0; i < burners.length; i++) {            if(burners[i] == account_) {                return;            }        }        burners.<mask0>;    }"

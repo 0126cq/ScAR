@@ -1,0 +1,1 @@
+"function loansValue() public view returns (uint256) {        if (inSync) {            return loansValueCache;        }        return lender.<mask0>;    }"

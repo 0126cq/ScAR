@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) whenNotPaused returns (bool) {    require(_to != address(0));    return super.<mask0>;  }"

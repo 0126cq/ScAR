@@ -1,0 +1,1 @@
+"function getOutgoingMessagesCounter(string calldata targetSchainName)        external        view        override        returns (uint256)    {        bytes32 dstChainHash = <mask0>;        require(connectedChains[dstChainHash].inited, \"Destination chain is not initialized\");        return connectedChains[dstChainHash].outgoingMessageCounter;    }"

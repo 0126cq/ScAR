@@ -1,0 +1,1 @@
+"function getSoldAmount() public view returns (uint) {        return _publicSale.<mask0>;    }"

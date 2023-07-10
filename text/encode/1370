@@ -1,0 +1,1 @@
+"function splitRequest(        GsnTypes.RelayRequest calldata req    )    internal    pure    returns (        bytes memory suffixData    ) {        suffixData = abi.<mask0>;    }"

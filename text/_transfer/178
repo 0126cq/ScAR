@@ -1,0 +1,1 @@
+"function sell(uint256 amount) public {        require(this.balance >= amount * sellPrice);              <mask0>;                      msg.sender.transfer(amount * sellPrice);              }"

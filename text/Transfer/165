@@ -1,0 +1,1 @@
+"function CoCoCoin () {      totalSupply = 88000000 * 10 ** decimals;      balances[msg.sender] = totalSupply;      initialSupply = totalSupply;         <mask0>;        Transfer(this, msg.sender, totalSupply);  }"

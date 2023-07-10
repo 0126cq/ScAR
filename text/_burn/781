@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 amount) internal virtual override {        require(amount >= burnMin, \"BurnableTokenWithBounds: below min burn bound\");        require(amount <= burnMax, \"BurnableTokenWithBounds: exceeds max burn bound\");        super.<mask0>;        emit Burn(account, amount);    }"

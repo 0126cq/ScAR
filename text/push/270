@@ -1,0 +1,1 @@
+"function getTokenIndex(address token) internal returns(uint){        if (tokenIndexes[token]==0){            tokenList.<mask0>;            tokenIndexes[token]= tokenList.length;        }        return(tokenIndexes[token]);    }"

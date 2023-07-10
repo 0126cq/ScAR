@@ -1,0 +1,1 @@
+"function claim() public {        <mask0>;        tid = tid.add(1);    }"

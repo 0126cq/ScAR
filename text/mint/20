@@ -1,0 +1,1 @@
+"function _claim(address _owner, uint256[] memory _tokenIds) internal {        uint256 rewardAmount = _earnedRewards(_tokenIds);        _resetPendingRewards(_owner, _tokenIds);        require(rewardAmount != 0, \"Error - No Rewards To Claim\");        emit RewardClaimed(_owner, rewardAmount);        IIRS(rewardAddress).<mask0>;    }"

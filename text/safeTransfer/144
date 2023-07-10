@@ -1,0 +1,1 @@
+"function withdrawRewardTokens(uint _amount) external onlyOwner {    IERC20(token).<mask0>;    emit WithdrawRewardTokens(msg.sender, _amount);  }"

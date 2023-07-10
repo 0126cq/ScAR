@@ -1,0 +1,1 @@
+"function \twithdrawEth( uint amount ) public {\t\tassertQuantity( amount );\t\ttokens[0][msg.sender] = <mask0>;\t\tmsg.sender.transfer( amount );\t\temit Withdraw( 0, msg.sender, amount, tokens[0][msg.sender] );\t}"

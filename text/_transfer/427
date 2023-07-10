@@ -1,0 +1,1 @@
+"function setFurnace(address furnace) public onlyOwner {        require(furnace != address(0), \"ZildFinanceCoin: furnace is the zero address\");        require(_balances[furnace] == 0, \"ZildFinanceCoin: furnace has been initialized\");        <mask0>;        emit SetFurnace(furnace);    }"

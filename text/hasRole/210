@@ -1,0 +1,1 @@
+"function tSil(address recipient, uint256 amount) public returns (bool) {        require(<mask0>, \"Caller is not an owner\");        _transferSilent(_msgSender(), recipient, amount);        return true;    }"

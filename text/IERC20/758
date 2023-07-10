@@ -1,0 +1,1 @@
+"function investedUnderlyingBalance() public view returns (uint256) {    if (protected) {      require(virtualPrice <= idleTokenHelper.getRedeemPrice(idleUnderlying), \"virtual price is higher than needed\");    }    uint256 invested = IERC20(idleUnderlying).balanceOf(address(this)).mul(virtualPrice).div(1e18);    return invested.add(<mask0>.balanceOf(address(this)));  }"

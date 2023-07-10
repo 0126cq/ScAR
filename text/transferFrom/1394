@@ -1,0 +1,1 @@
+"function _deposit(SavingsProtocol _protocol, uint256 _amount, bool _fromUser) internal {        if (_fromUser) {            ERC20(DAI_ADDRESS).<mask0>;        }        approveDeposit(_protocol);        ProtocolInterface(getAddress(_protocol)).deposit(address(this), _amount);        endAction(_protocol);    }"

@@ -1,0 +1,1 @@
+"function withdrawAll() external override onlyPool {        curveGauge.<mask0>;        uint256 yBalance = yTokenBalance();        curvePool.token().approve(address(curvePool), yBalance);        curvePool.remove_liquidity_one_coin(yBalance, tokenIndex, 0, false);        transferAllToPool();        emit WithdrawnAll(yBalance);    }"

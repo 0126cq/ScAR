@@ -1,0 +1,1 @@
+"function _mintLegend(address _receiver, uint256 _mintAmount) internal {    for (uint256 i = 0; i < _mintAmount; i++) {      supplyLegend.increment();      addressMintedBalance[_receiver]++;      _safeMint(_receiver, supplyLegend.<mask0>);    }  }"

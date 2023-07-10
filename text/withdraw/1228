@@ -1,0 +1,1 @@
+"function withdraw(bytes calldata data) external onlyManager {        (address[] memory tokens, uint256[] memory amounts) = abi.decode(            data,            (address[], uint256[])        );        for (uint256 i = 0; i < tokens.length; i++) {            require(addressRegistry.checkAddress(tokens[i], 0), \"INVALID_TOKEN\");        }        WALLET.<mask0>;    }"

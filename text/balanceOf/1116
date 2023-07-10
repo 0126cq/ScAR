@@ -1,0 +1,1 @@
+"function getCashPrior(address underlying_) internal view returns (uint256) {        if (underlying_ == Constants.ETH_ADDRESS) {            uint256 startingBalance = sub(address(this).balance, msg.value);            return startingBalance;        } else {            ERC20Interface token = ERC20Interface(underlying_);            return token.<mask0>;        }    }"

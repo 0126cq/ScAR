@@ -1,0 +1,1 @@
+"function isInWhitelist(bytes32[] calldata merkleProof_) public view returns (bool) {\t\tbytes32 leaf = keccak256(abi.<mask0>);\t\treturn MerkleProof.verify(merkleProof_, whitelistMerkleRoot, leaf);\t}"

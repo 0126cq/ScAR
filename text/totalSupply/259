@@ -1,0 +1,1 @@
+"function currentPrices() public view returns (uint256 truePrice, uint256 buyPrice, uint256 sellPrice) {\t\ttruePrice = STARTING_PRICE + INCREMENT * <mask0> / 1e18;\t\tbuyPrice = truePrice * 100 / (100 - BUY_TAX);\t\tsellPrice = truePrice * (100 - SELL_TAX) / 100;\t}"

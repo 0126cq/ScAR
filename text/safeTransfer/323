@@ -1,0 +1,1 @@
+"function withdrawInstantPoolMaticX(uint256 _amount)\t\texternal\t\toverride\t\twhenNotPaused\t\tonlyRole(INSTANT_POOL_OWNER)\t{\t\trequire(\t\t\tinstantPoolMaticX >= _amount,\t\t\t\"Withdraw amount cannot exceed maticX in instant pool\"\t\t);\t\tinstantPoolMaticX -= _amount;\t\tIERC20Upgradeable(address(this)).<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(        address _from,        address _to,        uint256 _value    ) internal virtual override {        super._beforeTokenTransfer(_from, _to, _value);        <mask0>;    }"

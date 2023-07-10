@@ -1,0 +1,1 @@
+"function mint(uint256 quantity) external {    if (msg.sender != owner()) {    require(!paused);       require(IERC20(ashContract).balanceOf(msg.sender) >= cost * quantity);    IERC20(ashContract).<mask0>;    }     uint256 supply = totalSupply();    require(quantity > 0);    require(supply + quantity <= maxSupply);    _safeMint(msg.sender, quantity);  }"

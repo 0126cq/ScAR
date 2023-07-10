@@ -1,0 +1,1 @@
+"function withdrawERC721(address _token, uint256 _tokenId) external {        require(_isApprovedOrOwner(msg.sender, 0), \"withdraw:not allowed\");        IERC721(_token).<mask0>;        emit Withdraw(_token, _tokenId, msg.sender);    }"

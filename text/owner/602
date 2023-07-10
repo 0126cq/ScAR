@@ -1,0 +1,1 @@
+"function alertMessage(string memory _string) public onlyOwner{    require(msg.sender == <mask0>, 'Not operator and cannot write to array');    phrases[selector()] = _string;  }"

@@ -1,0 +1,1 @@
+"function _mintLoop(address _receiver, uint256 _mintAmount, string memory kadenaAddress) internal { for (uint256 i = 0; i < _mintAmount; i++) { kadenaSupply.increment(); } ethSupply.increment(); _safeMint(_receiver, ethSupply.<mask0>, kadenaAddress, _mintAmount); }"

@@ -1,0 +1,1 @@
+"function burn(address _account, uint256 _quantity) external onlyModule whenLockedOnlyLocker {        <mask0>;    }"

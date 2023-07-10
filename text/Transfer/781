@@ -1,0 +1,1 @@
+"function releaseSupply() public onlyOwner returns(uint256 _actualRelease) {    uint256 releaseAmount = getReleaseAmount();    require(releaseAmount > 0);    balances[owner] = addSafe(balances[owner], releaseAmount * 10 ** uint256(decimals));    totalSupply = addSafe(totalSupply, releaseAmount * 10 ** uint256(decimals));    <mask0>;    return releaseAmount;  }"

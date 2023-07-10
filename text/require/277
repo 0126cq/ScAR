@@ -1,0 +1,1 @@
+"function safe32(uint n, string memory errorMessage) internal pure returns (uint32) {        <mask0>;        return uint32(n);    }"

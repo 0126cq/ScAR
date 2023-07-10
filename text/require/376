@@ -1,0 +1,1 @@
+"function tokenByIndex(uint256 index) public view override returns (uint256) {        <mask0>;        return index;    }"

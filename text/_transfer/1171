@@ -1,0 +1,1 @@
+"function nftTransfer(address to, uint256 tokenId) external{address fromAddr = _msgSender();        require(_isApprovedOrOwner(fromAddr, tokenId), \"ERC721: transfer caller is not owner nor approved\");        <mask0>;        require(isERC721ReceivedCheck(fromAddr, to, tokenId, \"\"), \"ERC721: transfer to non ERC721Receiver implementer\");}"

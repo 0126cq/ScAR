@@ -1,0 +1,1 @@
+"function setAmountMoney(uint256 _minPrice, uint256 _maxPrice)        external    {        require(<mask0>, \"PrivateSale: Caller is not admin\");        require(_minPrice > 0, \"PrivateSale: Minimum price not accepted\");        require(_maxPrice >= _minPrice, \"PrivateSale: Maximum price not accepted\");        minAmount = _minPrice;        maxAmount = _maxPrice;    }"

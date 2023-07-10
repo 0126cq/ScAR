@@ -1,0 +1,1 @@
+"function isAuthorised(bytes32 node) internal override view returns(bool) {        address owner = ens.owner(node);        if(owner == address(nameWrapper) ){            owner = nameWrapper.<mask0>;        }        return owner == msg.sender || isApprovedForAll(owner, msg.sender);    }"

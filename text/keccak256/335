@@ -1,0 +1,1 @@
+"function read(bytes32 _location) internal view returns (bytes32 data) {    data = <mask0>;    assembly { data := sload(data) }  }"

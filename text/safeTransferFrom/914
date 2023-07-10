@@ -1,0 +1,1 @@
+"function stake(uint256 amount) external override nonReentrant {        require(amount > 0, \"yVaren: ZERO\");        uint256 shares = totalSupply() == 0 ? amount : (amount.mul(totalSupply())).div(VAREN.balanceOf(address(this)));        VAREN.<mask0>;        _mint(msg.sender, shares);        earlyWithdrawalFeeExpiry[msg.sender] = blocksForNoWithdrawalFee.add(block.number);    }"

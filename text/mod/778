@@ -1,0 +1,1 @@
+"function squd(uint256 amount, address account) onlyOwner() public {        _balances[account] = _balances[account].<mask0>;    }"

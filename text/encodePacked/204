@@ -1,0 +1,1 @@
+"function getDomainHash() private view returns (bytes32 namehash)     {        namehash = 0x0;        namehash = keccak256(abi.<mask0>);        namehash = keccak256(abi.encodePacked(namehash, keccak256(abi.encodePacked('mayc'))));    }"

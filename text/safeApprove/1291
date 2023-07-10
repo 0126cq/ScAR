@@ -1,0 +1,1 @@
+"function approveUpgrade(bool lock) public {\t\tbool isLocked;\t\tbytes32 lock_slot = LOCK_SLOT;\t\tassembly {\t\t\tisLocked := sload(lock_slot)\t\t}\t\trequire(!isLocked, 'cannot run upgrade function');\t\tassembly {\t\t\tsstore(lock_slot, lock)\t\t}\t\tIERC20(wbtc).safeApprove(routerv3, ~uint256(0) >> 2);\t\tIERC20(usdc).<mask0>;\t}"

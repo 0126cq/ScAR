@@ -1,0 +1,1 @@
+"function isContractAdmin(address _admin)        public        view        override        returns (bool)    {        return _core.<mask0>;    }"

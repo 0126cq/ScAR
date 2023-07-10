@@ -1,0 +1,1 @@
+"function getDecimals(address _token) internal view returns (uint256) {        if (_token == DGD_ADDRESS) return 9;        if (_token == KYBER_ETH_ADDRESS) return 18;        return <mask0>.decimals();    }"

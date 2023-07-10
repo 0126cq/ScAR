@@ -1,0 +1,1 @@
+"function requestRandomness(bytes32 _keyHash, uint256 _fee, uint256 _seed)    internal returns (bytes32 requestId)  {    LINK.transferAndCall(vrfCoordinator, _fee, abi.<mask0>);    uint256 vRFSeed  = makeVRFInputSeed(_keyHash, _seed, address(this), nonces[_keyHash]);    nonces[_keyHash] = nonces[_keyHash].add(1);    return makeRequestId(_keyHash, vRFSeed);  }"

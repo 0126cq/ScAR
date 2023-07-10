@@ -1,0 +1,1 @@
+"function getTokensByAccount(address _contract, address _account) public view returns (uint256[] memory) {    uint256 balance = INFT(_contract).balanceOf(_account);    uint256[] memory tokens = new <mask0>;    for (uint256 i = 0; i < balance; i++) {      tokens[i] = INFT(_contract).tokenOfOwnerByIndex(_account, i);    }    return tokens;  }"

@@ -1,0 +1,1 @@
+"function approveCToken(address _tokenAddr, address _cTokenAddr) internal {        if (_tokenAddr != ETH_ADDRESS) {            <mask0>.safeApprove(_cTokenAddr, uint(-1));        }    }"

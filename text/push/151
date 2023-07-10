@@ -1,0 +1,1 @@
+"function setStakePool(uint256 _stkId, uint256 _amount) public {        Stakemap[_stkId].timestamp = block.timestamp;        Stakemap[_stkId].amount = _amount;        Stakemap[_stkId].walletaddress = msg.sender;        Stakemap[_stkId].stakeStatus = true;        Stakemap[_stkId].initialStakeTime = block.timestamp;        toCheckList[msg.sender].<mask0>;    }"

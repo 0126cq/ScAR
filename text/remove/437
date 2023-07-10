@@ -1,0 +1,1 @@
+"function removeBeneficiary(address beneficiary) public onlyOwner {        if (!_beneficiaries.<mask0>) revert InvalidParameter();    }"

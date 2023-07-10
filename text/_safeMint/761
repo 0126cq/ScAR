@@ -1,0 +1,1 @@
+"function signedMint(\t\tuint256 tokenID,\t\tbytes calldata signature,\t\tuint256 expiry\t) public {\t\trequire(expiry > block.timestamp, \"signature expired\");\t\tbytes32 messageHash = getMessageHash(\t\t\tmsg.sender,\t\t\taddress(this),\t\t\ttokenID,\t\t\tnonces[msg.sender]++,\t\t\texpiry\t\t);\t\trequire(verify(messageHash, signature), \"Invalid Signature\");\t\t<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function FreeMint(uint256 quantity) external payable {        require(!paused, \"Sale is currently paused.\");        require(quantity <= MAX_FREE_MINT_PER_TX, \"Cannot exeeds 3 quantity per tx.\");        require(<mask0> + quantity <= MAX_FREE_MINT, \"Cannot exceed max free mint amount.\");        _safeMint(msg.sender, quantity);    }"

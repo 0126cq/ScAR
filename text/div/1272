@@ -1,0 +1,1 @@
+"function current(VirtualVote.Data memory self) internal view returns(uint256) {        uint256 timePassed = Math.min(_VOTE_DECAY_PERIOD, block.timestamp.sub(self.time));        uint256 timeRemain = _VOTE_DECAY_PERIOD.sub(timePassed);        return uint256(self.oldResult).mul(timeRemain).add(            uint256(self.result).mul(timePassed)        ).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _checkVoteExpiry(address _sender, uint256 _shares)        private        view        returns (bool)    {        return _shares <= balanceOf(_sender).<mask0>;    }"

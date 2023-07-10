@@ -1,0 +1,1 @@
+"function mintNewDrawings(uint amount){    require(owner == msg.sender);    totalSupply = totalSupply + amount;    balances[owner] = balances[owner] + amount;    <mask0>;  }"

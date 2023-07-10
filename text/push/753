@@ -1,0 +1,1 @@
+"function addNFT(string memory _name, uint256 _amount, uint24 _fee) public onlyContractAdmin returns (uint256){    ModelNFT memory model = ModelNFT(_name, NFT_ID , _fee);    NFTModels.<mask0>;    tokenAmount[NFT_ID] = _amount;    NFT_ID++;    return (NFT_ID - 1);  }"

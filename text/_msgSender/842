@@ -1,0 +1,1 @@
+"function updateFeeAddress2(address newAddress) external {        require(<mask0> == _FeeAddress2);        _FeeAddress2 = payable(newAddress);        emit FeeAddress2Updated(_FeeAddress2);    }"

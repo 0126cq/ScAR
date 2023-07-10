@@ -1,0 +1,1 @@
+"function withdraw(address _tokenAddr, address _aTokenAddr, uint256 _amount, bool _wholeAmount) public burnGas(8) {        uint256 amount = _wholeAmount ? <mask0>.balanceOf(address(this)) : _amount;        IAToken(_aTokenAddr).redeem(amount);        withdrawTokens(_tokenAddr);    }"

@@ -1,0 +1,1 @@
+"function withdrawAll(address _token) onlySender external {        uint256 amount = IERC20(_token).balanceOf(address(this));        IChildERC20(_token).<mask0>;    }"

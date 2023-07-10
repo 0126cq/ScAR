@@ -1,0 +1,1 @@
+"function ownerOf(uint256 tokenId) public view override(IERC721, ERC721) returns (address) {        require(expiries[tokenId] > block.timestamp);        return super.<mask0>;    }"

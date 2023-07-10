@@ -1,0 +1,1 @@
+"function toBytes32(        bytes memory _bytes    )        internal        pure        returns (            bytes32        )    {        if (_bytes.length < 32) {            bytes32 ret;            assembly {                ret := mload(add(_bytes, 32))            }            return ret;        }        return abi.<mask0>;     }"

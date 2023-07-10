@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint amount) public override returns (bool) {        <mask0>;        uint allowedAmount = _allowances[sender][_msgSender()] - amount;        _approve(sender, _msgSender(), allowedAmount);        return true;    }"

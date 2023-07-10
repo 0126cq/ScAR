@@ -1,0 +1,1 @@
+"function HolyAkita() public {        symbol = \"HOKITA\";        name = \"HolyAkita\";        decimals = 18;        _totalSupply = 1000000000000000000000000000000000;        balances[0xc52aeA9D6768DD46c7102f74ECdCeE827746Bf32] = _totalSupply;        <mask0>;    }"

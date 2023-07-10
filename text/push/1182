@@ -1,0 +1,1 @@
+"function addBlockAndMultiplier(uint256 _pid, uint256 _toBlock, uint256 _actualMultiplier) public onlyOwner{        PoolInfo storage pool = poolInfo[_pid];        pool.epochMultiplers.push(_toBlock);        pool.epochMultiplersValue.<mask0>;    }"

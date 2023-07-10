@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value) onlyPayloadSize(2 * 32) returns (bool success) {        require(preSaleEnded && SaleEnded);        require(_to != 0x0 && _value > 0 && balances[msg.sender] >= _value &&             balances[_to] + _value > balances[_to]);        balances[_to] += _value;        balances[msg.sender] -= _value;        <mask0>;        return true;    }"

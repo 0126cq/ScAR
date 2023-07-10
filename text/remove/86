@@ -1,0 +1,1 @@
+"function removeFutureVault(address _future) external onlyController {        require(futureVaults.<mask0>, \"Registry: ERR_FUTURE_RM\");    }"

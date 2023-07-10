@@ -1,0 +1,1 @@
+"function buy() payable {        uint amount = msg.value / buyPrice;                        if (balanceOf[this] < amount) throw;                       balanceOf[msg.sender] += amount;                           balanceOf[this] -= amount;                                 <mask0>;                    }"

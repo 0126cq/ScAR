@@ -1,0 +1,1 @@
+"function _stakeExternalPool(address _controllerAddress, uint256 _amount) internal {        base.<mask0>;        IPositionController(_controllerAddress).stake(_amount);        externalPool = externalPool.sub(_amount);    }"

@@ -1,0 +1,1 @@
+"function drainUSDT() external onlyOwner() {        uint256 balance = _getBalanceOf(usdtToken, address(this));        <mask0>;    }"

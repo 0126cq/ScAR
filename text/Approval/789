@@ -1,0 +1,1 @@
+"function subApproval(address spender, uint subtractedValue) public returns (bool success) {      uint oldVal = allowed[msg.sender][spender];      if (subtractedValue > oldVal) {          allowed[msg.sender][spender] = 0;      } else {          allowed[msg.sender][spender] = oldVal.sub(subtractedValue);      }      <mask0>;      return true;  }"

@@ -1,0 +1,1 @@
+"function _harvest(uint256 balance) internal override returns (int256 amountAdded) {        uint256 currentBalance = aToken.balanceOf(address(this));        amountAdded = int256(currentBalance) - int256(balance);        if (amountAdded > 0) aaveLendingPool.<mask0>;    }"

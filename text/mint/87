@@ -1,0 +1,1 @@
+"function manualTransfer(address _to, uint _valueUSD) public saleIsOn isUnderHardCap onlyOwnerOrManager {    uint256 centValue = _valueUSD.mul(100);    uint256 tokensAmount = getTokenAmount(centValue);    centRaised = centRaised.add(centValue);    token.<mask0>;    balancesInCent[_to] = balancesInCent[_to].add(centValue);  }"

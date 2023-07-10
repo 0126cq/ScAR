@@ -1,0 +1,1 @@
+"function _currentReward() internal override view returns (uint) {        uint remain = IAAAAMint(IConfig(config).<mask0>).take();        return remain.add(mintedShare).add(IERC20(IConfig(config).token()).balanceOf(address(this))).sub(totalShare);    }"

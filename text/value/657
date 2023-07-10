@@ -1,0 +1,1 @@
+"function _forwardFunds()internal {\t\tvault.deposit.<mask0>(msg.sender); \t}"

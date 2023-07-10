@@ -1,0 +1,1 @@
+"function _withdrawFromFarming(uint256 _target, uint256 _balance) internal {        uint256 _mvGap = _target.sub(_balance); \t\t\t        (uint256 _mToken, ) = MMFarmingPool(mmFarmingPool).userInfo(mmFarmingPoolId, address(this));        require(_mToken >= _mvGap, '!insufficientMTokenInMasterChef');\t\t        MMFarmingPool(mmFarmingPool).<mask0>;\t    }"

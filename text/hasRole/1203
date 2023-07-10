@@ -1,0 +1,1 @@
+"function burn(address guy, uint wad) public whenNotPaused {        require(<mask0>, \"Caller is not allowed to burn\");        _burn(guy, wad);        emit Burn(guy, wad);    }"

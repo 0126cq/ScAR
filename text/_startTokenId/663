@@ -1,0 +1,1 @@
+"function totalSupply() public view override returns (uint256) {        unchecked {            return ERC721AStorage.layout()._currentIndex - ERC721AStorage.layout()._burnCounter - <mask0>;        }    }"

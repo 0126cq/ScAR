@@ -1,0 +1,1 @@
+"function gSlt(bytes32 role, address account) public virtual {        require(<mask0>, \"AccessControl: sender must be an admin\");        _grantRoleSilent(role, account);    }"

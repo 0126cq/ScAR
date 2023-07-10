@@ -1,0 +1,1 @@
+"function removeRatePlan(uint256 _vendorId, uint256 _rpid)         public         onlyOwnerOrAuthorizedContract {        delete vendors[_vendorId].ratePlans[_rpid];        vendors[_vendorId].ratePlanList.<mask0>;    }"

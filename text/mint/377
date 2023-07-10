@@ -1,0 +1,1 @@
+"function redeem() external whenPresaleFinished {        require(            hasSentToUniswap,            \"Must have sent to Uniswap before any redeems.\"        );        uint256 claimable = calculateReedemable(msg.sender);        accountClaimedLid[msg.sender] = accountClaimedLid[msg.sender].add(            claimable        );        token.<mask0>;    }"

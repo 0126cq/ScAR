@@ -1,0 +1,1 @@
+"function submit(address subject, uint256 value, bytes memory inputData) internal returns(bytes memory returnData) {        bool result;        (result, returnData) = subject.<mask0>;        if(!result) {            assembly {                revert(add(returnData, 0x20), mload(returnData))            }        }    }"

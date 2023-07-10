@@ -1,0 +1,1 @@
+"function random(uint min, uint max) private view returns (uint) {        return min + uint(<mask0>) % ((max+1)-min);            }"

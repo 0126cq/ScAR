@@ -1,0 +1,1 @@
+"function claimFounderInitialReward() public {        require(BlootMF.isFounder(msg.sender) == true, \"Your account isn't a Founder\");        require(founderClaims[msg.sender] == false, \"You have already claimed this reward\");        founderClaims[msg.sender] = true;        founderRewardCounter += 1;        <mask0>;    }"

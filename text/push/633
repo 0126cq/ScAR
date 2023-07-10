@@ -1,0 +1,1 @@
+"function appendColorList(        string memory _colorList    ) external onlyOwner traitsUnlocked{        colorList.<mask0>;    }"

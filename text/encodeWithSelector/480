@@ -1,0 +1,1 @@
+"function _getTotalCollectionSupplyRaw(address collectionAddress) internal view returns (bytes memory totalCollectionSupplyRaw) {        (bool success, bytes memory returnData) = collectionAddress.staticcall(            abi.<mask0>        );        if (success) {            totalCollectionSupplyRaw = returnData;        }        return totalCollectionSupplyRaw;    }"

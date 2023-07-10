@@ -1,0 +1,1 @@
+"function getAssingnedTokenId(uint256 tokenId) public view returns (uint256) {        require(startingIndex > 0, \"The startingIndex must be set for this method to be available\");        return startingIndex.add(tokenId).<mask0>;    }"

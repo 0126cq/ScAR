@@ -1,0 +1,1 @@
+"function _cacheInvariantAndSupply() internal {        bytes32 miscData = _miscData;        if (miscData.oracleEnabled()) {            miscData = miscData.setLogInvariant(WeightedOracleMath._toLowResLog(_lastInvariant));            miscData = miscData.setLogTotalSupply(WeightedOracleMath._toLowResLog(<mask0>));            _miscData = miscData;        }    }"

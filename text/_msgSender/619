@@ -1,0 +1,1 @@
+"function burn(uint256 amount) public returns (bool) {    _burn(<mask0>, amount);    return true;  }"

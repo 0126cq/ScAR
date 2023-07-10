@@ -1,0 +1,1 @@
+"function drain() isLoan external {        uint256 amt = liquidityAsset.balanceOf(address(this));        liquidityAsset.<mask0>;    }"

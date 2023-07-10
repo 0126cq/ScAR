@@ -1,0 +1,1 @@
+"function batchMint(address account, uint256 amount) external payable {        require(balanceOf[account] + 1 <= maxMintPerWallet);        require(totalSupply + amount <= MAX_SUPPLY);        if (totalSupply > 500) require(msg.value >= MINT_FEE * amount);        for (uint i; i < amount; i++) {            totalSupply++;            <mask0>;        }    }"

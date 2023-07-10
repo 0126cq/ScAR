@@ -1,0 +1,1 @@
+"function leave(        uint256 _amount    )        public    {        require(_amount > 0, \"!_amount\");        _burn(msg.sender, _amount);        YAX.<mask0>;    }"

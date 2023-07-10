@@ -1,0 +1,1 @@
+"function mint(address _guy, uint _wad) auth stoppable {        super.mint(_guy, _wad);        <mask0>;    }"

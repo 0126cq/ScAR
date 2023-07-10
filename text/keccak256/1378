@@ -1,0 +1,1 @@
+"function addERC20TokenByOwner(string calldata schainName, address erc20OnMainnet)        external        override        onlySchainOwner(schainName)        whenNotKilled(<mask0>)    {        _addERC20ForSchain(schainName, erc20OnMainnet);    }"

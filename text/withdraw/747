@@ -1,0 +1,1 @@
+"function collect() public {        (uint _locked,) = MASTER.userInfo(pid, address(this));        MASTER.<mask0>;        deposit();    }"

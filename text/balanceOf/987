@@ -1,0 +1,1 @@
+"function getTotalReward() external view returns (uint256) {        if(address(reward_token) != address(0)) {            return reward_token.<mask0>;        } else {            return address(this).balance;        }    }"

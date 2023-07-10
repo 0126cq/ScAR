@@ -1,0 +1,1 @@
+"function at (    UintSet storage set,    uint index  ) internal view returns (uint) {    return uint(<mask0>);  }"

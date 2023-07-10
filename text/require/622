@@ -1,0 +1,1 @@
+"function expiryTime(uint256 tokenId) external view returns (uint256) {        <mask0>;        return tokenExpiry[tokenId];    }"

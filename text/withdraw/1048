@@ -1,0 +1,1 @@
+"function withdraw(uint256 _pid, uint256 _amount) public virtual {        store.<mask0>;        IERC20(store.tokenOf(_pid)).safeTransfer(_msgSender(), _amount);    }"

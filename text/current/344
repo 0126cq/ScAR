@@ -1,0 +1,1 @@
+"function getClanCountInColony(uint256 colonyId) public view returns (uint256 clans) {    require(colonyId > 0 && colonyId < 4, \"only 3 colonies ever\");    uint256 clanCount = 0;    for (uint256 i = 0; i < clanIdTracker.<mask0>; i++) {      if (clanToColony[i] == colonyId) {        clanCount++;      }    }    return clanCount;  }"

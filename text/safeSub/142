@@ -1,0 +1,1 @@
+"function transfer(address _from, address _to, uint _value) onlyController returns (bool success) {\t\tif (balanceOf[_from] < _value) return false;\t\tbalanceOf[_from] = <mask0>;\t\tbalanceOf[_to] = safeAdd(balanceOf[_to], _value);\t\treturn true;\t}"

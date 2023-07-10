@@ -1,0 +1,1 @@
+"function _deposit(        address fromAccount,        address toAccount,        uint256 amount    ) internal {        require(amount > 0, \"INVALID_AMOUNT\");        require(toAccount != address(0), \"INVALID_ADDRESS\");        _mint(toAccount, amount);        underlyer.<mask0>;        bytes32 eventSig = \"Deposit\";        encodeAndSendData(eventSig, toAccount);    }"

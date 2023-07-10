@@ -1,0 +1,1 @@
+"function _makeSpecialId(address race, address sender, bytes32 coinIndex) internal pure returns (uint256) {        return uint256(<mask0>);    }"

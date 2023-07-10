@@ -1,0 +1,1 @@
+"function _redeemFromAave(address token, uint256 amount) internal returns (uint256 withdrawnAmount) {        withdrawnAmount = lendingPool.<mask0>;        emit RedeemFromAave(token, withdrawnAmount);    }"

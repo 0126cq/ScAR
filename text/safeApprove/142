@@ -1,0 +1,1 @@
+"function poolApprove(IHegicPool pool) external {        pool.token().<mask0>;        pool.token().safeApprove(address(pool), type(uint256).max);    }"

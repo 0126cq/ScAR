@@ -1,0 +1,1 @@
+"function burn(address owner, uint256 amount) public virtual onlyOwner {        _vOwned[owner] = _vOwned[owner].<mask0>;"

@@ -1,0 +1,1 @@
+"function _swapTokens(address _input, address _output, uint256 _amount) internal {        address[] memory path = new <mask0>;        path[0] = _input;        path[1] = _output;        router.swapExactTokensForTokens(            _amount,            1,            path,            address(this),            block.timestamp.add(1800)        );    }"

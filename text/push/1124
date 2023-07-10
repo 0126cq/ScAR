@@ -1,0 +1,1 @@
+"function registerConsumer(uint256 _consumerNumber,address _address) public onlyOwner returns(bool){        consumers.<mask0>;        isConsumer[_address] = true;        consumer[_consumerNumber].wallet = _address;        return true;    }"

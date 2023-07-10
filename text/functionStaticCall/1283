@@ -1,0 +1,1 @@
+"function functionStaticCall(address target, bytes memory data)    internal    view    returns (bytes memory)  {    return      <mask0>;  }"

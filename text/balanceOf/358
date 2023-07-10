@@ -1,0 +1,1 @@
+"function getTokenBalance(address tokenAddress, address who) constant public returns (uint){        ForeignToken t = ForeignToken(tokenAddress);        uint bal = t.<mask0>;        return bal;    }"

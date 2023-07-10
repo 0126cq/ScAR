@@ -1,0 +1,1 @@
+"function accrue() external {    uint256 newTokens = (underlying.balanceOf(address(this)) * 120) / 100;    underlying.<mask0>;  }"

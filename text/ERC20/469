@@ -1,0 +1,1 @@
+"function collectKtlyoFee(address _tokenFee)         public         onlyOwner         returns(bool)    {        ERC20 ktlyoToken = <mask0>;\t\tuint256 ktlyoBal = ktlyoToken.balanceOf(address(this));\t\trequire(ktlyoBal>0,\"Fee balance is 0!\");\t\tktlyoToken.transfer(msg.sender,ktlyoBal);\t\treturn true;    }"

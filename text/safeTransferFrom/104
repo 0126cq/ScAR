@@ -1,0 +1,1 @@
+"function repayBorrow(FyTokenInterface fyToken, uint256 repayAmount) public {        fyToken.<mask0>;        fyToken.repayBorrow(repayAmount);    }"

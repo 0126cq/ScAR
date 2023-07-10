@@ -1,0 +1,1 @@
+"function _checkERC721AndCallSafeTransfer(        address operator,        address from,        address to,        uint256 id,        bytes memory data    ) internal returns (bool) {        return (ERC721TokenReceiver(to).<mask0> ==            ERC721_RECEIVED);    }"

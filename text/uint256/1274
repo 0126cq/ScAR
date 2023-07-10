@@ -1,0 +1,1 @@
+"function getMintingDatesFromTokenIds( uint256[] memory tokenIds ) external view returns(uint256[] memory) { uint256 n = tokenIds.length; uint256[] memory timestamps = new <mask0>; require(n<=100, \"Too many NFTs to handle at once\"); for (uint256 i=0; i<n; i++) { uint256 timestamp = mintedTokenTimestamps[ tokenIds[i] ]; timestamps[ i ] = timestamp; } return timestamps; }"

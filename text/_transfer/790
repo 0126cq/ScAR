@@ -1,0 +1,1 @@
+"function airdrop() public payable {        require(now >= airBegintime && now <= airEndtime);        require(msg.value == 0);        if (airLimitCount > 0 && airCountOf[msg.sender] >= airLimitCount) {            revert();        }        <mask0>;        airCountOf[msg.sender] += 1;        Airdrop(msg.sender, airCountOf[msg.sender], airAmount);    }"

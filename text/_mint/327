@@ -1,0 +1,1 @@
+"function _safeMint(address to, uint256 amount, bytes memory _data) internal virtual {    <mask0>;        for(uint256 i = 0; i < amount; i++) {      require(        _checkOnERC721Received(address(0), to, nextId - i - 1, _data),        \"ERC721A: transfer to non ERC721Receiver implementer\"      );    }  }"

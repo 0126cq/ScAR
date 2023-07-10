@@ -1,0 +1,1 @@
+"function swap(List storage self, address left, address right) internal {        address previousRight = self.list[right].previous;        <mask0>;        insertAfter(self, left, right);        remove(self, left);        insertAfter(self, previousRight, left);    }"

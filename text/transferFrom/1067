@@ -1,0 +1,1 @@
+"function Heal(uint tokenId) external {        require(hospital[tokenId].value + INJURY_TIME > block.timestamp, \"YOU ARE NOT INJURED\");            if (frxst.<mask0>) {                _claimYetiFromHospital(tokenId, true);                emit Healing(tokenId, msg.sender,heal_cost(tokenId));            }    }"

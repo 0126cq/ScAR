@@ -1,0 +1,1 @@
+"function decodeEverscaleEvent(        bytes memory payload    ) external pure returns (EverscaleEvent memory _event) {        (_event) = abi.<mask0>;    }"

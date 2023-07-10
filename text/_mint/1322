@@ -1,0 +1,1 @@
+"function mint(uint256 amount) public payable callerIsUser {        require(totalSupply() + amount < MAX_SUPPLY,\"sold out\");        require(amount <=  MAX_PER_TX, \"max 3 per tx\");        require(msg.value >= COST * amount, \"insufficient\");        <mask0>;    }"

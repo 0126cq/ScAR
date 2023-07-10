@@ -1,0 +1,1 @@
+"function migrateToken(address _newadress , uint256 _amount) public onlyOwner {        removeAllFee();        <mask0>;        restoreAllFee();    }"

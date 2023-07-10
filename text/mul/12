@@ -1,0 +1,1 @@
+"function balanceOf(address account) public view override returns (uint256) {        uint256 owed = getDividendsOwed(account);        uint256 balance = _balances[account].add(owed);        return balance.<mask0>.div(_totalSupply.sub(burnedSupply));    }"

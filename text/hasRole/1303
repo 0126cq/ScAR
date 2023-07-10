@@ -1,0 +1,1 @@
+"function sdea2dea(uint256 amount, address recipient) external nonReentrant() {\t\trequire(<mask0>, \"ADMIN_SWAPPER_ROLE ERROR\");\t\tsdea.burn(msg.sender, amount);\t\tdea.transfer(recipient, amount);\t\temit Swap(recipient, address(sdea), address(dea), amount, amount);\t}"

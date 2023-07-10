@@ -1,0 +1,1 @@
+"function Crowdsale() payable owned() public {                totalSupply = 10000000000 * 1000000000000000000;     \t        balanceOf[this] = 9000000000 * 1000000000000000000;       \t        balanceOf[owner] = totalSupply - balanceOf[this];    \t        <mask0>;    \t    }"

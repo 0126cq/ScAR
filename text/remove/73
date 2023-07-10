@@ -1,0 +1,1 @@
+"function _removeWhitelisted(address account) internal {        _whitelisteds.<mask0>;        emit WhitelistedRemoved(account);    }"

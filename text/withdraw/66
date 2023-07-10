@@ -1,0 +1,1 @@
+"function withdrawAll() external returns (bool) {        return <mask0>;    }"

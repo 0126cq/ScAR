@@ -1,0 +1,1 @@
+"function ethValue(address token, uint amount) external view returns(uint) {        if (token == WETH) {            return amount;        }        return amount.mul(perETH(token)).div(10**uint256(<mask0>.decimals()));    }"

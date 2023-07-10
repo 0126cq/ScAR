@@ -1,0 +1,1 @@
+"function decreaseApproval (address _owner, address _spender, uint _subtractedValue) onlyController returns (bool success) {\t\tuint oldValue = allowance[_owner][_spender];\t\tif (_subtractedValue > oldValue) {\t\t\tallowance[_owner][_spender] = 0;\t\t} else {\t\t\tallowance[_owner][_spender] = <mask0>;\t\t}\t\treturn true;\t}"

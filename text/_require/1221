@@ -1,0 +1,1 @@
+"function deploy(bytes memory code) internal returns (address destination) {        bytes32 deployerCreationCode = _DEPLOYER_CREATION_CODE;        assembly {            let codeLength := mload(code)            mstore(code, deployerCreationCode)            destination := create(0, code, add(codeLength, 32))            mstore(code, codeLength)        }        <mask0>;    }"

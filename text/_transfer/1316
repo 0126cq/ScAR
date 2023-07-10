@@ -1,0 +1,1 @@
+"function sell(uint256 amount) public {        address _this = this;        require(_this.balance >= amount.div(sellPrice).mul(10 ** uint256(decimals)));              <mask0>;                      msg.sender.transfer(amount.div(sellPrice).mul(10 ** uint256(decimals)));              }"

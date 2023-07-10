@@ -1,0 +1,1 @@
+"function functionCallWithValue(        address target,        bytes memory data,        uint256 value,        string memory errorMessage    ) internal returns (bytes memory) {        uint256 balance = address(this).balance;        if (balance < value){            revert InsufficientBalanceForCall(balance, value);        }        return <mask0>;    }"

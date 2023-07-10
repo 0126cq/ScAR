@@ -1,0 +1,1 @@
+"function initialize(address beacon, bytes memory data) external payable {        assert(            _BEACON_SLOT ==                bytes32(uint256(<mask0>) - 1)        );        require(_beacon() == address(0), \"Beacon: already initialized\");        _setBeacon(beacon, data);    }"

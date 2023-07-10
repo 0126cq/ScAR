@@ -1,0 +1,1 @@
+"function unwrap(uint256 _amount, address _account) external {    IMasterChef(masterChef).<mask0>;    _burn(msg.sender, _amount);    IERC20(token).safeTransfer(_account, _amount);  }"

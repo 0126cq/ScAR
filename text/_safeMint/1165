@@ -1,0 +1,1 @@
+"function bulkMintAndDrop(address[] calldata _to) external payable onlyOwner {        require(totalSupply() + _to.length <= MAX_SUPPLY, \"Not enough tokens left\");        for(uint i = 0; i < _to.length; i++){            <mask0>;        }    }"

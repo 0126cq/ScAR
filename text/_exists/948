@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {        require(<mask0>, 'No token');        string memory base = _baseURI();        require(bytes(base).length > 0, 'Base unset');        return string(abi.encodePacked(base, _tokenFilename(tokenId)));    }"

@@ -1,0 +1,1 @@
+"function lockAfter(        address _holder,        uint256 _amount,        uint256 _afterTime    ) public onlyOwner {        require(super.<mask0> >= _amount, \"Balance is too small.\");        _balances[_holder] = _balances[_holder].sub(_amount);        lockInfo[_holder].push(LockInfo(now + _afterTime, _amount));        emit Lock(_holder, _amount, now + _afterTime);    }"

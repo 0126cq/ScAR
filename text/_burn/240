@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) public {        require(redeemed[msg.sender] + _amount <= 1e18, \"bBetaToken: cannot burn more than 1 bBeta\");        redeemed[msg.sender] += _amount;        <mask0>;    }"

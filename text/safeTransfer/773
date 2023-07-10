@@ -1,0 +1,1 @@
+"function exitSushiBar( uint _amount ) external onlyPolicy() {        ITreasury( treasury ).manage( xSushi, _amount );         ISushiBar( xSushi ).leave( _amount );         IERC20( sushi ).<mask0>;     }"

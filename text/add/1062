@@ -1,0 +1,1 @@
+"function _requireUnlockTimeIsAtLeastOneYearAfterSystemDeployment(uint _unlockTime) internal view {        uint systemDeploymentTime = lqtyToken.getDeploymentStartTime();        require(_unlockTime >= systemDeploymentTime.<mask0>, \"LockupContract: unlock time must be at least one year after system deployment\");    }"

@@ -1,0 +1,1 @@
+"function hashCouponMessage(DaoRegistry dao, Coupon memory coupon)        public        view        returns (bytes32)    {        bytes32 message =            keccak256(abi.<mask0>);        return hashMessage(dao, _chainId, address(this), message);    }"

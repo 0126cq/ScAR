@@ -1,0 +1,1 @@
+"function emergencyRecover(address to, address contractAddress, uint256 tokenId) public onlyOwner {        require(emergencyRevoked == false, \"Emergency power revoked\");        IERC721 contractERC721 = IERC721(contractAddress);        contractERC721.<mask0>;    }"

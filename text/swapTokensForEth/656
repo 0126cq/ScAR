@@ -1,0 +1,1 @@
+"function sendETHToCharity(uint256 amount) private {         <mask0>;        _charityWalletAddress.transfer(address(this).balance);     }"

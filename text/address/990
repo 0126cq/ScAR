@@ -1,0 +1,1 @@
+"function isBase(IERC20 token) internal pure returns (bool) {        return (address(token) == address(ZERO_ADDRESS) || <mask0> == address(BASE_ADDRESS));    }"

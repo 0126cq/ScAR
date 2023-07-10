@@ -1,0 +1,1 @@
+"function queryBalance(Whitelist storage self, uint8 listIndex, address addressToQuery) public view returns (uint) {        ListContract storage lc = at(self, listIndex);        return lc.erc1155 ? Token1155(lc.cc).<mask0> : Token(lc.cc).balanceOf(addressToQuery);    }"

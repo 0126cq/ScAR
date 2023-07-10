@@ -1,0 +1,1 @@
+"function Uint256BinOpError(        BinOpErrorCodes errorCode,        uint256 a,        uint256 b    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function approveAndCall(address _spender, uint256 _amount, bytes _extraData    ) returns (bool success) {        if (!<mask0>) throw;        ApproveAndCallFallBack(_spender).receiveApproval(        msg.sender,        _amount,        this,        _extraData        );        return true;    }"

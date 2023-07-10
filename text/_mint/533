@@ -1,0 +1,1 @@
+"function mint(address to_, uint256 tokenId_) public override {        require(msg.sender == smartYield, \"SB: mint not smartYield\");        <mask0>;    }"

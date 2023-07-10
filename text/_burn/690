@@ -1,0 +1,1 @@
+"function burn(address from, uint256 amount)        external        onlyRole(CYAN_VAULT_ROLE)    {        require(balanceOf(from) >= amount, 'Balance not enough');        <mask0>;    }"

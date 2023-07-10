@@ -1,0 +1,1 @@
+"function setAllowance(address token, uint256 amount) external strategyOwnerTokenOrController override {        if(amount == 0) amount = INFINITE;        IERC20(token).safeApprove(oneToken, 0);        IERC20(token).<mask0>;        emit VaultAllowance(msg.sender, token, amount);    }"

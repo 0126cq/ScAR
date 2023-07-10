@@ -1,0 +1,1 @@
+"function withdraw(address _account) public ownership {        uint256 balance = address(this).balance;        (bool success, ) = payable(_account).<mask0>;        require(success, \"HRF: ether transfer failed\");        emit Withdrawal(msg.sender, _account, balance);    }"

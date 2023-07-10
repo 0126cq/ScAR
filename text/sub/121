@@ -1,0 +1,1 @@
+"function transfer(address target, uint256 qty) external returns (bool) {    balanceOf[msg.sender] = balanceOf[msg.sender].<mask0>;    balanceOf[target] = balanceOf[target].add(qty);    if (isContract(target)) {      TokenReceiver(target).tokenFallback(target, qty, \"\");    }    emit Transfer(msg.sender, target, qty);    return true;  }"

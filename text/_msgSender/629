@@ -1,0 +1,1 @@
+"function manualsend() external {        require(<mask0> == _developmentAddress || _msgSender() == _marketingAddress);        uint256 contractETHBalance = address(this).balance;        sendETHToFee(contractETHBalance);    }"

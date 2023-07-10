@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from,address to, uint256 tokenId) public virtual override(ERC721Upgradeable) blockIfChangingToken(tokenId) {        super.<mask0>;  }"

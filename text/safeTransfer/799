@@ -1,0 +1,1 @@
+"function recoverFunds(address _token) external onlyOwner {        IERC20 token = IERC20(_token);        token.<mask0>;    }"

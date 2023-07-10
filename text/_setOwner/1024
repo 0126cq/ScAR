@@ -1,0 +1,1 @@
+"function renounceOwnership() public virtual onlyRole(DEFAULT_ADMIN_ROLE) {        <mask0>;    }"

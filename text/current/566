@@ -1,0 +1,1 @@
+"function mint(address[] memory _receivers) external onlyOwner {    for (uint256 i = 0; i < _receivers.length; i++) {      _tokenIds.increment();      uint256 _tokenId = _tokenIds.<mask0>;      _safeMint(_receivers[i], _tokenId);    }  }"

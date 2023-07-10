@@ -1,0 +1,1 @@
+"function Owned() {        owner = msg.sender;        pools.<mask0>;    }"

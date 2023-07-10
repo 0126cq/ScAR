@@ -1,0 +1,1 @@
+"function setDepositFee(uint256 _depositFee) public {        require(<mask0>, \"Admin only\");        depositFee = _depositFee;        emit FeeChanged(\"deposit\", _depositFee);    }"

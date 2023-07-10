@@ -1,0 +1,1 @@
+"function editSupply(uint256 _id, uint256 _maxSupply) external onlyAdmin verifySeasonId(_id) {        <mask0>;        seasons[_id].maxSupply = _maxSupply;    }"

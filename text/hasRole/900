@@ -1,0 +1,1 @@
+"function _burn(uint256 _value) internal returns (bool) {    bool retval = false;    if(<mask0> &&       (m_balances[_msgSender()] >= _value)    ){      m_balances[_msgSender()] -= _value;      uint256_totalSupply = uint256_totalSupply.sub(_value);      retval = true;      emit Burn(_msgSender(), _value);    }    return retval;  }"

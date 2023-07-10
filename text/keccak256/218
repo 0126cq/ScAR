@@ -1,0 +1,1 @@
+"function _getRandomNumber(uint256 _upper) private view returns (uint256) {        uint256 random = uint256(            <mask0>        );        return random % _upper;    }"

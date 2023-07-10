@@ -1,0 +1,1 @@
+"function toERC20(Token token) internal pure returns (ERC20) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function safeTransferIn(        address token,        address account,        uint256 amount    ) internal {        IEIP20NonStandard(token).<mask0>;        checkReturnCode();    }"

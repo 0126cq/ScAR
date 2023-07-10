@@ -1,0 +1,1 @@
+"function investAllUnderlying() internal {    mixFromWBTC();    uint256 mixTokenBalance = <mask0>.balanceOf(address(this));    if (mixTokenBalance > 0) {      IERC20(mixToken).safeApprove(gauge, 0);      IERC20(mixToken).safeApprove(gauge, mixTokenBalance);      Gauge(gauge).deposit(mixTokenBalance);    }  }"

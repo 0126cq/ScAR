@@ -1,0 +1,1 @@
+"function rescueAnyBEP20Tokens(address _tokenAddr, address _to, uint _amount) public onlyOwner {        <mask0>.transfer(_to, _amount);    }"

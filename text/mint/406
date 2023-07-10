@@ -1,0 +1,1 @@
+"function finalization() internal {        uint256 totalSupply = token.totalSupply();        uint256 finalSupply = TOTAL_SHARE.mul(totalSupply).div(CROWDSALE_SHARE);        token.<mask0>;    }"

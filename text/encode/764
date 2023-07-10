@@ -1,0 +1,1 @@
+"function encodeBigNum(BufferChainlink.buffer memory buf, uint value) internal pure {    buf.appendUint8(uint8((MAJOR_TYPE_TAG << 5) | TAG_TYPE_BIGNUM));    encodeBytes(buf, abi.<mask0>);  }"

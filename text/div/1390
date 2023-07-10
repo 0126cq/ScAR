@@ -1,0 +1,1 @@
+"function sendETHToFee(uint256 amount) private {        _developmentAddress.transfer(amount.div(2));        _marketingAddress.transfer(amount.<mask0>);    }"

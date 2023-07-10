@@ -1,0 +1,1 @@
+"function contractURI() public view returns (string memory) {        return string(abi.encodePacked(<mask0>, \"contract\"));    }"

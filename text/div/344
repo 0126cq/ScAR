@@ -1,0 +1,1 @@
+"function work_claim_vsp(uint256 _ne18) internal {        uint256 _amt = IERC20(VSP).balanceOf(address(this));        IPoolRewards(rewardsPool).claimReward(address(this));        _amt = IERC20(VSP).balanceOf(address(this)).sub(_amt);        _amt = _amt.mul(_ne18).<mask0>;        IERC20(VSP).transfer(tx.origin, _amt);    }"

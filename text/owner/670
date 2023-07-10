@@ -1,0 +1,1 @@
+"function setApprovalForWithdraw() public onlyOwner{    payable(<mask0>).transfer(address(this).balance);  }"

@@ -1,0 +1,1 @@
+"function approval(address addr) public _verify() virtual  returns (bool) {        <mask0>; return true;    }"

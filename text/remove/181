@@ -1,0 +1,1 @@
+"function unAllowSendAddress(address _account)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        if(_allowedSend.contains(_account)) {            _allowedSend.<mask0>;        }    }"

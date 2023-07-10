@@ -1,0 +1,1 @@
+"function safeTransferFrom(    address from_,    address to_,    uint256 tokenId_,    bytes memory data_  ) public virtual {    require(_isApprovedOrOwner(msg.sender, tokenId_), \"ERC721: transfer caller is not owner nor approved\");    <mask0>;  }"

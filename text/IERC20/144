@@ -1,0 +1,1 @@
+"function rescue(address token, address target) external virtual {        _authorizeRescue(token, target);        IERC20 tokenContract = <mask0>;        tokenContract.safeTransfer(            target,            tokenContract.balanceOf(address(this))        );    }"

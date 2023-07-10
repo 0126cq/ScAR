@@ -1,0 +1,1 @@
+"function renew(uint256 tokenId) external payable {        require(<mask0>, \"NFTYToken: Token does not exist\");        require(msg.value >= renewalPrice, \"NFTYToken: Invalid ether amount\");        if (_isExpired(tokenId)) {            tokenExpiry[tokenId] = block.timestamp + 30 days;        } else {            tokenExpiry[tokenId] += 30 days;        }    }"

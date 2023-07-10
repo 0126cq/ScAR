@@ -1,0 +1,1 @@
+"function minimumStake() public view returns (uint256) {        return MinimumStakeSchedule.<mask0>;    }"

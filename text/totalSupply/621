@@ -1,0 +1,1 @@
+"function _mintNft(address recipient, uint256 _quantity)        private        withinQuantityLimits(_quantity)        withinMaximumSupply(_quantity)    {        for (uint256 i = 0; i < _quantity; i++) {            supplyCounter.increment();            _mint(recipient, <mask0>);        }    }"

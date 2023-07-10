@@ -1,0 +1,1 @@
+"function deposit(address _user, uint256 _amount) external virtual periodsActive depositsEnabled onlyController {        require((_amount > 0) && (_amount <= ibt.<mask0>), \"FutureVault: ERR_AMOUNT\");        _deposit(_user, _amount);        emit FundsDeposited(_user, _amount);    }"

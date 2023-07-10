@@ -1,0 +1,1 @@
+"function creditCardMint(uint _count, address _to) public onlyOwner {        uint256 total = _totalMinted();        require(total + _count <= maxZombies, \"Max limit\");        <mask0>;    }"

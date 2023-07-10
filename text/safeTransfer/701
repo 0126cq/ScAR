@@ -1,0 +1,1 @@
+"function revoke() public onlyOwner {        require(!hasRevoked, \"HIDVesting: has already been revoked\");        uint256 currentBalance = getBalance();        require(currentBalance > 0, \"HIDVesting: No tokens left to revoke\");        hasRevoked = true;        hidToken.<mask0>;        emit TokensRevoked(currentBalance, block.timestamp);    }"

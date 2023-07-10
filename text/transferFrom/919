@@ -1,0 +1,1 @@
+"function makeItem(IERC721Upgradeable _nft, uint _tokenId, uint _price) external nonReentrant {        _nft.<mask0>;        generateSaleItem(_nft, _tokenId, _price, msg.sender);    }"

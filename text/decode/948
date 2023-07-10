@@ -1,0 +1,1 @@
+"function totalBorrowsCurrent() external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"totalBorrowsCurrent()\"));        return abi.<mask0>;    }"

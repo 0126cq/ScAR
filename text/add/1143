@@ -1,0 +1,1 @@
+"function _now(uint value) internal view returns (uint) {        uint v = block.timestamp;        if(value != 0){            v = v.<mask0>;        }        return v;    }"

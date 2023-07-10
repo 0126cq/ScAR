@@ -1,0 +1,1 @@
+"function isAllowlisted(address _to, bytes32[] calldata _merkleProof) public view returns(bool) {      require(merkleRoot != 0, \"Merkle root is not set!\");      bytes32 leaf = keccak256(abi.<mask0>);      return MerkleProof.verify(_merkleProof, merkleRoot, leaf);    }"

@@ -1,0 +1,1 @@
+"function _addLiquidity(uint256 _tokenAmount, uint256 _ethAmountWei, bool autoburn) internal {\t\taddress lpTokenRecipient = address(0);\t\tif ( !autoburn ) { lpTokenRecipient = owner; }\t\t_uniswapV2Router.<mask0>;\t}"

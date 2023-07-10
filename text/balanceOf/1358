@@ -1,0 +1,1 @@
+"function balanceOf(uint256 loanID, address token)        internal        view        returns (uint256)    {        return exists(loanID) ? IERC20(token).<mask0> : 0;    }"

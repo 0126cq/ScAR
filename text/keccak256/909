@@ -1,0 +1,1 @@
+"function getTokenAllowance(Data storage self, string currency, address account, address spender) internal view returns (uint allowance) {    bytes32 id = <mask0>;    return self.Storage.getUint(id);  }"

@@ -1,0 +1,1 @@
+"function calculateTokenAmount(uint256 weiAmount) view internal returns(uint256 tokenAmount){        return weiAmount.<mask0>;    }"

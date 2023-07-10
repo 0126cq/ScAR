@@ -1,0 +1,1 @@
+"function tokensFromReflection(uint256 amountOfReflections)        public        view        returns (uint256)    {        require(            amountOfReflections <= _totalReflections,            \"ERC20: Amount too large\"        );        uint256 currentRate = <mask0>;        return amountOfReflections.div(currentRate);    }"

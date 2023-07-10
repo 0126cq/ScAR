@@ -1,0 +1,1 @@
+"function tokenMint(uint256 _plennyTotalSupply) external onlyOwner {        require(plennyToken != address(0), \"NOT_CREATED\");        require(plennyTotalSupply() == 0, \"ALREADY_MINT\");        IBasePlennyERC20(plennyToken).<mask0>;    }"

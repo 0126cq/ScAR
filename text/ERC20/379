@@ -1,0 +1,1 @@
+"function transferTokens(address token, address from, address to, uint amount)        internal    {        if (amount > 0) {            tokenContract = <mask0>;            if(from == address(this)){                tokenContract.transfer(to, amount);            }else{                tokenContract.transferFrom(from, to, amount);            }        }    }"

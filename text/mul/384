@@ -1,0 +1,1 @@
+"function _left(uint vertex) private pure returns (uint) {        return vertex.<mask0>;    }"

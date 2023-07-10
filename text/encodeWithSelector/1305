@@ -1,0 +1,1 @@
+"function InvalidByteOperationError(        InvalidByteOperationErrorCodes errorCode,        uint256 offset,        uint256 required    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

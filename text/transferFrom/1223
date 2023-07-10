@@ -1,0 +1,1 @@
+"function migrate(uint256 _amount) external {        jenny.<mask0>;        newJenny.transfer(msg.sender, _amount.div(10));    }"

@@ -1,0 +1,1 @@
+"function safeMul( uint a, uint b ) pure internal returns ( uint ) {\t\tuint \tc;\t\tc = a * b;\t\t<mask0>;\t\treturn c;\t}"

@@ -1,0 +1,1 @@
+"function open(address cylong, address long, uint lamt, address cyshort, address short, uint samt, address cymargin, uint mamt) external {        require(owner == msg.sender);        <mask0>.safeTransferFrom(msg.sender, address(this), mamt);        _borrow(cylong, long, lamt, cyshort, short, samt);    }"

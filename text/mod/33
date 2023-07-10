@@ -1,0 +1,1 @@
+"function negate(uint y) internal pure returns (uint) {        return Fp2Operations.P.sub(y).<mask0>;    }"

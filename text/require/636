@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal view virtual returns (bool) {        <mask0>;        address owner = ERC721Upgradeable.ownerOf(tokenId);        return (spender == owner || getApproved(tokenId) == spender || isApprovedForAll(owner, spender));    }"

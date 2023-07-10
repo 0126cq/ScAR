@@ -1,0 +1,1 @@
+"function mint(address to, string memory tokenURI_) external onlyOwner() {        uint tokenId = ++ _currentTokenId;        <mask0>;        _tokenURIs[tokenId] = tokenURI_;    }"

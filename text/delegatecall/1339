@@ -1,0 +1,1 @@
+"function _delegate(address implementation)        internal        virtual        returns (bool succ, bytes memory ret)    {        (succ, ret) = implementation.<mask0>;    }"

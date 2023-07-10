@@ -1,0 +1,1 @@
+"function convertFromUnderlying(AssetRateParameters memory ar, int256 underlyingBalance)        internal        pure        returns (int256)    {        int256 assetBalance = underlyingBalance            .<mask0>            .mul(ar.underlyingDecimals)            .div(ar.rate);        return assetBalance;    }"

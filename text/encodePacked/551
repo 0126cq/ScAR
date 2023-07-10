@@ -1,0 +1,1 @@
+"function svgDefsAndStyles(uint256 tokenId, uint8 maskType, string memory font, string memory borderColor)        public        view        returns (string memory)    {        return string(abi.<mask0>);    }"

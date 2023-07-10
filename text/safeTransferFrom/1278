@@ -1,0 +1,1 @@
+"function transferOut(uint256[] calldata tokenIds, address _to) public onlyOwner {    for(uint i = 0; i < tokenIds.length; i++){      require(IERC721(originalNFTAddress).ownerOf(tokenIds[i]) == address(this), \"contract own NFT to transfer\");      IERC721(originalNFTAddress).<mask0>;    }  }"

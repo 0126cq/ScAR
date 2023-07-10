@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) public whenNotPaused returns (bool) {        require(!isBlackListed[_from]);        if (deprecated) {            return UpgradedStandardToken(upgradedAddress).transferFromByLegacy(msg.sender, _from, _to, _value);        } else {            return super.<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function mint(string memory hashed_content) internal {        content[_tokenIdTracker.current()] = Metadata(hashed_content);        <mask0>;        _tokenIdTracker.increment();    }"

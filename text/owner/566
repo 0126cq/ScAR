@@ -1,0 +1,1 @@
+"function setAntiBotEnabled(bool antiBotEnabled_) external {        require(_msgSender() == <mask0> || _msgSender() == operationsWallet, \"Token: caller is not authorised\");        antiBotEnabled = antiBotEnabled_;    }"

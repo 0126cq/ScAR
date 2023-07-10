@@ -1,0 +1,1 @@
+"function reserve(uint256 quantity)     external     onlyOwner      {    require(      totalSupply() + quantity < totalAvailable + 1,       \"Not Enough supply to reserve\"    );    <mask0>;  }"

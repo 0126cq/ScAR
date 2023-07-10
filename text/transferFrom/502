@@ -1,0 +1,1 @@
+"function stake(uint256 _amountBMI) external override {        require(_amountBMI > 0, \"BMIStaking: can't stake 0 tokens\");        bmiToken.<mask0>;        _stake(_msgSender(), _amountBMI);    }"

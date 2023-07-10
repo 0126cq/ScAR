@@ -1,0 +1,1 @@
+"function giveAwayNft(address to, uint256 numberOfTokens)    public    nonReentrant    onlyOwner  {    require(numberOfTokens <= _reserved, 'Exceeds reserved supply');    for (uint256 i = 0; i < numberOfTokens; i++) {      if (totalSupply() < MAX_SUPPLY) {        <mask0>;        _tokenIdCounter.increment();      }    }    _reserved -= numberOfTokens;  }"

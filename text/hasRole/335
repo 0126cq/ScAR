@@ -1,0 +1,1 @@
+"function setLockTime(uint64 _lockTime)        public    {        require(<mask0>,            \"ShibaFriendPet: Caller is not an admin\"        );        lockTime = _lockTime;    }"

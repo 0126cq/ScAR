@@ -1,0 +1,1 @@
+"function _exists(uint256 tokenId) internal view returns (bool) {        return <mask0> <= tokenId && tokenId < _currentIndex &&            !_ownerships[tokenId].burned;    }"

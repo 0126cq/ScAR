@@ -1,0 +1,1 @@
+"function getApproved(uint256 tokenId) public view virtual override returns (address) {        require(<mask0>, \"ERC721: approved query for nonexistent token\");        return _tokenApprovals[tokenId];    }"

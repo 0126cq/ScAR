@@ -1,0 +1,1 @@
+"function transferForeignToken(address _token, address _to)        external        onlyOwner        returns (bool _sent)    {        require(_token != address(this), \"Can't withdraw native tokens\");        uint256 _contractBalance = IERC20(_token).balanceOf(address(this));        _sent = <mask0>.transfer(_to, _contractBalance);    }"

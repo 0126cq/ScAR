@@ -1,0 +1,1 @@
+"function withdraw(address, uint256 poolId, uint256 amount) external override returns (uint256) {        (address lpToken,,,) = DODO_MINE.poolInfos(poolId);        DODO_MINE.<mask0>;        return 0;    }"

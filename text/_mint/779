@@ -1,0 +1,1 @@
+"function mint(address to, uint256 id, uint256 amount, bytes memory data) public virtual {        require(hasRole(MINTER_ROLE, _msgSender()), \"ERC1155PresetMinterPauser: must have minter role to mint\");        <mask0>;    }"

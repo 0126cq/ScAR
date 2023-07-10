@@ -1,0 +1,1 @@
+"function delegatePurchaseWithZeroEx(        IProtocolAdapter adapter,        ProtocolAdapterTypes.OptionTerms calldata optionTerms,        ProtocolAdapterTypes.ZeroExOrder calldata zeroExOrder    ) external {        (bool success, bytes memory result) =            address(adapter).<mask0>;        revertWhenFail(success, result);    }"

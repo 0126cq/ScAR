@@ -1,0 +1,1 @@
+"function totalGAMinted() public view returns (uint256) {\t\treturn _countTokenGA.<mask0>;\t}"

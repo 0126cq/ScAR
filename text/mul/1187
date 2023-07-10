@@ -1,0 +1,1 @@
+"function convertTo18(address _joinAddr, uint256 _amount) internal view returns (uint256) {        return <mask0>;    }"

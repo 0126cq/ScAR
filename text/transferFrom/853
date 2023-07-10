@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 id,        bytes memory data    ) public virtual {        <mask0>;        if (!_checkOnERC721Received(from, to, id, data)) revert TransferToNonERC721ReceiverImplementer();    }"

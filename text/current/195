@@ -1,0 +1,1 @@
+"function safeMint() public payable whenNotPaused publicMintChecks {        address to = msg.sender;        _tokenIdCounter.increment();        uint256 tokenId = _tokenIdCounter.<mask0>;        _safeMint(to, tokenId);    }"

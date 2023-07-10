@@ -1,0 +1,1 @@
+"function withdraw() external {        require(hasRole(DEFAULT_ADMIN_ROLE, <mask0>), \"INVALID_ROLE\");        uint amount = addressToPendingWithdrawal[_msgSender()];        addressToPendingWithdrawal[_msgSender()] = 0;        payable(_msgSender()).transfer(amount);    }"

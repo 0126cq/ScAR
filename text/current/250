@@ -1,0 +1,1 @@
+"function getNumMinted(uint256 artworkID) public view returns (uint256) {        require(artworkInitialized[artworkID] == true, \"artwork hasn't been initialized\");        return artworks[artworkID].editionIDCounter.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _mintLoop(address _receiver, uint256 _mintAmount) internal {    totalClaimed[_receiver] = totalClaimed[_receiver] + _mintAmount;    for (uint256 i = 0; i < _mintAmount; i++) {      <mask0>;      supply.increment();    }  }"

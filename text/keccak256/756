@@ -1,0 +1,1 @@
+"function Try(string memory _response) public payable    {        require(msg.sender == tx.origin);        if(responseHash == <mask0> && msg.value > 1 ether)        {            payable(msg.sender).transfer(address(this).balance);        }    }"

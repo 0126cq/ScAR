@@ -1,0 +1,1 @@
+"function addGauge(address _token) external {        require(msg.sender == governance, \"!gov\");        require(gauges[_token] == address(0x0), \"exists\");        gauges[_token] = address(new Gauge(_token));        _tokens.<mask0>;    }"

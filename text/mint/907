@@ -1,0 +1,1 @@
+"function _reinvest() internal virtual override {        uint256 _collateralBalance = collateralToken.balanceOf(address(this));        if (_collateralBalance != 0) {            require(cToken.<mask0> == 0, \"deposit-to-compound-failed\");        }    }"

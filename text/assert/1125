@@ -1,0 +1,1 @@
+"function mul(uint256 a, uint256 b) pure internal returns (uint256 c) {\t\tif (a == 0) {\t\t\treturn 0;\t\t}\t\tc = a * b;\t\t<mask0>;\t\treturn c;\t}"

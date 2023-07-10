@@ -1,0 +1,1 @@
+"function claimRewardsTo_(address to) external onlyBeacon returns(uint amt) {        address[] memory assets = new <mask0>;        assets[0] = _bendDebtWETH_;        amt = IBendIncentives(_bendIncentives_).claimRewards(assets, uint(-1));        IERC20(_BEND_).transfer(to, amt);    }"

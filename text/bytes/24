@@ -1,0 +1,1 @@
+"function getSlice(    bytes memory text,    uint256 begin,    uint256 end  ) private pure returns (bytes memory) {    bytes memory a = new <mask0>;    for (uint256 i = begin; i <= end; i++) {      a[i - begin] = text[i];    }    return a;  }"

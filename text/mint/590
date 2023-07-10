@@ -1,0 +1,1 @@
+"function mintTokensBatch(uint amount, address[] to) public onlyOwner {    for(uint i = 0; i < to.length; i++) {      token.<mask0>;    }  }"

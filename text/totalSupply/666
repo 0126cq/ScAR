@@ -1,0 +1,1 @@
+"function teamMint(address _to, uint256 _amount) external onlyOwner {        require(<mask0>+_amount<MAX_SUPPLY, \"SoldOut\");        require(_numberMinted(msg.sender) <= TEAM_MINT_SUPPLY, \"Max\");        _safeMint(_to, _amount);    }"

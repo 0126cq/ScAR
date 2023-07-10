@@ -1,0 +1,1 @@
+"function _purchase(       address recipient,        uint256 amount    ) internal {        require(msg.sender == _crowdAddress);        _transfer(<mask0>, recipient, amount);    }"

@@ -1,0 +1,1 @@
+"function uri(uint256 _id) override external view returns (string memory) {        require(_exists(_id), \"Deed NFT doesn't exists\");        return string(abi.<mask0>);    }"

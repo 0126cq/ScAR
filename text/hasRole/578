@@ -1,0 +1,1 @@
+"function togglePause(bool _pause) public {        require(<mask0>, \"Caller is not admin\");        require(_mintingPaused != _pause, \"Already in desired pause state\");        _mintingPaused = _pause;    }"

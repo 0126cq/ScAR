@@ -1,0 +1,1 @@
+"function field_106(uint24[4] memory colors) public pure returns (FieldData memory) {        return            FieldData(                'Two Pales Dancetty',                FieldCategories.HERALDIC,                string(                    abi.<mask0>                )            );    }"

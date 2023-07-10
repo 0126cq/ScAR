@@ -1,0 +1,1 @@
+"function isApprovedOrOwner(address _spender, uint256 _tokenId) internal view returns (bool) {        address owner = ownerOf(_tokenId);        return (_spender == owner || <mask0> == _spender || isApprovedForAll(owner, _spender));    }"

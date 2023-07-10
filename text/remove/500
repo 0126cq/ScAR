@@ -1,0 +1,1 @@
+"function excludeFromDividends(address account) external onlyOwner {    \texcludedFromDividends[account] = true;    \t_setBalance(account, 0);    \t<mask0>;    \temit ExcludeFromDividends(account);    }"

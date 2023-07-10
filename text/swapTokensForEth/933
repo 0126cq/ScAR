@@ -1,0 +1,1 @@
+"function swapAndSendMarketing(uint256 tokens) internal {        uint256 initialBalance = address(this).balance;        <mask0>;         uint256 newBalance = address(this).balance.sub(initialBalance);        (bool success,) =  address(marketingWallet).call{value: newBalance}(\"\");        if (success) {        }    }"

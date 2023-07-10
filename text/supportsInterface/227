@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override(IERC165, ERC1155, AccessControl)        returns (bool)    {        return super.<mask0>;    }"

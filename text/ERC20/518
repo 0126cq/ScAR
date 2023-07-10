@@ -1,0 +1,1 @@
+"function activeAssets() public view returns (uint256) {        return <mask0>.balanceOf(address(this));    }"

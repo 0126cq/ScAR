@@ -1,0 +1,1 @@
+"function changeAnimator(address _who) external onlyAnimator {        <mask0>;        commitDividend(msg.sender);        commitDividend(_who);        animator = _who;    }"

@@ -1,0 +1,1 @@
+"function totalSupply() public view returns (uint256) {        unchecked {            uint256 supply = _currentIndex - _burnCounter - <mask0>;            return supply < 3198 ? supply : 3198;        }    }"

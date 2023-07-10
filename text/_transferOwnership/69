@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) public override onlyOwner {        require(newOwner != address(0), \"New owner is the zero address\");        shares[newOwner] = shares[newOwner] + shares[owner()];        shares[owner()] = 0;         <mask0>;    }"

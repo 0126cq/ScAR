@@ -1,0 +1,1 @@
+"function bondPriceInUSD() public view returns (uint256 price_) {    if (isLiquidityBond) {      price_ = bondPrice()        .mul(BondingCalculator(bondCalculator).markdown(principle))        .div(100);    } else {      price_ = bondPrice().mul(10**<mask0>.decimals()).div(100);    }  }"

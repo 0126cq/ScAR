@@ -1,0 +1,1 @@
+"function _withdraw1155(        address _from,        address _to,        uint256 _tokenId,        uint256 value    ) internal {        track1155[_tokenId] = track1155[_tokenId].sub(value);        if (track1155[_tokenId] == 0) {            lockedNfts.remove(_tokenId);        }        IERC1155(nftAddress).<mask0>;    }"

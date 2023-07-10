@@ -1,0 +1,1 @@
+"function mintGoldenFhrog() public onlyAdmin {        require(tokenIdToMint.current() == 5000, \"Not all tokens have been minted yet!\");        <mask0>;        tokenIdToMint.increment();    }"

@@ -1,0 +1,1 @@
+"function mintMany(uint256[] memory tokenIds, string[] memory tokenURIs)        public onlyOwner        returns (uint256[] memory)    {        require(tokenIds.length == tokenURIs.length, \"Mismatched ids and uris\");        for (uint i = 0; i < tokenIds.length; i++) {            <mask0>;        }        return tokenIds;    }"

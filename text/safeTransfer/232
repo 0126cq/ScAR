@@ -1,0 +1,1 @@
+"function transfer(address token, address receiver, uint256 amount) public onlyAdmin {        if (token == _ETH_ADDRESS) {            (bool success, ) = receiver.call{value: amount}(\"\");            require(success, \"transfer: Failed to send Ether!\");        }        IERC20Detailed(token).<mask0>;        emit Transferred(token, receiver, amount);    }"

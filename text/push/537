@@ -1,0 +1,1 @@
+"function createPool(IERC20 _token) external onlyGovernance returns (uint256) {    require(tokenPoolIds[_token] == 0, \"StakingPools: token already has a pool\");    uint256 _poolId = _pools.length();    _pools.<mask0>;    tokenPoolIds[_token] = _poolId + 1;    emit PoolCreated(_poolId, _token);    return _poolId;  }"

@@ -1,0 +1,1 @@
+"function doTransferOut(        address payable to,        uint256 amount    ) internal {        plugin.<mask0>;    }"

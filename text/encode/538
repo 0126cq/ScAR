@@ -1,0 +1,1 @@
+"function setAllFtokenMarkets(address[] calldata ftokens)        external        onlyAdmin    {        uint256 n = ftokens.length;        for (uint256 i = 0; i < n; i++) {            allFtokenMarkets[ftokens[i]] = true;            allFtokenExchangeUnits[ftokens[i]] = _calcExchangeUnit(ftokens[i]);        }        emit SetAllFtokenMarkets(abi.<mask0>);    }"

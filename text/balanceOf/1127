@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) public returns (bool) {      require(_amount > 0);      address account = msg.sender;      require(_amount <= <mask0>);      balances[account] = balances[account].sub(_amount);      tokenTotalSupply = tokenTotalSupply.sub(_amount);      TokensBurnt(account, _amount);      return true;   }"

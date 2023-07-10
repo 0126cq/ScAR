@@ -1,0 +1,1 @@
+"function setTokensFactory(address _newTokenFactory) public {        require(<mask0>, \"ERR_CALLER\");        emit RegistryUpdate(\"TokenFactory\", tokensFactory, _newTokenFactory);        tokensFactory = _newTokenFactory;    }"

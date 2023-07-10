@@ -1,0 +1,1 @@
+"function transferFrom(    address src, address dst, uint wad    ) stoppable note returns (bool) {        return super.<mask0>;    }"

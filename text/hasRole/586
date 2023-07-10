@@ -1,0 +1,1 @@
+"function adminWithdrawERC721(address token, uint256 _tokenId) external {        require(<mask0>, \"Caller is not admin\");        IERC721(token).transferFrom(address(this), msg.sender, _tokenId);    }"

@@ -1,0 +1,1 @@
+"function removeKeeper(address _keeperAddress) external onlyGovernor {        require(keepers.<mask0>, \"remove-keeper-failed\");    }"

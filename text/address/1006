@@ -1,0 +1,1 @@
+"function vaults() public view override returns (address[] memory _vaults) {    _vaults = new <mask0>;    for (uint i; i < availableVaults.length(); i++) {      _vaults[i] = availableVaults.at(i);    }  }"

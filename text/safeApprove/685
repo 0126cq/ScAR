@@ -1,0 +1,1 @@
+"function deposit() public override {        uint256 _want = IERC20(want).balanceOf(address(this));        if (_want > 0) {            IERC20(want).safeApprove(masterChef, 0);            IERC20(want).<mask0>;            ISushiChef(masterChef).deposit(poolId, _want);        }    }"

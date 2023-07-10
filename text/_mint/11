@@ -1,0 +1,1 @@
+"function _internalMint(uint256 _amount) internal {        require(totalSupply(SEASON) + _amount <= seasons[SEASON].maxSupply, \"underground: cap for season reached\");        mintedPerWallet[SEASON][msg.sender] = true;        <mask0>;        emit Purchased(SEASON, msg.sender, _amount);    }"

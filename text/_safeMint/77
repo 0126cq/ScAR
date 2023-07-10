@@ -1,0 +1,1 @@
+"function Giveaways(uint numTokens, address recipient) public onlyOwner {\t\trequire(numTokens <= CURR_ROUND_SUPPLY, \"We're at max supply!\");\t\tCURR_ROUND_SUPPLY -= numTokens;\t\t<mask0>;\t}"

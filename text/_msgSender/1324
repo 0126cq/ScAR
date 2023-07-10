@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount)        public        override        returns (bool)    {        require(_msgSender() != recipient, \"ERC20: cannot self transfer\");        !taxExempt[_msgSender()]            ? _transferWithTax(_msgSender(), recipient, amount)            : _transfer(<mask0>, recipient, amount);        return true;    }"

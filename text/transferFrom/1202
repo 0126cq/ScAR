@@ -1,0 +1,1 @@
+"function _migrate(address _from, uint256 _amount) private {        require(_amount > 0, ERROR_ZERO_AMOUNT);        require(antv1.<mask0>, ERROR_TRANSFER_FAILED);        require(antv2.transfer(_from, _amount), ERROR_TRANSFER_FAILED);    }"

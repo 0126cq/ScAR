@@ -1,0 +1,1 @@
+"function _withdrawSome(uint256 _amount)        internal        override        returns (uint256)    {        ISushiChef(masterChef).<mask0>;        return _amount;    }"

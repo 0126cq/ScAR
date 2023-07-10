@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public onlyOwner {        require(tokenId > 0 && tokenId <= 1048576, \"Token ID invalid\");        <mask0>;    }"

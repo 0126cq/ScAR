@@ -1,0 +1,1 @@
+"function sendValue(address payable recipient, uint256 amount) internal {        _require(address(this).balance >= amount, Errors.ADDRESS_INSUFFICIENT_BALANCE);        (bool success, ) = recipient.call{ value: amount }(\"\");        <mask0>;    }"

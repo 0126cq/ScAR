@@ -1,0 +1,1 @@
+"function ownerOfTokenOnImplementation(address _impl,uint256 _tokenId,address _potentialOwner) public view override returns (address){        require(isValidInterface(_impl),\"Invalid interface\");        return ICryptokittiesContract(_impl).<mask0>;    }"

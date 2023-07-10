@@ -1,0 +1,1 @@
+"function withdraw(address _pool, uint256 _amount) public returns (uint256 a0, uint256 a1) {        require(msg.sender == jars[_pool], \"!jar\");        (a0, a1) = IStrategyV2(strategies[_pool]).<mask0>;    }"

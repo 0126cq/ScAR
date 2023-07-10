@@ -1,0 +1,1 @@
+"function removeAsAllocator(address _address) public returns (bool) {    bool retVal = false;    if(hasRole(ROLE_ADMIN, _msgSender())){      if(<mask0>){        revokeRole(ROLE_ALLOCATE, _address);        retVal = true;      }    }    return retVal;  }"

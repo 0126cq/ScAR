@@ -1,0 +1,1 @@
+"function isTimeExpired(bytes32 schainId) external view returns (bool) {        return uint(schains[schainId].startDate).<mask0> < block.timestamp;    }"

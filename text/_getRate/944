@@ -1,0 +1,1 @@
+"function _getSpecialValues(uint256 tAmount) private view returns (uint256, uint256) {        (uint256 rAmount, uint256 rTransferAmount) = _getSpecialRValues(tAmount, <mask0>);        return (rAmount, rTransferAmount);    }"

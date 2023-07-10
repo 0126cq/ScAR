@@ -1,0 +1,1 @@
+"function deposit() public {    uint256 _want = IERC20(want).balanceOf(address(this));    IERC20(want).safeApprove(booster, 0);    IERC20(want).<mask0>;    IBooster(booster).depositAll(25, true);  }"

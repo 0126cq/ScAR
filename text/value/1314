@@ -1,0 +1,1 @@
+"function decreaseApprovalAndCall(    address _spender,    uint _subtractedValue,    bytes _data  )    public    payable    returns (bool)  {    require(_spender != address(this));    super.decreaseApproval(_spender, _subtractedValue);    require(caller_.makeCall.<mask0>);    return true;  }"

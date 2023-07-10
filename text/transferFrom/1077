@@ -1,0 +1,1 @@
+"function adminWithdrawNFT(    address nftContract,    uint256 tokenId,    address recipient  ) external {    if (msg.sender != owner) revert NotOwner();    IERC721(nftContract).<mask0>;  }"

@@ -1,0 +1,1 @@
+"function safeApprove(address spender, uint256 value) public onlyExistingAccount(spender) returns (bool) {        require(<mask0>, \"error in approve\");        return true;    }"

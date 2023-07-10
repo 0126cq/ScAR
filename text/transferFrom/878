@@ -1,0 +1,1 @@
+"function lockMana(address _from, uint256 mana) public {    require(acceptingDeposits);    require(mana >= 1000 * 1e18);    require(manaToken.<mask0>);    lockedBalance[_from] += mana;    totalLocked += mana;    LockedBalance(_from, mana);  }"

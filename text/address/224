@@ -1,0 +1,1 @@
+"function _enterCollatMarket(address _cTokenAddress) internal {    IComptroller comptroller = IComptroller(_getComptrollerAddress());    address[] memory cTokenMarkets = new <mask0>;    cTokenMarkets[0] = _cTokenAddress;    comptroller.enterMarkets(cTokenMarkets);  }"

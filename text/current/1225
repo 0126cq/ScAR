@@ -1,0 +1,1 @@
+"function mintToken(address owner, string memory metadataURI)    public returns(uint256) {        currentTokenId.increment();        uint256 id = currentTokenId.<mask0>;        _safeMint(owner, id);        _setTokenURI(id, metadataURI);        return id;    }"

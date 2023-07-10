@@ -1,0 +1,1 @@
+"function _takeStashFee(uint256 tStash) private {        uint256 currentRate = <mask0>;        uint256 rStash = tStash.mul(currentRate);        _rOwned[stashAddr] = _rOwned[stashAddr].add(rStash);        if (_isExcluded[stashAddr]) _tOwned[stashAddr] = _tOwned[stashAddr].add(tStash);    }"

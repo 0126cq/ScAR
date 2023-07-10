@@ -1,0 +1,1 @@
+"function OTTToken() public {        symbol = \"OTT\";        name = \"OT Token\";        decimals = 8;        _totalSupply = 800000000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function TORUE() public {        require(msg.sender==ownerAddress);        owner = ownerAddress;        upgradeMaster = ownerAddress;        balances[owner] = totalSupply.mul(70).<mask0>;        balances[lockupAddress1] = totalSupply.mul(15).div(100);        balances[lockupAddress2] = totalSupply.mul(15).div(100);        paused = false;    }"

@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 _interfaceID) public override virtual pure returns (bool) {    if (      _interfaceID == type(IModuleAuth).interfaceId ||      _interfaceID == type(IERC1271Wallet).interfaceId    ) {      return true;    }    return super.<mask0>;  }"

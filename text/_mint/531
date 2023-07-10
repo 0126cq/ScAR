@@ -1,0 +1,1 @@
+"function mintSentient(address address_to_mint) internal virtual {        uint tokenID = sentient;        <mask0>;        sentient = sentient +  1;     }"

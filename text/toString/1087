@@ -1,0 +1,1 @@
+"function _createURI(string memory baseURI, uint256 tokenId)        internal        pure        returns (string memory)    {        if (_hasLength(baseURI)) {            return string(abi.encodePacked(baseURI, tokenId.<mask0>));        }        return \"\";    }"

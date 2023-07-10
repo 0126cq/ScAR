@@ -1,0 +1,1 @@
+"function _mint(GemstoneTypes tier) private {        uint256 tokenId = _tokenIdCounter.<mask0>;        _tokenIdCounter.increment();        _safeMint(msg.sender, tokenId);        _tokenCountByTier[tier]++;        tierByToken[tokenId] = tier;    }"

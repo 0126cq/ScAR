@@ -1,0 +1,1 @@
+"function asSingletonArray(uint256 n) internal pure returns(uint256[] memory array) {        array = new <mask0>;        array[0] = n;    }"

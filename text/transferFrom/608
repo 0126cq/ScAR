@@ -1,0 +1,1 @@
+"function depositDai(uint amount) public {        require(daiToken.<mask0>);        _addDai(amount, msg.sender);        emit DepositDai(msg.sender, amount);    }"

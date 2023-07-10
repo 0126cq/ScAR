@@ -1,0 +1,1 @@
+"function addStrategy(        address _token,        address _strategy,        uint256 _timeout    ) external override onlyStrategist {        strategies[_token].addresses.<mask0>;        strategies[_token].timeout = _timeout;        emit StrategyAdded(_token, _strategy, _timeout);    }"

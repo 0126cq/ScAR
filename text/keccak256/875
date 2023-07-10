@@ -1,0 +1,1 @@
+"function removeBlueprint(string memory shipName) public onlyOwner {        shipImplementation[<mask0>] = address(0);    }"

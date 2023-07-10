@@ -1,0 +1,1 @@
+"function _initializeApprovals() internal {        cvxToken.<mask0>;        cvxCrvToken.approve(address(cvxCrvHelperVault), MAX_UINT_256);    }"

@@ -1,0 +1,1 @@
+"function _tokenTransfer(address sender, address recipient, uint256 amount, bool tradeFee) private {            if(!tradeFee)                removeAllFee();            <mask0>;            if(!tradeFee){                restoreAllFee();            }        }"

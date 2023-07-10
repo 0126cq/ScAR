@@ -1,0 +1,1 @@
+"function setFees(        string memory key,        uint128 _onetime,        uint128 _bip,        address _token    ) public onlyRole(QUATERMASTER_ROLE) {        serviceFees[<mask0>] = Fees({            onetime: _onetime,            bip: _bip,            token: _token        });        emit updateFees(_onetime, _bip, _token);    }"

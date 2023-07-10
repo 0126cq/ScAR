@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external override onlyRole(MINTER_ROLE) {        <mask0>;        require(totalSupply() + amount <= MAX_SUPPLY, \"YuGiOhCard: exceeds MAX_SUPPLY\");        for (uint i = 0; i < amount; i++) {            uint256 tokenId = _tokenIdCounter.current();            _tokenIdCounter.increment();            _safeMint(to, tokenId);        }    }"

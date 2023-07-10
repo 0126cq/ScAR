@@ -1,0 +1,1 @@
+"function requireAndGetAddress(bytes32 name) internal view returns (address) {        address _foundAddress = addressCache[name];        require(_foundAddress != address(0), string(abi.<mask0>));        return _foundAddress;    }"

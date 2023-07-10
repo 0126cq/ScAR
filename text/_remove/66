@@ -1,0 +1,1 @@
+"function yank(uint256 id) external auth lock {        require(sales[id].usr != address(0), \"Clipper/not-running-auction\");        dog.digs(ilk, sales[id].tab);        vat.flux(ilk, address(this), msg.sender, sales[id].lot);        <mask0>;        emit Yank(id);    }"

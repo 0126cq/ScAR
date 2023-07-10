@@ -1,0 +1,1 @@
+"function mintAndApproveMarket(string memory tokenIPFSPath) public returns (uint256 tokenId) {    tokenId = <mask0>;    setApprovalForAll(getNFTMarket(), true);  }"

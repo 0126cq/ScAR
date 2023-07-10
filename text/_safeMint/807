@@ -1,0 +1,1 @@
+"function mint(uint256 amount) external payable mintGuard(amount) {        require(isPublicLive, \"Sale not live\");        <mask0>;    }"

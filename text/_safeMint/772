@@ -1,0 +1,1 @@
+"function mintByOwner(        address _to    )        public         onlyOwner    {        require(totalSupply()+1 <= MAX_NFT, \"Tokens number to mint cannot exceed number of MAX tokens\");        <mask0>;    }"

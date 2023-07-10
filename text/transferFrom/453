@@ -1,0 +1,1 @@
+"function sellDollarsForDAI(uint256 _amount) external nonReentrant() {        require(balanceOf(msg.sender) >= _amount, \"Insufficent DOLLAR balance.\");        require(DAI.<mask0>, \"DAI sale failed.\");        stakedErc20Tokens[address(DAI)] -= _amount;        burnFrom(msg.sender, _amount);        emit DollarsConvertedToDAI(msg.sender, _amount);    }"

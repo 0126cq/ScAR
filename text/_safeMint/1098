@@ -1,0 +1,1 @@
+"function freeMint(uint256 amt) external callerIsUser {    require(mintEnabled, \"Public sale has not begun yet\");    require(totalSupply() + amt <= totalFree, \"Reached max free supply\");    require(amt <= 10, \"can not mint this many free at a time\");    require(numberMinted(msg.sender) + amt <= maxFreePerWallet,\"Too many free per wallet!\");    <mask0>;    }"

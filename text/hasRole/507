@@ -1,0 +1,1 @@
+"function startSequence(SequenceCreateData memory data) override public {    require(<mask0>, \"requires MINTER_ROLE\");    _startSequence(data);  }"

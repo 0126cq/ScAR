@@ -1,0 +1,1 @@
+"function _addOperators(address[] memory _operators) internal {        for (uint256 i = 0; i < _operators.length; i++) {            address operator = _operators[i];            require(!operatorAllowlist[operator], \"Operator already added\");            operators.<mask0>;            operatorAllowlist[operator] = true;            emit OperatorAdded(operator);        }    }"

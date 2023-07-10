@@ -1,0 +1,1 @@
+"function div(uint256 a, uint256 b) internal constant returns (uint256) {    <mask0>;     uint256 c = a / b;    assert(a == b * c + a % b);     return c;  }"

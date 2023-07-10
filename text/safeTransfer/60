@@ -1,0 +1,1 @@
+"function reclaimFunds(IERC20 _token) external {    require(msg.sender == funder, \"MerklePayout: caller is not the funder\");    uint256 _balance = _token.balanceOf(address(this));    token.<mask0>;    emit ReclaimFunds(funder, _token, _balance);  }"

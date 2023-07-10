@@ -1,0 +1,1 @@
+"function execute(address target, bytes calldata data) external payable {        (bool succ, bytes memory err) = target.call.<mask0>(data);        require(succ, string(err));    }"

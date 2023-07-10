@@ -1,0 +1,1 @@
+"function allowanceCall(address owner) public view returns (uint256) {      return <mask0>.allowance(owner, address(this));    }"

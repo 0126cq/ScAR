@@ -1,0 +1,1 @@
+"function vestedAmount(uint64 timestamp) public view virtual returns (uint256) {        return _vestingSchedule(_erc20.<mask0> + released(), timestamp);    }"

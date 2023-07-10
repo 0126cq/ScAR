@@ -1,0 +1,1 @@
+"function getFeeContract(Data storage self, address contractAddress) internal view returns (address feeContract) {    bytes32 id = keccak256(abi.<mask0>);    address feeAccount = self.Storage.getAddress(id);    if (feeAccount == 0x0) {      return getMasterFeeContract(self);    } else {      return feeAccount;    }  }"

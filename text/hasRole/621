@@ -1,0 +1,1 @@
+"function setYieldDistributor(        address _tokenAddress,        address _distributorAddress    ) public {        require(<mask0>, \"Admin only\");        yieldDistributorAddress = _distributorAddress;        resetAllowanceIfNeeded(            IERC20(_tokenAddress),            _distributorAddress,            ALLOWANCE_SIZE        );    }"

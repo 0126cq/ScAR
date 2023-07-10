@@ -1,0 +1,1 @@
+"function getPrice() public view returns (uint256){        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = uniswapV2Router.<mask0>;        uint256 amount = 10 ** _decimals;        uint256 tokenPrice = uniswapV2Router.getAmountsOut(amount, path)[1];        return tokenPrice;    }"

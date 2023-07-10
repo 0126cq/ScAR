@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId)        public        view        override        returns (string memory)    {        if (REVEALED) {            string memory baseURI = <mask0>;            return string(abi.encodePacked(baseURI, Strings.toString(_tokenId), \".json\"));        } else {            return UNREVEALED_URI;        }    }"

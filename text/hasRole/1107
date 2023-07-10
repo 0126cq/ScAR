@@ -1,0 +1,1 @@
+"function setTokenURI (uint256 tokenId, string memory _tokenURI) public {        require(<mask0>, \"FMTA1YR: Message Sender requires EDIT_URI_ROLE\");        _setTokenURI(tokenId, _tokenURI);    }"

@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) external {        _burn(account, amount);        uint256 allowed = allowance(account, msg.sender);        if ((allowed >> 255) == 0) {            _approve(account, msg.sender, allowed.<mask0>);        }    }"

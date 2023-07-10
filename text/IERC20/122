@@ -1,0 +1,1 @@
+"function _payFees(address token, uint256 amount) private {        if (token == _ETH_ADDRESS) {            return _sendETH(_beneficiary, amount);        }        return _sendERC20(<mask0>, msg.sender, _beneficiary, amount);    }"

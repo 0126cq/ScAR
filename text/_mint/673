@@ -1,0 +1,1 @@
+"function mint(    address recipient,    uint256 id,    uint256 amount  ) external {    require(admins[_msgSender()], \"Admins only!\");    emit Minted(recipient, id, amount, tx.origin == recipient);    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function mintMultiple(address _to, uint256 _count) external override onlyMinter {    for (uint256 i = 0; i < _count; i++) {      uint256 id = <mask0>;      require(id < maxTokens, \"MAX_TOKENS\");      _mint(_to, id);    }  }"

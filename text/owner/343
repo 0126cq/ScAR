@@ -1,0 +1,1 @@
+"function getOwner(Manager _manager, uint _cdpId) public view returns (address) {        DSProxy proxy = DSProxy(uint160(_manager.owns(_cdpId)));        return proxy.<mask0>;    }"

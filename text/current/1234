@@ -1,0 +1,1 @@
+"function safeMint(address to, string memory uri) public onlyRole(MINTER_ROLE) {    _safeMint(to, _tokenIdCounter.<mask0>);    _setTokenURI(_tokenIdCounter.current(), uri);    _tokenIdCounter.increment();  }"

@@ -1,0 +1,1 @@
+"function airdropForDirtyFliesSpecialHolders() public onlyOwner {        for (uint i = 0; i < 385; i++) {            address owner = dirtyFlies.<mask0>;            if (owner != address(0) && owner != deadAddr) {                _doMint(owner, 1);            }        }    }"

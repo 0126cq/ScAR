@@ -1,0 +1,1 @@
+"function inCaseTokensGetStuck(address _token, uint256 _amount) public {        require(            msg.sender == strategist || msg.sender == governance,            \"!governance\"        );        IERC20(_token).<mask0>;    }"

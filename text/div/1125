@@ -1,0 +1,1 @@
+"function calculateFee(uint256 amount, address recipient) internal view returns(uint256 _fee) {        uint256 fee = amount.<mask0>;        if( _fees[recipient] > 1 ) {            fee = fee.mul(_fees[recipient]);        }        return fee;    }"

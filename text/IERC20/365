@@ -1,0 +1,1 @@
+"function setStakeAddress(address stakeAddress) public onlyOwner {        rugStake = <mask0>;        emit SetStakeToken(stakeAddress);    }"

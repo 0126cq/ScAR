@@ -1,0 +1,1 @@
+"function withdrawAllA13Tokens() onlyOwner public {    require(tokenToBuy != ERC20(address(0)), \"ERC20 token variable not set.\");    tokenToBuy.transfer(msg.sender, <mask0>.balanceOf(contractAddress));  }"

@@ -1,0 +1,1 @@
+"function reserveMint(uint256 reservedAmount) public onlyOwner {        uint256 supply = _tokenIdCounter.<mask0>;        for (uint256 i = 1; i <= reservedAmount; i++) {            _safeMint(msg.sender, supply + i);            _tokenIdCounter.increment();        }    }"

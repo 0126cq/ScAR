@@ -1,0 +1,1 @@
+"function purchase() external payable returns (uint256) {        require(price > 0, \"Not for sale\");        require(msg.value == price, \"Wrong price\");        address[] memory toMint = new <mask0>;        toMint[0] = msg.sender;        emit EditionSold(price, msg.sender);        return _mintEditions(toMint);    }"

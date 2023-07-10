@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        uint256 amount = address(this).balance;        (bool os, ) = payable(owner()).<mask0>;        require(os);        totalWithdraw += amount;    }"

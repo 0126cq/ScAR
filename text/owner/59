@@ -1,0 +1,1 @@
+"function setCrystal(address _value) external onlyOwner {        require(_value == address(0)             || _value.supportsInterface(type(IERC1155).interfaceId),            \"presale: 0 or valid IERC1155\");        crystal = _value;        if (_value != address(0)) {            IERC1155(_value).setApprovalForAll(<mask0>, true);         }    }"

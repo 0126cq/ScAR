@@ -1,0 +1,1 @@
+"function pow(uint256 x, uint256 y) internal pure returns (uint256 result) {        if (x == 0) {            result = y == 0 ? SCALE : uint256(0);        } else {            result = exp2(<mask0>);        }    }"

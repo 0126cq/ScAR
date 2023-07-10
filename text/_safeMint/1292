@@ -1,0 +1,1 @@
+"function _mintNFT(uint256 _quantity, uint128 _price) internal {      require(_quantity * _price <= msg.value, \"Insufficient funds.\");      require(_quantity + _owners.length <= maxSupply(),\"Purchase exceeds available supply.\");      for (uint256 i = 0; i < _quantity; i++) {          <mask0>;      }  }"

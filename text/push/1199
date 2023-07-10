@@ -1,0 +1,1 @@
+"function mint(address _to, string memory _data) public {        uint256 tokenId = totalSupply();        require(tokenId < maxSupply, \"max supply reached\");        tokenDataIndex.<mask0>;        tokenCreators[tokenId] = msg.sender;        _safeMint(_to, tokenId);    }"

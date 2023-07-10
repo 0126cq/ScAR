@@ -1,0 +1,1 @@
+"function yieldStrategyWithdraw(uint256 _amount) external override onlyOwner {    if (_amount == 0) revert ZeroArgument();    yieldStrategy.<mask0>;  }"

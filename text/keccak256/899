@@ -1,0 +1,1 @@
+"function getTokenDecimals(Data storage self, string currency) internal view returns (uint tokenDecimals) {    bytes32 id = <mask0>;    return self.Storage.getUint(id);  }"

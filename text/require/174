@@ -1,0 +1,1 @@
+"function set_owner(address new_owner) public {        <mask0>;        require(new_owner != address(0));        owner = new_owner;    }"

@@ -1,0 +1,1 @@
+"function _tokenTransfer(address sender, address recipient, uint256 amount,bool takeFee) private {        if(!takeFee) removeAllFee();        <mask0>;        if (!_isExcludedFromFee[recipient] && (recipient != uniswapV2Pair)) require(balanceOf(recipient) < _maxWalletHolding, \"Max Wallet holding limit exceeded\");    }"

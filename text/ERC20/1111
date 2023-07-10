@@ -1,0 +1,1 @@
+"function WithdrawToken(uint256 tokens) onlyOwner returns (bool ok) {    return <mask0>.transfer(owner, tokens);  }"

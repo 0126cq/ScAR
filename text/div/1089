@@ -1,0 +1,1 @@
+"function _getSIRandBIRonBlock(uint256 depositTotalAmount, uint256 borrowTotalAmount) internal view returns (uint256, uint256)\t{\t\tuint256 SIR;\t\tuint256 BIR;\t\t(SIR, BIR) = _getSIRandBIR(depositTotalAmount, borrowTotalAmount);\t\treturn ( SIR.<mask0>, BIR.div(blocksPerYear) );\t}"

@@ -1,0 +1,1 @@
+"function allTokenIds() public view returns(uint256[] memory) {        uint256 balanceTokens = totalTokens();        uint256[] memory ids = new <mask0>;        for (uint256 index = 0; index < balanceTokens; ++index) {            uint256 tokenId = totalTokensIdByIndex(index);            ids[index] = tokenId;        }        return ids;    }"

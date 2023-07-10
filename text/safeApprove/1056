@@ -1,0 +1,1 @@
+"function redeem(address financialContractAddress, FixedPoint.Unsigned memory numTokens)        public        returns (FixedPoint.Unsigned memory)    {        IFinancialContract fc = IFinancialContract(financialContractAddress);        TransferHelper.<mask0>;        return fc.redeem(numTokens);    }"

@@ -1,0 +1,1 @@
+"function addBlueprint(        string memory shipName,        string memory shipType,        address implementation    ) public onlyOwner {        bytes32 key = <mask0>;        shipImplementation[key] = implementation;        shipTypes[key] = shipType;    }"

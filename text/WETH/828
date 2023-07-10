@@ -1,0 +1,1 @@
+"function addExchange(IUniswapV2Router02 _router) public onlyOwner {        apis[_apiCount].router = _router;        apis[_apiCount].factory = IUniswapV2Factory(            apis[_apiCount].router.factory()        );        apis[_apiCount].wethToken = IUniswapV2ERC20(            apis[_apiCount].router.<mask0>        );        _apiCount++;    }"

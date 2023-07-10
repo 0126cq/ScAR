@@ -1,0 +1,1 @@
+"function _canMint(address minter, uint256 amount, uint256 slotId, uint256 validUntil, bytes memory signature) internal view returns (bool) {        return keccak256(abi.<mask0>).toEthSignedMessageHash().recover(signature) == signer;    }"

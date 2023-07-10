@@ -1,0 +1,1 @@
+"function approve(address _approved, uint256 _tokenId)        external        whenNotPaused    {        address owner = fashionIdToOwner[_tokenId];        require(owner != address(0));        require(msg.sender == owner || operatorToApprovals[owner][msg.sender]);        fashionIdToApprovals[_tokenId] = _approved;        <mask0>;    }"

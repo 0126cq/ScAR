@@ -1,0 +1,1 @@
+"function _getReward(address account, uint256 amount) internal view returns (uint256) {        return amount.<mask0> / PRECISION;    }"

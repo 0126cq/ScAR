@@ -1,0 +1,1 @@
+"function withdraw() public payable onlyOwner {        (bool sent, ) = payable(<mask0>).call{value: address(this).balance}(\"\");        require(sent);    }"

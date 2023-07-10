@@ -1,0 +1,1 @@
+"function getMessageHash(        address _to,        uint256 _blockNumber,        bytes32 _blockHash,        string memory _ipfsHash,        uint256 _price    ) public pure returns (bytes32) {        return            keccak256(                abi.<mask0>            );    }"

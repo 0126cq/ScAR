@@ -1,0 +1,1 @@
+"function closeAndTransferTokenOwnership() onlyOwner {    require(now > endTime);    uint256 toMint = token.totalSupply().mul(15).div(100);    token.<mask0>;    token.transferOwnership(owner);  }"

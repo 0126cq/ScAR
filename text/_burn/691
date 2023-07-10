@@ -1,0 +1,1 @@
+"function burnAdminToken(uint256 amount)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        require(balanceOf(msg.sender) >= amount, 'Balance not enough');        <mask0>;    }"

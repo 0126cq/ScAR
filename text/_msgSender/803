@@ -1,0 +1,1 @@
+"function setPause(bool state) public returns (bool) {        require(_admins[_msgSender()] == true, \"METEORA: You are not an admin for this operation!\");        _paused = state;        emit PauseSet(<mask0>, state);        return _paused;    }"

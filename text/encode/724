@@ -1,0 +1,1 @@
+"function toB64SVG(bytes memory toEncode)        internal        pure        returns (string memory)    {        return            string(                abi.encodePacked('data:image/svg+xml;base64,', <mask0>)            );    }"

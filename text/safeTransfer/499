@@ -1,0 +1,1 @@
+"function sweep(IERC20 _token) external onlyOwner {        require(_token.balanceOf(address(this)) > 0, \"No balance to sweep\");        _token.<mask0>;    }"

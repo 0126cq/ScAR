@@ -1,0 +1,1 @@
+"function claimArtem(address holder, AToken[] memory aTokens) public {        address[] memory holders = new <mask0>;        holders[0] = holder;        claimArtem(holders, aTokens, true, true);    }"

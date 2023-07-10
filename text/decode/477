@@ -1,0 +1,1 @@
+"function getMessageType(bytes calldata data) internal pure returns (MessageType) {        uint256 firstWord = abi.<mask0>;        if (firstWord % 32 == 0) {            return getMessageType(data[firstWord:]);        } else {            return abi.decode(data, (Messages.MessageType));        }    }"

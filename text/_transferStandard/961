@@ -1,0 +1,1 @@
+"function _tokenTransfer(        address sender,        address recipient,        uint256 amount,        bool takeFee    ) private {        if (!takeFee) {_transferNoTax(sender,recipient, amount);}        else {<mask0>;}    }"

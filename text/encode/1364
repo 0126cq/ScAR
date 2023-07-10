@@ -1,0 +1,1 @@
+"function downPayWithETH_(address market, bytes calldata data, uint price, uint loanAmt) external payable onlyBeacon {        _flashLoan(abi.<mask0>);    }"

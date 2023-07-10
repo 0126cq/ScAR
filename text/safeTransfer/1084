@@ -1,0 +1,1 @@
+"function _safeTransfer(address _token, address payable _to, uint256 _amount) internal\t{\t\tif (_token == address(0)) {\t\t\t_to.transfer(_amount);\t\t} else {\t\t\tIERC20(_token).<mask0>;\t\t}\t}"

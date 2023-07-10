@@ -1,0 +1,1 @@
+"function safeApprove(        Token token,        address spender,        uint256 amount    ) internal {        if (isNative(token)) {            return;        }        toIERC20(token).<mask0>;    }"

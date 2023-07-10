@@ -1,0 +1,1 @@
+"function _setFactory(address newFactory) internal {    require(OpenZeppelinUpgradesAddress.<mask0>, \"Cannot set a factory to a non-contract address\");    bytes32 slot = FACTORY_SLOT;    assembly {      sstore(slot, newFactory)    }  }"

@@ -1,0 +1,1 @@
+"function _transferFromByProxy(        address sender,        address from,        address to,        uint value    ) internal returns (bool) {        tokenState.setAllowance(from, sender, tokenState.<mask0>.sub(value));        return _internalTransfer(from, to, value);    }"

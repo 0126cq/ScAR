@@ -1,0 +1,1 @@
+"function deposit(uint256 _amount) external override whenNotPaused {        require(_amount >= minimumBaseDeposit, \"BrightRiskToken: BRI4\");        base.<mask0>;        _addDepositor(_amount, _msgSender());        emit IndexDeposit(_msgSender(), _amount, _outstandingDepositors.length(), externalPool);    }"

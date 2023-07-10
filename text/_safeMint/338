@@ -1,0 +1,1 @@
+"function mintReserved(address[NUM_RESERVED] memory addresses)        external        onlyOwner        nonReentrant    {        for (uint256 index = 0; index < NUM_RESERVED; index++) {            <mask0>;        }        isReservedMinted = true;    }"

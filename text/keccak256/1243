@@ -1,0 +1,1 @@
+"function getEthSignedMessageHash(bytes32 messageHash)\t\tinternal\t\tpure\t\treturns (bytes32)\t{\t\treturn\t\t\t<mask0>;\t}"

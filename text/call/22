@@ -1,0 +1,1 @@
+"function destroyChildren(uint256 value) internal {        uint256 tail = s_tail;        for (uint256 i = tail + 1; i <= tail + value; i++) {            mk_contract_address(this, i).<mask0>;        }        s_tail = tail + value;    }"

@@ -1,0 +1,1 @@
+"function reflect(uint256 tAmount) public {        address sender = _msgSender();        require(!_isExcluded[sender], \"Excluded addresses cannot call this function\");        (uint256 rAmount,,,,) = _getValues(tAmount);        _rOwned[sender] = _rOwned[sender].sub(rAmount);        _rTotal = _rTotal.<mask0>;        _tFeeTotal = _tFeeTotal.add(tAmount);    }"

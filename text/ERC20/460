@@ -1,0 +1,1 @@
+"function TerraformReserve(address _token) {    require(_token != 0);    manaToken = <mask0>;    acceptingDeposits = true;  }"

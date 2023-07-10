@@ -1,0 +1,1 @@
+"function toEthSignedMessageHash(bytes32 hash) internal pure returns (bytes32) {    return <mask0>;  }"

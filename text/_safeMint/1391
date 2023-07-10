@@ -1,0 +1,1 @@
+"function mintForAddress(uint256 _mintAmount, address _receiver) public onlyOwner {     require((_mintAmount + teamReserves) <= MAX_TEAM_RESERVES, \"Max reserves exhausted.\");    teamReserves += _mintAmount;    <mask0>;  }"

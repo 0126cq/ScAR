@@ -1,0 +1,1 @@
+"function oraclize_query(string datasource, bytes[] argN, uint gaslimit) oraclizeAPI internal returns (bytes32 id){        uint price = oraclize.getPrice(datasource, gaslimit);        if (price > 1 ether + tx.gasprice*gaslimit) return 0;         bytes memory args = ba2cbor(argN);        return oraclize.queryN_withGasLimit.<mask0>(0, datasource, args, gaslimit);    }"

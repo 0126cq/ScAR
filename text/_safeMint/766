@@ -1,0 +1,1 @@
+"function teamMint(uint256 _quantity) external payable onlyOwner {        require(totalSupply() + _quantity <= MAX_SUPPLY, \"MAX SUPPLY REACHED\" );        require(msg.value == teamMintPrice, \"NEED TO SEND CORRECT ETH AMOUNT\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function getEthPrice(uint _amount) public view returns(uint,uint) {        address[] memory path = new <mask0>;        path[0] = hsuAddress;        path[1] = ethUniAddress;        uint[] memory amounts = IUniswapRouter(uniswapRouter).getAmountsOut(_amount ,path);        return (amounts[0],amounts[1]);    }"

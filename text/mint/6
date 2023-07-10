@@ -1,0 +1,1 @@
+"function purchase(uint16 packCount, address referrer) public payable {        super.purchase(packCount, referrer);        pass.<mask0>;    }"

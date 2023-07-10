@@ -1,0 +1,1 @@
+"function computeCurrentPhase(Data storage data, uint256 currentTime)        internal        view        returns (VotingAncillaryInterface.Phase)    {        return            VotingAncillaryInterface.Phase(                currentTime.div(data.phaseLength).<mask0>            );    }"

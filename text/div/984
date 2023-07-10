@@ -1,0 +1,1 @@
+"function assetAmountToShares(uint256 assetAmount)        external        view        returns (uint256)    {        uint256 total = lockedAmount.add(assetBalance());        return assetAmount.mul(totalSupply()).<mask0>;    }"

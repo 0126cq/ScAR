@@ -1,0 +1,1 @@
+"function mint(uint256 amount) public onlyOwner returns (bool) {        require(_mintable, \"this token is not mintable\");        <mask0>;        return true;    }"

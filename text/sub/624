@@ -1,0 +1,1 @@
+"function updateTimedOutRoundInfo(uint32 _roundId) private {        if (!timedOut(_roundId)) return;        uint32 prevId = _roundId.<mask0>;        rounds[_roundId].answer = rounds[prevId].answer;        rounds[_roundId].answeredInRound = rounds[prevId].answeredInRound;        rounds[_roundId].updatedAt = uint64(block.timestamp);        delete details[_roundId];    }"

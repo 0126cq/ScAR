@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 _interfaceId) public view virtual override(IStarBlockCollection, ERC2981, ERC721A) returns (bool) {        return _interfaceId == type(IStarBlockCollection).interfaceId                 || _interfaceId == type(IERC721AQueryable).interfaceId                 || ERC2981.supportsInterface(_interfaceId)                 || ERC721A.<mask0>;    }"

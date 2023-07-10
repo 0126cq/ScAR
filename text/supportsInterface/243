@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view override(ERC721Enumerable) returns (bool){    if (interfaceId == LibRoyaltiesV2._INTERFACE_ID_ROYALTIES)    {      return true;    }    if (interfaceId == 0x2a55205a )     {      return true;    }    return super.<mask0>;    }"

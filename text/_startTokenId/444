@@ -1,0 +1,1 @@
+"function totalSupply() public view override returns (uint256) {        unchecked {            return _currentIndex - <mask0>;        }    }"

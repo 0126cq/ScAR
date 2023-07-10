@@ -1,0 +1,1 @@
+"function updateStreamingFee(uint256 _newFee)        external        mutualUpgrade(manager.operator(), manager.methodologist())        timeLockUpgrade    {        bytes memory callData = abi.<mask0>;        invokeManager(address(streamingFeeModule), callData);    }"

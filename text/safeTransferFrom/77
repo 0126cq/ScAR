@@ -1,0 +1,1 @@
+"function _withdraw(uint256[] memory tokenIds, address recipient) internal {        IToken token = IToken(_contractAddress);        for (uint256 i = 0; i < tokenIds.length; i++) {            token.<mask0>;        }    }"

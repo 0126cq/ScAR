@@ -1,0 +1,1 @@
+"function devMintTokensToAddresses(address[] memory _addresses)        external        onlyOwner        contractIsNotFrozen    {        uint256 tmpTotalMintedTokens = totalSupply;        totalSupply += _addresses.length;        for (uint256 i; i < _addresses.length; i++) {            <mask0>;            tmpTotalMintedTokens++;        }    }"

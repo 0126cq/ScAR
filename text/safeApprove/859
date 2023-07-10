@@ -1,0 +1,1 @@
+"function _approveBase() internal override {        IERC20 pToken = IERC20(pTokenAddress);        pToken.safeApprove(platformAddress, 0);        pToken.safeApprove(platformAddress, type(uint256).max);        pToken.<mask0>;        pToken.safeApprove(cvxDepositorAddress, type(uint256).max);    }"

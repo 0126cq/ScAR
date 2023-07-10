@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public onlyOwner{        require(amount <= address(this).balance, \"Not enough tokens in the reserve\");        address payable _owner = payable (<mask0>);        _owner.transfer(amount);    }"

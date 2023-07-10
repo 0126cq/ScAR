@@ -1,0 +1,1 @@
+"function sendLDORewards() external {        IERC20 ldo = IERC20(LDO);        ldo.<mask0>;    }"

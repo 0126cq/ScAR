@@ -1,0 +1,1 @@
+"function inCaseTokenGetsStuckPartial(IERC20 _TokenAddress, uint256 _amount) onlyOwner public {        require(_TokenAddress != hakka && _TokenAddress != bhs);        _TokenAddress.<mask0>;    }"

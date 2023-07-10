@@ -1,0 +1,1 @@
+"function _transferOut(    address _token,    address _to,    uint _amount  ) internal {    if (_token == weth) {      IWETH(weth).<mask0>;      (bool success, ) = _to.call{value: _amount}(new bytes(0));      require(success, '_transferOut/eth-transfer-failed');    } else {      IERC20(_token).safeTransfer(_to, _amount);    }  }"

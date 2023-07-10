@@ -1,0 +1,1 @@
+"function mintDev(address to) public onlyRole(DEV_MINTER_ROLE) {        uint256 cleanedSupply = this.<mask0> - devFund;        uint256 devFundNewTotal = (cleanedSupply * 10) / 100;        uint256 amount = devFundNewTotal - devFund;        _mint(to, amount);        devFund += amount;    }"

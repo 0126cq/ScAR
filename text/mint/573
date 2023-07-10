@@ -1,0 +1,1 @@
+"function mint( address _to, uint256 _value ) public override returns (bool){        require(maxSupply>=(totalSupply_+_value));        require(mintAllowed,\"Max supply reached\");        if(maxSupply==(totalSupply_+_value)){            mintAllowed=false;        }        super.<mask0>;        return true;    }"

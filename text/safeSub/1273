@@ -1,0 +1,1 @@
+"function getClaimLeft(address investor) public constant returns (uint) {    return <mask0>;  }"

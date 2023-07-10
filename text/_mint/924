@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) public {        require(            hasRole(MINTER_ROLE, _msgSender()),            \"ERC20PresetMinterPermitted: must have minter role to mint\"        );        <mask0>;    }"

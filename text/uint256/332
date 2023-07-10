@@ -1,0 +1,1 @@
+"function _setClaimGroups(uint256 numSlots) internal {        uint256 slotCount = (numSlots / 256) + 1;        uint256[] memory arr = new <mask0>;        for (uint256 i; i < slotCount; i++) {            arr[i] = MAX_INT;        }        _claimGroups = arr;    }"

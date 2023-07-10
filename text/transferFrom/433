@@ -1,0 +1,1 @@
+"function addFunds(uint256 id, uint96 amount) external override onlyActiveUpkeep(id) {    s_upkeep[id].balance = s_upkeep[id].balance + amount;    s_expectedLinkBalance = s_expectedLinkBalance + amount;    LINK.<mask0>;    emit FundsAdded(id, msg.sender, amount);  }"

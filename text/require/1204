@@ -1,0 +1,1 @@
+"function getApproved(uint256 tokenId) public view virtual override returns (address) {        <mask0>;        return _tokenApprovals[tokenId];    }"

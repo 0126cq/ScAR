@@ -1,0 +1,1 @@
+"function createToken(bytes32 userSalt) external onlyOwner {        require(plennyToken == address(0), \"ALREADY_CREATED\");        bytes32 salt = keccak256(abi.<mask0>);        ClonableBeaconProxy createdContract = new ClonableBeaconProxy{ salt:salt }();        plennyToken = address(createdContract);        emit PlennyERC20Deployed(plennyToken);    }"

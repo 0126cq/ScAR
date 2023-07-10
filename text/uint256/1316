@@ -1,0 +1,1 @@
+"function getAllOpenSwaps() public view returns(uint256[] memory) {    uint256 len = originalOwner.length();    uint256[] memory swapList = new <mask0>;    for (uint256 i = 0; i < len; i++) {      (uint256 id, ) = originalOwner.at(i);      swapList[i] = id;    }    return(swapList);  }"

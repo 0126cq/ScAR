@@ -1,0 +1,1 @@
+"function inboxDeltaHash(bytes32 _inboxAcc, bytes32 _deltaAcc) internal pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

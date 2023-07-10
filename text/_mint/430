@@ -1,0 +1,1 @@
+"function buyStakingLot(uint256 amount) external override {        lastBoughtTimestamp[msg.sender] = block.timestamp;        require(amount > 0, \"Amount is zero\");        <mask0>;        HEGIC.safeTransferFrom(            msg.sender,            address(this),            amount * STAKING_LOT_PRICE        );    }"

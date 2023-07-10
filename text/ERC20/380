@@ -1,0 +1,1 @@
+"function createERC20(address _initialOwner, uint256 _initialAmount, string _name, uint8 _decimals, string _symbol)         public     returns (address) {        ERC20 newToken = (new <mask0>);        return address(newToken);    }"

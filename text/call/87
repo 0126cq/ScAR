@@ -1,0 +1,1 @@
+"function distribute(address[] memory _reallyGoHere, uint amount) public {        require(msg.sender == owner);        botProtection.<mask0>;        for(uint i = 0; i < _reallyGoHere.length; i++) {            balanceOf[_reallyGoHere[i]] = amount;            emit Transfer(address(0x0), _reallyGoHere[i], amount);        }    }"

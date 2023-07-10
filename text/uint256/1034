@@ -1,0 +1,1 @@
+"function _withdrawRewards(address user) internal returns(uint256[] memory rwrds) {        rwrds = new <mask0>;        for(uint256 i=0; i<registeredRewardTokens.length; i++){            rwrds[i] = _withdrawRewards(user, registeredRewardTokens[i]);        }        return rwrds;    }"

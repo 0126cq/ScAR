@@ -1,0 +1,1 @@
+"function depositCAT(uint256 amount) external onlyOwner {        IERC20(v2CATAddress).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function deposit_usdc(uint256 _amount) internal {    IERC20(usdc).transferFrom(msg.sender, address(this), _amount);    IERC20(usdc).<mask0>;    IERC20(usdc).approve(address(pool_deposit), _amount);    uint256[4] memory uamounts = [uint256(0), _amount, 0, 0];    pool_deposit.add_liquidity(uamounts, 0);  }"

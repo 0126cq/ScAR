@@ -1,0 +1,1 @@
+"function ownerMint(uint256 _mintAmount) public payable onlyOwner {     require(_mintAmount > 0, 'Invalid mint amount!');     require(totalSupply() + _mintAmount <= maxSupply, 'Max supply exceeded!');    <mask0>;  }"

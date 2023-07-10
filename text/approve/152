@@ -1,0 +1,1 @@
+"function _approveTokens() internal override {\t\taddress uniswapRouter = nameService.getAddress(\"UNISWAP_ROUTER\");\t\ttoken.<mask0>;\t\ttoken.approve(address(lendingPool), type(uint256).max); \t}"

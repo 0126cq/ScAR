@@ -1,0 +1,1 @@
+"function mint(address to) public virtual returns (uint256) {        require(<mask0>, \"ERC721: must have minter role to mint\");        _tokenIdTracker.increment();        require(_tokenIdTracker.current() <= MAX_SUPPLY, \"Exceeds max supply\");        uint256 newItemId = _tokenIdTracker.current();        _mint(to, newItemId);        return newItemId;    }"

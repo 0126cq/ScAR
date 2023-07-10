@@ -1,0 +1,1 @@
+"function mod(uint256 a, Instance memory b) internal pure returns (Instance memory) {        if (a > MAX_INTEGER) return Instance({mantissa: a.mod(b.mantissa).mul(ONE_MANTISSA) % b.mantissa});        return Instance({mantissa: a.mul(ONE_MANTISSA).<mask0>});    }"

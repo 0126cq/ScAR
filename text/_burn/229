@@ -1,0 +1,1 @@
+"function _destroy(address account, uint256 amount) internal override {        <mask0>;    }"

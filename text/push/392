@@ -1,0 +1,1 @@
+"function freeze(address _user, uint256 _value, uint _step) internal returns (bool success) {        require(balanceOf[_user] >= _value);        balanceOf[_user] -= _value;        freezeOfUser[_user] += _value;        freezeOf[_step].<mask0>;        emit Freeze(_user, _value);        return true;    }"

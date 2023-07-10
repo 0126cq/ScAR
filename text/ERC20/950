@@ -1,0 +1,1 @@
+"function approveTokens(        address pool,        TokenAmount[] calldata tokenAmounts,        uint256[] memory absoluteAmounts    ) internal {        uint256 length = tokenAmounts.length;        for (uint256 i = 0; i < length; i++) {            <mask0>.safeApproveMax(pool, absoluteAmounts[i], \"BMIA\");        }    }"

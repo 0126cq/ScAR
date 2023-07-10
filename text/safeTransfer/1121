@@ -1,0 +1,1 @@
+"function transfer(        address _recipient,        IERC20 _token,        uint256 _amount    ) external onlyFactory {        require(_recipient != address(0), \"NRS: INVALID_ADDRESS\");        SafeERC20.<mask0>;    }"

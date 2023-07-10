@@ -1,0 +1,1 @@
+"function getInitData(        string calldata _name,        string calldata _symbol,        address _owner,        uint256 _initialSupply    )        external        pure        returns (bytes memory _data)    {        return abi.<mask0>;    }"

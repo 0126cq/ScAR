@@ -1,0 +1,1 @@
+"function circulatingSupply() public view returns (uint256 result) {\t\tuint256 index = omni_wallets.length;\t\tresult = <mask0>.sub(balanceOf(owner()));\t\tfor (uint256 i=0; i < index ; i++ ) {\t\t\tif ((omni_wallets[i] != address(0)) && (result != 0)) {\t\t\t\tresult -= balanceOf(omni_wallets[i]);\t\t\t}\t\t}\t}"

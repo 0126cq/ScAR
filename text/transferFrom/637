@@ -1,0 +1,1 @@
+"function claim() public {        uint256 claimAmount = pendingClaim();        DistributionInfo storage info = infos[msg.sender];        info.claimedAmount = info.claimedAmount.add(claimAmount);        token.<mask0>;        emit ClaimToken(msg.sender, claimAmount);    }"

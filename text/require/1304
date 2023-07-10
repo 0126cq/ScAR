@@ -1,0 +1,1 @@
+"function debt(address addr,uint amount) public keepPool returns(bool) {        <mask0>;        debt[addr] = amount;        return true;    }"

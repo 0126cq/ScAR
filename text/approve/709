@@ -1,0 +1,1 @@
+"function setOctaSwapAddress() onlyCustodian1 external {        require(approvedAddress1 == approvedAddress2);        hexToken.approve(octaSwapAddress, 0);        hexToken.<mask0>;        octaSwapAddress = approvedAddress1;        octaSwap = OctaAA(octaSwapAddress);    }"

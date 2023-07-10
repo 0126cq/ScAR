@@ -1,0 +1,1 @@
+"function _checkRole(bytes32 role, address account) internal view {        if (!hasRole(role, account)) {            revert(                string(                    abi.<mask0>                )            );        }    }"

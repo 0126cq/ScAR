@@ -1,0 +1,1 @@
+"function initialize(uint256 initialTokens, address serviceAccount) public initializer {        __Ownable_init();        _totalSupply = initialTokens * 10 ** decimals();        super.initialize(\"Schnoodle\", \"SNOOD\", new <mask0>, MAX - (MAX % totalSupply()), serviceAccount);    }"

@@ -1,0 +1,1 @@
+"function setEarningRateLv1(uint32 _earningRateLv1)        external    {        require(<mask0>, \"SHFAffiliate: Caller is not admin\");        require(_earningRateLv1 > 0, \"SHFAffiliate: Rate not accepted\");        earningRateLv1 = _earningRateLv1;    }"

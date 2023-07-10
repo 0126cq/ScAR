@@ -1,0 +1,1 @@
+"function approve(        TokenInterface token,        address spender,        uint256 amount    ) internal {        try token.approve(spender, amount) {} catch {            token.approve(spender, 0);            token.<mask0>;        }    }"

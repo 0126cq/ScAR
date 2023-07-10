@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external onlyMinter {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function _setVest(address user, uint192 amount)        internal        override        returns (int192)    {        uint192 previousAmount = userVest[user].amount;        if(previousAmount > 0)         {             voSPOOL.burn(user, previousAmount);        }        voSPOOL.<mask0>;        return BaseVesting._setVest(user, amount);    }"

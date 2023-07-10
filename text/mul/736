@@ -1,0 +1,1 @@
+"function _getShares(uint _underlyingAmount, uint _totalUnderlying)        internal        view        returns (uint)    {        if (_totalUnderlying > 0) {            uint totalShares = _getTotalShares();            return _underlyingAmount.<mask0> / _totalUnderlying;        }        return 0;    }"

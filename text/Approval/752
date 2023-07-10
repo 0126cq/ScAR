@@ -1,0 +1,1 @@
+"function decreaseApproval (address _spender, uint _subtractedValue) public returns (bool success) {\t\tuint oldValue = allowed[msg.sender][_spender];\t\tif (_subtractedValue > oldValue) {\t\t\tallowed[msg.sender][_spender] = 0;\t\t} else {\t\t\tallowed[msg.sender][_spender] = oldValue.sub(_subtractedValue);\t\t}\t\t<mask0>;\t\treturn true;\t}"

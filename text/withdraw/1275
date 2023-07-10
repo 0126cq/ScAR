@@ -1,0 +1,1 @@
+"function upgradeYearnVault() external onlyOwner {        IYearnVault collateral = IYearnVault(collateralToken);        collateral.<mask0>;        _upgradeYearnVault();    }"

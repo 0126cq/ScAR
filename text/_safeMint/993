@@ -1,0 +1,1 @@
+"function Reserve(address _to, uint256 _reserveAmount) public onlyOwner {                require(totalSupply() + _reserveAmount <= maxGenesisCount, \"Purchase would exceed max supply of mightygojiras\");        <mask0>;    }"

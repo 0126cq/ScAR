@@ -1,0 +1,1 @@
+"function claimStake(uint tokenId_) public onlySender {        address _user = tokenOwner[tokenId_];        uint _totalClaim = getPendingStakeRewards(tokenId_);               Stake storage _stake = tokenIdToStake[tokenId_];        _stake.since = block.timestamp;        IRewardToken(address(this)).<mask0>;        emit RewardPaid(_user, getPendingStakeRewards(tokenId_));    }"

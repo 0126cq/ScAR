@@ -1,0 +1,1 @@
+"function bridgeTransferFrom(address sourceAddress, address bridgeAddress, uint256 rawAmount, string calldata externalAddress) external returns(bool) {         emit BridgeTransfer(sourceAddress, bridgeAddress, rawAmount, externalAddress);         <mask0>;     }"

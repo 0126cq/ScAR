@@ -1,0 +1,1 @@
+"function operatorDepositTBTC(uint amount) public returns(bool){\t\tOperator storage op = operators[msg.sender];\t\trequire(op.exists == true); \t\top.tBTCBalance += amount;\t\ttBTContract.<mask0>;\t\treturn true;\t}"

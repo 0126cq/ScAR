@@ -1,0 +1,1 @@
+"function rescue(address _to, uint256 _amount) external onlyAdmin {\t\tIERC20 dev = IERC20(IAddressConfig(getAddressConfigAddress()).token());\t\tdev.<mask0>;\t}"

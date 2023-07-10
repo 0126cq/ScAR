@@ -1,0 +1,1 @@
+"function createPosition(        uint256 amount0,        uint256 amount1,        address positionManager,        TokenDetails memory tokenDetails,        PositionDetails memory positionDetails    ) public returns (uint256 _tokenId) {        (_tokenId, , , ) = INonfungiblePositionManager(positionManager).<mask0>;    }"

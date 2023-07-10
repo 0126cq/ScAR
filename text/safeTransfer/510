@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public {        _totalSupply = _totalSupply.sub(amount);        _balances[msg.sender] = _balances[msg.sender].sub(amount);        LP_TOKEN.<mask0>;    }"

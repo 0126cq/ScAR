@@ -1,0 +1,1 @@
+"function finishCrowdSale() public onlyOwner {        require(now > endRefundableTime);        updateReservedWei();        reservedWei = 0;        forwardFunds(this.balance);        token.<mask0>;        token.finishMinting();        token.transferOwnership(owner);    }"

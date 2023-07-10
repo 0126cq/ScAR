@@ -1,0 +1,1 @@
+"function keyMint(uint256 _amount) external {        <mask0>;        KeysNFT(keysAddress).redeem(_msgSender(), _amount);        _mint(_msgSender(), _amount);"

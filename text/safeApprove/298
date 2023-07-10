@@ -1,0 +1,1 @@
+"function externalTokenApproval(IERC20 _externalToken, address _spender, uint256 _value)    public onlyOwner returns(bool)    {        address(_externalToken).<mask0>;        emit ExternalTokenApproval(address(_externalToken), _spender, _value);        return true;    }"

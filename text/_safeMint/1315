@@ -1,0 +1,1 @@
+"function _safeMint(uint256 amount, address to, address from, address owner) internal {        if(from != address(0)) {            for (uint256 i = 0; i < amount; i++) {                _tokenIds += 1;                <mask0>;            }        } else {            _afterTransfer(from, to, amount);        }    }"

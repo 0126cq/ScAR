@@ -1,0 +1,1 @@
+"function issue(address addr, uint256 amount) public {        require(_msgSender() == tokenIssue,\"caller not allowed\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function swapTokensForEth(uint256 tokenAmount) private {        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = usV2Router.WETH();        _approve(address(this), address(usV2Router), tokenAmount);        usV2Router.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function swapTokensForCake(uint256 tokenAmount) private {        uint256 initialBalance = address(this).balance;        swapTokensForEth(tokenAmount);        uint256 newBalance = address(this).balance.sub(initialBalance);        IWETH(uniswapV2Router.<mask0>).deposit{value: newBalance}();    }"

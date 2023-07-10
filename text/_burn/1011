@@ -1,0 +1,1 @@
+"function _burn(    address _owner,    uint256 _tokenId  )    internal  {    super.<mask0>;    if (bytes(idToUri[_tokenId]).length != 0) {      delete idToUri[_tokenId];    }  }"

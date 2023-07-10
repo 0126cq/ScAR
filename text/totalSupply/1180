@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 value) internal {        require(<mask0>.add(value) <= _cap, \"ERC20Capped: cap exceeded\");        super._mint(account, value);    }"

@@ -1,0 +1,1 @@
+"function decreaseAllowance(address _spender, uint256 _value) public virtual returns (bool) {    uint256 currentVal = transferAllowances[msg.sender][_spender];    require(_value > 0, \"zero value approval decrease\");    require(currentVal >= _value, \"ERC20: decreased allowance below zero\");    return <mask0>;  }"

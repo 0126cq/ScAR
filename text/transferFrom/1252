@@ -1,0 +1,1 @@
+"function depositLP(uint256 amount) public {        pair().<mask0>;        _depositLP(amount, season());    }"

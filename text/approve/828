@@ -1,0 +1,1 @@
+"function invest(uint256 _borrowAmount) external {    require(cozyDaiPm.borrow(_borrowAmount) == 0, \"Borrow failed\");    if (dai.allowance(address(this), address(poolManager)) < _borrowAmount) {      dai.<mask0>;    }    poolManager.deposit(\"DAI\", _borrowAmount);  }"

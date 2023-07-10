@@ -1,0 +1,1 @@
+"function withdraw(IERC20 token) public onlyOwner{        require(token.transfer(msg.sender, token.<mask0>));    }"

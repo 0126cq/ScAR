@@ -1,0 +1,1 @@
+"function initialize(        string memory name,        string memory symbol,        uint256 initialSupply    ) public virtual initializer {        __ERC20_init(name, symbol);        __AntiBotToken_init();        <mask0>;        isCheckingLpTranferAmount = false;    }"

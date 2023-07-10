@@ -1,0 +1,1 @@
+"function work_withdraw_from_aave(uint256 _ne18) internal {        uint256 _amt = IERC20(atoken).balanceOf(address(this));        _amt = _amt.<mask0>.div(1e18);        ILP(ilp).withdraw(token, _amt, address(this));    }"

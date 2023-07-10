@@ -1,0 +1,1 @@
+"function redeem(uint256 tokenId) public {    require(ownerOf(tokenId) == _msgSender(), \"Print: sender does not own token\");    uint256 tokenPrice = _tokenPrices[tokenId];    emit Redeemed(_msgSender(), tokenId, tokenPrice);    <mask0>;    require(_token.transfer(_msgSender(), tokenPrice));  }"

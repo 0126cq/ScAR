@@ -1,0 +1,1 @@
+"function nmaxarr(uint256 l) internal pure returns (uint256[] memory arr) {        arr = new <mask0>;        for (uint256 i; i < l; i++) {            arr[i] = nmax;        }    }"

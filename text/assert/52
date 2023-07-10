@@ -1,0 +1,1 @@
+"function _toUint160(uint256 x) internal pure returns (uint160) {        <mask0>;        return uint160(x);    }"

@@ -1,0 +1,1 @@
+"function executeActionOnFixedTokens(address _token, address _recipient, uint256 _value) internal {        IBurnableMintableERC677Token(_token).<mask0>;    }"

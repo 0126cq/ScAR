@@ -1,0 +1,1 @@
+"function transfer(bytes[] calldata signatures, uint256 nonce, address to, uint256 value) external {        <mask0>;        bytes32 hash = keccak256(abi.encodePacked(ETH_TRANSFER, nonce, to, value));        checkQuorum(hash, signatures);        payable(to).transfer(value);        usedNonces[nonce] = true;    }"

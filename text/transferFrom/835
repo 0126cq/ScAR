@@ -1,0 +1,1 @@
+"function stake(uint256 _amount, address _recipient) external {    IERC20(HADES).<mask0>;    IERC20(HADES).approve(staking, _amount);    Staking(staking).stake(_amount, _recipient);    Staking(staking).claim(_recipient);  }"

@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId)        public        view        override        onlyValidTokenId(_tokenId)        returns (string memory)    {        return            string(                abi.encodePacked(                    projects[tokenIdToProjectId[_tokenId]].projectBaseURI,                    Strings.<mask0>                )            );    }"

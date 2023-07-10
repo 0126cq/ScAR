@@ -1,0 +1,1 @@
+"function walletOfOwner(address _owner) public view returns (uint256[] memory)\t{\t\tuint256 ownerTokenCount = balanceOf(_owner);\t\tuint256[] memory tokenIds = new <mask0>;\t\tfor (uint256 i; i < ownerTokenCount; i++) {\t\t\ttokenIds[i] = tokenOfOwnerByIndex(_owner, i);\t\t}\t\treturn tokenIds;\t}"

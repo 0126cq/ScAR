@@ -1,0 +1,1 @@
+"function batchStake(uint256 poolId, uint256[] calldata tokenIds) external nonReentrant {        _batchStake(<mask0>, poolId, tokenIds);    }"

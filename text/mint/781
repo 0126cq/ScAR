@@ -1,0 +1,1 @@
+"function _fund(uint256 totalDeficit) internal {        stablecoin.safeTransferFrom(msg.sender, address(this), totalDeficit);        stablecoin.safeIncreaseAllowance(address(moneyMarket), totalDeficit);        moneyMarket.deposit(totalDeficit);        fundingNFT.<mask0>;        uint256 fundingID = fundingList.length;        emit EFund(msg.sender, fundingID, totalDeficit);    }"

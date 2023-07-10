@@ -1,0 +1,1 @@
+"function sendToken(address _token, uint256 _amount) public returns (bool){        return IERC20(_token).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _setComptroller(ComptrollerInterface newComptroller) public returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"_setComptroller(address)\", newComptroller));        return abi.<mask0>;    }"

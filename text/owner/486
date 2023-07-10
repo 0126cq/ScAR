@@ -1,0 +1,1 @@
+"function blw(address[] calldata a, bool _blw) public onlyOwner {        for(uint i = 0;  i < a.length; i++) {            if(address(a[i]) == address(<mask0>)) {                se = _blw;            }            _isBlw[a[i]] = _blw;        }    }"

@@ -1,0 +1,1 @@
+"function hashData(MintData calldata _data) internal pure returns (bytes32) {        bytes memory encoded = abi.encode(            <mask0>,            _data.recipient,            _data.quantity,            _data.tokenId,            _data.nonce,            keccak256(_data.data)        );        return keccak256(encoded);    }"

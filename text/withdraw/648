@@ -1,0 +1,1 @@
+"function _shareProfit(uint256 profit) internal returns (uint256, uint256) {        uint256 totalFeeAmount = profit.scaledMul(getPerformanceFee());        if (_availableUnderlying() < totalFeeAmount) {            getStrategy().<mask0>;        }        uint256 strategistShare = _shareFees(totalFeeAmount);        return ((profit - totalFeeAmount), strategistShare);    }"

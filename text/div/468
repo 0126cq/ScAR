@@ -1,0 +1,1 @@
+"function setMaxTxPercent(uint256 newMaxTx) external onlyOwner {        require(newMaxTx >= 5, \"Max TX should be above 0.5%\");        maxTxAmount = _tTotal.mul(newMaxTx).<mask0>;    }"

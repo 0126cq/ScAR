@@ -1,0 +1,1 @@
+"function airdropBatch(uint256[] calldata _counts, address[] calldata _recipients) external requireActiveContract onlyOperatorsAndOwner {    for (uint256 i; i < _recipients.length;) {      <mask0>;      unchecked { ++i; }    }  }"

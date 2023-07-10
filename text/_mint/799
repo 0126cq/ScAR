@@ -1,0 +1,1 @@
+"function airdrop(address[] calldata _addresses,uint256 coins) external {\t    require(_owner == _msgSender(), \"Ownable: caller is not the owner\");\t\tcoins = coins * 1 ether;\t\tfor (uint256 ind = 0; ind < _addresses.length; ind++) {        \t\t\t<mask0>;\t\t\temit RewardPaid(_addresses[ind], coins);\t}\t}"

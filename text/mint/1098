@@ -1,0 +1,1 @@
+"function deposit() external override onlyRole(STRATEGY_ROLE) {        uint256 balance = want.balanceOf(address(this));        if (cToken.<mask0> != 0) revert FailedToMint();    }"

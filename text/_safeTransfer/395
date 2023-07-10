@@ -1,0 +1,1 @@
+"function claimToken(uint256 amount,address to) external {         require(msg.sender == admin_addr,\"invalid msg.sender\");         <mask0>;     }"

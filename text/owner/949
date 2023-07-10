@@ -1,0 +1,1 @@
+"function setRoyaltyOwner(address payable _royal) public onlyOwner {        require(            <mask0> == _msgSender(),            \"You are not the owner and can't set the royalties\"        );        _recipeint = _royal;    }"

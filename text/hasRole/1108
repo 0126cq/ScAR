@@ -1,0 +1,1 @@
+"function setCap (uint256 _newCap) public {        require(<mask0>, \"FMTA1YR: Must be ADMIN\");        cap = _newCap;    }"

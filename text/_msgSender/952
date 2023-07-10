@@ -1,0 +1,1 @@
+"function batchRestake(        uint256 poolId,        address collection,        uint256[] calldata tokenIds    ) external nonReentrant {        _batchRestake(<mask0>, poolId, collection, tokenIds);    }"

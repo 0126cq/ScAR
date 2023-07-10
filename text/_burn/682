@@ -1,0 +1,1 @@
+"function _burnFrom(address owner, uint256 amount) internal {        <mask0>;        _approve(owner, msg.sender, _allowances[owner][msg.sender].sub(amount));    }"

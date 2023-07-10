@@ -1,0 +1,1 @@
+"function withdraw(uint256 _ne18) public {        require(msg.sender == governance, \"!governance\");        uint256 _amount = IERC20(atoken).balanceOf(address(this)).mul(_ne18).div(1e18);        ILendingPoolV2(lendingpool).<mask0>;    }"

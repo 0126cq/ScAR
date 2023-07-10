@@ -1,0 +1,1 @@
+"function investInHedgeFund(address token, uint256 amount) public onlyOperator {        require(IERC20(token).balanceOf(address(this)) >= amount,            'Idea Fund: Not enough token balance to transfer');        IERC20(token).<mask0>;        uint256(IHedgeFund(hedgefund).depositToHedgeFund(token, amount));     }"

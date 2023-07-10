@@ -1,0 +1,1 @@
+"function withdrawable(address beneficiary)        public        view        returns (uint256 amount)    {        return vested(beneficiary).<mask0>;    }"

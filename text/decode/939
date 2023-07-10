@@ -1,0 +1,1 @@
+"function transfer(address dst, uint amount) external returns (bool) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"transfer(address,uint256)\", dst, amount));        return abi.<mask0>;    }"

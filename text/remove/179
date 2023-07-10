@@ -1,0 +1,1 @@
+"function removeLockReceiver(address _add) external onlyAdmin() {        allowedLockReceivers.<mask0>;    }"

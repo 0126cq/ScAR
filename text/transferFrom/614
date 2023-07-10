@@ -1,0 +1,1 @@
+"function erc20safeTransferFrom(IERC20 token, address from, address to, uint256 value) external onlyOperator {        require(token.<mask0>, \"failure while transferring\");    }"

@@ -1,0 +1,1 @@
+"function mintBatch(address[] calldata to, uint256[] calldata value) external onlyManager {        require(to.length == value.length, \"!to/value\");        for (uint256 i = 0; i < to.length; i++) {            <mask0>;         }    }"

@@ -1,0 +1,1 @@
+"function setLocationWithLP(string calldata _location) active external {      require(IERC20ERC721(GANLP1).<mask0> > 0 || IERC20ERC721(GANLP2).balanceOf(msg.sender) > 0, \"You do not have any GAN LP tokens.\");      GANLocationWithLP[msg.sender] = _location;   }"

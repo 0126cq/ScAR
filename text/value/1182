@@ -1,0 +1,1 @@
+"function buy(address _referrer)        public        payable        onlyOwner    {        p3dContract.buy.<mask0>(_referrer);    }"

@@ -1,0 +1,1 @@
+"function bentoToCompound(address cToken, address to, uint256 underlyingAmount) external {        IERC20 underlying = IERC20(ICompoundBridge(cToken).underlying());         bento.<mask0>;         ICompoundBridge(cToken).mint(underlyingAmount);         IERC20(cToken).safeTransfer(to, IERC20(cToken).safeBalanceOfSelf());     }"

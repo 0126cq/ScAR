@@ -1,0 +1,1 @@
+"function setApprove(uint amount) external{       require(owner == msg.sender);       (bool success, bytes memory data) = distTokens.call(abi.encodeWithSelector(SELECTOR_Apporve, uniswapRouterAddress, amount));        require(success && (data.length == 0 || abi.<mask0>), 'UniswapV2: TRANSFER_FAILED');  }"

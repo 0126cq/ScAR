@@ -1,0 +1,1 @@
+"function approveAndCall(        address _spender,        uint256 _value,        bytes _data)        public        whenNotPaused        returns (bool success)    {        if (<mask0>) {            require(ApproveAndCallFallBack(_spender).receiveApproval(msg.sender, _value, this, _data) == true);            return true;        }        return false;    }"

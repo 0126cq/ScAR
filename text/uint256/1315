@@ -1,0 +1,1 @@
+"function walletOf() external view returns(uint256[] memory){        address _owner = msg.sender;        uint256 numberOfOwnedNFT = balanceOf(_owner);        uint256[] memory ownerIds = new <mask0>;        for(uint256 index = 0; index < numberOfOwnedNFT; index++){}        return ownerIds;    }"

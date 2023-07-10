@@ -1,0 +1,1 @@
+"function withdrawAll() public onlyOwner {        uint256 balance = address(this).balance;        require(balance > 0, \"no balance\");        _widthdraw(<mask0>, address(this).balance);    }"

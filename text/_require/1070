@@ -1,0 +1,1 @@
+"function _approve(        address owner,        address spender,        uint256 amount    ) internal virtual {        _require(owner != address(0), Errors.ERC20_APPROVE_FROM_ZERO_ADDRESS);        <mask0>;        _allowances[owner][spender] = amount;        emit Approval(owner, spender, amount);    }"

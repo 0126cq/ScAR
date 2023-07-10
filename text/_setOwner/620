@@ -1,0 +1,1 @@
+"function initialize(address _owner) external {        if (owner() == address(0)) <mask0>;    }"

@@ -1,0 +1,1 @@
+"function _accrueManagerFee() internal {        uint256 _feeQuantity = _calculateStreamingFee();        if (_feeQuantity > 0) {            <mask0>;        }        feeState.lastStreamingFeeTimestamp = block.timestamp;        emit FeeActualized(feeState.feeRecipient, _feeQuantity);    }"

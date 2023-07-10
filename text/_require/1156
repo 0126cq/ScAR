@@ -1,0 +1,1 @@
+"function claimNFT() external override {        _require(balanceOf(msg.sender) > minContribution, Errors.ONLY_CONTRIBUTOR);        IGarden.Contributor storage contributor = contributors[msg.sender];        <mask0>;        IGardenNFT(controller.gardenNFT()).grantGardenNFT(msg.sender);    }"

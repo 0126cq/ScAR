@@ -1,0 +1,1 @@
+"function sendStableFromcontract() external         onlyManager {        require(investement != address(0),            \"Formation.Fi: zero address\"        );         stableToken.<mask0>;    }"

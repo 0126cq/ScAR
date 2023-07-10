@@ -1,0 +1,1 @@
+"function _getBalance(IERC20 token, address account)        internal        view        returns (uint256)    {        if (_isETH(token)) {            return account.balance;        } else {            return token.<mask0>;        }    }"

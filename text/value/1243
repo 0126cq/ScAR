@@ -1,0 +1,1 @@
+"function proxy(address _to, bytes _data)        public payable returns (bool success)    {        require(txnRequest.meta.owner == msg.sender && txnRequest.schedule.isAfterWindow());        return _to.call.<mask0>(_data);    }"

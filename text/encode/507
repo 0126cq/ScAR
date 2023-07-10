@@ -1,0 +1,1 @@
+"function _getHash(address _address, uint256 _amount, uint256 _nonce, uint256 _data) internal pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

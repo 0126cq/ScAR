@@ -1,0 +1,1 @@
+"function challengeRootHash(        bytes32 execution,        uint256 proposedTime,        uint256 maxMessageCount    ) internal pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

@@ -1,0 +1,1 @@
+"function finalizePublicKey(bytes32 schainId) external allow(\"SkaleDKG\") {        if (!_isSchainsPublicKeyZero(schainId)) {            _previousSchainsPublicKeys[schainId].<mask0>;        }        _schainsPublicKeys[schainId] = _publicKeysInProgress[schainId];        delete _publicKeysInProgress[schainId];    }"

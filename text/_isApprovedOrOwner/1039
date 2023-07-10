@@ -1,0 +1,1 @@
+"function isApprovedOrOwner(address _addr, uint _id) external view returns (bool) {        return <mask0>;    }"

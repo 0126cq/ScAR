@@ -1,0 +1,1 @@
+"function distributeRewards(address validatorAddress, uint256 amount) external override {        require(_erc20Token.<mask0>, \"failed to transfer\");        _depositFee(validatorAddress, amount);    }"

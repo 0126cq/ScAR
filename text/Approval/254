@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 value) public returns (bool success)  {        require (            balances[msg.sender] >= value && value > 0        );        allowed[msg.sender][spender] = value;        <mask0>;        return true;    }"

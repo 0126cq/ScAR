@@ -1,0 +1,1 @@
+"function publicMint(uint amount) external payable publicMintChecks(amount) {        for(uint i = 0; i < amount; i++)            <mask0>;        amountMinted[msg.sender] += amount;    }"

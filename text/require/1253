@@ -1,0 +1,1 @@
+"function pluck(uint256 tokenId, string memory keyPrefix)        internal        view        returns (string memory)    {        <mask0>;        uint256 rand = random(            string(abi.encodePacked(keyPrefix, randomNumber[tokenId]))        );        return toString(rand % 100);    }"

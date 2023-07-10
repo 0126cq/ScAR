@@ -1,0 +1,1 @@
+"function mint (address to, uint256 amount) external returns (bool) {        if ((state == State.Init && msg.sender == owner) ||            (state == State.Tokensale && msg.sender == tokensaleManagerAddr)) {            return targetToken.<mask0>;        }        revert();    }"

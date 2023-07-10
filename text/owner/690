@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {    require(address(this).balance >= 0, \"no funds available\");    Address.sendValue(payable(<mask0>), address(this).balance);  }"

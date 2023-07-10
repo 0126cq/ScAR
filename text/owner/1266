@@ -1,0 +1,1 @@
+"function manualsend() external {        require(_msgSender() == <mask0> || _msgSender() == _FourWallet, \"Caller is not authorised\");        uint256 contractETHBalance = address(this).balance;        sendETHToFee(contractETHBalance);"

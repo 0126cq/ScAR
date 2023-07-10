@@ -1,0 +1,1 @@
+"function withdrawAll() external onlyController returns (uint256 balance) {    _withdrawAll();    balance = <mask0>.balanceOf(address(this));    address _vault = IController(controller).vaults(address(want));    require(_vault != address(0), '!vault');     IERC20(want).safeTransfer(_vault, balance);  }"

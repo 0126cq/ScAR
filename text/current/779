@@ -1,0 +1,1 @@
+"function giftedAmount() public view returns (uint256) {        return _nextGiftedAmount.<mask0> - 1;     }"

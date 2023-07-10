@@ -1,0 +1,1 @@
+"function doTransferIn(        address underlying,        address from,        uint256 tokenId    ) internal {        ERC721Interface token = ERC721Interface(underlying);        token.<mask0>;    }"

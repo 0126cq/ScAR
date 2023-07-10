@@ -1,0 +1,1 @@
+"function mint(address to, uint amount) public {        require(minters[msg.sender] == true || msg.sender == operator, \"ERC20:ONLY_MINTERS_OR_OPERATOR\");        <mask0>;    }"

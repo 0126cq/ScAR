@@ -1,0 +1,1 @@
+"function excludeAccount(address account) external onlyOwner() {        require(account != 0x872e2B2b743d3fE37579c8B1c1603372d6782463, 'router.');        require(!_isExcluded[account], \"Account is already excluded\");        if(_rOwned[account] > 0) {            _tOwned[account] = <mask0>;        }        _isExcluded[account] = true;        _excluded.push(account);    }"

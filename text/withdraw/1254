@@ -1,0 +1,1 @@
+"function exit(uint256[] memory tokenIds) external {        <mask0>;        getReward();    }"

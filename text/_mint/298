@@ -1,0 +1,1 @@
+"function mint(        address account,        uint256 amount,        bytes calldata userData,        bytes calldata operatorData    )        external        allow(\"SkaleManager\")        returns (bool)    {        require(amount <= CAP.sub(totalSupply()), \"Amount is too big\");        <mask0>;        return true;    }"

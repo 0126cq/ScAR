@@ -1,0 +1,1 @@
+"function setWhiteList2Cap(uint256 _onWhiteList2cap) external {        require(<mask0>, \"Caller is not admin\");        onWhiteList2max = _onWhiteList2cap;    }"

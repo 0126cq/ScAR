@@ -1,0 +1,1 @@
+"function packExchangeData(ExchangeData memory _exData) public pure returns(bytes memory) {        return abi.<mask0>;    }"

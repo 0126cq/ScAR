@@ -1,0 +1,1 @@
+"function approveMax(address token) external payable override {        TransferHelper.<mask0>;    }"

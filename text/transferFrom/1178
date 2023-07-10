@@ -1,0 +1,1 @@
+"function deposit(uint256 amount) public {        stake[msg.sender] = stake[msg.sender].add(amount);        IERC20(govToken).<mask0>;        emit Deposited(msg.sender, amount, stake[msg.sender]);    }"

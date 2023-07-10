@@ -1,0 +1,1 @@
+"function transferFees()      external      override    {      _withdrawProviderInternal(underlyingFees, 0);      underlyingFees = 0;      uint256 fees = IERC20(uToken).balanceOf(address(this));      address to = AaveController(controller).feesOwner();      IERC20(uToken).<mask0>;      emit TransferFees(msg.sender, to, fees);    }"

@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) override public onlyOwner {        address _prevOwner = <mask0>;        super.transferOwnership(newOwner);        fireTransferEvents(_prevOwner, newOwner);    }"

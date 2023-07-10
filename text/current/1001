@@ -1,0 +1,1 @@
+"function safeMint(address to, uint256 quantity) public onlyOwner {        require(            super.totalSupply() + quantity <= MAX_SUPPLY,            \"total supply will exceed limit\"        );        for (uint256 i = 0; i < quantity; i++) {            _safeMint(to, _tokenIdCounter.<mask0>);            _tokenIdCounter.increment();        }    }"

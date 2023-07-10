@@ -1,0 +1,1 @@
+"function transferBatch( address from, address to, uint[] calldata tokenIds, bytes calldata data ) external override{    for(uint i; i < tokenIds.length; ++i ){      <mask0>;    }  }"

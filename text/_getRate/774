@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) public virtual override returns (bool) {        uint256 reflectedAmount = amount * <mask0>;        bool result = super.transfer(recipient, reflectedAmount);        emit Transfer(_msgSender(), recipient, amount);        _payFeeAndDonate(recipient, amount, reflectedAmount);        return result;    }"

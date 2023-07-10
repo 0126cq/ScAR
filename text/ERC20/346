@@ -1,0 +1,1 @@
+"function getBalance(address _tokenAddr) internal view returns (uint balance) {        if (_tokenAddr == KYBER_ETH_ADDRESS) {            balance = address(this).balance;        } else {            balance = <mask0>.balanceOf(address(this));        }    }"

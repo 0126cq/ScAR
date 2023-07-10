@@ -1,0 +1,1 @@
+"function airdrop(address[] calldata addresses, uint[] calldata quantities) public onlyOwner {        unchecked {            uint i;            for (i=0; i < addresses.length; ++i) {                <mask0>;            }        }    }"

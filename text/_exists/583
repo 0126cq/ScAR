@@ -1,0 +1,1 @@
+"function getTokenStaked(uint256 tokenId) public view returns(bool) {        require (<mask0>, \"Token ID doesn't exist\");        return _staked[tokenId];    }"

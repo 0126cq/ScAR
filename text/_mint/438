@@ -1,0 +1,1 @@
+"function mintBatch(address _to, uint256 _tokenId, uint256 _n) public onlyRole(MINTER_ROLE) {    for(uint256 i = 0; i < _n; i++) {      <mask0>;    }  }"

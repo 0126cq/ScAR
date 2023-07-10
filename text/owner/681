@@ -1,0 +1,1 @@
+"function withdraw() external payable onlyOwner {        payable(<mask0>).transfer(address(this).balance);    }"

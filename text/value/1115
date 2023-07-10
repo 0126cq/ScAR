@@ -1,0 +1,1 @@
+"function setJackpot(address targetAddress, uint val) adminOnly public {        if (val > 0) {            MajorityGame mGame = MajorityGame(targetAddress);            mGame.setJackpot.<mask0>();        }    }"

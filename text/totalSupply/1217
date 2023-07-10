@@ -1,0 +1,1 @@
+"function getDefaultTrackedBalance(ISetToken _setToken, address _component) internal view returns(uint256) {        int256 positionUnit = _setToken.getDefaultPositionRealUnit(_component);         return _setToken.<mask0>.preciseMul(positionUnit.toUint256());    }"

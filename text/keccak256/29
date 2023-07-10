@@ -1,0 +1,1 @@
+"function _deriveDomainSeparator() internal view returns (bytes32) {        return <mask0>;    }"

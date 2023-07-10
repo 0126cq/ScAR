@@ -1,0 +1,1 @@
+"function removeSchainType(uint typeOfSchain) external onlyAdmin {        require(_keysOfSchainTypes.<mask0>, \"Schain type is already removed\");        delete schainTypes[typeOfSchain].partOfNode;        delete schainTypes[typeOfSchain].numberOfNodes;    }"

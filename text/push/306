@@ -1,0 +1,1 @@
+"function addStrategy(        address _vault,        address _strategy,        uint256 _timeout    )        external        override        onlyController    {        strategies[_vault].addresses.<mask0>;        strategies[_vault].timeout = _timeout;        emit StrategyAdded(_vault, _strategy, _timeout);    }"

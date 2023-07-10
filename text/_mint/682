@@ -1,0 +1,1 @@
+"function mint( address recepient, uint amount) external onlyOwner whenNotPaused returns(bool) {        require(amount > 0, \"ERC20: Amount must be greater than 0\");        <mask0>;        return true;    }"

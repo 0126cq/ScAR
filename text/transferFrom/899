@@ -1,0 +1,1 @@
+"function addAirdrops(Airdrop[] memory _airdrops) external {    uint _nextAirdropId = nextAirdropId;    for(uint i = 0; i < _airdrops.length; i++) {      airdrops[_nextAirdropId] = _airdrops[i];      IERC721(_airdrops[i].nft).<mask0>;      _nextAirdropId++;    }  }"

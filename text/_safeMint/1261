@@ -1,0 +1,1 @@
+"function mintForAirdrop(uint256 numberToMint) external onlyOwner {        require(totalSupply() + numberToMint <= maxNFTCirculation, \"TCM: Cap exceeded\");        for (uint256 i = 0; i < numberToMint; i++) {            <mask0>;        }    }"

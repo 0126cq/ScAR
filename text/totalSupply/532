@@ -1,0 +1,1 @@
+"function exists(uint256 id) public view virtual returns (bool) {        return ERC1155Supply.<mask0> > 0;    }"

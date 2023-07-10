@@ -1,0 +1,1 @@
+"function unload(    address _vault,    address _pair,    uint    _amount  ) external override vaultOrOwner {    _validatePair(_pair);    _pairWithdrawWithIncome(_vault, _pair, _amount);    TransferHelper.<mask0>;    distributeIncome(_vault);  }"

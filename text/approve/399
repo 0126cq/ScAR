@@ -1,0 +1,1 @@
+"function approveIfBelow(        address token,        address spender,        uint256 amount    )        internal    {        if (IERC20Token(token).allowance(address(this), spender) < amount) {            <mask0>;        }    }"

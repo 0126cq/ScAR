@@ -1,0 +1,1 @@
+"function ensureAllowance(        address _token,        address _owner,        address _spender,        uint256 _quantity    )        internal    {        uint256 currentAllowance = allowance(_token, _owner, _spender);        if (currentAllowance < _quantity) {            <mask0>;        }    }"

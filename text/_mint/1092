@@ -1,0 +1,1 @@
+"function __ERC777PresetFixedSupply_init_unchained(        string memory name,        string memory symbol,        address[] memory defaultOperators,        uint256 initialSupply,        address owner    ) internal initializer {        <mask0>;    }"

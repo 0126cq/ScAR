@@ -1,0 +1,1 @@
+"function add(        uint256 _allocPoint,        IERC20 _lpToken,        bool _withUpdate    ) public onlyOwner {        if (_withUpdate) {            massUpdatePools();        }        uint256 lastRewardBlock = block.number > startBlock            ? block.number            : startBlock;        totalAllocPoint = totalAllocPoint.add(_allocPoint);        poolInfo.<mask0>;    }"

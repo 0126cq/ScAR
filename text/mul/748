@@ -1,0 +1,1 @@
+"function _setMaxWalletSizePercent(uint256 maxWalletSize)        external        onlyOwner    {        _maxWalletSize = _tTotal.<mask0>.div(10**3);    }"

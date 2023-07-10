@@ -1,0 +1,1 @@
+"function getTrancheSymbol(        string memory collateralSymbol,        uint256 index,        uint256 _trancheCount    ) internal pure returns (string memory) {        return string(abi.<mask0>);    }"

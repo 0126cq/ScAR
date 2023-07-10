@@ -1,0 +1,1 @@
+"function convertToInternal(Token memory token, int256 amount) internal pure returns (int256) {        if (token.decimals == Constants.INTERNAL_TOKEN_PRECISION) return amount;        return amount.mul(Constants.INTERNAL_TOKEN_PRECISION).<mask0>;    }"

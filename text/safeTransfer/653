@@ -1,0 +1,1 @@
+"function _transferGoodwill(        address _tokenContractAddress,        uint256 tokens2Trade    ) internal returns (uint256 goodwillPortion) {        goodwillPortion = SafeMath.div(            SafeMath.mul(tokens2Trade, goodwill),            10000        );        if (goodwillPortion == 0) {            return 0;        }        IERC20(_tokenContractAddress).<mask0>;    }"

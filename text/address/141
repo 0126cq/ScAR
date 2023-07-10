@@ -1,0 +1,1 @@
+"function getAddressBatch(uint256[] calldata ids) external pure returns (address[] memory) {        address[] memory addresses = new <mask0>;        for (uint256 i = 0; i < ids.length; i++) {            addresses[i] = _getAddress(ids[i]);        }        return addresses;    }"

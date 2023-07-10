@@ -1,0 +1,1 @@
+"function withdrawEther(uint256 amount, address payable sendTo) external onlyGovernance {        (bool success, ) = sendTo.<mask0>;        require(success, \"WITHDRAW_FAILED\");        emit EtherWithdraw(amount, sendTo);    }"

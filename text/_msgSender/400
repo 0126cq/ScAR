@@ -1,0 +1,1 @@
+"function manualswap() external {        require(<mask0> == _feeAddrWallet);        uint256 contractBalance = balanceOf(address(this));        swapTokensForEth(contractBalance);    }"

@@ -1,0 +1,1 @@
+"function userEnterMarket(IFToken fToken, address borrower) internal {        Market storage marketToJoin = markets[fToken.underlying()];        require(marketToJoin.isValid, \"Market not valid\");        if (marketToJoin.accountsIn[borrower]) {            return;        }        marketToJoin.accountsIn[borrower] = true;        accountAssets[borrower].<mask0>;    }"

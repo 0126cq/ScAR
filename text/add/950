@@ -1,0 +1,1 @@
+"function getPlayerVaultsHelper(uint256 _pID, uint256 _rID)        private        view        returns(uint256)    {        return(  ((((round_[_rID].mask).<mask0>).mul(plyrRnds_[_pID][_rID].keys)) / 1000000000000000000)  );    }"

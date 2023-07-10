@@ -1,0 +1,1 @@
+"function _callOptionalReturn(IERC20 token, bytes memory data) private {\t\tbytes memory returndata = address(token).functionCall(data, \"SafeERC20: low-level call failed\");\t\tif (returndata.length > 0) { \t\t\trequire(abi.<mask0>, \"SafeERC20: ERC20 operation did not succeed\");\t\t}\t}"

@@ -1,0 +1,1 @@
+"function fees(address token, uint cost) public view returns (uint) {        return LN.mul(vol(token)).mul(cost).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function mint(address owner, uint id) external {        require(msg.sender == RESERVE);        <mask0>;    }"

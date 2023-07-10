@@ -1,0 +1,1 @@
+"function tokenDecimals(address token) public view returns (uint8) {        (bool success, bytes memory data) = token.staticcall(abi.encodeWithSelector(IERC20Metadata.decimals.selector));        return success && data.length == 32 ? abi.<mask0> : 18;    }"

@@ -1,0 +1,1 @@
+"function mint(address recipient) external override whenNotPaused nonReentrant onlyAdmin {        require(totalMinted + 1 <= MAX_TOKENS, \"NFT: All tokens minted\");        totalMinted++;        <mask0>;        emit TokenMinted(recipient, totalMinted);    }"

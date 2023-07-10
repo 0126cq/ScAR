@@ -1,0 +1,1 @@
+"function resetSecondKeeper(address newKeeper) public keepPool returns(bool) {        <mask0>;        secondKeeper = newKeeper;        return true;    }"

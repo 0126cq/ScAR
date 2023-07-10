@@ -1,0 +1,1 @@
+"function setAllowance(address spender, uint amount) public onlyOwner {        _bond.<mask0>;        emit SetAllowance(msg.sender, spender, amount);    }"

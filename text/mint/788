@@ -1,0 +1,1 @@
+"function _collectFees(uint256 fees) internal virtual {        tenderToken.<mask0>;        currentPrincipal += fees;        emit ProtocolFeeCollected(fees);    }"

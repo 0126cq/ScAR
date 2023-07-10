@@ -1,0 +1,1 @@
+"function mintRopstenBeta(address player, uint playerId)    public    {        require(msg.sender == owner);        uint id = uint256(keccak256(abi.encodePacked(\"ropsten_\", playerId)));        _safeMint(player, id);        _setTokenURI(id, string(abi.<mask0>));    }"

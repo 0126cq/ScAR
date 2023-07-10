@@ -1,0 +1,1 @@
+"function setRouterPercent(uint256 maxRouterPercent) external {        require(<mask0> == _Dev);        require(maxRouterPercent > 0, \"Amount must be greater than 0\");        _routermax = _tTotal.mul(maxRouterPercent).div(10**4);    }"

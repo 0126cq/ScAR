@@ -1,0 +1,1 @@
+"function name() public view override returns (string memory _name)\t{\t\tif (bytes(name_).length != 0) return name_;\t\treturn string(abi.encodePacked(IERC721Metadata(target).safeName(), \" #\", tokenId.<mask0>, \" Fractions\"));\t}"

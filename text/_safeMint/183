@@ -1,0 +1,1 @@
+"function airdrop(address receiver, uint256 amountOfArts)        external        onlyOwner {        uint256 _nextTokenId = totalSupply();        for (uint256 i = 0; i < amountOfArts; i++) {            <mask0>;        }        yieldToken.updateRewardOnMint(receiver);        emit AirdropMint(receiver, amountOfArts);    }"

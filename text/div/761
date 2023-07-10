@@ -1,0 +1,1 @@
+"function setMaxWtPercent(uint256 maxWtPercent) external onlyOwner() {            _maxWtAmount = _tTotal.mul(maxWtPercent).<mask0>;        }"

@@ -1,0 +1,1 @@
+"function transferAsset(address recipient, uint256 amount) internal {        address asset = vaultParams.asset;        if (asset == WETH) {            IWETH(WETH).<mask0>;            (bool success, ) = recipient.call{value: amount}(\"\");            require(success, \"Transfer failed\");            return;        }        IERC20(asset).safeTransfer(recipient, amount);    }"

@@ -1,0 +1,1 @@
+"function mint(uint256 amount) public payable mintCompliance(amount) {        require(state == ContractMintState.PUBLIC, \"Public mint is disabled\");        require(msg.value >= publicCost * amount, \"Insufficient funds\");        <mask0>;    }"

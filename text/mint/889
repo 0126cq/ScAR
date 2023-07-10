@@ -1,0 +1,1 @@
+"function OMPxContract() public payable{        addDiscount(1000 * 1e18,198);        addDiscount(5000 * 1e18,190);        addDiscount(20000 * 1e18,180);        addDiscount(100000 * 1e18,150);        token = new OMPxToken();        token.<mask0>;    }"

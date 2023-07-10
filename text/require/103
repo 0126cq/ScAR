@@ -1,0 +1,1 @@
+"function _removeSniper(address account) external onlyOwner {    <mask0>;    require(!_isSniper[account], 'Account is already blacklisted');    _isSniper[account] = true;    _confirmedSnipers.push(account);  }"

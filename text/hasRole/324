@@ -1,0 +1,1 @@
+"function allowNFTContract(address _nftContractAddress)        external        returns(bool)    {        require(            <mask0>,            \"SHFStore: Caller is not an admin\"        );        require(IERC721(_nftContractAddress).supportsInterface(type(IERC721).interfaceId), \"SHFStore: Contract should be ERC721\");        return acceptedNFTs.add(_nftContractAddress);    }"

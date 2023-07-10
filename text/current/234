@@ -1,0 +1,1 @@
+"function newID() internal returns (uint256 id_) {        Counters.Counter storage counter =            MarketStorageLib.store().loanIDCounter;        id_ = Counters.<mask0>;        Counters.increment(counter);    }"

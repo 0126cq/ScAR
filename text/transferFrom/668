@@ -1,0 +1,1 @@
+"function depositToken(address token, uint amount) public {    require(token!=0);    require(StandardToken(token).<mask0>);    tokens[token][msg.sender] = tokens[token][msg.sender].add(amount);    emit Deposit(token, msg.sender, amount, tokens[token][msg.sender]);  }"

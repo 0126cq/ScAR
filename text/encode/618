@@ -1,0 +1,1 @@
+"function __preBuySharesHook(        address _buyer,        uint256 _investmentAmount,        uint256 _gav    ) private {        IFeeManager(getFeeManager()).invokeHook(            IFeeManager.FeeHook.PreBuyShares,            abi.<mask0>,            _gav        );    }"

@@ -1,0 +1,1 @@
+"function deliver(uint256 tAmount) external {        require(!_isExcluded[ msg.sender], \"Excluded addresses cannot call this function\");        (uint256 rAmount,,,,,) = <mask0>;        _rOwned[ msg.sender] = _rOwned[ msg.sender]  - rAmount;        _rTotal = _rTotal - rAmount;        _tFeeTotal = _tFeeTotal + tAmount;    }"

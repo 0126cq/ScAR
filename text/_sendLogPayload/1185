@@ -1,0 +1,1 @@
+"function log(string memory p0, string memory p1) internal view {\t\t<mask0>;\t}"

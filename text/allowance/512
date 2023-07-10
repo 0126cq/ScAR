@@ -1,0 +1,1 @@
+"function returnMe() public {        uint allowance = proxyToken.<mask0>;        require(proxyToken.transferFrom(msg.sender,address(this),allowance));        require(proxyToken.transfer(msg.sender, allowance));    }"

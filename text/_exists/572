@@ -1,0 +1,1 @@
+"function ownerOf(uint256 tokenId) public view virtual override returns (address) {    require(<mask0>, \"ERC721A: owner query for nonexistent token\");    return _owners[tokenId] != address(0) ? _owners[tokenId] : _owners[tokenId - 1];  }"

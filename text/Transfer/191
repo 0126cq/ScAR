@@ -1,0 +1,1 @@
+"function Zigger () {      totalSupply = 30000000 * 10 ** decimals;      balances[msg.sender] = totalSupply;      initialSupply = totalSupply;         Transfer(0, this, totalSupply);        <mask0>;  }"

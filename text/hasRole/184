@@ -1,0 +1,1 @@
+"function mint(        address wallet,        uint256 carType    )        external        returns (uint256)    {        require(<mask0>, 'PinkslipNFT: Only for role MINTER');        return safeMint(wallet, carType);    }"

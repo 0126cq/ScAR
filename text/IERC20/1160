@@ -1,0 +1,1 @@
+"function convert(    ILendingPair _pair,    address[] memory _path  ) public {    IERC20 lpToken = <mask0>;    uint supplyTokenAmount = lpToken.balanceOf(address(this));    lpToken.transfer(address(feeConverter), supplyTokenAmount);    feeConverter.convert(msg.sender, _pair, _path, supplyTokenAmount);  }"

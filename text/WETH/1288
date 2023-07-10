@@ -1,0 +1,1 @@
+"function _initializePair() internal {    \t(address token0, address token1) = sortTokens(address(this), IUniswapV2Router(uniswapV2Router).<mask0>);    \tuniswapPair = pairFor(uniswapV2Factory, token0, token1);\t}"

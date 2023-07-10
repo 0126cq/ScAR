@@ -1,0 +1,1 @@
+"function exit() public {        mine();        uint256 bal = _stakedTokensOf[msg.sender].length();        for (uint256 i = 0; i < bal; i++) {            uint256 tokenId = _stakedTokensOf[msg.sender].at(i);            <mask0>;        }    }"

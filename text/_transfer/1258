@@ -1,0 +1,1 @@
+"function transfer(address to, uint id) public payable {        require(owns(msg.sender, id));        require(isTradable(cards[id].proto));        require(to != address(0));        <mask0>;    }"

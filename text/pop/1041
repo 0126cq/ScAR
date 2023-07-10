@@ -1,0 +1,1 @@
+"function _removeItem(uint256 index) internal {        if (index >= _stakedTokenIds.length) return;        for (uint256 i=index; i<_stakedTokenIds.length-1; i++) {            _stakedTokenIds[i] = _stakedTokenIds[i+1];        }        _stakedTokenIds.<mask0>;    }"

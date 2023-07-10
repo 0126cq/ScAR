@@ -1,0 +1,1 @@
+"function getNextGenericAtomicBatchActionID(    Call[] memory calls,    uint256 minimumActionGas  ) public view returns (bytes32 actionID) {    actionID = _getActionID(      ActionType.GenericAtomicBatch,      abi.<mask0>,      _nonce,      minimumActionGas,      _userSigningKey,      _getDharmaSigningKey()    );  }"

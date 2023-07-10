@@ -1,0 +1,1 @@
+"function mintWithTokenURI(string memory _tokenIPFSHash) external returns (uint256) {        require(bytes(_tokenIPFSHash).length > 0, Errors.EMPTY_METADATA);        uint256 tokenId = ++_lastTokenId;          address to = _msgSender();        <mask0>;        _tokenAuthor[tokenId] = to;        _setTokenURI(tokenId, _tokenIPFSHash);        return tokenId;    }"

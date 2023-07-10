@@ -1,0 +1,1 @@
+"function Reclaim(uint256 sendAmount) returns (bool success){        require(msg.sender == tokenAdmin);        require(swapSupply >= sendAmount);        <mask0>.transfer(msg.sender, sendAmount);        swapSupply -= sendAmount;        return true;    }"

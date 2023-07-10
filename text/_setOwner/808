@@ -1,0 +1,1 @@
+"function acceptOwnership() public virtual override {        require(msg.sender == _proposedOwner, \"Ownable: Only proposed owner can accept ownership\");        <mask0>;        _proposedOwner = address(0);    }"

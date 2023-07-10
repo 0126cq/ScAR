@@ -1,0 +1,1 @@
+"function initializeToken(uint256 _maxIssuance, string memory _tokenURI)        public        virtual        onlyRole(MINTER_ROLE)        returns (uint256)    {        tokenCounter.increment();        uint256 currentId = tokenCounter.<mask0>;        _setMaxIssuance(currentId, _maxIssuance);        _setTokenURI(currentId, _tokenURI);        return currentId;    }"

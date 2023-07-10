@@ -1,0 +1,1 @@
+"function batchTransferFrom(address _from, address _to, uint256[] memory _tokenIds) public override {        require(!transferDisabled || _msgSender() == <mask0> || proxyToApproved[_msgSender()], \"TRANSFER_DISABLED\");        super.batchTransferFrom(_from, _to, _tokenIds);    }"

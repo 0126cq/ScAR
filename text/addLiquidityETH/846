@@ -1,0 +1,1 @@
+"function add_liq() public payable onlyOwner {        IUniswapV2Router02 uniswapV2Router = IUniswapV2Router02(routerAddy);        pairAddress = IUniswapV2Factory(uniswapV2Router.factory()).createPair(address(this), uniswapV2Router.WETH());        _approve(address(this), address(uniswapV2Router), _initialSupply);        uniswapV2Router.<mask0>;    }"

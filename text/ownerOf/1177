@@ -1,0 +1,1 @@
+"function changeColor(        uint32 x,        uint32 y,        uint8 colorIndex    ) public isAvailable {        uint256 pixelId = _getId(x, y);        require(_msgSender() == <mask0>, \"Caller is not owner\");        _setColor(pixelId, colorIndex);    }"

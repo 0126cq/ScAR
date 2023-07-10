@@ -1,0 +1,1 @@
+"function isMinter(address _account) internal virtual view returns(bool) {        return <mask0>;    }"

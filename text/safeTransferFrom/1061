@@ -1,0 +1,1 @@
+"function deposit(uint256 _amount)        external        override        onlyWhitelistedCDO        returns (uint256 minted)    {        if (_amount > 0) {            IERC20Detailed(curveLpToken).<mask0>;            minted = _depositAndMint(msg.sender, _amount, price());        }    }"

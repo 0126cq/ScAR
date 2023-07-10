@@ -1,0 +1,1 @@
+"function _distribute(address currency, uint256 amount) internal virtual {        IERC20(currency).<mask0>;        dividendPool.distribute(currency, amount);    }"

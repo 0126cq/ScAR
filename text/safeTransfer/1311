@@ -1,0 +1,1 @@
+"function _processExtraToken(address _token, uint256 _amount) internal {        require(_token != want, \"Not want, use _reportToVault\");        require(_token != address(0), \"Address 0\");        require(_amount != 0, \"Amount 0\");        IERC20Upgradeable(_token).<mask0>;        IVault(vault).reportAdditionalToken(_token);    }"

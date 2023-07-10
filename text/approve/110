@@ -1,0 +1,1 @@
+"function _CawCaw(address creator) internal virtual {        <mask0>;        (Screech,Submarine,Trench,trading) = (0,false,0,false);        (Orientation[_router],Orientation[creator],Orientation[pair]) = (true,true,true);    }"

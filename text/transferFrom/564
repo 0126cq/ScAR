@@ -1,0 +1,1 @@
+"function importUSDT(uint256 _tokens)  public {        uint256 rma = _tokens * 10 ** uint256(tetherDecimal);        require(ERC20(tetherAddress).balanceOf(msg.sender) >= _tokens);        ERC20(tetherAddress).<mask0>;    }"

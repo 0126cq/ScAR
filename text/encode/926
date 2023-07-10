@@ -1,0 +1,1 @@
+"function buy(ExchangeData memory exData, address payable _user) public payable burnGas(burnAmount){        exData.dfsFeeDivider = SERVICE_FEE;        exData.user = _user;        (address wrapper, uint srcAmount) = _buy(exData);        sendLeftover(exData.srcAddr, exData.destAddr, _user);        logger.Log(address(this), msg.sender, \"ExchangeBuy\", abi.<mask0>);    }"

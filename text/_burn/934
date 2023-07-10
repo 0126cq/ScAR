@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external {        require(isBurnEnabled, \"Burning disabled!\");        require(_isApprovedOrOwner(msg.sender, tokenId), \"Burn caller is not owner nor approved!\");        <mask0>;        totalNFT = totalNFT - 1;    }"

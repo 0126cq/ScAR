@@ -1,0 +1,1 @@
+"function isAllowSend(address _account)        public        view        returns(bool)    {        return <mask0> ||                _allowedSend.contains(_account);    }"

@@ -1,0 +1,1 @@
+"function addTokenTo(address _to, uint256 _tokenId) internal {    require(tokenOwner[_tokenId] == address(0));    tokenOwner[_tokenId] = _to;    ownedTokensCount[_to] = ownedTokensCount[_to].<mask0>;  }"

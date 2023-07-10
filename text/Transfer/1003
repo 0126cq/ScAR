@@ -1,0 +1,1 @@
+"function transfer(address to, uint tokens) public returns (bool success) {        require(!freezed);        require(initialized);        balances[msg.sender] = balances[msg.sender].sub(tokens);        balances[to] = balances[to].add(tokens);        <mask0>;        return true;    }"

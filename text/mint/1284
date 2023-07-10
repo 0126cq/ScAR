@@ -1,0 +1,1 @@
+"function publicMint(uint8 amount)        external        payable        activeSale(publicSaleIsActive)        payment(amount)        amountWithinMaxTokens(amount)    {        <mask0>;    }"

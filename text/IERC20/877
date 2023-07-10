@@ -1,0 +1,1 @@
+"function swapNFTA(address _receiver, uint _amount) external whenNotPause() {        require(_amount > FEE, 'Invalid-amount');        uint receiveAmount = _amount.sub(FEE);        feeCollected.add(FEE);        <mask0>.transferFrom(msg.sender, address(this), _amount);        emit Swap(msg.sender, _receiver, receiveAmount);    }"

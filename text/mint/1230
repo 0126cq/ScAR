@@ -1,0 +1,1 @@
+"function sendPurchasedTokens(address _beneficiary, uint256 _tokens) internal {        isMinting ? tokenOnSale.<mask0> : tokenOnSale.transfer(_beneficiary, _tokens);    }"

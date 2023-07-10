@@ -1,0 +1,1 @@
+"function uncache() public isCached {        _finish();        CACHING.<mask0>;        for (uint256 x = 0; x < cards.length; x++) {            IERC1155(CACHING.parallelAlpha()).safeTransferFrom(address(this), cardToOwner[cards[x]], cards[x], 1, \"0\");        }    }"

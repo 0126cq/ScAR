@@ -1,0 +1,1 @@
+"function mintToken(uint256 unit) public onlyOwner returns (bool success) {        <mask0>;        return true;"

@@ -1,0 +1,1 @@
+"function setNewfedDao(address fed) public returns (bool) {        <mask0>;        require(msg.sender == tx.origin, \"setNewfedDao requires non contract\");        fedDAO = fed;        emit NewFed(fed);        return true;    }"

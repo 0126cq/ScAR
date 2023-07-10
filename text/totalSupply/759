@@ -1,0 +1,1 @@
+"function ownerMint(uint256 _mintAmount) external payable onlyOwner {        require(<mask0> + _mintAmount <= maxSupply, \"MSG: Max supply exceeded.\");        _safeMint(msg.sender, _mintAmount);    }"

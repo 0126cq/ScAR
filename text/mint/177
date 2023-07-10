@@ -1,0 +1,1 @@
+"function _mintParachainAuctionTokens(uint256 _amount) internal {        receiptToken.<mask0>;        emit ReceiptMinted(msg.sender, _amount);    }"

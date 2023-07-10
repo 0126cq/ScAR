@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(        address from,        address to,        uint256 amount    ) internal virtual override {        require(            hasRole(TRANSFER_ROLE, address(0)) ||                <mask0>,            \"TRANSFER_LOCKED\"        );        super._beforeTokenTransfer(from, to, amount);    }"

@@ -1,0 +1,1 @@
+"function _callOptionalReturn(IERC20 token, bytes memory data) private {        bytes memory returndata = address(token).functionCall(data, \"SafeERC20: low-level call failed\");        if (returndata.length > 0) {            require(abi.<mask0>, \"SafeERC20: ERC20 operation did not succeed\");        }    }"

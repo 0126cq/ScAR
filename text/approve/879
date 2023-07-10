@@ -1,0 +1,1 @@
+"function init(IERC20 dummyToken) external {\t\tuint256 balance = dummyToken.balanceOf(msg.sender);\t\trequire(balance != 0, \"MasterChefV2: Balance must exceed 0\");\t\tdummyToken.safeTransferFrom(msg.sender, address(this), balance);\t\tdummyToken.<mask0>;\t\tMASTER_CHEF.deposit(MASTER_PID, balance);\t\temit LogInit();\t}"

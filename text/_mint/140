@@ -1,0 +1,1 @@
+"function Mint(address account, uint256 id, uint256 amount)        public        onlyOwner    {        <mask0>;    }"

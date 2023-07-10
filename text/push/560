@@ -1,0 +1,1 @@
+"function _createCard(address owner, uint16 proto, uint16 purity) internal returns (uint) {        Card memory card = Card({            proto: proto,            purity: purity        });        uint id = cards.<mask0> - 1;        _create(owner, id);        emit CardCreated(id, proto, purity, owner);        return id;    }"

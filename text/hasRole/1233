@@ -1,0 +1,1 @@
+"function unlockForAll() external {        require(<mask0>, \"NOT_ADMIN\");        _grantRole(TRANSFER_ROLE, address(0));    }"

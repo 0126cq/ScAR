@@ -1,0 +1,1 @@
+"function transferToSelf(uint256 _value, bytes _data) internal returns (bool success) {        balances[msg.sender] = <mask0>;        balances[selfAddress] = balances[selfAddress]+_value;        Transfer(msg.sender, selfAddress, _value);"

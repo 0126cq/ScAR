@@ -1,0 +1,1 @@
+"function totalSupply() public constant returns (uint) {        if (deprecated) {            return StandardToken(upgradedAddress).<mask0>;        } else {            return _totalSupply;        }    }"

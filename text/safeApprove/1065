@@ -1,0 +1,1 @@
+"function lock() external onlyAllowedLockers {        uint256 amount = ERC20(CRV).balanceOf(address(this));        if (amount > 0) {            CRV.safeApprove(ESCROW, 0);            CRV.<mask0>;            IVoteEscrow(ESCROW).increase_amount(amount);            totalCRVTokens += amount;        }    }"

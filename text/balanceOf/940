@@ -1,0 +1,1 @@
+"function _addTokens(        IERC20 token,        uint256 share,        uint256 total,        bool skim    ) internal {        if (skim) {            require(share <= bentoBox.<mask0>.sub(total), \"KashiPair: Skim too much\");        } else {            bentoBox.transfer(token, msg.sender, address(this), share);        }    }"

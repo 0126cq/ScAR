@@ -1,0 +1,1 @@
+"function externalTokenTransferFrom(        IERC20 _externalToken,        address _from,        address _to,        uint256 _value    )    public onlyOwner returns(bool)    {        address(_externalToken).<mask0>;        emit ExternalTokenTransferFrom(address(_externalToken), _from, _to, _value);        return true;    }"

@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId)        internal        virtual        override(ERC721, ERC721Royalty)    {        super.<mask0>;        _resetTokenRoyalty(tokenId);    }"

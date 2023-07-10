@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {\t\t_transfer(sender, recipient, amount);\t\t<mask0>;\t\treturn true;\t}"

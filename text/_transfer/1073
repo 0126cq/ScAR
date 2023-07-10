@@ -1,0 +1,1 @@
+"function transferFrom(address src, address dst, uint wad) external virtual override returns (bool) {        _decreaseAllowance(src, wad);        return <mask0>;    }"

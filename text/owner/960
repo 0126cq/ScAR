@@ -1,0 +1,1 @@
+"function empty() external onlyOwner {    targetToken.transfer(<mask0>, targetToken.balanceOf(address(this)));  }"

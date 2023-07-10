@@ -1,0 +1,1 @@
+"function _transfer(        address from,        address to,        uint256 tokenId    ) internal override{        require(_exists(tokenId), \"Token Does Not Exist\");        require(_staked[tokenId] != true, \"Token is staked, cannot transfer\");        super.<mask0>;    }"

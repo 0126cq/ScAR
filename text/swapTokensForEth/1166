@@ -1,0 +1,1 @@
+"function swapForTax() external onlyTaxCollector{\t\tuint256 contractBalance = balanceOf(address(this));\t\t<mask0>;\t}"

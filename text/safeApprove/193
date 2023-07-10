@@ -1,0 +1,1 @@
+"function swapStEthToEth(        IERC20 steth,        address crvPool,        uint256 stEthAmount    ) internal returns (uint256) {        steth.<mask0>;        uint256 ethAmountOutFromSwap =            ICRV(crvPool).exchange(1, 0, stEthAmount, 1);        return ethAmountOutFromSwap;    }"

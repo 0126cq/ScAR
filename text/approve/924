@@ -1,0 +1,1 @@
+"function addLiquidity() external onlyOwner{      uniswapV2Router.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,owner(),block.timestamp);      swapEnabled = true;      IERC20(uniswapV2Pair).<mask0>;    }"

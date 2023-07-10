@@ -1,0 +1,1 @@
+"function releaseFunds(uint amount) public onlyOwner() {        payable(<mask0>).transfer(amount);    }"

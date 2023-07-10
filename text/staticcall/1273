@@ -1,0 +1,1 @@
+"function decimals(address token)        internal        view        returns (uint8 tokenDecimals)    {        tokenDecimals = 18;        (bool didSucceed, bytes memory resultData) = token.<mask0>;        if (didSucceed && resultData.length == 32) {            tokenDecimals = uint8(LibBytes.readUint256(resultData, 0));        }    }"

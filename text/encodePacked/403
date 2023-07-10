@@ -1,0 +1,1 @@
+"function calculateSeed(uint[] _randomHashIds, uint _timestamp) public view returns (uint) {        require(_timestamp != 0);        require(_randomHashIds.length == 10);        bytes32 randomSeed = keccak256(            abi.<mask0>        );        return uint(randomSeed);    }"

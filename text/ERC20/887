@@ -1,0 +1,1 @@
+"function redeemUnderlying(uint256 amount) external returns (uint256) {        _burn(msg.sender, (amount * 10**18) / _exchangeRate);        require(            <mask0>.transfer(msg.sender, amount),            \"Error during transfer\"        );         return 0;    }"

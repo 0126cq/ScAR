@@ -1,0 +1,1 @@
+"function _updateActiveVault(IVaultAdapter _adapter) internal {    require(_adapter != IVaultAdapter(ZERO_ADDRESS), \"Alchemist: active vault address cannot be 0x0.\");    require(_adapter.token() == token, \"Alchemist: token mismatch.\");    _vaults.<mask0>;    emit ActiveVaultUpdated(_adapter);  }"

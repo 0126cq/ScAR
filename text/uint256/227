@@ -1,0 +1,1 @@
+"function getRewardForDuration() external view returns (uint256[] memory rewards_per_duration_arr) {        rewards_per_duration_arr = new <mask0>;        for (uint256 i = 0; i < rewardRatesManual.length; i++){             rewards_per_duration_arr[i] = rewardRates(i) * rewardsDuration;        }    }"

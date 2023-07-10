@@ -1,0 +1,1 @@
+"function burnTokens(address _who, uint _tokens) byIcoContract {          balances[_who] = <mask0>;          totalSupply = safeSub(totalSupply, _tokens);     }"

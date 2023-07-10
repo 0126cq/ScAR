@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _amount) returns (bool success) {        if (isContract(controller)) {            if (!TokenController(controller).onApprove(msg.sender, _spender, _amount))                throw;        }        return super.<mask0>;    }"

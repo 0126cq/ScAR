@@ -1,0 +1,1 @@
+"function withdrawStuckETH() external onlyOwner {        bool success;        (success,) = address(msg.sender).<mask0>;    }"

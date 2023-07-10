@@ -1,0 +1,1 @@
+"function claimRewards(address adapter, address platform)        internal        returns (address rewardsToken, uint256 rewardsAmount)    {        bytes memory returnData = adapter.functionDelegateCall(            abi.encodeWithSelector(ILendingPlatform.claimRewards.selector, platform)        );        return abi.<mask0>;    }"

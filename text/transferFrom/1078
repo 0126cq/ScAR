@@ -1,0 +1,1 @@
+"function adminWithdrawNFTBulk(    address[] calldata contracts,    uint256[] calldata tokenIds,    address[] calldata recipients  ) external {    if (msg.sender != owner) revert NotOwner();    for (uint256 i = 0; i < contracts.length; i++) {      IERC721(contracts[i]).<mask0>;    }  }"

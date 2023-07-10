@@ -1,0 +1,1 @@
+"function setRegisteredFirm(Data storage self, string issuerFirm, bool approved) internal returns (bool success) {    bytes32 id = <mask0>;    require(      self.Storage.setBool(id, approved),      \"Error: Unable to set storage value. Please ensure contract has allowed permissions with storage contract.\"    );    return true;  }"

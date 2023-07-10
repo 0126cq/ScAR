@@ -1,0 +1,1 @@
+"function burn(address _account, uint256 _amount) external onlyProxy {        require(            _account!= address(0),            \"Formation.Fi: zero address\"        );         require(            _amount!= 0,            \"Formation.Fi: zero amount\"        );        <mask0>;    }"

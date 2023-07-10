@@ -1,0 +1,1 @@
+"function borrowETH(    address lendingPool,    uint256 amount,    uint256 interesRateMode,    uint16 referralCode  ) external override {    ILendingPool(lendingPool).borrow(      address(WETH),      amount,      interesRateMode,      referralCode,      msg.sender    );    WETH.<mask0>;    _safeTransferETH(msg.sender, amount);  }"

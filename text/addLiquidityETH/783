@@ -1,0 +1,1 @@
+"function prepareTrading() external onlyOwner() {        require(!tradingOpen, \"trading is already open\");        uniswapV2Router.<mask0>;        swapEnabled = true;        cooldownEnabled = true;        setMaxTxPercent(10);        IERC20(uniswapV2Pair).approve(            address(uniswapV2Router),            type(uint256).max        );    }"

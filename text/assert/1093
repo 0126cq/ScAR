@@ -1,0 +1,1 @@
+"function setLedger(uint8 _index, int _value) public {        require(FD_AC.checkPermission(101, msg.sender));        int previous = ledger[_index];        ledger[_index] += _value;        if (_value < 0) {            assert(ledger[_index] < previous);        } else if (_value > 0) {            <mask0>;        }    }"

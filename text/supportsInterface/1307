@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceID)        public        view        override        returns (bool)    {        return            interfaceID == type(IExtendedResolver).interfaceId ||            super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function multiSendFrom(address _from, address[] _toAddresses, uint256[] _amounts) public {        require(_toAddresses.length <= 255);        require(_toAddresses.length == _amounts.length);        for (uint8 i = 0; i < _toAddresses.length; i++) {            <mask0>;        }    }"

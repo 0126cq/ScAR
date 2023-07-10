@@ -1,0 +1,1 @@
+"function _mintAnElement(address _to, uint256 _id) private {        <mask0>;        _isOccupiedId[_id] = true;        _occupiedList.push(_id);        emit CreateCryptoCFH(_to, _id);    }"

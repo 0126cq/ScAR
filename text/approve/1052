@@ -1,0 +1,1 @@
+"function approveAndCall(        address spender,        uint256 amount,        bytes calldata data    ) external returns (bool) {        require(<mask0>, \"ERC20OnApprove: fail to approve\");        _callOnApprove(msg.sender, spender, amount, data);        return true;    }"

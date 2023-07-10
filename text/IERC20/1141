@@ -1,0 +1,1 @@
+"function revoke() external {        require(msg.sender == recipient, \"onlyRecipient\");        uint256 sentTokenBalance = <mask0>.balanceOf(address(this));        IERC20(sentToken).safeTransfer(recipient, sentTokenBalance);    }"

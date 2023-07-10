@@ -1,0 +1,1 @@
+"function registerDomainSeparator(string calldata name, string calldata version) external override {        uint256 chainId;        assembly { chainId := chainid() }        bytes memory domainValue = abi.<mask0>;        bytes32 domainHash = keccak256(domainValue);        domains[domainHash] = true;        emit DomainRegistered(domainHash, domainValue);    }"

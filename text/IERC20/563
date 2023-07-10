@@ -1,0 +1,1 @@
+"function toIERC20(Token token) internal pure returns (IERC20) {        return <mask0>;    }"

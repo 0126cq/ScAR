@@ -1,0 +1,1 @@
+"function ownermint(address _to, uint _id, uint _amount) external onlyOwner {        <mask0>;    }"

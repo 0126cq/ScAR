@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) public hasMintPermission canMint returns (bool) {        require(_to != address(0), \"Token receiver must not be address(0)\");        return super.<mask0>;    }"

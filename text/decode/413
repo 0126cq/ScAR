@@ -1,0 +1,1 @@
+"function exactBptInForTokensOut(bytes memory self) internal pure returns (uint256 bptAmountIn) {        (, bptAmountIn) = abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _encodeSubmissionData(SubmissionData memory _submissionData)    pure    returns (bytes32){    return keccak256(abi.<mask0>);}"

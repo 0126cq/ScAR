@@ -1,0 +1,1 @@
+"function sendVNET(address _to, uint256 _amount) external onlyOwner {        <mask0>;    }"

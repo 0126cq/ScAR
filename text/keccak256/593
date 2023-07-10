@@ -1,0 +1,1 @@
+"function getContract(string calldata name) external view returns (address contractAddress) {        contractAddress = contracts[<mask0>];        require(contractAddress != address(0), name.strConcat(\" contract has not been found\"));    }"

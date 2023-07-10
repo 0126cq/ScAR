@@ -1,0 +1,1 @@
+"function mint() public payable nonReentrant {    require(saleIsActive, \"Sale not active\");    require(totalSupply() < MAX_SUPPLY, \"Exceeds max supply\");    require(msg.value >= PRICE, \"Insufficient payment, 0.02 ETH per item\");    <mask0>;    supplyCounter.increment();  }"

@@ -1,0 +1,1 @@
+"function _fromETH(uint256 _amount, address asset)        internal        view        returns (uint256)    {        if (            _amount == 0 ||            _amount == type(uint256).max ||            <mask0> == address(WETH)         ) {            return _amount;        }        return AaveLenderBorrowerLib.fromETH(_amount, asset);    }"

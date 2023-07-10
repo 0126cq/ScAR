@@ -1,0 +1,1 @@
+"function ownedTokens(address payable _addr)        external        view        returns (uint256[] memory)    {        uint256 balance = balanceOf(_addr);        uint256[] memory result = new <mask0>;        uint256 balId;        for (balId = 0; balId < balance; balId++) {            result[balId] = tokenOfOwnerByIndex(_addr, balId);        }        return result;    }"

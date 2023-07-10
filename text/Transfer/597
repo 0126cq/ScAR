@@ -1,0 +1,1 @@
+"function YOUToken() public {        totalSupply = 1000000000 * 10 ** uint256(decimals);        balances[msg.sender] = totalSupply;        <mask0>;    }"

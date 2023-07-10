@@ -1,0 +1,1 @@
+"function unstake(uint256 shares) external onlyOnwerOrDepositor {        require(shares > 0, \"Capacitor: Invalid shares\");        ILooksStakingV2(looksStaking).<mask0>;    }"

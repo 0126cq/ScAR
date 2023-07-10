@@ -1,0 +1,1 @@
+"function _onTrade(TradeDetails memory tradeDetails) internal override {        uint256 newIV = abi.<mask0>;        priceProperties.currentIV = newIV;        IERC20(tokenB()).safeTransfer(address(feePoolA), tradeDetails.feesTokenA);        IERC20(tokenB()).safeTransfer(address(feePoolB), tradeDetails.feesTokenB);    }"

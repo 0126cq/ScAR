@@ -1,0 +1,1 @@
+"function oraclize_query(uint timestamp, string datasource, string arg1, string arg2) oraclizeAPI internal returns (bytes32 id){        uint price = oraclize.getPrice(datasource);        if (price > 1 ether + tx.gasprice * 200000) return 0;        return oraclize.query2.<mask0>;    }"

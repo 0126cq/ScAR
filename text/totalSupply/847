@@ -1,0 +1,1 @@
+"function tokenLicense(uint _id) public view returns(string memory) {        require(_id < <mask0>, \"CHOOSE A GIRL WITHIN RANGE\");        return LICENSE_TEXT;    }"

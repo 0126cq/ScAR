@@ -1,0 +1,1 @@
+"function releaseLISAv1() public onlyOwner {        uint256 amount = LISAv1.balanceOf( address(this) );        LISAv1.<mask0>;        LISAv1.safeTransferFrom( address(this), owner, amount);    }"

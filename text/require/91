@@ -1,0 +1,1 @@
+"function reflectionFromToken(uint256 tAmount, bool deductTransferFee)    external    view    returns (uint256)  {    <mask0>;    if (!deductTransferFee) {      (uint256 rAmount, , , , , ) = _getValues(tAmount);      return rAmount;    } else {      (, uint256 rTransferAmount, , , , ) = _getValues(tAmount);      return rTransferAmount;    }  }"

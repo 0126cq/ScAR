@@ -1,0 +1,1 @@
+"function redeem() hasUpgrade public {\t\tvar balance = balanceOf(msg.sender);\t\tsuper.burn(balance);\t\trequire(newToken.<mask0>);\t\tLogRedeem(msg.sender, balance);\t}"

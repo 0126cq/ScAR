@@ -1,0 +1,1 @@
+"function deposit() public {        require(pid > 0, \"pid not initialized\");        IERC20 _token = TOKEN;        uint _balance = _token.balanceOf(address(this));        _token.<mask0>;        _token.safeApprove(address(MASTER), _balance);        MASTER.deposit(pid, _balance);    }"

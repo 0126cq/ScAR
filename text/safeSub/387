@@ -1,0 +1,1 @@
+"function remainingCredit() public view returns (uint) {        uint debt_ = debt();        if (creditline <= debt_ || mkrActive() == false) {            return 0;        }        return <mask0>;    }"

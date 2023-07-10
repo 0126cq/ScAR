@@ -1,0 +1,1 @@
+"function _transferIn(uint256 amount) internal returns (uint256) {        uint256 before = <mask0>.balanceOf(address(this));        bool s = IERC20(KEYS).transferFrom(msg.sender, address(this), amount);        uint256 difference = IERC20(KEYS).balanceOf(address(this)).sub(before);        require(s && difference <= amount, 'Error On Transfer In');        return difference;    }"

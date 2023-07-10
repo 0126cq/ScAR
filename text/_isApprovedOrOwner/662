@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal virtual override view returns (bool) {        return defaultApprovals[spender] || super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function getSecurityTerminal(uint256 _tokenId) external view returns (string memory) {        require(_exists(_tokenId));        if(tokenIdToPackedData[_tokenId]==0){            return \"ACCESS DENIED\";        }        return(<mask0>);    }"

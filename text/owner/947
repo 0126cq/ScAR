@@ -1,0 +1,1 @@
+"function ownerClaim(uint256 tokenId) public nonReentrant onlyOwner {        require(tokenId > 24000 && tokenId < 24889, \"Token ID invalid\");        _safeMint(<mask0>, tokenId);    }"

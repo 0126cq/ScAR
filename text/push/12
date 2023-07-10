@@ -1,0 +1,1 @@
+"function setMinter(        address who,        bool canMint    ) external onlyOwner {        if (canMint == true && isMinter[who] == false ) minters.<mask0>;        isMinter[who] = canMint;        emit MinterSet(msg.sender, who, canMint);    }"

@@ -1,0 +1,1 @@
+"function withdrawToVault(uint256 amountUnderlying) external restricted {    unwrap();    require(IERC20(underlying).balanceOf(address(this)) >= amountUnderlying, \"insufficient balance for the withdrawal\");    IERC20(underlying).<mask0>;    wrap();  }"

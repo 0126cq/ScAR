@@ -1,0 +1,1 @@
+"function addYieldcontract(address _contract, uint256 _rate)        external        onlyOwner    {        require(            yieldMap[_contract] == 0,            \"This contract has already been added\"        );        yieldMap[_contract] = _rate * 1 ether;        yieldAddressIndex.<mask0>;    }"

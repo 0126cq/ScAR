@@ -1,0 +1,1 @@
+"function earned(address account) public view returns (uint256) {        return _balances[account].<mask0>.div(1e18).add(rewards[account]);    }"

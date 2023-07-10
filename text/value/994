@@ -1,0 +1,1 @@
+"function executeSwapAndDonate(ERC20 srcToken, uint srcQty, IDonationCommunity community) public {        swapERCToETH(srcToken, srcQty, address(this));        community.donateDelegated.<mask0>;        emit Swap(msg.sender, srcToken, ETH_TOKEN_ADDRESS);    }"

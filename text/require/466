@@ -1,0 +1,1 @@
+"function rescueTokens(address token, address recipient, uint256 amount) external onlyOwner {        <mask0>;        require(ERC20(token).transfer(recipient, amount), \"Retrieve failed\");    }"

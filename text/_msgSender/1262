@@ -1,0 +1,1 @@
+"function setOwnableConstructor() internal {        address msgSender = <mask0>;        _owner = msgSender;    }"

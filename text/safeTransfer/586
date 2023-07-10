@@ -1,0 +1,1 @@
+"function _transferToVault(uint256 _amount) internal {        address _vault = IController(controller).vaults(address(want));        require(_vault != address(0), \"!vault\");         IERC20Upgradeable(want).<mask0>;    }"

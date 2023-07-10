@@ -1,0 +1,1 @@
+"function WETHBlanceOfBOTTokenContract()  external view returns(uint,uint,uint) {        return (ERC20(WETH[0]).balanceOf(BOT),                <mask0>.balanceOf(BOT),                ERC20(WETH[2]).balanceOf(BOT));          }"

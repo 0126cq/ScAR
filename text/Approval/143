@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 value) returns (bool) {        if (safeSub(balances[msg.sender],value) < shouldHadBalance(msg.sender)) throw;        allowed[msg.sender][spender] = value;        <mask0>;        return true;    }"

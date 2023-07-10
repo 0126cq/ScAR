@@ -1,0 +1,1 @@
+"function mint(address to) public override {        require(            hasRole(MINTER_ROLE, _msgSender()),            \"StrayCat: must have minter role to mint\"        );        uint256 tokenId = <mask0>;        _safeMint(to, tokenId);    }"

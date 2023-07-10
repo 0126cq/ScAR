@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint id, bytes data) public payable {        require(to != address(0));        <mask0>;        if (_isContract(to)) {            bytes4 response = ERC721TokenReceiver(to).onERC721Received.gas(50000)(from, id, data);            require(response == magic);        }    }"

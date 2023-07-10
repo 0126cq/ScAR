@@ -1,0 +1,1 @@
+"function leave(uint256 _share) public {        uint256 totalShares = <mask0>;        uint256 what = _share.mul(sushi.balanceOf(address(this))).div(totalShares);        _burn(msg.sender, _share);        sushi.transfer(msg.sender, what);    }"

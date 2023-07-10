@@ -1,0 +1,1 @@
+"function addCustomAccess(uint256 _id, uint256 _cost, uint256 _limit, bool _live) external onlyAdmin {        require(!exists(_id),\"ID Already Exists\");        accessInfo[_id]  = AccessInfo(_cost * 10 ** 18, _limit, _live);        accessIDs.<mask0>;        _mint(_msgSender(), _id, 1, \"\");    }"

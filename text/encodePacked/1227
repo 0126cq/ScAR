@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public pure returns (string memory) {        return string(abi.<mask0>);    }"

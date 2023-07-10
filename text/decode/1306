@@ -1,0 +1,1 @@
+"function initialize(bytes calldata data) external override {        require(!adapterInitialized[key], \"Adapter already initialized\");        abi.<mask0>;        adapterInitialized[key] = true;        adapterVsData[key] = data;    }"

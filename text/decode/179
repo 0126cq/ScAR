@@ -1,0 +1,1 @@
+"function init(bytes calldata data) public payable override {        require(address(collateral) == address(0), \"KashiPair: already initialized\");        (collateral, asset, oracle, oracleData) = abi.<mask0>;        require(address(collateral) != address(0), \"KashiPair: bad pair\");        accrueInfo.interestPerSecond = uint64(STARTING_INTEREST_PER_SECOND);     }"

@@ -1,0 +1,1 @@
+"function setTotalPoolCapLimit(uint256 totalPoolCapLimit) public {        require(<mask0>, \"Caller is not a manager\");        _state.totalPoolCapLimit = totalPoolCapLimit;    }"

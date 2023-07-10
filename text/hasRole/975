@@ -1,0 +1,1 @@
+"function startNewPeriod() public virtual override nextPeriodAvailable periodsActive nonReentrant {        require(<mask0>, \"ERR_CALLER\");        _switchPeriod();        IBTRates[getCurrentPeriodIndex()] = getIBTRate();        scaledTotals[getCurrentPeriodIndex()] = ibt.balanceOf(address(this));    }"

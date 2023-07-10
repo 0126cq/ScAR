@@ -1,0 +1,1 @@
+"function _depositContextId(        address provider,        Token pool,        uint256 tokenAmount,        address caller    ) private view returns (bytes32) {        return <mask0>;    }"

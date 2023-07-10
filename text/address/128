@@ -1,0 +1,1 @@
+"function setIsIncentivised(bool _isIncentivised) external onlyRole(GUARDIAN_ROLE) {        require(            !_isIncentivised || <mask0> != address(0),            \"aToken does not have incentives controller set up\"        );        isIncentivised = _isIncentivised;        emit IncentivisedUpdated(_isIncentivised);    }"

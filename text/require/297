@@ -1,0 +1,1 @@
+"function freeze(address account) public returns (bool) {        <mask0>;        Frozen[account] = true;    }"

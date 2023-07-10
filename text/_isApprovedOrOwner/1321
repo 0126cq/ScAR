@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 boosterId, bytes memory data) public virtual override(IERC721,ISIGHBoosters) {        require(!blacklistedBoosters[boosterId], \"Booster blacklisted\");        require(<mask0>, \"BOOSTERS: Neither owner nor approved\");        _safeTransfer(from, to, boosterId, data);    }"

@@ -1,0 +1,1 @@
+"function mint(address token, address guy, uint wad) public {        DSTokenLike(token).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function approveAndCall(    address _spender,    uint256 _value,    bytes _data  )    public    payable    returns (bool)  {    require(_spender != address(this));    super.approve(_spender, _value);    require(caller_.makeCall.<mask0>(_spender, _data));    return true;  }"

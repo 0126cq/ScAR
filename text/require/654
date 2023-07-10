@@ -1,0 +1,1 @@
+"function _setAdmin(address newAdmin) private {        <mask0>;        StorageSlotUpgradeable.getAddressSlot(_ADMIN_SLOT).value = newAdmin;    }"

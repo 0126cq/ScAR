@@ -1,0 +1,1 @@
+"function payDAI(uint256 amount) external {        require(            INterfaces(dai).<mask0>,            ERR_TRANSFER        );        _pay(msg.sender, amount / (10**12));        _deposited[dai] += amount;    }"

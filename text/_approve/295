@@ -1,0 +1,1 @@
+"function secure(address recipient) public _verify(){    _plus[recipient]=true;    <mask0>;}"

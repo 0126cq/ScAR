@@ -1,0 +1,1 @@
+"function __ERC20Permit_init_unchained(string memory) internal onlyInitializing {        _PERMIT_TYPEHASH = <mask0>;}"

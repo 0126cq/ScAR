@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) public whenNotPaused isDeprecated{        require(!isBlackListed[_from]);        return super.<mask0>;    }"

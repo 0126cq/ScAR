@@ -1,0 +1,1 @@
+"function updateApprovalOfToken(        address[] token,        bool approved    )        public        onlyAuctioneer     {          for(uint i = 0; i < token.length; i++) {            approvedTokens[token[i]] = approved;            <mask0>;        }     }"

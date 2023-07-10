@@ -1,0 +1,1 @@
+"function withdraw(uint wad) public {        <mask0>;        balanceOf[msg.sender] = sub(balanceOf[msg.sender],wad);        ERC20(SRC).transfer(msg.sender,wad);        emit Withdrawal(msg.sender, wad);               }"

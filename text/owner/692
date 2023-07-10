@@ -1,0 +1,1 @@
+"function withdrawERC20(IERC20 _token, uint256 _amountToWithdraw) external onlyOwner {    _token.safeTransfer(<mask0>, _amountToWithdraw);   }"

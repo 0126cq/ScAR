@@ -1,0 +1,1 @@
+"function wrapToYieldToken(address asset, address collateralToken) external {        uint256 amountToWrap = IERC20(asset).balanceOf(address(this));        if (amountToWrap > 0) {            IERC20(asset).<mask0>;            IYearnVault(collateralToken).deposit(amountToWrap, address(this));        }    }"

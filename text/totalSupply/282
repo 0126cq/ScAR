@@ -1,0 +1,1 @@
+"function addReward() external payable {         require(msg.value > 0, \"DroppingNowToken: reward cannot be 0\");        uint256 totalSupplyValue = <mask0> + _totalMintableSupply;        require(totalSupplyValue > 0, \"DroppingNowToken: no reward recipients\");        _rewardPerShare += msg.value / totalSupplyValue;    }"

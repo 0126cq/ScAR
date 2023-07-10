@@ -1,0 +1,1 @@
+"function getTypeValueHash(Order memory _order)        internal        pure        returns (bytes32)    {        return            <mask0>;    }"

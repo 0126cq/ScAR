@@ -1,0 +1,1 @@
+"function recoverERC20(address tokenAddress, uint256 tokenAmount) external onlyOwner {        IERC20(tokenAddress).safeTransfer(<mask0>, tokenAmount);        emit Recovered(tokenAddress, tokenAmount);    }"

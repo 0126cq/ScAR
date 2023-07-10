@@ -1,0 +1,1 @@
+"function manualSwap() external onlyTaxCollector{\t\tuint256 contractBalance = <mask0>;\t\tswapTokensForEth(contractBalance);\t}"

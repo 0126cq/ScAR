@@ -1,0 +1,1 @@
+"function safeBatchTransferFrom(        address from,        address to,        uint256[] memory ids,        uint256[] memory amounts,        bytes memory data    ) public virtual override {        <mask0>;        _safeBatchTransferFrom(from, to, ids, amounts, data);    }"

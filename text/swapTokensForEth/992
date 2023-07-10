@@ -1,0 +1,1 @@
+"function swapAndSendDividendsToMarketing(uint256 tokens) private {        <mask0>;        uint256 dividends = address(this).balance;        (bool success,) = payable(marketingAddress).call{value: dividends}(\"\");        if(success) {            emit SendDividendsToMarketing(tokens, dividends);        }    }"

@@ -1,0 +1,1 @@
+"function finish(address _team, address _fund, address _bounty) external onlyOwner {    require(now >= ICO_END_DATE && !isFinished);    unlb.unpause();    isFinished = true;    uint _total = unlb.totalSupply() * 100 / (100 - 12 - 10 - 2);    unlb.mint(_team,   (_total * 12) / 100);    unlb.mint(_fund,   (_total * 10) / 100);    unlb.<mask0>;  }"

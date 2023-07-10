@@ -1,0 +1,1 @@
+"function _withdraw(        uint256 _shares,        address _destination,        uint256    ) internal override notPaused returns (uint256) {        if (conversionRate != 0) {            _shares = (_shares * 1e18) / conversionRate;        }        uint256 amountReceived = vault.<mask0>;        return amountReceived;    }"

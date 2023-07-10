@@ -1,0 +1,1 @@
+"function _addStrategyForRewards(ERC20 strategy) internal {        require(strategyState[strategy].index == 0, \"strategy\");        strategyState[strategy] = RewardsState({index: ONE, lastUpdatedTimestamp: block.timestamp.safeCastTo32()});        allStrategies.<mask0>;        emit AddStrategy(address(strategy));    }"

@@ -1,0 +1,1 @@
+"function mintTokenOnSale() public override payable {        require(            block.timestamp > (presaleStartDate + presaleDuration),            \"Sale period not started!\"        );        <mask0>;    }"

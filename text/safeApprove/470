@@ -1,0 +1,1 @@
+"function enterSLPRewardPool() internal {    uint256 entireBalance = IERC20(underlying()).balanceOf(address(this));    if (entireBalance > 0) {      IERC20(underlying()).safeApprove(slpRewardPool(), 0);      IERC20(underlying()).<mask0>;      IMasterChef(slpRewardPool()).deposit(slpPoolId(), entireBalance);    }  }"

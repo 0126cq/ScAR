@@ -1,0 +1,1 @@
+"function _burnToMigrate(uint tokenId) external {        require(msg.sender == newContract);        <mask0>;    }"

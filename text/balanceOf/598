@@ -1,0 +1,1 @@
+"function withdrawGxTokens(address _tokenContract) public returns (bool) {        require(msg.sender == owner);        GxToken token = GxToken(_tokenContract);        uint256 amount = token.<mask0>;        return token.transfer(owner, amount);    }"

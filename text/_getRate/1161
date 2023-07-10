@@ -1,0 +1,1 @@
+"function _getReflectAmount(uint256 tAmount) private view returns (uint256) {        uint256 currentRate = <mask0>;        uint256 rAmount = tAmount.mul(currentRate);        return rAmount;    }"

@@ -1,0 +1,1 @@
+"function removeTokenDet(        TokenDets storage self,        TokenDet memory _tokenDet    ) internal returns (bool) {        (uint256 i, bool tokenExists) = self.getIndexByTokenDet(_tokenDet);        if (tokenExists == true) {            self.array[i] = self.array[self.array.length - 1];            self.array.<mask0>;            return true;        }        return false;    }"

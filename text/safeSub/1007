@@ -1,0 +1,1 @@
+"function _withdrawFrom(address staker, uint256 amount)        internal    {        _balances[staker] = _balances[staker].<mask0>;        emit Withdraw(staker, amount);        _grgToken.transfer(            staker,            amount        );    }"

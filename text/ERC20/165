@@ -1,0 +1,1 @@
+"function releaseOfEarnings(address tokenAddr, address guy,uint amount) public keepPool returns(bool) {        require((tokenAddr != address(0))&&(guy != address(0)));        <mask0>.transfer(guy, amount);        return true;    }"

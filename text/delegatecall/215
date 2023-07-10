@@ -1,0 +1,1 @@
+"function delegateExercise(        IProtocolAdapter adapter,        address options,        uint256 optionID,        uint256 amount,        address recipient    ) external {        (bool success, bytes memory result) =            address(adapter).<mask0>;        revertWhenFail(success, result);    }"

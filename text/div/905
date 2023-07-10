@@ -1,0 +1,1 @@
+"function _calcToken(        int256 numerator,        int256 tokens,        int256 haircut,        int256 liquidity    ) private pure returns (int256) {        return numerator.mul(tokens).mul(haircut).div(Constants.PERCENTAGE_DECIMALS).<mask0>;    }"

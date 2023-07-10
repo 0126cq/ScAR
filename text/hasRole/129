@@ -1,0 +1,1 @@
+"function setBaseURI(string memory baseURI_) external {        require(            <mask0>,            \"StrayCat: must have admin role\"        );        super._setBaseURI(baseURI_);    }"

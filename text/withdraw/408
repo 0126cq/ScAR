@@ -1,0 +1,1 @@
+"function withdrawAll(address _token, address _gauge) external returns(bool){        require(msg.sender == operator, \"!auth\");        uint256 amount = balanceOfPool(_gauge).add(IERC20(_token).balanceOf(address(this)));        <mask0>;        return true;"

@@ -1,0 +1,1 @@
+"function initialize(        address _gov,        address commitToken_,        address _dividendPool    ) public initializer {        _taxRate = 2000;         _commitToken = ERC20Burnable(commitToken_);        ERC20Recoverer.initialize(_gov, new <mask0>);        Governed.initialize(_gov);        Distributor._setup(_dividendPool);    }"

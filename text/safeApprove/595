@@ -1,0 +1,1 @@
+"function investAllUnderlying() public restricted updateVirtualPrice {        uint256 balance = underlying.balanceOf(address(this));        underlying.<mask0>;        underlying.safeApprove(address(idleUnderlying), balance);        IIdleTokenV3_1(idleUnderlying).mintIdleToken(balance, true, address(0));    }"

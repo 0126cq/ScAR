@@ -1,0 +1,1 @@
+"function devMint(uint256 _amount, address _to) external onlyOwner {        require(totalSupply(SEASON) + _amount <= seasons[SEASON].maxSupply, \"underground: cap for season reached\");        <mask0>;    }"

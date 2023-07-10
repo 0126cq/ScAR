@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _houseId) private onlyOwner {        require(nextHouseId[_houseId] < supply[_houseId], \"DoTxNFT: house sold out\");        nextHouseId[_houseId]++;        uint256 tokenId = _houseId * ID_TO_HOUSE + nextHouseId[_houseId];        <mask0>;    }"

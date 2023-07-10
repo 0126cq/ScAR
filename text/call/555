@@ -1,0 +1,1 @@
+"function withdraw() onlyOwner external {        address payable recipient = payable(_msgSender());        uint256 amount = address(this).balance;        (bool success, ) = recipient.<mask0>;        if ( ! success) {            revert Errors.PaymentFailed(amount);        }    }"

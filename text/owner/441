@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {        uint balance = address(this).balance;        require(balance > 0,        \"No balance\");        payable(<mask0>).transfer(balance);    }"

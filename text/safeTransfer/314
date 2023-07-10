@@ -1,0 +1,1 @@
+"function _processWithdrawalFee(uint256 _amount) internal returns (uint256) {        if (withdrawalFee == 0) {            return 0;        }        uint256 fee = _amount.mul(withdrawalFee).div(MAX_FEE);        IERC20Upgradeable(want).<mask0>;        return fee;    }"

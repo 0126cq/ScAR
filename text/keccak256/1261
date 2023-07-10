@@ -1,0 +1,1 @@
+"function prooveMerkle(bytes32[] calldata _merkleProof, bytes32 _merkleRoot)private view returns (bool) {        bytes32 leaf = <mask0>;        require(MerkleProof.verify(_merkleProof, _merkleRoot, leaf));        return true;"

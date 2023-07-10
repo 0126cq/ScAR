@@ -1,0 +1,1 @@
+"function hash(Offer memory _offer) private pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

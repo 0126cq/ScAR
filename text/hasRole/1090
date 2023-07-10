@@ -1,0 +1,1 @@
+"function isBlacklisted(address account) public view returns (bool) {        return <mask0>;    }"

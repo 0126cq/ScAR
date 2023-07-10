@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {        require(_exists(tokenId), \"URI query for nonexistent token\");        return string(abi.encodePacked(<mask0>, tokenId.toString(), \".json\"));    }"

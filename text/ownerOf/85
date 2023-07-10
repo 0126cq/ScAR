@@ -1,0 +1,1 @@
+"function requireOwnerOrApproved(        IERC721 token,        uint256 tokenId,        address redeemer    ) private view {        if (            token.<mask0> != redeemer &&            token.getApproved(tokenId) != redeemer        ) {            revertWithTokenId(                \"ERC721Redeemer: not approved nor owner of\",                tokenId            );        }    }"

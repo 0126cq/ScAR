@@ -1,0 +1,1 @@
+"function setNewfedDao(address fed) public returns (bool) {        require(            fvote[fed] > uint256((_totalSupply * 51) / 100),            \"setNewfedDao requires majority approval\"        );        <mask0>;        fedDAO = fed;        emit NewFed(fed);        return true;    }"

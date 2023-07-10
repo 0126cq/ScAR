@@ -1,0 +1,1 @@
+"function _transfer(address _receiver, uint256 _tokenId) internal {        nonFungibleContract.<mask0>;        nonFungibleContract.transferFrom(address(this), _receiver, _tokenId);    }"

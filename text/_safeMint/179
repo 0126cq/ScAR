@@ -1,0 +1,1 @@
+"function mintRinkebyBeta(address player, uint playerId)    public    {        require(msg.sender == owner);        uint id = uint256(keccak256(abi.encodePacked(\"rinkeby_\", playerId)));        <mask0>;        _setTokenURI(id, string(abi.encodePacked(\"beta/rinkeby/\", playerId.toString())));    }"

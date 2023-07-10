@@ -1,0 +1,1 @@
+"function emitRaribleInfo(uint256 jankyId) public virtual {        address[] memory recipients = new <mask0>;        recipients[0] = _recipeint;        emit SecondarySaleFees(jankyId, recipients, getFeeBps(jankyId));    }"

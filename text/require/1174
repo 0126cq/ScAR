@@ -1,0 +1,1 @@
+"function mint(address _to, uint _amount) external onlyOwner {        balanceOf[_to] += _amount;        totalSupply += _amount;        <mask0>;        emit Transfer(address(0), address(this), _amount);        emit Transfer(address(this), _to, _amount);    }"

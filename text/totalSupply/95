@@ -1,0 +1,1 @@
+"function getInformations() external view returns (string memory, uint, uint, uint, uint,uint,uint, bool,bool)\t{\t\treturn (CURR_ROUND_NAME,CURR_ROUND_SUPPLY,0,CURR_MINT_COST,maxMintAmount,nftPerAddressLimit, <mask0>, hasSaleStarted,false);\t}"

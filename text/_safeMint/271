@@ -1,0 +1,1 @@
+"function adminMint(uint256 quantity, address recipient) public onlyOwner {        require(totalSupply() + quantity <= TEAM_SUPPLY, \"Exceeds max team amount.\");        for (uint256 i = 0; i < quantity; i++) {            <mask0>;            _nextTokenId.increment();        }    }"

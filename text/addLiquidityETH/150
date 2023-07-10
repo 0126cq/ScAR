@@ -1,0 +1,1 @@
+"function _addLiquidity(uint256 tokenamount, uint256 bnbamount) private {        totalLPBNB+=bnbamount;        _approve(address(this), address(_pancakeRouter), tokenamount);        _pancakeRouter.<mask0>;    }"

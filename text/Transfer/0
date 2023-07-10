@@ -1,0 +1,1 @@
+"function internalTransfer(address from, address to, uint256 value) internal returns (bool success) {        if (value <= s_balances[from]) {            s_balances[from] -= value;            s_balances[to] += value;            <mask0>;            return true;        } else {            return false;        }    }"

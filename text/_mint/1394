@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 value) internal override {        super.<mask0>;        magnifiedDividendCorrections[account] = magnifiedDividendCorrections[            account        ].sub((magnifiedDividendPerShare.mul(value)).toInt256Safe());    }"

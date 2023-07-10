@@ -1,0 +1,1 @@
+"function performBridgingToStart(        address _tokenAtStart,        address _tokenAtEnd,        address _to,        uint256 _amount    )        external        override        onlyAtStart        onlyMessangerBot    {        IERC20(_tokenAtStart).<mask0>;        emit BridgingToStartPerformed(_tokenAtEnd, _tokenAtStart, _to, _amount);    }"

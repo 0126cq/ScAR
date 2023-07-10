@@ -1,0 +1,1 @@
+"function initialize(address _devaddr) external initializer {        __Ownable_init();        devaddr = _devaddr;        IERC20(UNIC).<mask0>;    }"

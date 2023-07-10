@@ -1,0 +1,1 @@
+"function setAvatar(Avatar _avatar) public onlyOwner {        avatar = _avatar;        controller = ControllerInterface(avatar.<mask0>);    }"

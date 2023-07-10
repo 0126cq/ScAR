@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public checkStart updateReward(msg.sender) {        require(amount > 0, \"HDT-WETH-POOL: Cannot withdraw 0\");        super.<mask0>;        emit Withdrawn(msg.sender, amount);    }"

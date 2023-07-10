@@ -1,0 +1,1 @@
+"function checkAndCallSafeTransfer(address _from, address _to, uint256 _tokenId, bytes _data) internal returns (bool) {        if (!_to.isContract()) {            return true;        }        bytes4 retval = ERC721Receiver(_to).<mask0>;        return (retval == ERC721_RECEIVED);    }"

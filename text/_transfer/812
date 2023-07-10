@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) external returns (bool) {        <mask0>;        emit Transfer(msg.sender, recipient, amount);        return true;    }"

@@ -1,0 +1,1 @@
+"function purchase(uint256 _amount, address _referrer)        private    {        p3dContract.buy.<mask0>;        uint256 balance = p3dContract.balanceOf(address(this));        uint256 diff = balance - p3dBalance;        p3dBalance = balance;        strongHandManager.mint(owner, diff);    }"

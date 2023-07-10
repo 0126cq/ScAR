@@ -1,0 +1,1 @@
+"function log(bool p0, address p1, bool p2, address p3) internal view {\t\t(bool ignored, ) = CONSOLE_ADDRESS.<mask0>;\t\tignored;\t}"

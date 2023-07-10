@@ -1,0 +1,1 @@
+"function createToken(        address account,         string memory uri    )         external virtual        onlyRole(MINTER_ROLE)          returns (uint256 id)     {        uint256 _id = ids.<mask0>;        ids.increment();        _safeMint(account, _id);        _setTokenURI(_id, uri);        emit Created(account, _id);        return _id;    }"

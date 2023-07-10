@@ -1,0 +1,1 @@
+"function getAggEcoBalance(address userAddress) public view returns(uint) {        return wERC20(EMM.getwTokenAddress(Init.WRAP_ECO_SYMBOL())).<mask0> + EDM.getECOEarnings(userAddress);    }"

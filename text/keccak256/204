@@ -1,0 +1,1 @@
+"function equals(        bytes memory lhs,        bytes memory rhs    )        internal        pure        returns (bool equal)    {        return lhs.length == rhs.length && <mask0> == keccak256(rhs);    }"

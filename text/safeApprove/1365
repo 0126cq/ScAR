@@ -1,0 +1,1 @@
+"function setApprovals() external {        IERC20(curveToken).safeApprove(convexBooster, 0);        IERC20(curveToken).safeApprove(convexBooster, uint256(-1));        IERC20(convexToken).safeApprove(convexPool, 0);        IERC20(convexToken).<mask0>;    }"

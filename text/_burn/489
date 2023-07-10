@@ -1,0 +1,1 @@
+"function burnFrom(address src, uint amt) public _onlyOwner_ returns (bool) {        require(_balance[src] >= amt, \"!bal\");        <mask0>;        return true;    }"

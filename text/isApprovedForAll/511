@@ -1,0 +1,1 @@
+"function isApprovedForAll(address owner, address operator) public view override(ERC721, IERC721) returns (bool) {        return _isOpenSeaProxy(owner, operator) || super.<mask0>;    }"

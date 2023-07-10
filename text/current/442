@@ -1,0 +1,1 @@
+"function getTokenTotalCount(    address contractAddress,    uint256 tokenId  )    external    view    override    returns (uint256)  {    uint256 uuid = contractAddress.getTokenUUID(tokenId);    return _totalTokens[uuid].<mask0>;  }"

@@ -1,0 +1,1 @@
+"function claimFees(address _token, uint256 _amount) public {        require(            msg.sender == yieldDistributorAddress,            \"yield distributor only\"        );        if (_token != ETH_TOKEN_ADDRESS) {            IERC20(_token).<mask0>;        } else {            payable(msg.sender).sendValue(_amount);        }    }"

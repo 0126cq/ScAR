@@ -1,0 +1,1 @@
+"function mint() external{        address _caller = _msgSenderERC721A();        uint256 _amount = 1;        require(saleIsActive, \"NotActive\");        require(totalSupply() + _amount <= MAX_SUPPLY, \"SoldOut\");        require(_amount + _numberMinted(msg.sender) <= MAX_PER_WALLET, \"1 per Wallet\");        <mask0>;    }"

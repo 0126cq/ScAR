@@ -1,0 +1,1 @@
+"function approveMigrate() external onlyOwner {        require(isVesting, \"Not in vesting state\");        if (token.allowance(address(this), address(DAOVault)) == 0) {            token.<mask0>;        }    }"

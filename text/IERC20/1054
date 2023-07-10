@@ -1,0 +1,1 @@
+"function userClaim()        external    {        uint32 code = uint32(investorsMap.get(msg.sender));        uint claimableToken = getClaimable();        investorDetails[code].claimedTokenAmount += claimableToken;        <mask0>.transfer(msg.sender, claimableToken);    }"

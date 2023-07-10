@@ -1,0 +1,1 @@
+"function _generate_special_horsey(address race, address eth_address, bytes32 coinIndex) internal returns (uint256) {        uint256 id = _makeSpecialId(race, eth_address, coinIndex);        bytes32 dna = _shiftRight(<mask0>,16);        stables.storeHorsey(eth_address,id,race,dna,1,0);        return id;    }"

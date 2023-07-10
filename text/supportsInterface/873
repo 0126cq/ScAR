@@ -1,0 +1,1 @@
+"function setERC721Recoverable(address contract_, uint256 tokenId, address recoverer) external virtual override adminRequired {        require(ERC165Checker.<mask0>, \"BurnRedeem: Must implement IERC721\");        _recoverableERC721[contract_][tokenId] = recoverer;    }"

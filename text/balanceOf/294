@@ -1,0 +1,1 @@
+"function reclaimToken(ERC20Basic token) external onlyOwner {    uint256 balance = token.<mask0>;    token.safeTransfer(owner, balance);  }"

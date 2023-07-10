@@ -1,0 +1,1 @@
+"function generateRequestAttestationSchemaHash(    address _subject,    address _attester,    address _requester,    bytes32 _dataHash,    uint256[] _typeIds,    bytes32 _nonce  ) external view returns (bytes32) {    return hash(      AttestationRequest(        _subject,        _attester,        _requester,        _dataHash,        <mask0>,        _nonce      )    );  }"

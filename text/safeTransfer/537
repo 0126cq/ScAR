@@ -1,0 +1,1 @@
+"function getReward() public updateReward(msg.sender) {        uint256 reward = earned(msg.sender);        if (reward > 0) {            rewards[msg.sender] = 0;            rewardsToken.<mask0>;            emit RewardPaid(msg.sender, reward);        }    }"

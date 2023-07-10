@@ -1,0 +1,1 @@
+"function generalAdoption(uint adoptCount) validateAdoption(adoptCount) requireCorrectEth(adoptCount) nonReentrant external payable {     require(currentMode == ReleaseMode.OPEN, \"It's not go time yet.\");     <mask0>; }"

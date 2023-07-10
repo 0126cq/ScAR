@@ -1,0 +1,1 @@
+"function _getTValues(uint256 tAmount) private view returns (uint256, uint256) {        uint256 tFee;        if(_tTotal >= 30000000 * (10**6) * (10**18))        {        tFee = tAmount.div(100).<mask0>;        }        else        {        tFee = 0;        }        uint256 tTransferAmount = tAmount.sub(tFee);        return (tTransferAmount, tFee);    }"

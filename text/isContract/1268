@@ -1,0 +1,1 @@
+"function setAssetPricer(address asset, address pricer)        public        authorized(ADMIN, msg.sender)    {        require(            Address.<mask0>,            \"Teller: Chainlink pricer not contract\"        );        saLPPricer[asset] = IsaLPPricer(pricer);    }"

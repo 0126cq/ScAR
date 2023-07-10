@@ -1,0 +1,1 @@
+"function currentID() internal view returns (uint256 id_) {        Counters.Counter storage counter = MarketStorageLib            .store()            .loanIDCounter;        id_ = Counters.<mask0>;    }"

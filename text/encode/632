@@ -1,0 +1,1 @@
+"function __ERC20_init_unchained(string memory name, string memory symbol) internal initializer {        _name = name;        _symbol = symbol;        _decimals = 18;        DOMAIN_SEPARATOR = keccak256(abi.<mask0>);    }"

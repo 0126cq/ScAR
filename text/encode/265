@@ -1,0 +1,1 @@
+"function encodeExitForProcessExit(uint256 exitId) internal view returns (bytes memory) {        PlasmaExit storage exit = exits[exitId];        return abi.<mask0>;    }"

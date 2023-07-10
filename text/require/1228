@@ -1,0 +1,1 @@
+"function mul(uint x, uint y) internal pure returns (uint z) {        <mask0>;    }"

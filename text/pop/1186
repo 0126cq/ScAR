@@ -1,0 +1,1 @@
+"function remove(address staker, uint256 index) internal {        if (index >= stakerToTokenIds[staker].length) return;        for (uint256 i = index; i < stakerToTokenIds[staker].length - 1; i++) {            stakerToTokenIds[staker][i] = stakerToTokenIds[staker][i + 1];        }        stakerToTokenIds[staker].<mask0>;    }"

@@ -1,0 +1,1 @@
+"function tokenURI(uint256 id) public view virtual override returns (string memory) {      if (ownerOf(id) == address(0)) {        revert NonExistentTokenURI();      }      return bytes(baseURI).length > 0        ? string(abi.encodePacked(baseURI, id.<mask0>)) : '';    }"

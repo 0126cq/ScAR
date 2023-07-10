@@ -1,0 +1,1 @@
+"function safeMint(address to) public onlyOwner {        require(_tokenIdCounter.<mask0> < maxSupply);        _safeMint(to, _tokenIdCounter.current());        _tokenIdCounter.increment();    }"

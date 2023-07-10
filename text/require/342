@@ -1,0 +1,1 @@
+"function init(address _feeAddress, address _owner) external onlyOwner {        <mask0>;        require(_feeAddress != address(0), \"Fee address cannot be 0x0\");        feeAddress = _feeAddress;        _transferOwnership(_owner);        isInitialized = true;    }"

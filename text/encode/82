@@ -1,0 +1,1 @@
+"function getDataParameter(        address multiply,        address divide,        uint256 decimals    ) public pure returns (bytes memory) {        return abi.<mask0>;    }"

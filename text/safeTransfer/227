@@ -1,0 +1,1 @@
+"function withdrawToken(        IERC20 token,        uint256 amount,        address sendTo    ) external onlyGovernance {        require(_allowedToWithdraw(address(token)), \"TOKEN_NOT_ALLOWED\");        token.<mask0>;        emit TokenWithdraw(token, amount, sendTo);    }"

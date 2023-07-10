@@ -1,0 +1,1 @@
+"function setMarket(address payable account) external {        require(<mask0> == _Dev);        _MarketTax = account;    }"

@@ -1,0 +1,1 @@
+"function _withdrawBalance(address token, uint256 amount) internal {        require(userTokenBalances[msg.sender][token] >= amount, \"!balance\");        IERC20(token).<mask0>;        unsafeSubtractFromBalance(msg.sender, token, amount);        emit Withdraw(msg.sender, token, amount);    }"

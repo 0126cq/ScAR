@@ -1,0 +1,1 @@
+"function _approveToken(address token, address spender) internal {        IERC20 _token = <mask0>;        if (_token.allowance(address(this), spender) > 0) return;        else {            _token.safeApprove(spender, uint256(-1));        }    }"

@@ -1,0 +1,1 @@
+"function claimRewards(address user) external {        uint256 accrued = rewardsAccrued[user];        if (accrued != 0) {            rewardsAccrued[user] = 0;            rewardToken.<mask0>;            emit ClaimRewards(user, accrued);        }    }"

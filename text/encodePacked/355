@@ -1,0 +1,1 @@
+"function formatAsUUID(uint256 _nftId)    private    pure    returns(string memory uuid_)  {    bytes16 halfNftId = bytes16(uint128(_nftId >> 128));    uuid_ = string(abi.<mask0>);  }"

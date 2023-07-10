@@ -1,0 +1,1 @@
+"function saveRugs(uint256 _count) public onlyOwner {        uint256 totalSupply = <mask0>;        require(totalSupply + _count < 101, \"Beyond max limit\");         require(hasSaleStarted == false, \"Sale has already started\");        for (uint256 index; index < _count; index++) {            _safeMint(owner(), totalSupply + index);        }    }"

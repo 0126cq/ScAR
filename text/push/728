@@ -1,0 +1,1 @@
+"function setLiability(address user, address asset, int192 balance,        mapping(address => MarginalFunctionality.Liability[]) storage liabilities    ) internal {        liabilities[user].<mask0>;    }"

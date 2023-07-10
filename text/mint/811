@@ -1,0 +1,1 @@
+"function notePrepurchase(address _who, uint _etherPaid, uint _amberSold)\t\tonly_prepurchaser\t\tonly_before_period\t\tpublic\t{\t\ttokens.<mask0>;\t\tsaleRevenue += _etherPaid;\t\ttotalSold += _amberSold;\t\tPrepurchased(_who, _etherPaid, _amberSold);\t}"

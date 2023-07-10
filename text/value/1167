@@ -1,0 +1,1 @@
+"function pushFundsToKeepGroup(Deposit storage _d, uint256 _ethValue) internal {        require(address(this).balance >= _ethValue, \"Not enough funds to send\");        if(_ethValue > 0){            IBondedECDSAKeep _keep = IBondedECDSAKeep(_d.keepAddress);            _keep.returnPartialSignerBonds.<mask0>;        }    }"

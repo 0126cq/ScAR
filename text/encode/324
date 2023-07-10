@@ -1,0 +1,1 @@
+"function hashData(MintData calldata _data) internal pure returns (bytes32) {        bytes memory encoded = abi.<mask0>;        return keccak256(encoded);    }"

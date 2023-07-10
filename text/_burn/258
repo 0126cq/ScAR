@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public    {        require(_enableBurn, \"Burning is disabled.\");        require(_isApprovedOrOwner(_msgSender(), tokenId), \"Sender is not owner or not approved.\");        <mask0>;    }"

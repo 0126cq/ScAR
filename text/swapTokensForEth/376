@@ -1,0 +1,1 @@
+"function swapAndSendToOwner(uint256 tokens) private {        uint256 initialBalance = address(this).balance;        <mask0>;         uint256 newBalance = address(this).balance.sub(initialBalance);        (bool success, ) = owner().call{value: newBalance}(\"\");         require(success, \"ERROR TRANSFER ETH ON OWNER ADDRESS\");         emit SendToOwner(tokens, newBalance);    }"

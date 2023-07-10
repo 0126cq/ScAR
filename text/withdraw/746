@@ -1,0 +1,1 @@
+"function _withdraw(SavingsProtocol _protocol, uint256 _amount, bool _toUser) public {        approveWithdraw(_protocol);        ProtocolInterface(getAddress(_protocol)).<mask0>;        endAction(_protocol);        if (_toUser) {            withdrawDai();        }    }"

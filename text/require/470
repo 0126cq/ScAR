@@ -1,0 +1,1 @@
+"function joinGame(uint176 id, bytes32 hash) payable external {        GameData memory g = getGameData(id, false);        <mask0>;        require(g.wager == msg.value, \"Wrong Wager\");        games[id] = encodeGameData(2, msg.sender);        playerHashes[id+2] = hash;        emit GameJoined(id, g.p1, msg.sender, g.wager);    }"

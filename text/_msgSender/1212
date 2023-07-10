@@ -1,0 +1,1 @@
+"function isOwner() public view returns (bool) {        return <mask0> == _owner;    }"

@@ -1,0 +1,1 @@
+"function setBPT(address BPTAddress) internal {        bpt = <mask0>;    }"

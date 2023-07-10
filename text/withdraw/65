@@ -1,0 +1,1 @@
+"function withdrawAllToVault() external restricted {    Gauge(gauge).<mask0>;    mixToWBTC(uint256(~0));    uint256 actualBalance = IERC20(wbtc).balanceOf(address(this));    if (actualBalance > 0) {      IERC20(wbtc).safeTransfer(vault, actualBalance);    }  }"

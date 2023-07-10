@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public whenNotPaused returns (bool) {        require(_value <= allowances[_from][msg.sender]);        allowances[_from][msg.sender] = <mask0>;        return _transfer(_from, _to, _value);    }"

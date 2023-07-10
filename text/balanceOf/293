@@ -1,0 +1,1 @@
+"function collectDust(uint256 _roundInd) external {    AirdropRound memory airdropRound = airdropRounds[_roundInd];    require(block.timestamp > airdropRound.startTime + claimWindow || airdropRound.disabled, \"RWL: Not ready\");    uint256 balance = IERC20(airdropRound.token).<mask0>;    IERC20(airdropRound.token).safeTransfer(owner(), balance);  }"

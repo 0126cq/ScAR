@@ -1,0 +1,1 @@
+"function emitIssued(address account, uint value) internal {        proxy._emit(abi.<mask0>, 2, ISSUED_SIG, addressToBytes32(account), 0, 0);    }"

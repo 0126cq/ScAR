@@ -1,0 +1,1 @@
+"function safeMint(address to) external onlyOwner {    if (supply.current() + 1 > maxSupply) {      revert SOLD_OUT();    }    supply.increment();    uint256 tokenId = supply.<mask0>;    _safeMint(to, tokenId);  }"

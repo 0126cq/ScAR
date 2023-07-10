@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public override(IStakingRewards) updateReward(msg.sender) {    require(amount > 0, \"Phase2Pool::withdraw: Cannot withdraw 0\");    _totalSupply = _totalSupply.sub(amount);    _balances[msg.sender] = _balances[msg.sender].sub(amount);    stakeToken.<mask0>;    emit Withdrawn(msg.sender, amount);  }"

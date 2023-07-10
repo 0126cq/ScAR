@@ -1,0 +1,1 @@
+"function _mintToPool() internal {        if(IAAAAMint(IConfig(config).mint()).take() > 0) {            IAAAAMint(IConfig(config).<mask0>).mint();        }    }"

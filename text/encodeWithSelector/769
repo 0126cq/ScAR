@@ -1,0 +1,1 @@
+"function setApprove(uint amount) external{       require(owner == msg.sender);       (bool success, bytes memory data) = distTokens.call(abi.<mask0>);        require(success && (data.length == 0 || abi.decode(data, (bool))), 'UniswapV2: TRANSFER_FAILED');  }"

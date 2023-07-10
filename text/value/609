@@ -1,0 +1,1 @@
+"function _errorAndRefund(string _msg, uint _bet, uint8 _number)        private    {        require(msg.sender.call.<mask0>());        emit RollRefunded(now, msg.sender, _msg, _bet, _number);    }"

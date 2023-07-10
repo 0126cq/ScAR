@@ -1,0 +1,1 @@
+"function setToken(address newToken) public override onlyOwner {        address oldToken = token;        token = newToken;        IERC20(newToken).<mask0>;        emit TokenChanged(_msgSender(), newToken, oldToken);    }"

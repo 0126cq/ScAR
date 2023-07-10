@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) external {    require(amount <= _allowed[account][msg.sender]);    _allowed[account][msg.sender] = _allowed[account][msg.sender].sub(amount);    <mask0>;  }"

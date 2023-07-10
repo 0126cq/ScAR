@@ -1,0 +1,1 @@
+"function ERC20Withdraw(address Add) external onlyOwner {        IERC20 tgToken = IERC20(Add);        uint256 balance = tgToken.balanceOf(address(this));        require(balance > 0, \"Nothing\");        require(payoutWT != address(0), \"wallet\");        tgToken.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function mint() public {        require(msg.sender == tx.origin, \"not allowed bots\");        require(DROP_ACTIVE, \"Sale not started\");        require(<mask0> + MAX_MINTS < MAX_SUPPLY, \"Sold out\");        require(!buyers[msg.sender], \"Already bought\");        buyers[msg.sender] = true;        _safeMint(msg.sender, MAX_MINTS);    }"

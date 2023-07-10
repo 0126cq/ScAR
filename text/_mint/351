@@ -1,0 +1,1 @@
+"function swapIn(address target, uint256 amount) public onlyOwner whenNotPaused             returns (bool success) {        require(!paused(), \"swapIn while paused\" );        <mask0>;        return true;    }"

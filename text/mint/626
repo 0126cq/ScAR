@@ -1,0 +1,1 @@
+"function mintReputation(uint256 _amount, address _to, address _avatar)    external    onlyRegisteredScheme    onlySubjectToConstraint(\"mintReputation\")    isAvatarValid(_avatar)    returns(bool)    {        emit MintReputation(msg.sender, _to, _amount);        return nativeReputation.<mask0>;    }"

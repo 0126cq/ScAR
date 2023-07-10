@@ -1,0 +1,1 @@
+"function mint(address to, uint count) external onlyOwner {        require(teamMint < teamMax, 'Mint end');        for(uint i = 0; i < count; i++){            uint256 tokenId = _tokenIdCounter.<mask0>;            _tokenIdCounter.increment();            _safeMint(to, tokenId);            teamMint += 1;        }        if(!isMint[to]){            isMint[to] = true;        }    }"

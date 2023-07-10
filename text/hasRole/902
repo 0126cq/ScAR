@@ -1,0 +1,1 @@
+"function writeVotingCheckpoint(    address _votingDelegate,    uint256 _numberOfVotingCheckpoints,    uint256 _oldVotes,    uint256 _newVotes) public {    require(<mask0>, \"UPGT_ERROR: ROLE_TEST Required\");    _writeVotingCheckpoint(_votingDelegate, _numberOfVotingCheckpoints, _oldVotes, _newVotes);  }"

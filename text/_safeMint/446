@@ -1,0 +1,1 @@
+"function mint(uint256 numberOfTokens)        external        payable        nonReentrant        publicSaleActive        isCorrectPayment(PUBLIC_SALE_PRICE, numberOfTokens)        canMintNFTs(numberOfTokens)        maxMintsPerTX(numberOfTokens)    {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) external virtual onlyOwner {        require(newOwner != address(0), \"ZERO_ADDRESS\");        <mask0>;        address previousOwner = owner;        owner = newOwner;        emit OwnerChanged(newOwner, previousOwner);    }"

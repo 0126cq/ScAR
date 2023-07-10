@@ -1,0 +1,1 @@
+"function _encodeSvg(string memory _svg) private pure returns (bytes memory) {    bytes memory svg = bytes(_svg);    svg = svg.slice(24, svg.length-24);    svg = bytes(Base64.<mask0>);    return bytes('data:image/svg+xml;base64,').concat(svg);  }"

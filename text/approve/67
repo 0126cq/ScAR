@@ -1,0 +1,1 @@
+"function approveContractMax() public onlyOwner {        require(muse.<mask0>, \"MUSE:approve\");    }"

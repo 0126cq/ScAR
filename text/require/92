@@ -1,0 +1,1 @@
+"function tokenFromReflection(uint256 rAmount) public view returns (uint256) {    <mask0>;    uint256 currentRate = _getRate();    return rAmount.div(currentRate);  }"

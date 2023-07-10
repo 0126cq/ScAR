@@ -1,0 +1,1 @@
+"function adminTransfer(    address from,    address to,    uint256 tokenId  ) external onlyOwner {    <mask0>;  }"

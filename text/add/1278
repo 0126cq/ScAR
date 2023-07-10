@@ -1,0 +1,1 @@
+"function declareSellTax(uint256 newLiquidTax, uint256 newMarketTax) external onlyOwner() {        _LiquidityFeeSell = newLiquidTax;        _MarketingFeeSell = newMarketTax;        _finalSellTax = _LiquidityFeeSell.<mask0>;    }"

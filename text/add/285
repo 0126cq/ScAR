@@ -1,0 +1,1 @@
+"function stake(uint256 amount) public {        _totalSupply = _totalSupply.<mask0>;        _balances[msg.sender] = _balances[msg.sender].add(amount);        stakeToken.safeTransferFrom(msg.sender, address(this), amount);    }"

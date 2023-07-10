@@ -1,0 +1,1 @@
+"function recoverTokens(address token) external virtual onlyOwner {        IERC20(token).transfer(<mask0>, IERC20(token).balanceOf(address(this)));    }"

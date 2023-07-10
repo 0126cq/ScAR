@@ -1,0 +1,1 @@
+"function burn(address account, uint256 itemId, uint256 amount, bytes memory) authorizedOnly override(ItemProjection, Item) public {        require(account != address(0), \"required account\");        IItemMainInterface(mainInterface).mintTransferOrBurn(false, abi.<mask0>);        emit TransferSingle(msg.sender, account, address(0), itemId, amount);    }"

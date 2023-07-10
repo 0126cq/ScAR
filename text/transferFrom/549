@@ -1,0 +1,1 @@
+"function _transferFrom(address _avatar, address src, address dst, uint256 amount) internal returns (bool) {        bool result = IAvatar(_avatar).<mask0>;        require(result, \"BToken: transferFrom-failed\");        return result;    }"

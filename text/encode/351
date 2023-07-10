@@ -1,0 +1,1 @@
+"function getSVG(uint256 tokenId) public view returns (string memory) {        uint8 artwork = uint8(ARTWORKS[tokenId - 1]);        uint8 color1;        uint8 color2 = (artwork & 0x0f) * 6;        if (tokenId < 75) {            color1 = (artwork >> 4) * 6;        } else {            color1 = 16 * 6;        }        return            Base64.<mask0>;    }"

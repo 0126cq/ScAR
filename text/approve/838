@@ -1,0 +1,1 @@
+"function withdrawFromHedgeFund(uint256 amount) public onlyOperator {        require(IERC20(hedge).balanceOf(address(this)) > amount,        'Idea Fund: Does not have that much hedge token to transfer'        );        IERC20(hedge).<mask0>;        IHedgeFund(hedgefund).withdrawFromHedgeFund(amount);    }"

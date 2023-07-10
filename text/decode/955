@@ -1,0 +1,1 @@
+"function seize(address liquidator, address borrower, uint seizeTokens) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"seize(address,address,uint256)\", liquidator, borrower, seizeTokens));        return abi.<mask0>;    }"

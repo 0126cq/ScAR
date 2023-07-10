@@ -1,0 +1,1 @@
+"function pack(uint16 sb, uint64 st, uint64 et) internal pure returns (uint256 packed) {        return uint256(sb) << 128 | <mask0> << 64 | uint256(et);    }"

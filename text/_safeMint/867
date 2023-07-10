@@ -1,0 +1,1 @@
+"function preMint(uint256 amount, address _to) external onlyOwner {    require(totalSupply() + amount <= 1000, \"you premint can only mint 1000\");    require(_state == State.Closed, \"state must be closed\");    require(amount <= 100, \"max amount is 100\");    <mask0>;    emit PreMinted(_to, amount);  }"

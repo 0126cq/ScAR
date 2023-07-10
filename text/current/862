@@ -1,0 +1,1 @@
+"function _mintAmount(uint256 amount, address wallet) private {        for (uint8 i = 0; i < amount; i++) {            while (                !(rawOwnerOf(_tokenIdTracker.<mask0>.add(1)) == address(0))            ) {                _tokenIdTracker.increment();            }            _mintAnElement(wallet);        }    }"

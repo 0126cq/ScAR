@@ -1,0 +1,1 @@
+"function delegate_poke(ISilo silo) internal {        address(silo).<mask0>;    }"

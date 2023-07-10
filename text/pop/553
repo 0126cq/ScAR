@@ -1,0 +1,1 @@
+"function removeShareholder(address shareholder) internal {        shareholders[shareholderIndexes[shareholder]] = shareholders[shareholders.length-1];        shareholderIndexes[shareholders[shareholders.length-1]] = shareholderIndexes[shareholder];        shareholders.<mask0>;    }"

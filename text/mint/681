@@ -1,0 +1,1 @@
+"function collectFee() external {        require(feeSink != address(0), \"NULL_ADDRESS\");        uint _fee = accumulatedFee;        require(_fee > 0, \"NO_FEE\");        accumulatedFee = 0;        bBTC.<mask0>;        emit FeeCollected(_fee);    }"

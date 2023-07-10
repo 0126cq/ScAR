@@ -1,0 +1,1 @@
+"function availableToken(uint256 tokenId) public returns (uint256) {        if (_exists(tokenId)) {            _tokenIds.increment();            return _tokenIds.current();        }        return _tokenIds.<mask0>;    }"

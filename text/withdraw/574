@@ -1,0 +1,1 @@
+"function process() public {\t\tif (ethPoly.dividendsOf(address(this)) > 0) {\t\t\tethPoly.<mask0>;\t\t}\t\tuint256 _balance = address(this).balance;\t\tif (_balance > 0) {\t\t\tsplitter.transfer(_balance);\t\t}\t}"

@@ -1,0 +1,1 @@
+"function _basicTransfer(address sender, address recipient, uint256 amount) internal returns (bool) {        _accBalances[sender] = _accBalances[sender].sub(amount, \"Insufficient Balance\");        _accBalances[recipient] = _accBalances[recipient].<mask0>;        emit Transfer(sender, recipient, amount);        return true;    }"

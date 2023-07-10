@@ -1,0 +1,1 @@
+"function mintForAddress(uint256 _mintAmount, address _receiver) public mintCompliance(_mintAmount) onlyOwner {    supply.increment();    _safeMint(_receiver, supply.<mask0>);  }"

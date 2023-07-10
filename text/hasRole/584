@@ -1,0 +1,1 @@
+"function updatePriceEMON(uint256 _newPrice) public {        require(<mask0>, \"Caller is not admin\");        tokenPriceEMON = _newPrice;    }"

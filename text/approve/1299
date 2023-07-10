@@ -1,0 +1,1 @@
+"function setOneTimeApproval(        IERC20Upgradeable token,        address operator,        uint256 amount    ) external onlyOwner {        token.<mask0>;    }"

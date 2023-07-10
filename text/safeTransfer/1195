@@ -1,0 +1,1 @@
+"function unstake(uint256 _amount, bool _trigger) external {    if (_trigger) {      rebase();    }    SafeERC20.safeTransferFrom(      IERC20(sHADES),      msg.sender,      address(this),      _amount    );    SafeERC20.<mask0>;  }"

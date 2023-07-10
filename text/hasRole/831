@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(    address from,    address to,    uint256 amount  ) internal virtual override {    if (!<mask0>       && paused()    ) revert InvalidCall();    super._beforeTokenTransfer(from, to, amount);  }"

@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public returns (bool) {    require(_to != address(0));    require(balances[msg.sender] > frozen[msg.sender]);    require(_value <= (balances[msg.sender] - frozen[msg.sender]));    balances[msg.sender] = balances[msg.sender].sub(_value);    balances[_to] = balances[_to].add(_value);    <mask0>;    return true;  }"

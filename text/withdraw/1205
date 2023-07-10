@@ -1,0 +1,1 @@
+"function unstake(uint256 _amount) external override onlyAdmin {\t\tfarm.<mask0>;\t}"

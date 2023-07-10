@@ -1,0 +1,1 @@
+"function safeTransfer(        ERC20 token,        address to,        uint256 value,        string memory location    ) internal {        callOptionalReturn(            token,            abi.<mask0>,            \"transfer\",            location        );    }"

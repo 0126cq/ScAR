@@ -1,0 +1,1 @@
+"function mintToTreasury(uint256 amount, uint256 index) external override onlyLendingPool {    if (amount == 0) {      return;    }    <mask0>;    emit Transfer(address(0), RESERVE_TREASURY_ADDRESS, amount);    emit Mint(RESERVE_TREASURY_ADDRESS, amount, index);  }"

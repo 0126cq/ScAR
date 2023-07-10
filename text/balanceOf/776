@@ -1,0 +1,1 @@
+"function moveTokens(address _from, address _to, uint256 _value) internal returns (bool success) {    require(balanceOf(_from) >= _value, \"Balance isn't enough\");    balances[_from] = <mask0>.sub(_value);    balances[_to] = balanceOf(_to).add(_value);    return true;  }"

@@ -1,0 +1,1 @@
+"function setAddressConfig(address controller,        DexAggregatorInterface dexAggregator) external override onlyAdmin(){        require(controller != address(0) && <mask0> != address(0), 'CD0');        addressConfig.controller = controller;        addressConfig.dexAggregator = dexAggregator;        emit NewAddressConfig(controller, address(dexAggregator));    }"

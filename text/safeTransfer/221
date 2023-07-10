@@ -1,0 +1,1 @@
+"function pull(address dst, uint256 amt) isLoan external {        collateralAsset.<mask0>;    }"

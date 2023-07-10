@@ -1,0 +1,1 @@
+"function setMetadata(string memory _domain, string memory _name, string memory _description) public onlyOwner {      require(msg.sender == <mask0>, \"You are not the owner\");        description = _description;        nft_name = _name;        domain = _domain;    }"

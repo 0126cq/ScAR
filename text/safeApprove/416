@@ -1,0 +1,1 @@
+"function wrap() public restricted {    uint256 balance = IERC20(underlying).balanceOf(address(this));    if (balance > 0) {      IERC20(underlying).safeApprove(xsushi, 0);      IERC20(underlying).<mask0>;      SushiBar(xsushi).enter(balance);    }    uint256 xBalance = IERC20(xsushi).balanceOf(address(this));    if(xBalance > 0) {      _aaveDeposit(xBalance);    }  }"

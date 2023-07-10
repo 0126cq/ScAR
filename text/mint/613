@@ -1,0 +1,1 @@
+"function sushiToCreamToBento(address to, uint256 amount) external returns (uint256 amountOut, uint256 shareOut) {        sushiToken.safeTransferFrom(msg.sender, address(this), amount);         ICompoundBridge(crSushiToken).<mask0>;         (amountOut, shareOut) = bento.deposit(IERC20(crSushiToken), address(this), to, IERC20(crSushiToken).safeBalanceOfSelf(), 0);     }"

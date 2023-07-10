@@ -1,0 +1,1 @@
+"function claimTgeTokens() external override {        require(start > 0, 'claimTgeTokens: TGE tokens not available now!');        uint256 amount = _investors[msg.sender].tgeTokens;        require(amount > 0, 'claimTgeTokens: No available tokens!');        _investors[msg.sender].tgeTokens = 0;        oneUpToken.<mask0>;        emit TokensReceived(msg.sender, amount, false);    }"

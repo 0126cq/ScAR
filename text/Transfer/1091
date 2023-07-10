@@ -1,0 +1,1 @@
+"function internalTransfer(address from, address toaddr, uint value) internal {\t\trequire(toaddr!=0);\t\trequire(balanceOf[from]>=value);\t\trequire(now>=lock[from]);\t\trequire(!freezeIn[toaddr]);\t\trequire(!freezeOut[from]);\t\tbalanceOf[from]=sub(balanceOf[from], value);\t\tbalanceOf[toaddr]=add(balanceOf[toaddr], value);\t\t<mask0>;\t}"

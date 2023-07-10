@@ -1,0 +1,1 @@
+"function _withdrawMintable(Bridge memory bridge, address toAddress, uint256 amount) internal {        IERC20Mintable(bridge.fromToken).<mask0>;        _minted[bridge.fromToken] = _minted[bridge.fromToken].add(int256(amount));    }"

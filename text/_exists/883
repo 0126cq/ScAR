@@ -1,0 +1,1 @@
+"function uri(uint256 _id) override external view returns (string memory) {        require(<mask0>, \"Deed NFT doesn't exists\");        return string(abi.encodePacked(baseMetadataURI, _uint2str(_id)));    }"

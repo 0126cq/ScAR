@@ -1,0 +1,1 @@
+"function setTokenURIAffixes(string memory _prefix, string memory _suffix)        external    {        require(            <mask0>,            \"Caller is not an admin\"        );        tokenURIPrefix = _prefix;        tokenURISuffix = _suffix;    }"

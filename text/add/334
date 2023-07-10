@@ -1,0 +1,1 @@
+"function _takeTeam(uint256 tTeam) private {        uint256 currentRate =  _getRate();        uint256 rTeam = tTeam.mul(currentRate);        _rOwned[address(this)] = _rOwned[address(this)].<mask0>;    }"

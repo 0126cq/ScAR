@@ -1,0 +1,1 @@
+"function getSlot(        address issuer_,        address fundCurrency_,        uint128 lowestPrice_,        uint128 highestPrice_,        uint64 effectiveTime_,        uint64 maturity_,        uint8 collateralType_    ) public view returns (uint256) {        return            uint256(                keccak256(                    abi.<mask0>                )            );    }"

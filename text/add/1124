@@ -1,0 +1,1 @@
+"function becomeSquirrelmaster() public{        require(initialized);        require(hatcherySquirrel[msg.sender]>=squirrelmasterReq);        hatcherySquirrel[msg.sender]=SafeMath.sub(hatcherySquirrel[msg.sender],squirrelmasterReq);        squirrelmasterReq=SafeMath.<mask0>;        ceoAddress=msg.sender;    }"

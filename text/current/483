@@ -1,0 +1,1 @@
+"function minterTeamMintsRemaining() external view override(IMAX721) returns (uint) {    return teamMintSize - _teamMintCounter.<mask0>;  }"

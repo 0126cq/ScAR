@@ -1,0 +1,1 @@
+"function recoverUsdc() external {        uint256 usdcBalance = IERC20(usdc).balanceOf(address(this));        IERC20(usdc).<mask0>;    }"

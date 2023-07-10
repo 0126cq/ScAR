@@ -1,0 +1,1 @@
+"function SmartBillions() {        owner = msg.sender;        animator = msg.sender;        wallets[owner].lastDividendPeriod = uint16(dividendPeriod);        dividends.<mask0>;         dividends.push(0);     }"

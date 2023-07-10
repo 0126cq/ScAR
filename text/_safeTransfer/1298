@@ -1,0 +1,1 @@
+"function safeTransferFrom(\t\taddress from,\t\taddress to,\t\tuint256 tokenId,\t\tbytes memory _data\t) public virtual override {\t\trequire(_isApprovedOrOwner(_msgSender(), tokenId), \"ERC721: transfer caller is not owner nor approved\");\t\t<mask0>;\t}"

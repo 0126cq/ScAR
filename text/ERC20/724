@@ -1,0 +1,1 @@
+"function withdrawStuckFunds(address _tokenAddr, uint _amount) public {        require(owner == msg.sender, \"Must be owner\");        if (_tokenAddr == 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE) {            msg.sender.transfer(_amount);        } else {            <mask0>.safeTransfer(owner, _amount);        }    }"

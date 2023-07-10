@@ -1,0 +1,1 @@
+"function send(address payable to, address token, uint amount) internal {        if (token == address(0x0)) {            to.transfer(amount);        } else {            <mask0>.transfer(to, amount);        }    }"

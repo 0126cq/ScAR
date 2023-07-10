@@ -1,0 +1,1 @@
+"function _assign(address _receiver, uint256 _amount) internal {        require(_isBalanceIncreaseAllowed(_receiver, _amount), ERROR_BALANCE_INCREASE_NOT_ALLOWED);        require(token.<mask0>, ERROR_ASSIGN_TRANSFER_FROM_REVERTED);    }"

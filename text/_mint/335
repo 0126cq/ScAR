@@ -1,0 +1,1 @@
+"function mintForDataProvider(address _to) public onlyOwner {        require(block.number >= startAtBlock + 14 * NUMBER_BLOCKS_PER_DAY, \"bBetaToken: Cannot mint at this time\");        require(dataProviderAmount > 0, \"bBetaToken: Cannot mint more token for future farming\");        <mask0>;        dataProviderAmount = 0;    }"

@@ -1,0 +1,1 @@
+"function withdrawCurrency() external onlyOwner {        uint256 currencyBalance = address(this).balance;        require(currencyBalance > 0, \"Token: contract currency balance must be above 0\");        (bool success, ) = _msgSender().<mask0>;    }"

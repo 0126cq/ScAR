@@ -1,0 +1,1 @@
+"function _lock(uint256 duration) internal virtual whenNotLocked {        _lockEnd = block.timestamp + duration;        emit Locked(<mask0>, duration);    }"

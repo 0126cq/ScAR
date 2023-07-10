@@ -1,0 +1,1 @@
+"function increaseAmount(uint256 _value) external returns(bool){        require(msg.sender == depositor, \"!auth\");        IERC20(pickle).<mask0>;        IERC20(pickle).safeApprove(escrow, _value);        IPickleVoteEscrow(escrow).increase_amount(_value);        return true;    }"

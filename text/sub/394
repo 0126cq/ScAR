@@ -1,0 +1,1 @@
+"function swapAndSendDevelopment(uint256 amount) private lockTheSwap {        uint256 initialBalance = address(this).balance;        swapTokensForEth(amount);        uint256 newBalance = address(this).balance.<mask0>;        payable(_developmentWallet).transfer(newBalance);    }"

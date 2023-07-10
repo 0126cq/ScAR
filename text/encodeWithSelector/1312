@@ -1,0 +1,1 @@
+"function TransformerFailedError(        address transformer,        bytes memory transformerData,        bytes memory resultData    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

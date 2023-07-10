@@ -1,0 +1,1 @@
+"function _isApprovedRevoking(address transferer, address transferee) internal view virtual returns (bool) {        return (transferer == owner() && transferee == <mask0>);    }"

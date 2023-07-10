@@ -1,0 +1,1 @@
+"function CreateAFarm(uint256 amount) public onlyOwner returns (bool) {    <mask0>;    return true;  }"

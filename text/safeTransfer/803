@@ -1,0 +1,1 @@
+"function rescue(IERC20 _token) public onlyOwner {        SafeERC20.<mask0>;    }"

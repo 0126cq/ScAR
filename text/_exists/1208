@@ -1,0 +1,1 @@
+"function tokenAuthor(uint256 tokenId) external override view returns(address) {        require(<mask0>, Errors.NOT_EXISTS);        return _tokenAuthor[tokenId];    }"

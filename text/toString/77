@@ -1,0 +1,1 @@
+"function setIsTxLimitExempt(address holder, bool exempt) external onlyOwner {        isTxLimitExempt[holder] = exempt;        emit UpdatedSettings(exempt ? 'Transaction Limit Removed' : 'Transaction Limit Enforced', [Log(<mask0>, 1), Log('', 0), Log('', 0)]);    }"

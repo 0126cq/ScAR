@@ -1,0 +1,1 @@
+"function manualsend() external onlyDev {        uint256 contractETHBalance = address(this).balance;        <mask0>;    }"

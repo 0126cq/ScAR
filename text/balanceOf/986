@@ -1,0 +1,1 @@
+"function swapForTax() public{\t\tuint256 contractBalance = <mask0>;\t\tswapTokensForEth(contractBalance,address(this));\t}"

@@ -1,0 +1,1 @@
+"function Mint25() public onlyOwner {\t\tfor (uint256 i; i < 25; i++) {\t\t\t<mask0>;\t\t}\t}"

@@ -1,0 +1,1 @@
+"function _addLiquidityAfter(address pool, uint256 balanceBefore)        internal        returns (uint256)    {        uint256 balance = <mask0>.balanceOf(address(this));        if (balance <= balanceBefore) {            _revertMsg(\"_addLiquidityAfter\", \"after <= before\");        }        _updateToken(address(pool));        return balance.sub(balanceBefore);    }"

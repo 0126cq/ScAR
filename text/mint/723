@@ -1,0 +1,1 @@
+"function buyTicketsFor(address _beneficiary) public payable {        require(_beneficiary != 0x0);        require(msg.value >= PRICE);        uint256 change = msg.value%PRICE;        uint256 numberOfTickets = msg.value.sub(change).div(PRICE);        ticket.<mask0>;        addParticipant(_beneficiary, numberOfTickets);        msg.sender.transfer(change);    }"

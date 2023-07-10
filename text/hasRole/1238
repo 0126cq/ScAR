@@ -1,0 +1,1 @@
+"function setTokenURI(string memory tokenURI ) public {      require(<mask0>, \"ERC721: must have admin role to set uri\");      require(!_sealed, \"Metadata sealed - cannot be changed anymore\");      _setBaseURI(tokenURI);    }"

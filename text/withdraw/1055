@@ -1,0 +1,1 @@
+"function _swapEthtxForEth(\t\taddress account,\t\tuint256 amountIn,\t\tuint256 amountOut,\t\tbool asWETH\t) internal virtual {\t\tIERC20(ethtx()).safeTransferFrom(account, address(this), amountIn);\t\tif (asWETH) {\t\t\tIERC20(weth()).safeTransfer(account, amountOut);\t\t} else {\t\t\tIWETH(weth()).<mask0>;\t\t\tpayable(account).sendValue(amountOut);\t\t}\t}"

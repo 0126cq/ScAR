@@ -1,0 +1,1 @@
+"function getHash(bytes memory digest) public pure returns (bytes32 hash) {        return <mask0>;    }"

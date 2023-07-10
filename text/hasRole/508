@@ -1,0 +1,1 @@
+"function completeSequence(uint16 number) override public {    require(<mask0>, \"requires MINTER_ROLE\");    _completeSequence(number);  }"

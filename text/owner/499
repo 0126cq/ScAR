@@ -1,0 +1,1 @@
+"function withdraw() public payable onlyOwner nonReentrant {        uint balance = address(this).balance;        require(balance > 0, \"No ether left to withdraw\");        (bool os, ) = payable(<mask0>).call{value: address(this).balance}(\"\");        require(os);    }"

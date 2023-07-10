@@ -1,0 +1,1 @@
+"function _safeTransfer(        address from,        address to,        uint256 tokenId,        TokenData memory token,        bytes memory _data    ) internal virtual {        _transfer(from, to, tokenId, token);        if (to.isContract() && !<mask0>)            revert TransferToNonERC721ReceiverImplementer();    }"

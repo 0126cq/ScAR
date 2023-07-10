@@ -1,0 +1,1 @@
+"function approve(address _spender, uint _value) returns (bool success) {\t\t\t\t\t\t\t\t\t\t\t\tallowed[msg.sender][_spender] = _value;\t\t\t\t\t\t\t\t\t\t\t<mask0>;\t\t\t\t\t\t\t\t\t\t\treturn true;\t\t\t\t\t\t\t\t\t\t}"

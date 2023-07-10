@@ -1,0 +1,1 @@
+"function _isOwner() internal view returns (bool) {        return <mask0>;    }"

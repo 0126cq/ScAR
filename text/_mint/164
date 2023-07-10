@@ -1,0 +1,1 @@
+"function giftAnAgent(address _to, uint _count)    external    onlyOwner  {    if (totalSupply() + _count > MAX_SUPPLY) revert RecruitingFull();    <mask0>;  }"

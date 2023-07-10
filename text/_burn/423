@@ -1,0 +1,1 @@
+"function moduleBurn(address from, uint256 value)    external onlyModule()    {        ERC20.<mask0>;    }"

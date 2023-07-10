@@ -1,0 +1,1 @@
+"function churchPerETH() public view returns (uint256){      address[] memory path = new <mask0>;      path[0] = 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2;      path[1] = address(CHURCH);      uint256[] memory amountsOut = ISwapRouter(routerAddress).getAmountsOut(10**18, path);      return amountsOut[1];    }"

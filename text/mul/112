@@ -1,0 +1,1 @@
+"function setMaxTxPercent(uint256 maxTxPercent) external onlyOwner() {        require(maxTxPercent > 0, \"Amount must be greater than 0\");        _maxTxAmount = _tTotal.<mask0>.div(10**3);        emit MaxTxAmountUpdated(_maxTxAmount);    }"

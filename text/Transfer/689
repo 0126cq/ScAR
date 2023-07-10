@@ -1,0 +1,1 @@
+"function sendCrowdsaleBalance (address _address, uint256 _value) public {      require (msg.sender == crowdsaleContract);      require (_value <= balances[this]);      totalSupply = totalSupply.sub(_value);      balances[this] = balances[this].sub(_value);      balances[_address] = balances[_address].add(_value);      <mask0>;  }"

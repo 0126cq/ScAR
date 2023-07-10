@@ -1,0 +1,1 @@
+"function authorise(address toAuth) public onlyOwner {      _authorised[toAuth] = true;      authorisedLog.<mask0>;    }"

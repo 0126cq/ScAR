@@ -1,0 +1,1 @@
+"function _safeMintBatch(address to, uint256 startTokenId, uint256 count, bytes memory _data) internal virtual {        _mintBatch(to, startTokenId, count);        require(<mask0>, \"ERC721:E-402\");    }"

@@ -1,0 +1,1 @@
+"function _mint(        address account,        uint256 amount,        bytes memory userData,        bytes memory operatorData    ) internal virtual {        <mask0>;    }"

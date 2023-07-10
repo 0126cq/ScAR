@@ -1,0 +1,1 @@
+"function _mintNFTheme(address recipient) private returns (uint256) {        _tokenIds.increment();        uint256 newItemId = _tokenIds.<mask0>;        _mint(recipient, newItemId);        string memory tokenURI = string(            abi.encodePacked(_nfthemeBaseURI, toString(newItemId), \".json\")        );        _setTokenURI(newItemId, tokenURI);        return newItemId;    }"

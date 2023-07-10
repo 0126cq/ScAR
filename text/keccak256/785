@@ -1,0 +1,1 @@
+"function revealCollection(string memory _baseURIextended) public onlyOwner {        require(<mask0> != keccak256(bytes(_baseURIextended)), \"Collection already revealed\");        setBaseURI(_baseURIextended);    }"

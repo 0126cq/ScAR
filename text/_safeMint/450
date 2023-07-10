@@ -1,0 +1,1 @@
+"function giveAway(address _to, uint256 _amount) external onlyOwner() {        require( _amount <= _giftReserved, \"Exceeds reserved gift Bots supply\" );        uint256 supply = totalSupply();        for(uint256 i; i < _amount; i++){            <mask0>;        }        _giftReserved -= _amount;    }"

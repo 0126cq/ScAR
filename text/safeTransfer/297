@@ -1,0 +1,1 @@
+"function deposit(Data storage _self, uint256 _amount) internal returns (uint256) {    IDetailedERC20 _token = _self.token();    _token.<mask0>;    _self.adapter.deposit(_amount);    _self.totalDeposited = _self.totalDeposited.add(_amount);    return _amount;  }"

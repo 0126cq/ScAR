@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value)        public enabledState onlyPayloadSize(2 * 32)     {        require(balances[msg.sender] >= _value);        balances[msg.sender] = sub( balances[msg.sender], _value );        balances[_to] = add( balances[_to], _value );        <mask0>;    }"

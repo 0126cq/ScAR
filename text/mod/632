@@ -1,0 +1,1 @@
+"function _inRebaseWindow() internal view {        require(rebasingActive, \"rebasing not active\");        require(            now.<mask0> >= rebaseWindowOffsetSec,            \"too early\"        );        require(            now.mod(minRebaseTimeIntervalSec) <                (rebaseWindowOffsetSec.add(rebaseWindowLengthSec)),            \"too late\"        );    }"

@@ -1,0 +1,1 @@
+"function _recallFundsFromVault(uint256 _vaultId, uint256 _amount) internal {\t\tHarvestVault.Data storage _vault = _vaults.get(_vaultId);\t\t(uint256 _withdrawnAmount, uint256 _decreasedValue) = _vault.<mask0>;\t\temit FundsRecalled(_vaultId, _withdrawnAmount, _decreasedValue);\t}"

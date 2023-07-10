@@ -1,0 +1,1 @@
+"function computeDomainSeparator() internal view virtual returns (bytes32) {        return            keccak256(                abi.encode(                    <mask0>,                    keccak256(bytes(\"ProofOfStake_Pages\")),                    keccak256(bytes(\"0\")),                    block.chainid,                    address(this)                )            );    }"

@@ -1,0 +1,1 @@
+"function withdraw(uint256 assets) external returns (uint256 shares) {        return <mask0>;    }"

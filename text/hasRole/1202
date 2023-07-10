@@ -1,0 +1,1 @@
+"function mint(address guy, uint wad) public whenNotPaused {        require(<mask0>, \"Caller is not allowed to mint\");        require(totalSupply() + wad <= MAX_SUPPLY, \"Exceeds STOS token max totalSupply\");        _mint(guy, wad);        emit Mint(guy, wad);    }"

@@ -1,0 +1,1 @@
+"function mintWrappedToken (address _userAddress, uint amount, string memory WToken) public {        require(Init.friendlyaddress(msg.sender),\"Not Friendly Address\");        wERC20(getwTokenAddress(WToken)).<mask0>;    }"

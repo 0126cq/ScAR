@@ -1,0 +1,1 @@
+"function withdraw() external nonReentrant() onlyOwner() {        uint256 _startingBalance = address(this).balance;        payable(this.owner()).sendValue(_startingBalance);        emit PaymentReleased(this.<mask0>, _startingBalance);    }"

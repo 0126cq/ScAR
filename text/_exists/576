@@ -1,0 +1,1 @@
+"function tokenByIndex(uint256 index) external view returns (uint256) {    require(<mask0>, \"ERC721A: global index out of bounds\");    return index + 1;  }"

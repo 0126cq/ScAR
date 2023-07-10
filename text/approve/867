@@ -1,0 +1,1 @@
+"function setUp(address uniRouter02_, address clip_, address daiJoin_) internal {        uniRouter02 = UniswapV2Router02Like(uniRouter02_);        daiJoin = DaiJoinLike(daiJoin_);        dai = daiJoin.dai();        daiJoin.vat().hope(clip_);        dai.<mask0>;    }"

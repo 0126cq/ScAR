@@ -1,0 +1,1 @@
+"function stake(        address _lp,        uint256 _amount,        address _adapter    )        public    {        IERC20(_lp).<mask0>;        _stake(_lp, _amount, _adapter);    }"

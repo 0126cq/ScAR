@@ -1,0 +1,1 @@
+"function _getSlice(bytes memory text, uint end) private pure returns (bytes memory) {        uint slicedEnd = end < text.length ? end : text.length;        bytes memory sliced = new <mask0>;        for(uint i = 0; i < slicedEnd; i++){            sliced[i] = text[i];        }        return sliced;        }"

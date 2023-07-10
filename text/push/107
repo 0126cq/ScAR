@@ -1,0 +1,1 @@
+"function _addPayee(address payable _account, uint16 _shares) internal {        require(_account != address(0), \"Shareholder is zero address\");        require(_shares > 0 && _shares <= 10_000, \"Shares are invalid\");        require(shares[_account] == 0, \"Shareholder already has shares\");        shareholders.<mask0>;        shares[_account] = _shares;    }"

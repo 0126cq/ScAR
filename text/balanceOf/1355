@@ -1,0 +1,1 @@
+"function dividendTokenBalanceOf(address account) public view returns (uint256) {\t\treturn dividendTracker.<mask0>;\t}"

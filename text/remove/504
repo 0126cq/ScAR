@@ -1,0 +1,1 @@
+"function removeVault(address _vault) external override onlyGovernor {    require(requiredEarn[_vault] > 0, 'vault-keep3r::remove-vault:vault-not-added');    requiredEarn[_vault] = 0;    availableVaults.<mask0>;    emit VaultRemoved(_vault);  }"

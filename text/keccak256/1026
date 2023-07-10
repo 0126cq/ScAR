@@ -1,0 +1,1 @@
+"function _rand() internal returns (uint256) {        _seed = uint256(<mask0>);        return _seed;    }"

@@ -1,0 +1,1 @@
+"function _transferFrom(address from, address to, uint256 tokenId) internal {        require(<mask0> == from);        require(to != address(0));        _clearApproval(tokenId);        _ownedTokensCount[from].decrement();        _ownedTokensCount[to].increment();        _tokenOwner[tokenId] = to;        emit Transfer(from, to, tokenId);    }"

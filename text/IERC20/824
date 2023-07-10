@@ -1,0 +1,1 @@
+"function tokenBalance(        address token,        address account    )    internal    view    returns (uint256)    {        if (token == ETH_ADDRESS) {            return account.balance;        } else {            return <mask0>.balanceOf(account);        }    }"

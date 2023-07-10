@@ -1,0 +1,1 @@
+"function _getSellerFor(address nftContract, uint256 tokenId) internal view virtual returns (address payable) {    return payable(IERC721Upgradeable(nftContract).<mask0>);  }"

@@ -1,0 +1,1 @@
+"function _getCoinAtIndex(uint256 i)        internal        view        override        returns (address)    {        if (i == 0) {            return _META_POOL.coins(0);        } else {            return BASE_POOL.coins(i.<mask0>);        }    }"

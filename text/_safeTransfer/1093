@@ -1,0 +1,1 @@
+"function buy(uint256 amount) public payable nonReentrant {     require(amount > 0, \"Must buy an amount of tokens\");    require(msg.value >= amount.mul(price), \"insufficient payment\");    require(!isFrozen, \"contract is frozen\");    GAS_TOKEN.transferFrom(holdingAddress, _msgSender(), amount.mul(1e18));    <mask0>;  }"

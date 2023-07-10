@@ -1,0 +1,1 @@
+"function callOptionalReturn(Erc20Interface token, bytes memory data) private {        bytes memory returndata = functionCallWithValue(address(token), data, \"ERR_SAFE_ERC20_LOW_LEVEL_CALL\");        if (returndata.length > 0) {            require(abi.<mask0>, \"ERR_SAFE_ERC20_ERC20_OPERATION\");        }    }"

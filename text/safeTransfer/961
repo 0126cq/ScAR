@@ -1,0 +1,1 @@
+"function withdrawGenki(uint256 amount) external onlyOwnerOrOperator {        require(amount <= genki.balanceOf(address(this)), \"Invalid amount\");        genki.<mask0>;        emit WithdrawGenki(amount);    }"

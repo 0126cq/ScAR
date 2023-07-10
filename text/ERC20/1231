@@ -1,0 +1,1 @@
+"function sendTokenAndEthToProxy(        address payable _proxy,        address _reserve,        uint256 _amount    ) internal {        if (_reserve != ETH_ADDRESS) {            <mask0>.safeTransfer(_proxy, _amount);        }        _proxy.transfer(address(this).balance);    }"

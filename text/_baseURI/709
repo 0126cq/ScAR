@@ -1,0 +1,1 @@
+"function tokenURI(uint256) public view override returns (string memory) {    return <mask0>;  }"

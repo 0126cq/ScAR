@@ -1,0 +1,1 @@
+"function scale(VirtualBalance.Data storage self, uint256 decayPeriod, uint256 realBalance, uint256 num, uint256 denom) internal {        set(self, current(self, decayPeriod, realBalance).mul(num).add(denom.sub(1)).<mask0>);    }"

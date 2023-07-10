@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId) internal virtual override {    delete creatorToIPFSHashToMinted[msg.sender][_tokenURIs[tokenId]];    super.<mask0>;  }"

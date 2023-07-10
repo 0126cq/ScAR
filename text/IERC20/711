@@ -1,0 +1,1 @@
+"function _getTokenFromHere(address token)        public        onlyGovOrSubGov    {        IERC20 t = <mask0>;        t.transfer(reserves, t.balanceOf(address(this)));    }"

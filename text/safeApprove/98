@@ -1,0 +1,1 @@
+"function multiTokenTransfer(        IERC20 _token,        address _receiver,        uint256 _amount    ) internal {        require(_receiver != address(0), 'receiver is empty');        _token.<mask0>;        multiTokenMediator.relayTokens(address(_token), _receiver, _amount);    }"

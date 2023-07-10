@@ -1,0 +1,1 @@
+"function setAddresses() public {\t\tdaiAddress = nameService.getAddress(\"DAI\");\t\tcDaiAddress = nameService.getAddress(\"CDAI\");\t\t<mask0>.approve(cDaiAddress, type(uint256).max);\t}"

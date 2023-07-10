@@ -1,0 +1,1 @@
+"function repayBorrowBehalf(address borrower, uint repayAmount) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"repayBorrowBehalf(address,uint256)\", borrower, repayAmount));        return abi.<mask0>;    }"

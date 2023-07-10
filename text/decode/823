@@ -1,0 +1,1 @@
+"function _safeTransfer(address token, address to, uint value) internal {        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(TRANSFER_SELECTOR, to, value));        if (!success || (data.length != 0 && !abi.<mask0>)) revert TransferFailed();    }"

@@ -1,0 +1,1 @@
+"function mintWithMetadata(address _to, uint256 _tokenId, LandLib.PlotStore memory _plot) public virtual override {\t\tsetMetadata(_tokenId, _plot);\t\t<mask0>;\t}"

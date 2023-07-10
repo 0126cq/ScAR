@@ -1,0 +1,1 @@
+"function _mintCommit(uint256 amount) internal virtual {        address _baseCurrency = IStableReserve(stableReserve).baseCurrency();        IERC20(_baseCurrency).<mask0>;        IStableReserve(stableReserve).reserveAndMint(amount);    }"

@@ -1,0 +1,1 @@
+"function setMaxTxPercent(uint256 maxTxPercent) external onlyOwner() {        _maxTxAmount = _tTotal.<mask0>.div(            10**2        );    }"

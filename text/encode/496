@@ -1,0 +1,1 @@
+"function getRandomAvailableTokenId(address to, uint updatedNumAvailableTokens)    internal    returns (uint256)    {        uint256 randomNum = uint256(            keccak256(                abi.<mask0>            )        );        uint256 randomIndex = randomNum % updatedNumAvailableTokens;        return getAvailableTokenAtIndex(randomIndex, updatedNumAvailableTokens);    }"

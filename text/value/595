@@ -1,0 +1,1 @@
+"function withdraw(uint256 tokenId) public nonReentrant returns (bool) {        require(canWithdraw(tokenId), \"Conditions to withdraw are not met\");        if (auctions[tokenId].highestBid > 0) {            (bool success, ) = auctions[tokenId].highestBidder.call.<mask0>(\"\");            require(success, \"Transfer failed.\");        }        delete auctions[tokenId];    }"

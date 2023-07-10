@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) onlyPayloadSize(2 * 32) returns(bool){          require(balances[msg.sender] >= _value);          require(balances[_to] + _value > balances[_to]);          balances[msg.sender] = <mask0>;          balances[_to] = safeAdd(balances[_to],_value);          Transfer(msg.sender, _to, _value);          return true;     }"

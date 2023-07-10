@@ -1,0 +1,1 @@
+"function initToken(        bytes calldata _data    ) public override {        (string memory _name,        string memory _symbol,        address _owner,        uint256 _initialSupply) = abi.<mask0>;        initToken(_name,_symbol,_owner,_initialSupply);    }"

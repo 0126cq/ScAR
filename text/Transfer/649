@@ -1,0 +1,1 @@
+"function transferToAddress(address _to, uint256 _value, bytes _data) internal {        balances[msg.sender] = balances[msg.sender].sub(_value);        balances[_to] = balances[_to].add(_value);        <mask0>;        Transfer(msg.sender, _to, _value, _data);    }"

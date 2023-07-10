@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) external override returns (bool) {        <mask0>;        _approve(sender, msg.sender, s_allowances[sender][msg.sender].sub(amount, \"ERC20: transfer amount exceeds allowance\"));        return true;    }"

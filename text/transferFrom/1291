@@ -1,0 +1,1 @@
+"function cancelAuction(uint256 auctionId) external override {        if (live == 1) revert SurplusAuction__cancelAuction_stillLive();        if (auctions[auctionId].recipient == address(0)) revert SurplusAuction__cancelAuction_recipientNotSet();        token.<mask0>;        delete auctions[auctionId];    }"

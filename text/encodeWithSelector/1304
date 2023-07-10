@@ -1,0 +1,1 @@
+"function compatBalanceOf(IERC20TokenV06 token, address owner)        internal        view        returns (uint256 balance)    {        (bool didSucceed, bytes memory resultData) = address(token).staticcall(            abi.<mask0>        );        if (didSucceed && resultData.length >= 32) {            balance = LibBytesV06.readUint256(resultData, 0);        }    }"

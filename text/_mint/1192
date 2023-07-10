@@ -1,0 +1,1 @@
+"function mintBatch(address[] calldata addresses) external onlyOwner {        bytes memory data;        for(uint256 i = 0; i < addresses.length; i++){            <mask0>;            _tokenIdCounter.increment();        }    }"

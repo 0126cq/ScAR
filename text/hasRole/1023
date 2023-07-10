@@ -1,0 +1,1 @@
+"function moveToAIBot(address aiBotAddress, uint256 amount) external {        require(<mask0>, \"Missing the right permissions\");        usdtToken.transfer(aiBotAddress, amount);        aiBotBalance = aiBotBalance + amount;        emit SendToAIBot(amount);    }"

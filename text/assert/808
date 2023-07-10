@@ -1,0 +1,1 @@
+"function register(string key) public {        <mask0>;        keys[msg.sender] = key;        emit LogRegister(msg.sender, key);    }"

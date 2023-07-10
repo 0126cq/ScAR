@@ -1,0 +1,1 @@
+"function withdrawEth(uint256 _amount) external onlyOwner returns (bool) {    (bool success, ) = <mask0>.call{value: _amount}(\"\");    require(success, \"Transfer failed.\");    return true;  }"

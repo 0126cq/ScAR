@@ -1,0 +1,1 @@
+"function getStrong(address _referrer)        public        payable    {        require(strongHands[msg.sender] == address(0), \"you already became a Stronghand\");        strongHands[msg.sender] = (new StrongHand).<mask0>;        emit CreateStrongHand(msg.sender, strongHands[msg.sender]);    }"

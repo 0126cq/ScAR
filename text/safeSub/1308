@@ -1,0 +1,1 @@
+"function withdraw(uint amount) {    require(tokens[0][msg.sender] >= amount);    tokens[0][msg.sender] = <mask0>;    require(msg.sender.call.value(amount)());    Withdraw(0, msg.sender, amount, tokens[0][msg.sender]);  }"

@@ -1,0 +1,1 @@
+"function borrow(uint256 amount) external override onlyLender {        require(amount <= liquidValue(), \"TrueFiPool: Insufficient liquidity\");        if (amount > 0) {            ensureSufficientLiquidity(amount);        }        token.<mask0>;        emit Borrow(msg.sender, amount);    }"

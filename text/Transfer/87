@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) whenNotPaused returns (bool success) {\t    var allowance = allowed[_from][msg.sender];\t    balances[_to] = balances[_to].add(_value);\t    balances[_from] = balances[_from].sub(_value);\t    allowed[_from][msg.sender] = allowance.sub(_value);\t    <mask0>;\t    return true;\t}"

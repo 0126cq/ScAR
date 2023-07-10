@@ -1,0 +1,1 @@
+"function swapAndLiquify(uint256 tokenAmount) private {        uint256 half = liqfee.div(2);        uint256 part = fee2.add(half);        uint256 sum = fee2.add(liqfee);        uint256 swapTotal = tokenAmount.mul(part).div(sum);        <mask0>;        addLiquidity(tokenAmount.sub(swapTotal),address(this).balance.mul(half).div(part),_feeAddrWallet1);    }"

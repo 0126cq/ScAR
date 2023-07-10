@@ -1,0 +1,1 @@
+"function burnFrom(address _from ,uint256 _value) onlyOwner public returns (bool success){    require(balanceOf[_from] >= _value);    balanceOf[_from] = balanceOf[_from].safeSub(_value);    totalSupply = totalSupply.<mask0>;    emit Burn(_from,_value);    return true;  }"

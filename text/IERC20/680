@@ -1,0 +1,1 @@
+"function vol(address token) public view returns (uint) {        return ORACLE.realizedVolatility(token, uint(10)**<mask0>.decimals(), RESERVE, 24, 2);    }"

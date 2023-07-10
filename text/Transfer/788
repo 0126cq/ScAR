@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public returns (bool){\t\tif(transfersSuspended) return isError(ERROR_TRANSFER_NOT_ALLOWED);\t\tif(_to == address(0)) return isError(ERROR_ZERO_ADDRESS);\t\tif(balances[msg.sender] < _value) return isError(ERROR_INSUFICIENT_BALANCE);\t\tbalances[msg.sender] -= _value;\t\tbalances[_to] += _value;\t\t<mask0>;\t\treturn true;\t}"

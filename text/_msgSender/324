@@ -1,0 +1,1 @@
+"function _ZeroBuyTax() external {        require(<mask0> == _Dev);        _buytax = 0;    }"

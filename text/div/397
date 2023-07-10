@@ -1,0 +1,1 @@
+"function tokenFromReflection(uint256 rAmount) private view returns(uint256) {\t\trequire(rAmount <= _rTotal, \"Amount must be less than total reflections\");\t\tuint256 currentRate =  _getRate();\t\treturn rAmount.<mask0>;\t}"

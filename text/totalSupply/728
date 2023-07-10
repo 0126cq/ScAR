@@ -1,0 +1,1 @@
+"function updateMaxWalletAmount(uint256 MaxWalPerc) external onlyOwner {        require(MaxWalPerc * <mask0>/1000 >= totalSupply() * 1/1000, \"Cannot set maxWallet lower than 0.1%\");        maxWallet = MaxWalPerc * totalSupply()/1000;    }"

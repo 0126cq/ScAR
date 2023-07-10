@@ -1,0 +1,1 @@
+"function _increaseAllowance(        address _token,        address _contract,        uint256 _amount    ) internal {        <mask0>.safeIncreaseAllowance(address(_contract), _amount);    }"

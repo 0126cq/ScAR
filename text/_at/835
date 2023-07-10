@@ -1,0 +1,1 @@
+"function at(BoosterSet storage set, uint256 index) internal view returns (ownedBooster memory) {        return <mask0> ;    }"

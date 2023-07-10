@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override returns (string memory) {        require(            <mask0>,            \"Nonexistent token\"        );        if (metadataSet) {            return metadataURI;        }        return PLACEHOLDER_URI;    }"

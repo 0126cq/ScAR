@@ -1,0 +1,1 @@
+"function _isTransferrable(uint256 tokenId) internal view returns (bool) {        return            (!_isExpired(tokenId) &&                (tokenExpiry[tokenId] - block.timestamp > 1 weeks)) ||            msg.sender == <mask0>;    }"

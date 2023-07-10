@@ -1,0 +1,1 @@
+"function listNft(uint256 tokenId, uint256 price) public override {\t\tif (stolenNFT.ownerOf(tokenId) != msg.sender) revert NotTheTokenOwner();\t\tif (marketClosed) revert MarketIsClosed();\t\t_list(msg.sender, tokenId, price);\t\temit Listed(msg.sender, tokenId, price);\t\tstolenNFT.<mask0>;\t}"

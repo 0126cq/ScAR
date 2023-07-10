@@ -1,0 +1,1 @@
+"function batchAddAddresses(address[] _addresses) public onlyOwner {        for (uint cnt = 0; cnt < _addresses.length; cnt++) {            <mask0>;            verifiedAddresses[_addresses[cnt]] = true;        }    }"

@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory _data) public virtual override {        require(_isApprovedOrOwner(_msgSender(), tokenId), \"safeTransfer function call by non-approved caller\");        <mask0>;    }"

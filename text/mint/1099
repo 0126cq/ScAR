@@ -1,0 +1,1 @@
+"function _mintVolt(address to, uint256 amount) internal virtual {        if (amount != 0) {            _volt.<mask0>;        }    }"

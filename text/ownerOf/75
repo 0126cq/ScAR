@@ -1,0 +1,1 @@
+"function isSenderApprovedFor(uint256 id) internal view returns (bool) {        return owns(msg.sender, id) || getApproved(id) == msg.sender || isApprovedForAll(<mask0>, msg.sender);    }"

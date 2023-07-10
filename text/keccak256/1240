@@ -1,0 +1,1 @@
+"function randomNum(uint256 _mod, uint256 _seed, uint256 _salt) public view returns(uint256) {      uint256 num = uint256(<mask0>) % _mod;      return num;  }"

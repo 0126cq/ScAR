@@ -1,0 +1,1 @@
+"function _approveToken(uint256 _amount) internal override {        super._approveToken(_amount);        IERC20(borrowToken).<mask0>;    }"

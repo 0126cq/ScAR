@@ -1,0 +1,1 @@
+"function mint(string memory uri) external onlyOwner {        _tokenIdCounter.increment();        uint256 tokenId = _tokenIdCounter.<mask0>;        _safeMint(msg.sender, tokenId);        _setTokenURI(tokenId, uri);    }"

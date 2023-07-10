@@ -1,0 +1,1 @@
+"function withdraw(address _token) external nonReentrant {        require(_msgSender() == owner() || _msgSender() == _vaultAddress, \"NOT_ALLOWED\");        require(_vaultAddress != address(0), \"TREASURY_NOT_SET\");        IERC20(_token).<mask0>;    }"

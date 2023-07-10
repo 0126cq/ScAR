@@ -1,0 +1,1 @@
+"function migrate(address tokenAddress, uint value) external onlyGovernance {        address to = IHedgeGovernance(_governance).getHedgeDAOAddress();        if (tokenAddress == address(0)) {            IHedgeDAO(to).addETHReward { value: value } (address(0));        } else {            TransferHelper.<mask0>;        }    }"

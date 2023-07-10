@@ -1,0 +1,1 @@
+"function _insertPoolID(    address integration,    uint32 poolID,    address token  ) internal {    uint32[] memory poolIDs = pools[integration][token];    bool found = false;    for (uint256 i = 0; i < poolIDs.length; i++) {      if (poolIDs[i] == poolID) {        found = true;        break;      }    }    if (!found) {      pools[integration][token].<mask0>;    }  }"

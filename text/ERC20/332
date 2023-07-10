@@ -1,0 +1,1 @@
+"function claimRewards(uint256 sourceNftId) external {\t\taddress claimer = msg.sender;\t\trequire(sourceNfts[sourceNftId].admin == claimer);\t\tuint256 payoutDataTokens = sourceNfts[sourceNftId].claimablePayout;\t\trequire(<mask0>.transfer(claimer, payoutDataTokens), \"Token transfer failed.\");\t\tsourceNfts[sourceNftId].claimablePayout = 0;\t}"

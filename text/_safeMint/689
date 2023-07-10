@@ -1,0 +1,1 @@
+"function devMint(uint8 numTokens) public onlyOwner {        require(nextTokenId + numTokens <= maxMint, \"Mint exceeds supply\");        for (uint256 i = 0; i < numTokens; i++) {            <mask0>;        }    }"

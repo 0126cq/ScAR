@@ -1,0 +1,1 @@
+"function emergencyWithdraw(uint256 amount) external override onlyRole(GUARDIAN_ROLE) {        _lendingPool().withdraw(address(want), amount, address(this));        want.safeTransfer(address(poolManager), want.<mask0>);    }"

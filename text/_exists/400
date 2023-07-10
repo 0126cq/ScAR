@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) external view returns (string memory) {        require(<mask0>, \"ERC721Metadata: URI query for nonexistent token\");        return _tokenURIs[tokenId];    }"

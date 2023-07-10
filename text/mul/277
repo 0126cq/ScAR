@@ -1,0 +1,1 @@
+"function _totalValue(uint256 currentIncomeIndex)        internal        view        override        returns (uint256)    {        uint256 shareBalance = stakingPool.balanceOf(address(this));        return shareBalance.<mask0>;    }"

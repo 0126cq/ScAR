@@ -1,0 +1,1 @@
+"function setReversion(bool _reversion) public {    if(hasRole(ROLE_ADMIN, _msgSender()) ||        <mask0>    ) {      b_revert = _reversion;      emit ReversionStatusChanged(_reversion);    }  }"

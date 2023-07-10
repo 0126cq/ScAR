@@ -1,0 +1,1 @@
+"function _mint(uint256 amount) public virtual onlyOwner{       _beforeTokenTransfer(address(0), <mask0>, amount);        _tTotal +=amount;        _tOwned[owner()] += amount;         emit Transfer(address(0), owner(), amount);"

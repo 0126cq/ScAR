@@ -1,0 +1,1 @@
+"function mint(bytes32 mint_id, address to, uint256 amount) onlyOwner {        if (!m_processed_mint_id[mint_id]) {            m_token.<mask0>;            m_processed_mint_id[mint_id] = true;        }        MintSuccess(mint_id);    }"

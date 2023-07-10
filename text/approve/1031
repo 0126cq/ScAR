@@ -1,0 +1,1 @@
+"function _transfer(address from, address to, uint256 tokenId) private        existToken(tokenId)        nonZeroAddress(to)        onlyApprovedOrOwner(from, tokenId)    {        this.<mask0>;        _owners[tokenId] = to;        _balances[from]--;        _balances[to]++;        emit Transfer(from, to, tokenId);    }"

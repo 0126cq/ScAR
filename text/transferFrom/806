@@ -1,0 +1,1 @@
+"function distributeTokens(address[] _owners, uint256[] _tokens) onlyOwner public {        require( _owners.length == _tokens.length );        for(uint i=0;i<_owners.length;i++){            require (tokenContract.<mask0>);        }    }"

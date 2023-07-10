@@ -1,0 +1,1 @@
+"function multiMint(address to, uint256 amount) external payable returns(uint256[] memory IDs){        require(msg.value == 50000000000000000 * amount, \"Insufficient Eth\");        IDs = new <mask0>;        for(uint256 t; t < amount; ++t) {            IDs[t] = internalMint(to);        }    }"

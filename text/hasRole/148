@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external {        address sender = _msgSender();        if (!<mask0>) {            revert ErrForbidden();        }        _mint(to, amount);    }"

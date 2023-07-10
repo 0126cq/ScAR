@@ -1,0 +1,1 @@
+"function getCollateralFactorForAsset(        address adapter,        address platform,        address asset    ) internal returns (uint256) {        bytes memory returnData = adapter.<mask0>;        return abi.decode(returnData, (uint256));    }"

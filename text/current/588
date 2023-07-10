@@ -1,0 +1,1 @@
+"function isClaimed(address account) public view returns (bool) {        uint256 id = _roundIdTracker.<mask0>;        return rounds[id].claimed[account];    }"

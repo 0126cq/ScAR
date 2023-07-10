@@ -1,0 +1,1 @@
+"function _getDebtAmount(address _stableAsset) internal view returns (uint256) {    DataTypes.ReserveData memory reserve = LENDING_POOL.getReserveData(_stableAsset);    return <mask0>.balanceOf(msg.sender);  }"

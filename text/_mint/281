@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external {        address sender = _msgSender();        if (!hasRole(DEFAULT_ADMIN_ROLE, sender)) {            revert ErrForbidden();        }        <mask0>;    }"

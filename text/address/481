@@ -1,0 +1,1 @@
+"function getProtectedTokens() public override view returns (address[] memory) {        address[] memory protectedTokens = new <mask0>;        protectedTokens[0] = want;        protectedTokens[1] = geyser;        protectedTokens[2] = badger;        protectedTokens[3] = sushi;        protectedTokens[4] = xsushi;        return protectedTokens;    }"

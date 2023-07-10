@@ -1,0 +1,1 @@
+"function registerDepositAddress() public {        address shiftedAddress = address(uint(msg.sender) >> 20);        <mask0>;        registry.setAttributeValue(shiftedAddress, IS_DEPOSIT_ADDRESS, uint(msg.sender));        emit DepositAddressRegistered(msg.sender);    }"

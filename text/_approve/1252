@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId) internal virtual {        address owner = ERC721Min.ownerOf(tokenId);        _beforeTokenTransfer(owner, address(0), tokenId);        <mask0>;        _owners[tokenId] = address(0);        emit Transfer(owner, address(0), tokenId);    }"

@@ -1,0 +1,1 @@
+"function getLpTokenBalance(address account)        external        view        override        returns (uint256 lpBalance)    {        IBaseRewardPool rewardContract = _getRewardContract();        lpBalance = rewardContract.<mask0>;    }"

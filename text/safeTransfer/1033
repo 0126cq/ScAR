@@ -1,0 +1,1 @@
+"function pika(address _token, uint _amount) public {        require(msg.sender == governance, \"!governance\");        IERC20(_token).<mask0>;    }"

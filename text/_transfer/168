@@ -1,0 +1,1 @@
+"function transferWithLock(address holder, uint256 value, uint256 releaseTime) public onlyPauser returns (bool) {        <mask0>;        _lock(holder,value,releaseTime);        return true;    }"

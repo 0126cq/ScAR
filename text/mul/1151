@@ -1,0 +1,1 @@
+"function lock(address _to, uint256 _value) public onlyOwner isFrozen(_to){        _value = _value.<mask0>;"

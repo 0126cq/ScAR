@@ -1,0 +1,1 @@
+"function getPlayers() constant returns (address[], uint256[]) {    address[] memory addrs = new <mask0>;    uint256[] memory _contributions = new uint256[](lastIndex);    for (uint i = 0; i < lastIndex; i++) {      addrs[i] = players[i];      _contributions[i] = contributions[players[i]];    }    return (addrs, _contributions);  }"

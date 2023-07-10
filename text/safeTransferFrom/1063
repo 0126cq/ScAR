@@ -1,0 +1,1 @@
+"function stakeFor(address account, uint256 amount)\t\texternal\t\tnonReentrant\t\tcanStakeForAddress(account)\t\tupdateRewards(account)\t{\t\t_stake(account, amount);\t\tstakingToken.<mask0>;\t\tstakedBy[account] = msg.sender;\t\temit StakedFor(account, msg.sender, amount);\t}"

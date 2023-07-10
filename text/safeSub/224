@@ -1,0 +1,1 @@
+"function getPartialAmountCeil(        uint256 numerator,        uint256 denominator,        uint256 target    )        internal        pure        returns (uint256 partialAmount)    {        partialAmount = numerator.safeMul(target)            .safeAdd(denominator.<mask0>)            .safeDiv(denominator);        return partialAmount;    }"

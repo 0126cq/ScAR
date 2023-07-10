@@ -1,0 +1,1 @@
+"function allTokenIdInAddress(address owner) public view returns(uint256[] memory) {        uint256 balanceTokens = balanceOfTokens(owner);        uint256[] memory ids = new <mask0>;        for (uint256 index = 0; index < balanceTokens; ++index) {            uint256 tokenId = tokenOwnedByIndex(owner, index);            ids[index] = tokenId;        }        return ids;    }"

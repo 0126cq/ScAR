@@ -1,0 +1,1 @@
+"function deleteKeys(string[] memory _keys) external {    <mask0>;    uint256 length = _keys.length;    for (uint256 x = 0; x < length; ++x) {      _deleteKey(_keys[x]);    }  }"

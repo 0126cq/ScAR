@@ -1,0 +1,1 @@
+"function withdraw(){      developer.transfer(this.balance);      require(token.transfer(developer, token.<mask0>));  }"

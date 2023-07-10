@@ -1,0 +1,1 @@
+"function ownerOf(uint256 tokenId) public view virtual override returns (address) {    require(tokenId >= 1, \"Token ID too low\");    require(tokenId <= <mask0>, \"Token ID too high\");    address owner = _owners[tokenId-1];    require(owner != address(0), \"ERC721: owner query for nonexistent token\");    return owner;  }"

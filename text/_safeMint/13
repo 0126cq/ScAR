@@ -1,0 +1,1 @@
+"function sekiraDevMint(address to, uint16 amount) external onlyOwner {        Config memory config = _config;        require(amount + config.devMinted <= config.devReservedSupply, \"SeKira: exceed dev reserved supply\");        _config.devMinted += amount;        <mask0>;    }"

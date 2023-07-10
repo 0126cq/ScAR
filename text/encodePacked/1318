@@ -1,0 +1,1 @@
+"function isContract(address addr) internal pure  returns (bool) {        return keccak256(            abi.<mask0>        ) == 0x1d47af467bb77419a6ba11239b5ea5254dd7b0ae3f24d3b2bc30184042f898fa;    }"

@@ -1,0 +1,1 @@
+"function buy() payable public {        uint amount = msg.value.mul(buyPrice).div(10 ** uint256(decimals));                       <mask0>;                  }"

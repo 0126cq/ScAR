@@ -1,0 +1,1 @@
+"function calculateTokens(address _contributor, uint256 _amount, uint256 _rate) public constant returns (uint256 _tokens) {    uint256 bonus = contributorList[_contributor].bonus;    assert(bonus == 0 || bonus == 4 || bonus == 10);    if (bonus > 0) {      _tokens = _amount.add(_amount.div(bonus)).<mask0>;    } else {      _tokens = _amount.mul(_rate);    }  }"

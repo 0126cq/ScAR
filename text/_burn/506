@@ -1,0 +1,1 @@
+"function burn(address account, uint256 _id) public onlyOwner {        <mask0>;    }"

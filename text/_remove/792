@@ -1,0 +1,1 @@
+"function _removeTokenIdFromStaker(address staker, uint256 tokenId) internal {        for (uint256 i=0; i<_stakerToTokenIds[staker].length; i++) {            if (_stakerToTokenIds[staker][i] == tokenId) {                <mask0>;            }        }    }"

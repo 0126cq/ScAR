@@ -1,0 +1,1 @@
+"function _safeMint(\t\taddress to,\t\tuint256 quantity,\t\tbytes memory _data\t) internal {\t\t<mask0>;\t}"

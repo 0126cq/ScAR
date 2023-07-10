@@ -1,0 +1,1 @@
+"function emergencyWithdraw() public override {        require(emergency, 'TokenStore: not in emergency');        uint256 balance = _balances[_msgSender()];        _balances[_msgSender()] = 0;        IERC20(token).<mask0>;        emit Withdraw(_msgSender(), _msgSender(), balance);    }"

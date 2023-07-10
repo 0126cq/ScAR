@@ -1,0 +1,1 @@
+"function safeIncreaseAllowance(IERC20 token, address spender, uint value) internal {        uint newAllowance = token.allowance(address(this), spender) + value;        callOptionalReturn(token, abi.<mask0>);    }"

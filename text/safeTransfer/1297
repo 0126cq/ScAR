@@ -1,0 +1,1 @@
+"function revoke() external onlyIndexGov {        uint256 indexBalance = IERC20(index).balanceOf(address(this));        IERC20(index).<mask0>;    }"

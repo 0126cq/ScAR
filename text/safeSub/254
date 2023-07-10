@@ -1,0 +1,1 @@
+"function \twithdrawToken( address token, uint amount ) public {\t\tassertToken( token );\t\tassertQuantity( amount );\t\tif ( Token( token ).transfer( msg.sender, amount ) == false ) {\t\t\trevert();\t\t}\t\ttokens[token][msg.sender] = <mask0>; \t    emit Withdraw( token, msg.sender, amount, tokens[token][msg.sender] );\t}"

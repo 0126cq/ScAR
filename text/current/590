@@ -1,0 +1,1 @@
+"function getDay() public view returns (uint256) {        uint256 id = _roundIdTracker.<mask0>;        if (isSaleStart() == false) {            return 0;        } else {            uint256 exclusiveStartTime = rounds[id].exclusiveSaleStartTime;            return 1 + (block.timestamp - exclusiveStartTime) / 1 days;        }    }"

@@ -1,0 +1,1 @@
+"function addPool(        string memory _name,        IERC20 _token,        uint256 _weight    ) public override onlyOwner {        totalWeight = totalWeight.add(_weight);        uint256 index = pools.length;        indexByToken[address(_token)].push(index);        pools.<mask0>;        emit PoolAdded(_msgSender(), index, _name, address(_token), _weight);    }"

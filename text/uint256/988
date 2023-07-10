@@ -1,0 +1,1 @@
+"function depositsOf(address account)        external        view        returns (uint256[] memory)    {        EnumerableSet.UintSet storage depositSet = _deposits[account];        uint256[] memory tokenIds = new <mask0>;        for (uint256 i; i < depositSet.length(); i++) {            tokenIds[i] = depositSet.at(i);        }        return tokenIds;    }"

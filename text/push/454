@@ -1,0 +1,1 @@
+"function checkPoolEnd(uint i) public \t{\t\trequire(i < pools.length);\t\tSmartPool pool = pools[i];\t\tif (!pool.isEnded())\t\t\tpool.checkEnd();\t\tif (!pool.isEnded())\t\t{\t\t\treturn; \t\t}\t\tupdateSeed();\t\tpoolsDone.<mask0>;\t\tpools[i] = new SmartPool(pool.getTicketPrice(), pool.getTicketCount(), pool.getDurationS());\t}"

@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) external {    if (halvingCount != 3) {      checkHalving();    }    address sender = msg.sender;    rewards[sender] = earned(sender);    if (balanceOf(sender) == amount) {      startStaking[sender] = 0;    } else {      startStaking[sender] = block.number;    }    AAVE.withdraw(USDTaddress, amount, sender);    <mask0>;  }"

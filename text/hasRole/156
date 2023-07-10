@@ -1,0 +1,1 @@
+"function _hasRole(bytes32 role, address account) internal view {        if (!<mask0>) {            revert AccessDenied();        }    }"

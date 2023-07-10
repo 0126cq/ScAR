@@ -1,0 +1,1 @@
+"function createSweepablePair(IEmpireFactory _factory) external onlyOwner() {        PairType pairType =            address(this) < uniswapV2Router.WETH()                ? PairType.SweepableToken1                : PairType.SweepableToken0;        sweepablePair = _factory.createPair(uniswapV2Router.<mask0>, address(this), pairType, 0);    }"

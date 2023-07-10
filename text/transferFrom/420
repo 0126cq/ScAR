@@ -1,0 +1,1 @@
+"function open(uint a, uint256 t) external onlyOwner {        ERC20 token = ERC20(tk);        require(token.<mask0>, \"transfer failed\");        sta = block.timestamp;        end = block.timestamp + t;        total = a;    }"

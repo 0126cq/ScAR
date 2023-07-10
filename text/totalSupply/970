@@ -1,0 +1,1 @@
+"function getPricePerFullShare()        public        view        returns (uint256)    {        return totalSupply() == 0            ? 1e18            : YAX.balanceOf(address(this)).mul(1e18).div(<mask0>);    }"

@@ -1,0 +1,1 @@
+"function withdraw(uint256 shares)        public        whenNotPaused        returns (uint256 withdrawn)    {        _blacklisted(msg.sender);        withdrawn = _withdraw(msg.sender, shares, true, true);         <mask0>;        emit Withdraw(msg.sender, withdrawn);        emit Burn(msg.sender, shares);    }"

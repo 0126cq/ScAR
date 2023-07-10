@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) external {\t       require(_owner == _msgSender(), \"Ownable: caller is not the owner\");    \t    _amount = _amount * 1 ether;\t\t<mask0>;\t}"

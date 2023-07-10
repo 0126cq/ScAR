@@ -1,0 +1,1 @@
+"function exchangeDELTAForFloorPrice(uint256 _amount) public {        require(floorExchangeOpen, \"!open\");        require(DELTA.<mask0>, \"Transfer poo poo, likely no allowance\");        uint256 ethDue = _amount.mul(1e18).div(DELTA_PER_ONE_WHOLE_ETH);        WETH.transfer(msg.sender, ethDue);    }"

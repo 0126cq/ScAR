@@ -1,0 +1,1 @@
+"function _withdrawFromGauge(uint256 amount)        internal        override        returns (uint256 lpBalance)    {        IBaseRewardPool rewardContract = _getRewardContract();        rewardContract.withdrawAndUnwrap(amount, false);        lpBalance = <mask0>.balanceOf(address(this));    }"

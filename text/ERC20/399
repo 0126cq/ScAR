@@ -1,0 +1,1 @@
+"function allWalletBalances(address wallet) public view returns(uint256[]) {        uint256[] memory balances = new uint256[](_multitokens.length);        for (uint i = 0; i < _multitokens.length; i++) {            balances[i] = <mask0>.balanceOf(wallet);        }        return balances;    }"

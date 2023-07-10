@@ -1,0 +1,1 @@
+"function transferAnyERC20Token(address _tokenAddress, uint256 _amount)onlyOwner public returns(bool success) {\t\treturn <mask0>.transfer(owner, _amount);\t}"

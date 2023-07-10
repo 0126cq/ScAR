@@ -1,0 +1,1 @@
+"function leave(uint256 _share) public {        uint256 totalShares = totalSupply();        uint256 what = _share.mul(SUWP.balanceOf(address(this))).div(totalShares);        <mask0>;        SUWP.transfer(msg.sender, what);    }"

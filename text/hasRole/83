@@ -1,0 +1,1 @@
+"function pauseLiquidityTransfers() public {        require(<mask0>, \"ERR_CALLER\");        pt.pause();        emit LiquidityTransfersPaused();    }"

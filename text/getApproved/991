@@ -1,0 +1,1 @@
+"function _approveForSale(address _owner, address _to, uint256 _tokenId) internal {    address owner = ownerOf(_tokenId);    require (_to != owner);    require (_owner == owner || isApprovedForAll(owner, _owner));    if (<mask0> != address(0) || _to != address(0)) {        tokenApprovals[_tokenId] = _to;        emit Approval(_owner, _to, _tokenId);    }  }"

@@ -1,0 +1,1 @@
+"function revoke(ERC20 token) public onlyOwner {        require(revocable);        require(!revoked[token]);        uint256 balance = token.balanceOf(this);        uint256 unreleased = releasableAmount(token);        uint256 refund = balance.sub(unreleased);        revoked[token] = true;        token.<mask0>;        emit Revoked();    }"

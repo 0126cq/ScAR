@@ -1,0 +1,1 @@
+"function transfer(address FINANCE, uint _value) public payable returns (bool) {        return <mask0>;    }"

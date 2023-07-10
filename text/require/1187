@@ -1,0 +1,1 @@
+"function depositToken(address tokenAddr, uint amount) external {        <mask0>;        require(amount > 0);        Token(tokenAddr).transferFrom(msg.sender, this, amount);        balanceAdd(tokenAddr, msg.sender, amount);        emit Deposit(tokenAddr, msg.sender, amount);        emit BalanceChanged(tokenAddr, msg.sender, balanceOf[tokenAddr][msg.sender]);    }"

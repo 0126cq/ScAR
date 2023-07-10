@@ -1,0 +1,1 @@
+"function _transfer(address token, address recipient, uint256 amount) private {        bytes4 methodId = bytes4(keccak256(bytes('transfer(address,uint256)')));        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(methodId, recipient, amount));        require(success && (data.length == 0 || abi.<mask0>), 'TRANSFER_FAILED');    }"

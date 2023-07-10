@@ -1,0 +1,1 @@
+"function ownerMint(uint _quantity) public onlyOwner(){        require(            <mask0> + _quantity <= collectionSize,            \"Minting over collection size\"        );        require(_quantity > 0, \"Quantity must be greater than 0\");        _safeMint(msg.sender, _quantity);    }"

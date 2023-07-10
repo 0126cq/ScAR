@@ -1,0 +1,1 @@
+"function autoMint(string memory _tokenURI, address to) public onlyMinter {        uint id;        do {          _tokenIdCounter.increment();          id = _tokenIdCounter.current();        } while(<mask0>);        _mint(to, id);        _setTokenURI(id, _tokenURI);    }"

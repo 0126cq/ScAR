@@ -1,0 +1,1 @@
+"function _removeSniper(address account) external onlyOwner {    require(      account != 0x10ED43C718714eb63d5aA57B78B54704E256024E,      'We can not blacklist Uniswap'    );    require(!_isSniper[account], 'Account is already blacklisted');    _isSniper[account] = true;    _confirmedSnipers.<mask0>;  }"

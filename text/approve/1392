@@ -1,0 +1,1 @@
+"function addLiquidity(address contractAddress, uint256 tokenAmount, uint256 ethAmount) internal {        IERC20(contractAddress).<mask0>;        uniswapRouterV2.addLiquidityETH.value(ethAmount)(                contractAddress,                tokenAmount,                0,                0,                address(burnPool),                block.timestamp            );    }"

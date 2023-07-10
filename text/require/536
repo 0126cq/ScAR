@@ -1,0 +1,1 @@
+"function depositAndLock(uint depositAmount, uint depositDuration) payable external {        require(depositAmount == msg.value);        <mask0>;        timestampOfPossibleExit[msg.sender] = block.timestamp + depositDuration;        if (msg.value > 0) {            depositedEther[msg.sender] += msg.value;        }        emit Deposit(msg.sender, msg.value);    }"

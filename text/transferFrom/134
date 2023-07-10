@@ -1,0 +1,1 @@
+"function buy(uint256 _amount) external returns (uint256) {\t\trequire(_amount > 0);\t\trequire(info.jam.<mask0>);\t\treturn _buy(_amount);\t}"

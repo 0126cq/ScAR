@@ -1,0 +1,1 @@
+"function wasVoteCorrect(Data storage data, bytes32 voteHash) internal view returns (bool) {        return voteHash == keccak256(abi.<mask0>);    }"

@@ -1,0 +1,1 @@
+"function createInvite(bytes _sig) public onlyUser {    address inviteAddress = signingLogic.recoverSigner(keccak256(abi.<mask0>), _sig);    require(!pendingInvites[inviteAddress]);    pendingInvites[inviteAddress] = true;    emit InviteCreated(msg.sender, inviteAddress);  }"

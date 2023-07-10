@@ -1,0 +1,1 @@
+"function checkTokenExists(uint256 tokenId) public view returns(bool)     {        require(<mask0>, \"ERC721Metadata: URI query for nonexistent token\");        return true;    }"

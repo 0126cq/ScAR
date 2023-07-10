@@ -1,0 +1,1 @@
+"function adminAddInvestors(address[] calldata _investors, uint256[] calldata _amounts)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        for(uint i = 0; i<_investors.length; i++) {            soldAmountToken = soldAmountToken + _amounts[i];            investorsMap[_investors[i]] = investorDetails.length;            investorDetails.<mask0>;        }    }"

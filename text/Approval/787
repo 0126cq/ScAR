@@ -1,0 +1,1 @@
+"function approve(address spender, uint value) public returns (bool success) {    require (value == 0 || allowed[msg.sender][spender] == 0);    allowed[msg.sender][spender] = value;    <mask0>;    return true;  }"

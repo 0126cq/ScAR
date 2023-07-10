@@ -1,0 +1,1 @@
+"function addBearer(address _account, uint256 _role)    external  {    require(      _role < roles.length,      \"Role doesn't exist.\"    );    require(      <mask0>,      \"User can't add bearers.\"    );    require(      !hasRole(_account, _role),      \"Account is bearer of role.\"    );    roles[_role].bearers[_account] = true;    emit BearerAdded(_account, _role);  }"

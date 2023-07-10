@@ -1,0 +1,1 @@
+"function destruct() public onlyOwner {    ERC20 tokenInstance = <mask0>;    uint256 balance = tokenInstance.balanceOf(this);    if (balance > 0) {      tokenInstance.transfer(owner, balance);    }    selfdestruct(owner);  }"

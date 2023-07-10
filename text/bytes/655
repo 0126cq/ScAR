@@ -1,0 +1,1 @@
+"function toString(bytes32 value) internal pure returns (string memory) {        uint8 i = 0;        while(i < 32 && value[i] != 0) {            i++;        }        bytes memory bytesArray = new <mask0>;        for (i = 0; i < 32 && value[i] != 0; i++) {            bytesArray[i] = value[i];        }        return string(bytesArray);    }"

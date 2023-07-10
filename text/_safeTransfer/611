@@ -1,0 +1,1 @@
+"function claimInsurance(address _vault) external {    vault(_vault).claimInsurance();    <mask0>;  }"

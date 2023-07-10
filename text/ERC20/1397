@@ -1,0 +1,1 @@
+"function repayAll(address _cTokenAddr) public {        address tokenAddr = getUnderlyingAddr(_cTokenAddr);        uint amount = <mask0>.balanceOf(address(this));        if (amount != 0) {            paybackDebt(amount, _cTokenAddr, tokenAddr, tx.origin);        }    }"

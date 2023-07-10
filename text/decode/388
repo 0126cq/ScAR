@@ -1,0 +1,1 @@
+"function _safeTransferToMe(address token, address from, uint value) internal {        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(_SELECTOR2, from, address(this), value));        require(success && (data.length == 0 || abi.<mask0>), \"LockSend: TRANSFER_TO_ME_FAILED\");    }"

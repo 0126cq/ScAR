@@ -1,0 +1,1 @@
+"function accumulativeDividendOf(address _owner) public view override returns(uint256) {        return magnifiedDividendPerShare.mul(<mask0>).toInt256Safe()        .add(magnifiedDividendCorrections[_owner]).toUint256Safe() / magnitude;    }"

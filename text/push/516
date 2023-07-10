@@ -1,0 +1,1 @@
+"function addTransaction(Transaction transaction) private {        transactions.<mask0>;        transactions_of[transaction.to_address].push(transactions.length - 1);        emit addingTransaction(transaction.value, transaction.to_address, transaction.time, transaction.valid, transaction.executed, transactions.length - 1);    }"

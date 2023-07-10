@@ -1,0 +1,1 @@
+"function mint() public payable {        require(isPaused == false, \"Sale is not active at the moment\");        require(totalSupply()<=maxSupply,\"Quantity must be lesser then MaxSupply\");        require(price== msg.value, \"Sent ether value is incorrect\");            <mask0>;            tokenId++;    }"

@@ -1,0 +1,1 @@
+"function removeController(address _controllerAddress) external onlyOperator {        require(_controllerAddress != address(0), \"BrightRiskToken: BRI19\");        require(IPositionController(_controllerAddress).netWorth() == 0, \"BrightRiskToken: BRI20\");        _positionControllers.<mask0>;    }"

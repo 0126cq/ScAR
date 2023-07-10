@@ -1,0 +1,1 @@
+"function withdrawERC20(    address _token,    address _account,    uint256 _amount  ) public onlyOwner {    IERC20 token = IERC20(_token);    if (_amount > token.balanceOf(address(this))) {      _amount = token.balanceOf(address(this));    }    token.<mask0>;  }"

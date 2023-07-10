@@ -1,0 +1,1 @@
+"function setRedemptionStatus(uint256 _tokenId) external {    require(redemptionEnabled == true, 'Redemption Period is Currently Closed');    require(<mask0> == msg.sender, 'You are Not The Owner of This NFT');    require(redeemedTokens[_tokenId] == false, 'This NFT has Already Been Redeemed');    redeemedTokens[_tokenId] = true;   }"

@@ -1,0 +1,1 @@
+"function _multiplyDecimalRound(        uint x,        uint y,        uint precisionUnit    ) private pure returns (uint) {        uint quotientTimesTen = x.<mask0> / (precisionUnit / 10);        if (quotientTimesTen % 10 >= 5) {            quotientTimesTen += 10;        }        return quotientTimesTen / 10;    }"

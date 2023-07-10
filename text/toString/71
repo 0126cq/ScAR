@@ -1,0 +1,1 @@
+"function addLiquidityPool(address lp, bool isPool) external onlyOwner {        require(lp != pair, \"Can't alter current liquidity pair\");        liquidityPools[lp] = isPool;        emit UpdatedSettings(isPool ? 'Liquidity Pool Enabled' : 'Liquidity Pool Disabled', [Log(<mask0>, 1), Log('', 0), Log('', 0)]);    }"

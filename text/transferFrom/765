@@ -1,0 +1,1 @@
+"function safeTransfer(IERC721 _token, address _to, uint256 _tokenId) internal\t{\t\taddress _from = address(this);\t\ttry _token.transferFrom(_from, _to, _tokenId) { return; } catch {}\t\t_token.approve(_from, _tokenId);\t\t_token.<mask0>;\t}"

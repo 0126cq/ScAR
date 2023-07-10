@@ -1,0 +1,1 @@
+"function burn(uint256 _tokenId) public {        require(<mask0> == _msgSender());        _burn(_tokenId);     }"

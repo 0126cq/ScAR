@@ -1,0 +1,1 @@
+"function close() onlyOwner public {\t\tuint256 tokens = token.balanceOf(this).sub(totalLockedBonus); \t\ttoken.transfer(owner , tokens);\t\t<mask0>;\t\tisClose = true;\t}"

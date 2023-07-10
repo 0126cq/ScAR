@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 amount) internal virtual {        _require(account != address(0), Errors.ERC20_BURN_FROM_ZERO_ADDRESS);        <mask0>;        _balances[account] = _balances[account].sub(amount, Errors.ERC20_BURN_EXCEEDS_ALLOWANCE);        _totalSupply = _totalSupply.sub(amount);        emit Transfer(account, address(0), amount);    }"

@@ -1,0 +1,1 @@
+"function sellPrice() public constant returns (uint) {        var eth = getEtherForTokens(1 finney);        var fee = <mask0>;        return eth - fee;    }"

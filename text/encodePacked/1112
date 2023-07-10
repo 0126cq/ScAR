@@ -1,0 +1,1 @@
+"function getTokenSymbol(Data storage self, address contractAddress) internal view returns (string tokenSymbol) {    bytes32 id = keccak256(abi.<mask0>);    return self.Storage.getString(id);  }"

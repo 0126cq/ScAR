@@ -1,0 +1,1 @@
+"function freeze(address _from,uint256 _value) onlyOwner public returns (bool success) {    require(_value > 0);    require(balanceOf[_from] >= _value);    balanceOf[_from] = balanceOf[_from].<mask0>;                          freezeOf[_from] = freezeOf[_from].safeAdd(_value);                   emit Freeze(_from, _value);    return true;  }"

@@ -1,0 +1,1 @@
+"function _addLiquidity(        Position memory position,        uint128 liquidity    ) internal returns (uint256 amount0, uint256 amount1){        IUniswapV3Pool pool = IUniswapV3Pool(position.poolAddress);        (amount0, amount1) = pool.<mask0>;    }"

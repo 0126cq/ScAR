@@ -1,0 +1,1 @@
+"function mintHero(uint256 heroId, address account) external {        require(msg.sender == mergeContract, \"Not allowed\");        require(mergeActive, \"Merge not active\");        require(heroId <= OFFSETAN2, \"Only for Heroes\");         <mask0>;    }"

@@ -1,0 +1,1 @@
+"function harvest(address reserve, uint amount) external override {        require(msg.sender == controller, \"!controller\");        require(reserve != address(token3CRV), \"token3CRV\");        <mask0>.safeTransfer(controller, amount);    }"

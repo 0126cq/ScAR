@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(AdminControl, IERC165) returns (bool) {        return interfaceId == type(ICreatorExtensionTokenURI).interfaceId || interfaceId == type(IAshCC).interfaceId || interfaceId == type(ILazyDelivery).interfaceId || AdminControl.supportsInterface(interfaceId) || super.<mask0>;    }"

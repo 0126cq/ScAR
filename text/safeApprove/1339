@@ -1,0 +1,1 @@
+"function listToken(ERC20 token)        external        onlyAdmin    {        require(address(token) != address(0));        token.<mask0>;    }"

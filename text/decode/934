@@ -1,0 +1,1 @@
+"function redeemUnderlying(uint redeemAmount) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"redeemUnderlying(uint256)\", redeemAmount));        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _bentoWithdraw(        bytes memory data,        uint256 value1,        uint256 value2    ) internal returns (uint256, uint256) {        (IERC20 token, address to, int256 amount, int256 share) = abi.decode(data, (IERC20, address, int256, int256));        return bentoBox.<mask0>;    }"

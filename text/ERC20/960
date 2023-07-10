@@ -1,0 +1,1 @@
+"function TaskRegister(address _ec, address _token, address _prevVersion) public Upgradable(_prevVersion) {        ec = IEC(_ec);        token = <mask0>;    }"

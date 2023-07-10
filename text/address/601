@@ -1,0 +1,1 @@
+"function getListOfIbAlluos() external view returns (address[] memory) {        uint256 numberOfIbAlluos = ibAlluoToAdapterId.length();        address[] memory ibAlluos = new <mask0>;        for (uint256 i = 0; i < numberOfIbAlluos; i++) {            (ibAlluos[i], ) = ibAlluoToAdapterId.at(i);        }        return ibAlluos;    }"

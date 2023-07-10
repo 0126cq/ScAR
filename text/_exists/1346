@@ -1,0 +1,1 @@
+"function _ownershipOf (      uint256 _id    ) private view returns (address owner) {      if (!<mask0>) { revert (\"OwnerQueryForNonexistentToken\"); }      unchecked {          for (uint256 curr = _id;; curr--) {            owner = owners[curr];            if (owner != address(0)) {              return owner;            }          }      }    }"

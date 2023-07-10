@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint tokenId) internal view returns( bool isApproved ){    require(_exists(tokenId), \"ERC721B: query for nonexistent token\");    address owner = ownerOf(tokenId);    return (spender == owner || <mask0> == spender || isApprovedForAll(owner, spender));  }"

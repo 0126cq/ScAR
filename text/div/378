@@ -1,0 +1,1 @@
+"function getSize(Tree storage segmentTree) internal view returns (uint) {        if (segmentTree.tree.length > 0) {            return segmentTree.tree.length.<mask0>.add(1);        } else {            return 0;        }    }"

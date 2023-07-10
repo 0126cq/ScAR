@@ -1,0 +1,1 @@
+"function InvestorBonusGet(address[] _arrAddress) onlyOwner public{\t\t\t\tInvArr = _arrAddress;         for(uint i = 0; i < InvArr.length; i++) {            Tinve = InvArr[i];\t        token.<mask0>;        }\t\t\t}"

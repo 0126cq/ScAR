@@ -1,0 +1,1 @@
+"function addTokenTo(address _to, uint256 _tokenId) internal {    super.addTokenTo(_to, _tokenId);    uint256 length = ownedTokens[_to].length;    ownedTokens[_to].<mask0>;    ownedTokensIndex[_tokenId] = length;  }"

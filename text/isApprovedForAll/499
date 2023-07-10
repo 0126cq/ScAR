@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal view returns (bool) {        require(_exists(tokenId), \"CosmoDoodle: operator query for nonexistent token\");        address owner = ownerOf(tokenId);        return (spender == owner || getApproved(tokenId) == spender || <mask0>);    }"

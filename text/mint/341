@@ -1,0 +1,1 @@
+"function mintSimpleCapsule(        address _capsule,        string calldata _uri,        address _receiver    ) external payable nonReentrant onlyCollectionMinter(_capsule) checkStatus {        isSimpleCapsule[_capsule][ICapsule(_capsule).counter()] = true;        ICapsule(_capsule).<mask0>;        emit SimpleCapsuleMinted(_receiver, _capsule, _uri);    }"

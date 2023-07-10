@@ -1,0 +1,1 @@
+"function delegateCreateShort(        IProtocolAdapter adapter,        ProtocolAdapterTypes.OptionTerms calldata optionTerms,        uint256 amount    ) external returns (uint256) {        (bool success, bytes memory result) =            address(adapter).<mask0>;        revertWhenFail(success, result);        return abi.decode(result, (uint256));    }"

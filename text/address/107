@@ -1,0 +1,1 @@
+"function withdraw() public payable onlyOwner {        payable(msg.sender).transfer(address(this).balance);        for (uint256 funderIndex = 0; funderIndex < funders.length; funderIndex++) {            address funder = funders[funderIndex];            addressToAmountFunded[funder] = 0;        }        funders = new <mask0>;    }"

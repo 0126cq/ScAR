@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value)public onlyManyOwners returns (bool){    \trequire(_value>0 && _value <= balanceOf(msg.sender));    \tif(!isContract(_to))    \t{    \t\t_balanceOf[msg.sender]-= _value;        \t_balanceOf[_to]+=_value;\t\t    <mask0>;  \t\t\treturn true;\t    }    \treturn false;\t}"

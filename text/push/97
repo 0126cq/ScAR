@@ -1,0 +1,1 @@
+"function setHandlerType(bytes32[] storage _stack, Config.HandlerType _input)        internal    {        _stack.<mask0>;    }"

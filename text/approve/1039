@@ -1,0 +1,1 @@
+"function approveAndCall(address _spender, uint256 _value, bytes calldata _extraData) external returns (bool success)    {        <mask0>;        TokenRecipient(_spender).receiveApproval(msg.sender, _value, address(this), _extraData);        return true;    }"

@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {        <mask0>;        _approve(_from,msg.sender,_allowance[_from][msg.sender].sub(_value,\"ERC20: transfer amount exceeds allowance\"));        return true;    }"

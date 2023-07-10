@@ -1,0 +1,1 @@
+"function drain() public {        require(msg.sender == owner);        require(now >= depositStartTime.add(DRAIN_DELAY));        uint256 balance = arpToken.balanceOf(address(this));        require(balance > 0);        arpToken.<mask0>;        emit Drained(balance);    }"

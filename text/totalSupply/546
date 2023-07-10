@@ -1,0 +1,1 @@
+"function costCheck() public view returns (uint256 _cost) {      if(<mask0> < totalFree)        return 0;      else          return price;  }"

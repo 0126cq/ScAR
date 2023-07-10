@@ -1,0 +1,1 @@
+"function deposit(uint256 _pid, uint256 _amount) external override {        userInfo[_pid][msg.sender].amount = userInfo[_pid][msg.sender].amount.add(_amount);        lpToken.<mask0>;    }"

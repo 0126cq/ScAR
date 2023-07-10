@@ -1,0 +1,1 @@
+"function recoverERC20(\t\tIERC20 tokenAddress,\t\tuint256 tokenAmount,\t\taddress recoverTo\t) external onlyOwner {\t\trequire(tokenAddress != stakingToken, \"SpoolStaking::recoverERC20: Cannot withdraw the staking token\");\t\ttokenAddress.<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function withdraw(uint wad) public {        require(balanceOf[msg.sender] >= wad);        balanceOf[msg.sender] = sub(balanceOf[msg.sender],wad);        uint wethout;        wethout = <mask0>;        ERC20(SRC).transfer(msg.sender,wethout);        emit Withdrawal(msg.sender, wad);               }"

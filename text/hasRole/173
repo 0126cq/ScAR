@@ -1,0 +1,1 @@
+"function isOwner(address account) public view returns (bool) {        return <mask0>;    }"

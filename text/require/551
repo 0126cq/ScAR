@@ -1,0 +1,1 @@
+"function acceptNomination() external {        <mask0>;        emit TreasuryUpdated(treasury, pendingTresury);        treasury = pendingTresury;        pendingTresury = 0x0000000000000000000000000000000000000000;    }"

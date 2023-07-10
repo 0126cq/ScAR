@@ -1,0 +1,1 @@
+"function ico_promo_reward(address to, uint tokens) public onlyWhitelisted() {        require(initialized);        balances[ICO_PROMO_REWARDS] = balances[ICO_PROMO_REWARDS].sub(tokens);        balances[to] = balances[to].add(tokens);        <mask0>;    }"

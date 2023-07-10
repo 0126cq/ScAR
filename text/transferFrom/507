@@ -1,0 +1,1 @@
+"function multiTransferToEOA(TransferTo[] calldata transfers_) external {        address to_;        uint256 id_;        for (uint256 i_ = 0; i_ < transfers_.length; i_++) {            to_ = transfers_[i_].to;            id_ = transfers_[i_].id;            if (to_.code.length == 0) {                <mask0>;            }        }    }"

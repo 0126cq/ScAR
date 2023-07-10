@@ -1,0 +1,1 @@
+"function getMessageHash(\t\taddress account,\t\taddress collectionAddr,\t\tuint256 tokenID,\t\tuint256 nonce,\t\tuint256 expiry\t) internal pure returns (bytes32) {\t\treturn\t\t\t<mask0>;\t}"

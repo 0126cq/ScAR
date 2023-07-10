@@ -1,0 +1,1 @@
+"function calculatedDepositAmount(uint _currentDepositedPercentageInBP) external view override returns (uint) {        uint newPercentageInBP = _calculateNewPercentageInBP(_currentDepositedPercentageInBP);        return newPercentageInBP != 0 ? (<mask0>.balanceOf(vToken) * newPercentageInBP) / BP.DECIMAL_FACTOR : 0;    }"

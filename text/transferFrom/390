@@ -1,0 +1,1 @@
+"function __withdrawERC20(address contractAddress) external onlyOwner     {         IERC20 ERC20 = IERC20(contractAddress);         uint256 balance = ERC20.balanceOf(address(this));        ERC20.<mask0>;     }"

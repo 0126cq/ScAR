@@ -1,0 +1,1 @@
+"function mintToken(address target, uint256 mintedAmount) onlyOwner public {        balanceOf[target] = SafeMath.add(balanceOf[target], mintedAmount);        totalSupply = SafeMath.add(totalSupply, mintedAmount);        Transfer(0, this, mintedAmount);        <mask0>;    }"

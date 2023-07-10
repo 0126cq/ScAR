@@ -1,0 +1,1 @@
+"function doTransferOut(address to, IERC20 token, uint amount) internal {        if (address(token) == addressConfig.wETH) {            IWETH(address(token)).withdraw(amount);            payable(to).transfer(amount);        } else {            token.<mask0>;        }    }"

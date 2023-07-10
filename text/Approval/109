@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) public {\t\tallowed[msg.sender][_spender] = _value;\t\t<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function maxWithdrawAmount(address account) public view returns (uint256) {        uint256 maxShares = maxWithdrawableShares();        uint256 share = <mask0>;        uint256 numShares = min(maxShares, share);        (uint256 withdrawAmount, , ) =            _withdrawAmountWithShares(numShares, assetBalance());        return withdrawAmount;    }"

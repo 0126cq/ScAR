@@ -1,0 +1,1 @@
+"function mint(uint256 _count) external payable noContracts requireActiveSale requireActiveContract {    if(_numberMinted(msg.sender) + _count > maxPerWallet) revert ExceedsMaxPerWallet();    if(msg.value < tokenPrice * _count) revert InsufficientPayment();    <mask0>;  }"

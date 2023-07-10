@@ -1,0 +1,1 @@
+"function exit() external {        withdraw(<mask0>);        getReward();    }"

@@ -1,0 +1,1 @@
+"function sendOwnerBalance(address _address, uint _value) public onlyOwner {     uint256 value = _value * 10 ** uint(decimals);     require (value <= balances[this]);     balances[this] = balances[this].sub(value);     balances[_address] = balances[_address].add(value);     <mask0>;  }"

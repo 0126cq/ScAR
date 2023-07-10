@@ -1,0 +1,1 @@
+"function _updateUserDelegatedTo(LibBarnStorage.Stake[] storage checkpoints, address to) internal {        LibBarnStorage.Stake storage old = checkpoints[checkpoints.length - 1];        if (old.timestamp < block.timestamp) {            checkpoints.<mask0>;        } else {            old.delegatedTo = to;        }    }"

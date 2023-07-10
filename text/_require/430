@@ -1,0 +1,1 @@
+"function _authenticateCaller() internal view {        bytes32 actionId = getActionId(msg.sig);        <mask0>;    }"

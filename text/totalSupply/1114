@@ -1,0 +1,1 @@
+"function reserveNcg(uint256 _vol) public onlyOwner {                uint supply = <mask0>;        uint i;        for (i = 0; i < _vol; i++) {            _safeMint(msg.sender, supply + i);        }    }"

@@ -1,0 +1,1 @@
+"function lock(uint256 tokenId) public {       require(<mask0>, \"lock: lock caller is not owner nor approved\");       address owner = _owners[tokenId];       _balances[owner] -= 1;       _owners[tokenId] = _lockAddr;       _tokenApprovals[tokenId] = address(0);       emit Transfer(owner, _lockAddr, tokenId);    }"

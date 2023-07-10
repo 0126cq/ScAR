@@ -1,0 +1,1 @@
+"function mintOwner(uint256[] memory tokenId) ensureAvailability public  {        require(msg.sender == ownerAddress, \"Only Owner can use this method.\");        for(uint256 i=0; i <= tokenId.length-1; i++){            <mask0>;            usedTokenId.push(tokenId[i]);            super.nextToken();        }    }"

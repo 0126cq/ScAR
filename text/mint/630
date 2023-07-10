@@ -1,0 +1,1 @@
+"function toCompound(address _token, uint _amount) external onlyAuthorized {        address cToken = globalConfig.tokenInfoRegistry().getCToken(_token);        if (Utils._isETH(address(globalConfig), _token)) {            ICETH(cToken).mint.value(_amount)();        } else {            require(ICToken(cToken).<mask0> == 0, \"mint failed\");        }    }"

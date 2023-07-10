@@ -1,0 +1,1 @@
+"function mintRopstenBeta(address player, uint playerId)    public    {        require(msg.sender == owner);        uint id = uint256(<mask0>);        _safeMint(player, id);        _setTokenURI(id, string(abi.encodePacked(\"beta/ropsten/\", playerId.toString())));    }"

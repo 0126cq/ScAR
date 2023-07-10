@@ -1,0 +1,1 @@
+"function _withdrawAll() internal override {        uint256 _amount = <mask0>.balanceOf(address(this));        if (_amount > 0) {            IGenericVault(vault).withdrawAll();            _amount = balanceOfWant();            _convert(want, _vaultWant(), _amount);        }    }"

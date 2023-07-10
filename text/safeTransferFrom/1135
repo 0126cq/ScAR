@@ -1,0 +1,1 @@
+"function _increaseDebt(uint _underlyingAmount) private {        uint balBefore = IERC20(underlying).balanceOf(address(this));        IERC20(underlying).<mask0>;        uint balAfter = IERC20(underlying).balanceOf(address(this));        totalDebt = totalDebt.add(balAfter.sub(balBefore));    }"

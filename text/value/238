@@ -1,0 +1,1 @@
+"function strategyValue() public view returns (uint256) {        if (address(strategy) == address(0)) {            return 0;        }        if (inSync) {            return strategyValueCache;        }        return strategy.<mask0>;    }"

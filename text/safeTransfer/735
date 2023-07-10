@@ -1,0 +1,1 @@
+"function _withdrawNonWantAsset(IERC20 _asset) internal returns (uint256 balance) {        require(msg.sender == controller, \"!controller\");        require(want != address(_asset), \"want\");        balance = _asset.balanceOf(address(this));        _asset.<mask0>;    }"

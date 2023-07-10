@@ -1,0 +1,1 @@
+"function acceptOwnership() external returns (bool success) {        require(msg.sender == _nominatedOwner, \"Not nominated to ownership\");        <mask0>;        return true;    }"

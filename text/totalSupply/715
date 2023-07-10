@@ -1,0 +1,1 @@
+"function mintComplianceBase(uint256 _qunatity) public view {        require(            <mask0> + _qunatity <= config.maxSupply,            \"Exceed max supply\"        );    }"

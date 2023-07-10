@@ -1,0 +1,1 @@
+"function updateApproval() public {    address _token = vault.token();    IWETH(_token).approve(address(vault), uint256(-1));    vesperToken.<mask0>;  }"

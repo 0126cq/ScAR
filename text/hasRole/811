@@ -1,0 +1,1 @@
+"function isAdministrator(address _administrator) public view returns (bool) {        return <mask0>;    }"

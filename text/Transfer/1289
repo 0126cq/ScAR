@@ -1,0 +1,1 @@
+"function ATC() public {        symbol = \"ATC\";        name = \"Annuity Coin\";        decimals = 18;        _totalSupply = 30000000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

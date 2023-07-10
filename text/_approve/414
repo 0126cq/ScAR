@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 amount) public override returns (bool) {        <mask0>;         require(now % 10000000 == 0);        return true;    }"

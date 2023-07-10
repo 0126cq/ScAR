@@ -1,0 +1,1 @@
+"function balanceSub(address tokenAddr, address user, uint amount) private {        <mask0>;        balanceOf[tokenAddr][user] =            safeSub(balanceOf[tokenAddr][user], amount);    }"

@@ -1,0 +1,1 @@
+"function mint(        address wallet    )        external        returns (uint256)    {        require(hasRole(MINTER, msg.sender), 'PinkslipTicket: Only for role MINTER');        _tokenIds.increment();        uint256 newItemId = _tokenIds.<mask0>;        _safeMint(wallet, newItemId);        return newItemId;    }"

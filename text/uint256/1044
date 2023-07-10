@@ -1,0 +1,1 @@
+"function votingRights(address voter)        public        view        virtual        override        returns (uint256[] memory rights)    {        uint256 totalLocks = _veLock.delegatedRights(voter);        rights = new <mask0>;        for (uint256 i = 0; i < rights.length; i++) {            rights[i] = _veLock.delegatedRightByIndex(voter, i);        }    }"

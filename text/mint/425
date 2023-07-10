@@ -1,0 +1,1 @@
+"function mintFees() external onlyManager {        require ((performanceFees + managementFees) > 0, \"Formation.Fi: zero fees\");        token.<mask0>;        performanceFees = 0;        managementFees = 0;    }"

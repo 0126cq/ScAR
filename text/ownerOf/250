@@ -1,0 +1,1 @@
+"function isImageOnSale(uint _imageId) public view returns(bool) {        Ad memory ad = sellAds[_imageId];        return ad.exists && ad.active && (ad.exchanger == digitalPrintImageContract.<mask0>);    }"

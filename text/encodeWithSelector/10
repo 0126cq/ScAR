@@ -1,0 +1,1 @@
+"function _callIsValidOrder(        address zone,        bytes32 orderHash,        address offerer,        bytes32 zoneHash    ) internal view {        bool success = _staticcall(            zone,            abi.<mask0>        );        _assertIsValidOrderStaticcallSuccess(success, orderHash);    }"

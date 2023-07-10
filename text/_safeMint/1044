@@ -1,0 +1,1 @@
+"function mintBulk(uint256 numberOfMints, address mintAddress) public payable onlyOwner{        uint256 supply = _tokenSupply.current();       for(uint256 i = 1; i <= numberOfMints; i++){            <mask0>;            _tokenSupply.increment();        }    }"

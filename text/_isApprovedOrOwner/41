@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external {        require(<mask0>, \"Not approved\");        _burn(tokenId);    }"

@@ -1,0 +1,1 @@
+"function setRewardDistribution(address _rewardDistribution)        external    {        require(            <mask0>,            \"RewardDistributionRecipient::setRewardDistribution: must have distribution assigner role\"        );        rewardDistribution = _rewardDistribution;    }"

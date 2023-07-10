@@ -1,0 +1,1 @@
+"function sendToProxy(address payable _proxy, address _reserve) internal {        if (_reserve != ETH_ADDRESS) {            <mask0>.safeTransfer(_proxy, ERC20(_reserve).balanceOf(address(this)));        } else {            _proxy.transfer(address(this).balance);        }    }"

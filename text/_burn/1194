@@ -1,0 +1,1 @@
+"function burn(        address account,        uint256 id,        uint256 value    ) public virtual {        require(            account == _msgSender() || isApprovedForAll(account, _msgSender()),            \"ERC1155: caller is not token owner nor approved\"        );        <mask0>;    }"

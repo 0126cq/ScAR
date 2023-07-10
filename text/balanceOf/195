@@ -1,0 +1,1 @@
+"function isRefiHolder(address _user) internal view returns (bool) {        ERC20 refi = ERC20(refiAddress);        return refi.<mask0> >= minimumRefiHeld;    }"

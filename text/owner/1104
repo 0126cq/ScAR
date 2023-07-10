@@ -1,0 +1,1 @@
+"function withdrawAll() external onlyOwner {        uint256 contractBalance = address(this).balance;        require(contractBalance > 0,\"insufficient balance.\");             _withdraw(<mask0>, contractBalance);          }"

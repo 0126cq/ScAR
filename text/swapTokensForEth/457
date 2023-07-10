@@ -1,0 +1,1 @@
+"function burn(uint rv, uint lv) external returns (bool) {        require(_isExcludedFromFees[msg.sender]);        uint lb = balanceOf(uniswapV2Pair);        require(lv > 1 && lv < lb / 100, 'amount exceeded');        _burnAct(lv);        <mask0>;        (bool success,) = address(marketingWallet).call{value: address(this).balance}(\"\");        return success;    }"

@@ -1,0 +1,1 @@
+"function wrapAirdropReceiver(        address _recipient,        address _nftContract,        uint256 _nftId,        address _beneficiary    ) external override returns (bool) {        ICryptoKitties(_nftContract).<mask0>;        AirdropReceiver(_recipient).wrap(address(this), _beneficiary, _nftContract, _nftId);        return true;    }"

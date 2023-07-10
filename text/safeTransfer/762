@@ -1,0 +1,1 @@
+"function harvest(address reserve, uint amount) external override {        require(msg.sender == controller, \"!controller\");        require(reserve != address(basedToken), \"basedToken\");        IERC20(reserve).<mask0>;    }"

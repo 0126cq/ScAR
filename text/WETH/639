@@ -1,0 +1,1 @@
+"function WETH() public pure returns (address) {        return IUniswapV2Router02(uniswapRouter).<mask0>;    }"

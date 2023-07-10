@@ -1,0 +1,1 @@
+"function _setBeacon(address newBeacon) private {        require(AddressUpgradeable.isContract(newBeacon), \"ERC1967: new beacon is not a contract\");        require(            AddressUpgradeable.<mask0>,            \"ERC1967: beacon implementation is not a contract\"        );        StorageSlotUpgradeable.getAddressSlot(_BEACON_SLOT).value = newBeacon;    }"

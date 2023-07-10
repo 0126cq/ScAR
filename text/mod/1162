@@ -1,0 +1,1 @@
+"function inRebaseWindow() public view returns (bool) {        return (            now.mod(minRebaseTimeIntervalSec) >= rebaseWindowOffsetSec &&            now.<mask0> < (rebaseWindowOffsetSec.add(rebaseWindowLengthSec))        );    }"

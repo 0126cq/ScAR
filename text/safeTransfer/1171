@@ -1,0 +1,1 @@
+"function adminWithdraw(uint256 _amount) public onlyAdmin {        atari.<mask0>;        emit DevWithdraw(msg.sender, _amount);    }"

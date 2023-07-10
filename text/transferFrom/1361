@@ -1,0 +1,1 @@
+"function deposit(uint256 _userId, uint256 _amount) public {        token.<mask0>;        emit DepositEvent(msg.sender, _userId, _amount);    }"

@@ -1,0 +1,1 @@
+"function mint(uint256 _mintAmount) public payable nonReentrant{\tuint256 s = totalSupply();\trequire(status, \"Off\" );\trequire(_mintAmount > 0, \"0\" );\trequire(_mintAmount <= maxMint, \"Too many\" );\trequire(s + _mintAmount <= maxSupply, \"Max\" );\trequire(msg.value >= cost * _mintAmount);\tfor (uint256 i = 0; i < _mintAmount; ++i) {\t<mask0>;\t}\tdelete s;\t}"

@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view override(ERC721, ERC721Enumerable) returns (bool) {        return interfaceId == type(IERC721TokenAuthor).interfaceId            || super.<mask0>;    }"

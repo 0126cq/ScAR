@@ -1,0 +1,1 @@
+"function claimContainedERC721(address contractAddress, uint256 index) external{    if(msg.sender != factory){      require(contractAddress != collateral);    }    require((this.balanceOf(msg.sender, 0) == 1) && !fraktionalized && (IERC721(contractAddress).ownerOf(index) == address(this)));    IERC721(contractAddress).<mask0>;  }"

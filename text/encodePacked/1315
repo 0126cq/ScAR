@@ -1,0 +1,1 @@
+"function _logURIs(uint256[] memory _tokenIDs) internal {        string memory baseURL = baseMetadataURI;        string memory tokenURI;        for (uint256 i = 0; i < _tokenIDs.length; i++) {            tokenURI = string(                abi.<mask0>            );            emit URI(tokenURI, _tokenIDs[i]);        }    }"

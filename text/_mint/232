@@ -1,0 +1,1 @@
+"function ownerMint(address to, uint256 amount) external onlyRole(MINTER_ROLE) {        <mask0>;    }"

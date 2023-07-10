@@ -1,0 +1,1 @@
+"function upgradeAndCall(AdminUpgradeabilityProxy proxy, address implementation, bytes memory data) payable public onlyOwner {    proxy.upgradeToAndCall.<mask0>(implementation, data);  }"

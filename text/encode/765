@@ -1,0 +1,1 @@
+"function encodeSignedBigNum(BufferChainlink.buffer memory buf, int input) internal pure {    buf.appendUint8(uint8((MAJOR_TYPE_TAG << 5) | TAG_TYPE_NEGATIVE_BIGNUM));    encodeBytes(buf, abi.<mask0>);  }"

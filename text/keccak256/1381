@@ -1,0 +1,1 @@
+"function getSchainToERC20(        string calldata schainName,        address erc20OnMainnet    )        external        view        override        returns (bool)    {        return _schainToERC20[<mask0>].contains(erc20OnMainnet);    }"

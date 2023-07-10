@@ -1,0 +1,1 @@
+"function permit(        address token,        bytes memory permit    )        internal    {        if (permit.length == 32 * 7) {            (bool success,) = token.call(abi.<mask0>);            require(success, \"Permit failed\");        }    }"

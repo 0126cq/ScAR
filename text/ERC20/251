@@ -1,0 +1,1 @@
+"function mintRewardFromRR(\t\taddress _token,\t\taddress _to,\t\tuint256 _amount\t) public {\t\tgetMarketMaker().mintFromReserveRatio(<mask0>, _amount);\t\t_mintGoodDollars(_to, _amount, false);\t\t_mintGDX(_to, _amount);\t}"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyOwner canMint public returns (bool) {\t\trequire(totalSupply.add(_amount) <= cap);\t\treturn super.<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function redeem(address _account, uint256 _amount) external {        uint256 _underlyingAmount = _amount.mul(getExchangeRate()).div(1e18);        _burn(_account, _amount);        underlying.<mask0>;    }"

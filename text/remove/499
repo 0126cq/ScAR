@@ -1,0 +1,1 @@
+"function delManager(address _manager) external onlyOwner returns (bool) {        require(_manager != address(0), \"BridgeChain: manager is the zero address\");        return EnumerableSet.<mask0>;    }"

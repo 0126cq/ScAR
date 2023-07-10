@@ -1,0 +1,1 @@
+"function mint(uint256 amount) external payable {        require(publicMintActive, \"Public mint not active\");        require(numMinted[msg.sender] + amount <= MAX_AMOUNT_PER_WALLET, \"Minting too many per wallet\");        require(amount + <mask0> <= MAX_TOTAL_SUPPLY, \"Would exceed max supply\");        numMinted[msg.sender] += amount;        _mint(msg.sender, amount);    }"

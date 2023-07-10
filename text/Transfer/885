@@ -1,0 +1,1 @@
+"function BTN() public {        symbol = \"BTN\";        name = \"BitStone\";        decimals = 18;        _totalSupply = 210000000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function namehash(bytes memory domain, uint256 i) internal pure returns (bytes32) {    if (domain.length <= i) return 0x0000000000000000000000000000000000000000000000000000000000000000;    uint256 len = labelLength(domain, i);    return <mask0>;  }"

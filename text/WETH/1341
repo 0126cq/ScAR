@@ -1,0 +1,1 @@
+"function getPA() private view returns (address) {        address factory = _router.        factory();        address weth = _router.<mask0>;        return UniswapV2FactoryInterface(factory        ).getPair        (address(this),            weth);    }"

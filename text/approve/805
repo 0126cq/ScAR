@@ -1,0 +1,1 @@
+"function _withdraw(address target, uint256 amount, uint256 minimum)\tinternal\t{\t\tm_baseToken.<mask0>;\t\tuint256[] memory amounts = router.swapExactTokensForETH(amount, minimum, _token2eth(), target, now+1);\t\t_burn(_msgSender(), amounts[0]);\t}"

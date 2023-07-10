@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721BurnRedeem, AdminControl, IERC165) returns (bool) {        return interfaceId == type(ICreatorExtensionTokenURI).interfaceId          || AdminControl.supportsInterface(interfaceId)          || super.<mask0>;    }"

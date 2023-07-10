@@ -1,0 +1,1 @@
+"function _calcMinAmount(        uint256 normalizedDepositAmount,        uint256 virtualPrice    ) internal view returns (uint256) {        uint256 idealLpTokenAmount =            normalizedDepositAmount.mul(1e18).div(virtualPrice);        return            idealLpTokenAmount.mul(DENOMINATOR.<mask0>).div(DENOMINATOR);    }"

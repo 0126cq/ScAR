@@ -1,0 +1,1 @@
+"function _getTValues(uint256 tAmount, uint256 reflectFee, uint256 teamFee) private pure returns (uint256, uint256, uint256) {        uint256 tReflect = tAmount.mul(reflectFee).div(100);        uint256 tTeam = tAmount.<mask0>.div(100);        uint256 tTransferAmount = tAmount.sub(tReflect).sub(tTeam);        return (tTransferAmount, tReflect, tTeam);    }"

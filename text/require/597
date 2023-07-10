@@ -1,0 +1,1 @@
+"function setStrategistFee(uint256 _strategistFee) external onlyStrategist {        <mask0>;         strategistFee = _strategistFee;        emit ChangedStrategistFee(_strategistFee);    }"

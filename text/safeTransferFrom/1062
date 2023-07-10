@@ -1,0 +1,1 @@
+"function stake(uint256 amount) external nonReentrant updateRewards(msg.sender) {\t\t_stake(msg.sender, amount);\t\tstakingToken.<mask0>;\t\temit Staked(msg.sender, amount);\t}"

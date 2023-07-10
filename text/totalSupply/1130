@@ -1,0 +1,1 @@
+"function tokenByIndex(uint256 _index) public view returns (uint256) {        require(_index < <mask0>);        return allTokens[_index];    }"

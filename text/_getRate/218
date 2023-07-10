@@ -1,0 +1,1 @@
+"function _takeDonationFee(uint256 tDonation) private {        uint256 currentRate = <mask0>;        uint256 rDonation = tDonation.mul(currentRate);        _rOwned[_donationAddress] = _rOwned[_donationAddress].add(rDonation);        if (_isExcluded[_donationAddress])            _tOwned[_donationAddress] = _tOwned[_donationAddress].add(                tDonation            );    }"

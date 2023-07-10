@@ -1,0 +1,1 @@
+"function _sendTo(address _to, uint256 _value) internal {    require(address(parsecCreditContract).<mask0>, \"Parsec Credit transfer failed.\");  }"

@@ -1,0 +1,1 @@
+"function safeMint(address to) public payable {        require(isMinting, \"Minting is not live.\");        require(totalSupply() < MaxSupply, \"Can't minnt more.\");        require(msg.value >= mintRate, \"Not enough ether sent.\");        _tokenIdCounter.increment();        _safeMint(to, _tokenIdCounter.<mask0>);    }"

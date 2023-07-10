@@ -1,0 +1,1 @@
+"function daiJoin_join(address apt, address urn, uint wad, bool _fromUser) internal {        if (_fromUser) {            DaiJoinLike(apt).dai().transferFrom(msg.sender, address(this), wad);        }        DaiJoinLike(apt).dai().<mask0>;        DaiJoinLike(apt).join(urn, wad);    }"

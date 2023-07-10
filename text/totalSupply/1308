@@ -1,0 +1,1 @@
+"function trySetStartingIndexBlock() private {        if ( startingIndexBlock == 0 && (<mask0> == maxBears || block.timestamp >= setBlockTimestamp)) {            startingIndexBlock = block.number;        }    }"

@@ -1,0 +1,1 @@
+"function burnMint(uint256 amount) public onlyOwner {        require(<mask0> + amount <= MAX_SUPPLY,\"sold out\");        _safeMint(address(0), amount);    }"

@@ -1,0 +1,1 @@
+"function checkUpkeep(bytes calldata)    external    view    override    whenNotPaused    returns (bool upkeepNeeded, bytes memory performData)  {    address[] memory needsFunding = getUnderfundedAddresses();    upkeepNeeded = needsFunding.length > 0;    performData = abi.<mask0>;    return (upkeepNeeded, performData);  }"

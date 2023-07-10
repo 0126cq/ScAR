@@ -1,0 +1,1 @@
+"function approveToken(        address _tokenAddr,        address _to,        uint256 _amount    ) internal {        if (_tokenAddr == ETH_ADDR) return;        if (IERC20(_tokenAddr).allowance(address(this), _to) < _amount) {            IERC20(_tokenAddr).<mask0>;        }    }"

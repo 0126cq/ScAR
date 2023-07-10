@@ -1,0 +1,1 @@
+"function getNodeId(address entity, uint128 nodeId) public view returns (bytes memory) {    uint128 id = nodeId != 0 ? nodeId : entityNodeCount[entity] + 1;    return abi.<mask0>;  }"

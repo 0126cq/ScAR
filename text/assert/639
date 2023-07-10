@@ -1,0 +1,1 @@
+"function release() public {    uint256 amount = token.balanceOf(address(this));    require(amount > 0);    if(previousWithdrawal == 0){        amount = amount.div(2);    }else{        <mask0>;    }    previousWithdrawal = amount;    token.safeTransfer(beneficiary, amount);  }"

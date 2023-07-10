@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) public onlyAdminBuner {        _burn(<mask0>, _amount);    }"

@@ -1,0 +1,1 @@
+"function demote(string memory version, address vault, VaultStatus status) public {    <mask0>;    VaultStatus actualStatus = status;    if(msg.sender == devGovernance) {      actualStatus = VaultStatus.experimental;    }    bool removed = productionVaults[version][actualStatus].remove(vault);    if (removed) {      emit DemoteVault(msg.sender, version, vault, status);    }  }"

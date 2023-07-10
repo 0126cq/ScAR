@@ -1,0 +1,1 @@
+"function earn() public nonReentrant onlyKeepers canEarn {        uint256 _bal = available();        token.<mask0>;        IController(controller).earn(address(token), _bal);    }"

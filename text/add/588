@@ -1,0 +1,1 @@
+"function getStartingRound(address _oracle) private view returns (uint32) {        uint32 currentRound = reportingRoundId;        if (currentRound != 0 && currentRound == oracles[_oracle].endingRound) {            return currentRound;        }        return currentRound.<mask0>;    }"

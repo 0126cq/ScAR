@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value)\t\twhen_liquid\t\treturns (bool)\t{\t\trequire (_value == 0 || accounts[msg.sender].allowanceOf[_spender] == 0);\t\t<mask0>;\t\taccounts[msg.sender].allowanceOf[_spender] = _value;\t\treturn true;\t}"

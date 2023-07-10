@@ -1,0 +1,1 @@
+"function _updateLpToken(uint256 poolId, uint256 allocPoint) internal {        require(poolId < _poolInfoCount, \"_updateLpToken: Pool is not exists\");        PoolInfo storage pool = _poolInfo[poolId];        _totalAllocPoint = _totalAllocPoint.sub(pool.allocPoint).<mask0>;        pool.allocPoint = allocPoint;    }"

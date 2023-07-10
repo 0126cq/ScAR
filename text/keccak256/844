@@ -1,0 +1,1 @@
+"function getFees(string memory key) public view returns (Fees memory) {        return serviceFees[<mask0>];    }"

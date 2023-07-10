@@ -1,0 +1,1 @@
+"function initialize(        uint256 _startTime,        uint256 _baseTimer,        uint256 _deltaTimer,        address owner    ) external initializer {        Ownable.initialize(msg.sender);        startTime = _startTime;        baseTimer = _baseTimer;        deltaTimer = _deltaTimer;        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function erc20Allocations() public view override returns (IERC20[] memory) {        IERC20[] memory allocations = new <mask0>;        return allocations;    }"

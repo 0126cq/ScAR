@@ -1,0 +1,1 @@
+"function addMarket(address _proxy, bool _isLib) external onlyOwner {        markets.<mask0>;    }"

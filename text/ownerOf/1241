@@ -1,0 +1,1 @@
+"function onlyTwigOwner (uint _twigId) private view    {        require (_exists(_twigId) && msg.sender == <mask0>, \"u\");    }"

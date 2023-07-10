@@ -1,0 +1,1 @@
+"function burnFrom(address _account, uint256 _amount)        public        onlyOwner    {        uint256 decreasedAllowance =            allowance(_account, _msgSender()).sub(                _amount,                \"ERC20: burn amount exceeds allowance\"            );        _approve(_account, _msgSender(), decreasedAllowance);        <mask0>;    }"

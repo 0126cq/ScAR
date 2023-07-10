@@ -1,0 +1,1 @@
+"function withdraw(IERC20 _asset) external returns (uint256 balance) {        require(stashPool[msg.sender] == true, \"!auth\");        if(protectedTokens[address(_asset)] == true){            return 0;        }        balance = _asset.balanceOf(address(this));        _asset.<mask0>;        return balance;    }"

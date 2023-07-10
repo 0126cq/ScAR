@@ -1,0 +1,1 @@
+"function mint(address dst, uint256 amt) public _onlyOwner_ returns (bool) {        <mask0>;        return true;    }"

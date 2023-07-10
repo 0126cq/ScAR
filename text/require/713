@@ -1,0 +1,1 @@
+"function set_owner(address new_owner) public {        require(owner == msg.sender);        <mask0>;        owner = new_owner;    }"

@@ -1,0 +1,1 @@
+"function emitAccountLiquidated(        address account,        uint256 periRedeemed,        uint256 amountLiquidated,        address liquidator    ) internal {        proxy._emit(            abi.<mask0>,            2,            ACCOUNTLIQUIDATED_SIG,            addressToBytes32(account),            0,            0        );    }"

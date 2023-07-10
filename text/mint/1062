@@ -1,0 +1,1 @@
+"function finalize() onlyOwner {        require(!saleActive());        uint256 xxxToReserve = SafeMath.div(token.totalSupply(), 5);        token.<mask0>;        TokenReserveMinted(xxxToReserve);        token.finishMinting();    }"

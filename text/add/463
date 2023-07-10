@@ -1,0 +1,1 @@
+"function release(address beneficiary) public {        uint256 unreleased = releasableAmount(beneficiary);        require(unreleased > 0);        uint256 investmentIndex = investorLUT[beneficiary];        investments[investmentIndex].released = investments[investmentIndex].released.<mask0>;        token.safeTransfer(beneficiary, unreleased);    }"

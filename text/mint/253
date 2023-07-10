@@ -1,0 +1,1 @@
+"function mintTokens(uint256 _amount, address _beneficiary, address _avatar)    external    onlyRegisteredScheme    onlySubjectToConstraint(\"mintTokens\")    isAvatarValid(_avatar)    returns(bool)    {        emit MintTokens(msg.sender, _beneficiary, _amount);        return nativeToken.<mask0>;    }"

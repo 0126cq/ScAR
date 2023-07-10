@@ -1,0 +1,1 @@
+"function _hash(string calldata salt, address _address)    public    view    returns (bytes32)  {    return keccak256(abi.<mask0>);  }"

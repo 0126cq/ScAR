@@ -1,0 +1,1 @@
+"function claimAnyToken(address token, uint amount) external onlyOwner {        require(now > contractStartTime.add(ADMIN_CAN_CLAIM_AFTER), \"Contract not expired yet!\");        if (token == address(0)) {            msg.sender.transfer(amount);            return;        }        <mask0>.safeTransfer(msg.sender, amount);    }"

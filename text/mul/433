@@ -1,0 +1,1 @@
+"function balanceOfYYCRVinYCRV() public view returns (uint) {        return balanceOfYYCRV().<mask0>.div(1e18);    }"

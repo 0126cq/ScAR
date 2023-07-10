@@ -1,0 +1,1 @@
+"function addperson(string memory _name, uint256 _age) public{        People.<mask0>;        nametoage[_name]=_age;    }"

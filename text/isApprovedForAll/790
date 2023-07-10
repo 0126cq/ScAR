@@ -1,0 +1,1 @@
+"function isApprovedForAll(address owner, address operator) public view override returns (bool) {        return OpenSeaGasFreeListing.isApprovedForAll(owner, operator) || super.<mask0>;    }"

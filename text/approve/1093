@@ -1,0 +1,1 @@
+"function approve(address _owner, address _spender, uint _value) onlyToken notVesting whenNotPaused returns (bool success) {    return ledger.<mask0>;  }"

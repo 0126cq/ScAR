@@ -1,0 +1,1 @@
+"function burnBatch(        address account,        uint256[] memory ids,        uint256[] memory values    ) public virtual {        <mask0>;        _burnBatch(account, ids, values);    }"

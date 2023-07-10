@@ -1,0 +1,1 @@
+"function _stake(address _staker, uint256 _amountBMI) internal updateRewardPool {        uint256 amountStkBMI = _convertToStkBMI(_amountBMI);        stkBMIToken.<mask0>;        totalPool = totalPool.add(_amountBMI);        emit StakedBMI(_amountBMI, amountStkBMI, _staker);    }"

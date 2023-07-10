@@ -1,0 +1,1 @@
+"function _tokenPayment(        address _token,        address payable _to,        uint256 _amount    ) internal {        if (address(_token) == ETH_ADDRESS) {            _to.transfer(_amount);        } else {            <mask0>;        }        emit TokensWithdrawn(_token, _to, _amount);    }"

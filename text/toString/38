@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override returns (string memory) {        if (!_exists(tokenId)) revert URIQueryForNonexistentToken();        return string(abi.encodePacked(_uriPrefix, tokenId.<mask0>, \".json\"));    }"

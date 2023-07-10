@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId) internal override(ERC721Upgradeable, NFT721Creator, NFT721Metadata, NFT721Mint) {    super.<mask0>;  }"

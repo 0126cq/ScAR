@@ -1,0 +1,1 @@
+"function rmul(uint x, uint y) internal pure returns (uint z) {        z = add(<mask0>, RAY / 2) / RAY;    }"

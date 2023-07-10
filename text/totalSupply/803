@@ -1,0 +1,1 @@
+"function _calcShare(uint128 liquidity, uint128 liquidityLast)        internal        view        returns (            uint256 shares        )    {        shares = <mask0> == 0 ? uint256(liquidity) : uint256(liquidity).mul(totalSupply()).unsafeDiv(uint256(liquidityLast));    }"

@@ -1,0 +1,1 @@
+"function _setImplementation2(        address newImplementation,        uint256 _index,        bool _alive    ) internal {        require(            Address.<mask0>,            \"Proxy: not contract address\"        );        if (_alive) proxyImplementation[_index] = newImplementation;        _setAliveImplementation2(newImplementation, _alive);    }"

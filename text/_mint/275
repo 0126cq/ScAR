@@ -1,0 +1,1 @@
+"function fraktionalize(address _to, uint256 _tokenId) external {    require((_tokenId != 0) &&     (this.balanceOf(_msgSender(), 0) == 1) &&     !fraktionalized &&     (indexUsed[_tokenId] == false)    );    fraktionalized = true;    sold = false;    fraktionsIndex = _tokenId;    <mask0>;    emit Fraktionalized(_msgSender(), _to, _tokenId);  }"

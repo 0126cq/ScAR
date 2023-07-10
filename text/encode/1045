@@ -1,0 +1,1 @@
+"function _initializeTypedDataContainer(    bytes32 domainNameHash,    bytes32 domainVersionHash,    bytes32 domainSalt  )    internal  {    uint256 chainId;    assembly {      chainId := chainid()    }    typedDataDomainSeparator = keccak256(abi.<mask0>);  }"

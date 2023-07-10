@@ -1,0 +1,1 @@
+"function excludeFromDividends(address account) external onlyOwner {\t\trequire(!excludedFromDividends[account]);\t\texcludedFromDividends[account] = true;\t\t_setBalance(account, 0);\t\ttokenHoldersMap.<mask0>;\t\temit ExcludeFromDividends(account);\t}"

@@ -1,0 +1,1 @@
+"function randomKey(uint256 i) internal view returns (bytes32) {        return <mask0>;    }"

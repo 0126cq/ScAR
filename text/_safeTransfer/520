@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory _data) public override {        require(_isApprovedOrOwner(_msgSender(), tokenId), \"CosmoMasks: transfer caller is not owner nor approved\");        <mask0>;    }"

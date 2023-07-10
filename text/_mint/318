@@ -1,0 +1,1 @@
+"function mint(address account, uint256 amount) public onlyMinter {        <mask0>;        emit Minted(msg.sender, account, amount);    }"

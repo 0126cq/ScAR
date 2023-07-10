@@ -1,0 +1,1 @@
+"function computeMemberUpdateMessage(address _account, bool _status) internal view returns (bytes32) {        Storage storage gs = governanceStorage();        bytes32 hashedData =            keccak256(                abi.encode(_account, _status, gs.administrativeNonce.<mask0>)            );        return ECDSA.toEthSignedMessageHash(hashedData);    }"

@@ -1,0 +1,1 @@
+"function apeMint(address to, uint256 id, uint256 quantity) external {        require(hasRole(MINTER_ROLE, _msgSender()), \"ERC1155PresetMinterPauser: must have minter role to mint\");        <mask0>;    }"

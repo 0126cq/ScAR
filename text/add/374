@@ -1,0 +1,1 @@
+"function addSigner(address signer) external onlyOwner {        signers.<mask0>;    }"

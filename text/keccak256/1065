@@ -1,0 +1,1 @@
+"function _eip712DomainHash() internal view returns(bytes32 eip712DomainHash) {        eip712DomainHash = keccak256(        abi.encode(            <mask0>,            keccak256(bytes(\"GOLLUM.XYZ\")),            keccak256(bytes(\"1\")),            1,            address(this)        )    );      }"

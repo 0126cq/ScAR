@@ -1,0 +1,1 @@
+"function _updateReward(address _account) internal virtual {        uint256 toMint = balanceOf(_account).sub(super.balanceOf(_account));        if (toMint > 0) {            <mask0>;        }        userRewardPerTokenPaid[_account] = rewardPerToken;    }"

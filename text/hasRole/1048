@@ -1,0 +1,1 @@
+"function isProxyAdmin(address account) public view virtual returns (bool) {        return <mask0>;    }"

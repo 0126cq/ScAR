@@ -1,0 +1,1 @@
+"function _removeMinter(address account) internal {    minters.<mask0>;    emit MinterRemoved(account);  }"

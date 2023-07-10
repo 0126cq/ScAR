@@ -1,0 +1,1 @@
+"function createFunToken(uint256 _amount, uint8 _tokenId)    public    onlyRole(MINTER_ROLE)     returns (uint256 amount, uint8 tokenId) {        <mask0>;        emit FungibleTokenMinted(msg.sender, _tokenId, _amount);        return (_amount, _tokenId);    }"

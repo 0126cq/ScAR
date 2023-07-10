@@ -1,0 +1,1 @@
+"function factoryMint(address _to) public {        require(factoryAddress == _msgSender(), \"Ownable: caller is not the factory!\");        uint256 newTokenId = _getNextTokenId();        <mask0>;        _incrementTokenId();    }"

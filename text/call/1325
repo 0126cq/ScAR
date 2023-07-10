@@ -1,0 +1,1 @@
+"function withdrawStuckEth() external onlyOwner {        (bool success,) = address(msg.sender).<mask0>;        require(success, \"failed to withdraw\");    }"

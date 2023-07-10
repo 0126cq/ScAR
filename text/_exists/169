@@ -1,0 +1,1 @@
+"function setRoyalties(uint256 tokenId, address payable[] calldata receivers, uint256[] calldata basisPoints) external override adminRequired {        require(<mask0>, \"Nonexistent token\");        _setRoyalties(tokenId, receivers, basisPoints);    }"

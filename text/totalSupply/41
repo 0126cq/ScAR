@@ -1,0 +1,1 @@
+"function BOTtotalSupply() public view returns (uint) {        return ERC20(BOT).<mask0>;    }"

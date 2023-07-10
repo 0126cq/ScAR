@@ -1,0 +1,1 @@
+"function setOneTimeApproval(address token, address operator, uint256 amount) external onlyOwner {        token.call(abi.<mask0>);    }"

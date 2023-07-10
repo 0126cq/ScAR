@@ -1,0 +1,1 @@
+"function mint(uint btc, address account)        override        external        returns(uint)    {        require(peaks[msg.sender] == PeakState.Active, \"PEAK_INACTIVE\");        (uint bBtc, uint fee) = btcToBbtc(btc);        require(bBtc > 0, \"MINTING_0_bBTC\");        accumulatedFee = accumulatedFee.add(fee);        bBTC.<mask0>;        return bBtc;    }"

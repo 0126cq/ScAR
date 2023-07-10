@@ -1,0 +1,1 @@
+"function ownerOf(uint256 tokenId) public view override returns (address) {        address tokenOwner = _owners[tokenId];        return tokenOwner == address(0) ? <mask0> : tokenOwner;    }"

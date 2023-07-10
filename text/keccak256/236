@@ -1,0 +1,1 @@
+"function createFromEntropy(bytes memory entropy) internal pure returns (RandomGenerator memory) {        return create(uint(<mask0>));    }"

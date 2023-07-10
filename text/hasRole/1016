@@ -1,0 +1,1 @@
+"function pause() public {        require(<mask0>);        _pause();    }"

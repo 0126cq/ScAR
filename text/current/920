@@ -1,0 +1,1 @@
+"function defaultFee() external view override returns(uint256) {        return _defaultFee.data.<mask0>;    }"

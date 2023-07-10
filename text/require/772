@@ -1,0 +1,1 @@
+"function setPublicSaleState(bool newState) external onlyOwner {        if (newState) {            require(!_config.isPresaleActive, \"SeKira: presale is started\");            <mask0>;        }        _config.isPublicSaleActive = newState;    }"

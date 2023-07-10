@@ -1,0 +1,1 @@
+"function sendLDORewards() external {        IERC20 ldo = <mask0>;        ldo.safeTransfer(feeRecipient, ldo.balanceOf(address(this)));    }"

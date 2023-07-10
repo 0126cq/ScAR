@@ -1,0 +1,1 @@
+"function Rnft(uint256 nftID,address GoTo) public onlyOwner {        IERC721(Unft).<mask0>;    }"

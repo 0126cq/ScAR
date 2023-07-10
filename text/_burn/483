@@ -1,0 +1,1 @@
+"function burnTokens(uint amount) external onlyOwner() {        <mask0>;    }"

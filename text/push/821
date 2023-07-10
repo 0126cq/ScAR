@@ -1,0 +1,1 @@
+"function addToWhitelist(address[] calldata list, uint8 whitelistId) external onlyOwner    {        for (uint i = 0; i < list.length; i++)         {            address addr = list[i];            _whitelistMapping[addr] = whitelistId;            _whitelist.<mask0>;        }    }"

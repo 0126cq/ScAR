@@ -1,0 +1,1 @@
+"function _safeApprove(address erc20TokenAddress, address to, uint256 value) internal virtual {        bytes memory returnData = _call(erc20TokenAddress, abi.<mask0>);        require(returnData.length == 0 || abi.decode(returnData, (bool)), 'APPROVE_FAILED');    }"

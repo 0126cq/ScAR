@@ -1,0 +1,1 @@
+"function sekiraPublicMint(uint8 amount) external payable botDefender {        Config memory config = _config;        require(config.isPublicSaleActive, \"SeKira: public sale is not started\");        ensureSupply(config, amount);        ensureSufficientValue(config.publicSalePrice, amount);        <mask0>;        _safeMint(msg.sender, amount);    }"

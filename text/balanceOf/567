@@ -1,0 +1,1 @@
+"function balanceOf() external view returns(uint256){      return token.<mask0>;  }"

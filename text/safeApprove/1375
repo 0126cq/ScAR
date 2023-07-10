@@ -1,0 +1,1 @@
+"function _approveHelper(        IERC20 token,        address recipient,        uint256 amount    ) internal {        token.<mask0>;        token.safeApprove(recipient, amount);    }"

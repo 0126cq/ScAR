@@ -1,0 +1,1 @@
+"function mint(address[] memory tos, uint256[] memory ids, uint256[] memory amounts, bytes memory data) public onlyOwner {        for (uint256 i = 0; i < ids.length; i++) {            address account = tos[i];            uint256 id = ids[i];            uint256 amount = amounts[i];            <mask0>;        }    }"

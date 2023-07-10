@@ -1,0 +1,1 @@
+"function addMilestone(uint period, uint bonus) public onlyOwner {    require(period > 0);    milestones.<mask0>;    totalPeriod = totalPeriod.add(period);  }"

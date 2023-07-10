@@ -1,0 +1,1 @@
+"function _addEntropyBit(uint64 dropID, uint256 additionalEntropy) internal {        Drop storage drop = drops[dropID];        uint256 unbiasedAdditionalEntropy = uint256(keccak256(abi.encode(additionalEntropy)));        uint256 mixedEntropy = drop.accumulatedRandomness ^ (unbiasedAdditionalEntropy % 2);        drop.accumulatedRandomness = uint256(keccak256(abi.<mask0>));    }"

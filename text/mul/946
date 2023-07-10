@@ -1,0 +1,1 @@
+"function mulInRatePrecision(int256 x, int256 y) internal pure returns (int256) {        return div(<mask0>, Constants.RATE_PRECISION);    }"

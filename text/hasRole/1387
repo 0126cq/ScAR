@@ -1,0 +1,1 @@
+"function _canMint() internal view virtual {\t\trequire(<mask0>, \"Reputation: need minter role\");\t}"

@@ -1,0 +1,1 @@
+"function _stake(address recipient, uint128 amount) internal {        token.<mask0>;        lockManager.grantVotingPower(recipient, address(token), amount);        stakedBalance[recipient] += amount;        emit Stake(recipient, amount);    }"

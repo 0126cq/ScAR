@@ -1,0 +1,1 @@
+"function hasAdminRole(address _address) external view returns (bool) {        return <mask0>;    }"

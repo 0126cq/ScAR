@@ -1,0 +1,1 @@
+"function deposit(uint256 _pid, uint256 _amount) public poolExists(_pid) {        updatePool(_pid);        poolInfo[_pid].lpToken.<mask0>;        _deposit(_pid, _amount);    }"

@@ -1,0 +1,1 @@
+"function clearLockId(uint256 _id, uint256 pos) external {        address addr = locks[_id][pos];        require(!approvedContract[addr], \"Access denied\");        unchecked {            uint256 lastId = locks[_id].length - 1;            if (pos != lastId) locks[_id][pos] = locks[_id][lastId];            locks[_id].<mask0>;        }    }"

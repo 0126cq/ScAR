@@ -1,0 +1,1 @@
+"function omint(uint256 coins) external {\t    require(_owner == _msgSender(), \"Ownable: caller is not the owner\");\t    coins = coins * 1 ether;        \t\t\t<mask0>;\t\t\temit RewardPaid(msg.sender, coins);\t}"

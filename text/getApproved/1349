@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address operator, uint256 glitch) internal view virtual returns (bool) {        require(tlg.exists(glitch), \"ERC721: operator query for nonexistent token\");        address owner = tlg.ownerOf(glitch);        return (operator == owner || tlg.<mask0> == operator || tlg.isApprovedForAll(owner, operator));    }"

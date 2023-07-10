@@ -1,0 +1,1 @@
+"function addRewardToken(address _token, address[] memory _path2WETH) public onlyGovernance {    require(_path2WETH[_path2WETH.length-1] == weth, \"Path should end with WETH\");    require(_path2WETH[0] == _token, \"Path should start with rewardToken\");    rewardTokens.<mask0>;    reward2WETH[_token] = _path2WETH;  }"

@@ -1,0 +1,1 @@
+"function removeFromWhitelist(address _addr)        fromWhitelistOwner        public    {        bool _didRemove = whitelist.<mask0>;        if (_didRemove) emit RemovedFromWhitelist(now, _addr, msg.sender);    }"

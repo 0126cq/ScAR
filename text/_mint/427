@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 amount) internal virtual override {        super.<mask0>;        require(totalSupply() <= _maxSupply(), \"ERC20Votes: total supply risks overflowing votes\");        _writeCheckpoint(_totalSupplyCheckpoints, _add, amount);    }"

@@ -1,0 +1,1 @@
+"function mintForCoreTeam(uint256 _mintAmount) external onlyOwner {        require(            _mintAmount % maxMint == 0,            \"can only mint a multiple of the maxBatchSize\"        );        uint256 nLoop = _mintAmount / maxMint;        for (uint256 i = 0; i < nLoop; i++) {            <mask0>;        }        reservedForCoreTeam = reservedForCoreTeam - _mintAmount;    }"

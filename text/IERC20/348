@@ -1,0 +1,1 @@
+"function burnFees() internal {        uint256 amountToBurn = burnFeePercentage.mul(balanceOf(address(this))).div(100);        <mask0>.transfer(burnAddress, amountToBurn);    }"

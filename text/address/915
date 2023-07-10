@@ -1,0 +1,1 @@
+"function claimComp(address holder) public {        address[] memory holders = new <mask0>;        holders[0] = holder;        return claimComp(holders, allMarkets, true, true);    }"

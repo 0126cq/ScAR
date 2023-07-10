@@ -1,0 +1,1 @@
+"function deposit(address _adapter, uint256 poolId, uint256 amount) external override returns (uint256) {        IVampireAdapter adapter = IVampireAdapter(_adapter);        IERC20 lpToken = adapter.lockableToken(poolId);        lpToken.<mask0>;        DODO_MINE.deposit(address(lpToken), amount);        return 0;    }"

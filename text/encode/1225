@@ -1,0 +1,1 @@
+"function emitTransfer(        address from,        address to,        uint value    ) internal {        proxy._emit(abi.<mask0>, 3, TRANSFER_SIG, addressToBytes32(from), addressToBytes32(to), 0);    }"

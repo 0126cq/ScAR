@@ -1,0 +1,1 @@
+"function deleteKey(string memory key) public {    require(msg.sender == governance, \"!gov\");    for(uint256 x = 0; x < keys.length; x++){      if(<mask0> == keccak256(bytes(keys[x]))) {        delete addresses[key];        keys[x] = keys[keys.length - 1];        keys.pop();        emit DeleteKey(key);        return;      }    }  }"

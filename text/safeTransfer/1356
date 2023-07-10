@@ -1,0 +1,1 @@
+"function claimPickle(address _gauge) external returns (uint256){        require(msg.sender == operator, \"!auth\");        uint256 _balance = 0;        try IPickleGauge(_gauge).getReward(){            _balance = IERC20(pickle).balanceOf(address(this));            IERC20(pickle).<mask0>;        }catch{}        return _balance;    }"

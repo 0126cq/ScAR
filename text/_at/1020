@@ -1,0 +1,1 @@
+"function at (    AddressSet storage set,    uint index  ) internal view returns (address) {    return address(uint160(uint(<mask0>)));  }"

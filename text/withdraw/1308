@@ -1,0 +1,1 @@
+"function withdrawAllAvailable(address token) public returns(bool) {        uint256 amount = ~uint256(0);        return <mask0>;    }"

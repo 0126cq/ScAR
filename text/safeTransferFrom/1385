@@ -1,0 +1,1 @@
+"function safeTransferFrom(address _token, address _sender, uint _amount) public {    require(_amount > 0, \"TransferHelper: amount must be > 0\");    IERC20(_token).<mask0>;  }"

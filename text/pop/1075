@@ -1,0 +1,1 @@
+"function removeTeamMember(address payable _member) external onlyOwner {\t\tfor (uint256 i = 0; i < team.length; i++)\t\t\tif (team[i] == _member) {\t\t\t\tdelete teamShare[_member];\t\t\t\tteam[i] = team[team.length - 1];\t\t\t\tteam.<mask0>;\t\t\t}\t}"

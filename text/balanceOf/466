@@ -1,0 +1,1 @@
+"function rewardPoolBalance() internal view returns (uint256 bal) {      bal = IBaseRewardPool(rewardPool()).<mask0>;  }"

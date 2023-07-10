@@ -1,0 +1,1 @@
+"function cleanUpHolders() internal {    uint16 cur = 0;    while(cur < holders.length()){      if (this.<mask0> < 1) {        holders.remove(holders.at(cur));        cur=0;      }      cur++;    }  }"

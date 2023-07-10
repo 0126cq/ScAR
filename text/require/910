@@ -1,0 +1,1 @@
+"function ResetKeeper(address addr) public BotPower returns (bool) {        <mask0>;        keeper = addr;        return true;    }"

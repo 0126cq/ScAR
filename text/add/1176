@@ -1,0 +1,1 @@
+"function ceil(uint256 a, uint256 m) internal pure returns (uint256) {    uint256 c = <mask0>;    uint256 d = sub(c,1);    return mul(div(d,m),m);  }"

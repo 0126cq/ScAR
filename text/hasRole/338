@@ -1,0 +1,1 @@
+"function setReferralPrice(uint256 _price)        external    {        require(<mask0>, \"SHFAffiliate: Caller is not admin\");        require(_price > 0, \"SHFAffiliate: Price not accepted\");        referralPrice = _price;    }"

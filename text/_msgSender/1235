@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public {        require(_isApprovedOrOwner(<mask0>, tokenId), \"Not allowed\");        _burn(tokenId);        mintedCounter.decrement();    }"

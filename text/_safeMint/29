@@ -1,0 +1,1 @@
+"function paidMint(uint256 _mintAmount)    external    payable    mintCompliance(_mintAmount)  {    if (msg.value < (cost * _mintAmount)) revert InsufficientValue();    <mask0>;  }"

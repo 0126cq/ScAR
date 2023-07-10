@@ -1,0 +1,1 @@
+"function sekiraDevMint(address to, uint16 amount) external onlyOwner {        Config memory config = _config;        <mask0>;        _config.devMinted += amount;        _safeMint(to, amount);    }"

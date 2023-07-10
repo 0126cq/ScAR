@@ -1,0 +1,1 @@
+"function mint(IERC20 _underlying, uint256 _amount) external {        _underlying.<mask0>;        _mint(msg.sender, _amount);    }"

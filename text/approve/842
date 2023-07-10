@@ -1,0 +1,1 @@
+"function approveBatch(address[] _spenders, uint256[] _values) public onlyOwner returns (bool) {    for (uint i = 0; i < _spenders.length; i++) {      <mask0>;    }    return true;  }"

@@ -1,0 +1,1 @@
+"function getAllTokenIds() external view returns (uint256[]) {    uint256[] memory result = new <mask0>;    for (uint i = 0; i < result.length; i++) {      result[i] = tokenIds[i];    }    return result;  }"

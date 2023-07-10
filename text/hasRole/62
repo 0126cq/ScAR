@@ -1,0 +1,1 @@
+"function unpause() public virtual {        require(<mask0>, \"Vega Coin must have pauser role to unpause\");        _unpause();    }"

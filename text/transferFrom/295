@@ -1,0 +1,1 @@
+"function doERC20Transfer(address from, address to, uint amount) internal returns (bool) {    ERC20UpgradeSafe erc20 = ERC20UpgradeSafe(erc20address);    uint balanceBefore = erc20.balanceOf(to);    bool success = erc20.<mask0>;    uint balanceAfter = erc20.balanceOf(to);    require(balanceAfter >= balanceBefore, \"Token Transfer Overflow Error\");    return success;  }"

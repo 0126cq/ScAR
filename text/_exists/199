@@ -1,0 +1,1 @@
+"function royaltyInfo(uint256 tokenId, uint256 salePrice)        external        view        override        returns (address receiver, uint256 royaltyAmount)    {        require(<mask0>, \"Nonexistent token\");        return (address(this), SafeMath.div(SafeMath.mul(salePrice, 5), 100));    }"

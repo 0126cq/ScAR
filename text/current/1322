@@ -1,0 +1,1 @@
+"function rewards(uint256 _mintAmount, address destination) public onlyOwner {        uint256 supply = _tokenSupply.<mask0>;        require(_mintAmount > 0, \"need to mint at least 1 NFT\");        require(supply + _mintAmount <= maxSupply, \"max NFT limit exceeded\");        _safeMintRewards(_mintAmount, destination);    }"

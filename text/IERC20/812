@@ -1,0 +1,1 @@
+"function withdrawERC20(        address _to,        address _token,        uint256 _amount    ) external onlyOwner {        <mask0>.transfer(_to, _amount);    }"

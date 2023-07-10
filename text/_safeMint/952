@@ -1,0 +1,1 @@
+"function mintEmotion(uint256[] memory randomizedTokens) public payable {        uint256 numberOfTokens = randomizedTokens.length;        require(mintEnabled);        require(msg.value >= mintPrice * numberOfTokens);        require(numberOfTokens <= maxPurchase);        for (uint256 i = 0; i < numberOfTokens; i++) {            <mask0>;        }    }"

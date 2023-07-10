@@ -1,0 +1,1 @@
+"function finalizeCrowdsale() public {    <mask0>;    if (token.reservedTokensDestinationsLen() > 0) {      assert(reservedTokensAreDistributed);    }    token.releaseTokenTransfer();  }"

@@ -1,0 +1,1 @@
+"function burn(uint256 _value) returns (bool){    balances[msg.sender] = safeSub(balances[msg.sender], _value) ;    totalSupply = <mask0>;    Transfer(msg.sender, 0x0, _value);    return true;  }"

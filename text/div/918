@@ -1,0 +1,1 @@
+"function _harvest (uint128 epochId) internal returns (uint) {        if (lastInitializedEpoch < epochId) {            _initEpoch(epochId);        }        lastEpochIdHarvested[msg.sender] = epochId;        if (epochs[epochId] == 0) {            return 0;        }        return _totalAmountPerEpoch        .mul(_getUserBalancePerEpoch(msg.sender, epochId))        .<mask0>;    }"

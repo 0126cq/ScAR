@@ -1,0 +1,1 @@
+"function depositERC721(address _token, uint256 _tokenId) external {        require(_token != address(this), \"can't deposit self\");        IERC721(_token).<mask0>;        emit Deposit(_token, _tokenId, msg.sender);    }"

@@ -1,0 +1,1 @@
+"function burn(address _who, uint256 _value) public onlyOwner {        require(_value <= super.<mask0>, \"Balance is too small.\");        _burn(_who, _value);        emit Burn(_who, _value);    }"

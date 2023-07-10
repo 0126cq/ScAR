@@ -1,0 +1,1 @@
+"function get_seconds_until_epoch_end(uint256 epoch) public view returns (uint256) {    return epoch_cycle.start_date.add(epoch.add(1).<mask0>).sub(block.timestamp);  }"

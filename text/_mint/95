@@ -1,0 +1,1 @@
+"function _createDomain(    uint256 parentId,    uint256 domainId,    address minter,    address controller  ) internal {    <mask0>;    records[domainId] = DomainRecord({      parentId: parentId,      minter: minter,      metadataLocked: false,      metadataLockedBy: address(0),      controller: controller,      royaltyAmount: 0,      subdomainContract: address(0)    });  }"

@@ -1,0 +1,1 @@
+"function ERC20Token(string _name, string _symbol, uint8 _decimals, uint256 _totalSupply, address _initialTokenHolder) public {      tokenName = _name;      tokenSymbol = _symbol;      tokenDecimals = _decimals;      tokenTotalSupply = _totalSupply;      balances[_initialTokenHolder] = _totalSupply;      <mask0>;   }"

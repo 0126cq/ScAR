@@ -1,0 +1,1 @@
+"function totalSupply() public view returns(uint256) {        uint256 currentSupplyPrincipal = super.<mask0>;        if(currentSupplyPrincipal == 0){            return 0;        }        return currentSupplyPrincipal            .wadToRay()            .rayMul(core.getReserveNormalizedIncome(underlyingAssetAddress))            .rayToWad();    }"

@@ -1,0 +1,1 @@
+"function claimProfits(address account)        external        override        returns (uint256 profit)    {        saveProfits(account);        profit = savedProfit[account];        require(profit > 0, \"Zero profit\");        savedProfit[account] = 0;        realisedBalance -= profit;        token.<mask0>;        emit Claim(account, profit);    }"

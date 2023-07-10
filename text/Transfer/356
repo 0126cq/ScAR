@@ -1,0 +1,1 @@
+"function burn(uint _amount) notPaused {\t\tcontroller.burn(msg.sender, _amount);\t\t<mask0>;\t}"

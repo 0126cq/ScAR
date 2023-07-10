@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public updateReward(msg.sender) checkhalve checkStart{        require(amount > 0, \"Cannot withdraw 0\");        super.<mask0>;        emit Withdrawn(msg.sender, amount);    }"

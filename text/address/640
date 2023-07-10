@@ -1,0 +1,1 @@
+"function getPools(address deployer) public view returns (address[] memory) {        uint256 length = numPools(deployer);        address[] memory pools = new <mask0>;        for (uint256 i = 0; i < length; i++) {            pools[i] = _getPool(deployer, i);        }        return pools;    }"

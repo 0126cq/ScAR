@@ -1,0 +1,1 @@
+"function getTokenPrice(address pairAddress, uint amount) public view returns(uint)        {            IUniswapV2Pair pair = IUniswapV2Pair(pairAddress);            ERC20 token1 = <mask0>;            (uint Res0, uint Res1,) = pair.getReserves();            uint res0 = Res0*(10**token1.decimals());            return((amount*res0)/Res1);         }"

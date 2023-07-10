@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 tokenId    ) public virtual override(ERC721) {        require(hasAuction(tokenId) == false);        require(<mask0>);        safeTransferFrom(from, to, tokenId, \"\");    }"

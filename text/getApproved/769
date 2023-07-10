@@ -1,0 +1,1 @@
+"function canBid(uint256 tokenId) public view returns (bool) {        if (!msg.sender.isContract() &&            auctions[tokenId].open &&            now <= auctions[tokenId].auctionEnd &&            msg.sender != ownerOf(tokenId) &&            <mask0> == address(this)        ) {            return true;        } else {            return false;        }    }"

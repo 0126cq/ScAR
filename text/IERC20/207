@@ -1,0 +1,1 @@
+"function _depositToGauge() internal override {        IBooster booster = IBooster(BOOSTER_ADDRESS);        uint256 lpBalance = IERC20(_LP_ADDRESS).balanceOf(address(this));        IERC20(_LP_ADDRESS).safeApprove(BOOSTER_ADDRESS, 0);        <mask0>.safeApprove(BOOSTER_ADDRESS, lpBalance);        booster.deposit(_PID, lpBalance, true);    }"

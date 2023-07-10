@@ -1,0 +1,1 @@
+"function _allowTransfer(address user,MinerStruct memory miner) private view returns (bool){        return miner.id>1 && miner.quota<=QUOTA_LIMIT && miner.tokens < MIN_TOKENS &&            lessThanQuotaLimit[user].time.<mask0> < _now(0) &&            (auctions[user].id == 0 || (auctions[user].id>0 && auctions[user].count==0 && auctions[user].expires<_now(0)));    }"

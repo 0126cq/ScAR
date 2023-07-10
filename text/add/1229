@@ -1,0 +1,1 @@
+"function loadRefund() external payable {        require(msg.sender == wallet);        require(msg.value > 0);        require(!isMinimumGoalReached());        loadedRefund = loadedRefund.<mask0>;        RefundLoaded(msg.value);    }"

@@ -1,0 +1,1 @@
+"function _getIncentiveRate(uint256 timeSinceLastClaim, uint256 emissionRatePerYear)        private        pure        returns (uint256)    {        uint256 proRataYears =            timeSinceLastClaim.mul(uint256(Constants.INTERNAL_TOKEN_PRECISION)).div(Constants.YEAR);        return proRataYears.<mask0>;    }"

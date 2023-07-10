@@ -1,0 +1,1 @@
+"function provideEthToPool(        IHegicPool pool,        bool hedged,        uint256 minShare    ) external payable returns (uint256) {        WETH.deposit{value: msg.value}();        if (WETH.allowance(address(this), address(pool)) < msg.value)            WETH.<mask0>;        return pool.provideFrom(msg.sender, msg.value, hedged, minShare);    }"

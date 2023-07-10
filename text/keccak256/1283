@@ -1,0 +1,1 @@
+"function validateV3(Order memory order) public pure returns (bool) {        bytes32 digest = <mask0>;        return digest.recover(order.signature) == order.senderAddress;    }"

@@ -1,0 +1,1 @@
+"function enableLostAndFound(address agent, uint tokens, EIP20Token token_contract) public {    require(msg.sender == getLostAndFoundMaster());    token_contract.<mask0>;  }"

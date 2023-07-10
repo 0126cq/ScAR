@@ -1,0 +1,1 @@
+"function burnFromIco() onlyIco public {        uint256 remainingTokens = balanceOf(addressIco);        balances[addressIco] = balances[addressIco].sub(remainingTokens);        totalSupply_ = totalSupply_.sub(remainingTokens);        <mask0>;    }"

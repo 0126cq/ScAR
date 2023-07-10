@@ -1,0 +1,1 @@
+"function deleteKey(string memory key) public {    <mask0>;    for(uint256 x = 0; x < keys.length; x++){      if(keccak256(bytes(key)) == keccak256(bytes(keys[x]))) {        delete addresses[key];        keys[x] = keys[keys.length - 1];        keys.pop();        emit DeleteKey(key);        return;      }    }  }"

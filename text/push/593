@@ -1,0 +1,1 @@
+"function swapMe() public {        uint allowance = proxyToken.allowance(msg.sender,address(this));        require(token.balanceOf(address(this)) >= allowance);        require(token.transfer(msg.sender, allowance));        require(proxyToken.transferFrom(msg.sender,address(this),allowance));        swaps.<mask0>;    }"

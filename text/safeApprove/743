@@ -1,0 +1,1 @@
+"function sendTreasuryBoost() external updateEpochRewards {        uint256 boosterAmount = boostToken.balanceOf(address(this));        boostToken.<mask0>;        controller.treasury().deposit(boostToken, boosterAmount);    }"

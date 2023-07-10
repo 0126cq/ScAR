@@ -1,0 +1,1 @@
+"function __isApprovedForAll(address _owner, address operator)        public        view        override        returns (bool)    {        return <mask0>;    }"

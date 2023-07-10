@@ -1,0 +1,1 @@
+"function harvest( bool _stake ) external {        for( uint i = 0; i < pids.length; i++ ) {            uint pid = pids[i];            if ( pid != 0 ) {                 IMasterChef( masterChef ).<mask0>;             }        }        enterSushiBar( _stake );    }"

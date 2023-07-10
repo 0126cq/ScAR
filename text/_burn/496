@@ -1,0 +1,1 @@
+"function leave(        uint256 _amount    )        public    {        require(_amount > 0, \"!_amount\");        <mask0>;        YAX.safeTransfer(msg.sender, _amount.mul(getPricePerFullShare()).div(1e18));    }"

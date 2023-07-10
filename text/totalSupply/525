@@ -1,0 +1,1 @@
+"function mintQuest(address recipient) internal nonReentrant {        require(<mask0> < 10000 , \"All quests have been set\");        require(balanceOf(recipient) < 3, \"Can hold max 3 quests at once\");        _safeMint(recipient, totalSupply()+1);    }"

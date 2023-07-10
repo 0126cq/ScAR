@@ -1,0 +1,1 @@
+"function withdrawERC721(    address _token,    address _account,    uint256 _tokenId  ) public onlyOwner {    IERC721 token = IERC721(_token);    token.<mask0>;  }"

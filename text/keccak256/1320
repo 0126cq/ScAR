@@ -1,0 +1,1 @@
+"function setContractURI(string memory _contract_uri) public onlyAdmin {        require(<mask0> != keccak256(abi.encodePacked((_contract_uri))), \"this uri is already setted\");        contract_uri = _contract_uri;    }"

@@ -1,0 +1,1 @@
+"function getActualOutput(        uint256 _scaledOutput,        uint256 _initialSum,        uint256 _actualSum    ) internal pure returns (uint256) {        if (_initialSum == 0 || _actualSum == 0) return 0;        return (_scaledOutput.<mask0>).div(_initialSum);    }"

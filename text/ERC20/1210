@@ -1,0 +1,1 @@
+"function returnFlashLoan(address _tokenAddr, uint _amount) internal {        if (_tokenAddr != ETH_ADDRESS) {            <mask0>.safeTransfer(msg.sender, _amount);        }        msg.sender.transfer(address(this).balance);    }"

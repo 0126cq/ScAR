@@ -1,0 +1,1 @@
+"function _getCurrentSupply() private view returns(uint256, uint256) {\t\tuint256 rSupply = _rTotal;\t\tuint256 tSupply = _tTotal;\t\tif (rSupply < _rTotal.<mask0>) return (_rTotal, _tTotal);\t\treturn (rSupply, tSupply);\t}"

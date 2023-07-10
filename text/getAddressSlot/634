@@ -1,0 +1,1 @@
+"function initialize(address _access)    public    initializer    {        assert(_STORAGE_SLOT == bytes32(uint256(keccak256(\"eip1967.accesscontrol.storage\")) - 1));        StorageSlot.<mask0>.value = _access;    }"

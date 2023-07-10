@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {        if(!<mask0>) revert NonexistentToken();        return metadataImplementation.tokenURI(_tokenId);"

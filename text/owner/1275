@@ -1,0 +1,1 @@
+"function revokeNFT(uint256 tokenId, address from)        public        onlyOwner    {        approveTokenTransfer(tokenId, <mask0>, true);        _transfer(from, owner(), tokenId);        emit NFTRevoked(tokenId, from, owner());    }"

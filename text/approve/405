@@ -1,0 +1,1 @@
+"function approveSpendERC20(address token, address spender, uint256 value)        public onlyModerator returns (bool)    {        ERC20 t = ERC20(token);        return t.<mask0>;    }"

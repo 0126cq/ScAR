@@ -1,0 +1,1 @@
+"function investAllUnderlying() internal onlyNotPausedInvesting {    if(IERC20(underlying).balanceOf(address(this)) > 0) {      IERC20(underlying).<mask0>;      rewardPool.deposit(poolId, IERC20(underlying).balanceOf(address(this)));    }  }"

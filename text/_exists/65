@@ -1,0 +1,1 @@
+"function royaltyInfo(uint tokenId, uint salePrice) external view override returns(address receiver, uint256 royaltyAmount) {        require(<mask0>, \"Royality querry for non-existant token!\");        return(owner(), salePrice * EIP2981RoyaltyPercent / 10000);    }"

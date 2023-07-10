@@ -1,0 +1,1 @@
+"function SancojTokenContract ()public {        totalSupply_ = INITIAL_SUPPLY;        balances[msg.sender] = totalSupply_;        <mask0>;        owner = msg.sender;    }"

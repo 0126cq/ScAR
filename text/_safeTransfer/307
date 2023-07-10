@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 tokenid,        bytes memory _data    ) public payable virtual override {        ifAllOk(tokenid);        distribShares(from, address(0), msg.value);        <mask0>;        lastTransact[tokenid]=block.timestamp;    }"

@@ -1,0 +1,1 @@
+"function addRewards(uint256 tokens)        public        onlyOwner    {        totalRewardShares = totalRewardShares.add(tokensToShares(tokens));        bool ok = BASE.<mask0>;        require(ok, \"transfer\");        emit AddRewards(tokens, sharesToTokens(totalRewardShares));    }"

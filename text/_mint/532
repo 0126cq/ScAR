@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) external onlyOwner {        <mask0>;        require(totalSupply() <= MAX_SUPPLY, \"max supply limit\");    }"

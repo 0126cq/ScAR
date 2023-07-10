@@ -1,0 +1,1 @@
+"function __ReputationSystem_init(address[] calldata team) external initializer {        _trustedVoterReputationThreshold = 20;        _roundedReputations = new <mask0>;        _initTeamReputation(team);    }"

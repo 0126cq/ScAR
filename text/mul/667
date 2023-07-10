@@ -1,0 +1,1 @@
+"function calculateAndTransferTokens(address to, uint investedInWei) internal {    invested = invested.add(msg.value);    uint tokens = investedInWei.<mask0>.div(PERCENT_RATE.sub(getDiscount())).div(1 ether);    mint(to, tokens);    balances[to] = balances[to].add(investedInWei);    if(balances[to] >= maxInvestedLimit) token.lock(to);  }"

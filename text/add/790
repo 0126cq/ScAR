@@ -1,0 +1,1 @@
+"function investedUnderlyingBalance() external view returns (uint256) {    return rewardPoolBalance()      .add(IERC20(depositReceipt()).balanceOf(address(this)))      .<mask0>;  }"

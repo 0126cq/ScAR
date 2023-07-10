@@ -1,0 +1,1 @@
+"function random(uint N, uint salt)        internal        view    returns(uint) {        bytes32 hash = <mask0>;        return uint(hash) % N;    }"

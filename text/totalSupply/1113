@@ -1,0 +1,1 @@
+"function mint(uint256 quantity) public payable saleActive mintAvailability(quantity) mintMaxPerTxn(quantity) {        if (<mask0> + quantity > freeMaxSupply) {            require(msg.value >= price * quantity, \"Free mint is sold out, use correct price\");        }        _safeMint(msg.sender, quantity);    }"

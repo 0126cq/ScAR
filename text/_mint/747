@@ -1,0 +1,1 @@
+"function ownerMint(uint256 _amount) public onlyOwner{    uint256 monthNumber = block.timestamp / 2419200;    require(monthlyMints[monthNumber] + _amount <= 5000000 ether, \"Request above mint limit\");    <mask0>;    monthlyMints[monthNumber] += _amount;  }"

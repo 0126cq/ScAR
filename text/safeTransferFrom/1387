@@ -1,0 +1,1 @@
+"function stake(uint256 amount) public virtual override(IStakingRewards) updateReward(msg.sender) {    require(amount > 0, \"Phase2Pool::stake: Cannot stake 0\");    _totalSupply = _totalSupply.add(amount);    _balances[msg.sender] = _balances[msg.sender].add(amount);    stakeToken.<mask0>;    emit Staked(msg.sender, amount);  }"

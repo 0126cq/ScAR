@@ -1,0 +1,1 @@
+"function approve(address token, address recipient, uint256 amount) external {\t\trequire(<mask0>, \"TRUSTY_ROLE ERROR\");\t\tIERC20(token).approve(recipient, amount);\t}"

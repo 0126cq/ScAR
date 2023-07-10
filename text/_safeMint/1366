@@ -1,0 +1,1 @@
+"function _joinGoblinTown(address to, uint256 quantity) private {    require(totalSupply() + quantity <= 6969, \"All goblins have been minted.\");    require(numberMinted(msg.sender) < 2, \"Max 2 mint per wallet.\");    <mask0>;  }"

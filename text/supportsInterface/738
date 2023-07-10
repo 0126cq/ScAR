@@ -1,0 +1,1 @@
+"function supportsInterface(    bytes4 _interfaceID  ) public override (    ModuleAuth,    ModuleCalls,    ModuleCreator  ) pure returns (bool) {    return super.<mask0>;  }"

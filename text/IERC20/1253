@@ -1,0 +1,1 @@
+"function inCaseTokensGetStuck(        address _token,        uint256 _amount    ) external onlyStrategist {        <mask0>.safeTransfer(vaultManager.governance(), _amount);    }"

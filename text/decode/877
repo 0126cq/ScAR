@@ -1,0 +1,1 @@
+"function _safeTransfer(         address token,         address to,         uint256 amount     ) internal virtual {         (bool success, bytes memory data) =             token.call(                 abi.encodeWithSelector(0xa9059cbb, to, amount)             );         require(success && (data.length == 0 || abi.<mask0>));      }"

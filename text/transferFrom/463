@@ -1,0 +1,1 @@
+"function paywBTC(uint256 amount) external {        require(            INterfaces(wbtc).<mask0>,            ERR_TRANSFER        );        _paywBTC(msg.sender, amount );        _deposited[wbtc] += amount;    }"

@@ -1,0 +1,1 @@
+"function transfer(bytes[] calldata signatures, uint256 nonce, address to, uint256 value) external {        require(!usedNonces[nonce], \"nonce was already used\");        bytes32 hash = keccak256(abi.<mask0>);        checkQuorum(hash, signatures);        payable(to).transfer(value);        usedNonces[nonce] = true;    }"

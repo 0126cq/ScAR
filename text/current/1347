@@ -1,0 +1,1 @@
+"function safeMint(address to) private     {        _safeMint(to, _tokenIdCounter.<mask0>);        _tokenIdCounter.increment();    }"

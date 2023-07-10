@@ -1,0 +1,1 @@
+"function _burn(address account, uint amount) internal {        require(account != address(0), \"ERC20: burn from the zero address\");        _balances[account] = _balances[account].<mask0>;        _totalSupply = _totalSupply.sub(amount);    }"

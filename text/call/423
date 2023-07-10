@@ -1,0 +1,1 @@
+"function withdraw() public {        (bool success, ) = payable(owner()).<mask0>;        require(success, \"Withdraw failed!\");    }"

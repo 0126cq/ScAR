@@ -1,0 +1,1 @@
+"function resetAllowanceIfNeeded(IERC20 _token, address _spender, uint256 _amount) internal {    uint256 allowance = _token.<mask0>;    if (allowance < _amount) {      uint256 newAllowance = 0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff;      IERC20(_token).safeIncreaseAllowance(address(_spender), newAllowance.sub(allowance));    }  }"

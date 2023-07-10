@@ -1,0 +1,1 @@
+"function withdraw(IERC20 _token) external onlyOwner {        if (_token == IERC20(address(0))) {            payable(owner()).transfer(address(this).balance);        } else {            uint256 withdrawAmount = _token.balanceOf(address(this));            if (withdrawAmount > 0) {                _token.<mask0>;            }        }    }"

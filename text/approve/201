@@ -1,0 +1,1 @@
+"function _distributeToTransmuter(uint256 amount) internal {        token.<mask0>;        ITransmuter(transmuter).distribute(address(this),amount);        xtoken.lowerHasMinted(amount);  }"

@@ -1,0 +1,1 @@
+"function leftPad(bytes memory _bytes) internal pure returns (bytes memory) {        bytes memory newBytes = new <mask0>;        return concat(newBytes, _bytes);    }"

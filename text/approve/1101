@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 value) public returns (bool) {        target.setMessageSender(msg.sender);        IERC20(address(target)).<mask0>;        return true;    }"

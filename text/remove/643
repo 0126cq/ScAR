@@ -1,0 +1,1 @@
+"function multiRemoveWhiteList(address[] memory members) public onlyOwner    {        uint256 count = members.length;        for(uint256 i = 0; i < count; i++) {            if(whitelist.contains(members[i])) {                whitelist.<mask0>;            }        }            emit whitelistMultiRemoved(members);    }"

@@ -1,0 +1,1 @@
+"function mint(uint256 quantity) public {        require(msg.sender == minter, \"You are not owner!\");        require(<mask0> + quantity <= 10000, \"Can't mint anymore\");        _safeMint(msg.sender, quantity);    }"

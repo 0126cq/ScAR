@@ -1,0 +1,1 @@
+"function compatDecimals(IERC20TokenV06 token)        internal        view        returns (uint8 tokenDecimals)    {        tokenDecimals = 18;        (bool didSucceed, bytes memory resultData) = address(token).<mask0>;        if (didSucceed && resultData.length >= 32) {            tokenDecimals = uint8(LibBytesV06.readUint256(resultData, 0));        }    }"

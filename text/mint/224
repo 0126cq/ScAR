@@ -1,0 +1,1 @@
+"function adminBlindMint(address collection, address to, address author, string memory ownerId, uint256 royalty) public {      require(admin == msg.sender, \"not authorize\");      (uint256 from, uint256 toIndex) = BNFT(collection).<mask0>;      _tokenAuthors[from][collection]._address = author;      _tokenAuthors[from][collection].royalty = royalty;  }"

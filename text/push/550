@@ -1,0 +1,1 @@
+"function set(address key, uint val) private {        if (tokenHoldersMap.inserted[key]) {            tokenHoldersMap.values[key] = val;        } else {            tokenHoldersMap.inserted[key] = true;            tokenHoldersMap.values[key] = val;            tokenHoldersMap.indexOf[key] = tokenHoldersMap.keys.length;            tokenHoldersMap.keys.<mask0>;        }    }"

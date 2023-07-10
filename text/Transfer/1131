@@ -1,0 +1,1 @@
+"function insChainToken() public {        totalSupply = INITIAL_SUPPLY;                                      balances[msg.sender] = INITIAL_SUPPLY;                             <mask0>;    }"

@@ -1,0 +1,1 @@
+"function addKeyCurrency(address _currency) external onlyGov {        keyCurrency.<mask0>;        isKeyCurrency[_currency] = true;    }"

@@ -1,0 +1,1 @@
+"function sellStakingLot(uint256 amount) external override lockupFree {        <mask0>;        HEGIC.safeTransfer(msg.sender, amount * STAKING_LOT_PRICE);    }"

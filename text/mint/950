@@ -1,0 +1,1 @@
+"function claimReward() external {          _updateRewards(_msgSender(), block.timestamp);        uint256 tmpReward = currentUserReward[_msgSender()];        currentUserReward[_msgSender()] = 0;        if(tmpReward > 0)            erc20token.<mask0>;    }"

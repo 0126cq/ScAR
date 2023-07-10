@@ -1,0 +1,1 @@
+"function mint(uint256 sid, address to) public virtual returns (uint256 _tokenId) {      require(<mask0>, \"Deafbeef721: must have minter role to mint\");      return _mintInternal(sid,to);    }"

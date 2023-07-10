@@ -1,0 +1,1 @@
+"function redeem(uint256 tokenId) public {        require(msg.sender == <mask0>, \"Not the owner\");        uint256 count = _redeemCount[tokenId];        require(count > 0, \"Cannot redeem anymore.\");        uint256 remaining = count.sub(1);        _redeemCount[tokenId] = remaining;        emit TokenRedeem(msg.sender, tokenId, remaining);    }"

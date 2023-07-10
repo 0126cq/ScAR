@@ -1,0 +1,1 @@
+"function mulCeil(Unsigned memory a, Unsigned memory b) internal pure returns (Unsigned memory) {    uint256 mulRaw = a.rawValue.mul(b.rawValue);    uint256 mulFloor = mulRaw / FP_SCALING_FACTOR;    uint256 mod = mulRaw.<mask0>;    if (mod != 0) {      return Unsigned(mulFloor.add(1));    } else {      return Unsigned(mulFloor);    }  }"

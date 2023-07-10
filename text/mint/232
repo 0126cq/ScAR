@@ -1,0 +1,1 @@
+"function mintAndTransfer(address receiver, uint amount) private {        token.<mask0>;        token.transfer(receiver, amount);    }"

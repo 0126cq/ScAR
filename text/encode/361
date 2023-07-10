@@ -1,0 +1,1 @@
+"function encodeEvent(string memory eventName, bytes memory eventParam) internal pure returns (bytes memory) {        return abi.<mask0>;    }"

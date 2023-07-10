@@ -1,0 +1,1 @@
+"function addFactions(uint8[] memory numbers) public {        for (uint256 x = 0; x < numbers.length; x++) {            factions.<mask0>;        }    }"

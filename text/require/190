@@ -1,0 +1,1 @@
+"function addMinter(address minter_address) public onlyByOwnGov {        require(minter_address != address(0), \"Zero address detected\");        <mask0>;        minters[minter_address] = true;         minters_array.push(minter_address);        emit MinterAdded(minter_address);    }"

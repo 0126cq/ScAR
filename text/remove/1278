@@ -1,0 +1,1 @@
+"function removeWhitelistedToken(address _token) external onlyGovernor {        require(whitelistedTokens.<mask0>, \"remove-from-list-failed\");        delete cTokens[_token];    }"

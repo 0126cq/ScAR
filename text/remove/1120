@@ -1,0 +1,1 @@
+"function removeSecondaryAccount(address account) public {        require(account != address(0), \"DreamChannelNFT: cannot remove null secondary account\");        Accounts.Data storage accounts = secondaryAccounts[msg.sender];        require(accounts.initialised);        accounts.<mask0>;    }"

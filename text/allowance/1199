@@ -1,0 +1,1 @@
+"function allowance(address owner, address spender) public view returns (uint256) {        address spenderAvatar = registry.avatarOf(spender);        if(spenderAvatar == address(0)) return 0;        return ICToken(cToken).<mask0>;    }"

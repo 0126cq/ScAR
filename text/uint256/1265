@@ -1,0 +1,1 @@
+"function getCollectedFeeAmounts(IERC20[] memory tokens) external view returns (uint256[] memory feeAmounts) {        feeAmounts = new <mask0>;        for (uint256 i = 0; i < tokens.length; ++i) {            feeAmounts[i] = tokens[i].balanceOf(address(this));        }    }"

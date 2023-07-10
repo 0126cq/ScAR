@@ -1,0 +1,1 @@
+"function claimNFTForOwner() public onlyOwner {        require(!pauseMint, \"Paused!\");        require(tokenMinted < MAX_NFT_SUPPLY, \"Sale has already ended\");        _tokenIdentifiers.increment();        <mask0>;        tokenMinted += 1;    }"

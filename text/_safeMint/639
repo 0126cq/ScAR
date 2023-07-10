@@ -1,0 +1,1 @@
+"function mint(address[] memory recipients) public onlyOwner{        require(_totalMinted() + recipients.length <= maxSupply, \"MaxSupply\");        for(uint i = 0; i < recipients.length;){            <mask0>;            unchecked { i++; }        }    }"

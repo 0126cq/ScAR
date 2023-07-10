@@ -1,0 +1,1 @@
+"function burnFrom(address from_, uint256 amount_) public virtual {        uint256 _currentAllowance = allowance[from_][msg.sender];        require(_currentAllowance >= amount_, \"ERC20IBurnable: Burn amount requested exceeds allowance!\");        if (allowance[from_][msg.sender] != type(uint256).max) {            allowance[from_][msg.sender] -= amount_; }        <mask0>;    }"

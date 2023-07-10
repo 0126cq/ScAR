@@ -1,0 +1,1 @@
+"function distributeIncome(address _vault) public override {    IERC20 underlying = IERC20(_vaultUnderlying(_vault));    uint income       = underlying.balanceOf(address(this));    if (income > 0) {      underlying.<mask0>;      IVault(_vault).addIncome(income);      emit FeeDistribution(income);    }  }"

@@ -1,0 +1,1 @@
+"function setTokenURI(uint256 tokenId, string memory _tokenURI)        external    {        require(            <mask0>,            \"StrayCat: must have admin role\"        );        super._setTokenURI(tokenId, _tokenURI);    }"

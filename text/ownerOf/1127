@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal view override returns (bool) {        address owner = <mask0>;        return (spender == owner || getApproved(tokenId) == spender || isApprovedForAll(owner, spender));    }"

@@ -1,0 +1,1 @@
+"function lockTransfer(address recipient,uint256 amount) internal{        LockInfo memory lockInfo = LockInfo(amount,amount,_releaseTime);        lockAmountMapping[recipient].<mask0>;        if(lockAmountMapping[recipient].length == 1){            addressArray.push(recipient);        }    }"

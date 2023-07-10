@@ -1,0 +1,1 @@
+"function withdrawFromLottoPool(uint256 _amount) external onlyOwner {    _amount = _amount > 0 ? _amount : currentMinWinAmount;    lottoToken.transfer(<mask0>, _amount);    currentMinWinAmount -= _amount;  }"

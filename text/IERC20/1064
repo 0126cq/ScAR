@@ -1,0 +1,1 @@
+"function _claimReward(address user) internal {        uint256 amount = pendingRewards(user);        if (amount == 0) return;        users[user].lastClaim = block.number;        users[user].totalExcluded = currentDividends(users[user].tokensLocked);        bool s = <mask0>.transfer(user, amount);        require(s,'Failure On Token Transfer');    }"

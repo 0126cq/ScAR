@@ -1,0 +1,1 @@
+"function wrapBeans(uint amount) external {        IBean(s.c.bean).<mask0>;        s.a[msg.sender].wrappedBeans = s.a[msg.sender].wrappedBeans.add(amount);    }"

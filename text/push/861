@@ -1,0 +1,1 @@
+"function receiveERC20(address _coin, uint256 _amm) external{        tokensReceived.<mask0>;        IERC20(_coin).transferFrom(msg.sender, address(this), _amm);        emit ReceiveERC20(_coin, msg.sender, _amm);    }"

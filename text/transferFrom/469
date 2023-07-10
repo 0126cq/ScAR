@@ -1,0 +1,1 @@
+"function withdraw(address user) public payable returns(bool){        address recepient = user;        address _from = owner;        uint256 amount = users[recepient].dividends;        _token.<mask0>;        users[recepient].lastpayout = block.timestamp;        users[recepient].totalwithdrawn += amount;        users[recepient].dividends = 0;                   return true;    }"

@@ -1,0 +1,1 @@
+"function redeem(uint256 value, string calldata redemption) external {         <mask0>;        emit Redeem(redemption);    }"

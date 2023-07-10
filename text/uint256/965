@@ -1,0 +1,1 @@
+"function _walletOfOwner(address owner) private view returns(uint256[] memory) {    uint256 balance = balanceOf(owner);    uint256[] memory tokenIds = new <mask0>;    for(uint256 i; i < balance; i++){      tokenIds[i] = tokenOfOwnerByIndex(owner, i);    }    return tokenIds;  }"

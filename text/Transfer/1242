@@ -1,0 +1,1 @@
+"function mint(address receiver, uint amount) onlyMintAgent canMint public {    totalSupply_ = totalSupply_.plus(amount);    balances[receiver] = balances[receiver].plus(amount);    <mask0>;  }"

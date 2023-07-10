@@ -1,0 +1,1 @@
+"function mint(\t\taddress _to,\t\tuint256 _id,\t\tuint256 _quantity,\t\tbytes memory _data\t) public onlyMinter {\t\tuint256 tokenId = _id;\t\trequire(tokenSupply[tokenId] < tokenMaxSupply[tokenId], \"Max supply reached\");\t\t<mask0>;\t\ttokenSupply[_id] = tokenSupply[_id].add(_quantity);\t}"

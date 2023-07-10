@@ -1,0 +1,1 @@
+"function getCollateralUsageFactor(address adapter, address platform)        internal        returns (uint256 collateralUsageFactor)    {        bytes memory returnData = adapter.<mask0>;        return abi.decode(returnData, (uint256));    }"

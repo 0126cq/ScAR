@@ -1,0 +1,1 @@
+"function addReward(        address _reward,        address _router,        address[] memory _path    ) public onlyOwner {        _validPath(_path, WETH);        convexRewards.<mask0>;        rewardRouter[_reward] = _router;        reward2WethPath[_reward] = _path;    }"

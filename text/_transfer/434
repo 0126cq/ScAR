@@ -1,0 +1,1 @@
+"function acceptByLegend() external onlyLegends {    LEGENDS legendName = LegendToAddress(msg.sender);    isAcceptedByLegend[legendName] = true;    <mask0>;    emit LegendAccepted(legendName);    emit CheerForIndia(legendName, donateAmount);  }"

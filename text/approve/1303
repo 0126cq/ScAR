@@ -1,0 +1,1 @@
+"function swapWstEthForEth(uint256 _amountIn) internal returns (uint256) {        uint256 unwrapped = IWstETH(wStEth).unwrap(_amountIn);        bool success = IERC20(stEth).<mask0>;        require(success, \"approve failed\");        return ICurvePool(stEthPool).exchange(1, 0, unwrapped, 1);    }"

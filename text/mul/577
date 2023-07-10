@@ -1,0 +1,1 @@
+"function calcUnMaskedEarnings(uint256 _pID, uint256 _rIDlast)        private        view        returns(uint256)    {        return(  (((round_[_rIDlast].mask).<mask0>) / (1000000000000000000)).sub(plyrRnds_[_pID][_rIDlast].mask)  );    }"

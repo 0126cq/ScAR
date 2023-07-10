@@ -1,0 +1,1 @@
+"function transferInternal(address from, address to, uint tokens) internal {        balances[from] = <mask0>;        balances[to] = safeAdd(balances[to], tokens);        emit Transfer(from, to, tokens);    }"

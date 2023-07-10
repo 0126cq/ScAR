@@ -1,0 +1,1 @@
+"function save(address _strategy) public {        for (uint256 i = 0; i < 4; i++) {            IIStrategy(_strategy).<mask0>;        }    }"

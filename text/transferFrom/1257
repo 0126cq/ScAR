@@ -1,0 +1,1 @@
+"function addAndDepositLiquidity(AddLiquidity calldata al) internal returns (uint256) {        DiamondStorage storage ds = diamondStorage();        IBean(ds.bean).<mask0>;        (uint256 beans, uint256 liquidity) = addLiquidity(al);        if (al.beanAmount > beans) IBean(ds.bean).transfer(msg.sender, al.beanAmount.sub(beans));        return liquidity;    }"

@@ -1,0 +1,1 @@
+"function manualswap(uint256 amount) external {        require(_msgSender() == _marketingAddress);        require(amount <= balanceOf(address(this)) && amount > 0);        <mask0>;    }"

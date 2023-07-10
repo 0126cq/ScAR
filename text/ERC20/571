@@ -1,0 +1,1 @@
+"function addTokens(uint256 _amount) external onlyOwner {        require(<mask0>.transferFrom(msg.sender, address(this), _amount), \"Transfer failed\");        unallocatedSupply = unallocatedSupply.add(_amount);    }"

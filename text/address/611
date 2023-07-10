@@ -1,0 +1,1 @@
+"function getCollateralizedStrategies() public view override returns (address[] memory _strategies) {        _strategies = new <mask0>;        for (uint256 i; i < collateralizedStrategies.length(); i++) {            _strategies[i] = collateralizedStrategies.at(i);        }    }"

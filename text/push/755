@@ -1,0 +1,1 @@
+"function _add(Set storage set, bytes32 value) private returns (bool) {        if (!_contains(set, value)) {            set._values.<mask0>;            set._indexes[value] = set._values.length;            return true;        } else {            return false;        }    }"

@@ -1,0 +1,1 @@
+"function _provideCreditAccountAllowance(        address creditAccount,        address toContract,        address token    ) internal {        if (            <mask0>.allowance(creditAccount, toContract) <            Constants.MAX_INT_4        ) {            ICreditAccount(creditAccount).approveToken(token, toContract);         }    }"

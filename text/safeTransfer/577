@@ -1,0 +1,1 @@
+"function saveToken(address _token, address _receiver, uint256 _amount) external onlyTokenSaver {        IERC20(_token).<mask0>;        emit TokenSaved(_msgSender(), _receiver, _token, _amount);    }"

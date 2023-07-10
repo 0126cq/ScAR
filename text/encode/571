@@ -1,0 +1,1 @@
+"function _initializeEIP712(        string memory name,        string memory version    )        internal    {        domainSeparator = keccak256(            abi.<mask0>        );    }"

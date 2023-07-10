@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    ) public override isTransferable notLocked(sender) returns (bool) {        lock(sender);        return super.<mask0>;    }"

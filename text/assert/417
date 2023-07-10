@@ -1,0 +1,1 @@
+"function setPricingStrategy(PricingStrategy _pricingStrategy) public onlyOwner {    <mask0>;    assert(address(pricingStrategy) == address(0));    pricingStrategy = _pricingStrategy;    if(!pricingStrategy.isPricingStrategy()) {      throw;    }  }"

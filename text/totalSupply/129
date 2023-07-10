@@ -1,0 +1,1 @@
+"function reserveTokens() public onlyOwner {                uint supply = <mask0>;        uint i;        for (i = 0; i < 100; i++) {            _safeMint(msg.sender, supply + i);        }    }"

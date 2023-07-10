@@ -1,0 +1,1 @@
+"function exchangeToken(uint256 originalToKenId) external payable{        require(address(_exchangeToken) != address(0), \"INVALID_CONTRACT\");        _exchangeToken.<mask0>;        super.burn(originalToKenId);        _exchangedTokens[msg.sender].push(originalToKenId);        emit ExchangeToken(msg.sender, originalToKenId);    }"

@@ -1,0 +1,1 @@
+"function WithdrawToken(uint256 _amount) internal override {        IGauge(pool).<mask0>;    }"

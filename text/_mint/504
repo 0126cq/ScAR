@@ -1,0 +1,1 @@
+"function adminMint(address[] memory to) external onlyOwner {        require(totalSupply + to.length <= maxId, \"Mint would exceed supply\");        for(uint i = 0; i < to.length; i++) {            <mask0>;        }    }"

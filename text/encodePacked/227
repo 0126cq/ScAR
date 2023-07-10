@@ -1,0 +1,1 @@
+"function random(RandomGenerator memory self) internal pure returns (uint) {        self.seed = uint(sha256(abi.<mask0>));        return self.seed;    }"

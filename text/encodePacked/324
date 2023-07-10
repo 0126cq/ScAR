@@ -1,0 +1,1 @@
+"function creationCodeFor(bytes memory _code) internal pure returns (bytes memory) {    return abi.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function forfeit() external {    Claim memory info = warmupInfo[msg.sender];    delete warmupInfo[msg.sender];    StakingWarmup(warmupContract).retrieve(      address(this),      sHades(sHADES).balanceForGons(info.gons)    );    SafeERC20.<mask0>;  }"

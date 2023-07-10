@@ -1,0 +1,1 @@
+"function _convertWethToEth(    bool _isEth,    ITokenInterface _token,    uint256 _amount  ) internal {    if (_isEth) {      _token.approve(address(_token), _amount);      _token.<mask0>;    }  }"

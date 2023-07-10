@@ -1,0 +1,1 @@
+"function decodeTransferErc20AndTotalSupplyMessage(        bytes calldata data    ) internal pure returns (TransferErc20AndTotalSupplyMessage memory) {        require(            getMessageType(data) == MessageType.TRANSFER_ERC20_AND_TOTAL_SUPPLY,            \"Message type is not ERC20 transfer and total supply\"        );        return abi.<mask0>;    }"

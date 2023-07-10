@@ -1,0 +1,1 @@
+"function _approve(    address _token,    address _spender,    uint _minAmount  ) internal {    uint current = IERC20(_token).allowance(address(this), _spender);    if (current < _minAmount) {      if (current != 0) {        IERC20(_token).safeApprove(_spender, 0);      }      IERC20(_token).<mask0>;    }  }"

@@ -1,0 +1,1 @@
+"function mint(address to, uint amount, bool isBTCPool) public poolOnly(to) {        if(isBTCPool) {            PoolToken(poolTokenBTCAddress).mint(to, amount);        } else {            PoolToken(poolTokenAddress).<mask0>;        }    }"

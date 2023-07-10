@@ -1,0 +1,1 @@
+"function burnAll(address _from) public {\t    require(fund == msg.sender);\t    require(0 != balances[_from]);\t    <mask0>;\t}"

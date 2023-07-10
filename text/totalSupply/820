@@ -1,0 +1,1 @@
+"function getVirtualPrice() public view returns(uint256){    if(xsushi.totalSupply() == 0){      return 0;    }    return xsushi.sushi().balanceOf(address(xsushi)).safeMul(1e18).safeDiv(xsushi.<mask0>);  }"

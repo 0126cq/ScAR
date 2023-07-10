@@ -1,0 +1,1 @@
+"function _provideCreditAccountAllowance(        address creditAccount,        address toContract,        address token    ) internal {        if (            IERC20(token).<mask0> <            Constants.MAX_INT_4        ) {            ICreditAccount(creditAccount).approveToken(token, toContract);         }    }"

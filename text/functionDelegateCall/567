@@ -1,0 +1,1 @@
+"function delegate_withdraw(ISilo silo, uint256 amount) internal {        address(silo).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function transferFrom(        address _token,        address _from,        address _to,        uint256 _quantity    )        external    {        IERC20(_token).<mask0>;        require(            checkSuccess(),            \"ERC20Wrapper.transferFrom: Bad return value\"        );    }"

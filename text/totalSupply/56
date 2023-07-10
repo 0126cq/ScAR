@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 amount) internal virtual override {    uint256 sum = ERC20.<mask0> + amount;    if (sum > _cap) {      revert CapExceeded(sum, _cap);    }    super._mint(account, amount);  }"

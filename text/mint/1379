@@ -1,0 +1,1 @@
+"function bountyFunds() onlyOwner whenNotPaused public {     require(!grantBountySupply);    grantBountySupply = true;    token.<mask0>;    remainingBountySupply = 0;  }"

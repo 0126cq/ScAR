@@ -1,0 +1,1 @@
+"function _actualEarned(        address _account    )        internal        view        returns (uint256)    {        return stakers[_account]            .balance            .mul(_actualRewardPerToken().sub(stakers[_account].rewardPerTokenPaid))            .<mask0>            .add(stakers[_account].rewardsEarned);    }"

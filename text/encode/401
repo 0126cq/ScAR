@@ -1,0 +1,1 @@
+"function buildImage(uint256 _tokenId) private view returns (string memory) {        HootMessage memory currentHootMessage = HootMessagesToTokenId[_tokenId];        return            Base64.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setExchangeProxy(address _exchangeProxyContract) public {        require(<mask0>, \"Admin only\");        exchangeProxyContract = IHolyWing(_exchangeProxyContract);    }"

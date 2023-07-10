@@ -1,0 +1,1 @@
+"function addToken(address token, address reactor) external onlyGuardian {        ERC20(token).safeApprove(address(extender), type(uint256).max);        <mask0>.safeApprove(address(extender), type(uint256).max);        _tokens.push(ERC20(token));        reactors.push(reactor);    }"

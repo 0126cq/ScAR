@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 tokenId,        bytes memory _data    ) public virtual override {        TokenData memory token = _tokenData(tokenId);        if (!<mask0>) revert TransferCallerNotOwnerNorApproved();        _safeTransfer(from, to, tokenId, token, _data);    }"

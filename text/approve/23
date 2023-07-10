@@ -1,0 +1,1 @@
+"function approve (address _spender, uint256 _currentValue, uint256 _newValue)    public returns (bool success) {    if (allowance (msg.sender, _spender) == _currentValue)      return <mask0>;    else return false;  }"

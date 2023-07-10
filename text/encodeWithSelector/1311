@@ -1,0 +1,1 @@
+"function NegativeTransformERC20OutputError(        address outputToken,        uint256 outputTokenLostAmount    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

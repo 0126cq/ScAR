@@ -1,0 +1,1 @@
+"function deposit(address _asset, address _from, uint256 _amount) public onlyCustomer returns (uint) {        if (!ERC20Interface(_asset).<mask0>) {            return CUSTOMER_WALLET_NOT_OK;        }        return OK;    }"

@@ -1,0 +1,1 @@
+"function getReward() public checkStart updateReward(msg.sender){        uint256 reward = earned(msg.sender);        if (reward > 0) {            rewards[msg.sender] = 0;            hdt.<mask0>;            emit RewardPaid(msg.sender, reward);        }    }"

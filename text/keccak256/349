@@ -1,0 +1,1 @@
+"function wallet() internal pure returns (bytes32)    { return <mask0>; }"

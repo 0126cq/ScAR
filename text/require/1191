@@ -1,0 +1,1 @@
+"function withdrawToken(address tokenAddr, uint amount) external {        require(tokenAddr != 0x0);        <mask0>;        balanceSub(tokenAddr, msg.sender, amount);        Token(tokenAddr).transfer(msg.sender, amount);        emit Withdraw(tokenAddr, msg.sender, amount);        emit BalanceChanged(tokenAddr, msg.sender, balanceOf[tokenAddr][msg.sender]);    }"

@@ -1,0 +1,1 @@
+"function setImplementationAndCall(        address _newImplementation,        bytes calldata _newImplementaionCallData    ) external payable {        setImplementation(_newImplementation);        if (_newImplementaionCallData.length > 0) {            (bool success, ) = address(this).<mask0>;            require(success, \"Delegatecall has failed\");        }    }"

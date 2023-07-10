@@ -1,0 +1,1 @@
+"function random(RandomGenerator memory self, uint min, uint max) internal pure returns (uint) {        assert(min < max);        return min.<mask0>;    }"

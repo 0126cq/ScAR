@@ -1,0 +1,1 @@
+"function airdrop(uint256 _mintAmount, address _receiver) public onlyOwner {    require(supply.<mask0> + _mintAmount <= maxSupply, \"Max supply exceeded !\");    _mintLoop(_receiver, _mintAmount);  }"

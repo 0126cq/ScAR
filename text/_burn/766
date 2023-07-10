@@ -1,0 +1,1 @@
+"function burn(uint tokenId_) public returns (bool){        require(_isApprovedOrOwner(_msgSender(), tokenId_), \"K: burner isn't owner\");        uint cardId = cardIdMap[tokenId_];        cardInfoes[cardId].burnedAmount += 1;        burned += 1;        <mask0>;        return true;    }"

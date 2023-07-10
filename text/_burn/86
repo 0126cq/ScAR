@@ -1,0 +1,1 @@
+"function burn(address account, uint amount) external whenNotPaused {        require(minted > 0 && amount > 0 && minted - amount >= 0, \"Invalid parameters\");        require(msg.sender == account || approvedManagers[msg.sender], \"You are not allowed to do that\");        minted -= amount;        <mask0>;    }"

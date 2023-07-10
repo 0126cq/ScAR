@@ -1,0 +1,1 @@
+"function tokensOf (address _owner) public view returns (uint256[] _tokenIds) {    uint256[] memory items = new <mask0>;    uint256 itemCounter = 0;    for (uint256 i = 0; i < listedItems.length; i++) {      if (ownerOf(listedItems[i]) == _owner) {        items[itemCounter] = listedItems[i];        itemCounter += 1;      }    }    return items;  }"

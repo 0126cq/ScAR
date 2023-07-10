@@ -1,0 +1,1 @@
+"function publicMint() public callerIsUser {        require(!hasMinted[msg.sender], \"Already minted in public sale\");        require(            totalSupply() + 1 <= collectionSize,            \"Minting over collection size\"        );        require(publicActive, \"Public Sale isn't Active\");        <mask0>;        hasMinted[msg.sender] = true;    }"

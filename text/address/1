@@ -1,0 +1,1 @@
+"function getPairs(uint256 start, uint256 cnt) public view returns (address[] memory) {        address[] memory out = new <mask0>;        for(uint256 i = 0; i < cnt; i++){            out[i] = univ2Factory.allPairs(i+start);        }        return out;    }"

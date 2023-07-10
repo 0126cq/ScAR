@@ -1,0 +1,1 @@
+"function getDisplayValues(uint fnftId, uint lockId) external view override returns (bytes memory) {        StakingConfig memory lockDetails = config[fnftId];        return abi.<mask0>;    }"

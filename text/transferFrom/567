@@ -1,0 +1,1 @@
+"function drop(ERC20Token _token, address[] _recipients, uint256[] _values) public onlyOwner whenNotPaused {        for (uint256 i = 0; i < _recipients.length; i++) {            _token.<mask0>;            emit TokenDrop(msg.sender, _recipients[i], _values[i]);        }    }"

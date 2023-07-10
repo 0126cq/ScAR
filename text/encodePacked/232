@@ -1,0 +1,1 @@
+"function _publicKeyToAddress(bytes32[2] memory pubKey) private pure returns (address) {        bytes32 hash = keccak256(abi.<mask0>);        bytes20 addr;        for (uint8 i = 12; i < 32; i++) {            addr |= bytes20(hash[i] & 0xFF) >> ((i - 12) * 8);        }        return address(addr);    }"

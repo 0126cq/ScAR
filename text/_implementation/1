@@ -1,0 +1,1 @@
+"function _fallback() internal {        if (msg.value == 0) {            _delegate(<mask0>);        }    }"

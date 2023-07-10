@@ -1,0 +1,1 @@
+"function mint(address to, string memory uri)         external         onlyOwner         returns (uint256)    {        require(to != address(0), \"mint0: !to\");        uint256 tokenId = nextTokenId;        <mask0>;        _setTokenURI(tokenId, uri);        nextTokenId = nextTokenId + 1;        return tokenId;    }"

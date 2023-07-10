@@ -1,0 +1,1 @@
+"function tokenContract() public view withRegistrySetUp returns (ERC20) {    return <mask0>;  }"

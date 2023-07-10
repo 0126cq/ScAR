@@ -1,0 +1,1 @@
+"function deleteCard(uint _id) public {        uint index;        for(uint i=0; i < product.length; i++){            if(product[i].productId  == _id){                index = i;                break;            }        }        for(uint i=index; i < product.length -1; i++){            product[i] = product[i+1];        }        product.<mask0>;    }"

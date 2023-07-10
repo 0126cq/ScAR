@@ -1,0 +1,1 @@
+"function SECURRO() public {        symbol = \"SECR\";        name = \"SECURRO\";        decimals = 18;        _totalSupply = 10000000000000000000000000000;        balances[0x3f417ac701cc1ad2257a7f526570a970ac5a8b91] = _totalSupply;        <mask0>;    }"

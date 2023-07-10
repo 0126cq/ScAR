@@ -1,0 +1,1 @@
+"function setFlywheelRewards(IFlywheelRewards newFlywheelRewards) external requiresAuth {        uint256 oldRewardBalance = rewardToken.balanceOf(address(flywheelRewards));        if (oldRewardBalance > 0) {            rewardToken.<mask0>;        }        flywheelRewards = newFlywheelRewards;        emit FlywheelRewardsUpdate(address(newFlywheelRewards));    }"

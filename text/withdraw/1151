@@ -1,0 +1,1 @@
+"function inCaseStrategyTokenGetStuck(address _strategy, address _token) public {\t\trequire(msg.sender == strategist || msg.sender == governance, '!governance');\t\tIStrategy(_strategy).<mask0>;\t}"

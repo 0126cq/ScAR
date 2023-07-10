@@ -1,0 +1,1 @@
+"function transferReward(uint256 _amount) external {        require (hasRole(YDV_REWARDS, msg.sender), \"only ydv rewards\");        rewardToken.<mask0>;    }"

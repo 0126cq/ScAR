@@ -1,0 +1,1 @@
+"function svgLayers(address ogCards, uint256 tokenId, string memory font, string memory borderColor, IOGCards.Card memory card)        public        view        returns (string memory)    {        return string(abi.<mask0>);    }"

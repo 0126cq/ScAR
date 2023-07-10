@@ -1,0 +1,1 @@
+"function withdraw() external payable onlyOwner returns (bool success) {        (success,) = payable(msg.sender).<mask0>;        require(success, \"Withdraw Error\");    }"

@@ -1,0 +1,1 @@
+"function isStorageOwner(address account)\t\texternal\t\tview\t\toverride\t\treturns (bool)\t{\t\treturn <mask0>;\t}"

@@ -1,0 +1,1 @@
+"function getPredictedSplitAddress(Share[] memory shares) external view returns (address) {    bytes32 salt = keccak256(abi.<mask0>);    return Clones.predictDeterministicAddress(address(this), salt);  }"

@@ -1,0 +1,1 @@
+"function clawback(address token) external {        require(msg.sender == msig);        <mask0>;    }"

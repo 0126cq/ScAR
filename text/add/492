@@ -1,0 +1,1 @@
+"function addRole(bytes32 role) public onlyOwner {        require(!roleSet.contains(role), \"role exists\");        roleSet.<mask0>;        emit RoleAdded(role, _msgSender());    }"

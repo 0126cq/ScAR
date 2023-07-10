@@ -1,0 +1,1 @@
+"function _initPayout(address to, uint256 amount) internal {        IToken(addresses.mainToken).<mask0>;        globalPayout = globalPayout.add(amount);    }"

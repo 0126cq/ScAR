@@ -1,0 +1,1 @@
+"function decreaseAllowance(address spender, uint256 subtractedValue) public returns (bool) {        _approve(            _msgSender(),            spender,            _allowances[<mask0>][spender].sub(subtractedValue, \"BEP20: decreased allowance below zero\")        );        return true;    }"

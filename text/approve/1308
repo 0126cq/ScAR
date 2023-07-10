@@ -1,0 +1,1 @@
+"function setTokenOffering(address offeringAddr, uint256 amountForSale) external onlyOwner onlyTokenOfferingAddrNotSet {\t\trequire(!transferEnabled);\t\tuint256 amount = (amountForSale == 0) ? TOKEN_OFFERING_ALLOWANCE : amountForSale;\t\trequire(amount <= TOKEN_OFFERING_ALLOWANCE);\t\t<mask0>;\t\ttokenOfferingAddr = offeringAddr;\t}"

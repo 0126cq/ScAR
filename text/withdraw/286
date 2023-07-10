@@ -1,0 +1,1 @@
+"function withdrawMultiple(int256[] calldata ids) external {        for (uint256 i = 0; i < ids.length; i++) {            <mask0>;        }    }"

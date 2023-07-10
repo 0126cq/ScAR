@@ -1,0 +1,1 @@
+"function claimOtherTokens(IERC20 tokenAddress, address walletAddress) external onlyOwner() {        require(walletAddress != address(0), \"walletAddress can't be 0 address\");        SafeERC20.<mask0>;    }"

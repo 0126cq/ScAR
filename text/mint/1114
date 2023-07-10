@@ -1,0 +1,1 @@
+"function mint(uint256 tokens,address beneficiary) onlyOwner public{        require(statePhase == 1);        bool lessThanMaxSupply = (token.totalSupply() + tokens) <= maxTokenSupply;        require(lessThanMaxSupply);        token.<mask0>;    }"

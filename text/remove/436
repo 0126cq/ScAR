@@ -1,0 +1,1 @@
+"function removeAvailableRenderer(address renderer) external onlyOwner {        if (!_availableRenderers.<mask0>) revert UnknownRenderer();    }"

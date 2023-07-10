@@ -1,0 +1,1 @@
+"function crossWithdraw(address withdrawToken, uint256 withdrawAmount)        external    {        IMarginTrading(crossMarginTrading()).registerWithdrawal(            msg.sender,            withdrawToken,            withdrawAmount        );        Fund(fund()).<mask0>;        emit AccountUpdated(msg.sender);    }"

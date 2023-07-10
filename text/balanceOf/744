@@ -1,0 +1,1 @@
+"function _claimRewards(address _token) private {        Minter(MINTER).mint(GAUGE);        uint crvBal = IERC20(CRV).<mask0>;        if (crvBal > 0) {            _swap(CRV, _token, crvBal);        }    }"

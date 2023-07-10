@@ -1,0 +1,1 @@
+"function mint(address to, uint256 count) public payable {    require(msg.value >= getMintPrice(count), \"Insufficient funds\");    for (uint256 i = 0; i < count; i++) {      _mint(to, _tokenIdTracker.<mask0>);      _tokenIdTracker.increment();    }    (bool success, ) = developer.call{value: msg.value}(\"\");    require(success);  }"

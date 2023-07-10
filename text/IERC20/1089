@@ -1,0 +1,1 @@
+"function recoverERC20(address _token) public {        require(msg.sender == owner);        <mask0>.safeTransfer(_token, IERC20(_token).balanceOf(address(this)));    }"

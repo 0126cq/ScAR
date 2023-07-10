@@ -1,0 +1,1 @@
+"function updateItemsURI(        uint256[] calldata _ids,        string memory _newBaseMetadataURI    ) external returns (bool) {        require(<mask0>);        if (bytes(_newBaseMetadataURI).length > 0) {            super._setBaseMetadataURI(_newBaseMetadataURI);        }        super._logURIs(_ids);    }"

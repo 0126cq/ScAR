@@ -1,0 +1,1 @@
+"function discardDefaultDecayPeriodVote() external {        _defaultDecayPeriod.updateVote(msg.sender, _defaultDecayPeriod.votes[msg.sender], Vote.init(), <mask0>, MooniswapConstants._DEFAULT_DECAY_PERIOD, _emitDefaultDecayPeriodVoteUpdate);    }"

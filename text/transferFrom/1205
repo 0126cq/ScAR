@@ -1,0 +1,1 @@
+"function removeSwap(uint256 id) external nonReentrant {    require(msg.sender == originalOwner.get(id), \"Not owner\");    uint256 transferAmount = swapRecords[id].escrowedNCTAmount;    originalOwner.remove(id);    delete swapRecords[id];    hashmask.<mask0>;    nct.transfer(msg.sender, transferAmount);  }"

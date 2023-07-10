@@ -1,0 +1,1 @@
+"function ERC20Token() public {        name = \"MIYA CHAIN\";        symbol = \"MIAC\";        decimals = 18;        _totalSupply = 2000000000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

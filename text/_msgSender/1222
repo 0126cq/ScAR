@@ -1,0 +1,1 @@
+"function rescueERC721(IERC721 tokenToRescue, uint256 n) external onlyRole(DEFAULT_ADMIN_ROLE)  {        tokenToRescue.safeTransferFrom(address(this), <mask0>, n);    }"

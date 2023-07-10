@@ -1,0 +1,1 @@
+"function at(UintToNFTMap storage map, uint256 index) internal view returns (uint256, address, string memory) {        (bytes32 key, address _owner, string memory _type) = <mask0>;        return (uint256(key), _owner, _type );    }"

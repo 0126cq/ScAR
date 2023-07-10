@@ -1,0 +1,1 @@
+"function toB64JSON(bytes memory toEncode)        internal        pure        returns (string memory)    {        return            string(                abi.encodePacked(                    'data:application/json;base64,',                    <mask0>                )            );    }"

@@ -1,0 +1,1 @@
+"function _burn(address owner, uint256 tokenId) internal {        require(<mask0> == owner);        _clearApproval(tokenId);        _ownedTokensCount[owner].decrement();        _tokenOwner[tokenId] = address(0);        emit Transfer(owner, address(0), tokenId);    }"

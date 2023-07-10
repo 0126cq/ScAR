@@ -1,0 +1,1 @@
+"function mint(bytes memory _userTextLines) public payable {        address[] memory _to = new <mask0>;        _to[0] = msg.sender;        mintTo(_userTextLines, 1, _to, false);    }"

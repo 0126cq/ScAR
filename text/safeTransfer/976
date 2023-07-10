@@ -1,0 +1,1 @@
+"function rescueFunds(        address token,        address userAddress,        uint256 amount    ) external onlyOwner {        IERC20(token).<mask0>;    }"

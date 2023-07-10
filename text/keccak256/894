@@ -1,0 +1,1 @@
+"function getTokenNameSpace(Data storage self, string currency) internal view returns (address contractAddress) {    bytes32 id = <mask0>;    return self.Storage.getAddress(id);  }"

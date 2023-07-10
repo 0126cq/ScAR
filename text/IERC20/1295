@@ -1,0 +1,1 @@
+"function _convert(address _from, address _to, uint256 _amount) internal {        require(converter.convert_rate(_from, _to, _amount) > 0, \"!convert_rate\");        <mask0>.safeTransfer(address(converter), _amount);        converter.convert(_from, _to, _amount);    }"

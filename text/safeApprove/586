@@ -1,0 +1,1 @@
+"function _checkAllowance(        address _contract,        address _token,        uint256 _amount    ) internal {        if (IERC20(_token).allowance(address(this), _contract) < _amount) {            IERC20(_token).<mask0>;            IERC20(_token).safeApprove(_contract, type(uint256).max);        }    }"

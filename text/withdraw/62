@@ -1,0 +1,1 @@
+"function redeem(uint256 _amount) internal override {\t\tuint256 withdrawnAmount = lendingPool.<mask0>;\t\trequire(withdrawnAmount > 0, \"Withdrawn amount should be bigger than zero\");\t}"

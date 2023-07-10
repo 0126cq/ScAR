@@ -1,0 +1,1 @@
+"function withdrawWithoutHedge(uint256 trancheID)        external        override        nonReentrant        returns (uint256 amount)    {        address owner = <mask0>;        amount = _withdraw(owner, trancheID);        emit Withdrawn(owner, trancheID, amount);    }"

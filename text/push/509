@@ -1,0 +1,1 @@
+"function _addTokenToAllTokensEnumeration(uint256 tokenId) private    {        _allTokensIndex[tokenId] = _allTokens.length;        _allTokens.<mask0>;    }"

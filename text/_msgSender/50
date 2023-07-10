@@ -1,0 +1,1 @@
+"function burnBatch(        address account,        uint256[] memory ids,        uint256[] memory values    ) public virtual {        require(            account == _msgSender() || isApprovedForAll(account, <mask0>),            \"ERC1155: caller is not owner nor approved\"        );        _burnBatch(account, ids, values);    }"

@@ -1,0 +1,1 @@
+"function accountVaultBalance(address account)        external        view        returns (uint256)    {        (uint256 withdrawAmount, , ) =            _withdrawAmountWithShares(<mask0>, assetBalance());        return withdrawAmount;    }"

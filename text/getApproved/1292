@@ -1,0 +1,1 @@
+"function approve(address _to, uint256 _tokenId) override external {    address owner = ownerOf(_tokenId);    require(_to != owner);    require(msg.sender == owner || isApprovedForAll(owner, msg.sender));    if (<mask0> != address(0) || _to != address(0)) {      _tokenApprovals[_tokenId] = _to;      emit Approval(owner, _to, _tokenId);    }  }"

@@ -1,0 +1,1 @@
+"function _withdrawSome(address _gauge, uint256 _amount) internal returns (uint256) {        ICurveGauge(_gauge).<mask0>;        return _amount;    }"

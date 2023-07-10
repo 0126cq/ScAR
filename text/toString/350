@@ -1,0 +1,1 @@
+"function pluckIndex(uint256 tokenId, string memory keyPrefix, string[] memory sourceArray) internal pure returns (uint256 index) {        return  random(string(abi.encodePacked(keyPrefix, Strings.<mask0>))) % sourceArray.length;    }"

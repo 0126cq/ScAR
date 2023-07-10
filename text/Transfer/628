@@ -1,0 +1,1 @@
+"function burn(address _guy, uint _wad) auth stoppable {        super.burn(_guy, _wad);        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function exitTerminatedFuture(address _user) external nonReentrant onlyController {        require(terminated, \"FutureVault: ERR_NOT_TERMINATED\");        uint256 amount = pt.<mask0>;        require(amount > 0, \"FutureVault: ERR_PT_BALANCE\");        _withdraw(_user, amount);        emit FundsWithdrawn(_user, amount);    }"

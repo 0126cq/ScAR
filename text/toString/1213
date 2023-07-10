@@ -1,0 +1,1 @@
+"function _getRandomSeed(uint256 tokenId, string memory seedFor)        internal        view        returns (string memory)    {        return            string(                abi.encodePacked(                    seedFor,                    Strings.<mask0>,                    block.timestamp,                    block.difficulty                )            );    }"

@@ -1,0 +1,1 @@
+"function exitSushi() external onlyGuardian {        IMasterChefSushi2 chef = IMasterChefSushi2(SUSHI_MASTERCHEF);        uint256 balance = chef.userInfo(OOKI_ETH_SUSHI_MASTERCHEF_PID, address(this)).amount;        chef.<mask0>;    }"

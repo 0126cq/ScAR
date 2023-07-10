@@ -1,0 +1,1 @@
+"function swapAndSendToDev(uint256 tokens) private {        uint256 tokenBalance = tokens;        uint256 initialBalance = address(this).balance;        <mask0>;         uint256 newBalance = address(this).balance.sub(initialBalance);        sendEthToDev(newBalance);        emit SwapAndSendToDev(tokens, newBalance);    }"

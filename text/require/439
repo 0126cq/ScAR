@@ -1,0 +1,1 @@
+"function _getLatestPrice(address _token) internal view returns (int256) {        address aggregator = oracles[_token];        (,int256 answer,,uint256 updatedAt,) = AggregatorV2V3Interface(aggregator).latestRoundData();        <mask0>;        return answer;    }"

@@ -1,0 +1,1 @@
+"function deposit(        uint256 _pid,        address _owner,        uint256 _amount    ) public override checkPoolId(_pid) onlyOperator {        pools[_pid].totalSupply = pools[_pid].totalSupply.add(_amount);        balances[_pid][_owner] = balances[_pid][_owner].add(_amount);        IERC20(tokenOf(_pid)).<mask0>;        emit Deposit(_msgSender(), _owner, _pid, _amount);    }"

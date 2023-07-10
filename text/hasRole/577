@@ -1,0 +1,1 @@
+"function updateWithdrawWallet(address _newWallet) public {        require(<mask0>, \"Caller is not admin\");        withdrawWallet = _newWallet;    }"

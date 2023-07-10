@@ -1,0 +1,1 @@
+"function mintSecret(string calldata ipfsCid) public {        require(            _secretLockKey == keccak256(abi.<mask0>),            \"Wrong key\"        );        _mint(msg.sender, _secretToken, 1, \"\");        _secretIpfsCid = ipfsCid;        _secretLockKey = 0;    }"

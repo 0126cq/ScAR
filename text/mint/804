@@ -1,0 +1,1 @@
+"function _mint(address to, uint256 amount, uint256 index) internal {        require(amount <= amountLeft(), \"too many\");        require(msg.value == amount * PRICE, \"wrong price\");        token.<mask0>;        emit Minted(index, msg.sender, amount);    }"

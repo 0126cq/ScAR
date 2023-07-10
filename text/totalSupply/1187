@@ -1,0 +1,1 @@
+"function open(string memory url, uint lastTokenId) external onlyOwner {        if(0 == bytes(openedUrl).length){            openedUrl = url;        }        require(0 < lastTokenId && lastOpenTokenId < lastTokenId && lastTokenId <= <mask0>, 'Invalid tokenid');        lastOpenTokenId = lastTokenId;    }"

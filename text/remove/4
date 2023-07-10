@@ -1,0 +1,1 @@
+"function remove(string memory version, address vault) public {    bool removed = vaults[msg.sender][version].<mask0>;    if (removed) {      emit RemoveVault(msg.sender, version, vault);     }  }"

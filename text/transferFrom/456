@@ -1,0 +1,1 @@
+"function buyDollarsWithPixel(uint256 _tokenId) public nonReentrant() {        NFT.<mask0>;        isNFTStakedByTokenId[_tokenId] = true;        stakedNFTs++;        _mint(msg.sender, DollarsPerNFT);        emit NFTConvertedToDollars(msg.sender, _tokenId);    }"

@@ -1,0 +1,1 @@
+"function _isAllowedToMint(uint16 amount) internal view returns (bool) {        return (<mask0> == msg.sender) || _isPublicAllowed() || allowedMinters[msg.sender] + amount <= AllowancesStore(allowancesRef).allowances(msg.sender);    }"

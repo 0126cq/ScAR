@@ -1,0 +1,1 @@
+"function enter(address _user, uint256 _amount) public {        require(IERC20(vemp).balanceOf(msg.sender) >= _amount, \"Insufficient VEMP Balance\");        IERC20(vemp).transferFrom(msg.sender, address(this), _amount);        stakedVempAmount = stakedVempAmount.add(_amount);        IERC20(xsVemp).<mask0>;    }"

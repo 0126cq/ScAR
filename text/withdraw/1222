@@ -1,0 +1,1 @@
+"function _withdrawCollateralToken(        address _collateralToken,        uint256 _collateralAmount    ) internal {        LENDING_POOL.<mask0>;    }"

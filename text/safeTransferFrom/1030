@@ -1,0 +1,1 @@
+"function send(PolygonIERC20 token, uint256 amount) public nonReentrant onlyChainId(l2ChainId) {        token.<mask0>;        token.withdraw(token.balanceOf(address(this)));        if (address(token) == l2WrappedMatic)            maticToken.withdraw{ value: address(this).balance }(address(this).balance);    }"

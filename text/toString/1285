@@ -1,0 +1,1 @@
+"function symbol() public view override returns (string memory _symbol)\t{\t\tif (bytes(symbol_).length != 0) return symbol_;\t\treturn string(abi.encodePacked(IERC721Metadata(target).safeSymbol(), tokenId.<mask0>));\t}"

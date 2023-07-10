@@ -1,0 +1,1 @@
+"function mod(Instance memory a, uint256 b) internal pure returns (Instance memory) {        return Instance({mantissa: a.mantissa.<mask0>});    }"

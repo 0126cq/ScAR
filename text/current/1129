@@ -1,0 +1,1 @@
+"function mintToken(address user, string memory eventName) external onlyMinter returns (uint256)    {        require(_eventExists[eventName], \"Event is not registered\");        _tokenIds.increment();        uint256 tokenId = _tokenIds.<mask0>;        _tokenEvent[tokenId] = eventName;        _mint(user, tokenId);        return tokenId;    }"

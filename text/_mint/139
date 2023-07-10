@@ -1,0 +1,1 @@
+"function pledgeMint(address to, uint256 _mintAmount) external payable {    require(pledgemintEnabled == true, 'PledgeMint Not Enabled');    require(pledgeContractAddress == msg.sender, 'The Caller is Not PledgeMint');    require(totalSupply() + _mintAmount <= maxSupply, 'Reached Max Supply');    <mask0>;  }"

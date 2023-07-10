@@ -1,0 +1,1 @@
+"function mintShape(string memory tokenURI) external onlyOwner returns (uint256) {        uint256 index = _itemIds.current();        _itemIds.increment();        <mask0>;        _setTokenURI(index, tokenURI);        emit Mint(index, _msgSender());        return index;    }"

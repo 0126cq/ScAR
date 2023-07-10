@@ -1,0 +1,1 @@
+"function buyDollarsWithDAI(uint256 _amount) external nonReentrant() {        require(DAI.<mask0>, \"DAI Buy failed.\");        stakedErc20Tokens[address(DAI)] += _amount;        _mint(msg.sender, _amount);        emit DAIConvertedToDollars(msg.sender, _amount);    }"

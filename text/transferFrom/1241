@@ -1,0 +1,1 @@
+"function depositUSDT(uint256 _amountUsdt) public {        uint256 amountStrong = USDT2Strong(_amountUsdt);        require(USDT_TOKEN_ADDRESS.<mask0>);        STRONG.transfer(msg.sender, amountStrong);        emit DepositUSDT(msg.sender, _amountUsdt, amountStrong);    }"

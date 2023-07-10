@@ -1,0 +1,1 @@
+"function extractOldPIKA() external onlyOwner(){            <mask0>.transfer(_msgSender(), oldPika_amount);            oldPika_amount = 0;        }"

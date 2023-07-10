@@ -1,0 +1,1 @@
+"function _mintBase(address to, string memory uri) internal virtual returns(uint256 tokenId) {        _tokenCount++;        tokenId = _tokenCount;        _tokensExtension[tokenId] = address(this);        <mask0>;        if (bytes(uri).length > 0) {            _tokenURIs[tokenId] = uri;        }        _postMintBase(to, tokenId);        return tokenId;    }"

@@ -1,0 +1,1 @@
+"function reserveMushrooms() public onlyOwner {                uint supply = _tokenSupply.<mask0>+1;        uint i;        for (i = 0; i < 12; i++) {            _safeMint(msg.sender, supply + i);        }    }"

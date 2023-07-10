@@ -1,0 +1,1 @@
+"function pull() public {        require(!ended, \"end already called\");        require(lastBidTime == 0, \"There were bids\");        require(block.timestamp >= startBidTime.add(auctionLength), \"Auction live\");        IERC1155(token).<mask0>;        ended = true;    }"

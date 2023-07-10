@@ -1,0 +1,1 @@
+"function verify(        uint256 _nonce,        uint16 _qty,        bytes memory signature    ) public view returns (bool) {        bytes32 messageHash = getMessageHash(_nonce, _qty);        bytes32 ethSignedMessageHash = getEthSignedMessageHash(messageHash);        return recoverSigner(ethSignedMessageHash, signature) == <mask0>;    }"

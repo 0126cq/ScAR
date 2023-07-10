@@ -1,0 +1,1 @@
+"function addDestination(bytes32 _origin) returns (uint256 _index) {        require(FD_AC.checkPermission(102, msg.sender));        validDestinations.<mask0>;        _index = validDestinations.length - 1;    }"

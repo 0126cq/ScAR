@@ -1,0 +1,1 @@
+"function removeRole(address _operator, string _role)    internal  {    roles[_role].<mask0>;    emit RoleRemoved(_operator, _role);  }"

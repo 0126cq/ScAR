@@ -1,0 +1,1 @@
+"function tokenFallback(address _from, uint _value, bytes _data) public onlyAgent returns (bool success){    balances[this] = <mask0>;    balances[_from] = safeAdd(balanceOf(_from), _value);    emit Transfer(this, _from, _value, _data);    return true;"

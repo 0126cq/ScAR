@@ -1,0 +1,1 @@
+"function totalWETHBalanceOfThis() public view returns(uint){        uint etherBalance = ERC20(WETH[0]).balanceOf(address(this));        etherBalance = add(etherBalance,<mask0>.balanceOf(address(this)));        etherBalance = add(etherBalance,ERC20(WETH[2]).balanceOf(address(this)));        return etherBalance;    }"

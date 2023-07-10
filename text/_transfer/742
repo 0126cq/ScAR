@@ -1,0 +1,1 @@
+"function _transfer(        address from,        address to,        uint256 amount    ) internal override {        require(from != address(0));        require(to != address(0));        if(amount == 0) {            super.<mask0>;            return;        }"

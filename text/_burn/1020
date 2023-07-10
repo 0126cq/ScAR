@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) public override {        if (_msgSender() == _genTwoChainsAddress) {            <mask0>;        }        else {            super.burnFrom(account, amount);        }    }"

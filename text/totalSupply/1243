@@ -1,0 +1,1 @@
+"function _updateRewardPerToken(uint256 _reward) internal {        require(stakingDerivative.totalSupply() > 0, \"Staked amount must be > 0\");        rewardPerToken = rewardPerToken.add(_reward.mul(1e18).div(stakingDerivative.<mask0>));    }"

@@ -1,0 +1,1 @@
+"function triggerEtherTransfer(    address payable target, uint256 amount  ) external returns (bool success) {    require(msg.sender == _ETHERIZER, \"Etherized: only callable by Etherizer\");    (success, ) = target.call.<mask0>;    if (!success) {      assembly {        returndatacopy(0, 0, returndatasize())        revert(0, returndatasize())      }    }  }"

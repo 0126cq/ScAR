@@ -1,0 +1,1 @@
+"function mint(uint256[] calldata token_ids) external onlyOwner {        require(<mask0>.add(token_ids.length) < MAX_CRYPTOFREAKS, \"Exceeds MAX_CRYPTOFREAKS\");        for (uint i = 0; i < token_ids.length; i++) {            _mint(token_ids[i]);        }    }"

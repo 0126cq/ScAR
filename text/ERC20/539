@@ -1,0 +1,1 @@
+"function claimTokens(address _token) public onlyOwner returns(bool){        require(_token != address(LBC));        ERC20 token = <mask0>;        uint256 balance = token.balanceOf(this);        token.transfer(owner, balance);        emit ClaimedTokens(_token, owner, balance);        return true;    }"

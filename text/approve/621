@@ -1,0 +1,1 @@
+"function multiDelegate(uint256 amount, address user1, address user2) public {        bond.<mask0>;        barn.deposit(amount);        barn.delegate(user1);        barn.delegate(user2);        barn.delegate(user1);    }"

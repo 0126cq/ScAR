@@ -1,0 +1,1 @@
+"function withdraw(uint256 pool, uint256 amount) public override poolExists(pool) updateReward(msg.sender, pool) {    require(amount > 0, \"cannot withdraw 0\");    super.<mask0>;    emit Withdrawn(msg.sender, pool, amount);  }"

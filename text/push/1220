@@ -1,0 +1,1 @@
+"function addToMerkleRootArray(bytes32 _merkleRoot) external onlyOwner {        rootHash.<mask0>;    }"

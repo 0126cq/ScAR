@@ -1,0 +1,1 @@
+"function _mintInternal(uint256 _incrementalOneInch) private {        uint256 mintAmount =            calculateMintAmount(_incrementalOneInch, <mask0>);        return super._mint(msg.sender, mintAmount);    }"

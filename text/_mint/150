@@ -1,0 +1,1 @@
+"function _mint(address _to, uint256 _tokenId) internal {    super.<mask0>;    allTokensIndex[_tokenId] = allTokens.length;    allTokens.push(_tokenId);  }"

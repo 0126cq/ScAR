@@ -1,0 +1,1 @@
+"function mint(address to, uint256 value)        public        onlyMinter        requireNotBlacklisted(to)        returns (bool)    {        if (cap > 0) {            require(totalSupply().add(value) <= cap, \"Cannot increase supply beyond cap\");        }        super.<mask0>;        return true;    }"

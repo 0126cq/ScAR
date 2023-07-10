@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {\trequire(_exists(tokenId), \"ERC721Metadata: Nonexistent token\");\tstring memory currentBaseURI = _baseURI();\treturn bytes(currentBaseURI).length > 0\t? string(abi.<mask0>) : \"\";\t}"

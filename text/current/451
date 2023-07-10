@@ -1,0 +1,1 @@
+"function _checkGASupply() private view {\t\trequire(_countTokenGA.<mask0> < _supplyGA, \"GA_SOLD_OUT\");\t}"

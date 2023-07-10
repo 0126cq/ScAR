@@ -1,0 +1,1 @@
+"function safeSushiTransfer(address _to, uint256 _amount) internal {        sushi.<mask0>;        sushi.transfer(_to, _amount);        emit Mint(_to, _amount);    }"

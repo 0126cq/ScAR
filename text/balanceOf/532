@@ -1,0 +1,1 @@
+"function balanceOfYYCRV() public view returns (uint) {        return IERC20(yycrv).<mask0>;    }"

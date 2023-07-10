@@ -1,0 +1,1 @@
+"function issue(uint256 amount) public onlyOwner {        require(_VAULT != address(0), \"VAULT Cannot be the zero address\");        require(amount > 0 , \"amount Cannot be the zero \");        amount = amount * 10 ** decimals();        super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setFeeRate(uint256 rate) external {        require(<mask0> == _FeeAddress);        require(rate < 51, \"Rate can't exceed 50%\");        _feeRate = rate;        emit FeeRateUpdated(_feeRate);    }"

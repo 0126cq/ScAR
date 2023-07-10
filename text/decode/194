@@ -1,0 +1,1 @@
+"function delegateCloseShort(IProtocolAdapter adapter)        external        returns (uint256)    {        (bool success, bytes memory result) =            address(adapter).delegatecall(                abi.encodeWithSignature(\"closeShort()\")            );        revertWhenFail(success, result);        return abi.<mask0>;    }"

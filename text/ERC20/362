@@ -1,0 +1,1 @@
+"function calcGrossShareValue() external override returns (uint256 grossShareValue_) {        uint256 gav = calcGav();        grossShareValue_ = __calcGrossShareValue(            gav,            ERC20(getVaultProxy()).totalSupply(),            10**uint256(<mask0>.decimals())        );        return grossShareValue_;    }"

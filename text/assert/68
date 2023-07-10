@@ -1,0 +1,1 @@
+"function _subtractFromLockedInPendingDelegations(address holder, uint amount) private returns (uint) {        uint currentMonth = _getCurrentMonth();        <mask0>;        _lockedInPendingDelegations[holder].amount = _lockedInPendingDelegations[holder].amount.sub(amount);    }"

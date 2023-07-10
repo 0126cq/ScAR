@@ -1,0 +1,1 @@
+"function __MappableToken_init(address factory_, address creator_, string memory name_, string memory symbol_, uint8 decimals_, uint256 totalSupply_) external initializer {        __Context_init_unchained();\t\t__ERC20_init_unchained(name_, symbol_);\t\t_setupDecimals(decimals_);\t\t<mask0>;\t\t__MappableToken_init_unchained(factory_, creator_);\t}"

@@ -1,0 +1,1 @@
+"function getTokenAmountByUSDCPrice() public view returns (uint256)  {        address[] memory path = new <mask0>;        path[0] = usdcAddress;        path[1] = address(this);        return uniswapV2Router.getAmountsOut(usdcPriceToSwap, path)[1];    }"

@@ -1,0 +1,1 @@
+"function airdrop(uint256 id, Drop[] calldata drops)        public        onlyRole(GSTAR_ADMIN_ROLE) {        for (uint i = 0; i < drops.length; i++) {            Drop calldata drop = drops[i];            <mask0>;        }    }"

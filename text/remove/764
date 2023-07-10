@@ -1,0 +1,1 @@
+"function excludeFromDividends(address account) external onlyOwner {        excludedFromDividends[account] = true;        _setBalance(account, 0);        <mask0>;        emit ExcludeFromDividends(account);    }"

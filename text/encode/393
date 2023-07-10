@@ -1,0 +1,1 @@
+"function encodeInterchainConnectionMessage(bool isAllowed) internal pure returns (bytes memory) {        InterchainConnectionMessage memory message = InterchainConnectionMessage(            BaseMessage(MessageType.INTERCHAIN_CONNECTION),            isAllowed        );        return abi.<mask0>;    }"

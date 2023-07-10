@@ -1,0 +1,1 @@
+"function approve(        address token,        address spender,        uint256 amount    )        internal    {        GeneralERC20(token).<mask0>;        require(            checkSuccess(),            \"TokenInteract#approve: Approval failed\"        );    }"

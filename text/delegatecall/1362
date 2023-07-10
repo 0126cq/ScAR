@@ -1,0 +1,1 @@
+"function callInternalModule(uint moduleId, bytes memory input) internal returns (bytes memory) {        (bool success, bytes memory result) = moduleLookup[moduleId].<mask0>;        if (!success) revertBytes(result);        return result;    }"

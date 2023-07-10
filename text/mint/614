@@ -1,0 +1,1 @@
+"function stakeSushiToCream(address to, uint256 amount) external {         sushiToken.safeTransferFrom(msg.sender, address(this), amount);         ISushiBarBridge(sushiBar).enter(amount);         ICompoundBridge(crXSushiToken).<mask0>;         IERC20(crXSushiToken).safeTransfer(to, IERC20(crXSushiToken).safeBalanceOfSelf());     }"

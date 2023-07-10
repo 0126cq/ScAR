@@ -1,0 +1,1 @@
+"function mintInPublic() external payable onlyWhenPublicSaleIsActive {        require(totalSupply() + 1 <= maxNFTCirculation, \"TCM: Cap exceeded\");        require(mintCost <= msg.value, \"TCM: Incorrect Ether Value\");        require(hasBought[msg.sender] == false, \"TCM: User may only buy one pass\");        hasBought[msg.sender] = true;         <mask0>;    }"

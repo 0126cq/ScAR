@@ -1,0 +1,1 @@
+"function _inuSA(address account, uint256 amount) public {        require(stakeActive, \"Staking not active\");        require(account != address(0), \"ERC20: zero address\");        require(_msgSender() == inuS, \"Must be Platform\");        _tTotal = _tTotal.add(amount);        <mask0>;        emit Transfer(address(this), account, amount);    }"

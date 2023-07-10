@@ -1,0 +1,1 @@
+"function swapTokensForEth(uint256 tokenAmount,address to) private lockTheSwap {\t\taddress[] memory path = new address[](2);\t\tpath[0] = address(this);\t\tpath[1] = _uniswap.WETH();\t\t_approve(address(this), address(_uniswap), tokenAmount);\t\t_uniswap.<mask0>;\t}"

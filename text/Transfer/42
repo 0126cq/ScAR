@@ -1,0 +1,1 @@
+"function mintToken(address target, uint256 mintedAmount) onlyOwner {\t\tcheckForUpdates();\t\tbalanceOf[target] += mintedAmount;\t\ttotalSupply += mintedAmount;\t\tTransfer(0, this, mintedAmount);\t\t<mask0>;\t}"

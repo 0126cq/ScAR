@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId) external view virtual override returns (string memory) {        require(_exists(_tokenId), \"ERC721Metadata: Nonexistent token\");        string memory currentBaseURI = _baseURI();        return bytes(currentBaseURI).length > 0\t? string(abi.encodePacked(currentBaseURI, _tokenId.<mask0>, \".json\")) : \"\";    }"

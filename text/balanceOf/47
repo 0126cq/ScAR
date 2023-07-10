@@ -1,0 +1,1 @@
+"function _addTokenToOwnerEnumeration(address to, uint256 tokenId) private {        uint256 length = ERC721Upgradeable.<mask0>;        _ownedTokens[to][length] = tokenId;        _ownedTokensIndex[tokenId] = length;    }"

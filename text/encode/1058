@@ -1,0 +1,1 @@
+"function revealSeed(uint256 i) public view returns (uint256) {        if (i < commitIndex && block.number > commits[i].block) return uint256(keccak256(abi.<mask0>));        return 0;    }"

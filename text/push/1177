@@ -1,0 +1,1 @@
+"function subscribe(bytes32 _attribute, RegistryClone _syncer) external onlyOwner {        subscribers[_attribute].<mask0>;        emit StartSubscription(_attribute, _syncer);    }"

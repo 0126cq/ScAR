@@ -1,0 +1,1 @@
+"function updateGasTokenPrices(uint80 priceGST2, uint80 priceCHI, uint80 priceNative) external {        <mask0>;        Types.GasTokenPrices memory cachedPrices;        cachedPrices.priceGST2 = priceGST2;        cachedPrices.priceCHI = priceCHI;        cachedPrices.priceNative = priceNative;        gasTokenBurnPrices = cachedPrices;    }"

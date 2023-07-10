@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public virtual nonReentrant {        require(_amount > 0, \"Amount must be > 0\");        _updateReward(msg.sender);        <mask0>;        rewardsToken.safeTransfer(msg.sender, _amount);        emit Withdrawn(msg.sender, _amount);    }"

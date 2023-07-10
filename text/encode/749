@@ -1,0 +1,1 @@
+"function encodeNames(string memory description, string[] memory characteristicNames, string[][] memory traitNames)        public        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

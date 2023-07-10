@@ -1,0 +1,1 @@
+"function insert(_addressSet storage self, address other) public {        if (!contains(self, other)) {            assert(length(self) < 2**256-1);            self.members.<mask0>;            self.memberIndices[other] = length(self);        }    }"

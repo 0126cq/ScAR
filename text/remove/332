@@ -1,0 +1,1 @@
+"function remove(Bytes32ToBytes32Map storage map, bytes32 key) internal returns (bool) {        delete map._values[key];        return map._keys.<mask0>;    }"

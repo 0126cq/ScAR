@@ -1,0 +1,1 @@
+"function mod_outer(uint256 a, uint256 b) internal pure returns (uint256) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function newStake(uint256 tokenAmount) external onlyValidator whenNotPaused {        _newStake(tokenAmount);        require(            <mask0>.transferFrom(msg.sender, address(this), tokenAmount),            \"TRANSFER_FAIL\"        );    }"

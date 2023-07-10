@@ -1,0 +1,1 @@
+"function _burn(        address account,        uint256 id,        uint256 amount    ) internal override {        super.<mask0>;        _removeOwnedTokenCheck(account, id);        totalSupply -= amount;    }"

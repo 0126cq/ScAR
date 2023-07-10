@@ -1,0 +1,1 @@
+"function tokenOfOwnerByIndex(address _owner, uint256 _index) public view returns (uint256) {    require(_index < <mask0>);    return ownedTokens[_owner][_index];  }"

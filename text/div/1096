@@ -1,0 +1,1 @@
+"function takeFee(address sender, uint256 amount) internal returns (uint256) {        uint256 feeAmount = amount.mul(totalFee).<mask0>;        _balances[address(this)] = _balances[address(this)].add(feeAmount);        emit Transfer(sender, address(this), feeAmount);        return amount.sub(feeAmount);    }"

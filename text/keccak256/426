@@ -1,0 +1,1 @@
+"function deliverToBridge(bytes memory message) private {        emit InboxMessageDelivered(            bridge.deliverMessageToInbox(                ROLLUP_PROTOCOL_EVENT_TYPE,                msg.sender,                <mask0>            ),            message        );    }"

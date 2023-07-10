@@ -1,0 +1,1 @@
+"function _createHash( bytes memory data ) internal virtual view returns ( bytes32 ){    return <mask0>;  }"

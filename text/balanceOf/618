@@ -1,0 +1,1 @@
+"function withdrawLQTY() external {        _requireCallerIsBeneficiary();        _requireLockupDurationHasPassed();        ILQTYToken lqtyTokenCached = lqtyToken;        uint LQTYBalance = lqtyTokenCached.<mask0>;        lqtyTokenCached.transfer(beneficiary, LQTYBalance);        emit LockupContractEmptied(LQTYBalance);    }"

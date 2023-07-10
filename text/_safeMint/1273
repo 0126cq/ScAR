@@ -1,0 +1,1 @@
+"function mintWithN(uint256 tokenId) public payable virtual nonReentrant {        require(n.ownerOf(tokenId) == msg.sender, \"NFlat:INVALID_OWNER\");        <mask0>;    }"

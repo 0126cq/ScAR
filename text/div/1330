@@ -1,0 +1,1 @@
+"function depositArbCheck() public view returns(bool) {    uint256 currentPrice = wbtcValueFromMixToken(mixTokenUnit);    if (currentPrice > wbtcPriceCheckpoint) {      return currentPrice.mul(100).<mask0> > 100 - arbTolerance;    } else {      return wbtcPriceCheckpoint.mul(100).div(currentPrice) > 100 - arbTolerance;    }  }"

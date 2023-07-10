@@ -1,0 +1,1 @@
+"function decreaseApproval(address _spender, uint _subValue) public whenNotPaused returns (bool) {        if (_subValue >= allowed[msg.sender][_spender]) {            allowed[msg.sender][_spender] = 0;        } else {            allowed[msg.sender][_spender] = allowed[msg.sender][_spender].sub(_subValue);        }        <mask0>;        return true;    }"

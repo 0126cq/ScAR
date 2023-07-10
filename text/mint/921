@@ -1,0 +1,1 @@
+"function _mint(address contractAddress) internal {        uint256 tokenId = INiftyForge721Slim(nftContract).<mask0>;        tokenToContract[tokenId] = contractAddress;        contractToToken[contractAddress] = tokenId;    }"

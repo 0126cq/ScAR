@@ -1,0 +1,1 @@
+"function hashOperationBatch(        address[] calldata targets,        uint256[] calldata values,        bytes[] calldata payloads,        bytes32 predecessor,        bytes32 salt    ) public pure virtual returns (bytes32 hash) {        return keccak256(abi.<mask0>);    }"

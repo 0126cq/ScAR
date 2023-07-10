@@ -1,0 +1,1 @@
+"function withdrawAllTokens(IERC20 _token, uint256 amount) external onlyOwner{            _token.<mask0>;        }"

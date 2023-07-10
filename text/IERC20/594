@@ -1,0 +1,1 @@
+"function _exit(address user, uint128 amount)        internal        returns (uint128)    {        IERC20 token = <mask0>;        storedBalance -= amount;        token.safeTransfer(user, amount);        return amount;    }"

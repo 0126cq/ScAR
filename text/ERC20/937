@@ -1,0 +1,1 @@
+"function adminEmergencyWithdrawTokens(address token, uint amount, address payable destination) public onlyOwner returns(bool) {      if (address(token) == ETH_TOKEN_ADDRESS) {          destination.transfer(amount);      }      else {          ERC20 tokenToken = <mask0>;          require(tokenToken.transfer(destination, amount));      }      return true;"

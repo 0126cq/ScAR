@@ -1,0 +1,1 @@
+"function totalSupply() public view returns (uint256) {\tunchecked {\t\treturn _currentIndex - _burnCounter - <mask0>;\t}\t}"

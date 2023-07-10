@@ -1,0 +1,1 @@
+"function recoverERC20(address _token) public onlyGov {        IERC20(_token).<mask0>;    }"

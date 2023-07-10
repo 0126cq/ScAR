@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)    public    view    virtual    override(ERC721Upgradeable, NFT721Creator, NFT721Market)    returns (bool)  {    return super.<mask0>;  }"

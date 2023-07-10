@@ -1,0 +1,1 @@
+"function mintTokens(address _to, uint256 _amount) {    require(msg.sender == crowdsaleContractAddress);    supply = supply.add(_amount);    balances[_to] = balances[_to].add(_amount);    Mint(_to, _amount);    <mask0>;  }"

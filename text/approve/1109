@@ -1,0 +1,1 @@
+"function _releasePayment(uint256 rewardAmount) internal {        require(rewardAmount > 0, \"Nothing to collect\");        require(SkvllpvnkzTreasury.balanceOf(address(this)) >= rewardAmount, \"Not enough AMMO\");        SkvllpvnkzTreasury.<mask0>;         SkvllpvnkzTreasury.transfer(msg.sender, rewardAmount);    }"

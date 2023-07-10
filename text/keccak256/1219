@@ -1,0 +1,1 @@
+"function onERC1155BatchReceived(address _operator, address _from, uint256[] calldata _ids, uint256[] calldata _values, bytes calldata _data) override external returns(bytes4) {        if(keccak256(_data) == <mask0>){            return 0xbc197c81;        }    }"

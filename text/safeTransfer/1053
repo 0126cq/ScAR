@@ -1,0 +1,1 @@
+"function _transferOut(    address to,    address externalToken,    uint256 amount  )    internal    returns (bool)  {    require(_canAwardExternal(externalToken), \"PrizePool/invalid-external-token\");    if (amount == 0) {      return false;    }    IERC20Upgradeable(externalToken).<mask0>;    return true;  }"

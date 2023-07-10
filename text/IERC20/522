@@ -1,0 +1,1 @@
+"function erc_sweep(address _token, address _to) public {    require(msg.sender == governance, \"must be governance\");    require(_token != base_asset_address, \"cannot sweep pool assets\");    IERC20 tkn = <mask0>;    uint256 tBal = tkn.balanceOf(address(this));    tkn.safeTransfer(_to, tBal);    emit ErcSwept(msg.sender, _to, _token, tBal);  }"

@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(        address,         address from,        address,         uint256 tokenId)        internal override    {        uint locked = getAndUpdateLockedAmount(from);        if (locked > 0) {            require(<mask0> >= locked.add(tokenId), \"Token should be unlocked for transferring\");        }    }"

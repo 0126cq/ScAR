@@ -1,0 +1,1 @@
+"function setAffiliate(address _shfAffiliate)         external    {        require(            <mask0>,            \"DEFI: Caller is not an admin\"        );        shfAffiliate = SHFAffiliate(_shfAffiliate);    }"

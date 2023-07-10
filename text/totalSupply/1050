@@ -1,0 +1,1 @@
+"function _shareValue(uint256 numShares) internal view returns (uint256) {        uint256 totalShares = <mask0>;        if (totalShares > 0) {            return                totalVaultBalance(address(this)).mul(numShares).div(                    totalShares                );        } else {            return numShares;        }    }"

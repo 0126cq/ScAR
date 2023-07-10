@@ -1,0 +1,1 @@
+"function mint_(address _to, uint volume) external onlyFactory {        <mask0>;    }"

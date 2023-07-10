@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public returns (bool success) {    require(_to != address(0));    if (accounts [msg.sender] < _value) return false;    if (_value > 0 && msg.sender != _to) {      accounts [msg.sender] = <mask0>;      accounts [_to] = safeAdd (accounts [_to], _value);    }    emit Transfer (msg.sender, _to, _value);    return true;  }"

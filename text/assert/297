@@ -1,0 +1,1 @@
+"function minus(uint a, uint b) returns (uint) {    <mask0>;    return a - b;  }"

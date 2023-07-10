@@ -1,0 +1,1 @@
+"function reclaimToken(address tokenContractAddress) public onlyOwner {        ERC20 token = <mask0>;        uint256 balance = token.balanceOf(address(this));        token.transfer(owner(), balance);    }"

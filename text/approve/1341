@@ -1,0 +1,1 @@
+"function approveUnderlying(address[] calldata u, address[] calldata c) external authorized(admin) returns (bool) {    uint256 len = u.length;    require (len == c.length, 'array length mismatch');    uint256 max = 2**256 - 1;    for (uint256 i; i < len; i++) {      Erc20 uToken = Erc20(u[i]);      Safe.<mask0>;    }    return true;  }"

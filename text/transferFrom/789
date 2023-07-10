@@ -1,0 +1,1 @@
+"function withdrawERC721(address _token, uint256 _tokenId) external {    require(      auctionState == State.ended || auctionState == State.redeemed,      \"vault not closed yet\"    );    require(msg.sender == winning, \"withdraw:not allowed\");    IERC721(_token).<mask0>;    emit WithdrawERC721(_token, _tokenId, msg.sender);  }"

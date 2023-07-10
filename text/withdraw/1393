@@ -1,0 +1,1 @@
+"function withdraw(address, uint256 poolId, uint256 amount) external override {        valueMinorPool.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function tokenURI(uint _token_id) public view override returns(string memory){\t\treturn string(abi.<mask0>);\t}"

@@ -1,0 +1,1 @@
+"function generateSVGImage(SVGParams memory params, mapping(uint8 => string[]) storage palettes)        private        view        returns (string memory svg)    {        return Base64.<mask0>;    }"

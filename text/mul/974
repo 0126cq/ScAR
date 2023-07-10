@@ -1,0 +1,1 @@
+"function _transferBurnFee(uint256 tBurn) private {        uint256 currentRate = _getRate();        uint256 rBurn = tBurn.<mask0>;        _rOwned[BURN_ADDRESS] = _rOwned[BURN_ADDRESS].add(rBurn);        if (_isExcluded[BURN_ADDRESS])            _tOwned[BURN_ADDRESS] = _tOwned[BURN_ADDRESS].add(tBurn);    }"

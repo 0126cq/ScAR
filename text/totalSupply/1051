@@ -1,0 +1,1 @@
+"function _sharesForValue(uint256 amount) internal view returns (uint256) {        uint256 totalWrapperAssets =            totalVaultBalance(address(this)).sub(amount);        if (totalWrapperAssets > 0) {            return <mask0>.mul(amount).div(totalWrapperAssets);        } else {            return amount;        }    }"

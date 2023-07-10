@@ -1,0 +1,1 @@
+"function decodeTransferErc20Message(        bytes calldata data    ) internal pure returns (TransferErc20Message memory) {        require(getMessageType(data) == MessageType.TRANSFER_ERC20, \"Message type is not ERC20 transfer\");        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function getEthSignedOrderHash(Order memory _order) public pure returns (bytes32) {        return            <mask0>.toEthSignedMessageHash();    }"

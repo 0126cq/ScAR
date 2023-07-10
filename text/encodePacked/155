@@ -1,0 +1,1 @@
+"function _capExtra(        uint256 n,        address addr,        string memory zeroMsg    ) internal view returns (uint256) {        uint256 extra = sellerConfig.maxPerAddress - _bought[addr];        if (extra == 0) {            revert(string(abi.<mask0>));        }        return Math.min(n, extra);    }"

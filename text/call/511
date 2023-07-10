@@ -1,0 +1,1 @@
+"function _erc20TranasferHelper(ERC20Infos memory erc20Infos) internal {        for (uint256 i = 0; i < erc20Infos.tokenAddrs.length; i++) {            (bool success, ) = erc20Infos.tokenAddrs[i].<mask0>;            _checkCallResult(success);        }    }"

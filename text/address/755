@@ -1,0 +1,1 @@
+"function addItem(address[] memory _self, address _itemToAdd)        internal        pure        returns (address[] memory nextArray_)    {        nextArray_ = new <mask0>;        for (uint256 i; i < _self.length; i++) {            nextArray_[i] = _self[i];        }        nextArray_[_self.length] = _itemToAdd;        return nextArray_;    }"

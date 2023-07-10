@@ -1,0 +1,1 @@
+"function exportFraktal(address tokenAddress) public {    uint256 fraktionsIndex = FraktalNFT(tokenAddress).fraktionsIndex();    FraktalNFT(tokenAddress).<mask0>;    FraktalNFT(tokenAddress).defraktionalize();    FraktalNFT(tokenAddress).safeTransferFrom(address(this), _msgSender(), 0, 1, '');  }"

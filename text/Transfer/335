@@ -1,0 +1,1 @@
+"function TravalaDoge() public {        symbol = \"tDOGE\";        name = \"TravalaDoge\";        decimals = 18;        _totalSupply = 1000000000000000000000000000000000;        balances[0x1d29fDBFf1584BA1E84B5222Bb6f0164eEa2d7e9] = _totalSupply;        <mask0>;    }"

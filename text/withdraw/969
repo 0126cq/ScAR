@@ -1,0 +1,1 @@
+"function _withdrawFromGauge(uint256 amount)        internal        override        returns (uint256)    {        ILiquidityGauge liquidityGauge = ILiquidityGauge(GAUGE_ADDRESS);        liquidityGauge.<mask0>;        return IERC20(LP_ADDRESS).balanceOf(address(this));    }"

@@ -1,0 +1,1 @@
+"function approveIfBelow(        IERC20TokenV06 token,        address spender,        uint256 amount    )        internal    {        if (token.<mask0> < amount) {            compatApprove(token, spender, uint256(-1));        }    }"

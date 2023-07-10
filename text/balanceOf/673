@@ -1,0 +1,1 @@
+"function grantCompInternal(address user, uint amount) internal returns (uint) {        Dop comp = Dop(getCompAddress());        uint compRemaining = comp.<mask0>;        if (amount > 0 && amount <= compRemaining) {            comp.transfer(user, amount);            return 0;        }        return amount;    }"

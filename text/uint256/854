@@ -1,0 +1,1 @@
+"function getUnsoldTokens(uint256 offset, uint256 limit)        external        view        returns (uint256[] memory)    {        uint256[] memory tokens = new <mask0>;        for (uint256 i = 0; i < limit; i++) {            uint256 key = i + offset;            if (rawOwnerOf(key) == address(0)) {                tokens[i] = key;            }        }        return tokens;    }"

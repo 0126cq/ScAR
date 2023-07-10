@@ -1,0 +1,1 @@
+"function convertAndTransferToGovernance() external {    IWETH(WETHAddress).<mask0>;    if (address(this).balance > 0) require(GovernanceAddress.sendEther(address(this).balance), \"pay fail\");    if (IERC20(TornTokenAddress).balanceOf(address(this)) > 0)      IERC20(TornTokenAddress).transfer(GovernanceAddress, IERC20(TornTokenAddress).balanceOf(address(this)));  }"

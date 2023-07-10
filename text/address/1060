@@ -1,0 +1,1 @@
+"function _swapTaxTokensForEth(uint256 _tokenAmount) private {\t\t_approveRouter(_tokenAmount);\t\taddress[] memory path = new <mask0>;\t\tpath[0] = address(this);\t\tpath[1] = _uniswapV2Router.WETH();\t\t_uniswapV2Router.swapExactTokensForETHSupportingFeeOnTransferTokens(_tokenAmount,0,path,address(this),block.timestamp);\t}"

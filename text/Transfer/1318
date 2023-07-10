@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value)\t\twhen_owns(_from, _value)\t\twhen_has_allowance(_from, msg.sender, _value)\t\twhen_liquid\t\treturns (bool)\t{\t\t<mask0>;\t\taccounts[_from].allowanceOf[msg.sender] -= _value;\t\taccounts[_from].balance -= _value;\t\taccounts[_to].balance += _value;\t\treturn true;\t}"

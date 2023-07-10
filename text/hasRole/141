@@ -1,0 +1,1 @@
+"function setTreasury(address _newTreasury) public {        require(<mask0>, \"ERR_CALLER\");        emit RegistryUpdate(\"Treasury\", treasury, _newTreasury);        treasury = _newTreasury;    }"

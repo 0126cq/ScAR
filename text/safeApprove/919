@@ -1,0 +1,1 @@
+"function setApprovals() external {        IERC20(AURA_TOKEN).safeApprove(BAL_VAULT, 0);        IERC20(AURA_TOKEN).<mask0>;    }"

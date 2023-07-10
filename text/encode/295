@@ -1,0 +1,1 @@
+"function depositEther(        address routerAddress,        bytes calldata routerArguments,        bytes calldata calls    ) external payable {        CHAIN_MANAGER.depositEtherFor{value: msg.value}(polygonContract);        FX_ROOT.sendMessageToChild(            polygonContract,            abi.<mask0>        );    }"

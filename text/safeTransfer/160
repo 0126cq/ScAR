@@ -1,0 +1,1 @@
+"function _withdraw(address from, uint amount, address to) internal returns (uint) {        _burn(from, amount);        IERC20(underlying).<mask0>;        return amount;    }"

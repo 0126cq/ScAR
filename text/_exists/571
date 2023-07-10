@@ -1,0 +1,1 @@
+"function balanceOf(address owner) public view virtual override returns (uint256) {    require(owner != address(0), \"ERC721A: balance query for the zero address\");    uint256 count = 0;    for(uint256 i = 1; _exists(i); i++) {      if(_owners[i] == owner) {        count++;        if(_owners[i + 1] == address(0) && <mask0>) count++;      }    }    return count;  }"

@@ -1,0 +1,1 @@
+"function finalization() internal {        if (!preICO)        {            uint256 remainingTokens = maxTokenSupply.sub(token.totalSupply());            token.<mask0>;        }        super.finalization();        if (!preICO)        {            token.finishMinting();        }        token.transferOwnership(pendingOwner);    }"

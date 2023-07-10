@@ -1,0 +1,1 @@
+"function bentoToAave(IERC20 underlying, address to, uint256 amount) external {        bento.<mask0>;         aave.deposit(address(underlying), amount, to, 0);     }"

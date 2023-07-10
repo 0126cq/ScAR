@@ -1,0 +1,1 @@
+"function _mint(uint256 token_id) private onlyOwner {        require(!<mask0>, \"Token has already been minted\");        address recipient = holders[token_id];        require(recipient != address(0), \"Cannot mint to zero address\");        _safeMint(recipient, token_id);    }"

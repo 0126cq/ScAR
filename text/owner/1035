@@ -1,0 +1,1 @@
+"function _payServiceFee() internal {    if (serviceFeeWei > 0) {      require(msg.value >= serviceFeeWei, 'not able to pay service fee');      address payable _treasury = treasury == address(0)        ? payable(<mask0>)        : treasury;      (bool success, ) = _treasury.call{ value: serviceFeeWei }('');      require(success, 'could not pay service fee');    }  }"

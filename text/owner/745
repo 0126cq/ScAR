@@ -1,0 +1,1 @@
+"function ownedOwnershipTransferred() onlyOwner public returns (bool) {        require(ownedContract != address(0));        if (ownedContract.<mask0> == pendingOwnedOwner) {            ownedContract = Claimable(address(0));            pendingOwnedOwner = address(0);            return true;        } else {            return false;        }    }"

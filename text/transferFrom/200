@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 tokenId) public virtual override(ERC721, IERC721) nonReentrant {        require(!_isLocked(tokenId), \"Nft: Token is locked\");        super.<mask0>;    }"

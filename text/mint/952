@@ -1,0 +1,1 @@
+"function mint(    uint256 _id,    uint256 _amount,    address _to  ) external payable virtual onlyValidMint(_id, _amount) {    require(      _amount * bridge.projectToTokenPrice(_id) == msg.value,      \"invalid payment amount\"    );    bridge.<mask0>;  }"

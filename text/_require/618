@@ -1,0 +1,1 @@
+"function _getInstantValue(IPriceOracle.Variable variable, uint256 index) internal view returns (int256) {        bytes32 sample = _getSample(index);        <mask0>;        return sample.instant(variable);    }"

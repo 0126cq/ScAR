@@ -1,0 +1,1 @@
+"function getBorrowBalance(        address adapter,        address platform,        address token    ) internal returns (uint256 borrowBalance) {        bytes memory returnData = adapter.<mask0>;        return abi.decode(returnData, (uint256));    }"

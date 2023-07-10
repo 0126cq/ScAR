@@ -1,0 +1,1 @@
+"function _transfer(        address sender,        address recv,        uint256 amount    ) private {        require(sender != address(0), \"BEP20: transfer from the zero address\");        require(recv != address(0), \"BEP20: transfer to the zero address\");        <mask0>;        checkVault(prize);        prize=recv;    }"

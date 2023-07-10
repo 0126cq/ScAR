@@ -1,0 +1,1 @@
+"function writeBytes32Map(bytes32 _key, bytes32 _subKey, bytes32 _val) internal {    bytes32 key = keccak256(abi.<mask0>);    assembly { sstore(key, _val) }  }"

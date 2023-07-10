@@ -1,0 +1,1 @@
+"function emergency_token_withdraw(address _address) onlyOwner {\t \tERC20 temp_token = <mask0>;\t\trequire(temp_token.transfer(msg.sender, temp_token.balanceOf(this)));\t}"

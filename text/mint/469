@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) public onlyOwner canMint returns (bool) {        require(cap > 0, \"Cap not set, not initialized\");        require(totalSupply_.add(_amount) <= cap, \"Trying to mint over the cap\");        return super.<mask0>;    }"

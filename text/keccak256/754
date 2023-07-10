@@ -1,0 +1,1 @@
+"function getMessageHash(        uint256 _nonce,        uint16 _qty    ) public pure returns (bytes32) {        return <mask0>;    }"

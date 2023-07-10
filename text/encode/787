@@ -1,0 +1,1 @@
+"function packExchangeData(ExchangeData memory _exData) public pure returns(bytes memory) {             bytes memory part1 = abi.encode(            _exData.srcAddr,            _exData.destAddr,            _exData.srcAmount,            _exData.destAmount        );        bytes memory part2 = abi.<mask0>;        return abi.encode(part1, part2);    }"

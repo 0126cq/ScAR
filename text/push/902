@@ -1,0 +1,1 @@
+"function bulkAddAccounts(AccountInfo[] memory accounts) external payable {    require(      accounts.length >= 5,      'you need a minimum of 5 accounts to add in bulk at a 50% discount service cost'    );    _payForService(0);    for (uint256 _i = 0; _i < accounts.length; _i++) {      AccountInfo memory _account = accounts[_i];      userAccounts[msg.sender].<mask0>;    }  }"

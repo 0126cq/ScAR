@@ -1,0 +1,1 @@
+"function totalSold() public view returns (uint256) {        return _totalSold.<mask0>;    }"

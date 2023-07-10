@@ -1,0 +1,1 @@
+"function getGameData(uint176 id, bool needHash) public view returns (GameData memory g) {        <mask0>;        (g.p1, g.wager) = decodeGameID(id);        (g.status, g.p2) = decodeGameData(games[id]);        if (needHash) {            (g.p1Hash, g.p2Hash) = (playerHashes[id+1], playerHashes[id+2]);        }    }"

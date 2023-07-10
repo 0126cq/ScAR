@@ -1,0 +1,1 @@
+"function removeStrategy(address _strategy) external override onlyGovernorOrMechanic {        require(requiredHarvest[_strategy] > 0, \"CrvStrategyKeep3rJob::remove-strategy:strategy-not-added\");        requiredHarvest[_strategy] = 0;        _availableStrategies.<mask0>;        emit StrategyRemoved(_strategy);    }"

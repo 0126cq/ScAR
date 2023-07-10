@@ -1,0 +1,1 @@
+"function initializeGovernableInit(address _store) public initializer {    <mask0>;    _setStorage(_store);  }"

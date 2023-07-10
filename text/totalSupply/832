@@ -1,0 +1,1 @@
+"function getShardSuppliers() external view returns (uint256, uint256, uint256, uint256) {        return (_shardLPExtra.underlyingSupply, shardLPToken.<mask0>, _shardLPExtra.feeToNiftex, _shardLPExtra.feeToArtist);    }"

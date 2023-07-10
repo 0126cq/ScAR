@@ -1,0 +1,1 @@
+"function bindContract(address _contract) onlyOwner public returns (bool) {        require(_contract != address(0));        ownedContract = Claimable(_contract);        if (ownedContract.<mask0> != address(this)) {            ownedContract.claimOwnership();        }        return true;    }"

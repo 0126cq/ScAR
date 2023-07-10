@@ -1,0 +1,1 @@
+"function isSchainNameAvailable(string calldata name) external view returns (bool) {        bytes32 schainId = keccak256(abi.<mask0>);        return schains[schainId].owner == address(0) &&            !usedSchainNames[schainId] &&            keccak256(abi.encodePacked(name)) != keccak256(abi.encodePacked(\"Mainnet\"));    }"

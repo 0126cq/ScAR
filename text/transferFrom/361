@@ -1,0 +1,1 @@
+"function stake(uint256 _amount) external isLocked() updateReward(msg.sender) {        _lastStakeTime[msg.sender] = block.timestamp;        stakingToken.<mask0>;        _balances[msg.sender] += _amount;        emit Staking(msg.sender, _amount);    }"

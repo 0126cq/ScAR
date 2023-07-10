@@ -1,0 +1,1 @@
+"function _beforeTokenTransfers(        address from,        address to,        uint startTokenId,        uint quantity    ) internal virtual override(ERC721A, ERC721APausable) {        super.<mask0>;    }"

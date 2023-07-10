@@ -1,0 +1,1 @@
+"function giveaway(address winner) public onlyOwner {        uint256 supply = totalSupply();        require(supply + 1 < maxSupply,   \"max_token_supply_exceeded\");        <mask0>;  }"

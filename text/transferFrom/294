@@ -1,0 +1,1 @@
+"function addCollateral(address payable creditLineAddress, uint amount) external payable whenNotPaused {    CreditLine cl = CreditLine(creditLineAddress);    getPool().<mask0>;    uint newCollateralBalance = cl.collateralBalance().add(amount);    cl.setCollateralBalance(newCollateralBalance);  }"

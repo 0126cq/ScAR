@@ -1,0 +1,1 @@
+"function mint(uint256 _amount) public payable{        address _caller = _msgSenderERC721A();        require(totalSupply()+_amount<=MAX_SUPPLY, \"Sold out\");        require(_amount*PRICE<=msg.value, \"Value to low\");        require(boughtMints[_caller]+_amount <= MAX_PER_WALLET, \"Max per Wallet is reached\");        boughtMints[_caller] += _amount;        <mask0>;    }"

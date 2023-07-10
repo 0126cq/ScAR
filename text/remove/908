@@ -1,0 +1,1 @@
+"function emergencyWithdraw(uint256 _catId)        external        onlyRole(DAO_MANAGER_ROLE)    {        CatRoom memory room = checkinBooks[_catId];        stakedTokenList.<mask0>;        _burn(room.catId);        lasercat.safeTransferFrom(address(this), room.owner, room.catId);        emit EmergencyWithdraw(room.owner, _catId);    }"

@@ -1,0 +1,1 @@
+"function _safeMint(\t\taddress to,\t\tuint256 amount,\t\tbytes memory data\t) internal virtual {\t\t_mint(to, amount);\t\trequire(to.code.length == 0 || ERC721TokenReceiver(to).<mask0> == ERC721TokenReceiver.onERC721Received.selector, \"UNSAFE_RECIPIENT\");\t}"

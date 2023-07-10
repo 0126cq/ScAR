@@ -1,0 +1,1 @@
+"function _mint(address to, uint256 amount) internal virtual {    unchecked {      require(to != address(0), \"ERC721A: mint to the zero address\");                  for(uint256 i = 0; i < amount; i++) {        _owners[nextId + i] = to;        <mask0>;        emit Transfer(address(0), to, nextId + i);      }      nextId += amount;    }  }"

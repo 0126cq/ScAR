@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public override updateReward(msg.sender) checkStart {        require(amount != 0, \"Cannot withdraw 0\");        super.<mask0>;        numBoostersBought[msg.sender] = 0;        updateBoostBalanceAndSupply(msg.sender, 0);        stakeToken.safeTransfer(msg.sender, amount);    }"

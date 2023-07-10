@@ -1,0 +1,1 @@
+"function claim(uint256 n) external {        require(claimPrice > 0, \"Claiming not open\");        peach.<mask0>;        require(_currentIndex + n < MAX_SUPPLY, \"MAX\");        super._safeMint(_msgSender(), n);    }"

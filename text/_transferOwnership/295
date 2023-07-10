@@ -1,0 +1,1 @@
+"function renounceOwnership() public virtual onlyOnwer {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function emitTokenStateUpdated(address newTokenState) internal {        proxy._emit(abi.<mask0>, 1, TOKENSTATEUPDATED_SIG, 0, 0, 0);    }"

@@ -1,0 +1,1 @@
+"function partialWithdrawalRewardPool(uint256 amount) internal {    IBaseRewardPool(rewardPool()).withdraw(amount, false);      uint256 depositBalance = IERC20(depositReceipt()).<mask0>;    if (depositBalance != 0) {      IBooster(booster).withdrawAll(poolId());    }  }"

@@ -1,0 +1,1 @@
+"function getUserTokenBalance(address userAddress, address tokenAddress) public view returns (uint256){    ERC20 token = <mask0>;    return token.balanceOf(userAddress);"

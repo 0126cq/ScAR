@@ -1,0 +1,1 @@
+"function retrieveFunds() public onlyOwner {    vestingToken.safeTransfer(treasury, vestingToken.<mask0>);  }"

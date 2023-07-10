@@ -1,0 +1,1 @@
+"function increaseAmount(address lockToken, address escrow, uint256 value) public onlyGovernance {    IERC20(lockToken).<mask0>;    IERC20(lockToken).safeApprove(escrow, value);    VotingEscrow(escrow).increase_amount(value);  }"

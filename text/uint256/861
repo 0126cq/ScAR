@@ -1,0 +1,1 @@
+"function auctionSuccessful() public view returns (bool) {        return uint256(marketStatus.commitmentsTotal) >= uint256(marketStatus.minimumCommitmentAmount) && <mask0> > 0;    }"

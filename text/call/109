@@ -1,0 +1,1 @@
+"function withdraw(address to) external onlyOwner {        (bool success, ) = to.<mask0>;        require(success, \"Transfer failed\");    }"

@@ -1,0 +1,1 @@
+"function vaultEtherDeposit(        address from,        uint256 value)        internal    {        IWethERC20 _wethToken = wethToken;        _wethToken.deposit.<mask0>;        emit VaultDeposit(            address(_wethToken),            from,            value        );    }"

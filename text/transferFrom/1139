@@ -1,0 +1,1 @@
+"function depositFreakerFree(address payable mintTo, uint128 freakerID) external {        require(msg.sender == attackContract, \"FreakerFortress: Attack contract only\");        EtherFreakers(etherFreakersAddress).<mask0>;        _safeMint(mintTo, freakerID, \"\");    }"

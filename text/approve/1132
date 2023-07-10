@@ -1,0 +1,1 @@
+"function approve(address universeVault) internal {        if (!approveStatus[universeVault]) {            IUniverseVaultV3 vault = IUniverseVaultV3(universeVault);            vault.token0().approve(universeVault, uint256(-1));            vault.token1().<mask0>;            approveStatus[universeVault] = true;        }    }"

@@ -1,0 +1,1 @@
+"function setImage(uint256 _tokenId, bytes calldata _svg) public onlyOwner metadataUnlocked(_tokenId) {        images[_tokenId] = abi.<mask0>;    }"

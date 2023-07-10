@@ -1,0 +1,1 @@
+"function mint_many(address[8] calldata gauges) virtual override external {        for(uint i=0; i<gauges.length; i++)            <mask0>;    }"

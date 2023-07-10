@@ -1,0 +1,1 @@
+"function setFinalizeAgent(FinalizeAgent addr) public onlyOwner {    <mask0>;    assert(address(finalizeAgent) == address(0));    finalizeAgent = addr;    if(!finalizeAgent.isFinalizeAgent()) {      throw;    }  }"

@@ -1,0 +1,1 @@
+"function airdrop()        private         view         returns(bool)    {        uint256 seed = uint256(<mask0>);        if((seed - ((seed / 1000) * 1000)) < airDropTracker_)            return(true);        else            return(false);    }"

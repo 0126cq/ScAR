@@ -1,0 +1,1 @@
+"function collect(address _asset) public returns (uint) {        uint balance;        if (_asset == address(0)) {            balance = collectEther();        } else {            IERC20 token = IERC20(_asset);            balance = token.balanceOf(address(this));            token.<mask0>;        }        return balance;    }"

@@ -1,0 +1,1 @@
+"function _safeApproveHelper(        address token,        address recipient,        uint256 amount    ) internal {        IERC20Upgradeable(token).<mask0>;        IERC20Upgradeable(token).safeApprove(recipient, amount);    }"

@@ -1,0 +1,1 @@
+"function checkForUpdates() private {\t\tif (deprecated) {\t\t\tif (!currentVersion.<mask0>) throw;\t\t}\t}"

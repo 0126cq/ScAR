@@ -1,0 +1,1 @@
+"function manualMint(address _to, uint256 _amount) public onlyAuthorized {        if(manualMinted < manualMintLimit){        <mask0>;        _moveDelegates(address(0), _delegates[_to], _amount);        manualMinted = manualMinted + _amount;        }"

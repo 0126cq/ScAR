@@ -1,0 +1,1 @@
+"function stakeMulti(MultiStakeParam[] memory groups) external nonReentrant {        address account = <mask0>;        for (uint256 i = 0; i < groups.length; i++) {            _batchStake(account, groups[i].poolId, groups[i].tokenIds);        }    }"

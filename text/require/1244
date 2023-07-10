@@ -1,0 +1,1 @@
+"function setFeeTo(address _feeTo) external {        <mask0>;        feeTo = _feeTo;    }"

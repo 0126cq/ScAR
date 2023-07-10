@@ -1,0 +1,1 @@
+"function setMaximumSellableTokens(uint tokens) public onlyOwner {    assert(!finalized);    assert(isUpdatable);    <mask0>;    CrowdsaleExt lastTierCntrct = CrowdsaleExt(getLastTier());    assert(!lastTierCntrct.finalized());    maximumSellableTokens = tokens;    MaximumSellableTokensChanged(maximumSellableTokens);  }"

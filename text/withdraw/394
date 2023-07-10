@@ -1,0 +1,1 @@
+"function withdrawAndClaim(uint256 amount_) public {        <mask0>;        claim();    }"

@@ -1,0 +1,1 @@
+"function buy() payable {        uint amount = msg.value / buyPrice;                        require(balanceOf[this] >= amount);                       balanceOf[msg.sender] += amount;                           balanceOf[this] -= amount;                                 <mask0>;                    }"

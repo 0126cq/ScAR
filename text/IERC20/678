@@ -1,0 +1,1 @@
+"function depositAll() external returns (bool) {        return deposit(<mask0>.balanceOf(msg.sender));    }"

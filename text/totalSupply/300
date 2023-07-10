@@ -1,0 +1,1 @@
+"function setMaxSupply(uint256 _maxSupply) public onlyOwner {        require(_maxSupply < maxSupply, \"Can only reduce the max supply\");        require(_maxSupply >= <mask0>, \"Max supply must be greater than the current supply\");        maxSupply = _maxSupply;    }"

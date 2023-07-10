@@ -1,0 +1,1 @@
+"function _deposit(address from, uint amount) virtual override internal {        super._deposit(from, amount);                                   lp_token.<mask0>;        LiquidityGauge(reward_contract).deposit(amount);    }"

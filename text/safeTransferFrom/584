@@ -1,0 +1,1 @@
+"function depositAsset(address assetAddress, uint112 amount) external {        IERC20(assetAddress).<mask0>;        generalDeposit(assetAddress, amount);    }"

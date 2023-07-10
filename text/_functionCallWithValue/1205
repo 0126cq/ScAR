@@ -1,0 +1,1 @@
+"function functionCall(        address target,         bytes memory data,         string memory errorMessage    ) internal returns (bytes memory) {        return <mask0>;    }"

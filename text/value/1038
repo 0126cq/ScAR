@@ -1,0 +1,1 @@
+"function _getWeth(uint256 _amount) internal {        (bool success, ) = WETH.call.<mask0>;        require(success, \"failed to get weth\");    }"

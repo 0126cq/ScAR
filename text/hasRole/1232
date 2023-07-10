@@ -1,0 +1,1 @@
+"function lockForAll() external {        require(<mask0>, \"NOT_ADMIN\");        _revokeRole(TRANSFER_ROLE, address(0));    }"

@@ -1,0 +1,1 @@
+"function soldBurn(    address owner,    uint256 _tokenId,    uint256 bal  ) external {    if (_msgSender() != owner) {      require(isApprovedForAll(owner, _msgSender()));    }    <mask0>;  }"

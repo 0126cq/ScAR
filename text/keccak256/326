@@ -1,0 +1,1 @@
+"function _isWhitelisted(address _user, bytes32[] calldata _merkleProof)        internal        view        returns (bool)    {        bytes32 leaf = <mask0>;        require(            MerkleProof.verify(_merkleProof, whitelistMerkleRoot, leaf),            \"Invalid proof!\"        );        return true;    }"

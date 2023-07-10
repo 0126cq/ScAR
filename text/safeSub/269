@@ -1,0 +1,1 @@
+"function withdraw(uint amount) public {     if (tokens[0][msg.sender] < amount) revert();    tokens[0][msg.sender] = <mask0>;    msg.sender.transfer(amount);    emit Withdraw(0, msg.sender, amount, tokens[0][msg.sender]);  }"

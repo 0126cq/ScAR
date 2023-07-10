@@ -1,0 +1,1 @@
+"function exchangeRate() public view returns (uint256) {        uint256 totalShares = <mask0>;        uint256 precision = _getRatePrecision();        return totalShares == 0 ? precision : stakeManager.delegatedAmount(validatorId).mul(precision).div(totalShares);    }"

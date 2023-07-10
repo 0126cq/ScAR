@@ -1,0 +1,1 @@
+"function mintNft(string memory tokenURI) public payable returns (uint256) {        require(msg.value == cost);        _tokenIds.increment();        uint256 newNftTokenId = _tokenIds.<mask0>;        _mint(msg.sender, newNftTokenId);        _setTokenURI(newNftTokenId, tokenURI);        return newNftTokenId;    }"

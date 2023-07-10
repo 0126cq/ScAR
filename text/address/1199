@@ -1,0 +1,1 @@
+"function initialize() public nonReentrant() {        initialized = true;        _registerContract(new <mask0>, address(this));    }"

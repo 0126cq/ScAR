@@ -1,0 +1,1 @@
+"function mint(uint256 tierIndex, address owner)        external        override        onlyMinter    {        uint256 tokenId = _tokenCounter.current();        _tokenCounter.increment();        _safeMint(owner, tokenId);        _tokenTier[tokenId] = tierIndex;        <mask0>;    }"

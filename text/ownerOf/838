@@ -1,0 +1,1 @@
+"function _setOwner(address newOwner, uint256 tokenId) internal {        address currentOwner = <mask0>;        if (currentOwner != address(0)) {            _ownerTokenIDs[currentOwner].remove(tokenId);        }        _ownerTokenIDs[newOwner].add(tokenId);    }"

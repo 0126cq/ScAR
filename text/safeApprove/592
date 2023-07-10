@@ -1,0 +1,1 @@
+"function universalApprove(IToken token, address to, uint256 amount) internal {        if (token != ZERO_ADDRESS && token != ETH_ADDRESS) {            token.<mask0>;        }    }"

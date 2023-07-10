@@ -1,0 +1,1 @@
+"function removeFromWhiteList1(address[] calldata entries) external {        require(<mask0>, \"Caller is not admin\");        for (uint256 i = 0; i < entries.length; i++) {            address entry = entries[i];            require(entry != address(0), \"Cannot remove zero address\");            whitelist1[entry] = false;            onWhitelist1Count--;        }    }"

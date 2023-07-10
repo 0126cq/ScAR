@@ -1,0 +1,1 @@
+"function claimDiamondInitialReward() public {        require(BlootMF.isDiamond(msg.sender) == true, \"Your account isn't a Diamond\");        require(diamondClaims[msg.sender] == false, \"You have already claimed this reward\");        diamondClaims[msg.sender] = true;        diamondRewardCounter += 1;        <mask0>;    }"

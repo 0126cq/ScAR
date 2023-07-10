@@ -1,0 +1,1 @@
+"function deployLiquidity(uint256[] calldata amounts) external override {        require(amounts.length == 1, \"INVALID_AMOUNTS\");        IERC20(UNDERLYER_ADDRESS).safeApprove(POOL_ADDRESS, 0);        IERC20(UNDERLYER_ADDRESS).<mask0>;        _deposit(amounts[0]);    }"

@@ -1,0 +1,1 @@
+"function giveaway(uint256 _count, address _to) external onlyOwner {        uint256 totalSupply = <mask0>;        require(totalSupply + _count <= maxSupply, \"Sold out!\");        for (uint256 i = 0; i < _count; i++) {            _safeMint(_to, totalSupply + i);        }    }"

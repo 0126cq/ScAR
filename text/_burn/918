@@ -1,0 +1,1 @@
+"function _setBalance(address account, uint256 newBalance) internal {\t\tuint256 currentBalance = balanceOf(account);\t\tif(newBalance > currentBalance) {\t\t\tuint256 mintAmount = newBalance.sub(currentBalance);\t\t\t_mint(account, mintAmount);\t\t} else if(newBalance < currentBalance) {\t\t\tuint256 burnAmount = currentBalance.sub(newBalance);\t\t\t<mask0>;\t\t}\t}"

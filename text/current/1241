@@ -1,0 +1,1 @@
+"function buy()        payable        external        returns (uint256)    {                require(msg.value == feeAmount, \"PinkslipTicket: You must send the required amount\");        _tokenIds.increment();        uint256 newItemId = _tokenIds.<mask0>;        _safeMint(msg.sender, newItemId);        feeAddress.sendValue(msg.value);        return newItemId;    }"

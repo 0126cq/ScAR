@@ -1,0 +1,1 @@
+"function setApprovalForAll(address operator, bool approved) public override {        <mask0>;        _operatorApprovals[_msgSender()][operator] = approved;        emit ApprovalForAll(_msgSender(), operator, approved);    }"

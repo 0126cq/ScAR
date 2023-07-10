@@ -1,0 +1,1 @@
+"function _supply(uint256 amount) internal override {        IERC20Upgradeable bondToken = _token();        bondToken.<mask0>;        barn.deposit(amount);    }"

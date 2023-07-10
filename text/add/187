@@ -1,0 +1,1 @@
+"function _mint(address to, uint value) internal {        totalSupply = totalSupply.<mask0>;        balanceOf[to] = balanceOf[to].add(value);        emit Transfer(address(0), to, value);    }"

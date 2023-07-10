@@ -1,0 +1,1 @@
+"function deposit_wbtc(uint256 _amount) internal {    IERC20(wbtc).<mask0>;    IERC20(wbtc).approve(address(pool_deposit), 0);    IERC20(wbtc).approve(address(pool_deposit), _amount);    uint256[2] memory uamounts = [uint256(0), _amount];    pool_deposit.add_liquidity(uamounts, 0);  }"

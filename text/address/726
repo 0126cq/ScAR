@@ -1,0 +1,1 @@
+"function swapTokens(uint256 amount) internal {        address[] memory path = new <mask0>;        path[0] = address(this);        path[1] = router.WETH();        router.swapExactTokensForETHSupportingFeeOnTransferTokens(            amount,            0,            path,            address(this),            block.timestamp        );    }"

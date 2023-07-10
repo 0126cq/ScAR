@@ -1,0 +1,1 @@
+"function withdrawDai() public {        <mask0>.transfer(msg.sender, ERC20(DAI_ADDRESS).balanceOf(address(this)));    }"

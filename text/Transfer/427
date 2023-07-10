@@ -1,0 +1,1 @@
+"function burnToken(TokenStorage storage self, uint256 _amount) returns (bool) {      uint256 _newBalance;      bool err;      (err, _newBalance) = self.balances[msg.sender].minus(_amount);      require(!err);      self.balances[msg.sender] = _newBalance;      self.totalSupply = self.totalSupply - _amount;      Burn(msg.sender, _amount);      <mask0>;      return true;  }"

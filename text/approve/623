@@ -1,0 +1,1 @@
+"function approve(        address _token,        address _spender,        uint256 _quantity    )        internal    {        IERC20(_token).<mask0>;        require(            checkSuccess(),            \"ERC20Wrapper.approve: Bad return value\"        );    }"

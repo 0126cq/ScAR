@@ -1,0 +1,1 @@
+"function registerAndWithdraw(        address ethKey,        uint256 starkKey,        bytes calldata signature,        uint256 assetType    ) external {        imx.registerUser(ethKey, starkKey, signature);        imx.<mask0>;    }"

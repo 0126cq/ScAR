@@ -1,0 +1,1 @@
+"function multiMint(address[] calldata accounts, uint256[] calldata initialAmounts) external override onlyMinter {        for (uint256 i = 0; i < accounts.length; i++) {            <mask0>;        }    }"

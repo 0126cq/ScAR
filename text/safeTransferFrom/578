@@ -1,0 +1,1 @@
+"function swap721(        uint256 _in,        uint256 _out,        address _receipient    ) external {        IFactory(factory).sellTokens();        IERC721(nftAddress).transferFrom(msg.sender, address(this), _in);        IERC721(nftAddress).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function downPayWithWETH(address nft, uint tokenId, address market, bytes calldata data, uint price, uint loanAmt, uint wethAmt) external payable {        require(wethAmt >= IERC20(_WETH_).balanceOf(_msgSender()), \"Insufficient WETH\");        IERC20(_WETH_).<mask0>;        WETH9(_WETH_).withdraw(wethAmt);        downPayWithETH(nft, tokenId, market, data, price, loanAmt);    }"

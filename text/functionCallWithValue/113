@@ -1,0 +1,1 @@
+"function call(address target,bytes memory data,uint256 value) public returns (bytes memory) {        return target.<mask0>;    }"

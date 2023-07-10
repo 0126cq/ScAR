@@ -1,0 +1,1 @@
+"function balanceOf(address account) public view override returns (uint256) {        if (_isExcluded[account])            return _tOwned[account].mul(priceFactor).div(10**6);        return            <mask0>.mul(priceFactor).div(10**6);    }"

@@ -1,0 +1,1 @@
+"function TeamReserve(uint _amount)public onlyOwner{        require(_amount >0);        uint256 ts = <mask0>;        require(ts + _amount <= MAX_TOKEN);        _doMint(_amount,_msgSender());    }"

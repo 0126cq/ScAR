@@ -1,0 +1,1 @@
+"function readUint16(    bytes memory data,    uint256 index  ) internal pure returns (uint16 a, uint256 newIndex) {    assembly {      let word := mload(add(index, add(32, data)))      a := and(shr(240, word), 0xffff)      newIndex := add(index, 2)    }    <mask0>;    require(newIndex <= data.length, \"LibBytes#readUint16: OUT_OF_BOUNDS\");  }"

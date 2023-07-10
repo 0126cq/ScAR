@@ -1,0 +1,1 @@
+"function _harvestReward() internal {        require(!rewardPaused, \"Claiming reward has been paused\");        ISpermToken(sperm).<mask0>;        lastClaimed[msg.sender] = block.timestamp;    }"

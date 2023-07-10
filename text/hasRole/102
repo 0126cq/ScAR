@@ -1,0 +1,1 @@
+"function setProfitFee(uint256 _fee) public {\t    require(<mask0>, \"finmgmt only\");\t\trequire(_fee <= 1e18, \"fee >1.0\");        profitFee = _fee;\t}"

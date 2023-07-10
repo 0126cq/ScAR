@@ -1,0 +1,1 @@
+"function mintTokens(address to, uint tokens) internal {    token.<mask0>;  }"

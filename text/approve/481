@@ -1,0 +1,1 @@
+"function delistAllRewards() public isVaultManager {        for (uint i = 0; i < rewardTokens.length; i++) {            rewardTokens[i].<mask0>;        }        IERC20[] memory noRewardTokens;        rewardTokens = noRewardTokens;        delete swapSteps;    }"

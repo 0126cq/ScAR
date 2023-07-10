@@ -1,0 +1,1 @@
+"function withdraw(address _token, address _destination, uint _amount) external onlyPolicy() {        <mask0>.safeTransfer(_destination, _amount);        emit Withdraw(_token, _destination, _amount);    }"

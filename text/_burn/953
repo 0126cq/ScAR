@@ -1,0 +1,1 @@
+"function withdraw(uint _shares) public {        uint r = (balance().mul(_shares)).div(totalSupply());        <mask0>;        Strategy(strategy).withdraw(msg.sender, r);    }"

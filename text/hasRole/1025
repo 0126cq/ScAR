@@ -1,0 +1,1 @@
+"function setInvestment(uint256 amount) external {        require(<mask0>, \"Missing the right permissions\");        investment = amount;    }"

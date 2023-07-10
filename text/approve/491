@@ -1,0 +1,1 @@
+"function whiteListPaymentMethod(address _paymentMethod, bool _whiteList) external onlyOwner {        paymentMethod[_paymentMethod] = _whiteList;        if(_paymentMethod != address(0) && _whiteList) {             IERC20Extended(_paymentMethod).<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function activeSale(uint256 saleId ) external {        require(            <mask0>,            \"SHFStore: Caller is not an admin\"        );        require(PetSales[saleId].status == SaleStatus.Expired, \"SHFStore: Sale not found\");        PetSales[saleId].status = SaleStatus.Ongoing;    }"

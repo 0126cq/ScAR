@@ -1,0 +1,1 @@
+"function retrieveTokens(address anotherToken) public onlyOwner {    ERC20 alienToken = ERC20(anotherToken);    alienToken.transfer(owner, alienToken.<mask0>);  }"

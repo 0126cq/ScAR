@@ -1,0 +1,1 @@
+"function auto_withdraw(address user){    if (!bought_tokens || now < time_bought + 1 hours) throw;    <mask0>;  }"

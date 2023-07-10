@@ -1,0 +1,1 @@
+"function _burn(address owner, uint256 tokenId) internal {        super.<mask0>;        _removeTokenFromOwnerEnumeration(owner, tokenId);        _ownedTokensIndex[tokenId] = 0;        _removeTokenFromAllTokensEnumeration(tokenId);    }"

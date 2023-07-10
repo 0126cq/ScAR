@@ -1,0 +1,1 @@
+"function withdrawRevoked(        Deposit memory deposit,        address operator,        address grantManager    ) internal {        uint256 amount = availableAmount(operator);        deposits[operator].withdrawn = amount;        keepToken.<mask0>;        emit RevokedDepositWithdrawn(operator, grantManager, amount);    }"

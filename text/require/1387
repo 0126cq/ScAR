@@ -1,0 +1,1 @@
+"function releaseOfEarnings(address tkn, address guy,uint amount) public keepPool returns(bool) {        <mask0>;        ERC20 token = ERC20(tkn);        token.transfer(guy, amount);        return true;    }"

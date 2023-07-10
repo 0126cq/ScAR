@@ -1,0 +1,1 @@
+"function _giveawayLoop(address _receiver, uint256 _giveawayAmount) internal {        for (uint256 i = 0; i < _giveawayAmount; i++) {            supply.increment();            _safeMint(_receiver, supply.<mask0>);            givedAway++;        }    }"

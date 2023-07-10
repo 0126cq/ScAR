@@ -1,0 +1,1 @@
+"function airdrop(address to, uint count) external onlyOwner {        require(_totalMinted() + count <= COLLECTION_SIZE,        \"Request exceeds collection size\");        <mask0>;    }"

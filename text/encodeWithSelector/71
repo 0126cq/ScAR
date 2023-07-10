@@ -1,0 +1,1 @@
+"function safeApprove(IERC20 token, address to, uint value) internal {        (bool success, bytes memory data) = address(token).call(abi.<mask0>);        require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: APPROVE_FAILED');    }"

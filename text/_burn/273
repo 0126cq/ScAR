@@ -1,0 +1,1 @@
+"function burn(address _user, uint256 _amount) public returns (bool) {\t\tif (_user != _msgSender()) _canMint();\t\t<mask0>;\t\treturn true;\t}"

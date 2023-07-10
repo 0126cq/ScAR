@@ -1,0 +1,1 @@
+"function _getEncoded(        ForwardRequest memory req,        bytes32 requestTypeHash,        bytes memory suffixData    )    public    pure    returns (        bytes memory    ) {        return abi.encodePacked(            requestTypeHash,            abi.<mask0>,            suffixData        );    }"

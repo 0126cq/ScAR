@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyMintAgent whenNotPaused public returns (bool) {        require (totalSupply.add(_amount) <= hard_cap);        totalSupply = totalSupply.add(_amount);        balances[_to] = balances[_to].add(_amount);        Mint(_to, _amount);        <mask0>;        return true;    }"

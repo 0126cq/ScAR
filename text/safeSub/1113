@@ -1,0 +1,1 @@
+"function withdrawTo(address _to, uint256 _amount)        public        notThis(_to)    {        balanceOf[msg.sender] = safeSub(balanceOf[msg.sender], _amount);         totalSupply = <mask0>;         _to.transfer(_amount);         Transfer(msg.sender, this, _amount);        Destruction(_amount);    }"

@@ -1,0 +1,1 @@
+"function exit() public {        uint tokens = user_data[msg.sender].tokens;        if (tokens > 0) {            sell(tokens);        }        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function transferFromAndCall(        address sender,        address recipient,        uint256 amount,        bytes memory data    ) public virtual override returns (bool) {        <mask0>;        require(_checkAndCallTransfer(sender, recipient, amount, data), \"ERC1363: _checkAndCallTransfer reverts\");        return true;    }"

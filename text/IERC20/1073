@@ -1,0 +1,1 @@
+"function calculateKEYSContractBalance() external view returns (uint256) {        return <mask0>.balanceOf(address(this));    }"

@@ -1,0 +1,1 @@
+"function mintTokenIdTrait(uint256 mintTokenId, uint8 maskType, bool isGiveaway)        public        pure        returns (string memory)    {        string memory value = !isGiveaway && maskType > 0 ? mintTokenId.<mask0> : 'None';        return traitDefinition('MintTokenId', value);    }"

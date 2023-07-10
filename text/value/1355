@@ -1,0 +1,1 @@
+"function playerWithdrawPendingTransactions() publicpayoutsAreActivereturns (bool){uint withdrawAmount = playerPendingWithdrawals[msg.sender];playerPendingWithdrawals[msg.sender] = 0;if (msg.sender.call.<mask0>()) {return true;} else {playerPendingWithdrawals[msg.sender] = withdrawAmount;return false;}}"

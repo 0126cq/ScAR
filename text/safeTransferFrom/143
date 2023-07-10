@@ -1,0 +1,1 @@
+"function onERC721Received(address, address from, uint256 tokenId, bytes memory)    public    returns(bytes4)  {    if (missionsAreGo == false) revert MissionsNotYetBegun();    <mask0>;    emit AgentShouldReceiveUpdate(from, tokenId);    return this.onERC721Received.selector;  }"

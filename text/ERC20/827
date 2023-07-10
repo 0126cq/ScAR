@@ -1,0 +1,1 @@
+"function getAvailableLiquidity(address _joinAddr) internal view returns (uint liquidity) {        address tokenAddr = getAaveCollAddr(_joinAddr);        if (tokenAddr == KYBER_ETH_ADDRESS) {            liquidity = AAVE_POOL_CORE.balance;        } else {            liquidity = <mask0>.balanceOf(AAVE_POOL_CORE);        }    }"

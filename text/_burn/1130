@@ -1,0 +1,1 @@
+"function _burnPoolTokens(address sender, uint256 amount) internal {        <mask0>;    }"

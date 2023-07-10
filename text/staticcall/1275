@@ -1,0 +1,1 @@
+"function balanceOf(address token, address owner)        internal        view        returns (uint256 balance)    {        (bool didSucceed, bytes memory resultData) = token.<mask0>;        if (didSucceed && resultData.length == 32) {            balance = LibBytes.readUint256(resultData, 0);        }    }"

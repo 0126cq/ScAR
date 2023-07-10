@@ -1,0 +1,1 @@
+"function _burn(address from, uint value) internal {        balanceOf[from] = balanceOf[from].sub(value);        totalSupply = totalSupply.<mask0>;        emit Transfer(from, address(0), value);    }"

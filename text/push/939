@@ -1,0 +1,1 @@
+"function removeLevel(uint256 price) public onlyOwner {    if (levels.length < 1) {      return;    }    Level[] memory tmp = levels;    delete levels;    for (uint i = 0; i < tmp.length; i++) {      if (tmp[i].price != price) {        levels.<mask0>;      }    }  }"

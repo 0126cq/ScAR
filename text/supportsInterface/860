@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC165Upgradeable, IERC165Upgradeable) returns (bool) {        return            interfaceId == type(IERC721Upgradeable).interfaceId ||            interfaceId == type(IERC721MetadataUpgradeable).interfaceId ||            super.<mask0>;    }"

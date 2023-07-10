@@ -1,0 +1,1 @@
+"function removeSwap(string calldata name)        external        override        nonReentrant        onlyAdminRole    {        _swaps.<mask0>;        emit SwapRemoved(name);    }"

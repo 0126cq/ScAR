@@ -1,0 +1,1 @@
+"function stake(uint256 amount)        public        runPhasedDistribution()        updateAccount(msg.sender)        checkIfNewUser()    {        address sender = msg.sender;        IERC20Burnable(AlToken).<mask0>;        totalSupplyAltokens = totalSupplyAltokens.add(amount);        depositedAlTokens[sender] = depositedAlTokens[sender].add(amount);    }"

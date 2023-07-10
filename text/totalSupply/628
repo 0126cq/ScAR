@@ -1,0 +1,1 @@
+"function setMaxTxAmount(uint256 maxTxAmount_) public onlyOwner {        require(maxTxAmount_ >= (((<mask0> * 75) / 10000) / 1e18), \"Token: max TX amount cannot be below 0.75%\");        _maxTxAmount = maxTxAmount_ * 1e18;    }"

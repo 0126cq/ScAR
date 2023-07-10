@@ -1,0 +1,1 @@
+"function mintToken(address target, uint256 mintedAmount) onlyOwner public {        balanceOf[target] += mintedAmount;        totalSupply += mintedAmount;        if(!ownerAppended[target]) {            ownerAppended[target] = true;            owners.<mask0>;        }        emit Transfer(0, this, mintedAmount);        emit Transfer(this, target, mintedAmount);    }"

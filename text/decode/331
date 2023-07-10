@@ -1,0 +1,1 @@
+"function initialize(        bytes memory initArg,        uint128 bip,        address feeReceiver    ) public override initializer {        (address[] memory payee, uint256[] memory share) = abi.<mask0>;        __PaymentSplitter_init(payee, share);    }"

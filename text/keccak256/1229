@@ -1,0 +1,1 @@
+"function isOnPresaleMerkle(bytes32[] calldata _merkleProof) public view returns(bool) {        bytes32 leaf = <mask0>;        return MerkleProof.verify(_merkleProof, presaleMerkleRoot, leaf);    }"

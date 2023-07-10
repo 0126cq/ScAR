@@ -1,0 +1,1 @@
+"function init() external onlyToken virtual override {        IERC20(oneToken).<mask0>;        IERC20(oneToken).safeApprove(oneToken, INFINITE);        emit StrategyInitialized(oneToken);    }"

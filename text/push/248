@@ -1,0 +1,1 @@
+"function assignOperator(address user_)        public        onlyOwner    {        if(user_ != address(0) && !authbook[user_]) {            authbook[user_] = true;            operators.<mask0>;        }    }"

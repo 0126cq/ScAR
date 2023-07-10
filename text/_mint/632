@@ -1,0 +1,1 @@
+"function mint(address to, uint32 amount) external {        require(_allowedMinter == msg.sender, \"ShitPlunger: ?\");        require(amount + _minted <= MAX_SUPPLY, \"ShitPlunger: Exceed max supply\");        _minted += amount;        <mask0>;    }"

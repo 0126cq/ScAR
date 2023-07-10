@@ -1,0 +1,1 @@
+"function transfer(address to, uint tokens) public override returns (bool success) {        balances[msg.sender] = safeSub(balances[msg.sender], tokens);        balances[to] = safeAdd(balances[to], tokens);        <mask0>;        return true;    }"

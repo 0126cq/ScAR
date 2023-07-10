@@ -1,0 +1,1 @@
+"function getReserveAvailableLiquidity(address _reserve) public view returns (uint256) {        uint256 balance = 0;        if (_reserve == EthAddressLib.ethAddress()) {            balance = address(this).balance;        } else {            balance = <mask0>.balanceOf(address(this));        }        return balance;    }"

@@ -1,0 +1,1 @@
+"function rewardPerToken() public view returns (uint256) {        if (totalStaked() == 0) {            return rewardPerTokenStored;        }        return            rewardPerTokenStored.<mask0>;    }"

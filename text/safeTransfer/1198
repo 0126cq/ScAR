@@ -1,0 +1,1 @@
+"function recoverLostToken(address _token) external returns (bool) {    require(_token != HADES);    require(_token != principle);    SafeERC20.<mask0>;    return true;  }"

@@ -1,0 +1,1 @@
+"function logUint(uint p0) internal view {\t\t(bool ignored, ) = CONSOLE_ADDRESS.<mask0>;\t\tignored;\t}"

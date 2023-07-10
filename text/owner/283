@@ -1,0 +1,1 @@
+"function withdrawETH() external onlyOwner {      payable(<mask0>).transfer(address(this).balance);    }"

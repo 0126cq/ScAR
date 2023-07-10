@@ -1,0 +1,1 @@
+"function approve() external {        address[] memory components = ISetToken(address(dpi)).getComponents();        for (uint256 i = 0; i < components.length; i++) {            IERC20 component = IERC20(components[i]);            if(component.allowance(address(this), address(basicIssuance)) == 0) {                component.<mask0>;            }        }    }"

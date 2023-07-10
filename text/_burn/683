@@ -1,0 +1,1 @@
+"function burn(uint256 _value) public onlyOwner{        require(_value <= super.balanceOf(owner), \"Small Balance.\");        <mask0>;        emit Burn(owner, _value);    }"

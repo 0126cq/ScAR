@@ -1,0 +1,1 @@
+"function setFeeNumerator(uint96 feeNumerator) public onlyOwner {        _setDefaultRoyalty(<mask0>, feeNumerator);    }"

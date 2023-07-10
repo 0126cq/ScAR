@@ -1,0 +1,1 @@
+"function _setInitialOwner(address initialOwner) internal {        if (initialOwner == address(0)) {            revert InitialOwnerIsNullAddress();        }        if (_owner != address(0)) {            revert OwnerAlreadySet(_owner);        }        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function convert(address _module) external payable returns (uint256) {\t\tIWETH(wrapper).<mask0>;\t\trequire(msg.sender.send(address(this).balance), \"!send\");\t}"

@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        uint256 balance = address(this).balance;        uint256 tokenBalance = <mask0>.balanceOf(address(this));        payable(msg.sender).transfer(balance);        IERC20(_MORE).transfer(msg.sender, tokenBalance);    }"

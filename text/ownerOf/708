@@ -1,0 +1,1 @@
+"function isApprovedOrOwner(address spender, uint256 tokenId)        external        view        virtual        override        returns (bool)    {        address owner = ERC721.<mask0>;        return (spender == owner ||            getApproved(tokenId) == spender ||            isApprovedForAll(owner, spender));    }"

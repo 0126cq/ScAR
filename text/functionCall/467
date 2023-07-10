@@ -1,0 +1,1 @@
+"function proxyCall(address payable target, bytes memory callData) external onlyRecipient {    require(      !callData.startsWith(type(IERC20Approve).interfaceId) &&        !callData.startsWith(type(IERC20IncreaseAllowance).interfaceId),      \"Split: ERC20 tokens must be split\"    );    _splitERC20Tokens(IERC20(target));    target.<mask0>;  }"

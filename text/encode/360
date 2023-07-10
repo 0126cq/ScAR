@@ -1,0 +1,1 @@
+"function delegate(address delegatee) external payable returns (string memory _eventName, bytes memory _eventParam) {        require(compToken.delegates(address(this)) != delegatee, \"Already delegated to same delegatee.\");        compToken.delegate(delegatee);        _eventName = \"LogDelegate(address)\";        _eventParam = abi.<mask0>;    }"

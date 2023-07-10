@@ -1,0 +1,1 @@
+"function getCreateClanCost() public view returns (uint256 amount) {    return clanIdTracker.<mask0> * createClanCostMultiplier;  }"

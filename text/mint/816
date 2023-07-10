@@ -1,0 +1,1 @@
+"function releaseStage1() public onlyOwner {    require(now > stage1ReleaseTime, 'Release time has not come yet');    require(stage1Released != true, 'Tokens already released');    stage1Released = true;    token.<mask0>;  }"

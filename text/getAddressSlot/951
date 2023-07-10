@@ -1,0 +1,1 @@
+"function _setAdmin(address newAdmin) private {\t\trequire(newAdmin != address(0), \"ERC1967: new admin is the zero address\");\t\tStorageSlotUpgradeable.<mask0>.value = newAdmin;\t}"

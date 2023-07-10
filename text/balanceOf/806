@@ -1,0 +1,1 @@
+"function retrieveTokens(address _token) public onlyOwner {    ERC20 token = ERC20(_token);    token.transfer(multisigVault, token.<mask0>);  }"

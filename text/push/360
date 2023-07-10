@@ -1,0 +1,1 @@
+"function enableValidator(uint validatorId) external checkValidatorExists(validatorId) onlyAdmin {        require(!_trustedValidators[validatorId], \"Validator is already enabled\");        _trustedValidators[validatorId] = true;        trustedValidatorsList.<mask0>;        emit ValidatorWasEnabled(validatorId);    }"

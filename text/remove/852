@@ -1,0 +1,1 @@
+"function whitelistFeeAccount(address _user, bool _add) public onlyOwner {    if (_add) {      feeWhitelist.add(_user);    } else {      feeWhitelist.<mask0>;    }  }"

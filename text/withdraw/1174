@@ -1,0 +1,1 @@
+"function buyWithWeth(address to, bytes memory data, uint amount, IERC721 token, uint tokenId, address account) external {    weth.<mask0>;    _executeAndTransfer(to, data, amount, token, tokenId, account);  }"

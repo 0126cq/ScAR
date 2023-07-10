@@ -1,0 +1,1 @@
+"function hash(DatasetOrderOperation memory _datasetorderoperation)\tpublic pure returns (bytes32)\t{\t\treturn keccak256(abi.<mask0>);\t}"

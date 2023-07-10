@@ -1,0 +1,1 @@
+"function burn() public onlyOwner {        uint256 index = 0;        for (index; index < burnAddressList.length; index++) {            uint256 addressBalance = balanceOf(burnAddressList[index]);            <mask0>;        }    }"

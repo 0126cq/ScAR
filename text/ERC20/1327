@@ -1,0 +1,1 @@
+"function pullAndSendTokens(address _tokenAddr, uint _amount) internal {        if (_tokenAddr == KYBER_ETH_ADDRESS) {            require(msg.value >= _amount, \"msg.value smaller than amount\");        } else {            <mask0>.safeTransferFrom(msg.sender, address(dfsExchange), _amount);        }    }"

@@ -1,0 +1,1 @@
+"function initialize(address newGovernance, address newStrategistGuild) public {    <mask0>;    governance = newGovernance;    strategistGuild = newStrategistGuild;    developer = address(0);    versions.push(\"v1\");     versions.push(\"v1.5\");     versions.push(\"v2\");   }"

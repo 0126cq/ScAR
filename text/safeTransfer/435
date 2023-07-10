@@ -1,0 +1,1 @@
+"function _transferBaseOut(address to, uint256 amount) internal {        if (amount > 0) {            _BASE_TOKEN_.<mask0>;        }    }"

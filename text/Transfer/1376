@@ -1,0 +1,1 @@
+"function NBW(){\t\ttotalSupply=MAX_SUPPLY;\t\tbalances[msg.sender] = MAX_SUPPLY;\t\t<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function cardType(uint256 _id) public view returns (uint256) {        require(<mask0>, \"Deed NFT doesn't exists\");        return tokenType[_id];    }"

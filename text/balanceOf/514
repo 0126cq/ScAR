@@ -1,0 +1,1 @@
+"function manualSwapAmount(uint256 amount) public onlyOwner() {        uint256 contractBalance = <mask0>;        require(contractBalance >= amount , 'contract balance should be greater then amount');        swapTokensForEth(amount);    }"

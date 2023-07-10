@@ -1,0 +1,1 @@
+"function setRewardRecipient(address _recipient) external {        require(<mask0>, \"ERR_CALLER\");        rewardsRecipient = _recipient;        emit RewardsRecipientUpdated(_recipient);    }"

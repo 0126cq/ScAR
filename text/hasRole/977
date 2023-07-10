@@ -1,0 +1,1 @@
+"function harvestRewards() public virtual {        require(<mask0>, \"ERR_CALLER\");        _harvestRewards();        emit RewardsHarvested();    }"

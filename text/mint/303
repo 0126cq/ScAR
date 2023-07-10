@@ -1,0 +1,1 @@
+"function CreateTokens() payable public {        mainwallet.transfer(msg.value);        uint tokens = rate.mul(msg.value).div(1 ether);        token.<mask0>;        SaleToken(msg.sender, tokens);    }"

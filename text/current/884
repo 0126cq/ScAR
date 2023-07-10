@@ -1,0 +1,1 @@
+"function getLastTokenId() external view returns (uint256) {    return _tokenCounter.<mask0>;  }"

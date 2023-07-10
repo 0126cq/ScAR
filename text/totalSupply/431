@@ -1,0 +1,1 @@
+"function gift(address _to, uint256 _count) external onlyOwner {        require(_to != address(0), \"cannot withdraw to address(0)\");        require(<mask0> + _count <= MAX_PIXELS, \"max pixels reached\");        for (uint256 i = 1; i <= _count; i++) {            _safeMint(_to, totalSupply()+1);        }    }"

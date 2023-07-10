@@ -1,0 +1,1 @@
+"function canAutoClaim(uint256 lastClaimTime) private view returns (bool) {        if (lastClaimTime > block.timestamp)  {            return false;        }        return block.timestamp.<mask0> >= claimWait;    }"

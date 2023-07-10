@@ -1,0 +1,1 @@
+"function teamMint(uint256 _number) external onlyOwner {        require(totalSupply() + _number <= maxSupply, \"Minting would exceed maxSupply\");        <mask0>;    }"

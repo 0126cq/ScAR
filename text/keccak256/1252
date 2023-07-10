@@ -1,0 +1,1 @@
+"function _getOrCacheEventsHub() private returns(EventsHub) {        EventsHub _eventsHub = eventsHub;        if (_eventsHub == EventsHub(0x0)) {            _eventsHub = EventsHub(Registry(stakeManager.getRegistry()).contractMap(<mask0>));            eventsHub = _eventsHub;        }        return _eventsHub;    }"

@@ -1,0 +1,1 @@
+"function getMrItemKindCount() public view returns (uint256){        return _mrIdKindCount.<mask0>;    }"

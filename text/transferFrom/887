@@ -1,0 +1,1 @@
+"function pull(address src, uint128 wad) returns (bool) {        return <mask0>;    }"

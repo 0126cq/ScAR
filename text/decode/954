@@ -1,0 +1,1 @@
+"function accrueInterest() public returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"accrueInterest()\"));        return abi.<mask0>;    }"

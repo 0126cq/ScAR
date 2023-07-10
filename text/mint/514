@@ -1,0 +1,1 @@
+"function reserve(address to, uint256 mintAmount) external onlyOwner {        require(mintAmount > 0, \"Not enough Mint Amount\");        <mask0>;    }"

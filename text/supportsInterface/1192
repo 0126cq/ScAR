@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {        return super.<mask0> || _supportedInterfaces[interfaceId];    }"

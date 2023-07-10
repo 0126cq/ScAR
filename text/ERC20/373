@@ -1,0 +1,1 @@
+"function drop(address tokenContractAddress, address[] recipients, uint256[] amounts) public ownerOnly {    require(tokenContractAddress != 0x0);    require(recipients.length == amounts.length);    require(recipients.length <= 300);    ERC20 tokenContract = <mask0>;    for (uint8 i = 0; i < recipients.length; i++) {      tokenContract.transfer(recipients[i], amounts[i]);    }  }"

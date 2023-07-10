@@ -1,0 +1,1 @@
+"function _sendETHGainToDepositor(uint _amount) internal {        if (_amount == 0) {return;}        uint newETH = ETH.sub(_amount);        ETH = newETH;        emit StabilityPoolETHBalanceUpdated(newETH);        emit EtherSent(msg.sender, _amount);        (bool success, ) = msg.sender.<mask0>;        require(success, \"StabilityPool: sending ETH failed\");    }"

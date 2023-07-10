@@ -1,0 +1,1 @@
+"function pullFromStrategy() public onlyMigrationStrategy {      canMigrate = true;      lpToken.<mask0>;    }"

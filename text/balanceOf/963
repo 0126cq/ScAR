@@ -1,0 +1,1 @@
+"function vote(uint256 _pollNumber, uint256 _option) external pollIdentifierCompliance(_pollNumber) {        ballots[_pollNumber-1].vote(_option, <mask0>);    }"

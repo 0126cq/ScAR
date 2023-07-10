@@ -1,0 +1,1 @@
+"function manualSwapPercentage(uint256 tokenpercentage) external onlyOwner {        tokenstosell = (<mask0>*tokenpercentage)/1000;        payable(devAddress).sendValue(address(this).balance);    }"

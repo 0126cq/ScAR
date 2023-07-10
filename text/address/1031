@@ -1,0 +1,1 @@
+"function _eth2token()\tinternal view returns (address[] memory)\t{\t\taddress[] memory path = new <mask0>;\t\tpath[0] = router.WETH();\t\tpath[1] = address(m_baseToken);\t\treturn path;\t}"

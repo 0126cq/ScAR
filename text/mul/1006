@@ -1,0 +1,1 @@
+"function bundlePrice(uint256 quantity) public view returns(uint256) {    if (quantity >= 5 && quantity < 10) {      return (price.sub(0.01 ether)).mul(quantity);    } else if (quantity >= 10) {      return (price.sub(0.02 ether)).<mask0>;    } else {      return price;    }  }"

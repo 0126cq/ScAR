@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) external {        require(_amount > 0, \"LendingPoolToken: invalidAmount\");        <mask0>;    }"

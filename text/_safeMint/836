@@ -1,0 +1,1 @@
+"function _safeMintLoop(Color color, uint256 quantity, address to) internal {        for (uint256 i = 0; i < quantity; i++) {                       uint256 tokenId = totalSupplyByColor(color) + getInfo(color).startingTokenId;            increaseSupplyByColor(color);            <mask0>;         }    }"

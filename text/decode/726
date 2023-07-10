@@ -1,0 +1,1 @@
+"function getUnderlying(address cToken) internal view returns (address) {        (bool success, bytes memory data) =            cToken.staticcall(abi.encode(ICErc20.underlying.selector));        if (success) {            return abi.<mask0>;        }        return AppStorageLib.store().assetAddresses[\"WETH\"];    }"

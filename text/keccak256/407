@@ -1,0 +1,1 @@
+"function tokenPrice(address target, bytes32[] memory proof) public view returns (uint256) {        bytes32 leaf = <mask0>;        if (currentStage == STAGE_PRESALE) {            if (MerkleProof.verify(proof, whitelistRoot, leaf)) {                return tokenPricePresale;            }        }        return tokenPricePublicSale;    }"

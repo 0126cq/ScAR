@@ -1,0 +1,1 @@
+"function mintTo(address _to, string memory tokenURI) internal returns (uint) {        require(_to != address(0), \"Cannot mint to 0x0.\");        uint id = minted;        <mask0>;        _setTokenURI(id, tokenURI);        minted = minted + 1;        return id;    }"

@@ -1,0 +1,1 @@
+"function initialize(address _admin, address _logic, bytes memory _data) public payable {    require(_implementation() == address(0));    InitializableUpgradeabilityProxy.initialize(_logic, _data);    <mask0>;    _setAdmin(_admin);  }"

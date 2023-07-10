@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner nonReentrant {    (bool success, ) = payable(owner()).<mask0>;    require(success);  }"

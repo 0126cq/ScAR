@@ -1,0 +1,1 @@
+"function removeFromAvailableTokens(uint256 index) external onlyOwner {        _availableTokens[index] = _availableTokens[_availableTokens.length - 1];        _availableTokens.<mask0>;    }"

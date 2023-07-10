@@ -1,0 +1,1 @@
+"function transferTokenOut(address token, address recipient, uint amount) private {        IERC20(token).safeTransfer(recipient, amount);        tokenBalances[token] = tokenBalances[token].sub(amount);        if (tokenBalances[token] == 0) {            lockedTokens.<mask0>;        }    }"

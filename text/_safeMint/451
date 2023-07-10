@@ -1,0 +1,1 @@
+"function giveAwayMany(address[] memory addresses) external onlyOwner() {        require( addresses.length <= _giftReserved, \"Exceeds reserved gift Bots supply\" );        for (uint i = 0; i < addresses.length; i++) {            <mask0>;        }        _giftReserved -= addresses.length;    }"

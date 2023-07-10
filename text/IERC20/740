@@ -1,0 +1,1 @@
+"function balanceOf(address erc20TokenAddress, address account) internal view returns(uint256) {        if(erc20TokenAddress == address(0)) {            return account.balance;        }        return abi.decode(erc20TokenAddress.read(abi.encodeWithSelector(<mask0>.balanceOf.selector, account)), (uint256));    }"

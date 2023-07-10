@@ -1,0 +1,1 @@
+"function getAllowedSendAddress()        external        view        onlyRole(DEFAULT_ADMIN_ROLE)        returns(address[] memory)    {        address[] memory wallets = new <mask0>;        for(uint i = 0; i < _allowedSend.length(); i++) {            wallets[i] = _allowedSend.at(i);        }        return wallets;    }"

@@ -1,0 +1,1 @@
+"function addApproval(address _spender, uint _addedValue)  returns (bool success) {      uint oldValue = allowed[msg.sender][_spender];      allowed[msg.sender][_spender] = safeAdd(oldValue, _addedValue);      <mask0>;      return true;  }"

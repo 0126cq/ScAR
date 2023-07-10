@@ -1,0 +1,1 @@
+"function _supplyCompound(uint amount) internal {      require(Compound(compound).<mask0> == 0, \"COMPOUND: supply failed\");  }"

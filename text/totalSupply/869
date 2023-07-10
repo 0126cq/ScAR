@@ -1,0 +1,1 @@
+"function batchMint() public payable callerIsUser{        require(<mask0> + batchMintAmount <= MAX_SUPPLY,\"sold out\");        require(msg.value >= batchMintCost,\"insufficient\");        _safeMint(msg.sender, batchMintAmount);    }"

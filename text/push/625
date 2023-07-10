@@ -1,0 +1,1 @@
+"function addAdapter(address _adapter) external mutualUpgrade(operator, methodologist) {        require(!isAdapter[_adapter], \"Adapter already exists\");        adapters.<mask0>;        isAdapter[_adapter] = true;        emit AdapterAdded(_adapter);    }"

@@ -1,0 +1,1 @@
+"function stakeOnBehalf(uint _amount,address account ) external updateReward(account) {        _totalSupply += _amount;        _balances[account] += _amount;        stakingToken.<mask0>;    }"

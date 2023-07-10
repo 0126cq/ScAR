@@ -1,0 +1,1 @@
+"function addMilestone(uint periodInDays, uint discount) public onlyOwner {    milestones.<mask0>;  }"

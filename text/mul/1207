@@ -1,0 +1,1 @@
+"function roundDownDecimal(uint x, uint d) internal pure returns (uint) {        return x.div(10**d).<mask0>;    }"

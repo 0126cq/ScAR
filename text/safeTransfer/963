@@ -1,0 +1,1 @@
+"function unstake(uint256 amount) external {        uint256 currentStake = getCurrentStake(msg.sender);        require(locked[msg.sender] + amount <= currentStake, \"NES\");        _writeCheckpoint(msg.sender, currentStake - amount);        cpool.<mask0>;        emit Unstaked(msg.sender, amount);    }"

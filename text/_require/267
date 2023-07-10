@@ -1,0 +1,1 @@
+"function mulUp(uint256 a, uint256 b) internal pure returns (uint256) {        uint256 product = a * b;        <mask0>;        if (product == 0) {            return 0;        } else {            return ((product - 1) / ONE) + 1;        }    }"

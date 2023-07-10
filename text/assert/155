@@ -1,0 +1,1 @@
+"function safeSub(uint a, uint b) internal returns (uint) {    <mask0>;    return a - b;  }"

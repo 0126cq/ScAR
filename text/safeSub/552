@@ -1,0 +1,1 @@
+"function compounding(uint chi, uint ratePerSecond, uint lastUpdated, uint pie) private view returns (uint, uint) {        require(block.timestamp >= lastUpdated, \"tinlake-math/invalid-timestamp\");        require(chi != 0);        uint updatedChi = _chargeInterest(chi ,ratePerSecond, lastUpdated, block.timestamp);        return (updatedChi, <mask0>);    }"

@@ -1,0 +1,1 @@
+"function oraclize_query(string datasource, bytes[2] args, uint gaslimit) oraclizeAPI internal returns (bytes32 id) {        bytes[] memory dynargs = new <mask0>;        dynargs[0] = args[0];        dynargs[1] = args[1];        return oraclize_query(datasource, dynargs, gaslimit);    }"

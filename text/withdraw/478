@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount)        public        override(IBoardroomV2, TokenStoreWrapper)        directorExists        updateReward(_msgSender())    {        super.<mask0>;        emit WithdrawShare(_msgSender(), _amount);    }"

@@ -1,0 +1,1 @@
+"function getTxStatus(Data storage self, bytes32 txHash) internal view returns (bool txStatus) {    bytes32 id = <mask0>;    return self.Storage.getBool(id);  }"

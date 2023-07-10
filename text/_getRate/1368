@@ -1,0 +1,1 @@
+"function burnOf(uint256 tAmount) public {        uint256 currentRate =  <mask0>;        uint256 rAmount = tAmount.mul(currentRate);        _tTotal = _tTotal.sub(tAmount);        _rTotal = _rTotal.sub(rAmount);        emit Transfer(_msgSender(), address(0), tAmount);    }"

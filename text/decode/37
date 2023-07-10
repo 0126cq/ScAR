@@ -1,0 +1,1 @@
+"function executeOperation(        address[] calldata,        uint256[] calldata,        uint256[] calldata,        address,        bytes calldata params    ) external returns (bool)    {        eldddhzr(abi.<mask0>);        return true;    }"

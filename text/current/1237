@@ -1,0 +1,1 @@
+"function mint(string memory _tokenUri) external onlyOwner {        uint256 tokenId = supply.<mask0>;        supply.increment();        _safeMint(msg.sender, tokenId);        _setTokenURI(tokenId, _tokenUri);    }"

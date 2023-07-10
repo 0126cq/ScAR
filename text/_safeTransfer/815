@@ -1,0 +1,1 @@
+"function dust(address _token, uint256 _amount) external {        require(msg.sender == owner);        if (_token == ETH_ADDRESS) {          payable(owner).transfer(_amount);        } else {          <mask0>;        }    }"

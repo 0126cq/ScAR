@@ -1,0 +1,1 @@
+"function clear() external {    token.<mask0>;    controller.earn(address(token), token.balanceOf(address(this)));  }"

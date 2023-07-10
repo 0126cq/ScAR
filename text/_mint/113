@@ -1,0 +1,1 @@
+"function ownershipMint(address _to, uint256 _quantity) public ownership {        require(_quantity + totalSupply() <= 3333, \"HRF: maximum tokens minted\");        for (uint256 i=0; i < _quantity; i++) {            _mintLimit[msg.sender] += 1;            <mask0>;        }    }"

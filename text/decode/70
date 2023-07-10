@@ -1,0 +1,1 @@
+"function callFunction(        address sender,        Account.Info memory account,        bytes memory data    ) public override {        (bool deficit, uint256 amount, uint256 repayAmount) = abi.<mask0>;        require(msg.sender == SOLO, \"NOT_SOLO\");        _loanLogic(deficit, amount, repayAmount);    }"

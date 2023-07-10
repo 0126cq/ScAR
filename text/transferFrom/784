@@ -1,0 +1,1 @@
+"function withdrawAll() external onlyOwner {        payable(_msgSender()).transfer(address(this).balance);        peach.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function findOnePercent(uint256 amount) private view returns (uint256)  {        uint256 roundAmount = amount.ceil(oneHundredPercent);        uint256 fivePercent = roundAmount.<mask0>.div(1000);        return fivePercent;    }"

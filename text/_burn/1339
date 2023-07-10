@@ -1,0 +1,1 @@
+"function burn(uint _amount) public onlyOwner returns (bool) {                <mask0>;        return true;     }"

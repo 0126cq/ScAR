@@ -1,0 +1,1 @@
+"function withdrawOther(address _asset) external {        _onlyVault();        _onlyNotProtectedTokens(_asset);        IERC20Upgradeable(_asset).<mask0>;    }"

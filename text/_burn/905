@@ -1,0 +1,1 @@
+"function _burnVoucher(uint256 tokenId_) internal virtual {        delete voucherSlotMapping[tokenId_];        VNFTCoreV2.<mask0>;    }"

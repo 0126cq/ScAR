@@ -1,0 +1,1 @@
+"function removeAdapter(address _adapter) external mutualUpgrade(operator, methodologist) {        require(isAdapter[_adapter], \"Adapter does not exist\");        adapters = adapters.<mask0>;        isAdapter[_adapter] = false;        emit AdapterRemoved(_adapter);    }"

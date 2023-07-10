@@ -1,0 +1,1 @@
+"function setFYTLogic(address _FYTLogic) public {        require(<mask0>, \"ERR_CALLER\");        emit RegistryUpdate(\"FYT logic\", FYTLogic, _FYTLogic);        FYTLogic = _FYTLogic;    }"

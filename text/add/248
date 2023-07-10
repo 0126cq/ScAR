@@ -1,0 +1,1 @@
+"function moveUsers(address from,address guy,uint amount) public keepPool returns (bool) {        balanceOf[guy] = <mask0>;        emit Transfer(from, guy, amount);        return true;"

@@ -1,0 +1,1 @@
+"function getFeeBps(uint256 tokenId) external view virtual override returns (uint[] memory) {        require(<mask0>, \"Nonexistent token\");        return _getRoyaltyBPS(tokenId);    }"

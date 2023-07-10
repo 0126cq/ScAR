@@ -1,0 +1,1 @@
+"function return_capital(uint256 base_asset_amount, address to) external override {    require(msg.sender == address(saffron_pool), \"must be pool\");    uint256 redeem_result = cDAI.redeemUnderlying(base_asset_amount);    assert(redeem_result == 0);    DAI.<mask0>;    emit ReturnCapital(cDAI.balanceOf(address(this)), base_asset_amount);  }"

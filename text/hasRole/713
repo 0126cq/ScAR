@@ -1,0 +1,1 @@
+"function isOperator(address instance, address operator)        public        view        returns (bool)    {        return <mask0>;    }"

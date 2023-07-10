@@ -1,0 +1,1 @@
+"function mintGiveaway(uint16 _count) public onlyOwner {    uint256 ts = totalSupply();    require(ts + _count <= MAX_SUPPLY, \"MAX_SUPPLY\");    require(      ts + _count <= (MAX_SUPPLY - tokensPartner),      \"ts with tokensPartner\"    );    for (uint16 i = 0; i < _count; i++) {      tokensGiven++;      <mask0>;      emit MintGiveaway(msg.sender, ts);      ts++;    }  }"

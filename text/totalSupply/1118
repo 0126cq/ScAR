@@ -1,0 +1,1 @@
+"function UpdateCost(uint256 _mintAmount) internal view returns  (uint256 _cost) {    if (balanceOf(msg.sender) + _mintAmount <= maxMintAmountPerTxPhase1 && <mask0> < supplyLimitPhase1) {        return cost1;    }    if (balanceOf(msg.sender) + _mintAmount <= supplyLimit){        return cost2;    }"

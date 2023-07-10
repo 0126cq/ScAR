@@ -1,0 +1,1 @@
+"function submit(uint256 _amount)\t\texternal\t\toverride\t\twhenNotPaused\t\treturns (uint256)\t{\t\trequire(_amount > 0, \"Invalid amount\");\t\tIERC20Upgradeable(token).<mask0>;\t\treturn helper_delegate_to_mint(msg.sender, _amount);\t}"

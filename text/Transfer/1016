@@ -1,0 +1,1 @@
+"function GVPE_Token() public {        uint _thousands = 10**3 * 10**18;        balances[ICO_PRE_SALE]  = 100 * _thousands;         balances[address(this)] = 0;        <mask0>;    }"

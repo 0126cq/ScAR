@@ -1,0 +1,1 @@
+"function setApprove(        address _token,        address _to,        uint256 _amount    ) external onlyOwner {        IERC20(_token).<mask0>;    }"

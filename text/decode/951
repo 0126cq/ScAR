@@ -1,0 +1,1 @@
+"function exchangeRateCurrent() public returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"exchangeRateCurrent()\"));        return abi.<mask0>;    }"

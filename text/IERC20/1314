@@ -1,0 +1,1 @@
+"function _addLiquidity() internal {        uint256[3] memory amounts;        amounts[0] = IERC20(dai).balanceOf(address(this));        amounts[1] = IERC20(usdc).balanceOf(address(this));        amounts[2] = <mask0>.balanceOf(address(this));        stableSwap3Pool.add_liquidity(amounts, 1);    }"

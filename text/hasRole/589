@@ -1,0 +1,1 @@
+"function toggleWhiteList1(bool _whitelist1Enabled) external {        require(<mask0>, \"Caller is not admin\");        whitelist1Enabled = _whitelist1Enabled;    }"

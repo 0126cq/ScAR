@@ -1,0 +1,1 @@
+"function setTokenListener(TokenListenerInterface _tokenListener) external onlyOwner {    require(address(0) == address(_tokenListener) || address(_tokenListener).<mask0>, \"ControlledStrategy/token-listener-invalid\");    tokenListener = _tokenListener;    emit TokenListenerUpdated(tokenListener);  }"

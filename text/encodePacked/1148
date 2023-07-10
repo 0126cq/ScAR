@@ -1,0 +1,1 @@
+"function isRegisteredFirm(Data storage self, string issuerFirm) internal view returns (bool registered) {    bytes32 id = keccak256(abi.<mask0>);    return self.Storage.getBool(id);  }"

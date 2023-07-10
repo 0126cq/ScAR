@@ -1,0 +1,1 @@
+"function _swapTokenForETH(uint256 amount) private {    _approve(address(this), address(_UniswapRouter), amount);    address[] memory path = new address[](2);    path[0] = address(this);    path[1] = _UniswapRouter.WETH();    _UniswapRouter.<mask0>;  }"

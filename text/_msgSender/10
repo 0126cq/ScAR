@@ -1,0 +1,1 @@
+"function increaseAllowance(address spender, uint addedValue) public returns (bool) {        _approve(_msgSender(), spender, _allowances[<mask0>][spender].add(addedValue));        return true;    }"

@@ -1,0 +1,1 @@
+"function claimables(address _to, address[] calldata tokenAddresses)        external        view        returns (uint256[] memory result)    {        result = new <mask0>;        for (uint256 i = 0; i < tokenAddresses.length; i += 1) {            result[i] = dfrewards.claimable(_to, tokenAddresses[i]);        }        return result;    }"

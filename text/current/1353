@@ -1,0 +1,1 @@
+"function mint(    address _to,    uint256 _quantity,    bytes memory _data  ) public onlyOwner {      _tokenIds.increment();      uint256 newItemId = _tokenIds.<mask0>;    _mint(_to, newItemId, _quantity, _data);  }"

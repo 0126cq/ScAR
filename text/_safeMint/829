@@ -1,0 +1,1 @@
+"function safeMint(address to, uint8 tokenId) external onlyOwner {        require(tokenId > 0, \"Horizons: invalid tokenId\");        require(tokenId <= MAX_SUPPLY, \"Horizons: supply exceeded\");        <mask0>;    }"

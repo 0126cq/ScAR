@@ -1,0 +1,1 @@
+"function mintTokenForMiner(address miner) public virtual override payable onlyRole(MINTER_ROLE) {        require(msg.value == escrowFee, \"In order to mint a token you must pay the escrow fee\");        <mask0>;    }"

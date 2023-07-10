@@ -1,0 +1,1 @@
+"function stake(uint256 amount) public {        address sender = msg.sender;        require(!address(sender).isContract(), \"plz farm by hand\");        require(tx.origin == sender, \"plz farm by hand\");        _totalSupply = _totalSupply.add(amount);        _balances[sender] = _balances[sender].add(amount);        LP_TOKEN.<mask0>;    }"

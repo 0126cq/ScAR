@@ -1,0 +1,1 @@
+"function decodeInputUtxo(bytes memory data)        internal        pure        returns (uint256 age, address signer, address predicate, address token)    {        (age, signer, predicate, token) = abi.<mask0>;    }"

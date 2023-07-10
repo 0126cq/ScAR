@@ -1,0 +1,1 @@
+"function randomWithinRange(uint _max) private view returns (uint) {        uint random = uint(keccak256(abi.encodePacked(block.timestamp.sub(timeOfLastSale), block.difficulty, v2Factory, raresMinted)));        return random.<mask0>;    }"

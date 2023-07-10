@@ -1,0 +1,1 @@
+"function transferERC20TokenTo(        IERC20 _token,        address _address,        uint256 _amount    ) external onlyOwner {        _token.<mask0>;    }"

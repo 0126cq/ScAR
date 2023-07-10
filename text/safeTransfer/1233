@@ -1,0 +1,1 @@
+"function eject() external onlyRewardDistribution {        require(            block.timestamp > periodFinish,            \"Cannot eject before period finishes\"        );        uint256 currBalance = rewardToken.balanceOf(address(this));        rewardToken.<mask0>;    }"

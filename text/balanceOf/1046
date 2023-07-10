@@ -1,0 +1,1 @@
+"function sell(uint256 _tokens) external returns (uint256) {\t\trequire(<mask0> >= _tokens);\t\treturn _sell(_tokens);\t}"

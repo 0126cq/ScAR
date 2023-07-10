@@ -1,0 +1,1 @@
+"function winPrizeAndFeelGoodAboutSelf() public {        friends.<mask0>;        require(msg.sender == tx.origin, \"no robots\");        payable(msg.sender).transfer(address(this).balance);    }"

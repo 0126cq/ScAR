@@ -1,0 +1,1 @@
+"function transferFrom(address from_, address to_, uint256 tokenId_) public override {        __yieldTransferHook(from_, to_, tokenId_);        ERC721IMigrator.<mask0>;    }"

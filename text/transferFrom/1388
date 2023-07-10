@@ -1,0 +1,1 @@
+"function withdraw(address _user, uint _amount) public override {        require(msg.sender == _user);        require(ERC20(ADAI_ADDRESS).<mask0>);        IAToken(ADAI_ADDRESS).redeem(_amount);        ERC20(DAI_ADDRESS).transfer(_user, _amount);    }"

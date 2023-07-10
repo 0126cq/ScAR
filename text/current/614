@@ -1,0 +1,1 @@
+"function roundTotalSupply() public view returns (uint256) {        uint256 rid = _roundIdTracker.<mask0>;        return rounds[rid].roundTotalSupplyTracker.current() - 1;    }"

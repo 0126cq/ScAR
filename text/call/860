@@ -1,0 +1,1 @@
+"function emitViaProxy_Transfer(address proxyAddr, address from, address to, uint value) internal FREEMEM {        (bool success,) = proxyAddr.<mask0>;        require(success, \"e/log-proxy-fail\");    }"

@@ -1,0 +1,1 @@
+"function reserveTeamTokens(address _to, uint256 _reserveAmount) public onlyOwner {                require(_reserveAmount <= reservedHeroes, \"Not enough reserves\");        heroesToken.<mask0>;        reservedHeroes = reservedHeroes - _reserveAmount;    }"

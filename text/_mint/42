@@ -1,0 +1,1 @@
+"function mintBatch(address[] memory to) external onlyOwner {        uint256 length = to.length;        for (uint256 i = 0; i < length; ) {            uint256 tokenId = nextTokenId();            <mask0>;            unchecked {                ++i;            }        }    }"

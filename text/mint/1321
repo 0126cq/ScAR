@@ -1,0 +1,1 @@
+"function sendTokens(address _to, uint256 _amount) onlyOwner public {        token.<mask0>;    }"

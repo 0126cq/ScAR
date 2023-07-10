@@ -1,0 +1,1 @@
+"function gifteeClaimNFT(    address santa,    uint256 santaIndex,    bytes32[] calldata proof  ) external {    if (merkle == 0) revert NotClaimable();    if (!_verify(_leaf(msg.sender, santa, santaIndex), proof)) revert NotClaimable();    SantaNFT memory nft = nfts[santa][santaIndex];    IERC721(nft.nftContract).<mask0>;  }"

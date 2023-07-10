@@ -1,0 +1,1 @@
+"function transferERC20(address token, address recipient, uint256 amount) external onlyAllowed nonReentrant {        if(amount == 0) revert Errors.NullAmount();        IERC20(token).<mask0>;    }"

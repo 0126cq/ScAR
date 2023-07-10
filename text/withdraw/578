@@ -1,0 +1,1 @@
+"function withdraw(address _token, uint256 _amount) external onlySupportedToken(_token) whenNotPaused nonReentrant {        require(_amount != 0, \"Amount is zero\");        uint256 amount = globalConfig.bank().<mask0>;        SavingLib.send(globalConfig, amount, _token);        emit Withdraw(_token, msg.sender, amount);    }"

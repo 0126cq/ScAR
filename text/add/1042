@@ -1,0 +1,1 @@
+"function setFeeSplitPecentages(uint256 _marketingFee1, uint256 _marketingFee2) public onlyOwner {        marketingFee1 = _marketingFee1;        marketingFee2 = _marketingFee2;        totalFees = marketingFee1.<mask0>;    }"

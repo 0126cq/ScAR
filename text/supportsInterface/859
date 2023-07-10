@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override(ERC721Upgradeable, RoyaltiesV1, AccessControlUpgradeable)        returns (bool)    {        return            super.<mask0> ||             ERC721Upgradeable.supportsInterface(interfaceId) ||            AccessControlUpgradeable.supportsInterface(interfaceId);    }"

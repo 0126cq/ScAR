@@ -1,0 +1,1 @@
+"function reserve(uint32 _count)        public        virtual        onlyOwner        mintCompliance(_count)    {        <mask0>;     }"

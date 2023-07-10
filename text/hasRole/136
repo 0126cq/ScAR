@@ -1,0 +1,1 @@
+"function pauseMinigReward() public {        require(<mask0>, \"Caller is not a manager\");        _state.pauseMinig = true;        _state.REWARD_PER_BLOCK = 0;    }"

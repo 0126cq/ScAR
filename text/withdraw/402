@@ -1,0 +1,1 @@
+"function claimSLPRewardPool() internal {      uint256 bal = slpRewardPoolBalance();      if (bal != 0) {          IMasterChef(slpRewardPool()).<mask0>;      }  }"

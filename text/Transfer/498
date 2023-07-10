@@ -1,0 +1,1 @@
+"function InooviToken() public {    totalSupply_ = INITIAL_SUPPLY;    balances[msg.sender] = INITIAL_SUPPLY;    <mask0>;  }"

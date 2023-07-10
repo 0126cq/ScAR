@@ -1,0 +1,1 @@
+"function claimRewards() external override {        stakingPool.getReward();        ERC20 rewardToken = ERC20(stakingPool.rewardToken());        rewardToken.safeTransfer(rewards, rewardToken.<mask0>);    }"

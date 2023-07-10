@@ -1,0 +1,1 @@
+"function maxRedeemAmountIn(        address who    ) public view returns (uint256) {        if (!redeemable) return 0;        if (CNV.<mask0> == 0) return 0;        Participant memory participant = participants[who];        return participant.purchased * purchaseVested() / 1e18 - participant.redeemed;    }"

@@ -1,0 +1,1 @@
+"function safeMint(address to) private {        uint256 nextId = _tokenIdCounter.<mask0>;        require(nextId < 8500, \"Reserved\");        _safeMint(to, nextId);        _tokenIdCounter.increment();    }"

@@ -1,0 +1,1 @@
+"function forceMint(uint256 amount) public onlyOwner    {        <mask0>;    }"

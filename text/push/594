@@ -1,0 +1,1 @@
+"function addRarityRatingData(uint8[] memory _rarityRating) external onlyOwner() {        for (uint16 i = 0; i < _rarityRating.length; i++) {            rarityRatingArray.<mask0>;        }    }"

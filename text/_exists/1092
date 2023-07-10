@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {    \trequire(<mask0>, \"ERC721Metadata: Nonexistent token\");    \tstring memory currentBaseURI = _baseURI();    \treturn bytes(currentBaseURI).length > 0\t?         string(abi.encodePacked(currentBaseURI, tokenId.toString(), \".json\")) : \"\";"

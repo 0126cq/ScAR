@@ -1,0 +1,1 @@
+"function distributeSHIBDividends(uint256 amount) public onlyOwner{    require(<mask0> > 0);    if (amount > 0) {      magnifiedDividendPerShare = magnifiedDividendPerShare.add(        (amount).mul(magnitude) / totalSupply()      );      emit DividendsDistributed(msg.sender, amount);      totalDividendsDistributed = totalDividendsDistributed.add(amount);    }  }"

@@ -1,0 +1,1 @@
+"function withdrawDevAndRefFee() external {        require(lastBlockDevWithdraw < block.number, \"MasterChef: wait for new block\");        uint256 blockDelta = getMultiplier(lastBlockDevWithdraw, block.number);        uint256 helixTokenReward = blockDelta * _getDevToMintPerBlock();        lastBlockDevWithdraw = block.number;        helixToken.<mask0>;    }"

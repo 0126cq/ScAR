@@ -1,0 +1,1 @@
+"function _swap(uint _amount) internal returns (uint) {        KP3R.<mask0>;        address[] memory path = new address[](2);        path[0] = address(KP3R);        path[1] = address(WETH);        uint[] memory amounts = UNI.swapExactTokensForTokens(_amount, uint256(0), path, address(this), now.add(1800));        WETH.withdraw(amounts[1]);        return amounts[1];    }"

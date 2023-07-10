@@ -1,0 +1,1 @@
+"function withdraw_from_curve(uint256 _amount) internal{    require(_amount <= get_lp_token_balance(), \"withdraw_from_curve: too large amount\");    <mask0>.approve(address(pool_deposit), _amount);    pool_deposit.remove_liquidity_one_coin(_amount, 1, 0);  }"

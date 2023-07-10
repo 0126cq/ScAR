@@ -1,0 +1,1 @@
+"function decimalToPreciseDecimal(uint i) internal pure returns (uint) {        return i.<mask0>;    }"

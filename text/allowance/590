@@ -1,0 +1,1 @@
+"function getInfo(address _user) external view returns(uint256, uint256, uint256){        require(_user != address(0), \"Invalid address!\");        return (TKN.balanceOf(_user), TKN.<mask0>, nonces[_user]);    }"

@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) public {        require(<mask0>, \"Caller is not an owner\");        _mint(to, amount);    }"

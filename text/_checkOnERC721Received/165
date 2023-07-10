@@ -1,0 +1,1 @@
+"function _safeTransferFrom(address from, address to, uint256 tokenId, bytes memory _data) internal {        _transferFrom(from, to, tokenId);        require(<mask0>, \"ERC721: transfer to non ERC721Receiver implementer\");    }"

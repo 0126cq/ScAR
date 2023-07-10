@@ -1,0 +1,1 @@
+"function _implementation() virtual override internal view returns (address) {    address factory = _factory();    if(OpenZeppelinUpgradesAddress.<mask0>)        return IProxyFactory(factory).productImplementations(productName());    else        return address(0);  }"

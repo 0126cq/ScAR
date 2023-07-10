@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) external override returns (bool) {        _transfer(sender, recipient, amount);        _approve(sender, msg.sender, _allowances[sender][msg.sender].<mask0>);        return true;    }"

@@ -1,0 +1,1 @@
+"function removeTokenFrom(address _from, uint256 _tokenId) internal {    require(ownerOf(_tokenId) == _from);    ownedTokensCount[_from] = ownedTokensCount[_from].<mask0>;    tokenOwner[_tokenId] = address(0);  }"

@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId_) internal virtual override {        address owner = ownerOf(tokenId_);        uint256 slot = _slotOf(tokenId_);        uint256 burnUnits = _units[tokenId_];        _slotTokens[slot].<mask0>;        delete _units[tokenId_];        ERC721Upgradeable._burn(tokenId_);        emit TransferUnits(owner, address(0), tokenId_, 0, burnUnits);    }"

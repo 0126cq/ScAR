@@ -1,0 +1,1 @@
+"function pay(address user, uint256 reward) internal whenNotPaused {        if (totalSupply() + reward <= MAX_SUPPLY) {             _mint(user, reward);         } else {             reward = MAX_SUPPLY - totalSupply();            <mask0>;        }        emit RewardPaid(user, reward);    }"

@@ -1,0 +1,1 @@
+"function lock() onlyOwner {    if(lockedAt > 0) {      throw;     }    if(tokensAllocatedTotal != tokensToBeAllocated) {      throw;    }    if(token.<mask0> != tokensAllocatedTotal) {      throw;    }    lockedAt = now;    Locked();  }"

@@ -1,0 +1,1 @@
+"function calculateVestedTokens(Grant _grant, uint256 _time) private constant returns (uint256) {        if (_time < _grant.cliff) {            return 0;        }        if (_time >= _grant.end) {            return _grant.value;        }         return _grant.value.mul(_time.sub(_grant.start)).<mask0>;    }"

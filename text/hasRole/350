@@ -1,0 +1,1 @@
+"function pause() external {        require(gac.<mask0>);        _pause();    }"

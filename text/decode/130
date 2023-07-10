@@ -1,0 +1,1 @@
+"function get(bytes calldata data) public override returns (bool, uint256) {        (address multiply, address divide, uint256 decimals) = abi.<mask0>;        return (true, _get(multiply, divide, decimals));    }"

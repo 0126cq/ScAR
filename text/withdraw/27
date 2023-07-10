@@ -1,0 +1,1 @@
+"function _withdrawAll() internal {        uint _yycrv = IERC20(yycrv).balanceOf(address(this));        if (_yycrv > 0) {            yERC20(yycrv).<mask0>;            withdrawTUSD(IERC20(ycrv).balanceOf(address(this)));        }    }"

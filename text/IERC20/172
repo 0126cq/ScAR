@@ -1,0 +1,1 @@
+"function initialize(address wrld, address herogalaxy) initializer public {        __ERC165_init();        __ReentrancyGuard_init();        __Ownable_init();        require(wrld != address(0), \"E0\");         require(herogalaxy != address(0), \"E0\");        WRLD_ERC20_ADDR = <mask0>;        HERO_ERC721 = IERC721(herogalaxy);    }"

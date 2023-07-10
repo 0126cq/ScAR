@@ -1,0 +1,1 @@
+"function withdraw() public nonReentrant {    uint256 balance = address(this).balance;    Address.sendValue(payable(<mask0>), balance);  }"

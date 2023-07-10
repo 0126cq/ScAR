@@ -1,0 +1,1 @@
+"function giftToken(address _to, uint256 _tokenId) public onlyOwner {        require(_tokenId < MAX_SUPPLY + 1 && _tokenId > 0, \"Invalid token ID\");        <mask0>;    }"

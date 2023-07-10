@@ -1,0 +1,1 @@
+"function add(Bytes4Set storage set, bytes4 value) internal returns (bool) {    return <mask0>;  }"

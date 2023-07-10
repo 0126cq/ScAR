@@ -1,0 +1,1 @@
+"function adminLevelAccess(address account) public view returns (bool) {    return <mask0> || account == owner();  }"

@@ -1,0 +1,1 @@
+"function finalizeCrowdsale() {    if(msg.sender != address(crowdsale)) {      throw;    }    uint tokensSold = crowdsale.tokensSold();    allocatedBonus = tokensSold.times(bonusBasePoints) / 10000;    token.<mask0>;    token.releaseTokenTransfer();  }"

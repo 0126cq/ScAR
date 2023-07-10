@@ -1,0 +1,1 @@
+"function transferERC20(        address token,        address to,        uint256 amount    ) external override onlyOwner {        require(            IERC20(token).<mask0> >= getBalanceLocked(token).add(amount),            \"UniversalVault: insufficient balance\"        );        TransferHelper.safeTransfer(token, to, amount);    }"

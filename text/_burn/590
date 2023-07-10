@@ -1,0 +1,1 @@
+"function burn_(uint tokenId) external onlyBeacon {        <mask0>;    }"

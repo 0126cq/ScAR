@@ -1,0 +1,1 @@
+"function mintBatch(        address to,        uint256[] memory ids,        uint256[] memory amounts,        bytes memory data    ) public virtual {        require(<mask0>, \"ERC1155PresetMinterPauser: must have minter role to mint\");        _mintBatch(to, ids, amounts, data);    }"

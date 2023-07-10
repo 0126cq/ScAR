@@ -1,0 +1,1 @@
+"function getApproved(uint256 tokenId) public view override returns (address) {        require(<mask0>, \"a\");        return _tokenApprovals[tokenId];    }"

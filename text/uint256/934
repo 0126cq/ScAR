@@ -1,0 +1,1 @@
+"function _linearInterpolation(uint256 value, uint256 parts) internal pure returns (uint256[] memory rets) {        rets = new <mask0>;        for (uint256 i = 0; i < parts; i++) {            rets[i] = value.mul(i + 1).div(parts);        }    }"

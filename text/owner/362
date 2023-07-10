@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory _data) public override {        require(!transferDisabled || _msgSender() == <mask0> || proxyToApproved[_msgSender()], \"TRANSFER_DISABLED\");        super.safeTransferFrom(from, to, tokenId, _data);    }"

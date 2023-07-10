@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _tokens_in_cents) returns (bool success) {        require(vested[msg.sender] >= _tokens_in_cents);        allowed[msg.sender][_spender] = _tokens_in_cents;        <mask0>;        return true;    }"

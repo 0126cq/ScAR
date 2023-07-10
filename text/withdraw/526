@@ -1,0 +1,1 @@
+"function _fundSwapT4ExactT(        uint256[] memory amounts,        uint256 amountInMax,        address[] memory pairs,        address[] calldata tokens    ) internal {        require(            amounts[0] <= amountInMax,            \"MarginRouter: EXCESSIVE_INPUT_AMOUNT\"        );        Fund(fund()).<mask0>;        _swap(amounts, pairs, tokens, fund());    }"

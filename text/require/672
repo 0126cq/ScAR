@@ -1,0 +1,1 @@
+"function updateMetadata(address vault, string memory metadata) public {    <mask0>;    verifyMetadata(metadata);    require(productionVaultInfoByVault[vault].vault != address(0), \"BadgerRegistry: Vault does not exist\");    productionVaultInfoByVault[vault].metadata = metadata;  }"

@@ -1,0 +1,1 @@
+"function withdrawAll() internal {    uint256 balance = <mask0>.balanceOf(address(this));    IIdleTokenV3_1(idleUnderlying).redeemIdleToken(balance);    liquidateComp();    liquidateIdle();  }"

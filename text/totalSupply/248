@@ -1,0 +1,1 @@
+"function mint_SFI(address to, uint256 amount) public {    require(msg.sender == SFI_minter, \"must be SFI_minter\");    require(this.<mask0> + amount < MAX_TOKENS, \"cannot mint more than MAX_TOKENS\");    _mint(to, amount);  }"

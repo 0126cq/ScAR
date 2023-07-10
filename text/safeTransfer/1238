@@ -1,0 +1,1 @@
+"function withdraw() external {        uint reward = getReward();        require(reward > 0, \"TimeLock: no reward\");        uint pCycle = (block.timestamp.sub(startTime)).div(PERIOD);        cycle = pCycle >= CYCLE_TIMES ? CYCLE_TIMES : pCycle;        hasReward = hasReward.add(reward);        token.<mask0>;        emit WithDraw(msg.sender, beneficiary, reward);    }"

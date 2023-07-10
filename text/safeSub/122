@@ -1,0 +1,1 @@
+"function burn(uint256 _value) onlyOwner public {        require(_value <= balances[msg.sender]);        address burner = msg.sender;        balances[burner] = <mask0>;        _totalSupply = safeSub(_totalSupply, _value);        emit Burn(burner, _value);            }"

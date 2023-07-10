@@ -1,0 +1,1 @@
+"function changeRenderOfTokenId(uint256 _tokenId, bool _renderOffChain) external {            require(msg.sender == <mask0>, \"Only the token owner can change the render method\");            _renderTokenOffChain[_tokenId] = _renderOffChain;        }"

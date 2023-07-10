@@ -1,0 +1,1 @@
+"function requestPrice(        bytes32 _identifier,        uint256 _timestamp,        bytes memory _ancillaryData,        IERC20 currency,        uint256 reward    ) external {        currency.<mask0>;        optimisticOracle.requestPrice(_identifier, _timestamp, _ancillaryData, currency, reward);    }"

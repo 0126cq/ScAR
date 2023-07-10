@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external {        require(ERC721.ownerOf(tokenId) == msg.sender, Errors.NOT_OWNER);        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function decodeExitForProcessExit(bytes memory data)        internal        pure        returns (uint256 exitId, address token, address exitor, uint256 tokenId)    {        (exitId, token, exitor, tokenId) = abi.<mask0>;    }"

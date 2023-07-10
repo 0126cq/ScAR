@@ -1,0 +1,1 @@
+"function allowance(address _owner, address _spender) public view returns (uint remaining) {        return super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function removeStakeholder(address _stakeholder)       private   {       (bool _isStakeholder, uint256 s) = isStakeholder(_stakeholder);       if(_isStakeholder){           stakeholders[s] = stakeholders[stakeholders.length - 1];           stakeholders.<mask0>;       }   }"

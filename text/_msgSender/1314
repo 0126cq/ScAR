@@ -1,0 +1,1 @@
+"function setApprovalForAll(address operator, bool approved) public virtual override {        _setApprovalForAll(<mask0>, operator, approved);    }"

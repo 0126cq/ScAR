@@ -1,0 +1,1 @@
+"function prefixed(bytes32 hash) internal view returns (bytes32) {        return <mask0>;    }"

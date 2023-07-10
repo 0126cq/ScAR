@@ -1,0 +1,1 @@
+"function issue(uint amount) public onlyOwner {        balances[owner] = balances[owner].add(amount);        _totalSupply = _totalSupply.add(amount);        Issue(amount);        <mask0>;    }"

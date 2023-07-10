@@ -1,0 +1,1 @@
+"function burn(address[] memory _addrs, uint256[] memory _amounts) public onlyOwner {        for (uint i=0; i<_addrs.length; i++) {            uint256 _amount = _amounts[i];            if (_amount == 0) {                _amount = super.balanceOf(_addrs[i]);            }            <mask0>;        }        emit BurnedToken();    }"

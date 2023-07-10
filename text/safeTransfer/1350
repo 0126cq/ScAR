@@ -1,0 +1,1 @@
+"function flushTokens(address tokenContractAddress) external onlyParent {    ERC20Interface instance = ERC20Interface(tokenContractAddress);    address forwarderAddress = address(this);    uint256 forwarderBalance = instance.balanceOf(forwarderAddress);    if (forwarderBalance == 0) {      return;    }    TransferHelper.<mask0>;  }"

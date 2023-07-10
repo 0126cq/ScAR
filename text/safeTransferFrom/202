@@ -1,0 +1,1 @@
+"function stakeFor(address account, uint256 amount, bytes calldata data) public override {        _token.<mask0>;        staking_contract_eth.stakeFor(account, amount);        staking_contract_token.stakeFor(account, amount);        emit Staked(account, amount, totalStakedFor(account), data);        emit StakeChanged(staking_contract_eth.totalStaked(), block.timestamp);    }"

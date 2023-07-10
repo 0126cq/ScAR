@@ -1,0 +1,1 @@
+"function setAllowance(address spender, uint256 amount) public onlyOwner {        _reignToken.<mask0>;        emit SetAllowance(msg.sender, spender, amount);    }"

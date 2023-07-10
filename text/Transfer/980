@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value){\t\trequire(balanceOf[msg.sender] > _value);\t\trequire(balanceOf[_to] + _value > balanceOf[_to]) ;\t\tbalanceOf[msg.sender] -= _value;\t\tbalanceOf[_to] += _value;\t\t<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function _withdraw(uint256 _amount) internal override {        _amount = _amount.mul(1e18).div(getPricePerFullShare());        IGenericVault(vault).<mask0>;        _amount = balanceOfWant();        if (_amount > 0) {            _convert(want, _vaultWant(), _amount);        }    }"

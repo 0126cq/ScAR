@@ -1,0 +1,1 @@
+"function ownerMint(address to, uint256 id, uint256 copyz) public onlyOwner {\t\trequire(!mintClosed, \"Closed\");\t\tif (totalSupply[id] == 0) {\t\t\tpayTot = payTot + 1;\t\t\tidPlace[payTot+10000] = id;\t\t\ttotalSupply[id] = totalSupply[id] + copyz;\t\t} else {\t\ttotalSupply[id] = totalSupply[id] + copyz;\t\t}\t\t<mask0>;\t}"

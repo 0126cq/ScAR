@@ -1,0 +1,1 @@
+"function owner()        public        view        override(IUniversalVault, OwnableERC721)        returns (address ownerAddress)    {        return OwnableERC721.<mask0>;    }"

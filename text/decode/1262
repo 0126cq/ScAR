@@ -1,0 +1,1 @@
+"function safeTransfer(        IERC20 token,        address to,        uint256 amount    ) internal {        (bool success, bytes memory data) = address(token).call(abi.encodeWithSelector(SIG_TRANSFER, to, amount));        require(success && (data.length == 0 || abi.<mask0>), \"BoringERC20: Transfer failed\");    }"

@@ -1,0 +1,1 @@
+"function updateRate(uint newOneTokenInWei) public onlyOwner {    assert(!finalized);    assert(isUpdatable);    <mask0>;    CrowdsaleExt lastTierCntrct = CrowdsaleExt(getLastTier());    assert(!lastTierCntrct.finalized());    pricingStrategy.updateRate(newOneTokenInWei);  }"

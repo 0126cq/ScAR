@@ -1,0 +1,1 @@
+"function mint(uint256 quantity)        public        payable        callerIsUser        nonReentrant        mintCompliance(quantity)    {        if (msg.value < BAMFERS_PRICE * quantity) revert InsufficientFunds();        <mask0>;    }"

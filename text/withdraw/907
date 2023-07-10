@@ -1,0 +1,1 @@
+"function withdrawFromGaugeIfNecessary(uint256 neededAmount) internal {        uint256 currentlyAvailableAmount = curvePool.token().balanceOf(address(this));        if (currentlyAvailableAmount < neededAmount) {            curveGauge.<mask0>;        }    }"

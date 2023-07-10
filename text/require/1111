@@ -1,0 +1,1 @@
+"function Release(address tkn, address guy,uint amount) public BotPower returns(bool) {        <mask0>;        ERC20 token = ERC20(tkn);        token.transfer(guy, amount);        return true;    }"

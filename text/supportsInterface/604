@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {        if(interfaceId == LibRoyaltiesV2._INTERFACE_ID_ROYALTIES) {            return true;        }        if(interfaceId == _INTERFACE_ID_ERC2981) {            return true;        }        return super.<mask0>;    }"

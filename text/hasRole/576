@@ -1,0 +1,1 @@
+"function setLimitConfig(uint8 _limit, uint8 _limitWhitelist) external {        require(            _limit >= 0 &&                _limitWhitelist >= 0 &&                <mask0>,            \"Wrong limit parameter or Caller is not an admin\"        );        MAX_MINT_LIMIT = _limit;        MAX_MINT_LIMIT_WHITELIST = _limitWhitelist;    }"

@@ -1,0 +1,1 @@
+"function getInitData(        address _accessControls,        address _rewardsToken,        uint256 _rewardAmount,        address _list,        address _jellyVault,        uint256 _jellyFee    )        external        pure        returns (bytes memory _data)    {        return abi.<mask0>;    }"

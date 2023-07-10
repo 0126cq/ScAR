@@ -1,0 +1,1 @@
+"function changeNFTInfo(address oldAddress, address newAddress, uint256 id) onlyRole(ADMIN_ROLE) external returns(bool){        require(ownerOf(id) == oldAddress, \"Deeper: Try to modify a wrong id\");        _burn(id);        <mask0>;        emit ChangeNFTInfo(oldAddress, newAddress, id);        return true;    }"

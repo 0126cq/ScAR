@@ -1,0 +1,1 @@
+"function whitelistRewards(address _rewardToken, SwapSteps memory _steps) public isVaultManager {        IERC20 token = IERC20(_rewardToken);        token.approve(address(balancerVault), max);        rewardTokens.<mask0>;        swapSteps.push(_steps);    }"

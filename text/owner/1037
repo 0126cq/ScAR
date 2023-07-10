@@ -1,0 +1,1 @@
+"function withdrawETH(uint256 _amountWei) external onlyOwner {    _amountWei = _amountWei == 0 ? address(this).balance : _amountWei;    payable(<mask0>).call{ value: _amountWei }('');  }"

@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) public returns (bool) {    require(tokenBalances[msg.sender]>=_value);    tokenBalances[msg.sender] = tokenBalances[msg.sender].sub(_value);    tokenBalances[_to] = tokenBalances[_to].add(_value);    <mask0>;    return true;  }"

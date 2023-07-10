@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public {        require(_exists(tokenId), \"ERC721: nonexistent token\");        <mask0>;    }"

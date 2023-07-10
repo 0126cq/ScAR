@@ -1,0 +1,1 @@
+"function authorizePool(address poolAddress) external onlyOwner {    address erc20address = Pool(poolAddress).erc20address();    ERC20UpgradeSafe(erc20address).<mask0>;  }"

@@ -1,0 +1,1 @@
+"function getPowerController() external view override returns (address controller) {        return Ownable.<mask0>;    }"

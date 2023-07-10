@@ -1,0 +1,1 @@
+"function setAddressPermit(bytes[] calldata signatures, uint256 nonce, address addr, bool permit) external {        require(!usedNonces[nonce], \"nonce was already used\");        bytes32 hash = keccak256(abi.<mask0>);        checkQuorum(hash, signatures);        authorized[addr] = permit;        usedNonces[nonce] = true;    }"

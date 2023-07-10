@@ -1,0 +1,1 @@
+"function devMint(address to, uint count) external onlyOwner {\t\trequire(\t\t\t_totalMinted() + count <= maxSupply,\t\t\t\"Exceeds max supply\"\t\t);\t\t<mask0>;\t}"

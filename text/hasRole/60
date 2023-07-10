@@ -1,0 +1,1 @@
+"function burn(address from, uint256 amount) public {        require(<mask0>, \"Vega Coin must have burner role to burn\");        _burn(from, amount);    }"

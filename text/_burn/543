@@ -1,0 +1,1 @@
+"function burn(address from, uint256 amount) external {        require(hasRole(BURNER_ROLE, msg.sender), \"Caller is not a burner\");        <mask0>;    }"

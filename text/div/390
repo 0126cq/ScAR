@@ -1,0 +1,1 @@
+"function reduceFraction(Fraction memory fraction) internal pure {        uint _gcd = gcd(fraction.numerator, fraction.denominator);        fraction.numerator = fraction.numerator.div(_gcd);        fraction.denominator = fraction.denominator.<mask0>;    }"

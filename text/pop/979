@@ -1,0 +1,1 @@
+"function _removeTokenFromAllTokensEnumeration(uint256 tokenId) private {\t\tuint256 lastTokenIndex = _allTokens.length - 1;\t\tuint256 tokenIndex = _allTokensIndex[tokenId];\t\tuint256 lastTokenId = _allTokens[lastTokenIndex];\t\t_allTokens[tokenIndex] = lastTokenId; \t\t_allTokensIndex[lastTokenId] = tokenIndex; \t\tdelete _allTokensIndex[tokenId];\t\t_allTokens.<mask0>;\t}"

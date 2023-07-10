@@ -1,0 +1,1 @@
+"function launchMint(address _to, uint256 _mintAmount) public payable {        require(!paused, \"Sale hasn't started\");        require(block.timestamp >= _launchAt, \"Launch has not begun\");        <mask0>;    }"

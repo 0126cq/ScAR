@@ -1,0 +1,1 @@
+"function getUserBalanceOnToken(address _token, address _user) constant public returns (uint) {        if (_token == ETH_address) {            return _user.balance;        } else {            return ERC20Interface(_token).<mask0>;        }    }"

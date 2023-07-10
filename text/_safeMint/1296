@@ -1,0 +1,1 @@
+"function mintToAdmin(address _to) public onlyOwner {        require(getNextTokenId() <= collectionSize, \"Cannot mint over supply cap of 1000\");        <mask0>;    }"

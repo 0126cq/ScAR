@@ -1,0 +1,1 @@
+"function _hash(    address account,    uint256 oxgnTokenClaim,    uint256 oxgnTokenDonate,    uint256 clanTokenClaim,    address benificiaryOfTax,    uint256 oxgnTokenTax,    uint256 nonce,    uint256 timestamp  ) internal view returns (bytes32) {    return      _hashTypedDataV4(        <mask0>      );  }"

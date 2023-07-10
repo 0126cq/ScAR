@@ -1,0 +1,1 @@
+"function initExperience(address DwellersStaking) external {        require(!experienceInitiated, \"Experience can only be initiated once\");        <mask0>;        _mint(DwellersStaking, 9250000 ether);    }"

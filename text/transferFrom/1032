@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) onlyPayloadSize(3 * 32) public {        require(!tokensAreFrozen);        super.<mask0>;    }"

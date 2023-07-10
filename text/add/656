@@ -1,0 +1,1 @@
+"function addSchainType(uint8 partOfNode, uint numberOfNodes) external onlyAdmin {        require(_keysOfSchainTypes.<mask0>, \"Schain type is already added\");        schainTypes[numberOfSchainTypes + 1].partOfNode = partOfNode;        schainTypes[numberOfSchainTypes + 1].numberOfNodes = numberOfNodes;        numberOfSchainTypes++;    }"

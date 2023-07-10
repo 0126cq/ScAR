@@ -1,0 +1,1 @@
+"function _getTotalSupply() internal returns (uint256) {        ISettV4 vault = ISettV4(IController(controller).vaults(want));        return vault.<mask0>;    }"

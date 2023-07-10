@@ -1,0 +1,1 @@
+"function emergencyTransfer(address _token, address _destination, uint256 _amount) public {\t\trequire(hasRole(DEFAULT_ADMIN_ROLE, msg.sender), \"Admin only\");\t\tIERC20(_token).<mask0>;\t}"

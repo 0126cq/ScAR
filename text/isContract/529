@@ -1,0 +1,1 @@
+"function _initializeFoundationTreasuryNode(address payable _treasury) internal initializer {    require(_treasury.<mask0>, \"FoundationTreasuryNode: Address is not a contract\");    treasury = _treasury;  }"

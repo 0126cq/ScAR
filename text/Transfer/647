@@ -1,0 +1,1 @@
+"function _setup(address _address, uint256 _amount, bool _lock) internal returns (bool) {        locked[_address] = _lock;        accounts[_address].balance = _amount;        accounts[_address].isSet = true;        require(_updateHistory(_address));        accountsList.push(_address);        <mask0>;        return true;    }"

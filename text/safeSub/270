@@ -1,0 +1,1 @@
+"function withdrawToken(address token, uint amount) public {     if (token==0) revert();    if (tokens[token][msg.sender] < amount) revert();    tokens[token][msg.sender] = <mask0>;    require (Token(token).transfer(msg.sender, amount));    emit Withdraw(token, msg.sender, amount, tokens[token][msg.sender]);  }"

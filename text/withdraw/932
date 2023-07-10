@@ -1,0 +1,1 @@
+"function withdraw(uint256 share, uint256) external override returns (uint256 amount0, uint256 amount1) {        return <mask0>;    }"

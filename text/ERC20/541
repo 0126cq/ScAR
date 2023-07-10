@@ -1,0 +1,1 @@
+"function _decimalsFor(address addr) internal view returns (uint8) {        return <mask0>.decimals();    }"

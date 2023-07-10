@@ -1,0 +1,1 @@
+"function unstakeMulti(MultiStakeParam[] memory groups) external nonReentrant {        address account = <mask0>;        for (uint256 i = 0; i < groups.length; i++) {            address collection = getPool(groups[i].poolId).collection;            _batchUnstake(account, collection, groups[i].tokenIds);        }    }"

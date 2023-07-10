@@ -1,0 +1,1 @@
+"function __ERC20WithPermit_init(        uint256 chainId,        string calldata version_,        string calldata name_,        string calldata symbol_    ) public initializer {        __ERC20_init(name_, symbol_);        _version = version_;        _domainSeparator = keccak256(            abi.<mask0>        );    }"

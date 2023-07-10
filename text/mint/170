@@ -1,0 +1,1 @@
+"function deposit()        external        override        whenNotPaused    {        uint256 amount = token.balanceOf(address(this));        token.approve(address(cToken), amount);        require(CErc20(address(cToken)).<mask0> == 0, \"ERC20CompoundPCVDeposit: deposit error\");        emit Deposit(msg.sender, amount);    }"

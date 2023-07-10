@@ -1,0 +1,1 @@
+"function getPixelPrice(uint256 pixelId) public view returns (uint256) {        if (!<mask0>) {            return minInitialBid;        }        return pixelPrice[pixelId] * 2;    }"

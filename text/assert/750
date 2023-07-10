@@ -1,0 +1,1 @@
+"function setRule(uint _baseLockPercent, uint _startLockTime, uint _stopLockTime, uint _linearRelease) onlyOwner {        <mask0>;        baseLockPercent = _baseLockPercent;        startLockTime = _startLockTime;        stopLockTime = _stopLockTime;        linearRelease = _linearRelease;    }"

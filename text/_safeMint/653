@@ -1,0 +1,1 @@
+"function mint(uint8 number, string memory title) internal {        id_to_number[number] = Metadata(number, title);        <mask0>;    }"

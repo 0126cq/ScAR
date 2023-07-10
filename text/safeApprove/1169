@@ -1,0 +1,1 @@
+"function _approve(address[] calldata _tokens, address _spender) internal {        require(_spender != address(0), \"Invalid spender\");        for (uint256 i = 0; i < _tokens.length; i++) {            require(_tokens[i] != address(0), \"Invalid token\");            IERC20(_tokens[i]).<mask0>;        }    }"

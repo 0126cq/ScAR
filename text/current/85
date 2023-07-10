@@ -1,0 +1,1 @@
+"function getCurrentChestId() external view virtual returns (uint256 total) {        return chestIds.<mask0> - 1;    }"

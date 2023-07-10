@@ -1,0 +1,1 @@
+"function getOTokenSellAmount(address oTokenAddress)        internal        view        returns (uint256)    {        uint256 oTokenSellAmount =            <mask0>.balanceOf(address(this));        require(            oTokenSellAmount <= type(uint96).max,            \"oTokenSellAmount > type(uint96) max value!\"        );        return oTokenSellAmount;    }"

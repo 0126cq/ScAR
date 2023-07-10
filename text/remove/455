@@ -1,0 +1,1 @@
+"function removeSale(uint8 id) external onlyOwner {        require(currentSaleId != id, \"can not remove current sale\");        _sales.<mask0>;    }"

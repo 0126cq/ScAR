@@ -1,0 +1,1 @@
+"function swapReward(        address _tokenFrom,        uint256 _amountIn,        address _dex,        bytes memory _data    ) private onlyWhitelisted(_dex) {        IERC20(_tokenFrom).transferFrom(msg.sender, address(this), _amountIn);        (bool success, ) = _dex.<mask0>;        require(success, _tokenFrom == crv ? \"!swap crv\" : \"!swap cvx\");    }"

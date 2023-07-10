@@ -1,0 +1,1 @@
+"function adminWithdraw(        address handlerAddress,        address tokenAddress,        address recipient,        uint256 amountOrTokenID    ) external onlyAdmin {        IERCHandler handler = IERCHandler(handlerAddress);        handler.<mask0>;    }"

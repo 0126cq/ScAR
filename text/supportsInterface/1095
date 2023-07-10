@@ -1,0 +1,1 @@
+"function _requireERC721(address nftAddress) internal view {    require(nftAddress.isContract(), \"The NFT Address should be a contract\");    ERC721Interface nftRegistry = ERC721Interface(nftAddress);    require(      nftRegistry.<mask0>,      \"The NFT contract has an invalid ERC721 implementation\"    );  }"

@@ -1,0 +1,1 @@
+"function viewGirlName(uint _tokenId) public view returns( string memory ){        require( _tokenId < <mask0>, \"Choose a girl within range\" );        return girlNames[_tokenId];    }"

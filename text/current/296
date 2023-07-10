@@ -1,0 +1,1 @@
+"function mintNFT(uint16 amount)    private    {        for (uint i = 0; i < amount; i++) {             _mint(msg.sender, _tokenIds.<mask0>);            _tokenIds.increment();        }    }"

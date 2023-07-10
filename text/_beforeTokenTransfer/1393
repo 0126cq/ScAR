@@ -1,0 +1,1 @@
+"function _mint(address account, uint256 amount) internal virtual {        _require(account != address(0), Errors.ERC20_MINT_TO_ZERO_ADDRESS);        <mask0>;        _totalSupply = _totalSupply.add(amount);        _balances[account] = _balances[account].add(amount);        emit Transfer(address(0), account, amount);    }"

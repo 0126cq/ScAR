@@ -1,0 +1,1 @@
+"function burnFrom( address account, uint[] calldata ids, uint[] calldata quantities ) external payable onlyDelegates {    require( ids.length == quantities.length, \"ERC1155: Must provide equal ids and quantities\");    for(uint i; i < ids.length; ++i ){      <mask0>;    }  }"

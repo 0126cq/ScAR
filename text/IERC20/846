@@ -1,0 +1,1 @@
+"function withdraw(address _token, uint256 _amount) external override {    uint _balance = IERC20(_token).balanceOf(address(this));    <mask0>.safeTransfer(msg.sender, _amount);  }"

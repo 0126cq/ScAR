@@ -1,0 +1,1 @@
+"function isContractDeprecated(Data storage self, address contractAddress) internal view returns (bool status) {    bytes32 id = <mask0>;    return self.Storage.getBool(id);  }"

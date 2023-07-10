@@ -1,0 +1,1 @@
+"function buyCelda(        uint256 amount     ) external payable {        require(buyActive, \"Buying is not active\");        require(celdaPrice * amount <= msg.value, \"Ether value sent is not correct\");        require(totalSupply() + amount <= MAX_CELDA, \"Purchase would exceed max supply of CELDA\");        <mask0>;        emit BoughtCelda(_msgSender(), amount);    }"

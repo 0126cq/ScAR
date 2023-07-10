@@ -1,0 +1,1 @@
+"function mint(Token memory token, uint256 underlyingAmountExternal) internal returns (int256) {        uint256 success = CErc20Interface(token.tokenAddress).<mask0>;        require(success == COMPOUND_RETURN_CODE_NO_ERROR, \"Mint\");    }"

@@ -1,0 +1,1 @@
+"function farmMint(address _user, uint256 _amount) public onlyMinter{    <mask0>;  }"

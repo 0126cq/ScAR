@@ -1,0 +1,1 @@
+"function buyTokens(address beneficiary) public payable {\t\trequire(beneficiary != address(0));\t\trequire(validPurchase());\t\tuint256 weiAmount = msg.value;\t\tuint256 tokens = weiAmount.mul(rate);\t\tweiRaised = weiRaised.add(weiAmount);\t\ttoken.<mask0>;\t\tTokenPurchase(msg.sender, beneficiary, weiAmount, tokens);\t\tforwardFunds();\t}"

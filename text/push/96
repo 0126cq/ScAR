@@ -1,0 +1,1 @@
+"function set(bytes32[] storage _stack, bytes32 _input) internal {        _stack.<mask0>;    }"

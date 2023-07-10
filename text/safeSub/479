@@ -1,0 +1,1 @@
+"function transfer(address receiver, uint tokens) public override returns (bool success) {        require(receiver != caAddy, \"Please interract properly\");        balances[msg.sender] = <mask0>;        balances[receiver] = safeAdd(balances[receiver], tokens);        emit Transfer(msg.sender, receiver, tokens);        return true;    }"

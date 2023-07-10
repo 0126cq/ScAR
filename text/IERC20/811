@@ -1,0 +1,1 @@
+"function setApprovals(        address _token,        address _spender,        uint256 _amount    ) external onlyOwner {        <mask0>.approve(_spender, _amount);    }"

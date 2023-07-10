@@ -1,0 +1,1 @@
+"function multimint(address[] dests, uint[] values) public only(owner) returns (uint) {        uint i = 0;        while (i < dests.length) {           <mask0>;           i += 1;        }        return(i);    }"

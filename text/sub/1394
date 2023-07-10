@@ -1,0 +1,1 @@
+"function sub(uint96 a, uint96 b) internal pure returns (uint96) {    return <mask0>;  }"

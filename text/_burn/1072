@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public {        require(isBurnEnabled, \"Bilionaire: burning disabled\");        require(            _isApprovedOrOwner(msg.sender, tokenId),            \"Bilionaire: burn caller is not owner nor approved\"        );        <mask0>;        totalNFT = totalNFT - 1;    }"

@@ -1,0 +1,1 @@
+"function emitViaProxy_Approval(address proxyAddr, address owner, address spender, uint value) internal FREEMEM {        (bool success,) = proxyAddr.call(abi.<mask0>);        require(success, \"e/log-proxy-fail\");    }"

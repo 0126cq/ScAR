@@ -1,0 +1,1 @@
+"function batchMintForAddress(        address[] calldata to,        uint32 id,        uint256[] calldata quantity          ) external onlyOwner {        uint i;        for (i=0; i<quantity.length; i++) {            supply += quantity[i];            <mask0>;        }    }"

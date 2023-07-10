@@ -1,0 +1,1 @@
+"function hash(AppOrder memory _apporder)\tpublic pure returns (bytes32 apphash)\t{\t\treturn keccak256(abi.<mask0>);\t}"

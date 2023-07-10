@@ -1,0 +1,1 @@
+"function _remove(uint256 auctionId) internal {        uint256 _move = activeAuctions[activeAuctions.length - 1];        if (auctionId != _move) {            uint256 _index = auctions[auctionId].index;            activeAuctions[_index] = _move;            auctions[_move].index = _index;        }        activeAuctions.<mask0>;        delete auctions[auctionId];    }"

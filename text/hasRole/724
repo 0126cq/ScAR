@@ -1,0 +1,1 @@
+"function bondFor(address who, uint256 amount) external virtual {        require(            <mask0>,            'Vault: must have boardroom role to bond for someone else'        );        _bond(who, amount);    }"

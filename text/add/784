@@ -1,0 +1,1 @@
+"function _takeTeam(uint256 tTeam) private {\t\tuint256 currentRate =  _getRate();\t\tuint256 rTeam = tTeam.mul(currentRate);\t\t_rOwned[address(this)] = _rOwned[address(this)].<mask0>;\t}"

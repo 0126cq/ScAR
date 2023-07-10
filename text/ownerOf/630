@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external override whenNotPaused nonReentrant onlyAdmin {        emit TokenBurned(<mask0>, tokenId);        _burn(tokenId);    }"

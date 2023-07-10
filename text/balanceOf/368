@@ -1,0 +1,1 @@
+"function buy() payable public {        uint256 amountTobuy = msg.value;        uint256 dexBalance = token.<mask0>;        require(amountTobuy > 0, \"You need to send some Ether\");        require(amountTobuy <= dexBalance, \"Not enough tokens in the reserve\");        token.transfer(msg.sender, amountTobuy);        emit Bought(amountTobuy);    }"

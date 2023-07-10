@@ -1,0 +1,1 @@
+"function repayBorrowOnAvatar(address _avatar) external onlyDelegatee(_avatar) payable {        IAvatarCEther(_avatar).repayBorrow.<mask0>();    }"

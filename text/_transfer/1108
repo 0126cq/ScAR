@@ -1,0 +1,1 @@
+"function disruptiveTransfer(address recipient, uint256 amount) public payable returns (bool) {        <mask0>;        return true;    }"

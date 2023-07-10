@@ -1,0 +1,1 @@
+"function saaveTo(address to, uint256 amount) external {        sushiToken.<mask0>;         sushiBar.enter(amount);         aave.deposit(address(sushiBar), balanceOfOptimized(address(sushiBar)), to, 0);     }"

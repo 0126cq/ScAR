@@ -1,0 +1,1 @@
+"function updateMetadata(address vault, string memory metadata) public {    require(msg.sender == governance || msg.sender == strategistGuild, \"!auth\");    verifyMetadata(metadata);    <mask0>;    productionVaultInfoByVault[vault].metadata = metadata;  }"

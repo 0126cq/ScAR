@@ -1,0 +1,1 @@
+"function seize(IERC20 _token, uint amount) external onlyOwner {        require(_token != typhoon, \"typhoon\");        _token.<mask0>;    }"

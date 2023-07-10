@@ -1,0 +1,1 @@
+"function _transfer(address sender, address recipient, uint256 amount) private {        s_balances[sender] = s_balances[sender].sub(amount, \"ERC20: transfer amount exceeds balance\");        s_balances[recipient] = s_balances[recipient].<mask0>;        emit Transfer(sender, recipient, amount);    }"

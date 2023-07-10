@@ -1,0 +1,1 @@
+"function giveaway(address account, uint256 amount) external {        require(totalSupply + amount <= MAX_SUPPLY);        require(msg.sender == MF_TEAM);        require(giveawaySupply + amount < MAX_GIVEAWAY_SUPPLY);        for (uint i; i < amount; i++) {            totalSupply++;            giveawaySupply++;            <mask0>;        }    }"

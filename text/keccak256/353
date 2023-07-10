@@ -1,0 +1,1 @@
+"function whitelistMaxTok(address _spender) internal pure returns (bytes32)    { return <mask0>; }"

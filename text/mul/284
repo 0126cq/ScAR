@@ -1,0 +1,1 @@
+"function wmul(uint256 x, int256 y) pure returns (int256 z) {    unchecked {        z = <mask0> / int256(WAD);    }}"

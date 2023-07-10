@@ -1,0 +1,1 @@
+"function _initiateCreamFlashLoan(FlashLoan.Info memory info) internal {    address crToken = _crMappings.addressMapping(info.asset);    bytes memory params = abi.<mask0>;    ICTokenFlashloan(crToken).flashLoan(address(this), info.amount, params);  }"

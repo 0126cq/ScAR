@@ -1,0 +1,1 @@
+"function nodeConfirmed(uint256 nodeNum) external onlyRollup {        deliverToBridge(abi.<mask0>);    }"

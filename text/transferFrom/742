@@ -1,0 +1,1 @@
+"function transfer(        address _to,        uint256 _amount,        bytes _data)        public        returns (bool success)    {        return <mask0>;    }"

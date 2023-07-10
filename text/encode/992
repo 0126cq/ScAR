@@ -1,0 +1,1 @@
+"function _getRootHash(bytes32[] memory _hashes) pure returns (bytes32) {    bytes32 rootHash = _hashes[0];    for (uint256 i = 1; i < _hashes.length; i++) {        rootHash = keccak256(abi.<mask0>);    }    return rootHash;}"

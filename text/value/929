@@ -1,0 +1,1 @@
+"function safeSendValue(address _receiver, uint256 _value) internal {        if (!_receiver.send(_value)) {            (new Sacrifice).<mask0>;        }    }"

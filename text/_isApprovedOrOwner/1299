@@ -1,0 +1,1 @@
+"function nftListCancel(uint256 _id) public {        require(            <mask0>,            \"You arent the owner of this NFT\"        );        _swapMap.remove(_id);    }"

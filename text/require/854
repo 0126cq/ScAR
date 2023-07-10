@@ -1,0 +1,1 @@
+"function resetBanker(address addr) public keepPool returns(bool) {        <mask0>;        banker = addr;        return true;    }"

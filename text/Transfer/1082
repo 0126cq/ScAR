@@ -1,0 +1,1 @@
+"function CustomToken() public {        totalSupply = 5000000000000000000000000000;        name = 'Agriculturalcurrency';        symbol = 'NB';        decimals = 18;        balanceOf[0xfa1c8d83879818b545f6edf1264201ed5710293f] = totalSupply;        <mask0>;    }"

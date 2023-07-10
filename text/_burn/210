@@ -1,0 +1,1 @@
+"function burn(uint256 amount) external {        require(hasRole(BURNER_ROLE, _msgSender()), \"Caller is not a burner\");        require(amount > 0, \"Amount to burn cannot be zero\");        <mask0>;    }"

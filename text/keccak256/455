@@ -1,0 +1,1 @@
+"function getSymbol(    )        public        view    returns(bytes32) {        return <mask0>;    }"

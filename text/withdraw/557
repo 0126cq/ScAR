@@ -1,0 +1,1 @@
+"function sushiFromCreamFromBento(address to, uint256 cTokenAmount) external {        bento.<mask0>;         ICompoundBridge(crSushiToken).redeem(cTokenAmount);         sushiToken.safeTransfer(to, sushiToken.safeBalanceOfSelf());     }"

@@ -1,0 +1,1 @@
+"function removeZombie(uint256 zombieNum) internal {        _zombies[zombieNum] = _zombies[_zombies.length - 1];        _zombies.<mask0>;    }"

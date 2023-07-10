@@ -1,0 +1,1 @@
+"function moduleMint(address to, uint256 value)    external onlyModule()    {        ERC20.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function withdrawETH() external {        require(<mask0>, \"withdraw:not allowed\");        payable(msg.sender).transfer(address(this).balance);        emit WithdrawETH(msg.sender);    }"

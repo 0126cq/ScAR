@@ -1,0 +1,1 @@
+"function approve(        address _to,        uint256 _tokenId    )    external    whenNotPaused    {        require(_owns(msg.sender, _tokenId));        _approve(_tokenId, _to);        <mask0>;    }"

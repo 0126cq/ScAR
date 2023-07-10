@@ -1,0 +1,1 @@
+"function manualApprove(address token) external returns (bool) {        SafeERC20.<mask0>;        return true;    }"

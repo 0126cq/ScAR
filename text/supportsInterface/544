@@ -1,0 +1,1 @@
+"function allowNFTContract(address _nftContractAddress)        external        returns(bool)    {        require(            hasRole(DEFAULT_ADMIN_ROLE, msg.sender),            \"SHFStore: Caller is not an admin\"        );        require(IERC721(_nftContractAddress).<mask0>, \"SHFStore: Contract should be ERC721\");        return acceptedNFTs.add(_nftContractAddress);    }"

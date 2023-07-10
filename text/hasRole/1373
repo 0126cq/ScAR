@@ -1,0 +1,1 @@
+"function setTokenUri(uint256 id, string memory _metadata) public virtual {        require(<mask0>, \"ERC1155PresetMinterPauser: must have minter role to setTokenURI\");        metadata[id] = _metadata;    }"

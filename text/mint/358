@@ -1,0 +1,1 @@
+"function harvest(uint256 tokenId) public {        (ERC20Mintable tokenAddress, uint256 tokensToMint) = getUnharvestedTokens(tokenId);        tokenAddress.<mask0>;        tokenIdToLastHarvest[tokenId] = block.number;    }"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) public onlyOwner canMint returns(bool minted) {        require(_to != 0, \"_to is zero\");        require(_amount > 0, \"_amount is zero\");        super.<mask0>;        if (mintingFeeEnabled) {            require(pricingPlan.payFee(MINT_SERVICE_NAME, _amount, msg.sender), \"mint fee failed\");        }        return true;    }"

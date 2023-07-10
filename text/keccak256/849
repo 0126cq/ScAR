@@ -1,0 +1,1 @@
+"function _random(address ad, uint256 num) internal returns (uint256) {        return            uint256(randomness.getRand(<mask0>));    }"

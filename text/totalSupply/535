@@ -1,0 +1,1 @@
+"function totalSupply() public view virtual override(ERC721Enumerable, IMRC721) returns (uint256) {        return ERC721Enumerable.<mask0>;    }"

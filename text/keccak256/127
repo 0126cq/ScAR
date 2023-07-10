@@ -1,0 +1,1 @@
+"function pairForUniswap(address tokenA, address tokenB) internal pure returns (address pair) {        (address token0, address token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);        pair = address(uint(<mask0>));    }"

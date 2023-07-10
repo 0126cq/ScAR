@@ -1,0 +1,1 @@
+"function getDeployableCapital () public view returns (uint256) {        uint256 shouldRemainInVault = _records[currentPeriod].totalDeposited * (uint256(100) - uint256(investmentPercent)) / uint256(100);        uint256 currentBalance = underlyingTokenInterface.<mask0>;        return (currentBalance > shouldRemainInVault) ? currentBalance - shouldRemainInVault : 0;    }"

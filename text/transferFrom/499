@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) validDestination(_to) public returns (bool) {    return super.<mask0>;  }"

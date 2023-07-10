@@ -1,0 +1,1 @@
+"function mintToken(address target, uint tokens) returns (bool result){         balances[target] += tokens;\ttotalSupply_ = safeAdd(totalSupply_, tokens);        <mask0>;    }"

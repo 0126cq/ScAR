@@ -1,0 +1,1 @@
+"function removeToken(uint256 _tokenId)         public         onlyOwnerOrAuthorizedContract {        delete tokenIndexToAddress[_tokenId];        tokenList.<mask0>;    }"

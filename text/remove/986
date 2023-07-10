@@ -1,0 +1,1 @@
+"function removeVendor(uint256 _vendorId)         public         onlyOwnerOrAuthorizedContract {        vendorList.<mask0>;        address vendor = vendors[_vendorId].vendor;        vendorIds[vendor] = 0;        delete vendors[_vendorId];    }"

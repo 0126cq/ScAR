@@ -1,0 +1,1 @@
+"function gcd(uint a, uint b) internal pure returns (uint) {        uint _a = a;        uint _b = b;        if (_b > _a) {            (_a, _b) = swap(_a, _b);        }        while (_b > 0) {            _a = _a.<mask0>;            (_a, _b) = swap (_a, _b);        }        return _a;    }"

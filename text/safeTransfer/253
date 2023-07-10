@@ -1,0 +1,1 @@
+"function sellStakingLot(uint256 amount) external override lockupFree {        _burn(msg.sender, amount);        HEGIC.<mask0>;    }"

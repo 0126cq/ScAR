@@ -1,0 +1,1 @@
+"function _unlock(address from, uint256 index) internal returns (bool success) {        LockInfo storage lock = _locks[from][index];        _totalLocked[from] = _totalLocked[from].sub(lock.amount);        emit Unlock(from, lock.amount);        _locks[from][index] = _locks[from][_locks[from].length - 1];        _locks[from].<mask0>;        success = true;    }"

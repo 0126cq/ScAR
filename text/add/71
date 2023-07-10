@@ -1,0 +1,1 @@
+"function ETHBalanceOfALLWETHContracts() public view returns  (uint){        uint totalEtherBalance = WETH[0].balance;        totalEtherBalance = <mask0>;        totalEtherBalance = add(totalEtherBalance,WETH[2].balance);        return totalEtherBalance;    }"

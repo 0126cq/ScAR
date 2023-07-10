@@ -1,0 +1,1 @@
+"function claimInsurance() external override {        if (msg.sender != controller) {            require(msg.sender == governance, \"!governance\");            token3CRV.<mask0>;        }        insurance = 0;    }"

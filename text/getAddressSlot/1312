@@ -1,0 +1,1 @@
+"function _getAdmin() internal view virtual returns (address) {        return StorageSlot.<mask0>.value;    }"

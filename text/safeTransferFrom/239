@@ -1,0 +1,1 @@
+"function stake(uint256 cookAmount) external override {        checkMiningPaused();        ensureAddrNotBlacklisted(msg.sender);        checkPoolStakeCapLimit(cookAmount);        checkPerAddrStakeLimit(cookAmount, msg.sender);        updateStakeStates(cookAmount, msg.sender);        cook().<mask0>;        cookBalanceCheck();        emit Stake(msg.sender, cookAmount);    }"

@@ -1,0 +1,1 @@
+"function _curvedBurnFor(address user, uint256 amount) validGasPrice validBurn(amount) internal returns (uint256) {        uint256 reimbursement = calculateCurvedBurnReturn(amount);        <mask0>;        emit CurvedBurn(user, amount, reimbursement);        return reimbursement;    }"

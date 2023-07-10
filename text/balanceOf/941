@@ -1,0 +1,1 @@
+"function retrieveAssets(address which) external onlyOwner {\t\tERC20Base token = ERC20Base(which);\t\tuint256 amount = token.<mask0>;\t\trequire(token.transfer(msg.sender, amount));\t}"

@@ -1,0 +1,1 @@
+"function encodeParams(uint256 id) public view returns(bytes memory){        return abi.<mask0>;    }"

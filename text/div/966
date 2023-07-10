@@ -1,0 +1,1 @@
+"function changeLimits(uint256 price) external onlyOwner {\t\tuint256 adjPrice = price.div(10**9);\t\tuint256 adjMin = minUSD.mul(10**9);\t\tuint256 adjMax = maxUSD.mul(10**9);\t\tmaxContribution = adjMax.div(adjPrice);\t\tminContribution = adjMin.<mask0>;\t\temit LimitsChanged(minContribution, maxContribution, price);\t}"

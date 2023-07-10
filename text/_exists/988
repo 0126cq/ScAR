@@ -1,0 +1,1 @@
+"function setTokenAsset(uint256 _tokenId, string memory _uri, string memory _hash, address _minter) public override onlyOwner {        require(<mask0>, \"Vsnft_setTokenAsset_notoken\");        TokenMeta storage meta = tokenOnChainMeta[_tokenId];        meta.uri = _uri;        meta.hash = _hash;        meta.minter = _minter;        tokenOnChainMeta[_tokenId] = meta;    }"

@@ -1,0 +1,1 @@
+"function _conversionHelper(        ConverstionDetails[] memory _converstionDetails    ) internal {        for (uint256 i = 0; i < _converstionDetails.length; i++) {            (bool success, ) = converter.<mask0>;            _checkCallResult(success);        }    }"

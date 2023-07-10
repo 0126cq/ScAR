@@ -1,0 +1,1 @@
+"function approve(    uint256 _projectId,    address _spender,    uint256 _amount  ) external override {    _projectId;     <mask0>;  }"

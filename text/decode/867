@@ -1,0 +1,1 @@
+"function safeApprove(        address token,        address to,        uint256 value    ) internal {        (bool success, bytes memory data) = token.call(abi.encodeWithSelector(0x095ea7b3, to, value));        require(            success && (data.length == 0 || abi.<mask0>),            'TransferHelper::safeApprove: approve failed'        );    }"

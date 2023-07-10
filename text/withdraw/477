@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public virtual {        store.<mask0>;        share.safeTransfer(_msgSender(), _amount);    }"

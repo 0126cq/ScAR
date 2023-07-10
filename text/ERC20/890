@@ -1,0 +1,1 @@
+"function claimRewards() external {        comptroller.claimComp(address(this));        ERC20 comp = <mask0>;        comp.safeTransfer(rewards, comp.balanceOf(address(this)));    }"

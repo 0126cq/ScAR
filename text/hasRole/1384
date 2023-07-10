@@ -1,0 +1,1 @@
+"function _checkRole(bytes32 role, address account) internal view {\t\tif (!<mask0>) {\t\t\trevert(\t\t\t\tstring(\t\t\t\t\tabi.encodePacked(\t\t\t\t\t\t\"AccessControl: account \",\t\t\t\t\t\tStringsUpgradeable.toHexString(uint160(account), 20),\t\t\t\t\t\t\" is missing role \",\t\t\t\t\t\tStringsUpgradeable.toHexString(uint256(role), 32)\t\t\t\t\t)\t\t\t\t)\t\t\t);\t\t}\t}"

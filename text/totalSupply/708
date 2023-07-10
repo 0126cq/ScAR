@@ -1,0 +1,1 @@
+"function finalization() internal {        uint256 totalSupply = token.<mask0>;        uint256 twentyPercentAllocation = totalSupply.div(5);        token.mint(owner, twentyPercentAllocation);        token.finishMinting();          token.transferOwnership(owner);     }"

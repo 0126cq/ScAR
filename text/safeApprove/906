@@ -1,0 +1,1 @@
+"function _approveToken(uint256 _amount) internal virtual override {        collateralToken.safeApprove(pool, _amount);        collateralToken.safeApprove(address(aaveLendingPool), _amount);        for (uint256 i = 0; i < swapManager.N_DEX(); i++) {            IERC20(AAVE).<mask0>;        }    }"

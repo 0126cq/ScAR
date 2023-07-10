@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external {    require(_msgSender() == ownerOf(tokenId), \"only owner allowed to burn\");    <mask0>;  }"

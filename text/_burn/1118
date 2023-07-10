@@ -1,0 +1,1 @@
+"function claim() external returns (uint) {        uint _amount = balanceOf[msg.sender];        <mask0>;        return _claim(_amount);    }"

@@ -1,0 +1,1 @@
+"function mint(address to, uint256 qty) private {        for (uint256 i = 0; i < qty; i++) {            uint256 mintIndex = numTokensMinted;            numTokensMinted++;            <mask0>;        }    }"

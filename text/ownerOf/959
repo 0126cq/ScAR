@@ -1,0 +1,1 @@
+"function burnTo(uint256 tokenId, string memory burnString) public virtual {    address owner = <mask0>;    require(owner == msg.sender, \"ERC721: must own token to burn it\");    burnData[tokenId] = burnString;    _burn(tokenId);  }"

@@ -1,0 +1,1 @@
+"function decreaseApproval(address _spender, uint _subtractedValue) public returns (bool) {    require(_subtractedValue > 0);    uint oldValue = allowed[msg.sender][_spender];    if (_subtractedValue > oldValue) {      allowed[msg.sender][_spender] = 0;    } else {      allowed[msg.sender][_spender] = oldValue.sub(_subtractedValue);    }    <mask0>;    return true;  }"

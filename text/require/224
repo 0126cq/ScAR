@@ -1,0 +1,1 @@
+"function _transfer(address payable _to, uint256 _amount) internal {        (bool success, ) = _to.call{value: _amount}(\"\");        <mask0>;    }"

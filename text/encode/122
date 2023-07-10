@@ -1,0 +1,1 @@
+"function getInitData(        IERC20 collateral_,        IERC20 asset_,        IOracle oracle_,        bytes calldata oracleData_    ) public pure returns (bytes memory data) {        return abi.<mask0>;    }"

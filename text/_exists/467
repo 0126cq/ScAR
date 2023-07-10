@@ -1,0 +1,1 @@
+"function get(uint256 tokenId) external view returns (string memory hashed_content) {        require(<mask0>, \"token not minted\");        Metadata memory xobj = content[tokenId];        hashed_content = xobj.hashed_content;    }"

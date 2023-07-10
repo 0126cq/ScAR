@@ -1,0 +1,1 @@
+"function teamMintAnimals(address to, uint16 amount) external onlyOwner {        Config memory config = _config;        if (amount + config.teamMinted > config.teamReservedSupply) revert ErrorExceedTeamSupply();        _config.teamMinted += amount;        <mask0>;    }"

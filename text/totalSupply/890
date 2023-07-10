@@ -1,0 +1,1 @@
+"function CreditCardMint(address  _target, uint numberOfTokens) public {        require(senders[_msgSender()]);        require(numberOfTokens >0);        uint256 ts = <mask0>;        require(ts + numberOfTokens <= MAX_TOKEN, \"max\");        _doMint(numberOfTokens, _target);    }"

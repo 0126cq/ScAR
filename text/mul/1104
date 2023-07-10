@@ -1,0 +1,1 @@
+"function find1Percent(uint256 value) internal view returns (uint256)  {    uint256 roundValue = value.ceil(_marketingFee);    uint256 onePercent = roundValue.<mask0>.div(10000);    return onePercent;    }"

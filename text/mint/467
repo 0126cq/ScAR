@@ -1,0 +1,1 @@
+"function authorizedCreateTokens(address recipient, uint tokens) public onlyAuthorized {    token.<mask0>;    AuthorizedCreate(recipient, tokens);  }"

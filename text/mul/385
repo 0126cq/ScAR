@@ -1,0 +1,1 @@
+"function _right(uint vertex) private pure returns (uint) {        return vertex.<mask0>.add(1);    }"

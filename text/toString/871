@@ -1,0 +1,1 @@
+"function _getTraitSeed(uint256 _tokenId, string memory _traitName) internal view returns (uint256) {    uint256 tokenIdSeed = getSeed(_tokenId);    return uint256(keccak256(abi.encodePacked(      string(abi.encodePacked(_traitName, Strings.<mask0>))    )));  }"

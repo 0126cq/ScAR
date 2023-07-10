@@ -1,0 +1,1 @@
+"function finish() public onlyOwner {    if (updateRefundState()) {      token.finishMinting();    } else {      <mask0>;      token.setSaleAgent(nextSaleAgent);    }  }"

@@ -1,0 +1,1 @@
+"function work_deposit_to_vesper(uint256 _ne18) public {        uint256 _amount = IERC20(token).balanceOf(address(this));        _amount = _amount.mul(_ne18).div(1e18);        IERC20(token).<mask0>;        IERC20(token).safeApprove(vesper, _amount);        IVesper(vesper).deposit(_amount);    }"

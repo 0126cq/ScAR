@@ -1,0 +1,1 @@
+"function approveAll(address _token) public {        address cToken = globalConfig.tokenInfoRegistry().getCToken(_token);        require(cToken != address(0x0), \"cToken address is zero\");        IERC20(_token).<mask0>;        IERC20(_token).safeApprove(cToken, uint256(-1));    }"

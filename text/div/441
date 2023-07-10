@@ -1,0 +1,1 @@
+"function balanceOfYYCRVinYCRV() public view returns (uint) {        return balanceOfYYCRV().mul(yERC20(yycrv).getPricePerFullShare()).<mask0>;    }"

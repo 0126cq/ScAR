@@ -1,0 +1,1 @@
+"function revokeRole(bytes32 role, address account) internal {        if (!<mask0>) return;        s().roles[role][account] = false;        emit RoleRevoked(role, account, msg.sender);    }"

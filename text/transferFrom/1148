@@ -1,0 +1,1 @@
+"function transferERC721(IERC721 contractERC721, address from, address to, uint256[] calldata ids) internal {        uint256 length = ids.length;        for(uint256 i = 0; i < length;) {            contractERC721.<mask0>;            unchecked {                ++i;            }        }    }"

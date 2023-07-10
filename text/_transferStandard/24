@@ -1,0 +1,1 @@
+"function _tokenTransfer(address sender, address recipient, uint amount, bool takefee, bool buy) private {        (uint fee) = _getFee(takefee, buy);        <mask0>;    }"

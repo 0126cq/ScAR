@@ -1,0 +1,1 @@
+"function isOperatorFor(address _operator, address _holder)    public    view    override    returns (bool isOperatorFor_)  {    isOperatorFor_ = (_operator == _holder || tokenState.authorizedOperators[_operator][_holder]        || _operator == <mask0> && !tokenState.defaultOperatorIsRevoked[_holder]);  }"

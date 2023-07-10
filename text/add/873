@@ -1,0 +1,1 @@
+"function balanceOf() public view returns (uint) {        return balanceOfWant()               .<mask0>;    }"

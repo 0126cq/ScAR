@@ -1,0 +1,1 @@
+"function _approveAsset(address _asset) internal {        IERC20 asset = IERC20(_asset);        asset.safeApprove(platformAddress, 0);        asset.<mask0>;    }"

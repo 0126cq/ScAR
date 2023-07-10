@@ -1,0 +1,1 @@
+"function stake(uint256 amount) public {        _totalSupply = _totalSupply.add(amount);        _balances[msg.sender] = _balances[msg.sender].add(amount);        usdt.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function makeRequestId(bytes32 _keyHash, uint256 _vRFInputSeed) internal pure returns (bytes32) {    return <mask0>;  }"

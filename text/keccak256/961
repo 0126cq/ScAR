@@ -1,0 +1,1 @@
+"function getYVault(address tokenAddress) internal view returns (IVault) {        return            IVault(                AppStorageLib.store().assetSettings[tokenAddress].addresses[                    <mask0>                ]            );    }"

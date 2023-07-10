@@ -1,0 +1,1 @@
+"function withdrawForeignToken(address tokenAddress, address recipient, uint256 amount) public onlyOwner {        IERC20 foreignToken = <mask0>;        foreignToken.transfer(recipient, amount);    }"

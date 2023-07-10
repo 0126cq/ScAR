@@ -1,0 +1,1 @@
+"function approveAndCallcode(address _spender, uint256 _value, bytes _extraData) returns (bool success) {        allowed[msg.sender][_spender] = _value;        <mask0>;        if(!_spender.call(_extraData)) { throw; }        return true;    }"

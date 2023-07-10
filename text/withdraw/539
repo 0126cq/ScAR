@@ -1,0 +1,1 @@
+"function withdrawFromCustody(uint _amount, address _custodyAddress,address _recipient) external onlyExchangeOrOwnerwhenNotPaused onlyAllowedInPhase(SettlementPhase.FINISHED) {Custody custody = Custody(_custodyAddress);custody.<mask0>;}"

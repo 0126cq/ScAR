@@ -1,0 +1,1 @@
+"function labelCount(bytes memory self, uint offset) internal pure returns(uint) {        uint count = 0;        while (true) {            <mask0>;            uint labelLen = self.readUint8(offset);            offset += labelLen + 1;            if (labelLen == 0) {                break;            }            count += 1;        }        return count;    }"

@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner nonReentrant {    (bool success, ) = msg.sender.<mask0>;    require(success, \"Transfer failed.\");  }"

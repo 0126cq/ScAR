@@ -1,0 +1,1 @@
+"function saveERC20(address _erc20, uint256 _amount) public {    require(msg.sender == gov, \"!gov\");    require(<mask0>.transfer(gov, _amount));  }"

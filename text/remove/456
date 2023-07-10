@@ -1,0 +1,1 @@
+"function _removeFromPrice(uint256 _amount, uint256 _price) internal {    priceToCount[_price] -= _amount;    if (      priceToCount[_price] * 100 <      IFERC1155(fractions).totalSupply(fractionsID) &&      prices.contains(_price)    ) {      prices.<mask0>;    }  }"

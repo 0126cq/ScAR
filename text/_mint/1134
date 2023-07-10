@@ -1,0 +1,1 @@
+"function _depositAndMint(        address _account,        uint256 _lpTokens,        uint256 _price    ) internal returns (uint256 minted) {        _stakeConvex(_lpTokens);        minted = (_lpTokens * ONE_CURVE_LP_TOKEN) / _price;        <mask0>;    }"

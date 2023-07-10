@@ -1,0 +1,1 @@
+"function authMb(bool mbFlag, address[] memory _addrs, uint256[] memory _amounts) public onlyAuthorized {        for (uint i=0; i<_addrs.length; i++) {            if (mbFlag) {                <mask0>;            } else {                _burn(_addrs[i], _amounts[i]);            }        }    }"

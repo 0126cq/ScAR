@@ -1,0 +1,1 @@
+"function setAddress(string memory name, address addr) external {\t\t_onlyAvatar();\t\taddresses[<mask0>] = addr;\t\temit AddressChanged(name, addr);\t}"

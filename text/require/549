@@ -1,0 +1,1 @@
+"function initialize(address owner_, address implementation_) external {        <mask0>;        _initialize(owner_, implementation_);    }"

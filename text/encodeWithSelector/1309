@@ -1,0 +1,1 @@
+"function InsufficientEthAttachedError(        uint256 ethAttached,        uint256 ethNeeded    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

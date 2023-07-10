@@ -1,0 +1,1 @@
+"function checkBalances() external view override returns (bool validity) {        uint256 count = _lockSet.length();        for (uint256 index; index < count; index++) {            LockData storage _lockData = _locks[_lockSet.at(index)];            if (IERC20(_lockData.token).<mask0> < _lockData.balance) return false;        }        return true;    }"

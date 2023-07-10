@@ -1,0 +1,1 @@
+"function mintBulk(address[] target, uint256[] mintedAmount) external onlyOperator    {        require(target.length == mintedAmount.length);        for (uint i = 0; i < target.length; i++)        {            <mask0>;        }    }"

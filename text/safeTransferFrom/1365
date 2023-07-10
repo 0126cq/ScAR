@@ -1,0 +1,1 @@
+"function erc721safeTransferFrom(IERC721 token, address from, address to, uint256 tokenId) external  {        token.<mask0>;    }"

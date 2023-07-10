@@ -1,0 +1,1 @@
+"function safeDecreaseAllowance(IERC20 token, address spender, uint value) internal {        uint newAllowance = token.<mask0> - value;        callOptionalReturn(token, abi.encodeWithSelector(token.approve.selector, spender, newAllowance));    }"

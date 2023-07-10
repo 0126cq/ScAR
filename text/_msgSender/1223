@@ -1,0 +1,1 @@
+"function rescueERC20(IERC20 tokenToRescue) external onlyRole(DEFAULT_ADMIN_ROLE) {        tokenToRescue.transfer(<mask0>, tokenToRescue.balanceOf(address(this)));    }"

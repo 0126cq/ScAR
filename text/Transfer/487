@@ -1,0 +1,1 @@
+"function CurrentToken (address _ico) public {        require(_ico != address(0));        addressIco = _ico;        totalSupply_ = totalSupply_.add(INITIAL_TOTAL_SUPPLY);        balances[_ico] = balances[_ico].add(INITIAL_TOTAL_SUPPLY);        <mask0>;        pause();    }"

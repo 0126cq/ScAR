@@ -1,0 +1,1 @@
+"function LendingBlockToken(address _owner) public {\t\ttokenEventAddress = msg.sender;\t\towner = _owner;\t\ttotalSupply = 1e9 * 1e18;\t\tbalances[_owner] = totalSupply;\t\t<mask0>;\t}"

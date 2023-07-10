@@ -1,0 +1,1 @@
+"function isWhitelisted(bytes32 root, address receiver, bytes32[] memory proof) public pure returns (bool) {        bytes32 leaf = keccak256(abi.<mask0>);        return MerkleProof.verify(proof, root, leaf);    }"

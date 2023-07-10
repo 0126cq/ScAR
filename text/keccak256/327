@@ -1,0 +1,1 @@
+"function _toEthSignedMessage(bytes memory message) private pure returns (bytes32) {    return <mask0>;  }"

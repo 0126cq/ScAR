@@ -1,0 +1,1 @@
+"function _sendNFTFromVault(        IERC721 nft_contract_address,        uint256 token_id,        address nft_recipient    ) internal {        IERC721 nft_contract = nft_contract_address;        nft_contract.approve(nft_recipient, token_id);        nft_contract.<mask0>;        emit NFTsent(nft_recipient, nft_contract_address, token_id);    }"

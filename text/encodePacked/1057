@@ -1,0 +1,1 @@
+"function roundInfo(string memory roundName)        public        view        returns (Round memory)    {        return roundData[keccak256(abi.<mask0>)];    }"

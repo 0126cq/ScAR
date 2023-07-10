@@ -1,0 +1,1 @@
+"function depositBeans(uint256 amount) public {        if (amount > 0) bean().<mask0>;        _depositBeans(amount);    }"

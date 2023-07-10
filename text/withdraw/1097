@@ -1,0 +1,1 @@
+"function alertTransfer(address _from, address _to, uint256 _amount)      external    {        require(msg.sender == address(arNxm), \"Sender must be the token contract.\");        if ( referrers[_from] != address(0) ) rewardManager.<mask0>;        if ( referrers[_to] != address(0) ) rewardManager.stake(referrers[_to], _to, _amount);    }"

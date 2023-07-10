@@ -1,0 +1,1 @@
+"function unwrapTokenBatch(uint256[] calldata tokenId) public {        for (uint256 i = 0; i < tokenId.length ; i++){            <mask0>;            mainToken.safeTransferFrom(address(this), msg.sender, tokenId[i] + OFFSETNG);            uriSelection[tokenId[i] + OFFSETAN2] = false;        }    }"

@@ -1,0 +1,1 @@
+"function read(    bytes32 org,    bytes32 key  ) public view returns (bytes32 meta, bytes32 data) {    address zone = lookup(org);    bytes32 slot = keccak256(abi.<mask0>);    return dmap.get(slot);  }"

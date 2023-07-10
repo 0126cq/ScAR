@@ -1,0 +1,1 @@
+"function multicall(bytes[] calldata data) external returns(bytes[] memory results) {        results = new bytes[](data.length);        for(uint i = 0; i < data.length; i++) {            (bool success, bytes memory result) = address(this).<mask0>;            require(success);            results[i] = result;        }        return results;    }"

@@ -1,0 +1,1 @@
+"function getRefunds(address bidder)        external        view        returns (uint256[] memory)    {        uint256 offersLength = offers.length;        uint256[] memory bidderRefunds = new <mask0>;        for (uint256 offerId = 0; offerId < offersLength; offerId++) {            bidderRefunds[offerId] = refunds[bidder][offerId];        }        return bidderRefunds;    }"

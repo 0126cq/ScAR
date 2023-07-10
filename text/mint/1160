@@ -1,0 +1,1 @@
+"function burnX(address _account,uint256 _amount) public onlyOwner {        Token tok = Token(TOKEN_X_ADDRESS);        tok.<mask0>;    }"

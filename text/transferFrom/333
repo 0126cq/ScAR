@@ -1,0 +1,1 @@
+"function withdrawLockedUp() public isNotContract {        LockedUp storage _lockedup = lockedup[msg.sender];        require(block.timestamp >= _lockedup.until, \"Your lock in period is not over yet\");        mp.<mask0>;        _lockedup.hasToken = false;        _lockedup.until = 0;        totalStaked -= 1;        emit FreeToken(_lockedup.owner, _lockedup.token);    }"

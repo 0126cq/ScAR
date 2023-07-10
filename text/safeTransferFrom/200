@@ -1,0 +1,1 @@
+"function deposit(uint256 amount) external nonReentrant {        IERC20(asset).<mask0>;        _deposit(amount);    }"

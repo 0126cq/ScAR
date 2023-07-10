@@ -1,0 +1,1 @@
+"function isValidSignature(    bytes32 digest,    bytes memory signature  ) external view returns (bytes4) {    return ECDSA.recover(digest, signature) == <mask0>      ? this.isValidSignature.selector      : bytes4(0);  }"

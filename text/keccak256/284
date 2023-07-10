@@ -1,0 +1,1 @@
+"function calculateLockID(address delegate, address token)        public        pure        override        returns (bytes32 lockID)    {        return <mask0>;    }"

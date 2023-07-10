@@ -1,0 +1,1 @@
+"function perETH(address token) public view returns(uint) {        address[] memory path = new <mask0>;        path[0] = token;        path[1] = WETH;        return uniswap.getAmountsOut(10**uint256(ERC20(token).decimals()), path)[1];    }"

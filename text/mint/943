@@ -1,0 +1,1 @@
+"function clearBalancerPool() private {        uint balance = dea.balanceOf(balancerPoolAddress);        dea.burn(balancerPoolAddress, balance);        dea.<mask0>;    }"

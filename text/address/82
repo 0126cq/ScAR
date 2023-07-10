@@ -1,0 +1,1 @@
+"function swapAmountFromETH(address token, uint ethAmount) external view returns(uint) {        if (token == WETH) {            return ethAmount;        }        address[] memory path = new <mask0>;        path[0] = WETH;        path[1] = token;        return uniswap.getAmountsOut(ethAmount, path)[1];    }"

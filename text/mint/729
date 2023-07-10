@@ -1,0 +1,1 @@
+"function createEmogram()     public    notFullEmograms()     onlyRole(MINTER_ROLE)     returns (uint256) {        <mask0>;        emit NonFungibleTokenMinted(msg.sender, emogramId);        redeemAble[emogramId] = true;        emogramId = emogramId + 1;        return emogramId;    }"

@@ -1,0 +1,1 @@
+"function mint(uint256 depositedAmount) internal returns (uint256) {        if (depositedAmount == 0) {            return depositedAmount;        }        uint256 mintedAmount = depositedAmount;        if (totalSupply() > 0) {            mintedAmount = <mask0>.mul(depositedAmount).div(poolValue());        }        _mint(msg.sender, mintedAmount);        return mintedAmount;    }"

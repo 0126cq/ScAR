@@ -1,0 +1,1 @@
+"function _withdraw(        address _underlyingToken,        address _recipient,        uint256 _tokens    ) internal {        if (_underlyingToken == ZERO_ADDRESS) {            payable(_recipient).sendValue(_tokens);        } else {            IERC20(_underlyingToken).<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function _mint(uint8 quantity) internal {        require(quantity+_nftContract.totalSupply() <= _limit, 'must not exceed limit');        _nftContract.<mask0>;        emit Mint(msg.sender, msg.value, quantity);    }"

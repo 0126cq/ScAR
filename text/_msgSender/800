@@ -1,0 +1,1 @@
+"function setAdmin(address user, bool status) public returns (bool) {        require(_admins[<mask0>] == true, \"METEORA: You are not an admin for this operation!\");        require(user != Lunaris, \"METEORA: Lunaris is the big boss, mkay?\");        _admins[user] = status;        emit AdminSet(_msgSender(), user, status);        return _admins[user];    }"

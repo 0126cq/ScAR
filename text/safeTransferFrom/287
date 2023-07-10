@@ -1,0 +1,1 @@
+"function stake(        uint256 _amount    )        external        updateReward(msg.sender)    {        Staker storage staker = stakers[msg.sender];        staker.balance = staker.balance.add(_amount);        totalSupply = totalSupply.add(_amount);        stakingToken.<mask0>;        emit Staked(msg.sender, _amount);    }"

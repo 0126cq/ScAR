@@ -1,0 +1,1 @@
+"function withdraw(address _token)        external    {        uint256 balance = ERC20(_token).balanceOf(address(this));        require(<mask0>.transfer(msg.sender, balance), \"ERC20 transfer failed\");    }"

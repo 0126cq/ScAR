@@ -1,0 +1,1 @@
+"function _hashResponse(        bytes32 requestHash,        LoanResponse memory response,        uint32 chainId    ) internal pure returns (bytes32) {        return            keccak256(                abi.<mask0>            );    }"

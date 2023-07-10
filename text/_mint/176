@@ -1,0 +1,1 @@
+"function getReward(address _to) external {        require(msg.sender == address(avgleCollectionContract));        uint256 reward = rewards[_to];        if (reward > 0) {            rewards[_to] = 0;            <mask0>;            emit RewardPaid(_to, reward);        }    }"

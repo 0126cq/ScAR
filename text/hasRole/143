@@ -1,0 +1,1 @@
+"function setController(address _newController) public {        require(<mask0>, \"ERR_CALLER\");        emit RegistryUpdate(\"Controller\", controller, _newController);        _setupRole(CONTROLLER_ROLE, _newController);        revokeRole(CONTROLLER_ROLE, controller);        controller = _newController;    }"

@@ -1,0 +1,1 @@
+"function revoke() onlyOwner public {    require(revocable);    require(!revoked);    _releaseTo(beneficiary);    token.<mask0>;    revoked = true;    Revoked();  }"

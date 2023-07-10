@@ -1,0 +1,1 @@
+"function createNFT (string memory _name, uint256 _amount, uint24 _fee) virtual public onlyAdmin {        uint256 id = factory_storage.addNFT(_name, _amount, _fee);        <mask0>;        emit NewMint(factory_storage.getArtist(), id, _amount, _name, _fee);    }"

@@ -1,0 +1,1 @@
+"function _conversionHelper(ConverstionDetails[] memory _converstionDetails) internal {        for (uint256 i = 0; i < _converstionDetails.length; i++) {            (bool success, ) = address(config[_gem_converter_]).<mask0>;            _checkCallResult(success);        }    }"

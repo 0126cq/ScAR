@@ -1,0 +1,1 @@
+"function Swapin(bytes32 txhash, address account, uint256 amount) public onlyAuth returns (bool) {        <mask0>;        emit LogSwapin(txhash, account, amount);        return true;    }"

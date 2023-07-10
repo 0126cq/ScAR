@@ -1,0 +1,1 @@
+"function emergencyTransfer(address _token, address _destination, uint256 _amount) public {\t\trequire(<mask0>, \"Admin only\");\t\tIERC20(_token).safeTransfer(_destination, _amount);\t}"

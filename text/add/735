@@ -1,0 +1,1 @@
+"function _getEpochPool(        uint currentMonth,        TimeHelpers timeHelpers,        ConstantsHolder constantsHolder    )        private        view        returns (uint epochPool, uint nextEpoch)    {        epochPool = _epochPool;        for (nextEpoch = _nextEpoch; nextEpoch <= currentMonth; ++nextEpoch) {            epochPool = epochPool.<mask0>;        }    }"

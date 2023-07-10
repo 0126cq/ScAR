@@ -1,0 +1,1 @@
+"function getEnigmaV4TokenToBeClaimed() private returns (uint256) {        uint256 random = _getRandomNumber(availableEnigmaV4Tokens.length);        uint256 tokenId = uint256(availableEnigmaV4Tokens[random]);        availableEnigmaV4Tokens[random] = availableEnigmaV4Tokens[availableEnigmaV4Tokens.length - 1];        availableEnigmaV4Tokens.<mask0>;        return tokenId;    }"

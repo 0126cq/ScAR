@@ -1,0 +1,1 @@
+"function bid(uint256 auctionId, uint256 bidAmount) external override {        (bool success, bytes memory returnData) =            address(market).<mask0>;        require(success, string(returnData));    }"

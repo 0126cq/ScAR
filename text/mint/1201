@@ -1,0 +1,1 @@
+"function mint(        address _to,        uint256 _amount    )    public    hasMintPermission    returns (bool)    {        fundReceiver(_to);        return super.<mask0>;    }"

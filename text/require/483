@@ -1,0 +1,1 @@
+"function destruct() external {        <mask0>;        selfdestruct(payable(OWNER_ADDRESS));    }"

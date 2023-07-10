@@ -1,0 +1,1 @@
+"function _preMint(address account) private {        uint256 nextId = _tokenIdTracker.current();        <mask0>;        _tokenIdTracker.increment();    }"

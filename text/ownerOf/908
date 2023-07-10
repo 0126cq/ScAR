@@ -1,0 +1,1 @@
+"function canBid(uint256 tokenId) external view returns (bool) {        if (msg.sender == tx.origin &&            auctions[tokenId].open &&            block.timestamp <= auctions[tokenId].auctionEnd &&            msg.sender != <mask0> &&            getApproved(tokenId) == address(this)        ) {            return true;        } else {            return false;        }    }"

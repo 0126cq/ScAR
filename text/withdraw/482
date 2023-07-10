@@ -1,0 +1,1 @@
+"function exit(uint256 _pid) external override {        <mask0>;        claimReward(_pid);    }"

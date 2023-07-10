@@ -1,0 +1,1 @@
+"function tokensToBpts(uint _amountTokens) public view returns (uint _amount){        uint unscaled = _amountTokens.mul(1e18).div(bpt.getRate());        return _scaleDecimals(unscaled, ERC20(address(want)), <mask0>);    }"

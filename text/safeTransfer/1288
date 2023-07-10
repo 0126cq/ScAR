@@ -1,0 +1,1 @@
+"function _pushFunds(address _token, address _to, uint256 _amount) internal\t{\t\tIERC20(_token).<mask0>;\t}"

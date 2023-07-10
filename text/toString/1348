@@ -1,0 +1,1 @@
+"function getAnimationURL(uint assetId) private view returns (string memory) {        string memory name = resolver.name(reverseReg.node(          IERC721(_creator).ownerOf(assetId)        ));        return string(abi.encodePacked(_baseURI, \"?id=\", assetId.<mask0>, \"&name=\", name, \"&points=\", cardPoints[assetId].toString()));    }"

@@ -1,0 +1,1 @@
+"function name() external view override returns (string memory) {        return string(abi.encodePacked(\"SSBv3 \", <mask0>.symbol(), \" \", bpt.symbol()));    }"

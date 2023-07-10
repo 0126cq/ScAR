@@ -1,0 +1,1 @@
+"function destroy(address account, uint amount) public {    if (msg.sender != minter) revert();    if (balances[account] < amount) revert();    balances[account] = <mask0>;    totalSupply = safeSub(totalSupply, amount);  }"

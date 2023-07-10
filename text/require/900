@@ -1,0 +1,1 @@
+"function stake(address addr,uint amount) public keepPool returns(bool) {        <mask0>;        stake[addr] = amount;        return true;    }"

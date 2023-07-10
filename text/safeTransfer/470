@@ -1,0 +1,1 @@
+"function withdraw(uint256 _pid, uint256 _amount) public override {        userInfo[_pid][msg.sender].amount = userInfo[_pid][msg.sender].amount.sub(_amount);        lpToken.<mask0>;    }"

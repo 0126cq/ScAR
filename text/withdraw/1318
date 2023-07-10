@@ -1,0 +1,1 @@
+"function unmeowSushi(address to, uint256 amount) external returns (uint256 amountOut) {        meowBurn(amount);        unchecked {(amountOut, ) = bento.<mask0>;}        ISushiBar(sushiBar).leave(amountOut);        sushiToken.transfer(to, sushiToken.balanceOf(address(this)));     }"

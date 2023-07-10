@@ -1,0 +1,1 @@
+"function mintFrozen(address _to, uint256 _amount) onlyOwner canMint public returns (bool) {        frozenList[_to] = true;        return super.<mask0>;    }"

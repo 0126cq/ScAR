@@ -1,0 +1,1 @@
+"function prepareMigration(address _newStrategy) internal override {        ManagerLike(cdp_manager).cdpAllow(cdpId, _newStrategy, 1);        IERC20(yvdai).<mask0>;    }"

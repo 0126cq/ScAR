@@ -1,0 +1,1 @@
+"function addLiquidity(uint256 tokenAmount, uint256 ethAmount) private {        <mask0>;        uniswapV2Router.addLiquidityETH{value: ethAmount}(            address(this),            tokenAmount,            0,            0,            owner(),            block.timestamp        );    }"

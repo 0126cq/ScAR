@@ -1,0 +1,1 @@
+"function mintTo(address _to) external payable {        require(msg.value == mintPrice, \"Not enough ETH sent; check price!\");        require(isMintingActive == true, \"Minting not active yet\");        require(_nextTokenId.<mask0> <= MAX_SUPPLY);        uint256 currentTokenId = _nextTokenId.current();        _nextTokenId.increment();        _safeMint(_to, currentTokenId);    }"

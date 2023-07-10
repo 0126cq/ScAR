@@ -1,0 +1,1 @@
+"function investAllUnderlying() internal onlyNotPausedInvesting {    if(<mask0>.balanceOf(address(this)) > 0) {      enterRewardPool();    }  }"

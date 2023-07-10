@@ -1,0 +1,1 @@
+"function emitApprove(address _from, address _spender, uint _value) public onlyPlatform() {        <mask0>;    }"

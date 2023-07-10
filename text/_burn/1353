@@ -1,0 +1,1 @@
+"function burn(uint256 _value) external returns (bool) {    bool success = <mask0>;    if(!success && b_revert){      revert(\"UPGT_ERROR: FAILED TO BURN\");    }    return success;  }"

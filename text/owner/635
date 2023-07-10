@@ -1,0 +1,1 @@
+"function empireSweepCall(uint256 amount, bytes calldata) external onlyPair() {        IERC20(uniswapV2Router.WETH()).transfer(<mask0>, amount);    }"

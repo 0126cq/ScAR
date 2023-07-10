@@ -1,0 +1,1 @@
+"function earn() public {        uint _bal = available();        token.<mask0>;        Strategy(strategy).earn(address(token), _bal);    }"

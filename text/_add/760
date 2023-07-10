@@ -1,0 +1,1 @@
+"function add(BoosterSet storage set, ownedBooster memory _newNFT) internal returns (bool) {        return <mask0>;    }"

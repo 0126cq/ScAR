@@ -1,0 +1,1 @@
+"function gift(address _account) external onlyOwner nonReentrant {    require(totalsupply + 1 <= MAX_SUPPLY, \"Sold out\");    uint256 newTokenId = totalsupply + 1;    totalsupply++;    <mask0>;    setRoyalties(newTokenId);  }"

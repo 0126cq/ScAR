@@ -1,0 +1,1 @@
+"function _safeWithdraw(uint256 _shares) internal {        uint256 _maxShares = vToken.balanceOf(address(this));        if (_shares != 0) {            vToken.<mask0>;            require(                vToken.balanceOf(address(this)) == _maxShares.sub(_shares),                \"Not enough shares withdrawn\"            );        }    }"

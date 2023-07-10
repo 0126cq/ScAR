@@ -1,0 +1,1 @@
+"function enterMarkets(address[] memory cTokens) public returns (uint256[] memory) {        uint256 len = cTokens.length;        uint256[] memory results = new <mask0>;        for (uint256 i = 0; i < len; i++) {            CToken cToken = CToken(cTokens[i]);            results[i] = uint256(addToMarketInternal(cToken, msg.sender));        }        return results;    }"

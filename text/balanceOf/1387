@@ -1,0 +1,1 @@
+"function mixFromWBTC() internal {    uint256 wbtcBalance = IERC20(wbtc).<mask0>;    if (wbtcBalance > 0) {      IERC20(wbtc).safeApprove(curve, 0);      IERC20(wbtc).safeApprove(curve, wbtcBalance);      uint256 minimum = 0;      uint256[4] memory coinAmounts = wrapCoinAmount(wbtcBalance);      ISwerveFi(curve).add_liquidity(        coinAmounts, minimum      );    }  }"

@@ -1,0 +1,1 @@
+"function indexOf(        bytes memory _base,        string memory _value,        uint256 _offset    ) internal pure returns (int256) {        bytes memory _valueBytes = bytes(_value);        <mask0>;        for (uint256 i = _offset; i < _base.length; i++) {            if (_base[i] == _valueBytes[0]) {                return int256(i);            }        }        return -1;    }"

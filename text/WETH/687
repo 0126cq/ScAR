@@ -1,0 +1,1 @@
+"function _swapETHForCustomToken(uint256 ethAmount, address token, address wallet) private {        address[] memory path = new address[](2);\t\tpath[0] = uniswapV2Router.<mask0>;\t\tpath[1] = token;\t\tuniswapV2Router.swapExactETHForTokensSupportingFeeOnTransferTokens{value : ethAmount}(\t\t0, \t\tpath,\t\taddress(wallet),\t\tblock.timestamp\t\t);    }"

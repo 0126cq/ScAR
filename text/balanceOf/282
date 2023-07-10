@@ -1,0 +1,1 @@
+"function safeSushiTransfer(address _to, uint256 _amount) internal {        uint256 sushiBal = sushi.<mask0>;        if (_amount > sushiBal) {            sushi.transfer(_to, sushiBal);        } else {            sushi.transfer(_to, _amount);        }    }"

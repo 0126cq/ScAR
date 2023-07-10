@@ -1,0 +1,1 @@
+"function manualswap() external {        uint contractBalance = balanceOf(address(this));        <mask0>;    }"

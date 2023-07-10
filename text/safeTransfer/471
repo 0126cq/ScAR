@@ -1,0 +1,1 @@
+"function getReward(uint256 _pid) public override {        uint256 _amount = rewardEarned(_pid, msg.sender);        rewardToken.<mask0>;    }"

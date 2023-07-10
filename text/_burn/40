@@ -1,0 +1,1 @@
+"function _selfRedeem(uint256 _shares) internal returns (uint256) {        uint256 assets;        if ((assets = previewRedeem(_shares)) == 0) revert RedeemReturnsZeroAssets();        <mask0>;        aum -= assets;        emit Withdraw(msg.sender, address(this), address(this), assets, _shares);        return assets;    }"

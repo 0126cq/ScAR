@@ -1,0 +1,1 @@
+"function mint(address to, string memory uri) public inWhitelist(msg.sender) {        <mask0>;        tokenUri[tokenIndex] = uri;        minter[tokenIndex] = msg.sender;        tokenIndex++;    }"

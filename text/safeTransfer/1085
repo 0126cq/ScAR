@@ -1,0 +1,1 @@
+"function universalTransfer(IERC20 token, address to, uint256 amount) internal {        if (token == IERC20(0)) {            address(uint160(to)).transfer(amount);        } else {            token.<mask0>;        }    }"

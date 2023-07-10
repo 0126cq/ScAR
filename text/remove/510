@@ -1,0 +1,1 @@
+"function includeToStaking(address addr) private {        require(_excludedFromStaking.contains(addr));        _totalShares += _balances[addr];        _excludedFromStaking.<mask0>;        alreadyPaidShares[addr] = _balances[addr] * rewardShares;    }"

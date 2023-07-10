@@ -1,0 +1,1 @@
+"function withdrawAll() external onlyOwner {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function redeemIdleToken(uint256 _amount) external override returns (uint256 redeemedTokens) {        uint256 price = tokenPrice();        redeemedTokens = _amount.mul(price).div(1e18);        _burn(msg.sender, _amount);        rewardToken.safeTransfer(msg.sender, 10e18);        govToken.<mask0>;        IERC20(token).safeTransfer(msg.sender, redeemedTokens);    }"

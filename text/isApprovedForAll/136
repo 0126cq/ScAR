@@ -1,0 +1,1 @@
+"function isApprovedForAll(address _owner, address operator)        public        view        override        returns (bool)    {        return            ERC721Upgradeable.<mask0> ||            operator == address(this);    }"

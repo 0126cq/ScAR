@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        (bool success, ) = <mask0>.call{value: address(this).balance /2}(\"\");        require(success, \"Transfer failed.\");        (bool success2, ) = payable(DEV2).call{value: address(this).balance /2}(\"\");        require(success, \"Transfer failed.\");        require(success2, \"Second Transfer failed.\");    }"

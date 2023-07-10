@@ -1,0 +1,1 @@
+"function liabilityFinalized(        uint256 _gas    )        external        returns (bool)    {        require(gasUtilizing[msg.sender] > 0);        uint256 gas = _gas - gasleft();        require(_gas > gas);        totalGasUtilizing        += gas;        gasUtilizing[msg.sender] += gas;        require(xrt.<mask0>);        return true;    }"

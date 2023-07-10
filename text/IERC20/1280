@@ -1,0 +1,1 @@
+"function stakeShares(uint _shares) external {        uint _before = balanceOf(address(this));        <mask0>.transferFrom(msg.sender, address(this), _shares);        uint _after = balanceOf(address(this));        _shares = _after.sub(_before);        _stakeShares(_shares);    }"

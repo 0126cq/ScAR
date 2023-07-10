@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public onlyOwner {        IPool(pool).<mask0>;        _burn(address(this), _amount);    }"

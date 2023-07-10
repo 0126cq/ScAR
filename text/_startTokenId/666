@@ -1,0 +1,1 @@
+"function _exists(uint256 tokenId) internal view returns (bool) {        return            <mask0> <= tokenId &&            tokenId < ERC721AStorage.layout()._currentIndex &&             ERC721AStorage.layout()._packedOwnerships[tokenId] & BITMASK_BURNED == 0;     }"

@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    ) public override nonReentrant returns (bool) {        _updateVoteExpiry();        require(_checkVoteExpiry(sender, amount), \"voteLockExpiry\");        super.<mask0>;    }"

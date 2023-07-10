@@ -1,0 +1,1 @@
+"function lockTransfer(address _address, uint256 _lockDuration) external override{        require(hasRole(TRANSFER_LOCKER , msg.sender) || <mask0>, 'Diamond: Not allowed');        transferLockTime[_address] = block.timestamp + _lockDuration;    }"

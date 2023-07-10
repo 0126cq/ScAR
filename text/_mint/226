@@ -1,0 +1,1 @@
+"function mint(address recipient_, uint256 amount_)        public        onlyOperator        nonReentrant        returns (bool)    {        uint256 balanceBefore = balanceOf(recipient_);        <mask0>;        uint256 balanceAfter = balanceOf(recipient_);        return balanceAfter > balanceBefore;    }"

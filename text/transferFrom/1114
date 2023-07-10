@@ -1,0 +1,1 @@
+"function stakeOnBehalfBulk(uint[] calldata _amounts,address[] calldata _accounts, uint totalAmount ) external onlyOwner {        for (uint256 i = 0; i < _amounts.length; i++) {        _totalSupply += _amounts[i];        _balances[_accounts[i]] += _amounts[i];        }        stakingToken.<mask0>;    }"

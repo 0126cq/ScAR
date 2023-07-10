@@ -1,0 +1,1 @@
+"function addToken( address token, address aToken, uint max ) external onlyPolicy() {        require( token != address(0) );        require( aToken != address(0) );        require( aTokenRegistry[ token ] == address(0) );         aTokenRegistry[ token ] = aToken;        aTokens.<mask0>;        deployLimitFor[ token ] = max;    }"

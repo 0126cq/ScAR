@@ -1,0 +1,1 @@
+"function set_addresses(address _sale, address _token) {    require(msg.sender == developer);    sale = _sale;    token = <mask0>;  }"

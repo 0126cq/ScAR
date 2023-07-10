@@ -1,0 +1,1 @@
+"function _transferMarketFee(uint256 tMarket) private {        uint256 currentRate = _getRate();        uint256 rMarket = tMarket.<mask0>;        _rOwned[MARKET_ADDRESS] = _rOwned[MARKET_ADDRESS].add(rMarket);        if (_isExcluded[MARKET_ADDRESS])            _tOwned[MARKET_ADDRESS] = _tOwned[MARKET_ADDRESS].add(tMarket);    }"

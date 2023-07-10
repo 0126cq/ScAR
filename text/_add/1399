@@ -1,0 +1,1 @@
+"function add(int256 a, int256 b) internal pure returns (int256 c) {        c = <mask0>;    }"

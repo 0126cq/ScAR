@@ -1,0 +1,1 @@
+"function withdraw() external  onlyOwner {    (bool success,) = withdrawWallet.<mask0>;    require(success, \"withdraw failed\");  }"

@@ -1,0 +1,1 @@
+"function giveLockBonus(uint256 _amount) external {    require(msg.sender == locker);    totalBonus = totalBonus.add(_amount);    SafeERC20.<mask0>;  }"

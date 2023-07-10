@@ -1,0 +1,1 @@
+"function mintNFT() public payable {        require(minting, \"Mint closed\");        require(msg.value == getItemPrice(), \"Wrong ETH\");        require(tokenTRACK.<mask0> < MAXSUPPLY, \"More than max supply\");        tokenTRACK.increment();        _safeMint(msg.sender, tokenTRACK.current());    }"

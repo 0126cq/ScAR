@@ -1,0 +1,1 @@
+"function toggleOnlyMintingByTokenHolders(bool _isRestricted) public {        require(            <mask0> ||                hasRole(TOGGLE_MINTING_ROLE, msg.sender),            \"Caller is not toggler or admin\"        );        onlyMintingByTokenHoldersAllowed = _isRestricted;    }"

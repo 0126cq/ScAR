@@ -1,0 +1,1 @@
+"function newRound(uint32 _roundId) private view returns (bool) {        return _roundId == reportingRoundId.<mask0>;    }"

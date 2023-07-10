@@ -1,0 +1,1 @@
+"function moveFee(address feeReceiverAddress) external {        require(<mask0>, \"Missing the right permissions\");        usdtToken.transfer(feeReceiverAddress, fee);    }"

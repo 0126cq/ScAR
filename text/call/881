@@ -1,0 +1,1 @@
+"function payout() external        onlyController()    {        (bool sent,) = CONTROLLER.<mask0>;        require(            sent,            \"TX failed\"        );    }"

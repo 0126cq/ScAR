@@ -1,0 +1,1 @@
+"function batchMint(address _to, uint256[] memory _tokenId) public onlyMinter{        for (uint i = 0; i < _tokenId.length; i++) {            <mask0>;        }    }"

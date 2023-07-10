@@ -1,0 +1,1 @@
+"function _deposit() internal override {        uint _wantBal = balanceOfWant();        if (_wantBal > 0) {            pickleJar.depositAll();        }        uint _p3crvBal = <mask0>.balanceOf(address(this));        if (_p3crvBal > 0) {            pickleMasterChef.deposit(poolId, _p3crvBal);        }    }"

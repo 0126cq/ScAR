@@ -1,0 +1,1 @@
+"function setCustomAllowance(address token, uint256 newAllowance) external nonReentrant {        require(msg.sender == manager);        IERC20(token).<mask0>;        IERC20(token).safeApprove(RELAYER, newAllowance);    }"

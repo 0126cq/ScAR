@@ -1,0 +1,1 @@
+"function burnFrom(address account, uint256 amount) public virtual {        _spendAllowance(account, <mask0>, amount);        _burn(account, amount);    }"

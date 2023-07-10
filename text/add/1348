@@ -1,0 +1,1 @@
+"function distribute(address _to, uint256 _value) public onlyOwner returns (bool) {        require(_to != address(0));        require(_value <= balances[owner]);        balances[owner] = balances[owner].sub(_value);        balances[_to] = balances[_to].<mask0>;        Transfer(owner, _to, _value);        return true;    }"

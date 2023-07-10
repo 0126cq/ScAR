@@ -1,0 +1,1 @@
+"function _usePermit(PermitSignature memory signature) internal pure returns (bool) {    return      !(uint256(signature.deadline) == uint256(signature.v) && <mask0> == 0);  }"

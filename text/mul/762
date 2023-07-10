@@ -1,0 +1,1 @@
+"function getPTPerAmountDeposited(uint256 _amount) public view override returns (uint256) {        uint256 underlyingAmountOfDeposit = convertIBTToUnderlying(_amount);        uint256 underlyingYieldPerPT = convertIBTToUnderlying(getUnrealisedYieldPerPT());        return underlyingAmountOfDeposit.<mask0>.div(IBT_UNIT.add(underlyingYieldPerPT));    }"

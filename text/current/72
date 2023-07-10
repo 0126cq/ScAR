@@ -1,0 +1,1 @@
+"function currentCount() public view returns(uint) {        return tokenid.<mask0>;    }"

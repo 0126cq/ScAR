@@ -1,0 +1,1 @@
+"function tokenBurns(address _operator)    external    view    returns (uint256 _burns)  {    _burns = stats[BURNS][_operator].<mask0>;  }"

@@ -1,0 +1,1 @@
+"function ownerMint(uint256 amount) external onlyOwner {        require(<mask0> + amount <= maxSupply, \"Can't mint\");        _safeMint(msg.sender, amount);    }"

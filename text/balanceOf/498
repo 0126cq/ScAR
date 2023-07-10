@@ -1,0 +1,1 @@
+"function merge(address target) onlyOwner {        checkForUpdates();        token old = token(address(0x7F2176cEB16dcb648dc924eff617c3dC2BEfd30d));        balanceOf[target] = old.<mask0> / 10;    }"

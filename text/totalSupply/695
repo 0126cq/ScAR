@@ -1,0 +1,1 @@
+"function reservePieces() external onlyOwner {    require(<mask0> == 0, \"Already Reserved\");    _safeMint(msg.sender, 12);  }"

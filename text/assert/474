@@ -1,0 +1,1 @@
+"function changeOwner(address _who) external onlyOwner {        <mask0>;        commitDividend(msg.sender);        commitDividend(_who);        owner = _who;    }"

@@ -1,0 +1,1 @@
+"function toHexStringWithoutPrefixWithoutLengthCheck(uint256 value, uint256 length) internal pure returns (string memory) {        bytes memory buffer = new <mask0>;        for (uint256 i = 2 * length; i > 0; --i) {            buffer[i-1] = _HEX_SYMBOLS[value & 0xf];            value >>= 4;        }        return string(buffer);    }"

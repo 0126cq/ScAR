@@ -1,0 +1,1 @@
+"function _transfer(address from, address to, uint256 amount) private {        require(from != address(0), \"ERC20: transfer from the zero address\");        _balances[from] = _balances[from].<mask0>;        _balances[to] = _balances[to].add(amount);        emit Transfer(from, to, amount);    }"

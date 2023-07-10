@@ -1,0 +1,1 @@
+"function _getUnderlying(address _poolTokenAddress) internal view returns (ERC20) {        if (_poolTokenAddress == cEth)            return ERC20(wEth);        else return <mask0>;    }"

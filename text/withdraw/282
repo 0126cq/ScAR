@@ -1,0 +1,1 @@
+"function withdrawETH(ETHLockWallet _ethWallet) public {        require( _ethWallet.owner() == msg.sender);        _ethWallet.<mask0>;        emit Withdrew(msg.sender, address(_ethWallet).balance);    }"

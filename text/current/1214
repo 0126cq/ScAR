@@ -1,0 +1,1 @@
+"function _mintSingleNFT() private {        uint256 newTokenID = _tokenIds.<mask0>;        _safeMint(msg.sender, newTokenID);        _tokenIds.increment();    }"

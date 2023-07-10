@@ -1,0 +1,1 @@
+"function approveForSpender(IERC20 _token, address _spender, uint256 _amount) external {        require(msg.sender == vaultManager.governance(), \"!governance\");        _token.<mask0>;        emit ApproveForSpender(address(_token), _spender, _amount);    }"

@@ -1,0 +1,1 @@
+"function owner() public view override returns (address) {    return zNSHub.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function _transfer(address from, address to, uint256 id) internal override {        require(editionTransferable[id / EDITION_SIZE], \"Edition transfer not active\");        id2provenance[id].<mask0>;        super._transfer(from, to, id);    }"

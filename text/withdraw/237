@@ -1,0 +1,1 @@
+"function _withdrawSome(uint256 _amount) internal override returns (uint256) {        if (_amount == 0){            return 0;        }        uint256 _beforeWant = IERC20(want).balanceOf(address(this));        ICvxRewardPool(stakingPool).<mask0>;        uint256 _afterWant = IERC20(want).balanceOf(address(this));        return _afterWant.sub(_beforeWant);    }"

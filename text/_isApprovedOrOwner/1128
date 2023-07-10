@@ -1,0 +1,1 @@
+"function multiBurn(uint256[] memory tokenId) public {         for (uint i = 0; i < tokenId.length; i++) {             if (<mask0>){                transferFrom(_msgSender(),DEAD,tokenId[i]);             }         }    }"

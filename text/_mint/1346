@@ -1,0 +1,1 @@
+"function authMint(uint8 _type, address _to, uint256 _amount) public onlyAuthorized {        <mask0>;        authMinted[_type] = authMinted[_type].add(_amount);    }"

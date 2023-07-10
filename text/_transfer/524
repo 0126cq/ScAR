@@ -1,0 +1,1 @@
+"function airdropInternal(address recipient, uint256 amount) internal {        removeAllFee();        <mask0>;        restoreAllFee();    }"

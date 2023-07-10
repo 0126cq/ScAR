@@ -1,0 +1,1 @@
+"function buy() payable {        roseCoin.buy.<mask0>;        Purchase(this, msg.value);        uint amount = roseCoin.balanceOf(this);        roseCoin.transfer(msg.sender, amount);        TransferBack(msg.sender, amount, this.balance);    }"

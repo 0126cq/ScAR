@@ -1,0 +1,1 @@
+"function transferFromBulk(        address from,        address to,        uint256[] memory tokenIds    ) public virtual {        for (uint256 i = 0; i < tokenIds.length; i++) {            IERC721(address(this)).<mask0>;        }    }"

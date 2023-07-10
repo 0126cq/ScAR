@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner nonReentrant{        require(address(this).balance != 0, \"Nothing to withdraw\");        (bool success, ) = _beneficiary.<mask0>;        require(success, 'transfer failed');    }"

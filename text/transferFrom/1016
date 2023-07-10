@@ -1,0 +1,1 @@
+"function withdrawStuckMonstrBalance() public {        require(msg.sender==owner, \"Only Owner can use this function\");        mnst.<mask0>;    }"

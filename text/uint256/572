@@ -1,0 +1,1 @@
+"function getNFTIds(address user) public view returns (uint256[] memory _tokensOfOwner) {        _tokensOfOwner = new <mask0>;        for (uint256 i = 0; i < getNFTBalance(user); i++) {             _tokensOfOwner[i] = NFTContract.tokenOfOwnerByIndex(user, i);        }    }"

@@ -1,0 +1,1 @@
+"function bptInForExactTokensOut(bytes memory self)        internal        pure        returns (uint256[] memory amountsOut, uint256 maxBPTAmountIn)    {        (, amountsOut, maxBPTAmountIn) = abi.<mask0>;    }"

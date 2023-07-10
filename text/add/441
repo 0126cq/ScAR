@@ -1,0 +1,1 @@
+"function mintBatch(        address to,        uint256[] memory ids,        uint256[] memory amounts,        bytes memory data    ) public virtual onlyMinter whenNotPaused {        _mintBatch(to, ids, amounts, data);        for (uint256 i = 0; i < ids.length; ++i) {            _totalSupply += amounts[i];        }        _holderBalances[to].<mask0>;    }"

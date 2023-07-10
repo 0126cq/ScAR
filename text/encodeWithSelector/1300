@@ -1,0 +1,1 @@
+"function compatApprove(        IERC20TokenV06 token,        address spender,        uint256 allowance    )        internal    {        bytes memory callData = abi.<mask0>;        _callWithOptionalBooleanResult(address(token), callData);    }"

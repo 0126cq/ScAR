@@ -1,0 +1,1 @@
+"function getFeeBps(uint256 tokenId)        public        view        override        returns (uint256[] memory)    {        uint256[] memory ret = new <mask0>;        ret[0] = uint256(_feeBps);        return ret;    }"

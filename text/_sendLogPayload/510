@@ -1,0 +1,1 @@
+"function log(uint p0, uint p1, bool p2, uint p3) internal view {\t\t<mask0>;\t}"

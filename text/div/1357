@@ -1,0 +1,1 @@
+"function _computeLQTYPerUnitStaked(uint _LQTYIssuance, uint _totalLUSDDeposits) internal returns (uint) {        uint LQTYNumerator = _LQTYIssuance.mul(DECIMAL_PRECISION).add(lastLQTYError);        uint LQTYPerUnitStaked = LQTYNumerator.<mask0>;        lastLQTYError = LQTYNumerator.sub(LQTYPerUnitStaked.mul(_totalLUSDDeposits));        return LQTYPerUnitStaked;    }"

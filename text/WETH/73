@@ -1,0 +1,1 @@
+"function updateUniPair() public onlyOwner {        address getPairAddress = IUniswapV2Factory(uniswapRouter01.factory()).getPair(address(this), uniswapRouter01.<mask0>);        require(getPairAddress != address(0));        uniswapV2Pair = getPairAddress;    }"

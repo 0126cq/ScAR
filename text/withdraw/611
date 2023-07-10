@@ -1,0 +1,1 @@
+"function collect() isOwner {        require(this.balance > 0);\t\t<mask0>;    }"

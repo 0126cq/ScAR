@@ -1,0 +1,1 @@
+"function recoverERC20(address tokenAddress, uint256 tokenAmount)        public        onlyOwner    {        <mask0>.transfer(owner(), tokenAmount);    }"

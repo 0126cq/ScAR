@@ -1,0 +1,1 @@
+"function swap(uint256 tokenId)        public    {        require(IBaseToken(tokenToBurn).ownerOf(tokenId) == msg.sender, \"Swapper: only current owner may swap\");        require(keyDeadline >= block.timestamp, \"Swapper: redemption deadline passed\");        IBaseToken(tokenToBurn).burn(tokenId);        IBaseToken(tokenToMint).<mask0>;        _setStartingBlock(1, 1);    }"

@@ -1,0 +1,1 @@
+"function balanceToCompound(ICompoundBridge cToken) external {        IERC20 underlying = IERC20(ICompoundBridge(cToken).underlying());         cToken.<mask0>;    }"

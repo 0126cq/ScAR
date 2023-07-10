@@ -1,0 +1,1 @@
+"function cleanUpDust(uint256 amount, address tokenAddress, address sendTo) onlyOperator public  {             IERC20(tokenAddress).<mask0>;    }"

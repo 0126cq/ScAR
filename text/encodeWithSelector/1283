@@ -1,0 +1,1 @@
+"function safeSymbol(IERC20 token) internal view returns(string memory) {        (bool success, bytes memory data) = address(token).staticcall(abi.<mask0>);        return success && data.length > 0 ? abi.decode(data, (string)) : \"???\";    }"

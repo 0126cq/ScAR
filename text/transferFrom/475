@@ -1,0 +1,1 @@
+"function stake(uint256 _amount) public {      require(_amount > 0, \"Amount must be greater than 0\");      if (balanceOf(msg.sender) == 0)        totalStakers += 1;      _mint(msg.sender, _amount);      CHURCH.<mask0>;      lockedUntil[msg.sender] = uint128(block.timestamp + (77 hours));      emit Stake(msg.sender, _amount);    }"

@@ -1,0 +1,1 @@
+"function _adjustCRV(uint256 _crv) internal returns (uint256) {        uint256 _keepCRV = _crv.mul(keepCRV).div(DENOMINATOR);        IERC20(crv).<mask0>;        return _crv.sub(_keepCRV);    }"

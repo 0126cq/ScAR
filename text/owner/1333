@@ -1,0 +1,1 @@
+"function ownerOf(uint256 _tokenId) public view returns (address _owner) {        return <mask0>;    }"

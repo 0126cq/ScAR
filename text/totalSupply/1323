@@ -1,0 +1,1 @@
+"function setMaxSupply(uint256 _newSupply) external onlyOwner {        require(<mask0> <= _newSupply, \"Cannot set maxSupply less than totalSupply\");        MaxSupply = _newSupply;    }"

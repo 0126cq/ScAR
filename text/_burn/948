@@ -1,0 +1,1 @@
+"function spendMaterialToBuild(address tokenOwner, uint256 spend) external override onlyBuilder {        require(materialBalance(tokenOwner) >= spend, \"Balance is not enough\");        <mask0>;        _totalBurned += spend;    }"

@@ -1,0 +1,1 @@
+"function _disposeOfComp() internal {        uint256 _comp = IERC20(comp).<mask0>;        if (_comp > minCompToSell) {            address[] memory path = new address[](3);            path[0] = comp;            path[1] = weth;            path[2] = address(want);            IUni(uniswapRouter).swapExactTokensForTokens(_comp, uint256(0), path, address(this), now);        }    }"

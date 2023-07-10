@@ -1,0 +1,1 @@
+"function transferAndLock(address _to, uint256 _value, uint256 _releaseTime, bool _votable) public virtual returns (bool) {    bool retval = false;    if(<mask0>){      retval = _transferAndLock(msg.sender, _to, _value, _releaseTime, _votable);    }    if(!retval && b_revert){      revert(\"UPGT_ERROR: ERROR ON TRANSFER AND LOCK\");    }    return retval;  }"

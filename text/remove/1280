@@ -1,0 +1,1 @@
+"function unwhitelistMany(address[] memory toUnWhitelist) external onlyOwner returns(bool) {        for (uint i = 0; i < toUnWhitelist.length; i++) {            _whitelisted_users.<mask0>;        }        return true;    }"

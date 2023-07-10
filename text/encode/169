@@ -1,0 +1,1 @@
+"function _randomNumber(uint256 _limit, uint256 _salt) internal view returns (uint256) {        bytes32 _structHash = keccak256(            abi.<mask0>        );        uint256 randomNumber = uint256(_structHash);        assembly {randomNumber := add(mod(randomNumber, _limit), 1)}        return uint8(randomNumber);    }"

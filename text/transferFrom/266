@@ -1,0 +1,1 @@
+"function transferFrom(address _spender, address _from, address _to, uint _value) onlyToken returns (bool success) {\t\treturn ledger.<mask0>;\t}"

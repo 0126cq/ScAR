@@ -1,0 +1,1 @@
+"function _receiveFlashLoan(Self storage _self, address _token, uint256 _amount, uint256 _fee, bytes memory _params) external returns (bool _success)\t{\t\tassert(_token == _self.underlyingToken);\t\tuint256 _which = abi.<mask0>;\t\treturn _self._continueAdjustLeverage(_amount, _fee, _which);\t}"

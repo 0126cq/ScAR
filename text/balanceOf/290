@@ -1,0 +1,1 @@
+"function tokensLeft() public view onlyInState(State.CONFIGURED) returns (uint256) {    return erc20.<mask0>;  }"

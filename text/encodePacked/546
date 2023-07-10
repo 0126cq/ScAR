@@ -1,0 +1,1 @@
+"function cardAttributes(uint8 borderType, uint8 transparencyLevel, uint8 maskType, uint256 dna, uint256 mintTokenId, bool isGiveaway, string[] memory names)        public        pure        returns (string memory)    {        string memory attributes = string(abi.<mask0>);        return attributes;    }"

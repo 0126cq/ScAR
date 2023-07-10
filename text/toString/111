@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId)        public        pure        override        returns (string memory)    {        return string(abi.encodePacked(_baseURI(), Strings.<mask0>));    }"

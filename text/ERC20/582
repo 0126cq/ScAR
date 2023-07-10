@@ -1,0 +1,1 @@
+"function withdrawAaveV1(address _aTokenAddr)        internal        returns (uint256 amount)    {        amount = <mask0>.balanceOf(address(this));        IAToken(_aTokenAddr).redeem(amount);    }"

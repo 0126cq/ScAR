@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 value) internal override {\t\tsuper.<mask0>;\t\tmagnifiedDividendCorrections[account] = magnifiedDividendCorrections[account]\t\t.add( (magnifiedDividendPerShare.mul(value)).toInt256Safe() );\t}"

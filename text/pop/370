@@ -1,0 +1,1 @@
+"function remove(address[] memory A, address a)        internal        pure        returns (address[] memory)    {        (uint256 index, bool isIn) = indexOf(A, a);        if (!isIn) {            revert(\"Address not in array.\");        } else {            (address[] memory _A,) = <mask0>;            return _A;        }    }"

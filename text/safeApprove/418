@@ -1,0 +1,1 @@
+"function _aaveDeposit(uint256 amount) internal {    address lendPool = lendingPool();    IERC20(aaveUnderlying).safeApprove(lendPool, 0);    IERC20(aaveUnderlying).<mask0>;    ILendingPool(lendPool).deposit(      aaveUnderlying,      amount,      address(this),      0     );  }"

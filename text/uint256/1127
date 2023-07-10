@@ -1,0 +1,1 @@
+"function allBalances(address _account, address[] _tokens) public view returns(uint256[]) {        uint256[] memory tokenValues = new <mask0>;        for (uint i = 0; i < _tokens.length; i++) {            tokenValues[i] = tokenBalances[_account][_tokens[i]];        }        return tokenValues;    }"

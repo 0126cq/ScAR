@@ -1,0 +1,1 @@
+"function read(address subject, bytes memory inputData) internal view returns(bytes memory returnData) {        bool result;        (result, returnData) = subject.<mask0>;        if(!result) {            assembly {                revert(add(returnData, 0x20), mload(returnData))            }        }    }"

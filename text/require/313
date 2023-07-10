@@ -1,0 +1,1 @@
+"function setNewTDao(address treasury) public returns (bool) {        <mask0>;        require(            msg.sender == tx.origin,            \"Muny: setNewTDao requires non contract\"        );        treasuryDao = treasury;        emit NewTreasury(treasury);        return true;    }"

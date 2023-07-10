@@ -1,0 +1,1 @@
+"function _getBalance(address token)        internal        view        returns (uint256 balance)    {        if (token == address(0)) {            balance = address(this).balance;        } else {            balance = <mask0>.balanceOf(address(this));        }    }"

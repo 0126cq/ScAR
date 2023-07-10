@@ -1,0 +1,1 @@
+"function withdrawErc20(address erc20Address, uint256 amount) external onlyRoleHolder(roleId) {        IERC20 erc20 = IERC20(erc20Address);        erc20.<mask0>;    }"

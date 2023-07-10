@@ -1,0 +1,1 @@
+"function isBreakingInvestorCap(address addr, uint tokenAmount) public constant returns (bool limitBroken) {    <mask0>;    uint maxCap = earlyParticipantWhitelist[addr].maxCap;    return (tokenAmountOf[addr].plus(tokenAmount)) > maxCap;  }"

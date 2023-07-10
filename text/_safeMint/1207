@@ -1,0 +1,1 @@
+"function Mint(uint256 quantity) external onlyOwner {     require(totalSupply() + quantity <= amountForDevs, \"reached max supply\");    <mask0>;  }"

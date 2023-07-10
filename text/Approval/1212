@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) public activeState returns (bool success) {        require(_spender != address(0));        require(balances[msg.sender] >= _value);        allowed[msg.sender][_spender] = _value;        <mask0>;        return true;    }"

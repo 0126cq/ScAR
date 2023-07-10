@@ -1,0 +1,1 @@
+"function tokenOfOwnerByIndex(address owner, uint256 index) public view virtual override returns (uint256) {        require(index < ERC721Upgradeable.<mask0>, \"ERC721Enumerable: owner index out of bounds\");        return _ownedTokens[owner][index];    }"

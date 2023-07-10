@@ -1,0 +1,1 @@
+"function reserveTokens() public onlyOwner {       require(block.timestamp < SALE_START_TIME, \"Owner cannot mint tokens after the sale start time.\");       for (uint256 i = 0; i < 100; i++) {           uint256 mintIndex = <mask0>;           _safeMint(msg.sender, mintIndex);       }   }"

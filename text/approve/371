@@ -1,0 +1,1 @@
+"function deposit(address _adapter, uint256 poolId, uint256 amount) external override {        IVampireAdapter adapter = IVampireAdapter(_adapter);        adapter.lockableToken(poolId).<mask0>;        SASHIMI_MASTERCHEF.deposit(poolId, amount);    }"

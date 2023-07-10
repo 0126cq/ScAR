@@ -1,0 +1,1 @@
+"function hashDelegate(VotingDelegate memory _delegate) public view returns (bytes32) {    require(<mask0>, \"UPGT_ERROR: ROLE_TEST Required\");    return _hash(_delegate);  }"

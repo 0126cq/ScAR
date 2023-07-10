@@ -1,0 +1,1 @@
+"function controllerBurnFrom(address _operator, address _user, uint256 _amount) external virtual onlyController {    if (_operator != _user) {      uint256 decreasedAllowance = <mask0>.sub(_amount, \"ControlledToken/exceeds-allowance\");      _approve(_user, _operator, decreasedAllowance);    }    _burn(_user, _amount);  }"

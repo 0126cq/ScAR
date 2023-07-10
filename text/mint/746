@@ -1,0 +1,1 @@
+"function claimWallet() public payable {    require(paused == false, \"Paused\");    uint256 walletTokenCount = polz.balanceOf(msg.sender);    require(walletTokenCount > 0, \"No Polz in wallet\");    uint256[] memory wallet = polz.walletOfOwner(msg.sender);    for (uint256 i; i < walletTokenCount; i++) {      <mask0>;    }  }"

@@ -1,0 +1,1 @@
+"function _removeDao(address account) internal {        _daos.<mask0>;        emit DaoRemoved(account);    }"

@@ -1,0 +1,1 @@
+"function updateCompoundAndWithdraw(uint256 _amount, bool _isTimeframe) external override returns (bool) {        updateCompoundRates();        return <mask0>;    }"

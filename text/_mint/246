@@ -1,0 +1,1 @@
+"function mint(address account) external payable {        require(balanceOf[account] + 1 <= maxMintPerWallet);        if (totalSupply > 500) require(msg.value >= MINT_FEE);        require(totalSupply + 1 <= MAX_SUPPLY);        totalSupply++;        <mask0>;    }"

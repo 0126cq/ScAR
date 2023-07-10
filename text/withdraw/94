@@ -1,0 +1,1 @@
+"function withdrawAll(Data storage _self, address _recipient) internal returns (uint256, uint256) {    return _self.<mask0>;  }"

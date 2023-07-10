@@ -1,0 +1,1 @@
+"function _removeManager(address account) internal {        _managers.<mask0>;        emit ManagerRemoved(account);    }"

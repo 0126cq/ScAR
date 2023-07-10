@@ -1,0 +1,1 @@
+"function _sendBadgerToTree(uint256 amount) internal {        IERC20Upgradeable(BADGER).<mask0>;        emit TreeDistribution(BADGER, amount, block.number, block.timestamp);    }"

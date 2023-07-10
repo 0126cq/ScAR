@@ -1,0 +1,1 @@
+"function _transfer(address _from, address _to, uint _value) internal {        require(balanceOf[_from] >= _value);        LockMeta storage meta = lockedAddresses[_from];        require(now >= meta.endtime || meta.amount <= balanceOf[_from] - _value);        super.<mask0>;    }"

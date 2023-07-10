@@ -1,0 +1,1 @@
+"function claim(uint256 _tokenId) public {    require(<mask0> == msg.sender, \"only owner can claim\");    claimed[_tokenId] = true;    emit Claimed(_tokenId, msg.sender);  }"

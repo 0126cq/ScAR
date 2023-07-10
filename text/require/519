@@ -1,0 +1,1 @@
+"function _setApprovalForAll(        address owner,        address operator,        bool approved    ) internal virtual {        <mask0>;        _operatorApprovals[owner][operator] = approved;        emit ApprovalForAll(owner, operator, approved);    }"

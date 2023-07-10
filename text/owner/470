@@ -1,0 +1,1 @@
+"function withdrawArtistShare() external onlyOwner {        uint256 withdrawal = artistShare;        artistShare -= withdrawal;        payable(<mask0>).transfer(withdrawal);    }"

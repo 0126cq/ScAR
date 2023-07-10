@@ -1,0 +1,1 @@
+"function cookBalanceCheck() private view {        require(            cook().<mask0> >=                totalVesting().add(totalRewarded()).sub(totalClaimed()),            \"Inconsistent COOK balances\"        );    }"

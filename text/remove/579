@@ -1,0 +1,1 @@
+"function removeExecutor(address _executor) internal returns (bool) {        return executorStorage().executors.<mask0>;    }"

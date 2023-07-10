@@ -1,0 +1,1 @@
+"function teammint(uint256 _mintAmount, address destination) public onlyOwner {      <mask0>;"

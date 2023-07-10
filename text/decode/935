@@ -1,0 +1,1 @@
+"function borrow(uint borrowAmount) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"borrow(uint256)\", borrowAmount));        return abi.<mask0>;    }"

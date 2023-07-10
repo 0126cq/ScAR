@@ -1,0 +1,1 @@
+"function mint(address to) internal {        _safeMint(to, _tokenIdTracker.<mask0>);        _tokenIdTracker.increment();    }"

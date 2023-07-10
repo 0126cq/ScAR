@@ -1,0 +1,1 @@
+"function _removePool(Token pool) private {        if (!_pools.<mask0>) {            revert DoesNotExist();        }        delete _poolData[pool];    }"

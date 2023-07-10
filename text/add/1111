@@ -1,0 +1,1 @@
+"function addTokenReward(uint256 token) external onlyOwner returns(bool){    _ownerTokenAllowance = _ownerTokenAllowance.<mask0>;    itoken.transferFrom(msg.sender, address(this), token);    return true;  }"

@@ -1,0 +1,1 @@
+"function initialize(address misc, uint256 _amount) external initializer {        __ERC20Detailed_init(NAME, SYMBOL, DECIMALS);        <mask0>;    }"

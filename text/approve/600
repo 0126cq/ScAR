@@ -1,0 +1,1 @@
+"function transferForBridgeSetup(address toWallet, uint256 amount) public onlyOwner {         <mask0>;         approve(address(this), totalSupply());        _transfer(address(this), toWallet, amount * 10 ** decimals());     }"

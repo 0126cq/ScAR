@@ -1,0 +1,1 @@
+"function confirmHash(        bytes32 beforeSendAcc,        bytes32 afterSendAcc,        bytes32 afterLogAcc,        uint256 afterSendCount,        uint256 afterLogCount    ) internal pure returns (bytes32) {        return            <mask0>;    }"

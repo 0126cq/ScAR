@@ -1,0 +1,1 @@
+"function withdrawToken(        IERC20Ext token,        uint256 amount,        address sendTo    ) external onlyAdmin {        token.<mask0>;        emit TokenWithdraw(token, amount, sendTo);    }"

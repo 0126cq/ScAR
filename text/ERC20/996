@@ -1,0 +1,1 @@
+"function approveToken(address _tokenAddr, address _cTokenAddr) internal {        if (_tokenAddr != ETH_ADDR) {            ERC20(_tokenAddr).safeApprove(_cTokenAddr, 0);            <mask0>.safeApprove(_cTokenAddr, uint(-1));        }    }"

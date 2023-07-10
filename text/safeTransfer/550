@@ -1,0 +1,1 @@
+"function killOrder(    uint id  )  public  whenNotPaused  returns (bool) {    require(msg.sender == orders[id].creator, \"Invalid sender\");    require(!orders[id].killed, \"Order already killed\");    orders[id].killed = true;    IERC20(orders[id].srcToken).<mask0>;    emit LogOrderKilled(id);    return true;  }"

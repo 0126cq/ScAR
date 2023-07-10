@@ -1,0 +1,1 @@
+"function addToSpecialTraits(uint256 tokenId, uint16 traitId) external override whenNotPaused onlyAdmin {        tokenSpecialTraits[tokenId].push(traitId);        emit TokenTraitAdded(<mask0>, tokenId, traitId);    }"

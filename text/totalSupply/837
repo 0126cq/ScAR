@@ -1,0 +1,1 @@
+"function calculatePrice() internal view returns (uint256 _cost) {    uint256 _supply = <mask0>;    if (_supply < 1000) {        return 0 ether;      }    if (_supply <= maxSupply) {        return 0.0069 ether;      }"

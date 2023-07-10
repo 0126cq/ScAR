@@ -1,0 +1,1 @@
+"function setAsEligibleLockedDestination(address _address) public returns (bool) {    bool retVal = false;    if(<mask0>){      m_lockedDestinations[_address] = true;      retVal = true;    }    return retVal;  }"

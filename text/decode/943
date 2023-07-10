@@ -1,0 +1,1 @@
+"function balanceOf(address owner) external view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"balanceOf(address)\", owner));        return abi.<mask0>;    }"

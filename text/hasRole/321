@@ -1,0 +1,1 @@
+"function contractStake(address _user, uint256 _tokenAmount)        external    {        require(<mask0>, \"SHFStaking: Caller is not Private Sale\");        _stake(_user, _tokenAmount);    }"

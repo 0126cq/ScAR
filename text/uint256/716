@@ -1,0 +1,1 @@
+"function setSB(uint256 packed, uint16 newSB) internal pure returns (uint256) {        return (packed & sbMask) | <mask0> << 128;    }"

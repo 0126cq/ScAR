@@ -1,0 +1,1 @@
+"function claim(address to,         uint256 tokenId,         uint256 universeId,        uint256 earthId,        uint256 personId,        uint256 blockchainId,        uint256 satashiId) public onlyRole(MINER_ROLE) returns (bool) {        <mask0>;"

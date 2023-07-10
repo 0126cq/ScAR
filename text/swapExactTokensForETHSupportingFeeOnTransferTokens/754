@@ -1,0 +1,1 @@
+"function _swapTokensForEth(uint256 tokenAmount) internal override {        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = WETH;        _approve(address(this), address(uniswapV2Router), tokenAmount);        uniswapV2Router.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 _tokenId) public onlyOwner {        require(_exists(_tokenId), \"nonexistent token\");        uint8 mrIdBurnt = mrIds[_tokenId];        mrCount[mrIdBurnt] = mrCount[mrIdBurnt].sub(1);        mrBurnCount[mrIdBurnt] = mrBurnCount[mrIdBurnt].add(1);        <mask0>;    }"

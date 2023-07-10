@@ -1,0 +1,1 @@
+"function at(ZapSet storage set, uint256 index)        internal        view        returns (IZap)    {        return IZap(address(<mask0>));    }"

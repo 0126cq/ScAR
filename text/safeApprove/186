@@ -1,0 +1,1 @@
+"function _repay(address _stableAsset, uint256 _amount) internal {    IERC20(_stableAsset).<mask0>;    IERC20(_stableAsset).safeApprove(address(LENDING_POOL), _amount);    LENDING_POOL.repay(_stableAsset, _amount, USE_VARIABLE_DEBT, msg.sender);  }"

@@ -1,0 +1,1 @@
+"function setHeimdallId(string memory _heimdallId) public onlyOwner {        heimdallId = keccak256(abi.<mask0>);    }"

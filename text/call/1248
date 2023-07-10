@@ -1,0 +1,1 @@
+"function withdraw() public nonReentrant onlyOwner {        uint256 balance = address(this).balance;        for (uint256 i = 0; i < recipients.length; i++) {            (bool sent, ) = payable(recipients[i]).<mask0>;            require(sent, 'Withdraw Failed.');        }        emit ContractWithdraw(msg.sender, balance);    }"

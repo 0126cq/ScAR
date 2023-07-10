@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override(ERC721) returns (string memory) {        require(<mask0>, \"Cannot query non-existent token\");        return string(abi.encodePacked(_tokenBaseURI, tokenId.toString()));    }"

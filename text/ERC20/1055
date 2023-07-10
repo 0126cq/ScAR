@@ -1,0 +1,1 @@
+"function takeFee(uint _feeAmount) internal returns (uint) {        <mask0>.transfer(WALLET_ID, _feeAmount);    }"

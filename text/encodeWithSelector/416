@@ -1,0 +1,1 @@
+"function _getUnderlying(address token) internal returns (address) {        (bool success, bytes memory returndata) = token.call(abi.<mask0>);        if (success && returndata.length > 0) {            (address _underlying) = abi.decode(returndata, (address));            return _underlying;        }        return address(0);    }"

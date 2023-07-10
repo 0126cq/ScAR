@@ -1,0 +1,1 @@
+"function getAddress(string memory name) external view returns (address) {\t\treturn addresses[<mask0>];\t}"

@@ -1,0 +1,1 @@
+"function _setContractManager(address contractManagerAddress) private {        require(contractManagerAddress != address(0), \"ContractManager address is not set\");        require(contractManagerAddress.<mask0>, \"Address is not contract\");        contractManager = ContractManager(contractManagerAddress);    }"

@@ -1,0 +1,1 @@
+"function setPaused(bool _paused) public onlyOwner {        require(msg.sender == <mask0>, \"You are not the owner\");        paused = _paused;    }"

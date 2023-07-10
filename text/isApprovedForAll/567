@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 id,        uint256 amount,        bytes memory data    ) public virtual {        require(            from == msg.sender || <mask0>,            'ERC1155: caller is not owner nor approved'        );        _safeTransfer(msg.sender, from, to, id, amount, data);    }"

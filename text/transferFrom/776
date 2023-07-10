@@ -1,0 +1,1 @@
+"function addBonus(uint _tokenAmount) external payable returns(bool) {        require(_tokenAmount > 0 || msg.value > 0, \"must send value\");        if (_tokenAmount > 0)        require(token.<mask0>, \"must approve smart contract\");        emit BonusAdded(msg.sender, msg.value, _tokenAmount);        return true;    }"

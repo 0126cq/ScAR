@@ -1,0 +1,1 @@
+"function popToken(uint tokenId, address _user) internal {        uint[] storage currentMap = stakedToken[_user];        uint lastToken = currentMap[currentMap.length-1];        tokenToPosition[lastToken] = tokenToPosition[tokenId];        currentMap[tokenToPosition[lastToken]] = lastToken;        stakedToken[_user].<mask0>;    }"

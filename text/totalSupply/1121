@@ -1,0 +1,1 @@
+"function price(uint256 _mintAmount) public view returns (uint256){         if (balanceOf(msg.sender) + _mintAmount <= maxMintAmountPerTxPhase1 && <mask0> <supplyLimitPhase1) {          return cost1;          }         if (balanceOf(msg.sender) + _mintAmount <= supplyLimit && totalSupply() < supplyLimit){          return cost2;        }        return cost2;  }"

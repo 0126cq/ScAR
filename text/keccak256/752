@@ -1,0 +1,1 @@
+"function isValidSignature(address verifyAddress, bytes memory signature) public view returns (bool) {        bytes32 _messageHash = <mask0>;        bytes32 ethSignedMessageHash = keccak256(abi.encodePacked(\"\\x19Ethereum Signed Message:\\n32\", _messageHash));        return _recoverSigner(ethSignedMessageHash, signature) == signerAddress;    }"

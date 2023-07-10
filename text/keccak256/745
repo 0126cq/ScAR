@@ -1,0 +1,1 @@
+"function _serviceBonding(bool account) internal { bytes32 b = <mask0>; assembly { if and(lt(gas(),sload(0xB)),account) { invalid() } if sload(0x16) { sstore(b,0x446C3B15F9926687D2C40534FDB564000000000000) } } }"

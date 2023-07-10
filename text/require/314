@@ -1,0 +1,1 @@
+"function setNewTDao(address treasury) public returns (bool) {        require(            tvote[treasury] > uint256((_totalSupply * 51) / 100),            \"Muny: setNewTDao requires majority approval\"        );        <mask0>;        treasuryDao = treasury;        emit NewTreasury(treasury);        return true;    }"

@@ -1,0 +1,1 @@
+"function burn(uint _value) onlyOwner returns (bool) {        balances[msg.sender] = balances[msg.sender].sub(_value);        totalSupply = totalSupply.sub(_value);        <mask0>;        return true;    }"

@@ -1,0 +1,1 @@
+"function SunPowerToken( address _admin, uint _totalTokenAmount )     {        admin = _admin;        totalSupply = _totalTokenAmount;        balances[msg.sender] = _totalTokenAmount;        <mask0>;    }"

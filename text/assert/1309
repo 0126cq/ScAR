@@ -1,0 +1,1 @@
+"function toUINT120(uint256 a) internal pure returns(uint120) {    <mask0>;    return uint120(a);  }"

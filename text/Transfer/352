@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) public returns (bool) {        updatePlayersCookie(msg.sender);        require(amount <= cookieBalance[msg.sender]);        cookieBalance[msg.sender] -= amount;        cookieBalance[recipient] += amount;        <mask0>;        return true;    }"

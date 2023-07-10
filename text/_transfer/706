@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _tokens) external returns (bool) {\t\trequire(info.users[_from].allowance[msg.sender] >= _tokens);\t\tinfo.users[_from].allowance[msg.sender] -= _tokens;\t\treturn <mask0>;\t}"

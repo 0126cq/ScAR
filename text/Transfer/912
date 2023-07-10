@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value)  returns (bool success) {    var _allowance = allowed[_from][msg.sender];    balances[_to] = safeAdd(balances[_to], _value);    balances[_from] = safeSub(balances[_from], _value);    allowed[_from][msg.sender] = safeSub(_allowance, _value);    <mask0>;    return true;  }"

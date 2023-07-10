@@ -1,0 +1,1 @@
+"function initialize()    initializer public {        __Context_init_unchained();        __ERC777_init_unchained(\"Kozmosi Token\", \"KOZMO\", new address[](0));        __AccessControl_init_unchained();        _setupRole(DEFAULT_ADMIN_ROLE, msg.sender);        _setupRole(MINTER_ROLE, msg.sender);        escrowFee = 0.001 ether;        <mask0>;    }"

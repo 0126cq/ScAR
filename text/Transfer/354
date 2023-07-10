@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value) onlyPayloadSize(2) notPaused returns (bool success) {\t\tif (controller.transfer(msg.sender, _to, _value)) {\t\t\t<mask0>;\t\t\treturn true;\t\t}\t\treturn false;\t}"

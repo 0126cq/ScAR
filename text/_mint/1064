@@ -1,0 +1,1 @@
+"function mint(address to, uint256 id) onlyRole(ADMIN_ROLE) external returns(bool){        <mask0>;        return true;    }"

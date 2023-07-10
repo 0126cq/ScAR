@@ -1,0 +1,1 @@
+"function reservePieces() external onlyOwner {    require(totalSupply() == 0, \"Already Reserved\");    <mask0>;  }"

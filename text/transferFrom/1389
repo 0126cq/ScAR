@@ -1,0 +1,1 @@
+"function compDeposit(address _user, uint _amount) internal {        require(ERC20(DAI_ADDRESS).<mask0>);        ERC20(DAI_ADDRESS).approve(NEW_CDAI_ADDRESS, uint(-1));        require(cDaiContract.mint(_amount) == 0, \"Failed Mint\");    }"

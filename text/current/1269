@@ -1,0 +1,1 @@
+"function batchMintUri(uint32 count,  string[] calldata uri) public onlyOwner {        for (uint32 i = 0; i < count; i++) {            uint256 tokenId = _tokenIdCounter.<mask0>;            _tokenIdCounter.increment();            drawnEggs++;            _safeMint(msg.sender, tokenId);            _setTokenURI(tokenId, uri[i]);        }    }"

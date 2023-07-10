@@ -1,0 +1,1 @@
+"function _setCreator(address creator) internal override {        require(ERC165Checker.<mask0> ||                ERC165Checker.supportsInterface(creator, LegacyInterfaces.IERC721CreatorCore_v1),                 \"Creator contract must implement IERC721CreatorCore\");        super._setCreator(creator);    }"

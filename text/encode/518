@@ -1,0 +1,1 @@
+"function getSigner(bytes memory signature) public view returns (address)    {        bytes32 digest = keccak256(            abi.encodePacked(                \"\\x19\\x01\",                DOMAIN_SEPARATOR,                keccak256(abi.<mask0>)            )        );        return digest.recover(signature);    }"

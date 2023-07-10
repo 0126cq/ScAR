@@ -1,0 +1,1 @@
+"function burn(uint256 _value) public isRunning {        require(_value > 0);        address burner = msg.sender;        balances[burner] = balances[burner].<mask0>;        totalSupply = totalSupply.sub(_value);        Burn(msg.sender, _value);    }"

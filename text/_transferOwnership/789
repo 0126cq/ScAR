@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner)        public        onlyOwner        returns (bool success)    {        require(            newOwner != address(0),            \"Ownable/transferOwnership : cannot transfer ownership to zero address\"        );        success = <mask0>;    }"

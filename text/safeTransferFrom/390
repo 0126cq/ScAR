@@ -1,0 +1,1 @@
+"function batchSafeTransferFrom(        address from,        address to,        uint256[] calldata ids,        bytes calldata data    ) external virtual {        unchecked {            for (uint256 i; i < ids.length; i++) {                <mask0>;            }        }    }"

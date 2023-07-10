@@ -1,0 +1,1 @@
+"function governanceShare() external view override returns(uint256) {        return _governanceShare.data.<mask0>;    }"

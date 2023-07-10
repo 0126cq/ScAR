@@ -1,0 +1,1 @@
+"function deposit(Position memory position, uint128 liquidity) internal returns (uint256 amount0, uint256 amount1) {        if (liquidity != 0) {            (amount0, amount1) = position.pool.<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function defaultSlippageFeeVote(uint256 vote) external {        require(vote <= MooniswapConstants._MAX_SLIPPAGE_FEE, \"Slippage fee vote is too high\");        _defaultSlippageFee.updateVote(msg.sender, _defaultSlippageFee.votes[msg.sender], Vote.init(vote), <mask0>, MooniswapConstants._DEFAULT_SLIPPAGE_FEE, _emitDefaultSlippageFeeVoteUpdate);    }"

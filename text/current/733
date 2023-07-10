@@ -1,0 +1,1 @@
+"function defaultDecayPeriod() external view override returns(uint256) {        return _defaultDecayPeriod.data.<mask0>;    }"

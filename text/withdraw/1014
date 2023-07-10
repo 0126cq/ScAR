@@ -1,0 +1,1 @@
+"function _withdrawSome(uint _amount) internal virtual override returns (uint) {        uint _before = IERC20(want).balanceOf(address(this));        Gauge(gauge).<mask0>;        uint _after = IERC20(want).balanceOf(address(this));        uint _withdrew = _after.sub(_before);        return _withdrew;    }"

@@ -1,0 +1,1 @@
+"function getAvailableStableCoins() external pure virtual returns (address[] memory) {    return new <mask0>;  }"

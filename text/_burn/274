@@ -1,0 +1,1 @@
+"function burn(address user, uint256 amount) public override onlyForge {        <mask0>;        emit Burn(user, amount);    }"

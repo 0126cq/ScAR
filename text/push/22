@@ -1,0 +1,1 @@
+"function initialize(address newGovernance) public {    require(governance == address(0));    governance = newGovernance;    devGovernance = address(0);    versions.<mask0>;     versions.push(\"v2\");   }"

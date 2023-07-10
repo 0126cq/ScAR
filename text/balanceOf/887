@@ -1,0 +1,1 @@
+"function getBalance(address _tokenAddr, address _acc) internal view returns (uint256) {        if (_tokenAddr == ETH_ADDR) {            return _acc.balance;        } else {            return IERC20(_tokenAddr).<mask0>;        }    }"

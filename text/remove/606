@@ -1,0 +1,1 @@
+"function removeFromList(address _listToUpdate, address _addressToRemove) external onlyKeeper {        require(IAddressList(_listToUpdate).<mask0>, \"remove-from-list-failed\");    }"

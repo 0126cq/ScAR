@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {\t\trequire(_exists(_tokenId), 'ERC721Metadata: URI query for nonexistent token');\t\tstring memory currentBaseURI = _baseURI();\t\treturn bytes(currentBaseURI).length > 0\t\t\t? string(abi.encodePacked(currentBaseURI, _tokenId.<mask0>, \".json\"))\t\t\t: '';\t}"

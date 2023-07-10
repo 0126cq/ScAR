@@ -1,0 +1,1 @@
+"function createBasket() public {        IndexERC721 basket = new IndexERC721();        basket.transferFrom(address(this), msg.sender, 0);        baskets.<mask0>;        emit NewBasket(address(basket), msg.sender);    }"

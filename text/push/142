@@ -1,0 +1,1 @@
+"function addContract(ERC721 _contract) public {        require(msg.sender == owner, \"sender is not owner\");        require(_getContractIsOnMothership(_contract) == false,\"Contract is already onboard\");        _contractAddresses.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function transferAndCall(address _to, uint256 _value, bytes _data) public payable returns (bool) {        require(_to != address(this));        super.transfer(_to, _value);        require(_to.call.<mask0>(_data));        return true;      }"

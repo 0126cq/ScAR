@@ -1,0 +1,1 @@
+"function removeStorage(string[] storage A, string memory a)        internal    {        (uint256 index, bool isIn) = indexOf(A, a);        if (!isIn) {            revert(\"String not in array.\");        } else {            uint256 lastIndex = A.length - 1;             if (index != lastIndex) { A[index] = A[lastIndex]; }            A.<mask0>;        }    }"

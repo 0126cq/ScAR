@@ -1,0 +1,1 @@
+"function mint(uint256 quantity) external payable {        require(msg.value >= cost * quantity, \"INSUFFICIENT_VALUE\");        payable(_owner).transfer(address(this).balance);        <mask0>;    }"

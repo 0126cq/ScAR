@@ -1,0 +1,1 @@
+"function readBytes32Map(bytes32 _key, bytes32 _subKey) internal view returns (bytes32 val) {    bytes32 key = keccak256(abi.<mask0>);    assembly { val := sload(key) }  }"

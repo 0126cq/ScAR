@@ -1,0 +1,1 @@
+"function burn(address from, uint256 amount) external override {        require(controllers[msg.sender], \"Only controllers can burn\");        <mask0>;    }"

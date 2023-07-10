@@ -1,0 +1,1 @@
+"function excludeFromDividends(address account) external onlyOwner {        require(            !excludedFromDividends[account],            \"address already excluded from dividends\"        );        excludedFromDividends[account] = true;        _setBalance(account, 0);        tokenHoldersMap.<mask0>;        emit ExcludeFromDividends(account);    }"

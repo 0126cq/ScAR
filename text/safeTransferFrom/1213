@@ -1,0 +1,1 @@
+"function donate(uint256 _amount) external payable returns (bool) {        if (rewardToken == address(0)) {            queuedRewards = queuedRewards.add(msg.value);            return true;        }        IERC20(rewardToken).<mask0>;        queuedRewards = queuedRewards.add(_amount);        return true;    }"

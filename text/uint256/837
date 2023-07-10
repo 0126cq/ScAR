@@ -1,0 +1,1 @@
+"function balanceOfBatch(address[] calldata _owners, uint256[] calldata _ids) external view override returns (uint256[] memory) {        require(_owners.length == _ids.length);        uint256[] memory balances_ = new <mask0>;        for (uint256 i = 0; i < _owners.length; ++i) {            balances_[i] = balances[_ids[i]][_owners[i]];        }        return balances_;    }"

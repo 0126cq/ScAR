@@ -1,0 +1,1 @@
+"function pair() public view returns (address) {        return IUniswapV2Factory(router.factory()).getPair(address(this), router.<mask0>);    }"

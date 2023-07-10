@@ -1,0 +1,1 @@
+"function mintWithCreatorPaymentAddress(string memory tokenIPFSPath, address payable tokenCreatorPaymentAddress)    public    returns (uint256 tokenId)  {    require(tokenCreatorPaymentAddress != address(0), \"NFT721Mint: tokenCreatorPaymentAddress is required\");    tokenId = <mask0>;    _setTokenCreatorPaymentAddress(tokenId, tokenCreatorPaymentAddress);  }"

@@ -1,0 +1,1 @@
+"function collectFees() external {        require(beneficiary != address(0), \"TrueFiPool: Beneficiary is not set\");        uint256 amount = claimableFees;        claimableFees = 0;        if (amount > 0) {            token.<mask0>;        }        emit Collected(beneficiary, amount);    }"

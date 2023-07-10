@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external {        require(            <mask0>,            \"StableCoin: must have minter role to mint\"        );        _mint(to, amount);    }"

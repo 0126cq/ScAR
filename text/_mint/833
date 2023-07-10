@@ -1,0 +1,1 @@
+"function _mint(        address account,        uint256 id,        uint256 amount,        bytes memory data    ) internal virtual override(ERC1155) {        super.<mask0>;    }"

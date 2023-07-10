@@ -1,0 +1,1 @@
+"function addGauge(address _gauge, uint256 _weight) public {        require(            msg.sender == supplyExtraReward,            \"LendFlareGaugeModel: !authorized addGauge\"        );        gauges.<mask0>;        gaugeWeights[_gauge] = GaugeModel({            gauge: _gauge,            weight: _weight,            shutdown: false        });    }"

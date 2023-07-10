@@ -1,0 +1,1 @@
+"function increaseApproval(address _spender, uint256 _addedValue) public    onlyPayloadSize(2)    returns (bool success) {        success = controller.increaseApproval(msg.sender, _spender, _addedValue);        if (success) {            uint256 newValue = controller.allowance(msg.sender, _spender);            <mask0>;        }    }"

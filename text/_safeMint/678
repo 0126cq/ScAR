@@ -1,0 +1,1 @@
+"function _doMint(address to, uint quantity) private {        require(totalSupply() + quantity <= maxSupply, 'Max supply exceeded');        require(to != address(0) && to != deadAddr, 'Cannot have a non-address as reserve.');        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function recoverERC20(address tokenAddress, uint256 tokenAmount)        external        onlyOwner    {        require(            tokenAddress != address(stakingToken),            \"Cannot withdraw the staking token\"        );        IERC20(tokenAddress).<mask0>;        emit Recovered(tokenAddress, tokenAmount);    }"

@@ -1,0 +1,1 @@
+"function matchAddresSigner(bytes memory signature, uint256 allowed) private view returns(bool) {         bytes32 hash = keccak256(abi.encodePacked(            \"\\x19Ethereum Signed Message:\\n32\",            <mask0>)          );        return _signerAddress == hash.recover(signature);    }"

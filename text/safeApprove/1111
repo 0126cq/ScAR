@@ -1,0 +1,1 @@
+"function deposit() public override {        uint256 _want = IERC20_1(want).balanceOf(address(this));        if (_want > 0) {            IERC20_1(want).safeApprove(rewards, 0);            IERC20_1(want).<mask0>;            IStakingRewards(rewards).stake(_want);        }    }"

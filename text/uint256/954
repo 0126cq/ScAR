@@ -1,0 +1,1 @@
+"function getAmountsIn(uint256 amountOut, address[] calldata path)    external    view    override    returns (uint256[] memory)  {    uint256[] memory amounts = new <mask0>;    amounts[0] = _amountsIn[path[0]][path[1]][amountOut] > 0      ? _amountsIn[path[0]][path[1]][amountOut]      : defaultMockValue;    amounts[1] = amountOut;    return amounts;  }"

@@ -1,0 +1,1 @@
+"function withdrawAll(address _output) external {        unstake(userInfo[msg.sender].amount);        <mask0>;    }"

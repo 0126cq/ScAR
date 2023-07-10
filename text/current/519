@@ -1,0 +1,1 @@
+"function mintMany(uint tokensNumber) public onlyOwner {        require(tokensNumber > 0, \"Wrong amount\");        require(!finalized, \"Finalized!\");        for (uint i = 0; i < tokensNumber; i++) {            _safeMint(msg.sender, _tokenIdCounter.<mask0>);            setXDone(_tokenIdCounter.current());            _tokenIdCounter.increment();        }    }"

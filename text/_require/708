@@ -1,0 +1,1 @@
+"function setFlashLoanFeePercentage(uint256 newFlashLoanFeePercentage) external authenticate {        <mask0>;        _flashLoanFeePercentage = newFlashLoanFeePercentage;        emit FlashLoanFeePercentageChanged(newFlashLoanFeePercentage);    }"

@@ -1,0 +1,1 @@
+"function transferTo(uint256 amount) override public farmingOnly {        IMVDProxy(IDoubleProxy(_doubleProxy).proxy()).submit(FUNCTIONALITY_NAME, abi.<mask0>);    }"

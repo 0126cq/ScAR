@@ -1,0 +1,1 @@
+"function createInitialFounder(address founderAddress, uint equity) private {        require(msg.sender == _deployerAddress, \"ONLY_DEPLOYER\");        require(equity <= TOTAL_CAP, \"INVALID EQUITY (0-10000)\");        _founders.<mask0>;        _setupRole(DEFAULT_ADMIN_ROLE, founderAddress);        founderToEquity[founderAddress] = equity;    }"

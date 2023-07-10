@@ -1,0 +1,1 @@
+"function sellERC1155BatchForERC20Equivalent(        address fromERC1155,        address vault,        uint256[] memory tokenIds,        uint256[] memory amounts    ) external {        _approve(vault, fromERC1155, tokenIds);        INFTXVault(vault).<mask0>;    }"

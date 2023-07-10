@@ -1,0 +1,1 @@
+"function wrapTo(address recipient, uint256 amount) public returns(bool) {        require(recipient != address(0), \"Recipient cannot be zero address\");        _backingToken.<mask0>;        _lockedBalances[msg.sender] = _lockedBalances[msg.sender].add(amount);        _mint(recipient, amount);        emit Mint(recipient, amount);        return true;    }"

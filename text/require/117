@@ -1,0 +1,1 @@
+"function transferProxyOwnership(address newOwner) external onlyProxyOwner {        <mask0>;        _setPendingUpgradeabilityOwner(newOwner);        emit NewPendingOwner(proxyOwner(), newOwner);    }"

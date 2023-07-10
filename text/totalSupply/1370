@@ -1,0 +1,1 @@
+"function treasuryMint(uint quantity, address user)    public    onlyOwner  {    require(      quantity > 0,      \"Invalid mint amount\"    );    require(      <mask0> + quantity <= maxSupply,      \"Maximum supply exceeded\"    );    _safeMint(user, quantity);  }"

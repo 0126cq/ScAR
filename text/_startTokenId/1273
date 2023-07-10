@@ -1,0 +1,1 @@
+"function premint(uint256 quantity) external payable onlyOwner {        if (quantity <= 0) revert MintZeroQuantity();        if (_currentIndex + quantity - <mask0> > maxSupply) revert MintMoreThanMaxSupply();        _safeMint(msg.sender, quantity);    }"

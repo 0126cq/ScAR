@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {\t    require(_exists(tokenId), \"Nonexistent token\");\t    string memory currentBaseURI = _baseURI();\t    return bytes(currentBaseURI).length > 0\t? string(abi.encodePacked(currentBaseURI, (tokenId + 1).<mask0>, baseExtension)) : \"\";\t}"

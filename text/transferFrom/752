@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {        address from = (_from != address(caller_)) ? _from : sendersStack_[sendersStack_.length - 1];        return super.<mask0>;    }"

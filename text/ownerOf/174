@@ -1,0 +1,1 @@
+"function _isOwner(address _owner, uint256 _tokenId)        internal        view        returns (bool)    {        if (stakedTokenOwners[_tokenId] == _owner) {            return true;        }        return IERC721(targetAddress).<mask0> == _owner;    }"

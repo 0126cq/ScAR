@@ -1,0 +1,1 @@
+"function safeTransferFrom(        IERC20 token,        address from,        address to,        uint256 value    ) internal {        _callOptionalReturn(address(token), abi.<mask0>);    }"

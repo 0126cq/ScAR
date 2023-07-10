@@ -1,0 +1,1 @@
+"function _deposit(StakingPool memory pool, uint256 amount, address account) internal {        require(pool.stakingToken != address(0), \"LPStaking: Nonexistent pool\");        IERC20Upgradeable(pool.stakingToken).safeTransferFrom(msg.sender, address(this), amount);        _rewardDistributionTokenAddr(pool).<mask0>;    }"

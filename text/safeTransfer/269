@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public virtual {        totalSupply = totalSupply.sub(amount);        _balances[msg.sender].balance = _balances[msg.sender].balance.sub(            amount        );        uint256 tax = amount.mul(devFee).div(1000);        stakingToken.<mask0>;        stakingToken.safeTransfer(treasury, tax);    }"

@@ -1,0 +1,1 @@
+"function unsubscribe(bytes32 _attribute, uint256 _index) external onlyOwner {        uint256 length = subscribers[_attribute].length;        require(_index < length);        emit StopSubscription(_attribute, subscribers[_attribute][_index]);        subscribers[_attribute][_index] = subscribers[_attribute][length - 1];        subscribers[_attribute].<mask0>;    }"

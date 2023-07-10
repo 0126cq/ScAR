@@ -1,0 +1,1 @@
+"function revokePairRole(address pair) external onlyRole(DEFAULT_OWNER) {        require(<mask0>, \"ERC20 :: revokePairRole : has no pair role\");        _revokeRole(PAIR_HASH,pair);    }"

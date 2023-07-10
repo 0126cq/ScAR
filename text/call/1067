@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner nonReentrant() {    (bool hs, ) = payable(devAdr).call{value: address(this).balance * 20 / 100}(\"\");    require(hs, \"Failed to send ETH\");    (bool os, ) = payable(owner()).<mask0>;    require(os, \"Failed to send ETH\");  }"

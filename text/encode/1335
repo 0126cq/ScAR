@@ -1,0 +1,1 @@
+"function _toBytes32(string memory serviceName) private pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

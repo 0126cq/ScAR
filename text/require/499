@@ -1,0 +1,1 @@
+"function uri(uint256 _id) public view override returns (string memory) {        <mask0>;        return string(abi.encodePacked(super.uri(_id), Strings.toString(_id)));    }"

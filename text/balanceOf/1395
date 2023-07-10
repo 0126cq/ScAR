@@ -1,0 +1,1 @@
+"function investedUnderlyingBalance() public view returns (uint256) {    uint256 gaugeBalance = Gauge(gauge).balanceOf(address(this));    uint256 wbtcBalance = IERC20(wbtc).<mask0>;    if (gaugeBalance == 0) {      return wbtcBalance;    }    uint256 investedBalance = wbtcValueFromMixToken(gaugeBalance);    return investedBalance.add(wbtcBalance);  }"

@@ -1,0 +1,1 @@
+"function functionDelegateCall(        address target,        bytes memory data,        string memory errorMessage    ) internal returns (bytes memory) {        (bool success, bytes memory returndata) = target.<mask0>;        return verifyCallResultFromTarget(target, success, returndata, errorMessage);    }"

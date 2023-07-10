@@ -1,0 +1,1 @@
+"function removeProtectionIndexes(uint256 tokenId) private{        address owner = ownerOf(tokenId);        address currency = getUnderlyingAsset(tokenId);        _underlyingProtectionTokensMapping[tokenId] = 0;        _protectionCurrencyMapping[owner][currency].<mask0>;    }"

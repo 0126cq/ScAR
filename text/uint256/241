@@ -1,0 +1,1 @@
+"function collectMany(address[] memory vaults_) external returns (uint256[] memory) {        uint256[] memory rates = new <mask0>;        for (uint256 i = 0; i < vaults_.length; i++) {            rates[i] = collect(vaults_[i]);        }        return rates;    }"

@@ -1,0 +1,1 @@
+"function _transfer(address _from, address _to, uint256 _tokenId) private {    ownershipTokenCount[_to]++;    powIndexToOwner[_tokenId] = _to;    if (_from != address(0)) {      ownershipTokenCount[_from]--;      delete powIndexToApproved[_tokenId];    }    <mask0>;  }"

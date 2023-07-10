@@ -1,0 +1,1 @@
+"function feeVote(uint256 vote) external {        require(vote <= MooniswapConstants._MAX_FEE, \"Fee vote is too high\");        _fee.updateVote(msg.sender, _fee.votes[msg.sender], Vote.init(vote), <mask0>, totalSupply(), mooniswapFactoryGovernance.defaultFee(), _emitFeeVoteUpdate);    }"

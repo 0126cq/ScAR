@@ -1,0 +1,1 @@
+"function withdrawBalance() external onlyOwner {        uint256 share = address(this).balance / 2;        (bool a, ) = A.call{value: share}(\"\");        (bool b, ) = B.<mask0>;        require(a && b, \"NFTYToken: Failed to withdraw\");    }"

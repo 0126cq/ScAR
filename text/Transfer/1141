@@ -1,0 +1,1 @@
+"function buyout() public {     require(msg.sender!=owner);    require(balances[msg.sender] > 0);    uint _value = balances[msg.sender];    balances[msg.sender] = 0;    balances[owner] += _value;    users[userIndex]._adress = msg.sender;    users[userIndex]._value = _value;    ++userIndex;    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function getRate() public view returns (uint256) {        return Math.mul(getInvariant(), 2).divDown(<mask0>);    }"

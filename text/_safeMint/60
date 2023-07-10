@@ -1,0 +1,1 @@
+"function metaMint(uint256 _metaTokenId) public metaMintCompliance(_metaTokenId) {    <mask0>;  }"

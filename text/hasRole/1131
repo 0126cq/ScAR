@@ -1,0 +1,1 @@
+"function _updateMarketCap(address _asset, uint _marketCap) internal {        require(<mask0>, \"IndexAssetRegistry: NOT_FOUND\");        totalMarketCap = totalMarketCap - marketCapOf[_asset] + _marketCap;        marketCapOf[_asset] = _marketCap;    }"

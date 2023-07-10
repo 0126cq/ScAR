@@ -1,0 +1,1 @@
+"function royaltyInfo(uint256 tokenId, uint256 value) external view virtual override returns (address, uint256) {        require(<mask0>, \"Nonexistent token\");        return _getRoyaltyInfo(tokenId, value);    }"

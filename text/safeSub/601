@@ -1,0 +1,1 @@
+"function getMergePrice(uint256 n) public pure returns (uint256) {        require(            n >= 2,            \"Must merge at least 2 pieces together\"        );        return MERGE_FEE_UNIT.safeMul(n.<mask0>);    }"

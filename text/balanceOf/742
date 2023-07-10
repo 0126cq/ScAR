@@ -1,0 +1,1 @@
+"function _getTotalShares() internal view override returns (uint) {        return LiquidityGauge(GAUGE).<mask0>;    }"

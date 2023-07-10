@@ -1,0 +1,1 @@
+"function devMint(address receiver, uint256 qty) external onlyOwner {        uint256 _nextTokenId = nextTokenId;        if (_nextTokenId + (qty - 1) > SUPPLY) revert InvalidQuantity();        for (uint256 i = 0; i < qty; i++) {            <mask0>;            unchecked {                _nextTokenId++;            }        }        nextTokenId = _nextTokenId;    }"

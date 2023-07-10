@@ -1,0 +1,1 @@
+"function cancelListing(uint256 tokenId) external override {\t\tListing memory listing = listings[tokenId];\t\tif (msg.sender != listing.seller && msg.sender != Ownable.owner()) revert NotTheSeller();\t\t_unlist(listing.seller, tokenId);\t\temit Canceled(listing.seller, tokenId, listing.price);\t\tstolenNFT.<mask0>;\t}"

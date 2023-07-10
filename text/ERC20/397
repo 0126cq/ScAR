@@ -1,0 +1,1 @@
+"function claimTokens(address _token) external onlyOwner {    if (_token == 0x0) {      owner.transfer(address(this).balance);      return;    }    ERC20 token = <mask0>;    uint balance = token.balanceOf(this);    token.transfer(owner, balance);  }"

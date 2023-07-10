@@ -1,0 +1,1 @@
+"function mintEgg(address to, uint256 tokenId) public virtual onlyRole(MINTER_ROLE) {    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function Arbitrage () {      totalSupply = 9999 * 10 ** decimals;      balances[msg.sender] = totalSupply;      initialSupply = totalSupply;         Transfer(0, this, totalSupply);        <mask0>;  }"

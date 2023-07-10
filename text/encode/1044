@@ -1,0 +1,1 @@
+"function _hashTypedData(    address sender,    address recipient,    address token,    bytes32 uid,    uint256 blockNumber,    uint256 amount  )    private    pure    returns (bytes32)  {    return keccak256(abi.<mask0>);  }"

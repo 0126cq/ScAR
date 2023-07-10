@@ -1,0 +1,1 @@
+"function deposit(uint256 minSTETHAmount) external payable {        curveETHSTETHPool.exchange{value: msg.value}(            0,            1,            msg.value,            minSTETHAmount        );        uint256 balance = stETH.balanceOf(address(this));        stETH.<mask0>;        stETHVault.depositYieldTokenFor(balance, msg.sender);    }"

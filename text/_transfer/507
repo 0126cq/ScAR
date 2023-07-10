@@ -1,0 +1,1 @@
+"function initTransfer(address _to, uint256 _value, uint _initType) validAddress isOperator public returns (bool success) {        require(_initType == 0x1 || _initType == 0x2);        require(initTypes[_to]==0x0);        frozenBalances[_to] = _value;        initTimes[_to] = now;        initTypes[_to] = _initType;        <mask0>;        return true;    }"

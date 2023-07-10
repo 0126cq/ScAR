@@ -1,0 +1,1 @@
+"function _supportsInterface(address contractAddress, bytes4 interfaceId)    private view    requireInterfaceChecking(contractAddress)    returns(bool) {        return contractAddress.<mask0>;    }"

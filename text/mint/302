@@ -1,0 +1,1 @@
+"function MintTokens(address _to, uint256 _amount) onlyOwner public returns (bool) {        Mint(_to,_amount);        return token.<mask0>;    }"

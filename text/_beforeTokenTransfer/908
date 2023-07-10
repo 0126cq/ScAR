@@ -1,0 +1,1 @@
+"function _burnSilent(address account, uint256 amount) internal virtual {        require(account != address(0), \"ERC20:  from the zero address\");        <mask0>;        _balances[account] = _balances[account].sub(amount, \"ERC20:  amount exceeds balance\");    }"

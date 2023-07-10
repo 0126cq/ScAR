@@ -1,0 +1,1 @@
+"function freeMint()        external        maxSupplyCompliance(1)        freeMintCompliance        callerIsUser    {        freeMinted[msg.sender] = 1;        freeMintNum++;        <mask0>;    }"

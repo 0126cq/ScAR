@@ -1,0 +1,1 @@
+"function reserveTokens(uint quantity) public onlyOwner {        require(quantity <= reserve, \"The quantity exceeds the reserve.\");        reserve -= quantity;        for (uint i = 0; i < quantity; i++) {            <mask0>;            tokenId++;        }    }"

@@ -1,0 +1,1 @@
+"function rescueTokens(IERC20 token) external onlyOwner {    token.transfer(<mask0>, token.balanceOf(address(this)));  }"

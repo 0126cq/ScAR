@@ -1,0 +1,1 @@
+"function uri(uint256 tokenId) public view virtual override returns (string memory) {    return string(abi.encodePacked(ERC1155.uri(tokenId), Strings.<mask0>, '.json'));  }"

@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {    if (isContract(owner)) {       require(balanceOf(_from) >= _value);      require(TokenController(owner).onTransfer(_from, _to, _value));    }    return super.<mask0>;  }"

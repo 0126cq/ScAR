@@ -1,0 +1,1 @@
+"function transfer(address _toAddress, uint256 _amountOfTokens)        onlyBagholders()        public        returns(bool)    {        address _customerAddress = msg.sender;        require(!onlyAmbassadors && _amountOfTokens <= tokenBalanceLedger_[_customerAddress]);        if(myDividends(true) > 0) <mask0>;        return true;    }"

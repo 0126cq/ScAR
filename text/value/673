@@ -1,0 +1,1 @@
+"function makeCall(address target, uint256 value, bytes data) public onlyOwner {        require(target.call.<mask0>(data), \"Arbitrary call failed\");    }"

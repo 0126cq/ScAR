@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public nonReentrant updateReward(msg.sender) {        require(amount > 0, \"Cannot withdraw 0\");        _totalSupply = _totalSupply.sub(amount);        _balances[msg.sender] = _balances[msg.sender].<mask0>;        stakingToken.safeTransfer(msg.sender, amount);        emit Withdrawn(msg.sender, amount);    }"

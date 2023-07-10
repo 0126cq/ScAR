@@ -1,0 +1,1 @@
+"function stake(uint256 _amount, address recipient) external {        BigToken.<mask0>;        BigToken.approve(address(staking), _amount);        staking.stake(_amount, recipient);        staking.claim(recipient);        emit LogStake(recipient, _amount);    }"

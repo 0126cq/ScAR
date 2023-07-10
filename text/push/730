@@ -1,0 +1,1 @@
+"function updateInstance(Tornado calldata _tornado) external virtual onlyGovernance {    require(_tornado.instance.state != InstanceState.DISABLED, \"Use removeInstance() for remove\");    if (instances[_tornado.addr].state == InstanceState.DISABLED) {      instanceIds.<mask0>;    }    _updateInstance(_tornado);  }"

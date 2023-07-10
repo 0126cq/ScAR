@@ -1,0 +1,1 @@
+"function setRound(        bytes32 _merkleRoot,        uint256 _rate    ) external onlyConcave {        <mask0>;        roots.push(_merkleRoot);        merkleRoot = _merkleRoot;        rate = _rate;        emit NewRound(merkleRoot,rate);    }"

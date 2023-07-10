@@ -1,0 +1,1 @@
+"function mintGoldenFhrog() public onlyAdmin {        <mask0>;        _mint(msg.sender, tokenIdToMint.current());        tokenIdToMint.increment();    }"

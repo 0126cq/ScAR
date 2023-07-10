@@ -1,0 +1,1 @@
+"function discardGovernanceShareVote() external {        _governanceShare.updateVote(msg.sender, _governanceShare.votes[msg.sender], Vote.init(), <mask0>, MooniswapConstants._DEFAULT_GOVERNANCE_SHARE, _emitGovernanceShareVoteUpdate);    }"

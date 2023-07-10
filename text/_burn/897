@@ -1,0 +1,1 @@
+"function burnFrom(address from, uint256 value) external {        _approve(from, msg.sender, allowances[from][msg.sender].sub(value));        <mask0>;    }"

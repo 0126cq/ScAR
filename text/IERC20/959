@@ -1,0 +1,1 @@
+"function deposit_to_gauge() internal {    IERC20(lp_token_addr).approve(address(crv_gauge_addr), 0);    uint256 cur = <mask0>.balanceOf(address(this));    IERC20(lp_token_addr).approve(address(crv_gauge_addr), cur);    crv_gauge_addr.deposit(cur);    require(IERC20(lp_token_addr).balanceOf(address(this)) == 0, \"deposit_to_gauge: unexpected exchanges\");  }"

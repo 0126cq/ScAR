@@ -1,0 +1,1 @@
+"function renounceHarbinger(uint256 tokenId) external {        address owner = <mask0>;        require(isHarbinger(tokenId), \"Token is not a Harbinger\");        require(msg.sender == owner || (harbingerContract != address(0) && msg.sender == harbingerContract), \"You don't own this token\");        _renouncedHarbingers[(tokenId + harbingerSeed) % MAX_TOKENS + 1] = true;    }"

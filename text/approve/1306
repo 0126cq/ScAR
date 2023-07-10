@@ -1,0 +1,1 @@
+"function setRewardStake(address _rewardStake) external onlyOwner {        rewardStake = _rewardStake;        morb.<mask0>;    }"

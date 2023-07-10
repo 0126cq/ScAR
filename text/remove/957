@@ -1,0 +1,1 @@
+"function removeFromQueue(address payable nftAddress) external onlySupport payable returns(address payable[] memory) {    battleQueue.<mask0>;    delete eliminationState[nftAddress];    return battleQueue.getAll();  }"

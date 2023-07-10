@@ -1,0 +1,1 @@
+"function getUserNftSellState(uint256 _tokenId) public view returns (uint8){        require(<mask0>, \"nonexistent token\");        return ownedNftState[_tokenId];    }"

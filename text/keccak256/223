@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(        address from,        address to,        uint256 tokenId    )   internal override     {        bytes32 encoded_label = <mask0>;        ens.setSubnodeRecord(domainHash, encoded_label, to, resolver, 0);    }"

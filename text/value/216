@@ -1,0 +1,1 @@
+"function depositEther() public payable {        address wethToken = registry.getWethTokenAddress();        WETH t = WETH(wethToken);        t.deposit.<mask0>;        _safeCreateDepositBlock(msg.sender, wethToken, msg.value);    }"

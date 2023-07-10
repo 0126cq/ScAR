@@ -1,0 +1,1 @@
+"function addPlatformTokenBalance(uint amount) external nonReentrant onlyOwner {        increaseTokenBalance(TRUSTED_PLATFORM_TOKEN_ADDRESS, amount);        IERC20(TRUSTED_PLATFORM_TOKEN_ADDRESS).<mask0>;        emit PlatformTokenAdded(amount);    }"

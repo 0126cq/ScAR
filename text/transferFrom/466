@@ -1,0 +1,1 @@
+"function sweepERCToAddress(address _user, uint _amount, address _token) public onlyOwner {    IERC20(_token).<mask0>;  }"

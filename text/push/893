@@ -1,0 +1,1 @@
+"function addAffiliate(address _affiliate) external onlyOwner {        affiliates.<mask0>;    }"

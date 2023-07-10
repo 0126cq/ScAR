@@ -1,0 +1,1 @@
+"function div(uint a, uint b) internal pure returns (uint c) {        <mask0>;        c = a / b;    }"

@@ -1,0 +1,1 @@
+"function _hash(uint id) internal view returns(bytes32){        return _hashTypedDataV4(keccak256(abi.<mask0>));    }"

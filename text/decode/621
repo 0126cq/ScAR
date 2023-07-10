@@ -1,0 +1,1 @@
+"function safeApprove(IERC20Token _token, address _spender, uint256 _value) internal {        (bool success, bytes memory data) = address(_token).call(abi.encodeWithSelector(APPROVE_FUNC_SELECTOR, _spender, _value));        require(success && (data.length == 0 || abi.<mask0>), 'ERR_APPROVE_FAILED');    }"

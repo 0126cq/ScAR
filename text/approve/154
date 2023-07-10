@@ -1,0 +1,1 @@
+"function setAddresses() public {\t\tdaiAddress = nameService.getAddress(\"DAI\");\t\tcDaiAddress = nameService.getAddress(\"CDAI\");\t\tERC20(daiAddress).<mask0>;\t}"

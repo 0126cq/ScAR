@@ -1,0 +1,1 @@
+"function exit() external {    if (halvingCount != 3) {      checkHalving();    }    address sender = msg.sender;    uint256 unstake = balanceOf(sender);    uint256 reward = earned(sender);    AAVE.withdraw(USDTaddress, unstake, sender);    <mask0>;    startStaking[sender] = 0;    if (reward != 0) {        ETFX.safeTransfer(sender, reward);        rewards[sender] = 0;    }  }"

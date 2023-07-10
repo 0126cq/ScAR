@@ -1,0 +1,1 @@
+"function repayBorrow(        address adapter,        address platform,        address token,        uint256 amount    ) internal {        adapter.<mask0>;    }"

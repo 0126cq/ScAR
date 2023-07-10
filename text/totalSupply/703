@@ -1,0 +1,1 @@
+"function maxPayout() public view returns ( uint ) {        return IERC20( GWS ).<mask0>.mul( terms.maxPayout ).div( 100000 );    }"

@@ -1,0 +1,1 @@
+"function setRewardAddress(address rewardAddress) public onlyOwner {        rugReward = <mask0>;        emit SetRewardToken(rewardAddress);    }"

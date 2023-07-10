@@ -1,0 +1,1 @@
+"function exitRewardPool() internal {      uint256 stakedBalance = rewardPoolBalance();      if (stakedBalance != 0) {          IBaseRewardPool(rewardPool()).withdrawAll(true);      }      uint256 depositBalance = <mask0>.balanceOf(address(this));      if (depositBalance != 0) {        IBooster(booster).withdrawAll(poolId());      }  }"

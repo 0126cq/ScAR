@@ -1,0 +1,1 @@
+"function approveAndMint(CToken cToken, uint mintAmount) external returns (bool) {        if (address(cToken) == address(cEther())){            cEther().mint{value: mintAmount}();        } else {            cToken.underlying().approve(address(cToken), mintAmount);            require(cToken.<mask0> == 0, \"Mint was not successful\");        }        return true;    }"

@@ -1,0 +1,1 @@
+"function burnTokens(uint256 _amount, string memory _externalAddress) public onlyEOA {      <mask0>;      emit WPPCBurned(msg.sender, address(0), _amount, _externalAddress);  }"

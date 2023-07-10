@@ -1,0 +1,1 @@
+"function setTokenToBuy (address _token) public onlyOwner {    require(tokenToBuy == <mask0>, \"ERC20 cannot be set more than once.\");    tokenToBuy = ERC20(_token);  }"

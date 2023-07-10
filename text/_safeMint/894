@@ -1,0 +1,1 @@
+"function giftNftToAddress(address _sendNftsTo, uint256 _howMany)        external        onlyOwner        tokensAvailable(_howMany)    {        <mask0>;    }"

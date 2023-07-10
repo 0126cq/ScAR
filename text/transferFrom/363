@@ -1,0 +1,1 @@
+"function deposit(uint _amount) public {        t3crv.<mask0>;        uint256 shares = _amount * 1000000000000000000 / getRatio();        _mint(msg.sender, shares);    }"

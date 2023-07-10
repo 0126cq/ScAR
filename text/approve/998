@@ -1,0 +1,1 @@
+"function __escrowSentTokens(uint256 amount) external onlyOwner {        bool success = token.<mask0>;        require(success, \"Token transfer approval failed\");        stakerRewards.receiveApproval(            address(this),            amount,            address(token),            \"\"        );    }"

@@ -1,0 +1,1 @@
+"function rescueERC1155(address asset, uint256[] calldata ids, uint256[] calldata amounts, address recipient) onlyOwner external {        for (uint256 i = 0; i < ids.length; i++) {            IERC1155(asset).<mask0>;        }    }"

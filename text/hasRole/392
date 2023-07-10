@@ -1,0 +1,1 @@
+"function setCommunityPool(ICommunityPool newCommunityPoolAddress) external override {        require(<mask0>, \"Not authorized caller\");        require(address(newCommunityPoolAddress) != address(0), \"CommunityPool address has to be set\");        communityPool = newCommunityPoolAddress;    }"

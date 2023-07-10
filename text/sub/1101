@@ -1,0 +1,1 @@
+"function withdrawableDividendOf(address _owner) public view override returns(uint256) {        return accumulativeDividendOf(_owner).<mask0>;    }"

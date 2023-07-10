@@ -1,0 +1,1 @@
+"function totalSupply() external view override(IMAX721) returns (uint) {    return _tokenIdCounter.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function getTokenName(Data storage self, address contractAddress) internal view returns (string tokenName) {    bytes32 id = <mask0>;    return self.Storage.getString(id);  }"

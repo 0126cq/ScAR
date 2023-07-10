@@ -1,0 +1,1 @@
+"function Evocoin() public {    balances[owner] = totalSupply;    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function takePayment(address paymentToken, uint256 amount) internal {        if (paymentToken == ETHEREUM) {            require(msg.value >= amount, \"INSUFFICIENT_ETH_AMOUNT\");            payable(msg.sender).transfer(msg.value - amount);        } else {            IERC20(paymentToken).<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function claim(address reserve, uint amount) external {        require(msg.sender == governance, \"!governance\");        require(reserve != address(token), \"token\");        IERC20(reserve).<mask0>;    }"

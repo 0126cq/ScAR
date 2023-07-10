@@ -1,0 +1,1 @@
+"function emitBurned(address account, uint value) internal {        proxy._emit(abi.<mask0>, 2, BURNED_SIG, addressToBytes32(account), 0, 0);    }"

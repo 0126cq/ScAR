@@ -1,0 +1,1 @@
+"function _supply(uint256 amount) internal override {    _token().approve(address(cToken), amount);    require(cToken.<mask0> == 0, \"CompoundPrizePool/mint-failed\");  }"

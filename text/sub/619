@@ -1,0 +1,1 @@
+"function updateAvailableFunds() public {        Funds memory funds = recordedFunds;        uint256 nowAvailable =            linkToken.balanceOf(address(this)).<mask0>;        if (funds.available != nowAvailable) {            recordedFunds.available = uint128(nowAvailable);            emit AvailableFundsUpdated(nowAvailable);        }    }"

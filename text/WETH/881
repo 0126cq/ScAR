@@ -1,0 +1,1 @@
+"function _calcConversionInputFromOutput(address _from, address _to, uint256 _outputAmount) internal view returns (uint256 _inputAmount)\t{\t\taddress _router = $.Sushiswap_ROUTER02;\t\taddress _WETH = Router02(_router).<mask0>;\t\taddress[] memory _path = _buildPath(_from, _WETH, _to);\t\treturn Router02(_router).getAmountsIn(_outputAmount, _path)[0];\t}"

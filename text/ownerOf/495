@@ -1,0 +1,1 @@
+"function stake(address user, uint256 tokenId) external onlyStakingContract {        require(<mask0> == user, \"NOT_OWNER\");        require(!_isStaked[tokenId], \"ALREADY_STAKED\");        _isStaked[tokenId] = !_isStaked[tokenId];    }"

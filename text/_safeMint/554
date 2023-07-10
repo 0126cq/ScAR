@@ -1,0 +1,1 @@
+"function _internalMintTokens(        address minter,        uint256 totalMinted,        uint256 count    ) internal {        if (totalMinted + count > MAX_NFTS_FOR_SALE) revert ExceedsMaxSupply();        <mask0>;    }"

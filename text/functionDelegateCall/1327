@@ -1,0 +1,1 @@
+"function getReferencePrice(        address adapter,        address platform,        address asset    ) internal returns (uint256 referencePrice) {        bytes memory returnData = adapter.<mask0>;        return abi.decode(returnData, (uint256));    }"

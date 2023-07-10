@@ -1,0 +1,1 @@
+"function mint(        address _owner,        string memory _metadataURI    ) public returns (uint256) {        require(hasRole(MINTER_ROLE, _msgSender()), \"Caller is not a minter\");        uint256 id = currentTokenId;        currentTokenId = currentTokenId.add(1);        <mask0>;        _setTokenURI(id, _metadataURI);        emit NftMinted(id, _owner);        return id;    }"

@@ -1,0 +1,1 @@
+"function withdraw() external    onlyOwner()    {        <mask0>;        owner.transfer(collectedFees);        collectedFees = 0;    }"

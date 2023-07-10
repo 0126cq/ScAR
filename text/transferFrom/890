@@ -1,0 +1,1 @@
+"function _buyAssetForErc20(uint256 _assetId, uint256 _price, address _nftAddr, address _recipient) internal {        IERC20(ACCEPTED_TOKEN).approve(MARKETPLACE_PROXY, _price);        IMarketPlace(MARKETPLACE_PROXY).executeOrder(_nftAddr, _assetId, _price);        IERC721(_nftAddr).<mask0>;    }"

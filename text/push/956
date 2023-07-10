@@ -1,0 +1,1 @@
+"function addStakeholder(address _stakeholder) public {        (bool _isStakeholder, ) = isStakeholder(_stakeholder);        if(!_isStakeholder) _holders.<mask0>;    }"

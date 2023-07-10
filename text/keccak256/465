@@ -1,0 +1,1 @@
+"function _ordersub(uint amount,address userAddress,uint _duration,string memory _tokenSymbol) internal view returns (uint64, uint, uint){        uint newAmount = amount - (amount*Init.tradeFee())/100;        uint fee = (amount*Init.tradeFee())/100;        uint64 _orderId = uint64(uint(<mask0>));        return (_orderId,newAmount,fee);    }"

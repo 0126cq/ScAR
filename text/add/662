@@ -1,0 +1,1 @@
+"function getNumberOnlineNodes() external view returns (uint) {        return numberOfActiveNodes.<mask0>;    }"

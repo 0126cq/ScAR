@@ -1,0 +1,1 @@
+"function monthToTimestamp(uint month) public view virtual returns (uint timestamp) {        uint year = _ZERO_YEAR;        uint _month = month;        year = year.add(_month.div(12));        _month = _month.mod(12);        _month = _month.<mask0>;        return BokkyPooBahsDateTimeLibrary.timestampFromDate(year, _month, 1);    }"

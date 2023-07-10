@@ -1,0 +1,1 @@
+"function redeemAmountOut(address who, uint256 amountIn) public view returns (uint256) {        <mask0>;        uint256 ratio = 1e18 * amountIn / maxRedeemAmountIn(who);        return maxRedeemAmountOut(who) * ratio / 1e18;    }"

@@ -1,0 +1,1 @@
+"function mint(address account, uint256 amount)        external        onlyAuthorizedMinter    {        <mask0>;        emit Mint(account, amount);    }"

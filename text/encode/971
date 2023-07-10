@@ -1,0 +1,1 @@
+"function read(bytes32 name) external view returns (bytes32 meta, bytes32 data) {        bytes32 slot = keccak256(abi.<mask0>);        (meta, data) = dmap.get(slot);        return (meta, data);    }"

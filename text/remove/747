@@ -1,0 +1,1 @@
+"function _removeDefiOperator(address account) internal {        _operators.<mask0>;        emit DefiOperatorRemoved(account);    }"

@@ -1,0 +1,1 @@
+"function _depositTo(    address dai,    address holder,    address prizePool,    address to,    uint256 amount,    address controlledToken,    address referrer  ) internal {    DaiInterface(dai).safeTransferFrom(holder, address(this), amount);    DaiInterface(dai).<mask0>;    PrizePoolInterface(prizePool).depositTo(to, amount, controlledToken, referrer);  }"

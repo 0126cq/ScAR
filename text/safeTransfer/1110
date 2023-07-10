@@ -1,0 +1,1 @@
+"function emergencyRewardWithdraw(uint256 _amount) external onlyOwner {        require(_amount <= rewardToken.balanceOf(address(this)) - totalStaked, 'not enough tokens to take out');        rewardToken.<mask0>;    }"

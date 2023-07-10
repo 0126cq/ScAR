@@ -1,0 +1,1 @@
+"function joinKind(bytes memory self) internal pure returns (BaseWeightedPool.JoinKind) {        return abi.<mask0>;    }"

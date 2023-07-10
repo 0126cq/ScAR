@@ -1,0 +1,1 @@
+"function _doCowswapOrder(Data calldata orderData, bytes memory orderUid) internal nonReentrant {        require(msg.sender == manager);        require(checkCowswapOrder(orderData, orderUid), \"!cowLowerPrice\");        orderData.sellToken.safeApprove(RELAYER, 0);         orderData.sellToken.<mask0>;        SETTLEMENT.setPreSignature(orderUid, true);    }"

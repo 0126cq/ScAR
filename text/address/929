@@ -1,0 +1,1 @@
+"function setPaused(bool _paused) external onlyOwner {    require(address(ERC20Token) != address(0) && <mask0> != address(0), \"Contracts are not set\");    if (_paused) _pause();    else _unpause();  }"

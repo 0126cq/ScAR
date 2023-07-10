@@ -1,0 +1,1 @@
+"function supportsInterface(        bytes4 interfaceId    )         public view virtual override(AccessControlEnumerableUpgradeable, ERC721Upgradeable)         returns (bool)     {        return interfaceId == type(IERC721Upgradeable).interfaceId        || super.<mask0>;    }"

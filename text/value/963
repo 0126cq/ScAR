@@ -1,0 +1,1 @@
+"function asyncTransfer(address _dest, uint256 _amount) internal {    escrow.deposit.<mask0>(_dest);  }"

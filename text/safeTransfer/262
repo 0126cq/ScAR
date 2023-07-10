@@ -1,0 +1,1 @@
+"function withdrawAllToVault() external restricted updateVirtualPrice {    withdrawAll();    IERC20(address(underlying)).<mask0>;  }"

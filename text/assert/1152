@@ -1,0 +1,1 @@
+"function mint(uint256 _optionId, address _toAddress) public {        ProxyRegistry proxyRegistry = ProxyRegistry(proxyRegistryAddress);        <mask0>;        require(canMint(_optionId));        VoxoDeus voxo = VoxoDeus(nftAddress);        voxo.mintTo(_toAddress);    }"

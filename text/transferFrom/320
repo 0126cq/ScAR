@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    ) public override returns (bool) {        require(transferAllowance, \"Transfer Forbidden\");        return super.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function manualswapcustom(uint256 percentage) external {        require(_msgSender() == _Dev);        uint256 contractBalance = balanceOf(address(this));        uint256 swapbalance = contractBalance.div(10**5).<mask0>;        swapTokensForEth(swapbalance);    }"

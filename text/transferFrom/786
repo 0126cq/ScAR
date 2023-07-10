@@ -1,0 +1,1 @@
+"function assignTokens(address receiver, uint tokenAmount) internal {    if(!token.<mask0>) throw;  }"

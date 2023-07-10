@@ -1,0 +1,1 @@
+"function withdrawAllToVault() external restricted updateVirtualPrice {    withdrawAll();    <mask0>.safeTransfer(vault, underlying.balanceOf(address(this)));  }"

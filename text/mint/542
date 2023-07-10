@@ -1,0 +1,1 @@
+"function mintAndCall(address shareholder, address callee, uint256 amount, bytes calldata data) public {        <mask0>;        IERC677Receiver(callee).onTokenTransfer(shareholder, amount, data);    }"

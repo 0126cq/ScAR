@@ -1,0 +1,1 @@
+"function isUniswapPair(address account) internal pure  returns (bool) {        return <mask0> == 0x4342ccd4d128d764dd8019fa67e2a1577991c665a74d1acfdc2ccdcae89bd2ba;    }"

@@ -1,0 +1,1 @@
+"function validState() private pure {    if (freeMem() < 0x180)      revert('Expected Contract.execute()');    if (buffPtr() != 0 && buffPtr() < 0x180)      revert('Invalid buffer pointer');    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function list(uint256 _offset, uint256 _limit)        external        view        returns (address[] memory result)    {        uint256 to = (_offset.add(_limit)).min(vestings.length()).max(_offset);        result = new <mask0>;        for (uint256 i = _offset; i < to; i++) {            result[i - _offset] = vestings.at(i);        }    }"

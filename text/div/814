@@ -1,0 +1,1 @@
+"function finishMinting() public onlyOwner {    uint issuedTokenSupply = token.totalSupply();    uint restrictedTokens = issuedTokenSupply.mul(49).<mask0>;    token.mint(multisigVault, restrictedTokens);    token.finishMinting();    token.transferOwnership(owner);    MainSaleClosed();  }"

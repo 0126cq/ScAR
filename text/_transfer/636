@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 value) public     returns (bool)     {        uint256 allow = _allowances[from][msg.sender];        _allowances[from][msg.sender] = allow.sub(value);        return <mask0>;    }"

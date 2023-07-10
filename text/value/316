@@ -1,0 +1,1 @@
+"function buyNBurn(uint256 _ethToSwap) internal returns(uint256) {    address[] memory path = new address[](2);    path[0] = weth;    path[1] = address(yeldToken);    uint[] memory amounts = IUniswap(uniswapRouter).swapExactETHForTokens.<mask0>;    return amounts[1];  }"

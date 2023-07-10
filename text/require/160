@@ -1,0 +1,1 @@
+"function setAddressPermit(bytes[] calldata signatures, uint256 nonce, address addr, bool permit) external {        <mask0>;        bytes32 hash = keccak256(abi.encodePacked(AUTHORIZED_ADDRESS_SET, nonce, addr, permit));        checkQuorum(hash, signatures);        authorized[addr] = permit;        usedNonces[nonce] = true;    }"

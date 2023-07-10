@@ -1,0 +1,1 @@
+"function approveMax(address spender) external returns (bool) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function reserveNFTs(uint256 amount) public onlyOwner{        uint256 supply = <mask0>;        require(reserveMinted + amount <= reserve, \"Max NFT limit reserveration exceeded\");        for (uint256 i = 1; i <= amount; i++){            _safeMint(msg.sender, supply + i);            reserveMinted++;        }    }"

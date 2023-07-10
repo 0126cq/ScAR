@@ -1,0 +1,1 @@
+"function enableWhitelist(string memory schainName) external override onlySchainOwner(schainName) {        _automaticDeploy[<mask0>] = false;    }"

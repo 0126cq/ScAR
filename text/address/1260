@@ -1,0 +1,1 @@
+"function claimAndUnstake(uint256 amount) public onlyOwner returns (uint256 claimed) {        address[] memory aToken = new <mask0>;        aToken[0] = currentAToken;        claimed = incentivesController.claimRewards(aToken, amount, address(this));        stkAAVE.cooldown();    }"

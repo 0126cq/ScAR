@@ -1,0 +1,1 @@
+"function setGovernance(address _newGov) public {    <mask0>;    governance = _newGov;  }"

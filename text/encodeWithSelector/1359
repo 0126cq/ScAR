@@ -1,0 +1,1 @@
+"function rescueERC20(address asset, address recipient) onlyOwner external {         asset.call(abi.<mask0>);    }"

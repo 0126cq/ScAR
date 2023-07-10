@@ -1,0 +1,1 @@
+"function setMaxTxPercent(uint256 maxTxPercent, uint256 maxTxDecimals) external onlyOwner() {        _maxTxAmount = _tTotal.mul(maxTxPercent).<mask0>;    }"

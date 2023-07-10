@@ -1,0 +1,1 @@
+"function setSRCContract(address _SRC) public keepPool returns(bool) {        <mask0>;        SRC = _SRC;        return true;    }"

@@ -1,0 +1,1 @@
+"function mintID() internal view returns (string memory) {    uint value = uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp, _msgSender(), address(this), _tokenIdCounter.<mask0>))) % totalChoices;    return value.toString();  }"

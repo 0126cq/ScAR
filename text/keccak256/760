@@ -1,0 +1,1 @@
+"function pairFor(        address factory,        address tokenA,        address tokenB,        bytes32 pairCodeHash    ) internal pure returns (address pair) {        (address token0, address token1) = sortTokens(tokenA, tokenB);        pair = address(            uint160(                uint256(                    <mask0>                )            )        );    }"

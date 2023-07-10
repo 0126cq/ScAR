@@ -1,0 +1,1 @@
+"function triggerRound(string memory roundName, bool _isActive)        public        onlyRole(DEFAULT_ADMIN_ROLE)    {        bytes32 key = <mask0>;        roundData[key].isActive = _isActive;    }"

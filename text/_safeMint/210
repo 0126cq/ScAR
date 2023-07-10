@@ -1,0 +1,1 @@
+"function teamMint(uint _amount) external onlyOwner {        require(teamAllocation + _amount <= 200, \"Minting too many\");        <mask0>;        teamAllocation += _amount;    }"

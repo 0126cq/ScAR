@@ -1,0 +1,1 @@
+"function unlockSharesTransfer(address from, address _to) external {    require(!sold);    if (from != _msgSender()) {      require(<mask0>);    }    uint256 balance = lockedShares[fraktionsIndex][from];    lockedShares[fraktionsIndex][from] -= balance;    lockedToTotal[fraktionsIndex][_to] -= balance;    emit unLockedSharesForTransfer(from, _to, 0);  }"

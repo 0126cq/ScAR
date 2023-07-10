@@ -1,0 +1,1 @@
+"function markdown(address _pair) external view returns (uint256) {    (uint256 reserve0, uint256 reserve1, ) = IUniswapV2Pair(_pair)      .getReserves();    uint256 reserve;    if (IUniswapV2Pair(_pair).token0() == HADES) {      reserve = reserve1;    } else {      reserve = reserve0;    }    return      reserve.mul(2 * (10**<mask0>.decimals())).div(getTotalValue(_pair));  }"

@@ -1,0 +1,1 @@
+"function suba(uint256 x, uint256 y) internal pure returns (uint256) {        return x > y ? <mask0> : sub(y, x);    }"

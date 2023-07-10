@@ -1,0 +1,1 @@
+"function grantRoleToPair(address pair) external onlyRole(DEFAULT_OWNER) {        require(isContract(pair), \"ERC20 :: grantRoleToPair : pair is not a contract address\");        require(!<mask0>, \"ERC20 :: grantRoleToPair : already has pair role\");        _setupRole(PAIR_HASH,pair);    }"

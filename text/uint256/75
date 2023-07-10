@@ -1,0 +1,1 @@
+"function createNewPoll(Ballot storage ballot, uint256 _nOption) internal {        ballot._poll = new <mask0>;        ballot._nOption = _nOption;    }"

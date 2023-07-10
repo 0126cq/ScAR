@@ -1,0 +1,1 @@
+"function emitFeePeriodClosed(uint feePeriodId) internal {        proxy._emit(abi.<mask0>, 1, FEEPERIODCLOSED_SIG, 0, 0, 0);    }"

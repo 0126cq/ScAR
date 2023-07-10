@@ -1,0 +1,1 @@
+"function removeWhiteList(address member) public onlyOwner    {        require(whitelist.contains(member), \"Sender is not a white list member\");             whitelist.<mask0>;        emit whitelistRemoved(member);    }"

@@ -1,0 +1,1 @@
+"function receiveApproval(address from, uint256 tokens, address token) external {        require(hasStarted == false);        require(token == address(tokenWallet));         tokensRemainingForSale += tokens;        bool result = tokenWallet.<mask0>;        require(result == true);        Transfer(address(this), tokens);    }"

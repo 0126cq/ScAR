@@ -1,0 +1,1 @@
+"function approveToken() external virtual onlyController {        address strategy = controller.strategy(address(this));        token.<mask0>;        IERC20(IStrategy(strategy).token()).safeApprove(strategy, MAX_UINT_VALUE);    }"

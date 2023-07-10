@@ -1,0 +1,1 @@
+"function withdraw_from_gauge(uint256 _amount) internal{    require(_amount <= lp_balance, \"withdraw_from_gauge: insufficient amount\");    crv_gauge_addr.<mask0>;  }"

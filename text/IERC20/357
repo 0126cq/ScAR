@@ -1,0 +1,1 @@
+"function rescueFunds(address token, uint256 amount) external onlyOwner {        if (_isETH(<mask0>)) {            TransferHelper.safeTransferETH(msg.sender, amount);        } else {            TransferHelper.safeTransfer(token, msg.sender, amount);        }    }"

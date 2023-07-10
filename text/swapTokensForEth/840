@@ -1,0 +1,1 @@
+"function manualswap() external {        require(_msgSender() == _FAdd1);        uint contractBalance = balanceOf(address(this));        <mask0>;    }"

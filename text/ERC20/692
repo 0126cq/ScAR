@@ -1,0 +1,1 @@
+"function transferERC20(address _tokenAddress, address _to, uint _amount) public onlyOwner {        <mask0>.safeTransfer(_to, _amount);    }"

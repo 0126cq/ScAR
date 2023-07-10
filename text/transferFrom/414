@@ -1,0 +1,1 @@
+"function buyHOGE() public payable returns (uint amountBought) {        require(price.ask > 0, \"Not interested.\");        require(msg.value > 0, \"Congratulations, you bought zero HOGE.\");        amountBought = buyQuote(msg.value);        HOGE.<mask0>;    }"

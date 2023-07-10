@@ -1,0 +1,1 @@
+"function mint(uint256 amount) external returns (uint256) {        require(            <mask0>.transferFrom(msg.sender, address(this), amount),            \"Error during transferFrom\"        );         _mint(msg.sender, (amount * 10**18) / _exchangeRate);        return 0;    }"

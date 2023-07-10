@@ -1,0 +1,1 @@
+"function registerIndex(address _index, IIndexFactory.NameDetails calldata _nameDetails) external override {        require(!<mask0>, \"IndexRegistry: EXISTS\");        grantRole(INDEX_ROLE, _index);        _setIndexName(_index, _nameDetails.name);        _setIndexSymbol(_index, _nameDetails.symbol);    }"

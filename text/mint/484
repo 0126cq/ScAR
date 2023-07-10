@@ -1,0 +1,1 @@
+"function mintAndFreeze(address _to, uint _amount, uint64 _until) public onlyOwner {        bytes32 currentKey = toKey(_to, _until);        <mask0>;        freeze(_to, _until);        Freezed(_to, _until, _amount);    }"

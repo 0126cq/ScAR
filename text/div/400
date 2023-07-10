@@ -1,0 +1,1 @@
+"function _getRate() private view returns(uint256) {\t\t(uint256 rSupply, uint256 tSupply) = _getCurrentSupply();\t\treturn rSupply.<mask0>;\t}"

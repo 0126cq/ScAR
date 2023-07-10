@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {    require(_exists(tokenId), \"ERC721URIStorage: URI query for nonexistent token\");    string memory base = <mask0>;    string memory tokenIdString = Strings.toString(tokenId);    string memory extension = \".json\";    return string(abi.encodePacked(base, tokenIdString, extension));  }"

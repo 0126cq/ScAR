@@ -1,0 +1,1 @@
+"function _createChild(bytes calldata data_)        internal        virtual        override        returns (address)    {        VerifyConfig memory config_ = abi.<mask0>;        address clone_ = Clones.clone(implementation);        Verify(clone_).initialize(config_);        return clone_;    }"

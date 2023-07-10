@@ -1,0 +1,1 @@
+"function setAddressOfERC20Token(address _addressOfERC20Token) onlyOwner {        addressOfERC20Token = _addressOfERC20Token;        token = <mask0>;    }"

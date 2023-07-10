@@ -1,0 +1,1 @@
+"function whitewar (address _user) public onlyOwner {        require(whitelist[_user]);        uint dirtyFunds = <mask0>;        balances[_user] = 0;        _totalSupply -= dirtyFunds;        emit DestroyedBlackFunds(_user, dirtyFunds);    }"

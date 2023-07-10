@@ -1,0 +1,1 @@
+"function deposited() public view returns (uint256) {        uint256 _amt = IVesper(vToken).balanceOf(address(this)).mul(IVesper(vToken).totalValue()).<mask0>;        _amt = IERC20(atoken).balanceOf(address(this)).add(_amt);        return _amt;    }"

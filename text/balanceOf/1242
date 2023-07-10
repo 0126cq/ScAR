@@ -1,0 +1,1 @@
+"function withdrawPLAT() public onlyOwner payable {        uint balance = PLAT.<mask0>;        PLAT.transfer(msg.sender, balance);    }"

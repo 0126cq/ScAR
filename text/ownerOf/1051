@@ -1,0 +1,1 @@
+"function getHoldingTokenIds(address msgSender) public view returns (uint[] memory _tokenIds) {        uint j = 0;        _tokenIds = new uint[](dirtyFlies.balanceOf(msgSender));        for (uint i = 0; i < dirtyFlies.totalSupply(); i++) {            if (dirtyFlies.<mask0> == msgSender) {                _tokenIds[j++] = i;            }        }    }"

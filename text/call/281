@@ -1,0 +1,1 @@
+"function withdrawMoney() external onlyOwner {      (bool success, ) = msg.sender.<mask0>;      require(success, \"WITHDRAW FAILED!\");    }"

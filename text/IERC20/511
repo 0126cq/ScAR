@@ -1,0 +1,1 @@
+"function withdraw(uint256 share) external nonReentrant {        uint256 withdrawAmount = _withdraw(share, false);        <mask0>.safeTransfer(msg.sender, withdrawAmount);    }"

@@ -1,0 +1,1 @@
+"function burn(address _from, uint256 _amount) public {    require(<mask0>, \"must have burner role to burn\");    _burn(_from, _amount);  }"

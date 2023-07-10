@@ -1,0 +1,1 @@
+"function totalSupply() constant returns (uint) {\t\treturn ledger.<mask0>;\t}"

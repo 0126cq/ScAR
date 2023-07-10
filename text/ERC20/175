@@ -1,0 +1,1 @@
+"function deposit(uint amount) public {        <mask0>.transferFrom(msg.sender,address(this),amount);        balanceOf[msg.sender] = add(balanceOf[msg.sender],amount);        emit Deposit(msg.sender, amount);    }"

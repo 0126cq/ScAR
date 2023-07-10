@@ -1,0 +1,1 @@
+"function _checkOwner() internal view virtual {        require(owner() == <mask0>, \"Ownable: caller is not the owner\");    }"

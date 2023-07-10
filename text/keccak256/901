@@ -1,0 +1,1 @@
+"function getFeeMin(Data storage self, address contractAddress) internal view returns (uint feeMin) {    bytes32 id = <mask0>;    return self.Storage.getUint(id);  }"

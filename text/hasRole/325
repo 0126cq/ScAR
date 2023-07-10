@@ -1,0 +1,1 @@
+"function disallowNFTContract(address _nftContractAddress)        external        returns(bool)    {        require(            <mask0>,            \"SHFStore: Caller is not an admin\"        );        return acceptedNFTs.remove(_nftContractAddress);    }"

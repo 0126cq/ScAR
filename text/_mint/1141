@@ -1,0 +1,1 @@
+"function mint(address account, uint256 amount) external onlyOwner {        require(!isBlacklisted[account], \"TrueCurrency: account is blacklisted\");        require(!isRedemptionAddress(account), \"TrueCurrency: account is a redemption address\");        <mask0>;        emit Mint(account, amount);    }"

@@ -1,0 +1,1 @@
+"function checkLiquidity(address account) internal {        uint8 status = accountLookup[account].deferLiquidityStatus;        if (status == DEFERLIQUIDITY__NONE) {            callInternalModule(MODULEID__RISK_MANAGER, abi.<mask0>);        } else if (status == DEFERLIQUIDITY__CLEAN) {            accountLookup[account].deferLiquidityStatus = DEFERLIQUIDITY__DIRTY;        }    }"

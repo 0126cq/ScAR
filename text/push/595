@@ -1,0 +1,1 @@
+"function stake(uint16[] memory tokenIds) external {        for (uint16 i = 0; i < tokenIds.length; i++) {            thiccNFT.safeTransferFrom(msg.sender, address(this), tokenIds[i]);            tokenOwnerOf[tokenIds[i]] = msg.sender;             tokenStakedAt[tokenIds[i]] = block.timestamp;            tokenIdsOfUser[msg.sender].<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function isETH(IERC20 token) internal pure returns(bool) {        return (address(token) == address(ZERO_ADDRESS) || <mask0> == address(ETH_ADDRESS));    }"

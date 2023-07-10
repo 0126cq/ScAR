@@ -1,0 +1,1 @@
+"function exchangeRateStored() public view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"exchangeRateStored()\"));        return abi.<mask0>;    }"

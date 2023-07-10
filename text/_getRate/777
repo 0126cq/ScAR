@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 amount, bytes memory data, bytes memory operatorData) internal virtual override {        super._burn(account, amount * <mask0>, data, operatorData);        _totalSupply -= amount;    }"

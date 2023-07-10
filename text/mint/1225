@@ -1,0 +1,1 @@
+"function mintHive(uint16 _bearsId) external nonReentrant {        require(paused.pauseHive == 0, \"Paused\");        require(msg.sender != address(0), \"Can not mint to address 0\");        hive.<mask0>;        emit HoneyHiveClaimed(msg.sender, _bearsId);    }"

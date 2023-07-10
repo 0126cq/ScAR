@@ -1,0 +1,1 @@
+"function burn(        uint256 _tokenId,        uint256 label,        bytes32 data    ) external {        INFT(token).safeTransferFrom(msg.sender, address(this), _tokenId);        INFT(token).burn(_tokenId, label, data);        uint256 amount = priceOf[_tokenId] / 3;        IETHVault(vault).<mask0>;        emit Burn(_tokenId, amount);    }"

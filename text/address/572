@@ -1,0 +1,1 @@
+"function getComponents() public view returns(address[]) {    address[] memory componentAddresses = new <mask0>;    for (uint16 i = 0; i < components.length; i++) {        componentAddresses[i] = components[i].address_;    }    return componentAddresses;  }"

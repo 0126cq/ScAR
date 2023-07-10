@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public virtual override {        address owner = <mask0>;        if (_msgSenderERC721A() != owner)            if (!isApprovedForAll(owner, _msgSenderERC721A())) {                revert ApprovalCallerNotOwnerNorApproved();            }        _tokenApprovals[tokenId].value = to;        emit Approval(owner, to, tokenId);    }"

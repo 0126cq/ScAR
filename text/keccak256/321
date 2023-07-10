@@ -1,0 +1,1 @@
+"function buildStructHash(Transaction calldata transaction) private pure returns (bytes32) {    return <mask0>;  }"

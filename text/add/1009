@@ -1,0 +1,1 @@
+"function registerVaultFactory(address factory) external override onlyOwner notShutdown {        require(_vaultFactorySet.<mask0>, \"Aludel: vault factory already registered\");        emit VaultFactoryRegistered(factory);    }"

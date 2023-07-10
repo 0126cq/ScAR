@@ -1,0 +1,1 @@
+"function mint(uint256 _mintAmount) external payable {        require(totalSupply() + _mintAmount <= maxSupply, \"MSG: Max supply exceeded.\");        require(freesale, \"MSG: Freesale is not live yet.\");        require(<mask0> + _mintAmount <= freesaleSupply, \"MSG: Freesale max supply exceeded.\");        _safeMint(msg.sender, _mintAmount);    }"

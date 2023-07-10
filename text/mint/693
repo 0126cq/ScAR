@@ -1,0 +1,1 @@
+"function mintAll(address receiver) external {        uint256 length = whitelist[receiver].length;        require(length > 0, \"NOT_WHITELISTED\");        while (length > 0) {            <mask0>;            length--;        }    }"

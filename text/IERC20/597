@@ -1,0 +1,1 @@
+"function withdraw(address _token) external virtual override onlyController {        require(address(_token) != address(_want), \"!want\");        uint256 balance = IERC20(_token).balanceOf(address(this));        <mask0>.safeTransfer(controller, balance);        emit Withdrawn(_token, balance, controller);    }"

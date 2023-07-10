@@ -1,0 +1,1 @@
+"function createAndDeposit(    IERC20Upgradeable _asset,    IERC20Upgradeable _measure,    uint256 _dripRatePerSecond,    uint256 _amount  ) external returns (TokenFaucet) {    TokenFaucet faucet = create(_asset, _measure, _dripRatePerSecond);    _asset.<mask0>;  }"

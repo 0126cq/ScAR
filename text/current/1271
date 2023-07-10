@@ -1,0 +1,1 @@
+"function mintItem() public returns (uint256) {        require(_tokenIds.<mask0> < 100, \"All 100 tickets have been minted\");        _tokenIds.increment();        uint256 id = _tokenIds.current();        _mint(msg.sender, id);        _setTokenURI(id, \"QmUfQaJQuqQZNhyKDmgxFtqo6oEdo8s9peXjTenz9cPm4m\");        return id;    }"

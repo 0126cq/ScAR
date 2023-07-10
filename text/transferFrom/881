@@ -1,0 +1,1 @@
+"function deposit(uint256 amount) external {        activeBalance += amount;        require(coordinationToken.<mask0>,            \"DelphiaCredit.deposit: Cannot transfer token to the Escrow\");        emit Deposited(msg.sender, amount);    }"

@@ -1,0 +1,1 @@
+"function safeTransferFrom(address _from, address _to, uint256 _id, uint256 _amount, bytes memory _data) public override (ERC1155, IERC1155) {        require(totalUseCount[_from][_id] == 0, \"Deed#safeTransferFrom: NFT being used in strategy\");        ERC1155.<mask0>;    }"

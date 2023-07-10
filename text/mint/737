@@ -1,0 +1,1 @@
+"function _transferVest(Member memory members, uint256 transferAmount)         internal         override    {        voSPOOL.burn(members.prev, transferAmount);        voSPOOL.<mask0>;        BaseVesting._transferVest(members, transferAmount);    }"

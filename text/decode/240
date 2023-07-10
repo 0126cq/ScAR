@@ -1,0 +1,1 @@
+"function getRevertMsg(bytes memory returnData)        internal pure        returns (string memory)    {        if (returnData.length < 68) return \"Transaction reverted silently\";        assembly {            returnData := add(returnData, 0x04)        }        return abi.<mask0>;     }"

@@ -1,0 +1,1 @@
+"function mockWithdrawErc20(address token, uint256 amount) public {    <mask0>.transfer(msg.sender, amount);  }"

@@ -1,0 +1,1 @@
+"function _grantRole(bytes32 role, address account) private {\t\tif (!<mask0>) {\t\t\t_roles[role].members[account] = true;\t\t\temit RoleGranted(role, account, _msgSender());\t\t}\t}"

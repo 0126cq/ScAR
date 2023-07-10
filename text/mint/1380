@@ -1,0 +1,1 @@
+"function grantReserveToken() onlyOwner whenNotPaused public {    require(!grantReserveSupply);    grantReserveSupply = true;    token.<mask0>;    remainingReserveSupply = 0;"

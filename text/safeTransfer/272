@@ -1,0 +1,1 @@
+"function eject() external onlyOwner() {        require(block.timestamp >= periodFinish + 12 hours, \"Cannot eject before period finishes or pool has started\");        uint256 currBalance = rewardToken.balanceOf(address(this));        rewardToken.<mask0>;    }"

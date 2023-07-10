@@ -1,0 +1,1 @@
+"function generatePreimage(        uint256 _paymentNumber,        uint256 _chargeAmountInWei,        uint8   _paymentMethod)        internal        view        returns (bytes32)    {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function createNewStake(address payable stakerAddress, uint256 depositAmount) internal {        uint256 stakerIndex = _stakerList.length;        _stakerList.<mask0>;        _stakerMap[stakerAddress] = Staker(            stakerIndex,            _latestConfirmed,            depositAmount,            address(0),            true        );        _lastStakeBlock = block.number;    }"

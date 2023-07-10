@@ -1,0 +1,1 @@
+"function pause() public virtual {        require(            <mask0>,            'ERC20PresetMinterPauser: must have pauser role to pause'        );        _pause();    }"

@@ -1,0 +1,1 @@
+"function uri(uint256 tokenId)        public        view        override(ERC1155Upgradeable, IBMICoverStaking)        returns (string memory)    {        return string(abi.encodePacked(super.uri(0), Strings.<mask0>));    }"

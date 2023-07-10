@@ -1,0 +1,1 @@
+"function mintWithEvent(address _to, uint _amount) internal returns (bool success) {    success = ledger.<mask0>;    if (success) {      token.controllerTransfer(0x0, _to, _amount);    }  }"

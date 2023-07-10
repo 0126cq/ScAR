@@ -1,0 +1,1 @@
+"function deposit(address _destination, uint256 _amount)        external        override        returns (uint256)    {        token.<mask0>;        (uint256 shares, ) = _deposit();        _mint(_destination, shares);        return shares;    }"

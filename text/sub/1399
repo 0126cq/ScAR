@@ -1,0 +1,1 @@
+"function status(uint96 tic, uint256 top) internal view returns (bool done, uint256 price) {        price = calc.price(top, sub(block.timestamp, tic));        done  = (<mask0> > tail || rdiv(price, top) < cusp);    }"

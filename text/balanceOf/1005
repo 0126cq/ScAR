@@ -1,0 +1,1 @@
+"function deposit() external override onlyRole(STRATEGY_ROLE) {        uint256 balance = want.<mask0>;        _deposit(balance);    }"

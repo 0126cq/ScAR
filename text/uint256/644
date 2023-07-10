@@ -1,0 +1,1 @@
+"function tokensStakedByOwner(address _owner) external view returns (uint256[] memory) {    uint256 stakedTokensLength = stakedTokens[_owner].length();    uint256[] memory tokenIds = new <mask0>;    for (uint256 i = 0; i < stakedTokensLength; i++) {      tokenIds[i] = stakedTokens[_owner].at(i);    }    return tokenIds;  }"

@@ -1,0 +1,1 @@
+"function _withdraw(address from, uint amount, address to) internal returns (uint) {        _burn(from, amount);        <mask0>.safeTransfer(to, amount);        return amount;    }"

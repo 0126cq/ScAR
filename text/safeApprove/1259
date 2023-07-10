@@ -1,0 +1,1 @@
+"function _approveToken(uint256 _amount) internal override {        collateralToken.safeApprove(pool, _amount);        collateralToken.<mask0>;    }"

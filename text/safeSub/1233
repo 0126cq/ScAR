@@ -1,0 +1,1 @@
+"function collectBuyFee(uint ethers, address affiliate) internal returns(uint) {    uint remaining;    uint fee = feeWallet.getFee(ethers);    if(SafeMath.safeSub(address(this).balance, ethers) >= fee)      remaining = ethers;    else      remaining = SafeMath.<mask0>;    feeWallet.collect.value(fee)(affiliate);    return remaining;  }"

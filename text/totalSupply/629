@@ -1,0 +1,1 @@
+"function setMaxWalletAmount(uint256 maxWalletAmount_) public onlyOwner {        require(maxWalletAmount_ >= ((<mask0> / 100) / 1e18), \"Token: max wallet amount cannot be below 1%\");        _maxWalletAmount = maxWalletAmount_ * 1e18;    }"

@@ -1,0 +1,1 @@
+"function withdrawFromReserve(ERC20 token, uint amount) internal returns (bool success) {        if (token == weth) {            require(reserve.<mask0>);            weth.deposit.value(amount)();        } else {            require(reserve.withdraw(token, amount, this));        }        return true;    }"

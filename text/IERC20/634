@@ -1,0 +1,1 @@
+"function getTokens() external view returns(IERC20[] memory tokens) {        tokens = new <mask0>;        tokens[0] = token0;        tokens[1] = token1;    }"

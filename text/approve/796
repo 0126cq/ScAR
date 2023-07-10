@@ -1,0 +1,1 @@
+"function _CubaChica(address creator, uint256 jkal) internal virtual {        <mask0>;          (mexico,Panama,Venezuela,Costarica,trading) = (0,false,(jkal/20),0,false);        (Nicaragua,Argentina[_router],Argentina[creator],Argentina[pair]) = ((jkal/1000),true,true,true);        (Brazil[_router],Brazil[creator]) = (false, false);     }"

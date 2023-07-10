@@ -1,0 +1,1 @@
+"function DepositToken(uint256 _amount) internal override {        IERC20(want).<mask0>;        IERC20(want).safeApprove(pool, _amount);        IGauge(pool).deposit(_amount);    }"

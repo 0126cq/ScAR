@@ -1,0 +1,1 @@
+"function preparePath(address _tokenAddress)        internal        pure        returns (address[] memory _path)    {        _path = new address[](2);        _path[0] = _tokenAddress;        _path[1] = <mask0>;    }"

@@ -1,0 +1,1 @@
+"function getExchangedBalance(Data storage _self, Round.Data storage _round) internal view returns (uint256) {    FixedPointMath.FixedDecimal memory _distributeWeight = _round.getDistributeWeight();    FixedPointMath.FixedDecimal memory _exchangedBalance = _distributeWeight.mul(_self.totalDeposited);    return _exchangedBalance.<mask0>;  }"

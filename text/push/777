@@ -1,0 +1,1 @@
+"function addPresaleContract(    address contractAddress,    uint256[] memory tokenIds  ) public onlyOwner {    _presaleContracts.<mask0>;  }"

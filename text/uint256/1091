@@ -1,0 +1,1 @@
+"function expand(uint256 randomValue) public view returns (uint256[] memory expandedValues) {        expandedValues = new <mask0>;        for (uint256 i = 0; i < maxNFTSupply; i++) {            expandedValues[i] = uint256(keccak256(abi.encode(randomValue, i)));        }        return expandedValues;    }"

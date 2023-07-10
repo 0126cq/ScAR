@@ -1,0 +1,1 @@
+"function _fallback() internal {    if(OpenZeppelinUpgradesAddress.isContract(msg.sender) && msg.data.length == 0 && gasleft() <= 2300)                 return;    _willFallback();    _delegate(<mask0>);  }"

@@ -1,0 +1,1 @@
+"function getState() public view returns (uint256, uint256, uint256, uint256, uint256, uint256, uint256) {        return (totalCookieProduction, cookieProduction[msg.sender], <mask0>, balanceOf(msg.sender),             totalEtherCookieResearchPool, lastTotalCookieSaveTime, computeSellPrice());    }"

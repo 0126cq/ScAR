@@ -1,0 +1,1 @@
+"function functionStaticCall(address target, bytes memory data, string memory errorMessage) internal view returns (bytes memory) {\t\trequire(isContract(target), \"Address: static call to non-contract\");\t\t(bool success, bytes memory returndata) = target.staticcall(data);\t\treturn <mask0>;\t}"

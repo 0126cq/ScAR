@@ -1,0 +1,1 @@
+"function safeYaxTransfer(address _to, uint _amount) internal {        uint _tokenBal = tokenYAX.balanceOf(address(this));        tokenYAX.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function addPool(address newPool) onlyOwner {        assert (newPool != 0);        if (isPool(newPool)) throw;        pools.<mask0>;    }"

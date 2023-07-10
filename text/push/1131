@@ -1,0 +1,1 @@
+"function addShareholder(address shareholder) internal {        shareholderIndexes[shareholder] = shareholders.length;        shareholders.<mask0>;    }"

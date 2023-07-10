@@ -1,0 +1,1 @@
+"function _isOwnerOrProxy(address _address) internal view returns (bool) {        return <mask0> == _address || _isProxyForUser(owner(), _address);    }"

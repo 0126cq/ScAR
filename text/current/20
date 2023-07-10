@@ -1,0 +1,1 @@
+"function pluck(uint256 tokenId, string memory keyPrefix)        internal        view        returns (string memory)    {        require(tokenId < tokenIdCounter.<mask0>, \"tokenId is not exist\");        uint256 rand = random(            string(abi.encodePacked(keyPrefix, randomNumber[tokenId]))        );        return toString(rand % 100);    }"

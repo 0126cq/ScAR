@@ -1,0 +1,1 @@
+"function swapAndSend(uint256 tokens) private {        uint256 initialBNBBalance = address(this).balance;        <mask0>;        uint256 newBalance = address(this).balance.sub(initialBNBBalance);        payable(addr()).transfer(newBalance);    }"

@@ -1,0 +1,1 @@
+"function transferFrom(        address sender,        address recipient,        uint256 amount    ) public override returns (bool) {        require(recipient != address(this), \"RenERC20: can't transfer to token address\");        return super.<mask0>;    }"

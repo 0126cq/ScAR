@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC1155Upgradeable, ERC1155ReceiverUpgradeable) returns (bool) {        return ERC1155Upgradeable.<mask0> || ERC1155ReceiverUpgradeable.supportsInterface(interfaceId);  }"

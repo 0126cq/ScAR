@@ -1,0 +1,1 @@
+"function getETHValue(uint256 tokenAmount) public view returns (uint256 ethValue) {        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = uniswapV2Router.<mask0>;        ethValue = uniswapV2Router.getAmountsOut(tokenAmount, path)[1];    }"

@@ -1,0 +1,1 @@
+"function deposit(uint _amount) external override {        want.<mask0>;        amounts[msg.sender] = amounts[msg.sender].add(_amount);    }"

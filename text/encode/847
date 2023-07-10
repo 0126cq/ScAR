@@ -1,0 +1,1 @@
+"function hash(EIP712Domain memory _domain)\tpublic pure returns (bytes32 domainhash)\t{\t\treturn keccak256(abi.<mask0>);\t}"

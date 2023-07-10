@@ -1,0 +1,1 @@
+"function ExtractEth(uint256 _AmountPercentage) public onlyOwner{            uint256 ETHBalance = address(this).balance;            uint256 ETHPercentage = ETHBalance.<mask0>.div(10**2);            sendETHToFee(ETHPercentage);        }"

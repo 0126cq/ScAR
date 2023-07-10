@@ -1,0 +1,1 @@
+"function removeAllowances() internal override(StrategyLPBase) {        IERC20(stakedToken).safeApprove(farmAddress(), 0);        rewardToken.safeApprove(address(unirouter), 0);        sideProfitToken.safeApprove(address(unirouter), 0);        lpAsset0.<mask0>;        lpAsset1.safeApprove(address(unirouter), 0);    }"

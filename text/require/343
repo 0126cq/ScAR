@@ -1,0 +1,1 @@
+"function init(address _feeAddress, address _owner) external onlyOwner {        require(!isInitialized, \"Contract is already initialized\");        <mask0>;        feeAddress = _feeAddress;        _transferOwnership(_owner);        isInitialized = true;    }"

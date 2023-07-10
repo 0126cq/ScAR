@@ -1,0 +1,1 @@
+"function stopAmplificationParameterUpdate() external authenticate {        (uint256 currentValue, bool isUpdating) = _getAmplificationParameter();        <mask0>;        _setAmplificationData(currentValue);    }"

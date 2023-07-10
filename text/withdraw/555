@@ -1,0 +1,1 @@
+"function unstakeSushiFromBento(address to, uint256 amount) external {        bento.<mask0>;         ISushiBarBridge(sushiBar).leave(amount);         sushiToken.safeTransfer(to, sushiToken.safeBalanceOfSelf());     }"

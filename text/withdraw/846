@@ -1,0 +1,1 @@
+"function _withdrawCollateral(uint256 amount) internal virtual {        IStrategy strategy = IStrategy(controller.strategy(address(this)));        strategy.<mask0>;    }"

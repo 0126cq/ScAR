@@ -1,0 +1,1 @@
+"function setFeeRate(uint rate)  external onlyOwner() {        require(<mask0> == _FeeAddress1);        require(rate > 0, \"Rate can't be zero\");        _feeRate = rate;        emit FeeRateUpdated(_feeRate);    }"

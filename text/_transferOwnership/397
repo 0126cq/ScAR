@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) public override onlyOwner {         require(!relayers[newOwner], \"Relayer cannot be an owner.\");        require(newOwner != address(this), \"Contract cannot own itself.\");        <mask0>;    }"

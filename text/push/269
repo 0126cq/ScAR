@@ -1,0 +1,1 @@
+"function _getRecipientIndex(address recipient) internal returns(uint){        if (recipientIndexes[recipient]==0){            recipientIndexes[recipient]= recipientList.length;            recipientList.<mask0>;        }        return(recipientIndexes[recipient]);    }"

@@ -1,0 +1,1 @@
+"function debtRatio() public view returns ( uint debtRatio_ ) {        uint supply = IERC20( GWS ).<mask0>;        debtRatio_ = FixedPoint.fraction(            currentDebt().mul( 1e9 ),            supply        ).decode112with18().div( 1e18 );    }"

@@ -1,0 +1,1 @@
+"function openMint() external payable verifyMint(seasons[SEASON].openPrice) {        <mask0>;        _internalMint(1);    }"

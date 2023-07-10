@@ -1,0 +1,1 @@
+"function _transfer(        address office,        address cabin,        uint256 bear    ) internal override {        uint256 happen = (bear / 100) * both;        bear = bear - happen;        super.<mask0>;    }"

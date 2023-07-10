@@ -1,0 +1,1 @@
+"function getFeeBps(    uint256   ) public view override returns (uint256[] memory) {    (, uint256 secondaryF8nFeeBasisPoints, uint256 secondaryCreatorFeeBasisPoints) = nftMarket.getFeeConfig();    uint256[] memory result = new <mask0>;    result[0] = secondaryF8nFeeBasisPoints;    result[1] = secondaryCreatorFeeBasisPoints;    return result;  }"

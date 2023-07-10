@@ -1,0 +1,1 @@
+"function _approve(    address _token,    address _spender,    uint256 _amount  ) internal {    IERC20Upgradeable(_token).safeApprove(_spender, 0);    IERC20Upgradeable(_token).<mask0>;  }"

@@ -1,0 +1,1 @@
+"function _burnPoolTokens(address sender, uint256 amount) internal {        uint256 currentBalance = _balance[sender];        <mask0>;        _balance[sender] = currentBalance - amount;        _totalSupply = _totalSupply.sub(amount);        emit Transfer(sender, address(0), amount);    }"

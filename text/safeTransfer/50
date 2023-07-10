@@ -1,0 +1,1 @@
+"function emergencyWithdawn(address _token) external onlyOwner() whenPaused() {        if(_token == address(0)) {            payable(msg.sender).sendValue((address(this).balance));        } else {             uint balance = IERC20(_token).balanceOf(address(this));            IERC20(_token).<mask0>;        }    }"

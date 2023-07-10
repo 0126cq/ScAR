@@ -1,0 +1,1 @@
+"function totalStakedFor(address addr) public override view returns (uint256) {        return            totalStakingShares > 0                ? totalStaked().mul(_userTotals[addr].stakingShares).<mask0>                : 0;    }"

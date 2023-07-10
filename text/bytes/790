@@ -1,0 +1,1 @@
+"function getLengthBytes(uint256 x) internal pure returns (bytes memory b) {        uint256 nBytes = 1;        if (x > 255) {            nBytes = 2;        }        b = new <mask0>;        for (uint256 i = 0; i < nBytes; i++) {            b[i] = bytes1(uint8(x / (2**(8 * (nBytes - 1 - i)))));        }    }"

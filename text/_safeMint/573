@@ -1,0 +1,1 @@
+"function setCreators(address[] memory creators_, address brand_) public onlyOwner {\t\trequire(_currentIndex <= GOVERNANCE_SUPPLY, \"Governance already distributed to creators\");\t\tfor(uint256 x; x < creators_.length; x++) {\t\t\t<mask0>;\t\t}\t\t_safeMint(brand_, BRAND_SUPPLY);\t}"

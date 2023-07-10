@@ -1,0 +1,1 @@
+"function stake(        address _lp,        uint256 _amount,        address _adapter    )        public    {        <mask0>.safeTransferFrom(msg.sender, address(this), _amount);        _stake(_lp, _amount, _adapter);    }"

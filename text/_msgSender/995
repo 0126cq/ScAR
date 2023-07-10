@@ -1,0 +1,1 @@
+"function setApprovalForAll(address operator, bool approved) public override {        require(operator != _msgSender(), \"a\");        _operatorApprovals[_msgSender()][operator] = approved;        emit ApprovalForAll(<mask0>, operator, approved);    }"

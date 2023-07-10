@@ -1,0 +1,1 @@
+"function _mint(address _to) private {        _tokenId.increment();        uint256 tokenId = _tokenId.<mask0>;        _safeMint(_to, tokenId);        emit MiniMooseMinted(tokenId);    }"

@@ -1,0 +1,1 @@
+"function safeTransferFrom(address _token, address _from, uint256 _value) internal {        LegacyERC20(_token).<mask0>;        assembly {            if returndatasize {                returndatacopy(0, 0, 32)                if iszero(mload(0)) {                    revert(0, 0)                }            }        }    }"

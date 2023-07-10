@@ -1,0 +1,1 @@
+"function addMilestone(uint _etherAmount, uint _tokenAmount, uint _startTime, uint _duration, string _description) public notSealed onlyOperator returns(uint) {        totalEther = totalEther.add(_etherAmount);        totalToken = totalToken.add(_tokenAmount);        return milestones.<mask0>;    }"

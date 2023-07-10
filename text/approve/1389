@@ -1,0 +1,1 @@
+"function sobloApprove(address spender, uint256 value, string note) public returns (bool ret) {        ret = super.<mask0>;        emit SobloApproval(msg.sender, spender, value, note);    }"

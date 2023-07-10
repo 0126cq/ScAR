@@ -1,0 +1,1 @@
+"function balanceOnIdle() public view returns (uint256) {        uint256 idleTokenBalance = <mask0>.balanceOf(address(this));        return idleTokenBalance > 0 ?            idleTokenBalance.mul(_getTokenPrice()).div(1e18).add(1) : 0        ;    }"

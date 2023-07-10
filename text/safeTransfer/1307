@@ -1,0 +1,1 @@
+"function withdrawIERC20(IERC20 token) public onlyOwner {        token.<mask0>;    }"

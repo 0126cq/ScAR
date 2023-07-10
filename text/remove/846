@@ -1,0 +1,1 @@
+"function removeWhitelistedRelayer(address[] memory _addr)        external        onlyOwner    {        VolatilitySurfaceOracleStorage.Layout            storage l = VolatilitySurfaceOracleStorage.layout();        for (uint256 i = 0; i < _addr.length; i++) {            l.whitelistedRelayers.<mask0>;        }    }"

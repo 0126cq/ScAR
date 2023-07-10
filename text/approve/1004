@@ -1,0 +1,1 @@
+"function revokeRouter (IERC20 tokenInterface, address routerAddr) public onlyController {        require(tokenInterface.<mask0>, \"Revoke failed\");    }"

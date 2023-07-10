@@ -1,0 +1,1 @@
+"function redeem(address to, uint256 amount)        external override        afterMaturity        returns (uint256 redeemed)    {        uint256 amount_ = (amount == 0) ? _balanceOf[address(this)] : amount;        <mask0>;        redeemed = amount_.wmul(_accrual());        join.exit(to, redeemed.u128());        emit Redeemed(msg.sender, to, amount_, redeemed);    }"

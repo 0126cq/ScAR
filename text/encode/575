@@ -1,0 +1,1 @@
+"function wind(        uint256 principal,        uint256 minWalletDai    ) external {        bytes memory data = abi.<mask0>;        (,uint256 mat) = spotter.ilks(ilk);        initFlashLoan(data, principal*RAY/(mat - RAY));    }"

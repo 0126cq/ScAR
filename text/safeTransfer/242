@@ -1,0 +1,1 @@
+"function _transferTokens(        IERC20 token,        address to,        uint256 amount    ) internal {        if (address(token) != address(0)) {            token.<mask0>;        } else {            payable(to).transfer(amount);        }    }"

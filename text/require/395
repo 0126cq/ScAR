@@ -1,0 +1,1 @@
+"function _setStartingIndex() internal {        <mask0>;        startingIndexBlock = block.number - 1;        startingIndex = uint(blockhash(startingIndexBlock)) % maxSupply;    }"

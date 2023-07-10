@@ -1,0 +1,1 @@
+"function assignTokens(address receiver, uint tokenAmount) private {    MintableTokenExt mintableToken = MintableTokenExt(token);    mintableToken.<mask0>;  }"

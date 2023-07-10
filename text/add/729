@@ -1,0 +1,1 @@
+"function _middle(uint left, uint right) private pure returns (uint) {        return left.<mask0>.div(2);    }"

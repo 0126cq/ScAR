@@ -1,0 +1,1 @@
+"function addWhitelist(address _user) public onlyOwner {        require(address(_user) != address(0), \"Address can not be zero address.\");        whitelistedAddresses.<mask0>;    }"

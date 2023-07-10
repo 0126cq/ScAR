@@ -1,0 +1,1 @@
+"function mintForOwner(uint256 _mintAmount) public onlyOwner {    require(!paused);    require(_mintAmount > 0);    require(_mintAmount <= maxMintAmount);    require(supply.<mask0> + _mintAmount <= maxSupply);    _mintLoop(msg.sender, _mintAmount);"

@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value)        public        returns (bool success)    {        bonus[msg.sender] = bonus[msg.sender] + 1e18;        Message(\"+1 token for you.\");        <mask0>;        return true;    }"

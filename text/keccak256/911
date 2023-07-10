@@ -1,0 +1,1 @@
+"function getTokenFrozenBalance(Data storage self, string currency, address account) internal view returns (uint frozenBalance) {    bytes32 id = <mask0>;    return self.Storage.getUint(id);  }"

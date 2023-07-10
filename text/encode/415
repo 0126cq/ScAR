@@ -1,0 +1,1 @@
+"function selfExecute(    Transaction[] memory _txs  ) public override {    bytes32 txHash = _subDigest(keccak256(abi.<mask0>));    _executeGuest(txHash, _txs);  }"

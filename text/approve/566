@@ -1,0 +1,1 @@
+"function approveAndCall(address spender, uint256 amount, string memory data) public returns (bool success) {\t\t<mask0>;\t        TokenRecipient(spender).receiveApproval(msg.sender, amount, address(this), data);        return true;\t}"

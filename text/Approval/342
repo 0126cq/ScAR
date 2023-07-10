@@ -1,0 +1,1 @@
+"function approve(Data storage self, address spender, uint tokens) public returns (bool success) {        require(!self.accountLocked[msg.sender]);        self.allowed[msg.sender][spender] = tokens;        <mask0>;        return true;    }"

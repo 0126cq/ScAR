@@ -1,0 +1,1 @@
+"function mintToken(address target, uint256 mintedAmount) onlyOwner returns (bool success) {\t\trequire(mintedAmount > 0);         uint256 addTokens = mintedAmount; \t\tbalance[target] += addTokens;\t\ttotalSupply += addTokens;\t\t<mask0>;\t\treturn true; \t}"

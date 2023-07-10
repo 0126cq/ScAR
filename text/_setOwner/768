@@ -1,0 +1,1 @@
+"function transferOwnership(address _newOwner) public virtual onlyOwner {        require(_newOwner != address(0), \"Ownable: new owner is the zero address\");        <mask0>;    }"

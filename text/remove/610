@@ -1,0 +1,1 @@
+"function removeRewardPool(address _pool) public override onlyOwner {        rewardPools.<mask0>;        emit RewardPoolRemoved(_msgSender(), _pool);    }"

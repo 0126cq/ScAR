@@ -1,0 +1,1 @@
+"function mintERC20(address tokenAddress, address recipient, uint256 amount) internal {        ExampleToken erc20 = ExampleToken(tokenAddress);        erc20.<mask0>;    }"

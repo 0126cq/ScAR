@@ -1,0 +1,1 @@
+"function _divideDecimalRound(        uint x,        uint y,        uint precisionUnit    ) private pure returns (uint) {        uint resultTimesTen = x.mul(precisionUnit * 10).<mask0>;        if (resultTimesTen % 10 >= 5) {            resultTimesTen += 10;        }        return resultTimesTen / 10;    }"

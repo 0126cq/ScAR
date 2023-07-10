@@ -1,0 +1,1 @@
+"function safeTransferFrom(\t\taddress from,\t\taddress to,\t\tuint256 tokenId,\t\tbytes memory _data\t) public virtual override {\t\t<mask0>;\t\tif (to.isContract() && !_checkContractOnERC721Received(from, to, tokenId, _data)) {\t\t\trevert TransferToNonERC721ReceiverImplementer();\t\t}\t}"

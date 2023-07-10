@@ -1,0 +1,1 @@
+"function claim() external onlyReceiver {        uint256 amount = available();        claimed = claimed.add(amount);        token.<mask0>;    }"

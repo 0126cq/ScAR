@@ -1,0 +1,1 @@
+"function distributeTokenReward(uint256 _totalReward)        external        payable        onlyRole(DEFAULT_ADMIN_ROLE)    {        require(_totalReward > 0, \"SHFStaking: Reward must be greater than 0.\");        require(msg.value >= _totalReward, \"SHFStaking: Not enough balance.\");        uint256 id = rewardRounds.length;        rewardRounds.<mask0>;    }"

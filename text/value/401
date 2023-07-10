@@ -1,0 +1,1 @@
+"function upgradeToAndCall(address _implementation, string _newVersion, bytes _data) payable public onlyProxyOwner {    _upgradeTo(_implementation, _newVersion);    require(address(this).call.<mask0>(_data));  }"

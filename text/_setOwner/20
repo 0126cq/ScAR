@@ -1,0 +1,1 @@
+"function setOwner(bytes32 node, address owner) public virtual override authorised(node) {        <mask0>;        emit Transfer(node, owner);    }"

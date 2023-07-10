@@ -1,0 +1,1 @@
+"function getRewardForDuration()        external        view        returns (uint256)    {        return rewardRate.<mask0>;    }"

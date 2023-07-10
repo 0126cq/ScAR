@@ -1,0 +1,1 @@
+"function mint(address to_, uint256 amount_) public onlyMintController {\t\trequire(msg.sender == mintController);\t\trequire(_currentIndex <= maxSupply, \"The collection is sold out.\");\t\t<mask0>;\t}"

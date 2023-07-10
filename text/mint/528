@@ -1,0 +1,1 @@
+"function _mintAndNotifyAllocation(address miningPool, uint256 amount)        private    {        IERC20Mintable(_token).<mask0>;        try IMiningPool(miningPool).allocate(amount) {        } catch {        }    }"

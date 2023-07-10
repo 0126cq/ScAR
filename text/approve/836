@@ -1,0 +1,1 @@
+"function initialize() public {    for (uint256 i = 0; i < 4; ++i) {      address underlyingCoin = curveYDeposit.underlying_coins(int128(i));      IERC20(underlyingCoin).safeApprove(address(curveYDeposit), uint256(-1));    }    curveYToken.<mask0>;  }"

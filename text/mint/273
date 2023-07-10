@@ -1,0 +1,1 @@
+"function dispense(address _sender, uint256 _amount) public restricted returns (bool success) {        TKN.<mask0>;        emit Dispense(_sender, _amount);        return true;    }"

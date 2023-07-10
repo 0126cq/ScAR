@@ -1,0 +1,1 @@
+"function hashMessage(address sender, address thisContract) public pure returns (bytes32) {    return <mask0>;  }"

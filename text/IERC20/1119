@@ -1,0 +1,1 @@
+"function addPlatformTokenBalance(uint amount) external nonReentrant onlyOwner {        increaseTokenBalance(TRUSTED_PLATFORM_TOKEN_ADDRESS, amount);        <mask0>.safeTransferFrom(msg.sender, address(this), amount);        emit PlatformTokenAdded(amount);    }"

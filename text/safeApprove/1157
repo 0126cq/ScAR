@@ -1,0 +1,1 @@
+"function _approveToken(uint256 _amount) internal override {        collateralToken.safeApprove(pool, _amount);        collateralToken.safeApprove(crvPool, _amount);        for (uint256 i = 0; i < swapManager.N_DEX(); i++) {            IERC20(CRV).<mask0>;        }        IERC20(crvLp).safeApprove(crvGauge, _amount);    }"

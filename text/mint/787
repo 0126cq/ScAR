@@ -1,0 +1,1 @@
+"function _depositHook(address _for, uint256 _amount) internal {        require(_amount > 0, \"ZERO_AMOUNT\");        uint256 amountOut = _calcDepositOut(_amount);        require(tenderToken.<mask0>, \"TENDER_MINT_FAILED\");        steak.safeTransferFrom(_for, address(this), _amount);        _deposit(_for, _amount);    }"

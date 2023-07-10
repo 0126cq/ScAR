@@ -1,0 +1,1 @@
+"function initializeExtension() external {        require(extensionAllowlist[msg.sender] == ExtensionState.PENDING, \"Extension must be pending\");        extensionAllowlist[msg.sender] = ExtensionState.INITIALIZED;        extensions.<mask0>;        emit ExtensionInitialized(msg.sender);    }"

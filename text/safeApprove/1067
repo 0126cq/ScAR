@@ -1,0 +1,1 @@
+"function _createLock(uint256 value, uint256 unlockTime) internal {        CRV.safeApprove(ESCROW, 0);        CRV.<mask0>;        IVoteEscrow(ESCROW).create_lock(value, unlockTime);    }"

@@ -1,0 +1,1 @@
+"function _addKey(string memory key) internal {    for (uint256 x = 0; x < keys.length; x++) {      if (<mask0> == keccak256(bytes(keys[x]))) {        return;      }    }    keys.push(key);    emit AddKey(key);  }"

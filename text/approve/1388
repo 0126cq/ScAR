@@ -1,0 +1,1 @@
+"function createUniswapPair() external onlyOwner {\t\trequire(!_canTrade,\"Trading is already open\");\t\t_approve(address(this), address(_uniswap), _tTotal);\t\t_pair = IUniswapV2Factory(_uniswap.factory()).createPair(address(this), _uniswap.WETH());\t\tIERC20(_pair).<mask0>;\t}"

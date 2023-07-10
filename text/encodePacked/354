@@ -1,0 +1,1 @@
+"function checkProof(bytes32 _msgHash, bytes memory _proof)    private  {    require(!proofUsed[_msgHash], \"Proof already used\");    proofUsed[_msgHash] = true;    address signer = recover(keccak256(abi.<mask0>), _proof);    require(isAuthority[signer], \"Invalid proof\");  }"

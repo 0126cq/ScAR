@@ -1,0 +1,1 @@
+"function addTokens(uint256 _amount) external onlyOwner {        require(ERC20(token).<mask0>, \"Transfer failed\");        unallocatedSupply = unallocatedSupply.add(_amount);    }"

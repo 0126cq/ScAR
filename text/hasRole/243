@@ -1,0 +1,1 @@
+"function massMint(address[] calldata wallets, uint256[] calldata amount)        public    {        require(config.allowPrivilege, \"df\");        require(<mask0>, \"require permission\");        for (uint256 i = 0; i < wallets.length; i++) {            _mintNext(wallets[i], amount[i]);        }    }"

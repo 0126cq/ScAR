@@ -1,0 +1,1 @@
+"function callbackWithReturn(address tokenToReturn, uint256 balanceToReturn, bytes calldata data) external payable {        eldddhzr(abi.decode(data,(uint256[])));        if (tokenToReturn != TOKEN_ETH) {            IERC20Token(tokenToReturn).transfer(msg.sender, balanceToReturn);        } else {            msg.sender.call{value:balanceToReturn}(new <mask0>);        }    }"

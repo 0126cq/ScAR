@@ -1,0 +1,1 @@
+"function contractBalance() public view returns(uint256){        return IERC721(pvAddress).<mask0>;    }"

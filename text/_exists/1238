@@ -1,0 +1,1 @@
+"function getFeeRecipients(uint256 tokenId) external view virtual override returns (address payable[] memory) {        require(<mask0>, \"Nonexistent token\");        return _getRoyaltyReceivers(tokenId);    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual {        require(<mask0>, \"burn: caller is not owner nor approved\");        _burn(tokenId);        if(_uriType != 0 )            delete _tokenUris[tokenId];    }"

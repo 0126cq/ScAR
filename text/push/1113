@@ -1,0 +1,1 @@
+"function registerForVoting() payable votingPrepareInProgress {        if (msg.value >= 10 finney) {            voters.<mask0>;            votersCount = votersCount + 1;        }"

@@ -1,0 +1,1 @@
+"function distributePartnerTokens() external onlyOwner {        require(!isDistributed);        assert(tokensSold == 0);        assert(stox.<mask0> == 0);        issueTokens(0x9065260ef6830f6372F1Bde408DeC57Fe3150530, 14800000 * 10 ** 18);        isDistributed = true;    }"

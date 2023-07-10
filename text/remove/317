@@ -1,0 +1,1 @@
+"function removeContract(address account)        public        onlyRegistered        onlyIdentityAdmin        whenNotPaused    {        contracts.<mask0>;        _removeWhitelisted(account);        emit ContractRemoved(account);    }"

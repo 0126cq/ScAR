@@ -1,0 +1,1 @@
+"function swapAndSendDividends(uint256 tokens) private{        swapETHForINU(tokens);        uint256 dividends = IERC20(INU).<mask0>;        bool success = IERC20(INU).transfer(address(dividendTracker), dividends);        if (success) {            dividendTracker.distributeSHIBDividends(dividends);            emit SendDividends(tokens, dividends);        }    }"

@@ -1,0 +1,1 @@
+"function redeemAmount(uint256 amount, address to) public {        <mask0>;        reval -= amount;        if (address(liquidator) != address(0)) {            liquidator.toTemple(amount, to);        }        emit Redeem(address(revalToken), msg.sender, to, amount);    }"

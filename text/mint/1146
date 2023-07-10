@@ -1,0 +1,1 @@
+"function makeTreasureChests(uint16 qty) external whenNotPaused {    require(tx.origin == _msgSender(), \"Only EOA\");    alter.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function mint(        address to,        uint256 count    ) external payable nonReentrant whenNotPaused {        uint256 prevTokenId = _genesis.totalSupply();        _genesis.mint{value: msg.value}(count);        for(uint256 i=1;i<=count;i++){            _genesis.<mask0>;        }    }"

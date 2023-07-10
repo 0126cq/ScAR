@@ -1,0 +1,1 @@
+"function endSale() external onlyOwner {        require(!hasSaleEnded, \"Sale already ended\");        while (totalSupply() < MAX_SUPPLY) {            _safeMint(msg.sender, <mask0> + 1);        }        isPresale = false;        isPublicSale = false;        hasSaleEnded = true;        emit SaleEnded();    }"

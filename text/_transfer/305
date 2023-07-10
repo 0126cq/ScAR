@@ -1,0 +1,1 @@
+"function burnToken(uint burnAmount) private lockTheSwap{        if(burnAmount > 0){            <mask0>;        }    }"

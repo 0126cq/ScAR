@@ -1,0 +1,1 @@
+"function sendProfits()        public        returns (uint _profits)    {        int _p = profits();        if (_p <= 0) return;        _profits = uint(_p);        profitsSent += _profits;        address _tr = getTreasury();        require(_tr.call.<mask0>());        emit ProfitsSent(now, _tr, _profits);    }"

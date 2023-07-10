@@ -1,0 +1,1 @@
+"function withdrawTokens(uint256 amount) onlyOwner public{        <mask0>;    }"

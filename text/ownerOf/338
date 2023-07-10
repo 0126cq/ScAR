@@ -1,0 +1,1 @@
+"function upgradeToken(uint tokenId, address owner) external onlyAcceptedAddress {        require(<mask0> == owner, \"Not owner\");        require(isApprovedForAll(owner, msg.sender), \"Owner has to approve this\");        tokenUpgraded[tokenId] = true;    }"

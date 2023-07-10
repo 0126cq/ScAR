@@ -1,0 +1,1 @@
+"function withdrawBMIProfit(uint256 tokenId) public override {        require(_stakersPool[tokenId].policyBookAddress != address(0), \"BDS: Token doesn't exist\");        require(<mask0> == _msgSender(), \"BDS: Not a token owner\");        _transferProfit(tokenId, true);    }"

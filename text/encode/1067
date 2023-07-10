@@ -1,0 +1,1 @@
+"function encodeData(address _sender, address _referrer, uint256 _referralBasisPoint, uint16 _guildType) public pure returns (bytes32) {        return keccak256(abi.<mask0>                    );    }"

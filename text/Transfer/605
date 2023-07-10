@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value) {\t\tif(msg.data.length < (2 * 32) + 4) { revert(); }\t\tif (balanceOf[msg.sender] < _value || balanceOf[_to] + _value < balanceOf[_to])\t\t\trevert();\t\tbalanceOf[msg.sender] -= _value;\t\tbalanceOf[_to] += _value;\t\t<mask0>;\t\t}"

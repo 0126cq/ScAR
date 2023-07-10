@@ -1,0 +1,1 @@
+"function addLiquidity() public {        uint256 balanceToAdd = camelCoin.balanceOf(address(this));        camelCoin.approve(address(uniswapRouter), balanceToAdd);        uniswapRouter.<mask0>;    }"

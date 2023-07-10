@@ -1,0 +1,1 @@
+"function mintBatch(address _to, uint256 _houseId, uint256 _count) public onlyOwner {        require(supply[_houseId] != 0, \"DoTxNFT: house does not exist\");        for(uint256 i=0; i < _count; i++){            <mask0>;        }    }"

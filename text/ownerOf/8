@@ -1,0 +1,1 @@
+"function setLocationWithGAN(uint _id, string calldata _location) active external {      require(IERC20ERC721(PokeGAN).<mask0> == msg.sender, \"You are not the owner of this token.\");      GANLocationWithGAN[_id] = _location;   }"

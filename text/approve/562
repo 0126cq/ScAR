@@ -1,0 +1,1 @@
+"function _supply(uint256) internal override {    IERC20 assetToken = _token();    uint256 total = assetToken.balanceOf(address(this));    assetToken.<mask0>;    vault.deposit(total);  }"

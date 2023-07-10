@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId)        public        view        override(ERC721, ERC721URIStorage)        returns (string memory)    {        <mask0>;        if (bytes(baseURI).length == 0) {            return defaultTokenURI;        }        return super.tokenURI(tokenId);    }"

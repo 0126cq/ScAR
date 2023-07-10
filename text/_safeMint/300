@@ -1,0 +1,1 @@
+"function mint() public onlyOwner {        require(_tokenId < MAX_SUPPLY, \"Exceeds maximum supply\");        <mask0>;        _tokenId = _tokenId + 1;    }"

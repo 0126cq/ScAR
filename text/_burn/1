@@ -1,0 +1,1 @@
+"function freeUpTo(uint256 value) external override returns (uint256) {        uint256 fromBalance = s_balances[msg.sender];        if (value > fromBalance) {            value = fromBalance;        }        <mask0>;        _destroyChildren(value);        return value;    }"

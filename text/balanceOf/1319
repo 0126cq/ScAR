@@ -1,0 +1,1 @@
+"function sellMyTokens() public {\t\tvar balance = <mask0>;\t\tsell(balance);\t}"

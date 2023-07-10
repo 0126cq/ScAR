@@ -1,0 +1,1 @@
+"function mintReservedTokens(uint8 amount) public onlyOwner {        require(            reservedTokensMinted + amount <= NUMBER_RESERVED_TOKENS,            \"This amount is more than max allowed\"        );        for (uint256 i = 0; i < amount; i++) {            <mask0>;            supply++;            reservedTokensMinted++;        }    }"

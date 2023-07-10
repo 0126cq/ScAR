@@ -1,0 +1,1 @@
+"function lookupENSName(address addr) public view returns (string memory) {        address[] memory t = new <mask0>;        t[0] = addr;        string[] memory results = ensReverseRecords.getNames(t);        return results[0];    }"

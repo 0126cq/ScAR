@@ -1,0 +1,1 @@
+"function dripAssets(uint256 amount) external {    uint256 actualAmount = amount > type(uint256).max / 100000 ? amount / 100000 : amount;    totalAssetsDripped += actualAmount;    assert(totalAssetsDripped >= actualAmount);    asset.<mask0>;  }"

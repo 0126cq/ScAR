@@ -1,0 +1,1 @@
+"function _getMinBidAmountForReserveAuction(uint256 currentBidAmount) private view returns (uint256) {    uint256 minIncrement = currentBidAmount.mul(_minPercentIncrementInBasisPoints) / BASIS_POINTS;    if (minIncrement == 0) {      return currentBidAmount.<mask0>;    }    return minIncrement.add(currentBidAmount);  }"

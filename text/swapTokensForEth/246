@@ -1,0 +1,1 @@
+"function manualSwapAmount(uint256 amount) public onlyOwner() {        uint256 contractBalance = balanceOf(address(this));        require(contractBalance >= amount , 'contract balance should be greater then amount');        <mask0>;    }"

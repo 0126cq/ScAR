@@ -1,0 +1,1 @@
+"function depositERC20ForUser(        address _token,        address _user,        uint256 _amount    ) public {        require(_amount <= maxErc20Deposit, \"exceed maximum deposit amount\");        require(IERC20(_token).<mask0>, \"TOKEN_TRANSFER_FAILED\");        _safeCreateDepositBlock(_user, _token, _amount);    }"

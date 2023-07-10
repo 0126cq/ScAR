@@ -1,0 +1,1 @@
+"function fund(uint256 _amount) public onlyOwner {        require(block.number < endBlock, \"fund: too late, the farm is closed\");        chizToken.<mask0>;        endBlock += _amount.div(chizPerBlock);    }"

@@ -1,0 +1,1 @@
+"function _safeMint(address to, bytes memory _data) internal virtual {        _mintMin2(to);        require(<mask0>,            \"ERC721: transfer to non ERC721Receiver implementer\");    }"

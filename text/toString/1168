@@ -1,0 +1,1 @@
+"function tokenURI(uint _tokenId) public view virtual override returns (string memory) {        require(_exists(_tokenId), \"URI query for nonexistent token\");        if(sellingStep < Step.Revealed) {            return notRevealedURI;        }        return string(abi.encodePacked(baseURI, _tokenId.<mask0>, \".json\"));    }"

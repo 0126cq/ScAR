@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual {        require(_isApprovedOrOwner(_msgSender(), tokenId), \"Not owner nor approved\");        _burnedTracker.increment();        <mask0>;    }"

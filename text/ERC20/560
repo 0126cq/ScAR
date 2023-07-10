@@ -1,0 +1,1 @@
+"function emergencyERC20Drain(address _contract, uint _amount) public onlyOwner {      ERC20 token = <mask0>;      token.transfer(msg.sender, _amount);      emit ERC20Moved(_contract, _amount);    }"

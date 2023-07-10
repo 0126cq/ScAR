@@ -1,0 +1,1 @@
+"function configDigestFromConfigData(    address _contractAddress,    uint64 _configCount,    address[] calldata _signers,    address[] calldata _transmitters,    uint8 _threshold,    uint64 _encodedConfigVersion,    bytes calldata _encodedConfig  ) internal pure returns (bytes16) {    return bytes16(<mask0>);  }"

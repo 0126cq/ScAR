@@ -1,0 +1,1 @@
+"function _convertIBTToUnderlyingAtRate(uint256 _amount, uint256 _rate) internal view virtual returns (uint256) {        return (_amount.<mask0> / IBT_UNIT);    }"

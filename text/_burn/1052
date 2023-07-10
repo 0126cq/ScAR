@@ -1,0 +1,1 @@
+"function leave(uint _shareAmount) external {        underlying.transfer(msg.sender, _underlyingOf(_shareAmount));        <mask0>;    }"

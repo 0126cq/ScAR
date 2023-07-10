@@ -1,0 +1,1 @@
+"function getFeedPrice() internal returns (uint256 feedPrice) {        (PipLike pip, ) = spotter.ilks(ilk);        (bytes32 val, bool has) = pip.peek();        require(has, \"Clipper/invalid-price\");        feedPrice = rdiv(<mask0>, spotter.par());    }"

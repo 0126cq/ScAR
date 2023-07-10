@@ -1,0 +1,1 @@
+"function unAllowReceiveAddress(address _account)        external        onlyRole(DEFAULT_ADMIN_ROLE)    {        if(_allowedReceive.contains(_account)) {            _allowedReceive.<mask0>;        }    }"

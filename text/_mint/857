@@ -1,0 +1,1 @@
+"function mint_(address to, uint tokenId) external onlyBeacon {        <mask0>;        _setTokenURI(tokenId, IERC721Metadata(nft).tokenURI(tokenId));    }"

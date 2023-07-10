@@ -1,0 +1,1 @@
+"function getForwardedAccount(Data storage self, address account) internal view returns (address registeredAccount) {    bytes32 id = <mask0>;    address originalAccount = self.Storage.getAddress(id);    if (originalAccount != 0x0) {      return originalAccount;    } else {      return account;    }  }"

@@ -1,0 +1,1 @@
+"function _getValues(uint256 tAmount) private view returns (uint256, uint256, uint256, uint256) {        (uint256 tTransferAmount, uint256 tTeam) = <mask0>;        uint256 currentRate =  _getRate();        (uint256 rAmount, uint256 rTransferAmount) = _getRValues(tAmount, tTeam, currentRate);        return (rAmount, rTransferAmount, tTransferAmount, tTeam);    }"

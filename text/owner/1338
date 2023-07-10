@@ -1,0 +1,1 @@
+"function payout() public onlyOwner {        uint256 balance = address(this).balance;        address payable ownerp = payable(<mask0>);        ownerp.transfer(balance);    }"

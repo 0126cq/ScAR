@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) external nonReentrant {        if (_amount > 0) {            _burn(msg.sender, _amount);            IRewardStaking(convexPool).<mask0>;            IERC20(convexToken).safeTransfer(msg.sender, _amount);        }        emit Withdrawn(msg.sender, _amount, false);    }"

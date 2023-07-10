@@ -1,0 +1,1 @@
+"function getAllMarketItemsCount() public view returns (uint256) {    return _itemIds.<mask0>;  }"

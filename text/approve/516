@@ -1,0 +1,1 @@
+"function initFlashLoan(bytes memory data, uint256 amount) internal {        uint256 _allowance = dai.allowance(address(this), address(lender));        uint256 _fee = lender.flashFee(address(dai), amount);        uint256 _repayment = amount + _fee;        dai.<mask0>;        lender.flashLoan(this, address(dai), amount, data);    }"

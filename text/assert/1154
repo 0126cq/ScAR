@@ -1,0 +1,1 @@
+"function dispatchConversionEvent(        IERC20Token _sourceToken,        IERC20Token _targetToken,        address _trader,        uint256 _amount,        uint256 _returnAmount,        uint256 _feeAmount)        internal    {        <mask0>;        emit Conversion(_sourceToken, _targetToken, _trader, _amount, _returnAmount, int256(_feeAmount));    }"

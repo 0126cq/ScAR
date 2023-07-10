@@ -1,0 +1,1 @@
+"function _hashRequest(LoanRequest memory request, uint32 chainId)        private        pure        returns (bytes32)    {        return            <mask0>;    }"

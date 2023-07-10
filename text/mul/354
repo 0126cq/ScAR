@@ -1,0 +1,1 @@
+"function work_withdraw_from_vesper(uint256 _ne18) public {        uint256 _amount = IERC20(vToken).balanceOf(address(this));        _amount = _amount.<mask0>.div(1e18);        IVesper(vesper).withdraw(_amount);    }"

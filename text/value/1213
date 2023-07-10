@@ -1,0 +1,1 @@
+"function recursivelyFetchData(address oracleId, uint256 timestamp, uint256 period, uint256 times) public payable nonReentrant enoughEtherProvided(oracleId, times) {        for (uint256 i = 0; i < times; i++) {\t            _registerQuery(oracleId, timestamp + period * i);        }        IOracleId(oracleId).recursivelyFetchData.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function work_deposit_to_aave(uint256 _ne18) internal {        uint256 _amt = IERC20(token).<mask0>;        _amt = _amt.mul(_ne18).div(1e18);        if (_amt == 0) {            return;        }        IERC20(token).safeApprove(ilp, 0);        IERC20(token).safeApprove(ilp, _amt);        ILP(ilp).deposit(token, _amt, address(this), 0);    }"

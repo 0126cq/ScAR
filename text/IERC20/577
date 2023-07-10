@@ -1,0 +1,1 @@
+"function transferToken(address token) external onlyOwner {        <mask0>.safeTransfer(msg.sender, IERC20(token).balanceOf(address(this)));    }"

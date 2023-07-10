@@ -1,0 +1,1 @@
+"function permanentlyDisableEscapeHatch(    uint256 minimumActionGas,    bytes calldata userSignature,    bytes calldata dharmaSignature  ) external {    _validateActionAndIncrementNonce(      ActionType.DisableEscapeHatch,      abi.<mask0>,      minimumActionGas,      userSignature,      dharmaSignature    );    _ESCAPE_HATCH_REGISTRY.permanentlyDisableEscapeHatch();  }"

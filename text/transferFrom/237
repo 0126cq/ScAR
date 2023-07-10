@@ -1,0 +1,1 @@
+"function deposit(uint256 amount) public {    require(msg.sender == superAdmin, 'not an admin');    require(amount > 0, 'zero');    strongToken.<mask0>;    rewardBalance = rewardBalance.add(amount);  }"

@@ -1,0 +1,1 @@
+"function setMinPrice(uint256 _newPrice) public onlyOwner {        require(msg.sender == <mask0>, \"You are not the owner\");        minPrice = _newPrice;    }"

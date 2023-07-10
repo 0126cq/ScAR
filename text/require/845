@@ -1,0 +1,1 @@
+"function updateSaleState(SaleState state, PresaleState pState) public onlyAdmin {        <mask0>;        if (saleState != state) {            saleState = state;        }        if (pState != presaleState) {            presaleState = pState;        }    }"

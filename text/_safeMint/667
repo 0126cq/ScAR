@@ -1,0 +1,1 @@
+"function signToStatementAndMintBadge() public {        _signToStatement();        <mask0>;    }"

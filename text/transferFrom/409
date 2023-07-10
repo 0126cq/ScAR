@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint _value) onlyPayloadSize(3) notPaused returns (bool success) {\t\tif (controller.<mask0>) {\t\t\tTransfer(_from, _to, _value);\t\t\treturn true;\t\t}\t\treturn false;\t}"

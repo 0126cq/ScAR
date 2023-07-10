@@ -1,0 +1,1 @@
+"function mint(uint256 _mintAmount) public payable mintCompliance(_mintAmount) mintPriceCompliance(_mintAmount) {    require(!paused, 'The Contract is Paused!');    <mask0>;  }"

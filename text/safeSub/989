@@ -1,0 +1,1 @@
+"function transferFrom(address _from,address _to,uint256 _value) public whenTransferable returns (bool success){    require(allowance[_from][msg.sender] >= _value);    allowance[_from][msg.sender] = allowance[_from][msg.sender].<mask0>;    _transfer(_from,_to,_value);    return true;    }"

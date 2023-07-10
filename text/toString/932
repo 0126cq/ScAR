@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId, INounsSeeder.Seed memory seed) external view override returns (string memory) {        if (isDataURIEnabled) {            return dataURI(tokenId, seed);        }        return string(abi.encodePacked(baseURI, tokenId.<mask0>));    }"

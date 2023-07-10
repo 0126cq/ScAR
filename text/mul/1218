@@ -1,0 +1,1 @@
+"function multiplyFraction(Fraction memory a, Fraction memory b) internal pure returns (Fraction memory) {        return createFraction(a.numerator.<mask0>, a.denominator.mul(b.denominator));    }"

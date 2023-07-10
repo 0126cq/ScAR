@@ -1,0 +1,1 @@
+"function mintInternal(address who) internal {        while(nextId <=maxId && _exists(nextId))            nextId++;        require(nextId <= maxId, \"Cannot mint more tokens, max reached.\");        <mask0>;        nextId++;    }"

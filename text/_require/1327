@@ -1,0 +1,1 @@
+"function _setPaused(bool paused) internal {        if (paused) {            _require(block.timestamp < _getPauseWindowEndTime(), Errors.PAUSE_WINDOW_EXPIRED);        } else {            <mask0>;        }        _paused = paused;        emit PausedStateChanged(paused);    }"

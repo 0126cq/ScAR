@@ -1,0 +1,1 @@
+"function _transferStandard(address sender, address recipient, uint amount, uint fee) private {        (uint transferAmount, uint team) = <mask0>;        _owned[sender] = _owned[sender] - amount;        _owned[recipient] = _owned[recipient] + transferAmount;         _takeTeam(team);        emit Transfer(sender, recipient, transferAmount);    }"

@@ -1,0 +1,1 @@
+"function getReward() external {    uint256 rewards = _updateReward(msg.sender, Governance.lockedBalance(msg.sender));    rewards = rewards.add(accumulatedRewards[msg.sender]);    accumulatedRewards[msg.sender] = 0;    torn.<mask0>;    emit RewardsClaimed(msg.sender, rewards);  }"

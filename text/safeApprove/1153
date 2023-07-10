@@ -1,0 +1,1 @@
+"function _deposit() internal virtual override {        uint _want = IERC20(want).balanceOf(address(this));        if (_want > 0) {            IERC20(want).<mask0>;            IERC20(want).safeApprove(gauge, _want);            Gauge(gauge).deposit(_want);        }    }"

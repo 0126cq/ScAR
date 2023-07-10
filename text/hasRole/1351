@@ -1,0 +1,1 @@
+"function revokeAccessRole(address payable account) public payable onlyOwner returns (bool) {    if (<mask0>) {      revokeRole(DEFAULT_ADMIN_ROLE, account);      users.remove(account);      return true;    } else if (hasRole(SUPPORT_ROLE, account)) {      users.remove(account);      revokeRole(SUPPORT_ROLE, account);      return true;    }    return false;  }"

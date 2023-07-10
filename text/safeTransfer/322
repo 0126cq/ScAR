@@ -1,0 +1,1 @@
+"function withdrawReward(IERC20 token, uint256 amount) external onlyRole(GUARDIAN_ROLE) {        require(token != gpoolToken, \"only reward token\");        token.<mask0>;    }"

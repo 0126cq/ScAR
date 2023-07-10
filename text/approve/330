@@ -1,0 +1,1 @@
+"function _addLP(uint256 _ETH, uint256 _GDAO) private{        IERC20(GDAO).<mask0>;        uniswapRouter.addLiquidityETH{value:_ETH}(GDAO, _GDAO, 0, 0, TREASURY, block.timestamp + 30);    }"

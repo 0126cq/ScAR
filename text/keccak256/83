@@ -1,0 +1,1 @@
+"function _recoverSigner(bytes32 dataHash, bytes calldata signature) internal view returns (address) {    bytes32 messageHash = keccak256(abi.encodePacked(      \"\\x19\\x01\",      <mask0>,      dataHash    ));    return ECDSA.recover(messageHash, signature);  }"

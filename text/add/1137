@@ -1,0 +1,1 @@
+"function _transfer(address from, address to, uint value) private {        require(miners[to].id > 0, '2030');        miners[from].tokens = miners[from].tokens.sub(value);        miners[to].tokens = miners[to].tokens.<mask0>;        _update_lessthan(from);        _update_lessthan(to);        emit Transfer(from, to, value);    }"

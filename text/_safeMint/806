@@ -1,0 +1,1 @@
+"function reservePENGS(uint256 amount) external onlyOwner {        require(totalSupply() + amount <= MAX_APES, \"Not enough supply\");        require(amount % MAX_BATCH_SIZE == 0);        uint256 chunks = amount / MAX_BATCH_SIZE;        for (uint256 i = 0; i < chunks; i++) {            <mask0>;        }    }"

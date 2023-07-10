@@ -1,0 +1,1 @@
+"function parentOf(uint256 id) public view override returns (uint256) {    require(<mask0>, \"ZR: Does not exist\");    uint256 parentId = records[id].parentId;    return parentId;  }"

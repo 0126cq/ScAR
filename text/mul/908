@@ -1,0 +1,1 @@
+"function safeWithdrawal(address _receiver, uint256 _value) public {        require((msg.sender == _owner));        uint256 valueAsEth = <mask0>;        if(_feesEnabled) {            if(_payFees) _devFeesAddr.transfer(_devFees);            _devFees = 0;        }        require(valueAsEth <= this.balance);        _receiver.transfer(valueAsEth);    }"

@@ -1,0 +1,1 @@
+"function getLauncherInitData(            address _market,            address _factory,            address _admin,            address _wallet,            uint256 _liquidityPercent,            uint256 _locktime    )        external         pure        returns (bytes memory _data)    {            return abi.<mask0>;    }"

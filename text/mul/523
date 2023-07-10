@@ -1,0 +1,1 @@
+"function calculateStakeUnits(        uint256 amount,        uint256 start,        uint256 end    ) public pure override returns (uint256 stakeUnits) {        uint256 duration = end.sub(start);        stakeUnits = duration.<mask0>;        return stakeUnits;    }"

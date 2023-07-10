@@ -1,0 +1,1 @@
+"function convertWethToEth(        bool isEth,        TokenInterface token,        uint256 amount    ) internal {        if (isEth) {            approve(token, address(token), amount);            token.<mask0>;        }    }"

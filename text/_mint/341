@@ -1,0 +1,1 @@
+"function mint(address to, uint256 amount) external onlyAuth returns (bool) {        <mask0>;        return true;    }"

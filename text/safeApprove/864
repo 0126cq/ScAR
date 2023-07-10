@@ -1,0 +1,1 @@
+"function deposit(        address _epoch,        uint256 _amount    ) external onlyOwner {        IFuture future = IFuture(_epoch);        IERC20(future.underlying()).<mask0>;        future.depositInUnderlying(_amount);    }"

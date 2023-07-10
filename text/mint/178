@@ -1,0 +1,1 @@
+"function buy(uint256 numberOfTokens) external payable {    require(block.timestamp >= saleStartTime, \"Sale is not active\");    require(numberOfTokens <= txLimit, \"Transaction limit exceeded\");    require(msg.value == mintPrice * numberOfTokens, \"Incorrect payment\");    <mask0>;  }"

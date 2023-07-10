@@ -1,0 +1,1 @@
+"function recoverSigner(bytes32 _affidavit, uint8 _v, bytes32 _r, bytes32 _s) public pure returns (address) {    bytes32 hash = <mask0>;    return ecrecover(hash, _v, _r, _s);  }"

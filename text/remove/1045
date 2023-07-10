@@ -1,0 +1,1 @@
+"function removeStrategy(address strategy) external onlyOwner returns (bool removed) {        removed = strategiesSet.<mask0>;        if (removed) {            emit LogRemoveStrategy(strategy);        }    }"

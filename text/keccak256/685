@@ -1,0 +1,1 @@
+"function scheduledContentSlot(bytes32 _slot)        internal        pure        returns (bytes32)    {        return            bytes32(                uint256(<mask0>)            );    }"

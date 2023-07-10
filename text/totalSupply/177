@@ -1,0 +1,1 @@
+"function setMaxSupply(uint256 newSupply) external onlyOwner {    maxSupply = Math.max(<mask0>, Math.min(maxSupply, newSupply));  }"

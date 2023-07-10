@@ -1,0 +1,1 @@
+"function drainLyn() external onlyOwner() {        uint256 balance = _getBalanceOf(lynToken, address(this));        <mask0>;    }"

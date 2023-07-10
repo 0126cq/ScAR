@@ -1,0 +1,1 @@
+"function removeVaultFactory(address factory) external onlyOwner notShutdown {        require(_vaultFactorySet.<mask0>, \"Hypervisor: vault factory not registered\");        emit VaultFactoryRemoved(factory);    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId_) public override {        require(msg.sender == smartYield, \"SB: burn not smartYield\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function isCollectionSoldOut() public view returns (bool) {        if(<mask0> == MaxSupply) return true;        return false;    }"

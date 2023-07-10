@@ -1,0 +1,1 @@
+"function stake(uint256 _stkId,uint256 amount) public virtual {        amount = amount.mul(10**18);    require(BAKED.balanceOf(msg.sender)>= amount,\"Error: User Token Balance is insufficient\");    _totalSupply = _totalSupply + amount;    _balances[msg.sender] = _balances[msg.sender].<mask0>;    BAKED.safeTransferFrom    (msg.sender, address(this), amount);    }"

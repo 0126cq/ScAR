@@ -1,0 +1,1 @@
+"function jackpotGuard(uint _wager)        public        view        returns (bool)    {        uint maxProfit = SafeMath.<mask0>;        uint halfContractBalance = SafeMath.div(contractBalance, 2);        return (maxProfit <= halfContractBalance);    }"

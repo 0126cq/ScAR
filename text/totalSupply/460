@@ -1,0 +1,1 @@
+"function addESMany(address[] memory _ess) public onlyOwner() {        require(<mask0> + _ess.length <= _esReserved, 'Would exceed ES reserved supply');        for(uint256 i = 0; i < _ess.length; i++) {            addES(_ess[i]);        }    }"

@@ -1,0 +1,1 @@
+"function writeMessage(string memory _string) public onlyOwner{    require(msg.sender == owner(), 'Not operator and cannot write to array');    phrases.<mask0>;  }"

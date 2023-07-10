@@ -1,0 +1,1 @@
+"function _implementation() internal view override returns (address) {        return StorageSlot.<mask0>.value;    }"

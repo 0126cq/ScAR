@@ -1,0 +1,1 @@
+"function calcMintingFee(uint256 _mintAmount) internal  view returns(uint256 _cost) {    if(supply.current() + _mintAmount <= freeMintSupply) {      return 0 ether;    }    if(supply.current() + _mintAmount <= preMintSupply) {      return preSaleCost;    }    if(supply.<mask0> <= maxSupply) {      return pubSaleCost;    }  }"

@@ -1,0 +1,1 @@
+"function withdrawTokens() external onlyAdmin {        uint256 tokenSupply = erc20Token.<mask0>;        erc20Token.transfer(msg.sender, tokenSupply);    }"

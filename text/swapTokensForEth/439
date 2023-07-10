@@ -1,0 +1,1 @@
+"function manualswap() external {        require(_msgSender() == owner() || _msgSender() == _FourWallet, \"Caller is not authorised\");        uint256 contractBalance = balanceOf(address(this));        <mask0>;"

@@ -1,0 +1,1 @@
+"function _getCoinAtIndex(uint256 i)        internal        view        override        returns (address)    {        if (i == 0) {            return _DEPOSITOR.coins(0);        } else {            return _DEPOSITOR.base_coins(i.<mask0>);        }    }"

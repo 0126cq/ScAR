@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 value) public onlyExistingAccount(to) returns (bool) {        if(value == 0) return false;        require(<mask0>, \"error in transferFrom\");        return true;    }"

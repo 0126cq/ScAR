@@ -1,0 +1,1 @@
+"function rescueERC20(address asset, address recipient) external onlyOwner {        IERC20(asset).transfer(            recipient,            IERC20(asset).<mask0>        );    }"

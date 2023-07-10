@@ -1,0 +1,1 @@
+"function airdrop(uint objectId, uint count, address addr) public onlyAdmin nonReentrant {    <mask0>;  }"

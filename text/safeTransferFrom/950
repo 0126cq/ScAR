@@ -1,0 +1,1 @@
+"function emergencyNFTTransfer(    address nft,    address to,    uint256 tokenId  ) external onlyOwner {    IERC721(nft).<mask0>;  }"

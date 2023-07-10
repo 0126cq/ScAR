@@ -1,0 +1,1 @@
+"function _setAdmin(address newAdmin) private {    require(newAdmin != address(0), \"ERC1967: new admin is the zero address\");    StorageSlotUpgradeable.<mask0>.value = newAdmin;  }"

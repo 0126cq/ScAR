@@ -1,0 +1,1 @@
+"function changeLifetime(bytes32 schainId, uint lifetime, uint deposit) external allow(\"Schains\") {        schains[schainId].deposit = schains[schainId].deposit.add(deposit);        schains[schainId].lifetime = schains[schainId].lifetime.<mask0>;    }"

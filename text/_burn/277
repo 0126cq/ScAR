@@ -1,0 +1,1 @@
+"function withdraw(uint _shares) public returns (bool) {        uint r = reserves().mul(_shares).div(totalSupply);        <mask0>;        IERC20(RESERVE).transfer(msg.sender, r);        emit Withdrew(msg.sender, _shares, r);        return true;    }"

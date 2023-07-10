@@ -1,0 +1,1 @@
+"function allocateVestingFunds () public {        for (uint i = lastAllocatedAddress; i < _vestingAddress.length; i++) {            if (_bond.<mask0> < _vestingAmount[i] || gasleft() < 20000) {                break;            }            lastAllocatedAddress++;            _bond.transfer(_vestingAddress[i], _vestingAmount[i]);        }    }"

@@ -1,0 +1,1 @@
+"function _receiveRefund() internal {        assert(contractStage >= 2);        require(<mask0> || msg.sender == receiverAddress, \"Receiver or Admins only\");        ethRefundAmount.push(msg.value);        emit RefundReceived(msg.sender, msg.value);    }"

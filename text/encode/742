@@ -1,0 +1,1 @@
+"function getSigner(        address _minter,        uint256 _tokenId,        uint256 _nonce,        bytes memory _signature    ) public view returns (address) {        bytes32 digest = _hashTypedDataV4(            keccak256(abi.<mask0>)        );        return ECDSA.recover(digest, _signature);    }"

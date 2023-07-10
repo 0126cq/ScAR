@@ -1,0 +1,1 @@
+"function addFounderTwo(        string memory _fAlias,        address payable _fAddress)    private {        if (            (keccak256(bytes(founderTwo.founderAlias))) != <mask0>        ) {            founderTwo = FounderWallet(_fAlias, _fAddress);        }    }"

@@ -1,0 +1,1 @@
+"function getPeaceAliensByOwner(address _owner) public view returns (uint256[] memory) {        uint256 tokenCount = balanceOf(_owner);        uint256[] memory tokenIds = new <mask0>;        for (uint256 i; i < tokenCount; i++) {            tokenIds[i] = tokenOfOwnerByIndex(_owner, i);        }        return tokenIds;    }"

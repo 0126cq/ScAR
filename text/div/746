@@ -1,0 +1,1 @@
+"function getScaledInput(        uint256 _actualValue,        uint256 _initialSum,        uint256 _actualSum    ) internal pure returns (uint256) {        if (_initialSum == 0 || _actualSum == 0) return _actualValue;        return (_actualValue.mul(_initialSum)).<mask0>;    }"

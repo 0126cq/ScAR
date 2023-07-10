@@ -1,0 +1,1 @@
+"function buy() payable {\t\tcheckForUpdates();\t\tif (buyPrice == 0) throw;\t\tuint amount = msg.value / buyPrice; \t\tif (balanceOf[this] < amount) throw; \t\tbalanceOf[msg.sender] += amount; \t\tbalanceOf[this] -= amount; \t\t<mask0>; \t}"

@@ -1,0 +1,1 @@
+"function publicMint(uint256 _amount) external payable callerIsUser {        _checkUserCanMint(publicSaleConfig, _amount, publicSaleMinted[msg.sender]);        publicSaleMinted[msg.sender] += _amount;        if(publicSaleConfig.price > 0 || (publicSaleConfig.price == 0 && msg.value > 0)){            _charge(publicSaleConfig.price * _amount);        }        <mask0>;    }"

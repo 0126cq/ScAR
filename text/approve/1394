@@ -1,0 +1,1 @@
+"function increaseAllowance(address _spender, uint256 _value) public virtual returns (bool) {    uint256 currentVal = transferAllowances[msg.sender][_spender];    require(currentVal + _value > currentVal, \"zero value approval increase or arithmetic overflow\");    return <mask0>;  }"

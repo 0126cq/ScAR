@@ -1,0 +1,1 @@
+"function _hashMintPayload(        uint256 _quantity,        uint256 _value,        uint256 _round,        address _account    ) internal pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

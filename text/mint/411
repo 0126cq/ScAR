@@ -1,0 +1,1 @@
+"function deploy_capital(uint256 amount) external override {    require(msg.sender == address(saffron_pool), \"must be pool\");    DAI.safeApprove(address(cDAI), amount);     uint mint_result = cDAI.<mask0>;       assert(mint_result==0);  }"

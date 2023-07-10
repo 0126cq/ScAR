@@ -1,0 +1,1 @@
+"function ownerReserve (uint256 _amount) public onlyOwner {        require (m_landIdCounter.current() + _amount <= MAX_LAND, \"Max supply.\");        for (uint256 i = 0; i < _amount; i++) {            uint256 tokenId = m_landIdCounter.<mask0>;            m_landIdCounter.increment();              _safeMint(msg.sender, tokenId);        }    }"

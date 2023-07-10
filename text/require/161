@@ -1,0 +1,1 @@
+"function setMinimumQuorum(bytes[] calldata signatures, uint256 nonce, uint256 minimumQuorum) external {        <mask0>;        bytes32 hash = keccak256(abi.encodePacked(SET_NEEDED_QUORUM, nonce, minimumQuorum));        checkQuorum(hash, signatures);        quorumNeeded = minimumQuorum;        usedNonces[nonce] = true;    }"

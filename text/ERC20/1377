@@ -1,0 +1,1 @@
+"function transferFrom(address token, address from, address to, uint amount)        public        returns (bool)    {        require(registry.contracts(msg.sender));        return <mask0>.transferFrom(from, to, amount);    }"

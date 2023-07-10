@@ -1,0 +1,1 @@
+"function playerQuit(uint256 _tokenId) public {        require(totalPlayers() < PLAYERS, \"GaEM has Started\");        require(<mask0> == msg.sender, \"not your token\");        transferFrom(msg.sender, deadAddress, _tokenId);        quitters = quitters + 1;        _withdraw(msg.sender, PRICE);    }"

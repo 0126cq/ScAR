@@ -1,0 +1,1 @@
+"function rewardClaimed(uint256 _pid, address _address, uint256 _amount) external returns(bool){        address rewardContract = poolInfo[_pid].crvRewards;        require(msg.sender == rewardContract || msg.sender == lockRewards, \"!auth\");        ITokenMinter(minter).<mask0>;        return true;    }"

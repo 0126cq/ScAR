@@ -1,0 +1,1 @@
+"function getBalance(address addr, address user) internal view returns(uint256) {        if (addr == address(0)) {            return address(addr).balance;        }        ERC20 token = <mask0>;        return token.balanceOf(user);    }"

@@ -1,0 +1,1 @@
+"function deposit(        address tokenAddress,        uint amount    )        public        returns (uint)    {        require(Token(tokenAddress).<mask0>);        uint newBal = add(balances[tokenAddress][msg.sender], amount);        balances[tokenAddress][msg.sender] = newBal;        NewDeposit(tokenAddress, amount);        return newBal;    }"

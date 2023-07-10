@@ -1,0 +1,1 @@
+"function _approve(address _token, address _spender) internal {        require(_spender != address(0), \"Invalid spender\");        require(_token != address(0), \"Invalid token\");        IERC20(_token).<mask0>;    }"

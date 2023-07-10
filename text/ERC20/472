@@ -1,0 +1,1 @@
+"function transferFunds(address _tokenAddress, address _recipient, uint256 _amount) external onlyDispatcher {        require(tokensStore[_tokenAddress].active == true, \"Token not supported\");        require(_amount > 0, \"Cannot transfer 0 tokens\");        <mask0>.transfer(_recipient, _amount);        emit ReleasedFundsEvent(_recipient, _amount);    }"

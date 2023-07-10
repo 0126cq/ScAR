@@ -1,0 +1,1 @@
+"function __transferContractAssetBalancesToFund(address _vaultProxy, address[] memory _assets)        private    {        for (uint256 i = 0; i < _assets.length; i++) {            uint256 postCallAmount = ERC20(_assets[i]).balanceOf(address(this));            if (postCallAmount > 0) {                <mask0>.safeTransfer(_vaultProxy, postCallAmount);            }        }    }"

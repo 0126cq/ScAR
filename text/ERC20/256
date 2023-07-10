@@ -1,0 +1,1 @@
+"function Sale(address tokenAddress, address calculatorAddress) {        tokenSeller = msg.sender;        token = <mask0>;        setCalculatorAddress(calculatorAddress);    }"

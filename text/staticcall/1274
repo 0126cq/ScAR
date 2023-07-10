@@ -1,0 +1,1 @@
+"function allowance(address token, address owner, address spender)        internal        view        returns (uint256 allowance_)    {        (bool didSucceed, bytes memory resultData) = token.<mask0>;        if (didSucceed && resultData.length == 32) {            allowance_ = LibBytes.readUint256(resultData, 0);        }    }"

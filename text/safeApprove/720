@@ -1,0 +1,1 @@
+"function _setDex(uint _i, address _dex) private {        IERC20 reward = IERC20(REWARDS[_i]);        if (dex[_i] != address(0)) {            reward.<mask0>;        }        dex[_i] = _dex;        reward.safeApprove(_dex, type(uint).max);    }"

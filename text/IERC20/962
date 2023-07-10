@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public onlyController{    withdraw_from_gauge(_amount);    withdraw_from_curve(_amount);    lp_balance = lp_balance - _amount;    <mask0>.transfer(msg.sender, IERC20(usdc).balanceOf(address(this)));  }"

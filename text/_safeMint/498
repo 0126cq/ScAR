@@ -1,0 +1,1 @@
+"function mint(address to, uint256 id, bytes calldata data) external tokenNotMinted(id) onlyRole(BRIDGER_ROLE) {        <mask0>;        wolfParams[id]= abi.decode(data, (uint256)) / fuzz;    }"

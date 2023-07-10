@@ -1,0 +1,1 @@
+"function updateUserWithdrawalVector(    address user,    address token,    address integration,    uint32 poolID,    uint256 amount  ) external override onlyController {    bytes memory key = abi.<mask0>;    if (withdrawalVectors[user][key] >= amount) {      withdrawalVectors[user][key] -= amount;    }  }"

@@ -1,0 +1,1 @@
+"function emergencyWithdraw() public {        UserInfo storage user = userInfo[msg.sender];        require(user.amount > 0, \"AlpacaFarm: insufficient balance\");        uint256 amount = user.amount;        user.amount = 0;        user.rewardDebt = 0;        poolInfo.lpToken.<mask0>;        emit EmergencyWithdraw(msg.sender, amount);    }"

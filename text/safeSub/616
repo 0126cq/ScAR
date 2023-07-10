@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint tokens) public validTo(to) returns (bool success) {        allowed[from][msg.sender] = <mask0>;        transferInternal(from, to, tokens);        return true;    }"

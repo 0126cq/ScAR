@@ -1,0 +1,1 @@
+"function depositCollateral(address _collToken, address _cCollToken, uint _depositAmount) internal {        approveCToken(_collToken, _cCollToken);        if (_collToken != ETH_ADDRESS) {            require(CTokenInterface(_cCollToken).<mask0> == 0);        } else {            CEtherInterface(_cCollToken).mint{value: _depositAmount}();         }    }"

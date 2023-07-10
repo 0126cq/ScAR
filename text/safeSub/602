@@ -1,0 +1,1 @@
+"function _rewardWinner(address toAddress) internal {        uint256 winnerCut = rewardPool.safeMul(WINNER_CUT).safeDiv(100);        (bool success, ) = payable(toAddress).call{value: winnerCut}(\"\");        require(success, \"Payment to seed owner failed\");        rewardPool = rewardPool.<mask0>;    }"

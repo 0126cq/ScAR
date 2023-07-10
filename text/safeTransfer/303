@@ -1,0 +1,1 @@
+"function _withdraw(        uint256 _pid,        address _owner,        uint256 _amount    ) internal {        pools[_pid].totalSupply = pools[_pid].totalSupply.sub(_amount);        balances[_pid][_owner] = balances[_pid][_owner].sub(_amount);        IERC20(tokenOf(_pid)).<mask0>;        emit Withdraw(_msgSender(), _owner, _pid, _amount);    }"

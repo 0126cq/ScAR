@@ -1,0 +1,1 @@
+"function pause() public whenNotPaused {        require(<mask0>, \"Must have pause role\");        _pause();    }"

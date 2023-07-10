@@ -1,0 +1,1 @@
+"function withdrawTorn(uint256 amount) external onlyGovernance {    if (amount == type(uint256).max) amount = torn.balanceOf(address(this));    torn.<mask0>;  }"

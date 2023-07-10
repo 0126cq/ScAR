@@ -1,0 +1,1 @@
+"function _authorizeUpgrade(address) internal view override {        require(IAccessControlUpgradeable(address(governance)).<mask0>, \"INVALID_ADMIN\");    }"

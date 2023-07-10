@@ -1,0 +1,1 @@
+"function withdraw() external virtual override withdrawWindow {        (uint256 strikeToSend, uint256 underlyingToSend) = _withdraw();        IERC20(strikeAsset()).safeTransfer(msg.sender, strikeToSend);        if (underlyingToSend > 0) {            IERC20(underlyingAsset()).<mask0>;        }        emit Withdraw(msg.sender, strikeToSend, underlyingToSend);    }"

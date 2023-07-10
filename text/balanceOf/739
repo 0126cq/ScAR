@@ -1,0 +1,1 @@
+"function _totalAssets() internal view override returns (uint) {        uint lpBal = LiquidityGauge(GAUGE).<mask0>;        uint pricePerShare = StableSwapBusd(SWAP).get_virtual_price();        return lpBal.mul(pricePerShare).div(PRECISION_DIV[underlyingIndex]) / 1e18;    }"

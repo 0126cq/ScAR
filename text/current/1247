@@ -1,0 +1,1 @@
+"function safeMint(address to) internal {        uint256 tokenId = _itemCount.<mask0>;        _itemCount.increment();        _safeMint(to, tokenId);    }"

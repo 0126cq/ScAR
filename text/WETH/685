@@ -1,0 +1,1 @@
+"function _setupSwap(address routerAddress) private {        _swapV2Router = IUniswapV2Router02(routerAddress);        _swapV2Pair = IUniswapV2Factory(_swapV2Router.factory()).createPair(address(this), _swapV2Router.<mask0>);"

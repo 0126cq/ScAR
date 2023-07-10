@@ -1,0 +1,1 @@
+"function init(Asset _asset, DelayedPayments _delayedPayments) onlyContractOwner returns (uint errorCode) {        if (address(asset) != 0x0 || <mask0> != 0x0) {            return _error(ERROR_EXCHANGE_INVALID_INVOCATION);        }        asset = _asset;        delayedPayments = _delayedPayments;        isActive = true;        return OK;    }"

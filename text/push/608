@@ -1,0 +1,1 @@
+"function insert(uint256 _priority, uint256 _value) public onlyOwner {        uint256 element = (_priority << 128) | _value;        heapList.<mask0>;        currentSize = currentSize.add(1);        _percUp(currentSize);    }"

@@ -1,0 +1,1 @@
+"function onERC1155Received(address, address from, uint256 id, uint256, bytes calldata)    external    returns (bytes4)  {    if (itemsAreUpgradeable == false) revert ItemsNotUpgradeable();    IInventory inventory = IInventory(itemContractAddress);    inventory.<mask0>;    emit ItemShouldReceiveUpdate(from, id);    return this.onERC1155Received.selector;  }"

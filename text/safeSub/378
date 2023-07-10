@@ -1,0 +1,1 @@
+"function unfreeze(uint256 _value) public whenNotPaused returns (bool success) {        if (freezeOf[msg.sender] < _value) revert();                    freezeOf[msg.sender] = SafeMath.<mask0>;                      \t\t    balanceOf[msg.sender] = SafeMath.safeAdd(balanceOf[msg.sender], _value);        emit Unfreeze(msg.sender, _value);        return true;    }"

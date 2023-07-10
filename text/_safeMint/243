@@ -1,0 +1,1 @@
+"function teamMint(uint256 val) external onlyOwner {        require(val <= teamReservedTokens, \"Not enough tokens reserved for team\");        require(val % 10 == 0, \"Dev tokens can only be minted in batches of 10\");        for (uint256 i = 0; i < val; i += 10) {            <mask0>;        }        teamReservedTokens -= val;    }"

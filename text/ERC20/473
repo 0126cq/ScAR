@@ -1,0 +1,1 @@
+"function addToken(address _tokenAddress) external onlyMultiSig {        require(tokensStore[_tokenAddress].active != true, \"Token already supported\");        tokensStore[_tokenAddress].token = <mask0>;        tokensStore[_tokenAddress].active = true;        tokens.push(_tokenAddress);        emit AddTokenEvent(_tokenAddress);    }"

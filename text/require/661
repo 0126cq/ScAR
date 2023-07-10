@@ -1,0 +1,1 @@
+"function setStrategistGuild(address newStrategistGuild) public {    <mask0>;    strategistGuild = newStrategistGuild;  }"

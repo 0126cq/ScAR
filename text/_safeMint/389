@@ -1,0 +1,1 @@
+"function mint(uint256 _mintAmount) public payable mintCompliance(_mintAmount) mintPriceCompliance(_mintAmount) {    require(!paused, 'mint is paused');    mintedByOwner[_msgSender()] += _mintAmount;    <mask0>;  }"

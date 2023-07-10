@@ -1,0 +1,1 @@
+"function getRate() public view returns (MarketRate memory) {    return _getValidRate(<mask0>);  }"

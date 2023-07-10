@@ -1,0 +1,1 @@
+"function withdrawAllToVault() public restricted {    if (address(rewardPool()) != address(0)) {      exitRewardPool();    }    _liquidateReward();    <mask0>.safeTransfer(vault(), IERC20(underlying()).balanceOf(address(this)));  }"

@@ -1,0 +1,1 @@
+"function transferOwnership(address payable newOwner)        public        virtual        onlyOwner    {        <mask0>;        emit OwnershipTransferred(_owner, newOwner);        _owner = newOwner;    }"

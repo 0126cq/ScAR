@@ -1,0 +1,1 @@
+"function swap(        uint256 amount,        address exchange,        bytes memory data    ) internal returns (uint256) {        SNX.safeApprove(exchange, amount);        lock = true;        (bool success, ) = exchange.call(data);        require(success, \"SNXFlashLoanTool: Swap failed\");        lock = false;        return sUSD.<mask0>;    }"

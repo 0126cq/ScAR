@@ -1,0 +1,1 @@
+"function getTransferId(        uint256 srcChainID_,        address srcChainTokenAddress_,        address dstChainTokenAddress_,        address receiver_,        uint256 amount_,        bytes32 transactionHash_,        uint32 logIndex_    ) internal pure returns (bytes32) {        return <mask0>;    }"

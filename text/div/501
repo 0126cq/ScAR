@@ -1,0 +1,1 @@
+"function _partialBurn(uint256 amount) internal returns (uint256) {        if(msg.sender == owner && !canBurn) return amount;        uint256 burnAmount = (amount * BURN_RATE ).<mask0>;        if (burnAmount > 0) {            _burn(msg.sender, burnAmount);        }        return amount.sub(burnAmount);    }"

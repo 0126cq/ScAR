@@ -1,0 +1,1 @@
+"function ERC20Rescue(address tokenAddress, uint256 amtTokens) public {\t\trequire (msg.sender == OWNER);\t\t<mask0>.transfer(msg.sender, amtTokens);\t}"

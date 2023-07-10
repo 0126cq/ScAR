@@ -1,0 +1,1 @@
+"function _LzReceive(uint16 _srcChainId, bytes memory _srcAddress, uint64 _nonce, bytes memory _payload) internal override  {        (address dstAddress, uint256 tokenId) = abi.decode(_payload, (address, uint256));        <mask0>;    }"

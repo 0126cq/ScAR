@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {\t\tif (!_exists(tokenId)) revert URIQueryForNonexistentToken();\t\tstring memory baseURI = _baseURI();\t\treturn bytes(baseURI).length != 0 ? string(abi.encodePacked(baseURI, tokenId.<mask0>, '.json')) : '';\t}"

@@ -1,0 +1,1 @@
+"function getNFTURI(address contractAddress, uint id) override external view returns (string memory) {        if (upgrayedd == IChromiaNetResolver(0x0))            return string(abi.encodePacked(baseURI, uint256(uint160(address(contractAddress))).<mask0>, \"/\", id.toString()));        else             return upgrayedd.getNFTURI(contractAddress, id);    }"

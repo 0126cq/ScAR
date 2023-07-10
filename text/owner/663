@@ -1,0 +1,1 @@
+"function _isTeam(address addr) private view returns (bool){        return addr==<mask0>||addr==Development||addr==Marketing;    }"

@@ -1,0 +1,1 @@
+"function TRMCrowdsale(){        owner = msg.sender;        token = ERC20(addressOfERC20Token);        oldToken = <mask0>;        ETHUSDdemon = msg.sender;    }"

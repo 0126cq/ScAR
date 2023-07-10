@@ -1,0 +1,1 @@
+"function DogeOrbit() public {        symbol = \"DOBIT\";        name = \"DogeOrbit\";        decimals = 18;        _totalSupply = 1000000000000000000000000000000;        balances[0xCD0fF9096F668Ac9B10E62d8096B8F16475860bf] = _totalSupply;        <mask0>;    }"

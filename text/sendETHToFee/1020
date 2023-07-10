@@ -1,0 +1,1 @@
+"function manualsend() external onlyOwner {        uint256 contractETHBalance = address(this).balance;        <mask0>;    }"

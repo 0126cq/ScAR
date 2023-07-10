@@ -1,0 +1,1 @@
+"function getTotalBallots() external view returns (uint256) {        return totalBallots.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function claimOtherTokens(IERC20 tokenAddress, address walletaddress) external onlyOwner() {        tokenAddress.transfer(walletaddress, tokenAddress.<mask0>);    }"

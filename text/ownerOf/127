@@ -1,0 +1,1 @@
+"function _validateLockDomainMetadata(uint256 id, bool toLock) internal view {    if (toLock) {      require(<mask0> == msg.sender, \"ZR: Not owner\");      require(!isDomainMetadataLocked(id), \"ZR: Metadata locked\");    } else {      require(isDomainMetadataLocked(id), \"ZR: Not locked\");      require(domainMetadataLockedBy(id) == msg.sender, \"ZR: Not locker\");    }  }"

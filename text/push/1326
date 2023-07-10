@@ -1,0 +1,1 @@
+"function start(        uint _minimumPayout,        uint _biddingDeadline,        uint _revealDeadline,        uint _reward,        address _endUser    )        public    {        auctions[_endUser].<mask0>;    }"

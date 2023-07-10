@@ -1,0 +1,1 @@
+"function universalTransfer(        IERC20Upgradeable token,        address to,        uint256 amount    ) internal returns (bool) {        if (amount == 0) {            return true;        }        if (isETH(token)) {            payable(address(uint160(to))).transfer(amount);        } else {            TransferHelper.<mask0>;            return true;        }    }"

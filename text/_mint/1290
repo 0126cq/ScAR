@@ -1,0 +1,1 @@
+"function mint(address recipient_, uint256 amount_)        external        override        onlyMinter    {        uint256 totalMinted = mintedAmounts[msg.sender].add(amount_);        require(            totalMinted <= ceilings[msg.sender],            \"Ludus: Ceiling was breached.\"        );        mintedAmounts[msg.sender] = totalMinted;        <mask0>;    }"

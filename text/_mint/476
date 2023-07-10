@@ -1,0 +1,1 @@
+"function _mintTarget(address reciever, uint256 target) internal {        require(config.allowTarget, \"df\");        require(config.randomAccessMode, \"df\");        if (config.maxSupply != 0) {            require(totalSupply() + 1 <= config.maxSupply);        }        <mask0>;    }"

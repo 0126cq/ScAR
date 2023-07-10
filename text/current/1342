@@ -1,0 +1,1 @@
+"function decayPeriod() public view returns(uint256) {        return _decayPeriod.data.<mask0>;    }"

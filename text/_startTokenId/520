@@ -1,0 +1,1 @@
+"function startTokenId() external pure returns (uint256) {        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function _burnToken(uint256 tokenId) internal {        require(_exists(tokenId), \"Token does not exist or is burnt\");        <mask0>;    }"

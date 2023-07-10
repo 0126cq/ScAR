@@ -1,0 +1,1 @@
+"function daiValue(address token, uint amount) external view returns(uint) {        if (token == WETH) {            return amount.mul(1e18).<mask0>;        }        return amount.mul(perDAI(token)).div(10**uint256(ERC20(token).decimals()));    }"

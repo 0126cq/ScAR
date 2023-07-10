@@ -1,0 +1,1 @@
+"function inCaseStrategyGetStuck(        address _strategy,        address _token    ) external onlyStrategist {        IStrategy(_strategy).withdraw(_token);        IERC20(_token).safeTransfer(            vaultManager.governance(),            <mask0>.balanceOf(address(this))        );    }"

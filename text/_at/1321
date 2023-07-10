@@ -1,0 +1,1 @@
+"function at(AssetAllocationSet storage set, uint256 index)        internal        view        returns (IAssetAllocation)    {        return IAssetAllocation(address(<mask0>));    }"

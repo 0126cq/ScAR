@@ -1,0 +1,1 @@
+"function mintTarget(address reciever, uint256 target) public override {        require(config.allowPrivilege, \"df\");        require(<mask0>, \"require permission\");        _mintTarget(reciever, target);    }"

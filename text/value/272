@@ -1,0 +1,1 @@
+"function transferAndCall(    address to,    uint256 value,    bytes data  )    public    payable    liquid    notThis(to)    returns (bool)  {    require(      transfer(to, value) &&      data.length >= 68    );    assembly {        mstore(add(data, 36), value)        mstore(add(data, 68), caller)    }    require(to.call.<mask0>);    return true;  }"

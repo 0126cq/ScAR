@@ -1,0 +1,1 @@
+"function _lock(address holder, uint256 value, uint256 releaseTime) internal returns(bool) {        _balances[holder] = _balances[holder].<mask0>;        timelockList[holder].push( LockInfo(releaseTime, value) );        emit Lock(holder, value, releaseTime);        return true;    }"

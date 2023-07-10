@@ -1,0 +1,1 @@
+"function verify(ForwardRequest calldata req, bytes calldata signature) public view returns (bool) {        address signer = _hashTypedDataV4(            keccak256(abi.<mask0>)        ).recover(signature);        return _nonces[req.from] == req.nonce && signer == req.from;    }"

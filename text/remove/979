@@ -1,0 +1,1 @@
+"function pop(LinkedList storage self, bool _direction)         internal         returns (uint256) {        bool exists;        uint256 adj;        (exists,adj) = getAdjacent(self, HEAD, _direction);        return <mask0>;    }"

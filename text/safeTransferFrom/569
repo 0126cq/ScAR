@@ -1,0 +1,1 @@
+"function _withdraw721(        address _from,        address _to,        uint256 _tokenId    ) internal {        lockedNfts.remove(_tokenId);        IERC721(nftAddress).<mask0>;    }"

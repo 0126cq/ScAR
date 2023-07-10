@@ -1,0 +1,1 @@
+"function createTokens() isUnderHardCap saleIsOn payable {        multisig.transfer(msg.value);        uint tokens = rate.mul(msg.value).div(1 ether);        token.<mask0>;    }"

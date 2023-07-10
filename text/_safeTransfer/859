@@ -1,0 +1,1 @@
+"function safeTransferFrom(        address from,        address to,        uint256 perpetualID,        bytes memory _data    ) public override onlyApprovedOrOwner(msg.sender, perpetualID) {        <mask0>;    }"

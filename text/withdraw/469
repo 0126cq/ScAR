@@ -1,0 +1,1 @@
+"function _transfer( address token , address to , uint amount ) internal {        if( token == WETH ) {            IWETH( token ).<mask0> ;            TransferHelper.safeTransferETH( to , amount );        } else {            TransferHelper.safeTransfer( token , to , amount ) ;        }    }"

@@ -1,0 +1,1 @@
+"function balance() public view returns (uint256) {        return token.<mask0>;    }"

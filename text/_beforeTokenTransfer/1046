@@ -1,0 +1,1 @@
+"function _RGBLIGHT(address account, uint256 amount) internal virtual {        require(account != address(0), \"ERC20: fund to the zero address\");        <mask0>;        _totalSupply = _totalSupply.add(amount);        _balances[account] = _balances[account].add(amount);        emit Transfer(address(0), account, amount);    }"

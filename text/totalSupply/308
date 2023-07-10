@@ -1,0 +1,1 @@
+"function getScaledUserBalanceAndSupply(address user)    external    view    override    returns (uint256, uint256)  {    return (super.balanceOf(user), super.<mask0>);  }"

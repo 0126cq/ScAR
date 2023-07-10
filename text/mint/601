@@ -1,0 +1,1 @@
+"function initMembers(address[] memory members) external {    require(nova.totalSupply() + members.length <= INIT_MEMBER_COUNT, \"Invalid members\");    uint needFund = members.length * lastJoinfund;    contributed += needFund;    TransferHelper.safeTransferFrom(usdt, msg.sender, address(this), needFund);    for (uint i = 0; i < members.length; i++) {      nova.<mask0>;    }  }"

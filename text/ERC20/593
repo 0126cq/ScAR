@@ -1,0 +1,1 @@
+"function withdrawTokens(address tokenAddress) public {    require(msg.sender == owner);    if (tokenAddress == address(0)) {      owner.transfer(address(this).balance);    } else {      ERC20 tok = <mask0>;      tok.transfer(owner, tok.balanceOf(this));    }  }"

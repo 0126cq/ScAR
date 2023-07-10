@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        uint256 sendAmount = address(this).balance;        address h = payable(msg.sender);        bool success;        (success, ) = h.<mask0>;        require(success, \"Transaction Unsuccessful\");    }"

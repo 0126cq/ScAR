@@ -1,0 +1,1 @@
+"function redeem(uint256 card, uint256 quantity) public {        require(cardCosts[card] != 0, \"Card not found\");        require(RMU.balanceOf(msg.sender, card) >= quantity, \"Not enough cards to redeem for points\");        RMU.burn(msg.sender, card, quantity);        ToshiCash.<mask0>;        emit Redeemed(msg.sender, cardCosts[card]);    }"

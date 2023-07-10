@@ -1,0 +1,1 @@
+"function _transfer(        address sender,        address recipient,        uint256 amount    ) internal virtual override {        if (address(locker) != address(0)) {            locker.lockOrGetPenalty(sender, recipient);        }        ERC20.<mask0>;    }"

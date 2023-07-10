@@ -1,0 +1,1 @@
+"function mintDemons(address _to, uint _count) public payable {        require(totalSupply() + _count <= MAX_DEMONS, \"Max limit\");        require(totalSupply() < MAX_DEMONS, \"Sale end\");        require(_count <= 20, \"Exceeds 20\");        require(msg.value >= price(_count), \"Value below price\");        for(uint i = 0; i < _count; i++){            <mask0>;        }    }"

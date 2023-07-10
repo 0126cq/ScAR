@@ -1,0 +1,1 @@
+"function reserveTokens() public onlyOwner {                uint supply = totalSupply();        uint i;        for (i = 0; i < 100; i++) {            <mask0>;        }    }"

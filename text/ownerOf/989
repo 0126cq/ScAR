@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public {        require(            super.<mask0> == msg.sender,            \"Only token owner can burn.\"        );        super._burn(tokenId);    }"

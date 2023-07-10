@@ -1,0 +1,1 @@
+"function isWhitelisted(string memory schainName) public view override returns (bool) {        return !_automaticDeploy[<mask0>];    }"

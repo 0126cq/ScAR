@@ -1,0 +1,1 @@
+"function AccountFromBytes(bytes memory accountBytes)        public        pure        returns (            uint256 ID,            uint256 balance,            uint256 nonce,            uint256 tokenType        )    {        return abi.<mask0>;    }"

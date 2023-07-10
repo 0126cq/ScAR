@@ -1,0 +1,1 @@
+"function withdrawTokens(IERC20 token) external nonReentrant onlyAdmin {      uint256 balance = token.<mask0>;      token.transfer(msg.sender, balance);  }"

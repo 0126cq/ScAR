@@ -1,0 +1,1 @@
+"function burnLiquidityPoolPortion() public override onlyOwner nonReentrant\t{\t\t(uint256 _stakesAmount, uint256 _sharesAmount) = lpm.burnPoolPortion();\t\t_burnStakes(_stakesAmount);\t\t<mask0>;\t\temit BurnLiquidityPoolPortion(_stakesAmount, _sharesAmount);\t}"

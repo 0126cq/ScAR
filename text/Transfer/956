@@ -1,0 +1,1 @@
+"function ERC20Token() public {        symbol = \"FQZ\";        name = \"fanqizha\";        decimals = 18;        _totalSupply = 1000 * (10**8) * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

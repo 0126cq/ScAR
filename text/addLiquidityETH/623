@@ -1,0 +1,1 @@
+"function addLiquidity() external onlyOwner {        require(!startTrading, \"Trading has already started\");        IUniswapV2Router02 router = IUniswapV2Router02(0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D);        _approve(address(this), address(router), type(uint256).max);        router.<mask0>;    }"

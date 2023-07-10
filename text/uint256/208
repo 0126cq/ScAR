@@ -1,0 +1,1 @@
+"function listToken(address wallet)        public        view        returns (uint256[] memory tokenList)    {        tokenList = new <mask0>;        for (uint256 i = 0; i < balanceOf(wallet); i++) {            tokenList[i] = tokenOfOwnerByIndex(wallet, i);        }    }"

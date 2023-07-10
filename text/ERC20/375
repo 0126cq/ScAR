@@ -1,0 +1,1 @@
+"function withdrawToken(address addr) public onlyOwner{        ERC20(addr).transfer(_msgSender(), <mask0>.balanceOf(address(this)));    }"

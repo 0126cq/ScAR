@@ -1,0 +1,1 @@
+"function _burn(address _burner, uint256 _value) internal {        require(_value <= balances[_burner]);        balances[_burner] = balances[_burner].sub(_value);        totalSupply_ = totalSupply_.sub(_value);        Burn(_burner, _value);        <mask0>;    }"

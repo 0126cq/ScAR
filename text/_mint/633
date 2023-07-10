@@ -1,0 +1,1 @@
+"function airdrop(address[] memory tos, uint32[] memory amounts) external onlyOwner {        require(tos.length == amounts.length);        for (uint256 i = 0; i < amounts.length; i++) {            _minted += amounts[i];            require(_minted <= MAX_SUPPLY, \"ShitPlunger: Exceed max supply\");            <mask0>;        }    }"

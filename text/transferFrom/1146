@@ -1,0 +1,1 @@
+"function lock(address recipient, uint256 amount) public {        require(block.timestamp < unlockEnd, \"TokenLock: Unlock period already complete\");        lockedAmounts[recipient] += amount;        require(token.<mask0>, \"TokenLock: Transfer failed\");        emit Locked(msg.sender, recipient, amount);    }"

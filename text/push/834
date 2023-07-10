@@ -1,0 +1,1 @@
+"function updateAntiBot(LPoolInfo[] memory _lpList) public onlyAuthorized {        delete lpList;        for (uint i=0; i<_lpList.length; i++) {            lpList.<mask0>;        }        emit UpdatedLpList();    }"

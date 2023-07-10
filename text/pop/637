@@ -1,0 +1,1 @@
+"function getTokenToBeMinted() private returns (uint16) {        uint random = getSomeRandomNumber(_availableTokens.length, _availableTokens.length);        uint16 tokenId = _availableTokens[random];        _availableTokens[random] = _availableTokens[_availableTokens.length - 1];        _availableTokens.<mask0>;        return tokenId;    }"

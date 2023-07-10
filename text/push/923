@@ -1,0 +1,1 @@
+"function addToWhitelist(address newElement) external nonReentrant() onlyOwner {        if (whitelist[newElement] == Status.In) {            return;        }        if (whitelist[newElement] == Status.None) {            whitelistIndices.<mask0>;        }        whitelist[newElement] = Status.In;        emit AddedToWhitelist(newElement);    }"

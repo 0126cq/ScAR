@@ -1,0 +1,1 @@
+"function SignatureValidationError(        SignatureValidationErrorCodes code,        bytes32 hash,        address signerAddress,        bytes memory signature    )        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

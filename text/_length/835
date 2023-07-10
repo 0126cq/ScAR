@@ -1,0 +1,1 @@
+"function length(BoosterSet storage set) internal view returns (uint256) {        return <mask0>;    }"

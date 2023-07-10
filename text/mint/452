@@ -1,0 +1,1 @@
+"function startPreSale() external onlyOwner {   require(currentMode == ReleaseMode.CLOSED, \"You already started presale.\");   setSaleStatus(ReleaseMode.PRE_SALE);   <mask0>; }"

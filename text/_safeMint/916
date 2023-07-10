@@ -1,0 +1,1 @@
+"function _mintAnElement(address _to) private {        uint id = _totalSupply();        _tokenIdTracker.increment();        <mask0>;        emit CreateMoondusa(id);    }"

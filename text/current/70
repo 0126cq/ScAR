@@ -1,0 +1,1 @@
+"function safeMint(        address owner,        uint qty    ) public onlyMinter {        require(tokenid.<mask0> + qty < TOTAL_SUPPLY + 1, \"Ran out of quantity\" );        for(uint i=0; i < qty; i++){            super._safeMint(owner, tokenid.current());            tokenid.increment();        }    }"

@@ -1,0 +1,1 @@
+"function withdrawToken(        address token,        address to,        uint256 amount    ) external onlyOwner {        require(to != address(0), \"ZERO_ADDRESS\");        SafeTransferLib.<mask0>;        emit TokenWithdrawn(token, to, amount);    }"

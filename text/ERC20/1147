@@ -1,0 +1,1 @@
+"function pullTokens(address _tokenAddr, uint _amount) public {        address proxyOwner = DSProxyInterface(address(this)).owner();        <mask0>.safeTransferFrom(proxyOwner, address(this), _amount);    }"

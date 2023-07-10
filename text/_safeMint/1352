@@ -1,0 +1,1 @@
+"function _mintLoop(address _receiver, uint256 _mintAmount) internal {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function safeAutoTransferTo(address weth, address token, address to, uint value) internal {        if (address(this) != to) {            if (token == address(0)) {                IWETH(weth).withdraw(value);                Address.sendValue(payable(to), value);            } else {                SafeERC20.safeTransfer(<mask0>, to, value);            }        }    }"

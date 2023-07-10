@@ -1,0 +1,1 @@
+"function collect(IERC20 _token) external override onlyOwner {        if (<mask0> > 0) {            require(_token != ruler, \"xRULER: cannot collect RULER\");        }        uint256 balance = _token.balanceOf(address(this));        require(balance > 0, \"xRULER: _token balance is 0\");        _token.safeTransfer(msg.sender, balance);    }"

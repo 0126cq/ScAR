@@ -1,0 +1,1 @@
+"function swapFromEther(address userAddress,uint amount) public{        <mask0>;        balanceOf[userAddress] = add(balanceOf[userAddress],div(amount,100000000000000));        emit Deposit(msg.sender, amount);        emit SwapFromEther(msg.sender, amount);    }"

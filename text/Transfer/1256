@@ -1,0 +1,1 @@
+"function transfer(address to, uint value) returns (bool) {        assert(_balances[msg.sender] >= value);        _balances[msg.sender] = sub(_balances[msg.sender], value);        _balances[to] = add(_balances[to], value);        <mask0>;        return true;    }"

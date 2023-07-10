@@ -1,0 +1,1 @@
+"function add(UintSet storage set, uint256 value) internal returns (bool) {        if (!contains(set, value)) {            set._values.<mask0>;            set._indexes[value] = set._values.length;            return true;        } else {            return false;        }    }"

@@ -1,0 +1,1 @@
+"function minterMint(address _to, uint256 _amount) external onlyMinter {        require(totalSupply().add(_amount) <= MAX_SUPPLY, \"Mint can't exceed max supply\");        <mask0>;    }"

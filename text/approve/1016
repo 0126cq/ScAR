@@ -1,0 +1,1 @@
+"function transferToZkSync(address _outputToken, uint256 _amountOut) internal {        if (_outputToken == ETH_TOKEN) {            IZkSync(zkSync).depositETH{value: _amountOut}(l2Account);        } else {            IERC20(_outputToken).<mask0>;            IZkSync(zkSync).depositERC20(IERC20(_outputToken), toUint104(_amountOut), l2Account);        }    }"

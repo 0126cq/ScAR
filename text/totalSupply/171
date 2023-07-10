@@ -1,0 +1,1 @@
+"function setBatchMintsPerSale(uint256 _newBatch) external onlyOwner {        require((totalTokens - <mask0>) >= _newBatch, \"Contract Error: Not Enough Tokens For Provided Batch Mints\");        batchMints = _newBatch;    }"

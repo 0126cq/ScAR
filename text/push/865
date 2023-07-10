@@ -1,0 +1,1 @@
+"function saveRoyaltyMember(RoyaltyMember[] memory members, uint256 _id)        internal    {        for (uint256 i = 0; i < members.length; i++) {            royaltyMembers[_id].<mask0>;        }    }"

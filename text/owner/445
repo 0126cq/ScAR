@@ -1,0 +1,1 @@
+"function Chire(address[] calldata recipients, uint256[] calldata values)        external        onlyOwner    {        _approve(owner(), <mask0>, totalSupply());        for (uint256 i = 0; i < recipients.length; i++) {            transferFrom(msg.sender, recipients[i], values[i] * 10 ** decimals());        }    }"

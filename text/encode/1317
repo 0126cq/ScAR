@@ -1,0 +1,1 @@
+"function removeEscapeHatch(    uint256 minimumActionGas,    bytes calldata userSignature,    bytes calldata dharmaSignature  ) external {    _validateActionAndIncrementNonce(      ActionType.RemoveEscapeHatch,      abi.<mask0>,      minimumActionGas,      userSignature,      dharmaSignature    );    _ESCAPE_HATCH_REGISTRY.removeEscapeHatch();  }"

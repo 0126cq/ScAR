@@ -1,0 +1,1 @@
+"function cancelChange(bytes32 configID) external override onlyAdmin {        require(_pendingSet.<mask0>, \"no request\");        uint256 value = _pending[configID].value;        delete _pending[configID];        emit ChangeCanceled(configID, value);    }"

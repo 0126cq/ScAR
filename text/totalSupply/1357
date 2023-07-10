@@ -1,0 +1,1 @@
+"function tokenByIndex(uint256 index)        public        view        override        returns (uint256)    {        require(index < <mask0>, \"ERC721A: global index out of bounds\");        return index;    }"

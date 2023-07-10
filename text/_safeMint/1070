@@ -1,0 +1,1 @@
+"function safeMint(address to, uint256 amount) public onlyRole(OPERATOR_ROLE) {        <mask0>;    }"

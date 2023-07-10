@@ -1,0 +1,1 @@
+"function airdrop(address to, string calldata artistName) public onlyOwner {        uint256 mintedTokenId = _currentIndex;        <mask0>;         emit tokenAirdropped(artistName, mintedTokenId);    }"

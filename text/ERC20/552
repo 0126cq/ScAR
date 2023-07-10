@@ -1,0 +1,1 @@
+"function unstake(        address _vaultProxy,        bytes calldata _actionData,        bytes calldata    ) external onlyIntegrationManager {        uint256 amount = __decodeCallArgs(_actionData);        if (amount == type(uint256).max) {            amount = <mask0>.balanceOf(address(this));        }        __olympusV2Unstake(_vaultProxy, amount);    }"

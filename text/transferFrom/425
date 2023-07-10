@@ -1,0 +1,1 @@
+"function depositIntoLottoPool(uint256 _depositAmount) public {    lottoToken.<mask0>;    currentMinWinAmount += _depositAmount;  }"

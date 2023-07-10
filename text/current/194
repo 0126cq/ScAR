@@ -1,0 +1,1 @@
+"function quote(address tokenIn, uint amount) public view returns (uint minOut) {        return ORACLE.<mask0>;    }"

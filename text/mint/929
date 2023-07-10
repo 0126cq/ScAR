@@ -1,0 +1,1 @@
+"function distributeBounty() onlyOwner {    require(!bountyDistributed);    require(block.timestamp >= END);    uint256 amount = weiRaised.div(100).mul(2);     token.<mask0>;    bountyDistributed = true;  }"

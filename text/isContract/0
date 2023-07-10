@@ -1,0 +1,1 @@
+"function _ensureValidGenericCallTarget(address to) internal view {    if (!to.<mask0>) {      revert(\"Invalid `to` parameter - must supply a contract address containing code.\");    }    if (to == address(this)) {      revert(\"Invalid `to` parameter - cannot supply the address of this contract.\");    }  }"

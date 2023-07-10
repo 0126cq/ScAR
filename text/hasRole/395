@@ -1,0 +1,1 @@
+"function setVersion(string calldata newVersion) external override {        require(<mask0>, \"DEFAULT_ADMIN_ROLE is required\");        emit VersionUpdated(version, newVersion);        version = newVersion;    }"

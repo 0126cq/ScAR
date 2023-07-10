@@ -1,0 +1,1 @@
+"function mintTo( address[] calldata accounts, uint[] calldata ids, uint[] calldata quantities ) external payable onlyDelegates {    require( accounts.length == ids.length,   \"Must provide equal accounts and ids\" );    require( ids.length == quantities.length, \"Must provide equal ids and quantities\");    for(uint i; i < ids.length; ++i ){      <mask0>;    }  }"

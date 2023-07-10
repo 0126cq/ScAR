@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) onlyOwner canMint public returns (bool) {\t\tbool result = super.<mask0>;\t\treturn result;\t}"

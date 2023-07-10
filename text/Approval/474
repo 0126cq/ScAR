@@ -1,0 +1,1 @@
+"function approve(address guy, uint256 wad) public returns (bool) {        allowance[msg.sender][guy] = wad;        <mask0>;        return true;    }"

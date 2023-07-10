@@ -1,0 +1,1 @@
+"function hasSmartContractRole(address _address) public view returns (bool) {        return <mask0>;    }"

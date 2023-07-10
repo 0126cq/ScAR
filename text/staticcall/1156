@@ -1,0 +1,1 @@
+"function compatAllowance(IERC20TokenV06 token, address owner, address spender)        internal        view        returns (uint256 allowance_)    {        (bool didSucceed, bytes memory resultData) = address(token).<mask0>;        if (didSucceed && resultData.length >= 32) {            allowance_ = LibBytesV06.readUint256(resultData, 0);        }    }"

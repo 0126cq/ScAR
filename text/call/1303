@@ -1,0 +1,1 @@
+"function _transferETH(address payable _user, uint256 _amount) internal returns (bool _success) {        (_success, ) = _user.<mask0>;    }"

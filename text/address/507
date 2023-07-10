@@ -1,0 +1,1 @@
+"function patchPaths() external {        _onlyGovernance();        address[] memory path = new <mask0>;        path[0] = crv;        path[1] = weth;        path[2] = cvx;        _setTokenSwapPath(crv, cvx, path);    }"

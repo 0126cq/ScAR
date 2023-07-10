@@ -1,0 +1,1 @@
+"function swap721(uint256 _in, uint256 _out) external {        lockedNfts.add(_in);        lockedNfts.remove(_out);        IERC721(nftAddress).transferFrom(msg.sender, address(this), _in);        IERC721(nftAddress).<mask0>;    }"

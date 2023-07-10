@@ -1,0 +1,1 @@
+"function addManyToRegister(uint256[] calldata tokenIds, uint16 tier) external {        for (uint i = 0; i < tokenIds.length; i++) {            require(bioapes.ownerOf(tokenIds[i]) == _msgSender(), \"BIOAPES: IS NOT OWNER\");            bioapes.<mask0>;            _addNftToRegister(_msgSender(), tokenIds[i], tier);        }    }"

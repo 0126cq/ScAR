@@ -1,0 +1,1 @@
+"function _actualEarned(        address _account    )        internal        view        returns (uint256)    {        return stakers[_account]            .balance            .<mask0>            .div(1e18)            .add(stakers[_account].rewardsEarned);    }"

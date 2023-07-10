@@ -1,0 +1,1 @@
+"function withdraw() external nonReentrant {        Staker storage staker = stakers[msg.sender];        if (staker.stake == 0) {            return;        }        totalStake = totalStake.sub(staker.stake);        require(tokenAddress.<mask0>);        staker.stake = 0;        if (staker.delegatedAmount != 0) {            _undelegate(staker);        }    }"

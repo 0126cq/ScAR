@@ -1,0 +1,1 @@
+"function getTotalNumberOfTokensOwnedByAnAddress(address _owner) public view returns(uint256) {    uint256 totalNumberOfTokensOwned = <mask0>;    return totalNumberOfTokensOwned;  }"

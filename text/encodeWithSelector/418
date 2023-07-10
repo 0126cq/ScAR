@@ -1,0 +1,1 @@
+"function safeDecimals(IERC20 token) internal view returns (uint8) {        (bool success, bytes memory data) = address(token).staticcall(abi.<mask0>);        return success && data.length == 32 ? abi.decode(data, (uint8)) : 18;    }"

@@ -1,0 +1,1 @@
+"function acceptOrder_(address market, bytes calldata data) external onlyBeacon {        _flashLoan(abi.<mask0>);    }"

@@ -1,0 +1,1 @@
+"function withdrawETH(address recipient, uint256 withdrawalAmount) external {        require(isFundTransferer(msg.sender), \"Unauthorized withdraw\");        IWETH(WETH).<mask0>;        Address.sendValue(payable(recipient), withdrawalAmount);    }"

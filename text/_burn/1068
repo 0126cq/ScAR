@@ -1,0 +1,1 @@
+"function burn(address account, uint256 amount) public override onlyMinter {        uint256 shares = _bondsToShares(amount);        _lockedShares = _lockedShares.add(int256(shares));        <mask0>;    }"

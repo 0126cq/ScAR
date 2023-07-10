@@ -1,0 +1,1 @@
+"function Reserve(uint8 _mintAmount, address _receiver) external onlyOwner {    uint totalSupply = totalSupply();    require(totalSupply + _mintAmount <= maxSupply, \"Excedes max supply.\");     <mask0>;     delete _mintAmount;     delete _receiver;     delete totalSupply;  }"

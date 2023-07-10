@@ -1,0 +1,1 @@
+"function _privateLazyInit(bytes memory lazyInitData) private returns (bytes memory lazyInitResponse) {        require(initializer == address(0), \"init\");        initializer = msg.sender;        (host, lazyInitResponse) = abi.<mask0>;        emit Host(address(0), host);        lazyInitResponse = _lazyInit(lazyInitResponse);    }"

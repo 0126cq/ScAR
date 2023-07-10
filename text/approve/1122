@@ -1,0 +1,1 @@
+"function setCrowdsale(address _crowdSaleAddr, uint256 _amountForSale) external onlyOwner {        require(_amountForSale <= crowdSaleAllowance);        uint amount = (_amountForSale == 0) ? crowdSaleAllowance : _amountForSale;        approve(crowdSaleAddr, 0);        <mask0>;        crowdSaleAddr = _crowdSaleAddr;    }"

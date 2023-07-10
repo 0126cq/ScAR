@@ -1,0 +1,1 @@
+"function addSmartContractByAddress(address _contractAddress) accessible external {                   require(_contractAddress != address(0));        <mask0>;        smartContractsAdded[_contractAddress] = true;        smartContracts.push(_contractAddress);    }"

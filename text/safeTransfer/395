@@ -1,0 +1,1 @@
+"function recoverERC20(address _token) public {        require(msg.sender == owner);        IERC20(_token).<mask0>;    }"

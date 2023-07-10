@@ -1,0 +1,1 @@
+"function ensureArrayIsSorted(address[] memory array) internal pure {        if (array.length < 2) {            return;        }        address previous = array[0];        for (uint256 i = 1; i < array.length; ++i) {            address current = array[i];            <mask0>;            previous = current;        }    }"

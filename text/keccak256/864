@@ -1,0 +1,1 @@
+"function hash(        address wallet,        uint256 amount,        uint256 tokenID,        uint256 nonce,        uint256 pricePerUnit,        address denominatedAsset,        address refPorject,        uint256 chainID    ) public pure returns (bytes32) {        return            <mask0>;    }"

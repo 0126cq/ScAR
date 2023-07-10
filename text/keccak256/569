@@ -1,0 +1,1 @@
+"function getSlot(        address issuer_,        uint8 claimType_,        uint64 latestStartTime_,        uint64[] calldata terms_,        uint32[] calldata percentages_    ) public view returns (uint256) {        return            uint256(                <mask0>            );    }"

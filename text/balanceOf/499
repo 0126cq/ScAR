@@ -1,0 +1,1 @@
+"function salvageTokens(ERC20Basic _token, address _to) onlyOwner public {    _token.transfer(_to, _token.<mask0>);  }"

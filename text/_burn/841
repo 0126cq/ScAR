@@ -1,0 +1,1 @@
+"function burnHero(uint256 heroId) external {        require(msg.sender == mergeContract, \"Not allowed\");        require(mergeActive, \"Merge not active\");        require(heroId <= OFFSETAN2, \"Only for Heroes\");        <mask0>;    }"

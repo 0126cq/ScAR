@@ -1,0 +1,1 @@
+"function setUserMrPrice(uint256 _tokenId, uint256 _amount) public  {        require(msg.sender == ownerOf(_tokenId));        require(<mask0>, \"nonexistent token\");        ownedNftPrice[_tokenId] = _amount;    }"

@@ -1,0 +1,1 @@
+"function tokenURI(uint256 _serialId)    public    view    override    returns (string memory)  {    string memory base = _baseURI();    string memory _tokenURI = Strings.<mask0>;    if (bytes(base).length == 0) {      return _tokenURI;    }    return string(abi.encodePacked(base, _tokenURI));  }"

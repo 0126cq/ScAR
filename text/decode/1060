@@ -1,0 +1,1 @@
+"function _getImplementation(address _upgradeBeacon)        private        view        returns (address _implementation)    {        (bool _ok, bytes memory _returnData) = _upgradeBeacon.staticcall(\"\");        require(_ok, string(_returnData));        _implementation = abi.<mask0>;    }"

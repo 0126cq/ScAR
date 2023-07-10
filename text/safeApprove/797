@@ -1,0 +1,1 @@
+"function infinityApprove(IERC20 token, address spender) internal {        if (token.allowance(address(this), spender) <= type(uint256).max / 2) {            <mask0>;        }    }"

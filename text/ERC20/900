@@ -1,0 +1,1 @@
+"function futxMiner() public payable {        require(futx.call.value(msg.value)());        uint256 mined = ERC20(futx).balanceOf(address(this));        <mask0>.approve(mny, mined);        MNY(mny).mine(futx, mined);        uint256 amount = ERC20(mny).balanceOf(address(this));        ERC20(mny).transfer(msg.sender, amount);    }"

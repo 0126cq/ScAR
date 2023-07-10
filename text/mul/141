@@ -1,0 +1,1 @@
+"function purchase(uint amount) public payable {        require(msg.value >= price.<mask0>);        require(supply.add(amount) <= mintLimit);        supply = supply.add(amount);        balances[msg.sender] = balances[msg.sender].add(amount);        emit Transfer(address(0), msg.sender, amount);        address(vault).transfer(msg.value);    }"

@@ -1,0 +1,1 @@
+"function batchMint(address[] memory addresses) external onlyOwner {        require(totalSupply + addresses.length <= publicSaleMaxSupply, \"Count exceeds the maximum allowed supply.\");        for (uint i = 0; i < addresses.length; i++) {            <mask0>;        }    }"

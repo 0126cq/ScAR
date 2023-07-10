@@ -1,0 +1,1 @@
+"function addSigners(address newSignerValue) private {        for (uint i=0; i < signers.length; i++) {            if (signers[i] == newSignerValue) {                revert(\"Signer already exists\");            }        }        signers.<mask0>;        signerLength++;        isSigner[newSignerValue] = true;        emit newSigner(newSignerValue);    }"

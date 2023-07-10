@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner nonReentrant {    require(      payable(<mask0>).send(address(this).balance),      \"Withdrawal Unsuccessful\"    );  }"

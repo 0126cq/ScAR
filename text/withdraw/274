@@ -1,0 +1,1 @@
+"function exitOnxFarmRewardPool() external restricted {      uint256 bal = _onxFarmRewardPoolBalance();      if (bal != 0) {          IMasterChef(onxFarmRewardPool()).<mask0>;          tAlpha.burn(address(this), bal);      }  }"

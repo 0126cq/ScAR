@@ -1,0 +1,1 @@
+"function _takeTeam(uint256 tTeam) private {            uint256 currentRate =  <mask0>;            uint256 rTeam = tTeam.mul(currentRate);            _rOwned[address(this)] = _rOwned[address(this)].add(rTeam);            if(_isExcluded[address(this)])                _tOwned[address(this)] = _tOwned[address(this)].add(tTeam);        }"

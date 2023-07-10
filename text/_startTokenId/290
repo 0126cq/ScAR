@@ -1,0 +1,1 @@
+"function __ERC721A_init_unchained(string memory name_, string memory symbol_) internal onlyInitializingERC721A {        ERC721AStorage.layout()._name = name_;        ERC721AStorage.layout()._symbol = symbol_;        ERC721AStorage.layout()._currentIndex = <mask0>;    }"

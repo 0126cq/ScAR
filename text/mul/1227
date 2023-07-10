@@ -1,0 +1,1 @@
+"function _totalDelegatedSatisfiesProofOfUserCondition(address holder) private view returns (bool) {        ConstantsHolder constantsHolder = ConstantsHolder(contractManager.getContract(\"ConstantsHolder\"));        return _totalDelegatedAmount[holder].delegated.mul(100) >=            _locked[holder].<mask0>;    }"

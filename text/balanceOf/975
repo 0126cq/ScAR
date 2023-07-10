@@ -1,0 +1,1 @@
+"function erc_sweep(address _token, address _to) public {    require(msg.sender == governance, \"must be governance\");    IERC20 tkn = IERC20(_token);    uint256 tBal = tkn.<mask0>;    tkn.safeTransfer(_to, tBal);    emit ErcSwept(msg.sender, _to, _token, tBal);  }"

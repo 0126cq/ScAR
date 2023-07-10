@@ -1,0 +1,1 @@
+"function getDigest(address wallet, uint256 cost, bytes32 nonce) public pure returns (bytes memory) {        return abi.<mask0>;    }"

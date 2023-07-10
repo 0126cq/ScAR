@@ -1,0 +1,1 @@
+"function functionCall(address target, bytes memory data) internal returns (bytes memory) {        <mask0>;        (bool success, bytes memory returndata) = target.call(data);        return verifyCallResult(success, returndata);    }"

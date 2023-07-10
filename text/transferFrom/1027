@@ -1,0 +1,1 @@
+"function _decrementBalance(    address account,    uint256 count,    uint256 tokenId  ) internal {    for (uint256 i; i < count; ++i) {      _noundlesTheory.<mask0>;      _noundlesTheory.safeTransferFrom(account, address(this), tokenId);    }  }"

@@ -1,0 +1,1 @@
+"function sendLooksToTreasury(uint256 amount) external onlyOnwerOrDepositor {        require(amount <= IERC20(looks).balanceOf(address(this)), \"Capacitor: over balance\");        IFlyzTreasury(treasury).deposit(amount, looks, 0);        IFlyzTreasury(treasury).<mask0>;        IFlyzWrappedLOOKS(wrappedLooks).burn(amount);    }"

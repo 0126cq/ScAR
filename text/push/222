@@ -1,0 +1,1 @@
+"function addToBlockchain(string memory _productName, string memory _productDescription, string memory _productCategory, uint _price, string memory _productImageURL, string memory _sellerEmail) external{        product.<mask0>;        id++;    }"

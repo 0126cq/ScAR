@@ -1,0 +1,1 @@
+"function changeMtgyTokenAddy(address _mtgyAddy) external onlyOwner {    mtgyTokenAddy = _mtgyAddy;    _mtgy = <mask0>;  }"

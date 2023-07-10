@@ -1,0 +1,1 @@
+"function _getBalance(address _token) internal view returns (uint256) {        return <mask0>.balanceOf(address(this));    }"

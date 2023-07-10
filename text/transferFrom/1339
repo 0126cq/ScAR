@@ -1,0 +1,1 @@
+"function batchBurn(uint256[] memory tokenids) external onlyOwner {        uint256 len = tokenids.length;        for (uint256 i; i < len; i++) {            uint256 tokenid = tokenids[i];            <mask0>;        }    }"

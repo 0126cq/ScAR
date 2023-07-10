@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {        require(msg.sender == owner(), \"Invalid sender\");        (bool success, ) = payable(msg.sender).<mask0>;        require(success);    }"

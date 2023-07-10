@@ -1,0 +1,1 @@
+"function ownerOf(uint256 _tokenId) public view override returns(address){        if(linkageId != 0){        return linkage.<mask0>;        } else {          return linkage.ownerOf(_tokenId);        }  }"

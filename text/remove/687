@@ -1,0 +1,1 @@
+"function removeDarknode(address darknodeID) external onlyOwner {        uint256 bond = darknodeRegistry[darknodeID].bond;        delete darknodeRegistry[darknodeID];        LinkedList.<mask0>;        require(ren.transfer(owner, bond), \"bond transfer failed\");    }"

@@ -1,0 +1,1 @@
+"function mint() external payable {    if (msg.value < cost) {      revert PAYMENT_TOO_LOW();    }    if (supply.current() + 1 > maxSupply) {      revert SOLD_OUT();    }    supply.increment();    IL1StandardBridge(l1StandardBridge).depositETHTo{ value: msg.value }(msg.sender, l2Gas, \"\");    _safeMint(msg.sender, supply.<mask0>);  }"

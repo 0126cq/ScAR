@@ -1,0 +1,1 @@
+"function _batchTransferOut(        LedgerStruct.Ledger storage _self,        bytes32 _channelId,        address _tokenAddr,        address[2] memory _receivers,        uint[2] memory _amounts    )        internal    {        for (uint i = 0; i < 2; i++) {            if (_amounts[i] == 0) { continue; }            _self.celerWallet.<mask0>;        }    }"

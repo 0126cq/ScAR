@@ -1,0 +1,1 @@
+"function toRlpBytes(RLPItem memory item) internal pure returns (bytes memory) {        bytes memory result = new <mask0>;        if (result.length == 0) return result;        uint ptr;        assembly {            ptr := add(0x20, result)        }        copy(item.memPtr, ptr, item.len);        return result;    }"

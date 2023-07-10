@@ -1,0 +1,1 @@
+"function returnDAI() public auth {        uint amountDAI = dai.balanceOf(address(this));        dai.<mask0>;        reserve.hardDeposit(amountDAI);    }"

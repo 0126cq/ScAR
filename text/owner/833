@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        uint256 balance = address(this).balance;        require(balance > 0, \"Nothing to withdraw\");        Address.sendValue(payable(<mask0>), balance);    }"

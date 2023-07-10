@@ -1,0 +1,1 @@
+"function BootstrapCallFailedError(address target, bytes memory resultData)        internal        pure        returns (bytes memory)    {        return abi.encodeWithSelector(            bytes4(<mask0>),            target,            resultData        );    }"

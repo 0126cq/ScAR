@@ -1,0 +1,1 @@
+"function balanceOfPool() public view virtual override returns (uint256) {        if (ERC20(vault).totalSupply() == 0) return 0;        return <mask0>.balanceOf(address(this))            .mul(getPricePerFullShare())            .div(1e18);    }"

@@ -1,0 +1,1 @@
+"function _totalMinted() internal view returns (uint256) {\tunchecked {\t\treturn _currentIndex - <mask0>;\t}\t}"

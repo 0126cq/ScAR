@@ -1,0 +1,1 @@
+"function initialize(Tornado[] memory _instances, bytes32 _router) external initializer {    router = TornadoRouter(resolve(_router));    for (uint256 i = 0; i < _instances.length; i++) {      _updateInstance(_instances[i]);      instanceIds.<mask0>;    }  }"

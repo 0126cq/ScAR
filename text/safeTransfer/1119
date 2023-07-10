@@ -1,0 +1,1 @@
+"function adjustPosition(uint256 _debtOutstanding) internal override {        uint256 _want = want.balanceOf(address(this));        if (_want > 0) {            want.<mask0>;            IVoterProxy(proxy).deposit(gauge, address(want));        }    }"

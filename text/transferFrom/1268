@@ -1,0 +1,1 @@
+"function approve(IERC20Token _token, address _sender, address _receiver, uint256 _amount) external returns (bool) {        require(msg.sender == owner, \"access denied\");        return _token.<mask0>;    }"

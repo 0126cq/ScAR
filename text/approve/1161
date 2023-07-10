@@ -1,0 +1,1 @@
+"function approve() external {        token.<mask0>;        token.approve(address(vault), type(uint256).max);    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public override{        require(_allowBurn, \"BURN_NOT_ALLOWED\");        super.burn(tokenId);        _burnedTokens[msg.sender].<mask0>;        emit BurnedToken(msg.sender, tokenId);    }"

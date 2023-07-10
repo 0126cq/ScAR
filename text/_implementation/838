@@ -1,0 +1,1 @@
+"function _setBeacon(address beacon, bytes memory data) internal virtual {        bytes32 slot = _BEACON_SLOT;        assembly {            sstore(slot, beacon)        }        if (data.length > 0) {            Address.functionDelegateCall(                <mask0>,                data,                \"BeaconProxy: function call failed\"            );        }    }"

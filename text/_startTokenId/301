@@ -1,0 +1,1 @@
+"function __ERC721A_init(string memory name_, string memory symbol_)        public    {        __Context_init_unchained();        __ERC165_init_unchained();        _name = name_;        _symbol = symbol_;        _currentIndex = <mask0>;    }"

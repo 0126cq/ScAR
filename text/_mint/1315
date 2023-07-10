@@ -1,0 +1,1 @@
+"function _safeMint(        address to,        uint256 id,        bytes memory data    ) internal virtual {        <mask0>;        require(            to.code.length == 0 ||                ERC721TokenReceiver(to).onERC721Received(msg.sender, address(0), id, data) ==                ERC721TokenReceiver.onERC721Received.selector,            \"UNSAFE_RECIPIENT\"        );    }"

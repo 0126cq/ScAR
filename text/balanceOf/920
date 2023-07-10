@@ -1,0 +1,1 @@
+"function balance(address _atoken) public view returns (uint256) {        return IAToken(_atoken).<mask0>;    }"

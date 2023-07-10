@@ -1,0 +1,1 @@
+"function isFinished() internal pure returns (bytes32)    { return <mask0>; }"

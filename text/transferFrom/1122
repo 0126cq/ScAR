@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) enabled public returns (bool) {        require( !_isLocked( sender, amount ) , \"ERC20: Locked balance\");        return super.<mask0>;    }"

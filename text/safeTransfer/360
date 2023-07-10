@@ -1,0 +1,1 @@
+"function borrow(address _to, uint _amount) external nonReentrant returns (uint debtShare) {    require(msg.sender == betaBank, 'borrow/not-BetaBank');    accrue();    IERC20(underlying).<mask0>;    debtShare = Math.ceilDiv(_amount * totalDebtShare, totalLoan);     totalLoanable -= _amount;    totalLoan += _amount;    totalDebtShare += debtShare;  }"

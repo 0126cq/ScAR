@@ -1,0 +1,1 @@
+"function _verifySig(bytes32 data, bytes memory signature)        public        view        returns (bool)    {        return            <mask0>;    }"

@@ -1,0 +1,1 @@
+"function _transfer(address _from, address _to, uint256 _itemId) internal {    require(tokenExists(_itemId));    require(ownerOf(_itemId) == _from);    require(_to != address(0));    require(_to != address(this));    ownerOfItem[_itemId] = _to;    approvedOfItem[_itemId] = 0;    <mask0>;  }"

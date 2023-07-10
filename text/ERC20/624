@@ -1,0 +1,1 @@
+"function computePrice(        address _token,        uint256 _amount    )         public        view        returns (uint256)    {       uint256 decimals = <mask0>.decimals();       uint256 price = prices[_token];       return _amount * price / 10 ** decimals;    }"

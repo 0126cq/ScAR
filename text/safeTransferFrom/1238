@@ -1,0 +1,1 @@
+"function _stake(address account, uint256 amount) private {        cpool.<mask0>;        _writeCheckpoint(account, getCurrentStake(account) + amount);        emit Staked(account, amount);    }"

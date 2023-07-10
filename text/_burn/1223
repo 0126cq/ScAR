@@ -1,0 +1,1 @@
+"function swapCanonicalForBridge(address _bridgeToken, uint256 _amount) external returns (uint256) {        Supply storage supply = swapSupplies[_bridgeToken];        require(supply.cap > 0, \"invalid bridge token\");        supply.total -= _amount;        <mask0>;        IERC20(_bridgeToken).safeTransfer(msg.sender, _amount);        return _amount;    }"

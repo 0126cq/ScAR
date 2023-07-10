@@ -1,0 +1,1 @@
+"function _owns(        address _nftAddress,        address _requesterAddr,        uint256 _tokenId    ) internal view returns (bool) {        IERC721 _nftContract = IERC721(_nftAddress);        return (_nftContract.<mask0> == _requesterAddr);    }"

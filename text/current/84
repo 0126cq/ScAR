@@ -1,0 +1,1 @@
+"function getCurrentId() external view virtual returns (uint256 total) {        return ids.<mask0> - 1;    }"

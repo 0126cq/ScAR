@@ -1,0 +1,1 @@
+"function sendTransaction(ExecutionData storage self)        internal returns (bool)    {        require(self.gasPrice <= tx.gasprice);        return self.toAddress.call.<mask0>.gas(self.callGas)(self.callData);    }"

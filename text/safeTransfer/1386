@@ -1,0 +1,1 @@
+"function withdrawReward() external nonReentrant balanceUpdate(_msgSender()) {    uint256 reward = rainiEarned(_msgSender());    require(reward > 1, \"no reward to withdraw\");    if (reward > 1) {      accountRewardVars[_msgSender()].rainiRewards = 0;      rainiToken.<mask0>;    }    emit RewardWithdrawn(_msgSender(), reward, block.timestamp);  }"

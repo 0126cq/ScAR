@@ -1,0 +1,1 @@
+"function mintPredefinedTokens() external onlyOwner {    require(!mintingFinished);    require(weiRaised > 0);    for (uint i = 0; i < beneficiaries.length; i++) {      if (beneficiaries[i] != address(0) && token.balanceOf(beneficiaries[i]) == 0) {        token.<mask0>;      }    }    mintingFinished = true;  }"

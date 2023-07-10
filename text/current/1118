@@ -1,0 +1,1 @@
+"function airdrop(address[] memory _to) external virtual onlyOwner {        uint256 supply = minted.<mask0>;        require(supply + _to.length <= maxNFTs, \"Not enough left to mint.\");        uint256 _amount = _to.length;        for (uint256 i = 0; i < _amount; i++) {            _safeMint(_to[i], supply + i);            minted.increment();        }    }"

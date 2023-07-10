@@ -1,0 +1,1 @@
+"function skim(address to) external override lock {        address token0_ = _token0;         address token1_ = _token1;         <mask0>;        _safeTransfer(token1_, to, IERC20(token1_).balanceOf(address(this)).sub(reserve1));    }"

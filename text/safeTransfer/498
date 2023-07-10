@@ -1,0 +1,1 @@
+"function withdrawAstoTokens(address recipient) external onlyOwner {    uint256 amount = astoToken.balanceOf(address(this));    astoToken.<mask0>;    emit ASTOWithdrawn(recipient, amount);  }"

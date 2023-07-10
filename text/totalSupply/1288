@@ -1,0 +1,1 @@
+"function offsetTokenURI(uint256 tokenId) internal view returns(uint256) {      if (tokenId <= _teamTokenCount) {          return tokenId;      }      uint normal_tokenId = tokenId - (_teamTokenCount+1);      uint normal_supply = <mask0> - _teamTokenCount;      uint new_normal = (normal_tokenId + _randomCL) % normal_supply;      return new_normal + (_teamTokenCount+1);    }"

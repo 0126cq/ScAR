@@ -1,0 +1,1 @@
+"function log(address p0, string memory p1, bool p2) internal view {\t\t<mask0>;\t}"

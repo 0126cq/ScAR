@@ -1,0 +1,1 @@
+"function mint(address to, uint256 numberOfTokens) private {    require(      (totalSupply + numberOfTokens) <= saleConfig.supplyLimit,      \"Not enough tokens left\"    );    uint256 newId = totalSupply;    for (uint256 i = 0; i < numberOfTokens; i++) {      newId += 1;      <mask0>;    }    totalSupply = newId;  }"

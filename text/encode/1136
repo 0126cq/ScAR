@@ -1,0 +1,1 @@
+"function _encodeUserStatusMessage(address receiver, bool isActive) private pure returns (bytes memory) {        UserStatusMessage memory message = UserStatusMessage(            BaseMessage(MessageType.USER_STATUS),            receiver,            isActive        );        return abi.<mask0>;    }"

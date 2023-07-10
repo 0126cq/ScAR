@@ -1,0 +1,1 @@
+"function mintFor(address to, uint256 amount)        external        onlyRole(SERVER_ROLE)        nonReentrant    {        require(to != address(0), \"Bridge: invalid address\");        acceptedToken.<mask0>;        emit MintFor(to, amount);    }"

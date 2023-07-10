@@ -1,0 +1,1 @@
+"function _totalMinted() internal view virtual returns (uint256) {        unchecked {            return ERC721AStorage.layout()._currentIndex - <mask0>;        }    }"

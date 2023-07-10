@@ -1,0 +1,1 @@
+"function updateMaxTxnAmount(uint256 newNum) external onlyOwner {        require(newNum >= (<mask0> * 1 / 1000)/1e18, \"Cannot set maxTransactionAmount lower than 0.1%\");        maxTransactionAmount = newNum * (10**18);    }"

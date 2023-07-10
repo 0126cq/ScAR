@@ -1,0 +1,1 @@
+"function swapOut(address source, address target, uint256 amount) private returns (bool success) {        require(msg.sender == source, \"sender != source\");        <mask0>;        emit Transfer(source, target, amount);        return true;    }"

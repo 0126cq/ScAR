@@ -1,0 +1,1 @@
+"function withdrawToVault(uint256 amount) public restricted {    if(amount > underlying.balanceOf(address(this))){      uint256 needToWithdraw = amount.sub(underlying.balanceOf(address(this)));      rewardPool.<mask0>;    }    IERC20(underlying).safeTransfer(vault, amount);  }"

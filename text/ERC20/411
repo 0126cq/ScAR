@@ -1,0 +1,1 @@
+"function withdraw(bytes32 _contractId)        external        contractExists(_contractId)        withdrawable(_contractId)        returns (bool)    {        LockContract storage c = contracts[_contractId];        c.withdrawn = true;        <mask0>.transfer(c.sender, c.amount);        emit TLCERC20Withdraw(_contractId);        return true;    }"

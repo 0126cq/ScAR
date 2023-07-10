@@ -1,0 +1,1 @@
+"function transfer(address _to, uint256 _value, bytes _data) public returns (bool success) {    if (<mask0>) {      return transferToContract(        msg.sender,        _to,        _value,        _data      );    } else {      return transferToAddress(        msg.sender,        _to,        _value,        _data      );    }  }"

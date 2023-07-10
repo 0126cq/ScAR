@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {        require(allowed[_from][msg.sender] >= _value);        success =  _transfer(_from, _to, _value);        allowed[_from][msg.sender] =SafeMath.<mask0> ;  }"

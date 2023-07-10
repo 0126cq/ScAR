@@ -1,0 +1,1 @@
+"function substring(bytes memory self, uint offset, uint len) internal pure returns(bytes memory) {        require(offset + len <= self.length);        bytes memory ret = new <mask0>;        uint dest;        uint src;        assembly {            dest := add(ret, 32)            src := add(add(self, 32), offset)        }        memcpy(dest, src, len);        return ret;    }"

@@ -1,0 +1,1 @@
+"function subnode(bytes32 label, bytes32 node)        internal        pure        returns (bytes32 namehash_)    {        namehash_ = <mask0>;    }"

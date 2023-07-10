@@ -1,0 +1,1 @@
+"function sUniDU2UniDU(uint256 amount, address recipient) external nonReentrant() {\t\trequire(<mask0>, \"ADMIN_SWAPPER_ROLE ERROR\");\t\tsUniDU.burn(msg.sender, amount);\t\tuniDU.transfer(recipient, amount/DUVaultRatio);\t\temit Swap(recipient, address(sUniDU), address(uniDU), amount, amount/DUVaultRatio);\t}"

@@ -1,0 +1,1 @@
+"function assetAllowances(address accountAddress, address assetAddress)        public        view        returns (Allowance[] memory)    {        address[] memory assetAddresses = new address[](1);        assetAddresses[0] = assetAddress;        bytes memory allowances =            abi.<mask0>;        return abi.decode(allowances, (Allowance[]));    }"

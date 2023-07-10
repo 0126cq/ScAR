@@ -1,0 +1,1 @@
+"function removeTokenFromVirtualLP(address token)    public    onlyDAOMSIG    returns (bool success) {        require(this.isTokenInVirtualLP(token), \"Token not in Virtual LP\");        return success = virtualLpTokens.<mask0>;    }"

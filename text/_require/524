@@ -1,0 +1,1 @@
+"function _onSwapGivenIn(        SwapRequest memory swapRequest,        uint256 currentBalanceTokenIn,        uint256 currentBalanceTokenOut    ) internal view override returns (uint256) {        <mask0>;        return super._onSwapGivenIn(swapRequest, currentBalanceTokenIn, currentBalanceTokenOut);    }"

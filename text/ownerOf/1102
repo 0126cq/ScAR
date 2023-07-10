@@ -1,0 +1,1 @@
+"function bridgeOut(        uint256 _tokenId,        uint16 _chainId,        string memory _destination    ) public payable {        require(msg.sender == <mask0>, \"is not owner\");        (bool sent, ) = payable(bridge).call{value: msg.value}(\"\");        require(sent);        _burn(_tokenId);        emit BridgeOut(_chainId, _tokenId, _destination, msg.value);    }"

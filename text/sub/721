@@ -1,0 +1,1 @@
+"function _setNodeInMaintenance(uint nodeIndex) private {        nodes[nodeIndex].status = NodeStatus.In_Maintenance;        numberOfActiveNodes = numberOfActiveNodes.<mask0>;        _makeNodeInvisible(nodeIndex);    }"

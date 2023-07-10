@@ -1,0 +1,1 @@
+"function FreeMint(uint256 numTokens) public payable {        require(!paused, \"Paused\");        require(numTokens <= 5 && numTokens >0);        <mask0>;    }"

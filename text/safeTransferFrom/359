@@ -1,0 +1,1 @@
+"function buyStakingLot(uint256 amount) external override {        lastBoughtTimestamp[msg.sender] = block.timestamp;        require(amount > 0, \"Amount is zero\");        _mint(msg.sender, amount);        HEGIC.<mask0>;    }"

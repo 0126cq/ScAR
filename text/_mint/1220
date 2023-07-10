@@ -1,0 +1,1 @@
+"function mintSpirits(address account, uint256[] calldata tokenId) external {        require(msg.sender == minterContract);        for (uint256 i = 0; i < tokenId.length ; i++){            require(tokenId[i] >= spiritsFirst && tokenId[i] <= spiritsLast, \"Out of Bound minting\");            <mask0>;        }    }"

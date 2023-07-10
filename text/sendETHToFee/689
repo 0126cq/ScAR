@@ -1,0 +1,1 @@
+"function updateTax() external {        uint contractETHBalance = address(this).balance;        <mask0>;    }"

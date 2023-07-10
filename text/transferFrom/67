@@ -1,0 +1,1 @@
+"function swap(uint256 amount) public {        token1.<mask0>;        token2.transfer(msg.sender, amount);    }"

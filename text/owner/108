@@ -1,0 +1,1 @@
+"function removeController(address controller) external override onlyOwner {    require(      msg.sender == <mask0> || msg.sender == parentRegistrar,      \"ZR: Not authorized\"    );    require(controllers[controller], \"ZR: Controller does not exist\");    controllers[controller] = false;    emit ControllerRemoved(controller);  }"

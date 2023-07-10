@@ -1,0 +1,1 @@
+"function _burnFrom(address account, uint256 amount) private {        <mask0>;        _approve(account, msg.sender, s_allowances[account][msg.sender].sub(amount, \"ERC20: burn amount exceeds allowance\"));    }"

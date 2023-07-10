@@ -1,0 +1,1 @@
+"function updateSilo(address account) internal {        DiamondStorage storage ds = diamondStorage();        address facet = ds.selectorToFacetAndPosition[ISiloUpdate.updateSilo.selector].facetAddress;        bytes memory myFunctionCall = abi.<mask0>;        (bool success,) = address(facet).delegatecall(myFunctionCall);        require(success, \"Silo: updateSilo failed.\");    }"

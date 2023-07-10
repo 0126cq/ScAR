@@ -1,0 +1,1 @@
+"function _mint(address _user, uint256 _amount)\t\tinternal\t\tvirtual\t\treturns (uint256)\t{\t\tuint256 curTotalSupply = totalSupply();\t\tuint256 previousBalanceTo = <mask0>;\t\tupdateValueAtNow(totalSupplyHistory, curTotalSupply + _amount);\t\tupdateValueAtNow(balances[_user], previousBalanceTo + _amount);\t\temit Mint(_user, _amount);\t\treturn _amount;\t}"

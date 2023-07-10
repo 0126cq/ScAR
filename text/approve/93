@@ -1,0 +1,1 @@
+"function connectPool(address _poolAddress) internal {        moverPool = IMoverUBTStakePoolV2(_poolAddress);        baseAsset.<mask0>;    }"

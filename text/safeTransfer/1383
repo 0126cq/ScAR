@@ -1,0 +1,1 @@
+"function inCaseTokensGetStuck(        address _token,        uint256 _amount,        address _to    ) public onlyGovernor {        require(_token != wantAddress, \"!safe\");        require(_token != lendingPool, \"!safe\");        IERC20(_token).<mask0>;    }"

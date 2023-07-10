@@ -1,0 +1,1 @@
+"function safeBurn(uint256 _amount) public {        uint canBurn = canBurnAmount(msg.sender);        uint burnAmount = canBurn > _amount ? _amount : canBurn;        redeemed[msg.sender] += burnAmount;        <mask0>;    }"

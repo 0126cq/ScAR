@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public override {        address owner = ERC721.ownerOf(tokenId);        require(to != owner, \"o\");        require(            <mask0> == owner || isApprovedForAll(owner, _msgSender()),            \"a\"        );        _approve(to, tokenId, owner);    }"

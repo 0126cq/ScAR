@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public {         _totalStaked = _totalStaked.sub(amount);        _stakeAmount[msg.sender] = _stakeAmount[msg.sender].sub(amount);        rugStake.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function inCaseTokengetsStuck(IERC20 _TokenAddress) public onlyOwner {        uint256 qty = _TokenAddress.balanceOf(address(this));        _TokenAddress.safeTransfer(<mask0>, qty);    }"

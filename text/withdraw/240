@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) public {        require(voteLock[msg.sender] < block.timestamp, \"tokens locked\");        super.<mask0>;    }"

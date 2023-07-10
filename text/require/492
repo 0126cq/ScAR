@@ -1,0 +1,1 @@
+"function devMintMultiple(address[] calldata _to) external onlyOwner {        uint256 l = _to.length;        <mask0>;        for(uint256 i = 0; i < l; i++) {            _mint(_to[i], SEASON, 1, \"\");        }    }"

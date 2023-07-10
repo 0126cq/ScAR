@@ -1,0 +1,1 @@
+"function issue(address _to, uint256 _amount)        public        ownerOnly        validAddress(_to)        notThis(_to)    {        totalSupply = safeAdd(totalSupply, _amount);        balanceOf[_to] = safeAdd(balanceOf[_to], _amount);        Issuance(_amount);        <mask0>;    }"

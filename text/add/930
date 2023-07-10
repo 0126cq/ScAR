@@ -1,0 +1,1 @@
+"function _lock_token(address owner, uint256 amount) internal {        require(owner != address(0), \"LockToken: lock from the zero address\");        require(amount > 0, \"LockToken: the amount is empty\");        _balances[owner] = _balances[owner].sub(amount);        _locked_balances[owner] = _locked_balances[owner].<mask0>;        emit TokenLocked(owner, amount);    }"

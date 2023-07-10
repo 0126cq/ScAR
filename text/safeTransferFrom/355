@@ -1,0 +1,1 @@
+"function _transferFromToken(        IERC20 token,        address to,        uint256 amount    ) internal {        token.<mask0>;    }"

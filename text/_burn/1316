@@ -1,0 +1,1 @@
+"function burn(uint256 _amount) public {        require(_amount <= balanceOf(msg.sender), \"Not enough shares available\");        _transfer(msg.sender, address(this), _amount);        <mask0>;    }"

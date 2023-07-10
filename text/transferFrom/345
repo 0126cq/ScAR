@@ -1,0 +1,1 @@
+"function delegate(address validatorAddress, uint256 amount) payable external override {        require(_erc20Token.<mask0>, \"failed to transfer\");        _delegateTo(msg.sender, validatorAddress, amount);    }"

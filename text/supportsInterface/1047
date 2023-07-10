@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 _interfaceId)    public    view    returns (bool) {        if (_interfaceId == INTERFACE_SIGNATURE_URI) {            return true;        } else {            return super.<mask0>;        }    }"

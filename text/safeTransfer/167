@@ -1,0 +1,1 @@
+"function unstake(uint256 amount, bytes calldata data) external override {        staking_contract_eth.unstakeFrom(msg.sender, amount);        staking_contract_token.unstakeFrom(msg.sender, amount);        _token.<mask0>;        emit Unstaked(msg.sender, amount, totalStakedFor(msg.sender), data);        emit StakeChanged(staking_contract_eth.totalStaked(), block.timestamp);    }"

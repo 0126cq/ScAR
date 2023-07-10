@@ -1,0 +1,1 @@
+"function _mint() internal {    currentId.increment();    tokenIdToSeed[currentId.current()] = uint256(      keccak256(        abi.encodePacked(currentId.current(), blockhash(block.number - 1), msg.sender)      )    );    _safeMint(msg.sender, currentId.<mask0>);  }"

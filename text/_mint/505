@@ -1,0 +1,1 @@
+"function devMintTokensToAddresses(DevMint[] memory _mintData) external onlyOwner contractIsNotFrozen {\t\trequire(_mintData.length > 0, \"At least one token should be minted\");\t\tfor (uint256 i; i < _mintData.length; i++) {\t\t\trequire(_mintData[i].tokenType < TICKET_TYPES_QTY, \"Invalid ticket type\");\t\t\t<mask0>;\t\t}\t}"

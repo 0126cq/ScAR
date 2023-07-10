@@ -1,0 +1,1 @@
+"function stake(uint256 poolId, uint256 tokenId) external nonReentrant whenPoolOpened(poolId) {        address account = <mask0>;        Pool memory pool = getPool(poolId);        _stake(account, pool.collection, tokenId, poolId);        emit Stake(account, poolId, pool.collection, tokenId);    }"

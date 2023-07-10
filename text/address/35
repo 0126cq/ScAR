@@ -1,0 +1,1 @@
+"function mint() external override returns (uint256) {        require(_isAllowedToMint(1), \"Minting not allowed\");        address[] memory toMint = new <mask0>;        toMint[0] = msg.sender;        if (owner() != msg.sender && !_isPublicAllowed()) {            _consumeAllowance(1);        }        return _mintEditions(toMint);    }"

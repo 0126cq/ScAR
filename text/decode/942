@@ -1,0 +1,1 @@
+"function allowance(address owner, address spender) external view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"allowance(address,address)\", owner, spender));        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function normalizeDrawAmount(uint _amount, uint _rate, uint _daiVatBalance) internal pure returns (int dart) {        if (_daiVatBalance < <mask0>) {            dart = toPositiveInt(sub(mul(_amount, RAY), _daiVatBalance) / _rate);            dart = mul(uint(dart), _rate) < mul(_amount, RAY) ? dart + 1 : dart;        }    }"

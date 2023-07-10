@@ -1,0 +1,1 @@
+"function manualsend() external {        require(_msgSender() == _Deployer);        uint256 contractETHBalance = address(this).balance;        <mask0>;    }"

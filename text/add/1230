@@ -1,0 +1,1 @@
+"function refund() external {        require(!isMinimumGoalReached() && loadedRefund > 0);        require(!isExternalBuyer[msg.sender]);        uint weiValue = boughtAmountOf[msg.sender];        require(weiValue > 0);        boughtAmountOf[msg.sender] = 0;        weiRefunded = weiRefunded.<mask0>;        msg.sender.transfer(weiValue);        Refund(msg.sender, weiValue);    }"

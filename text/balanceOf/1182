@@ -1,0 +1,1 @@
+"function tokensToBeReturned(ERC20Basic tokenToClaim) public returns (uint) {    if (address(tokenToClaim) == address(token)) {      return getBalance().minus(tokensAllocatedTotal);    } else {      return tokenToClaim.<mask0>;    }  }"

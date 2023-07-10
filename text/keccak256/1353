@@ -1,0 +1,1 @@
+"function compareStrings (string a, string b) internal pure returns (bool){       return keccak256(a) == <mask0>;"

@@ -1,0 +1,1 @@
+"function setExpiryTime(uint256 tokenId, uint256 time) external onlyOwner {        require(<mask0>, \"NFTYToken: Token does not exist\");        tokenExpiry[tokenId] = time;    }"

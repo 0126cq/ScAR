@@ -1,0 +1,1 @@
+"function addPool(address newPool) onlyOwner {        <mask0>;        if (isPool(newPool)) throw;        pools.push(newPool);    }"

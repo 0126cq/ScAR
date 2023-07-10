@@ -1,0 +1,1 @@
+"function TUPC() {      totalSupply = 1000000000 * (10**(uint256(decimals)));      balances[0x1cda5B1945E032BA751Aa217E1967732ac91e955] = totalSupply;    \t  <mask0>;    }"

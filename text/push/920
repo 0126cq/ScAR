@@ -1,0 +1,1 @@
+"function initializeModule() external {        require(!isLocked, \"Only when unlocked\");        require(moduleStates[msg.sender] == ISetToken.ModuleState.PENDING, \"Module must be pending\");        moduleStates[msg.sender] = ISetToken.ModuleState.INITIALIZED;        modules.<mask0>;        emit ModuleInitialized(msg.sender);    }"

@@ -1,0 +1,1 @@
+"function devMintMultiple(address[] calldata _to) external onlyOwner {        uint256 l = _to.length;        require(totalSupply(SEASON) + l <= seasons[SEASON].maxSupply, \"underground: cap for season reached\");        for(uint256 i = 0; i < l; i++) {            <mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function withdrawAll(uint256 loanID, address payable receiver) internal {        <mask0>;    }"

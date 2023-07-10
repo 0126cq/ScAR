@@ -1,0 +1,1 @@
+"function withdrawAll() external {    require(msg.sender == client, \"Only client allowed to withdraw\");    pos.transferFrom(client, address(this), pos.balanceOf(client));     pos.<mask0>;  }"

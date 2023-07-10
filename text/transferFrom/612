@@ -1,0 +1,1 @@
+"function allocateSeigniorage(uint256 amount)        external        override        onlyOperator    {        require(amount > 0, 'Boardroom: Cannot allocate 0');        token.<mask0>;        emit RewardAdded(msg.sender, amount);    }"

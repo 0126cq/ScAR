@@ -1,0 +1,1 @@
+"function approveRouter (IERC20 tokenInterface, address routerAddr, uint256 spenderAmount) public onlyController {        require(tokenInterface.<mask0>, \"Approval failed\");    }"

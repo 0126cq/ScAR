@@ -1,0 +1,1 @@
+"function expectedWithdrawableAmount() external view override returns (uint) {        if (<mask0>.totalSupply() == 0) {            return 0;        }        uint shares = IERC20(vault).balanceOf(address(this));        return (IYearnVault(vault).pricePerShare() * shares) / 10**IYearnVault(vault).decimals();    }"

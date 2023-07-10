@@ -1,0 +1,1 @@
+"function burn(uint256 _tokenId) public virtual {    require(msg.sender == ownerOf(_tokenId) || msg.sender == delegate || msg.sender == owner());    inPlay.<mask0>;    _burn(_tokenId);  }"

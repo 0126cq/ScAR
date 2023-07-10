@@ -1,0 +1,1 @@
+"function atomicMint(SequenceCreateData memory sequence, TokenMintData[] memory tokens) external {    startSequence(sequence);    for (uint i = 0; i < tokens.length; i++) {      <mask0>;    }    completeSequence(sequence.sequenceNumber);  }"

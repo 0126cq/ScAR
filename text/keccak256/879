@@ -1,0 +1,1 @@
+"function setTokenVersion(Data storage self, string tokenVersion) internal returns (bool success) {    bytes32 id = <mask0>;    require(      self.Storage.setString(id, tokenVersion),      \"Error: Unable to set storage value. Please ensure contract interface is allowed by the storage contract.\"    );    return true;  }"

@@ -1,0 +1,1 @@
+"function decode(bytes calldata data) internal pure returns (Pair[] memory) {        return abi.<mask0>;    }"

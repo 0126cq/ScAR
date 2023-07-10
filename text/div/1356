@@ -1,0 +1,1 @@
+"function _requireUserAcceptsFee(uint _fee, uint _amount, uint _maxFeePercentage) internal pure {        uint feePercentage = _fee.mul(DECIMAL_PRECISION).<mask0>;        require(feePercentage <= _maxFeePercentage, \"Fee exceeded provided maximum\");    }"

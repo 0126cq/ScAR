@@ -1,0 +1,1 @@
+"function onERC1155Received(        address,        address from,        uint256 id,        uint256 value,        bytes calldata data    ) public override returns (bytes4) {        <mask0>;        _initializeAuction(id, 1155, from, _getStartingPrice(data), uint8(value));        return IERC1155Receiver.onERC1155Received.selector;    }"

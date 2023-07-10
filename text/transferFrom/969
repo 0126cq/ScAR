@@ -1,0 +1,1 @@
+"function addContractBalance(uint amount) public {            require(Token(tokenAddress).<mask0>, \"Cannot add balance!\");        }"

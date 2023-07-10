@@ -1,0 +1,1 @@
+"function retrieve(address newOwner)    external    {        ERC20.<mask0>;        Ownable._setOwner(newOwner);    }"

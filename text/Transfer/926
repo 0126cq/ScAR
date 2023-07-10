@@ -1,0 +1,1 @@
+"function VirtualRealityChain() public {        symbol = \"VRC\";        name = \"Virtual Reality Chain\";        decimals = 18;        _totalSupply = 98 * 1000 * 1000 * 10**uint(decimals);        balances[owner] = _totalSupply;        <mask0>;    }"

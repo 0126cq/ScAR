@@ -1,0 +1,1 @@
+"function gift(address[] calldata receivers) external onlyOwner {        require(receivers.length <= tokensToGift, \"Not enough tokens reserved for gifting\");        for (uint256 i = 0; i < receivers.length; i++) {            <mask0>;        }        tokensToGift -= receivers.length;    }"

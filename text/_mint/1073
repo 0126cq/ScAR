@@ -1,0 +1,1 @@
+"function mint(string memory text)        public        payable        returns (uint256)    {        require(msg.value >= 10 ** 14);        require(_tokenIds < _maxTokens);        require(bytes(text).length <= 120);        _tokenIds += 1;        <mask0>;        _donated[_tokenIds] = msg.value;        _messages[_tokenIds] = text;        return _tokenIds;    }"

@@ -1,0 +1,1 @@
+"function enterMarkets(        address adapter,        address platform,        address[] memory markets    ) internal {        adapter.<mask0>;    }"

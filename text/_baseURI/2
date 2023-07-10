@@ -1,0 +1,1 @@
+"function baseURI() public view returns (string memory) {        return <mask0>;    }"

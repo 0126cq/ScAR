@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) external onlyOwner onlyDuringMinting {        totalSupply = totalSupply.add(_amount);        balances[_to] = balances[_to].add(_amount);        <mask0>;    }"

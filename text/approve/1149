@@ -1,0 +1,1 @@
+"function approveAndCall(address spender, uint256 amount, bytes memory extraData) public returns (bool) {        require(<mask0>);        ApproveAndCallFallBack(spender).receiveApproval(msg.sender, amount, address(this), extraData);        return true;    }"

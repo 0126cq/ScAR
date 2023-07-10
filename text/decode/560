@@ -1,0 +1,1 @@
+"function checkERC721SideForCollection(bytes memory data, address from, address to)        internal        pure    {        (uint256 tokenId) = abi.<mask0>;        require(ArrayUtils.arrayEq(data, abi.encodeWithSignature(\"transferFrom(address,address,uint256)\", from, to, tokenId)));    }"

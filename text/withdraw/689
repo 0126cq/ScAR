@@ -1,0 +1,1 @@
+"function withdrawMultiple(        address[] calldata _darknodes,        address[] calldata _tokens    ) external {        for (uint256 i = 0; i < _darknodes.length; i++) {            for (uint256 j = 0; j < _tokens.length; j++) {                <mask0>;            }        }    }"

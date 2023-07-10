@@ -1,0 +1,1 @@
+"function initialize(        address _logic,        address admin_,        bytes memory _data    ) external initializer{        assert(_ADMIN_SLOT == bytes32(uint256(keccak256(\"eip1967.proxy.admin\")) - 1));        _changeAdmin(admin_);        <mask0>;        _upgradeToAndCall(_logic, _data, false);    }"

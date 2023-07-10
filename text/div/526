@@ -1,0 +1,1 @@
+"function _getTValues(uint256 tAmount, uint256 taxFee, uint256 charityFee) private pure returns (uint256, uint256, uint256) {            uint256 tFee = tAmount.mul(taxFee).<mask0>;            uint256 tCharity = tAmount.mul(charityFee).div(100);            uint256 tTransferAmount = tAmount.sub(tFee).sub(tCharity);            return (tTransferAmount, tFee, tCharity);        }"

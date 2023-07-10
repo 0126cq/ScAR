@@ -1,0 +1,1 @@
+"function addRewardsToken(address _token) external onlyAdmin {        require(_token != address(ibt), \"RewardsFutureVault: ERR_TOKEN_ADDRESS\");        rewardTokens.<mask0>;        emit RewardTokenAdded(_token);    }"

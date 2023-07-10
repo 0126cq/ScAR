@@ -1,0 +1,1 @@
+"function mintFor(    address _user,    uint256 _quantity,    bytes calldata _mintingBlob  ) external onlyAuthorized {    require(_quantity == 1, \"MINT: invalid quantity\");    uint256 id = Parsing.getTokenId(_mintingBlob);    <mask0>;  }"

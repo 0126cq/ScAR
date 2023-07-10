@@ -1,0 +1,1 @@
+"function withdrawEarnings() public advanceRoundIfNeeded {        require(earnings[msg.sender] > 0);        <mask0>;        uint _amount = earnings[msg.sender];        earnings[msg.sender] = 0;        msg.sender.transfer(_amount);        EarningsWithdrawal(now, msg.sender, _amount);    }"

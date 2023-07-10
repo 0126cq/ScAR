@@ -1,0 +1,1 @@
+"function approveAndCall(address spender, uint256 value, bytes memory data) public override returns (bool) {        <mask0>;        require(_checkAndCallApprove(spender, value, data), \"ERC1363: _checkAndCallApprove reverts\");        return true;    }"

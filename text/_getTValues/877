@@ -1,0 +1,1 @@
+"function reflectionFromToken(uint256 tAmount, bool deductTransferFee)    public    view    returns (uint256)  {    require(tAmount <= _tTotal, 'Amount must be less than supply');    uint256 currentRate = _getRate();    if (!deductTransferFee) {      return tAmount * currentRate;    } else {      uint256[4] memory tValues = <mask0>;      return tValues[0] * currentRate;    }  }"

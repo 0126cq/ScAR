@@ -1,0 +1,1 @@
+"function getReward() public {        uint256 reward = earned(msg.sender);        if (reward > 0) {            if (reward > rewardToken.balanceOf(address(this))) {                reward = rewardToken.balanceOf(address(this));            }            rewardToken.<mask0>;        }    }"

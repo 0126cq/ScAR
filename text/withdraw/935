@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        masterchefV1.<mask0>;        emit Withdrawn(pid, 1);    }"

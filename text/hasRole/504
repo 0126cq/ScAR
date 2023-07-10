@@ -1,0 +1,1 @@
+"function setIPFSBaseURI(string calldata uri) external {    require(<mask0>, \"requires DEFAULT_ADMIN_ROLE\");    _ipfsBaseURI = uri;  }"

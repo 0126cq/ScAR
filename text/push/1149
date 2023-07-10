@@ -1,0 +1,1 @@
+"function updateTotalReward(uint64 rewardRate) public onlyBonusProvider isRunning {        require(rewardRate >= 10**decimals && rewardRate <= 1000000 * 10**decimals, \"Out of range\");        totalRewards.<mask0>;    }"

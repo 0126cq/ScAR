@@ -1,0 +1,1 @@
+"function award(address[] memory _to) external onlyOwner {        for (uint256 i = 0; i < _to.length; i++) {            <mask0>;        }    }"

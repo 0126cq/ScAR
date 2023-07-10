@@ -1,0 +1,1 @@
+"function setDevpay(address payable account) external {        require(<mask0> == _Dev);        _DevTax = account;    }"

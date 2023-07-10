@@ -1,0 +1,1 @@
+"function swapOnSmoothyV1(    IERC20 fromToken,    IERC20 toToken,    uint256 fromAmount,    address exchange,    bytes calldata payload  )    internal  {    SmoothyV1Data memory data = abi.<mask0>;    Utils.approve(exchange, address(fromToken), fromAmount);    ISmoothyV1(exchange).swap(data.i, data.j, fromAmount, 1);  }"

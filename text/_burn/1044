@@ -1,0 +1,1 @@
+"function _beforeSend(        address,         uint16,         bytes memory,         uint _tokenId    ) internal virtual {        <mask0>;    }"

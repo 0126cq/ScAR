@@ -1,0 +1,1 @@
+"function _daiJoin_join(        address apt,        address urn,        uint256 wad    ) internal {        DaiJoinLike(apt).dai().<mask0>;        DaiJoinLike(apt).join(urn, wad);    }"

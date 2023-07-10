@@ -1,0 +1,1 @@
+"function interactModule(address _module, bytes calldata _data) external onlyAdapter {        _module.<mask0>;    }"

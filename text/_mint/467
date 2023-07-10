@@ -1,0 +1,1 @@
+"function privateMint(uint256 amount, bytes32[] calldata proof) external payable {        _checkMintValidity(amount, privateTimestamp, true);        if (!MerkleProof.verifyCalldata(proof, merkleRoot, keccak256(abi.encodePacked(msg.sender))))            revert InvalidProof();        <mask0>;    }"

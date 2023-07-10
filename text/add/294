@@ -1,0 +1,1 @@
+"function syncFunds() external {        uint256 prevBalance = address(this).balance;        HorseyToken(tokenAddress).withdraw();        HorseyExchange(exchangeAddress).withdraw();        uint256 newBalance = address(this).balance;        toBeDistributed = toBeDistributed.<mask0>;    }"

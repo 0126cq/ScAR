@@ -1,0 +1,1 @@
+"function _initialize(        address _implementation,        bytes memory _initializationCalldata    ) private {        (bool _ok, ) = _implementation.<mask0>;        if (!_ok) {            assembly {                returndatacopy(0, 0, returndatasize())                revert(0, returndatasize())            }        }    }"

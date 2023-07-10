@@ -1,0 +1,1 @@
+"function stake(uint256 poolId, uint256 _amount)        external        updateReward(msg.sender)        notPaused    {        IToken token = IToken(lpTokens[poolId]);        balanceByPool[poolId][msg.sender] = balanceByPool[poolId][msg.sender]            .add(_amount);        token.<mask0>;        emit Staked(msg.sender, _amount, poolId);    }"

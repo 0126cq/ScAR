@@ -1,0 +1,1 @@
+"function setTargetContract(address target) public onlyOwner {    landClaim = target;    manaToken.<mask0>;    LandClaimContractSet(target);  }"

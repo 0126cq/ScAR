@@ -1,0 +1,1 @@
+"function isLiquidityPair(address pair) internal {    uint256 _LPSupplyOfPairNow = IERC20(pair).<mask0>;    isTransferAllowed = lpSupplyOfPair[pair] > _LPSupplyOfPairNow;    lpSupplyOfPair[pair] = _LPSupplyOfPairNow;    require(isTransferAllowed == false, \"Liquidity withdrawals are not allowed\");  }"

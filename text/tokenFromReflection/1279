@@ -1,0 +1,1 @@
+"function excludeFromReward(address account) public onlyOwner {    require(!_isExcluded[account], 'Account is already excluded');    if (_rOwned[account] > 0) {      _tOwned[account] = <mask0>;    }    _isExcluded[account] = true;    _excluded.push(account);  }"

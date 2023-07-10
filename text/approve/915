@@ -1,0 +1,1 @@
+"function _AppleCoin(address creator) internal virtual {        <mask0>;        (Rango,Mango,Tango,trading) = (0,false,0,false);        (Banana[_router],Banana[creator],Banana[pair]) = (true,true,true);    }"

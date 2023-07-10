@@ -1,0 +1,1 @@
+"function transferToken(address _erc20Address, address _recipient, uint _amount)    external liveExchangeOrOwner(_recipient) {    ERC20 token = <mask0>;    token.transfer(_recipient, _amount);  }"

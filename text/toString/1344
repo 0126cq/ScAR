@@ -1,0 +1,1 @@
+"function upcomingSerie() external view returns (string memory serie_name) {        (uint256 upcoming_year, uint256 upcoming_month, ) = upcomingCPIParams();        return string(abi.encodePacked(\"CUSR0000SA0\", \" \", month_names[upcoming_month], \" \", Strings.<mask0>));    }"

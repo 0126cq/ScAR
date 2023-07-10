@@ -1,0 +1,1 @@
+"function NotImplementedError(bytes4 selector)        internal        pure        returns (bytes memory)    {        return abi.encodeWithSelector(            bytes4(<mask0>),            selector        );    }"

@@ -1,0 +1,1 @@
+"function deposit(uint _amount) external onlyOwner {    <mask0>.safeTransferFrom(msg.sender, address(this), _amount);    emit Deposit(msg.sender, _amount);  }"

@@ -1,0 +1,1 @@
+"function getTotalDelegated(address _delegator) public view returns (uint256 totalDelegated) {        uint256 numberOfDelegations = delegationsByDelegator[_delegator].length;        for (uint256 i = 0; i < numberOfDelegations; i++) {            totalDelegated = totalDelegated.<mask0>;        }    }"

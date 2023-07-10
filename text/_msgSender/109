@@ -1,0 +1,1 @@
+"function keyMint(uint256 _amount) external {        require( block.timestamp > claimStart && claimIsActive, \"You can't claim yet\");        KeysNFT(keysAddress).redeem(<mask0>, _amount);        _mint(_msgSender(), _amount);"

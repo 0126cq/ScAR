@@ -1,0 +1,1 @@
+"function transferableTokens(address holder, uint64 time) constant public returns (uint256) {    uint256 grantIndex = tokenGrantsCount(holder);    if (grantIndex == 0) return balanceOf(holder);     uint256 nonVested = 0;    for (uint256 i = 0; i < grantIndex; i++) {      nonVested = safeAdd(nonVested, nonVestedTokens(grants[holder][i], time));    }    return <mask0>;  }"

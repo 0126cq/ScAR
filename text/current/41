@@ -1,0 +1,1 @@
+"function totalSupply()         external view         returns (uint256)     {        uint256 supply = _tokenIds.<mask0> - 1;        return supply;    }"

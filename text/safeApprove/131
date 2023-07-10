@@ -1,0 +1,1 @@
+"function approveExactToken(    IERC20 _token,    address _spender,    uint256 _amount  ) external onlyInstanceRegistry {    _token.<mask0>;  }"

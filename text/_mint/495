@@ -1,0 +1,1 @@
+"function _safeMint(        address account,        uint256 id,        uint256 amount,        bytes memory data    ) internal virtual {        <mask0>;        _doSafeTransferAcceptanceCheck(            msg.sender,            address(0),            account,            id,            amount,            data        );    }"

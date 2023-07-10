@@ -1,0 +1,1 @@
+"function burn(uint256 _id) external {        require(isBurnEnabled, \"Cyborg Billionaire Club: burning disabled\");        require(            <mask0>,            \"Cyborg Billionaire Club: burn caller is not owner nor approved\"        );        _burn(_id);    }"

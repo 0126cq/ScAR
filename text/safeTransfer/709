@@ -1,0 +1,1 @@
+"function salvage(address _tokenAddress, uint256 _amount) public {        require(msg.sender == strategist || msg.sender == governance, \"not authorized\");        require(_tokenAddress != acBtc, \"cannot salvage\");        require(_amount > 0, \"zero amount\");        IERC20(_tokenAddress).<mask0>;    }"

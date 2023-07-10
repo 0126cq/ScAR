@@ -1,0 +1,1 @@
+"function removeKeyCurrency(uint256 _idx, address _currency)        external        onlyGov    {        require(keyCurrency[_idx] == _currency, \"!match\");        keyCurrency[_idx] = keyCurrency[keyCurrency.length - 1];        keyCurrency.<mask0>;        isKeyCurrency[_currency] = false;    }"

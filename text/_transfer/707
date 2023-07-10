@@ -1,0 +1,1 @@
+"function transferAndCall(address _to, uint256 _tokens, bytes calldata _data) external returns (bool) {\t\t<mask0>;\t\tuint32 _size;\t\tassembly {\t\t\t_size := extcodesize(_to)\t\t}\t\tif (_size > 0) {\t\t\trequire(Callable(_to).tokenCallback(msg.sender, _tokens, _data));\t\t}\t\treturn true;\t}"

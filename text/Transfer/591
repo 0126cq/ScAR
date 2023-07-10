@@ -1,0 +1,1 @@
+"function ALLBI () public {        symbol = \"ALLBI\";        name = \"ALL BEST ICO\";        decimals = 18;        _totalSupply = 666000000000000000000000000;        balances[0xed0b26224D4629264B02f994Dcc4375DA3e6F9e4] = _totalSupply;         <mask0>;    }"

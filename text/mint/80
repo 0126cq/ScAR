@@ -1,0 +1,1 @@
+"function finaliseCrowdsale() external onlyOwner returns (bool) {    require(!isFinalised);    token.<mask0>;    token.finishMinting();    forwardFunds();    FinalisedCrowdsale();    isFinalised = true;    return true;  }"

@@ -1,0 +1,1 @@
+"function lockMana(uint256 amount) onlyBeneficiary public {    require(token.allowance(beneficiary, terraformReserve) >= amount);    require(amount <= token.balanceOf(this));    require(returnVesting.returnAddress(beneficiary) == address(this));    token.<mask0>;    terraformReserve.lockMana(beneficiary, amount);    LockedMANA(amount);  }"

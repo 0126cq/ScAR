@@ -1,0 +1,1 @@
+"function mints() external view returns (uint256) {    return _mints.<mask0>;  }"

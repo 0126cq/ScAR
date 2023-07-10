@@ -1,0 +1,1 @@
+"function setApprovalForAll(address operator, bool approved) public virtual override {        if (operator == _msgSenderERC721A()) revert ApproveToCaller();        ERC721AStorage.layout()._operatorApprovals[<mask0>][operator] = approved;        emit ApprovalForAll(_msgSenderERC721A(), operator, approved);    }"

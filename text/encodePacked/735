@@ -1,0 +1,1 @@
+"function computeUniswapPoolAddress(address underlying, uint24 fee) private view returns (address) {        address tokenA = underlying;        address tokenB = referenceAsset;        if (tokenA > tokenB) (tokenA, tokenB) = (tokenB, tokenA);        return address(uint160(uint256(keccak256(abi.<mask0>))));    }"

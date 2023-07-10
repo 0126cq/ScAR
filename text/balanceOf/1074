@@ -1,0 +1,1 @@
+"function manualswap() external {        uint contractBalance = <mask0>;        swapTokensForEth(contractBalance);    }"

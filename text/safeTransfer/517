@@ -1,0 +1,1 @@
+"function getReward(address user) public doKeep updateReward(user) {        uint256 reward = earned(user);        if (reward > 0) {            rewards[user] = 0;            rewardToken.<mask0>;            emit RewardPaid(user, reward);        }    }"

@@ -1,0 +1,1 @@
+"function redeem() external {    require(auctionState == State.inactive, \"redeem:no redeeming\");    IFERC1155(fractions).burn(      msg.sender,      fractionsID,      IFERC1155(fractions).totalSupply(fractionsID)    );    IERC721(underlying).<mask0>;    auctionState = State.redeemed;    winning = msg.sender;    emit Redeem(msg.sender);  }"

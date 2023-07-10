@@ -1,0 +1,1 @@
+"function withdraw(uint256 _pid, uint256 _amount)        public        override(IPool, PoolStoreWrapper)        updateReward(_pid, _msgSender())    {        require(!stopped, 'BASPool: stopped');        super.<mask0>;        emit WithdrawToken(_msgSender(), _pid, _amount);    }"

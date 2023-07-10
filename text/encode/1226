@@ -1,0 +1,1 @@
+"function emitApproval(        address owner,        address spender,        uint value    ) internal {        proxy._emit(abi.<mask0>, 3, APPROVAL_SIG, addressToBytes32(owner), addressToBytes32(spender), 0);    }"

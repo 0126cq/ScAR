@@ -1,0 +1,1 @@
+"function greenListMint(bytes32[] memory _proofs)        public        payable        nonReentrant    {        require(!publicSale && greenlistSale, \"Greenlist sale has ended\");        bool canMint = canGreenlistMint(msg.sender, _proofs);        require(canMint, \"Address cannot greenlist mint!\");        greenlistMinted[msg.sender] = true;        <mask0>;    }"

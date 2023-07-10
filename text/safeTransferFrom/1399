@@ -1,0 +1,1 @@
+"function stakeFor(address to, uint256 amount) public {        _totalSupply = _totalSupply.add(amount);        _balances[to] = _balances[to].add(amount);        bhs.<mask0>;    }"

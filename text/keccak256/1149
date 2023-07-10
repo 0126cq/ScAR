@@ -1,0 +1,1 @@
+"function hashBridge(uint256 _amount, uint256 _nonce) private view returns (bytes32) {        return keccak256(abi.encodePacked(            \"\\x19\\x01\",           DOMAIN_SEPARATOR,           keccak256(abi.encode(                <mask0>,                _amount,                _nonce            ))        ));    }"

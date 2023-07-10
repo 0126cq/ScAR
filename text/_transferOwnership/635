@@ -1,0 +1,1 @@
+"function initOwnable() internal {        require(owner() == address(0), \"ICHIOwnable: already initialized\");        <mask0>;    }"

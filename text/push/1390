@@ -1,0 +1,1 @@
+"function addTokenDet(        TokenDets storage self,        TokenDet memory _tokenDet    ) public {        if (!self.exists(_tokenDet)) {            self.array.<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function AICT() public {    \ttotalSupply_ = INITIAL_SUPPLY;      balances[msg.sender] = INITIAL_SUPPLY;      <mask0>;"

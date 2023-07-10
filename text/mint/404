@@ -1,0 +1,1 @@
+"function processPurchase(address beneficiary) internal returns(uint256) {        uint256 weiAmount = msg.value;        uint256 tokens = weiAmount.mul(rate);        weiRaised = weiRaised.add(weiAmount);        token.<mask0>;        TokenPurchase(msg.sender, beneficiary, weiAmount, tokens);        forwardFunds();        return tokens;    }"

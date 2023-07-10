@@ -1,0 +1,1 @@
+"function setBaseMetadataURI(string memory _newBaseMetadataURI) external {        require(<mask0>);        super._setBaseMetadataURI(_newBaseMetadataURI);    }"

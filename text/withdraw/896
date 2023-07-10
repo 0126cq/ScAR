@@ -1,0 +1,1 @@
+"function _withdrawReward(address _token, address _account) private {        require(rewardPools[_token] != address(0), \"Reward token does not exist\");        IOwnersRewardsPool(rewardPools[_token]).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function deposit(uint amount) external returns (uint) {        <mask0>.safeTransferFrom(msg.sender, address(this), amount);        return _deposit(amount, msg.sender);    }"

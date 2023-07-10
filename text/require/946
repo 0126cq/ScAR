@@ -1,0 +1,1 @@
+"function decrement(Counter storage counter) internal {        uint256 value = counter._value;        <mask0>;        unchecked {            counter._value = value - 1;        }    }"

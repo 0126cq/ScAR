@@ -1,0 +1,1 @@
+"function prepareMigration(address _newStrategy) internal override {        uint256 _stakedBal = balanceOfStaked();        if (_stakedBal > 0) {            IStaking(staking).withdraw(address(want), _stakedBal);        }        emissionToken.<mask0>;    }"

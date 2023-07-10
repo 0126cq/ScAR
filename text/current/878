@@ -1,0 +1,1 @@
+"function currentPrice() public view returns (uint256){    return priceFor(totalSupply.<mask0> + 1);  }"

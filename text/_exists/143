@@ -1,0 +1,1 @@
+"function _setTokenURI(uint256 tokenId, string memory _tokenURI)    internal    virtual  {    require(<mask0>, \"ERC721Metadata: URI set of nonexistent token\");    _tokenURIs[tokenId] = _tokenURI;  }"

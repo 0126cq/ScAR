@@ -1,0 +1,1 @@
+"function enableOracle() external whenNotPaused authenticate {        _setOracleEnabled(true);        if (<mask0> > 0) {            _cacheInvariantAndSupply();        }    }"

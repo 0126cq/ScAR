@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {        (bool os, ) = payable(owner()).<mask0>;        require(os);    }"

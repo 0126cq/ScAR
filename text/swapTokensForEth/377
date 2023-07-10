@@ -1,0 +1,1 @@
+"function swapAndSendDividends(uint256 tokens) private {        <mask0>;        uint256 dividends = address(this).balance;        (bool success, ) = address(dividendTracker).call{value: dividends}(\"\");         if (success) {            emit SendDividends(tokens, dividends);        }    }"

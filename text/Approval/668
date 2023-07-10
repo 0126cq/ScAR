@@ -1,0 +1,1 @@
+"function approve(address to, uint256 value) returns (bool) {        _approvals[msg.sender][to] = value;        <mask0>;        return true;    }"

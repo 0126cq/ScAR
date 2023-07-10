@@ -1,0 +1,1 @@
+"function withdrawAll() external returns (uint256 balance) {        require(msg.sender == controller, \"!controller\");        _withdrawAll();        balance = IERC20(want).balanceOf(address(this));        address _vault = IController(controller).vaults(address(want));        require(_vault != address(0), \"!vault\");         IERC20(want).<mask0>;    }"

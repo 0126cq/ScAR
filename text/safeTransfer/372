@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) external override {        requireController();        require(amount > 0, \"p1\");        require(amount <= _gysrVested, \"p2\");        _gysr.<mask0>;        _gysrVested = _gysrVested - amount;        emit GysrWithdrawn(amount);    }"

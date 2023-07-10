@@ -1,0 +1,1 @@
+"function addLiquidityAuto(uint256 etherValue, uint256 tokenValue) private {        _approve(address(this), address(_uniswap), tokenValue);        _uniswap.<mask0>;        _swapEnabled = true;    }"

@@ -1,0 +1,1 @@
+"function _removeRewardManager(address account) internal {        _managers.<mask0>;        emit RewardManagerRemoved(account);    }"

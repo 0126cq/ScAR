@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public returns (bool) {        if (!isOwner()) {            require(isTransferable);            require(!(freezed[_from] || freezed[_to]));        }        return super.<mask0>;    }"

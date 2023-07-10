@@ -1,0 +1,1 @@
+"function mintSale(uint256 quantity) public payable {        address to = _msgSender();        require(saleIsActive, \"SaleNotActive\");        require(salePrice.mul(quantity) <= msg.value, \"IncorrectSaleValue\");        addSalePurchaseFor(to, quantity);        <mask0>;    }"

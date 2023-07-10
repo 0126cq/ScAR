@@ -1,0 +1,1 @@
+"function changeMaxWalletSize(uint256 percentage) external onlyOwner{        require(percentage>0);        _maxWalletSize = _tTotal.mul(percentage).<mask0>;    }"

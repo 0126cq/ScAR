@@ -1,0 +1,1 @@
+"function createLock(uint256 _value, uint256 _unlockTime) external returns(bool){        require(msg.sender == depositor, \"!auth\");        IERC20(crvBpt).<mask0>;        IERC20(crvBpt).safeApprove(escrow, _value);        ICurveVoteEscrow(escrow).create_lock(_value, _unlockTime);        return true;    }"

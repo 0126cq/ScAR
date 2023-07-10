@@ -1,0 +1,1 @@
+"function mintBacon(address wallet, uint256 userReward) public {        require(msg.sender == airdropContract, \"PoolStakingRewards: unapproved sender\");        _bacon.<mask0>;    }"

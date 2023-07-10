@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public {        address owner = ownerOf(tokenId);        require(to != owner, \"ERC721: approval to current owner\");        require(msg.sender == owner || <mask0>,            \"ERC721: approve caller is not owner nor approved for all\"        );        _tokenApprovals[tokenId] = to;        emit Approval(owner, to, tokenId);    }"

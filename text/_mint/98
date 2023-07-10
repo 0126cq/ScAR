@@ -1,0 +1,1 @@
+"function mintPresale() external onlyExternal mintable(0) {    require(saleStatus != SaleStatus.CLOSED, \"Presale is not active\");    require(!mintedTier[msg.sender][0], \"You already minted this token\");    require(presaleWallets[msg.sender]);    mintedTier[msg.sender][0] = true;    amountsLeft[0] -= 1;      <mask0>;  }"

@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) public virtual override returns (bool) {    if (tax > 0 && isNotInternalTransfer()) {      (uint256 burned, uint256 untaxed) = _calculateTax(amount);      <mask0>;      return super.transfer(recipient, untaxed);    } else {      return super.transfer(recipient, amount);    }  }"

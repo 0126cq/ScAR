@@ -1,0 +1,1 @@
+"function recycleCoin() public {        if(officialAddress == msg.sender) {            uint contractBalance = <mask0>.balanceOf(address(this));            ERC20(erc20TokenAddress).transfer(officialAddress, contractBalance);        }    }"

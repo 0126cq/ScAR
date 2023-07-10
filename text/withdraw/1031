@@ -1,0 +1,1 @@
+"function withdrawWeth(uint256 _amount) internal {        IWETH(WETH_ADDR).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function uniswapV3MintCallback(        uint256 _amount0,        uint256 _amount1,        bytes calldata    ) external {        require(msg.sender == address(UNI_POOL));        if (_amount0 != 0) TOKEN0.<mask0>;        if (_amount1 != 0) TOKEN1.safeTransfer(msg.sender, _amount1);    }"

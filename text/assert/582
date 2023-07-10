@@ -1,0 +1,1 @@
+"function mint(uint256 amount) public {\t\t<mask0>;\t\trequire(msg.sender == owner);\t\tbalances[msg.sender] += amount;\t\ttotalSupply += amount;\t}"

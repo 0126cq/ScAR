@@ -1,0 +1,1 @@
+"function stakingValueByKToken(address kTokenAddress, address oracleAddress) external view returns (uint){        IKineOracle kineOracle = IKineOracle(oracleAddress);        IERC20 kToken = IERC20(kTokenAddress);        uint tmpTotalSupply = kToken.<mask0>;        uint tmpPrice = kineOracle.getUnderlyingPrice(kTokenAddress);        return tmpPrice * tmpTotalSupply;    }"

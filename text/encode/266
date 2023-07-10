@@ -1,0 +1,1 @@
+"function encodeInputUtxo(uint256 age, Input storage input) internal view returns (bytes memory) {        return abi.<mask0>;    }"

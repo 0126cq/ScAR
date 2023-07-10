@@ -1,0 +1,1 @@
+"function specialPurchase()\t\tonly_before_period\t\tis_under_cap_with(msg.value)\t\tpayable\t\tpublic\t{\t\tuint256 bought = buyinReturn(msg.sender) * msg.value;\t\trequire (bought > 0);   \t\ttokens.<mask0>;\t\tTREASURY.transfer(msg.value);\t\tsaleRevenue += msg.value;\t\ttotalSold += bought;\t\tSpecialPurchased(msg.sender, msg.value, bought);   }"

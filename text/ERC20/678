@@ -1,0 +1,1 @@
+"function sendContractBalance(address _token, address _user, uint _amount) public {        if (_amount == 0) return;        if (_token == ETH_ADDR) {            payable(_user).transfer(_amount);        } else {            <mask0>.safeTransfer(_user, _amount);        }    }"

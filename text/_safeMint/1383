@@ -1,0 +1,1 @@
+"function claim(uint256 tokenId) public payable whenNotPaused {        require(tokenId > 0 && tokenId < 1048576, \"Token ID invalid\");        require(            msg.value >= 8888000000000000,            \"Not enough ETH sent; check prices!\"        );        <mask0>;    }"

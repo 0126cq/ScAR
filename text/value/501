@@ -1,0 +1,1 @@
+"function mintOnAvatar(address _avatar) external onlyDelegatee(_avatar) payable {        IAvatarCEther(_avatar).mint.<mask0>();    }"

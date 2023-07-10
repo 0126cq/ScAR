@@ -1,0 +1,1 @@
+"function removeSetter(address account) public onlyOwner {        _setters.<mask0>;        emit SetterRemoved(account);    }"

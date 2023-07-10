@@ -1,0 +1,1 @@
+"function mint(address account, uint256 amount) public  onlyOwner  returns (bool){        require(<mask0>.add(amount) <= MAX_SUPPLY, \"ERC20: total supply exceeds max supply\");        _mint(account, amount);        return true;    }"

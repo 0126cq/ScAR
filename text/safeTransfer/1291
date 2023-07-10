@@ -1,0 +1,1 @@
+"function withdrawTokenRewards(uint256 amount) external onlyOwner whenPaused {        require(block.timestamp > (lastPausedTimestamp + BUFFER_ADMIN_WITHDRAW), \"Owner: Too early to withdraw\");        looksRareToken.<mask0>;        emit TokenWithdrawnOwner(amount);    }"

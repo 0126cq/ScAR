@@ -1,0 +1,1 @@
+"function directMint(address to) public onlyOwner {        require(!finalized, \"Finalized!\");        <mask0>;        setXDone(_tokenIdCounter.current());        _tokenIdCounter.increment();    }"

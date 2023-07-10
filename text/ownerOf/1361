@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public override {        address owner = ERC721A.<mask0>;        if (to == owner) revert ApprovalToCurrentOwner();        if (_msgSender() != owner) if(!isApprovedForAll(owner, _msgSender())) {            revert ApprovalCallerNotOwnerNorApproved();        }        _approve(to, tokenId, owner);    }"

@@ -1,0 +1,1 @@
+"function addToDeposit(address stakerAddress, uint256 tokenAmount)        external        onlyValidator        whenNotPaused    {        _addToDeposit(stakerAddress, tokenAmount);        require(            IERC20(stakeToken).<mask0>,            \"TRANSFER_FAIL\"        );    }"

@@ -1,0 +1,1 @@
+"function setUpEmergencyMode(address spender) external override onlyLiquidityMining {        IERC20(underlyingYieldToken).<mask0>;        IERC20(pendleMarket).safeApprove(spender, type(uint256).max);    }"

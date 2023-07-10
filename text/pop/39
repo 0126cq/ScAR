@@ -1,0 +1,1 @@
+"function getAddress(bytes32[] storage _stack)        internal        returns (address ret)    {        ret = address(uint160(uint256(peek(_stack))));        _stack.<mask0>;    }"

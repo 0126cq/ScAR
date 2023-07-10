@@ -1,0 +1,1 @@
+"function setPrice(uint256 sid, uint256 p) public sidInRange(sid) {      require(<mask0>, \"Deafbeef721: must have minter role to change price\");      series[sid].curPricePerToken = p;    }"

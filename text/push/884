@@ -1,0 +1,1 @@
+"function addValueBonus(uint from, uint bonus) public onlyOwner {    valueBonuses.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function transfer(address _to, uint _value) returns (bool success) {    success = controller.transfer(msg.sender, _to, _value);    if (success) {      <mask0>;    }  }"

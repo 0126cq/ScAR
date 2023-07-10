@@ -1,0 +1,1 @@
+"function removeFromWhitelist(address _user) external onlyGovernor {        require(_user != address(0), Errors.ZERO_ADDRESS);        require(mintWhitelist.<mask0>, Errors.ADDRESS_DOES_NOT_EXIST);        emit RemovedFromWhitelist(_user);    }"

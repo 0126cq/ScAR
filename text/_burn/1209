@@ -1,0 +1,1 @@
+"function burn(uint256 _tokenId) internal {        address owner = ownerOf(_tokenId);        require (pendingDepositPerAddress[owner].state != Data.State.PENDING,        \"Formation.Fi: is on pending\");        _deleteDepositData(owner);        <mask0>;         emit BurnDeposit(owner, _tokenId);    }"

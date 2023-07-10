@@ -1,0 +1,1 @@
+"function withdrawable() external view override returns (uint256[] memory) {        uint256[] memory _withdrawable = new <mask0>;        for (uint i = 0; i < contracts.length; i++) {            _withdrawable[i] = IOracle(contracts[i]).withdrawable();        }        return _withdrawable;    }"

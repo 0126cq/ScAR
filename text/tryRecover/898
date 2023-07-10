@@ -1,0 +1,1 @@
+"function recover(bytes32 hash, bytes calldata signature) public pure returns (address) {        (address recovered, RecoverError error) = <mask0>;        _throwError(error);        return recovered;    }"

@@ -1,0 +1,1 @@
+"function setBaseURI(string memory base_uri) public{    <mask0>;  _setBaseURI(base_uri);  }"

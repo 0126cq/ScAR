@@ -1,0 +1,1 @@
+"function mint(address _who, uint256 _amount) external onlyMinter {        require(_amount > 0, \"Amount should be greater than 0\");        require(currentIndex + _amount <= MAX_SUPPLY, \"Overflow\");        for (uint256 i = 0; i < _amount; i++) {            currentIndex++;            <mask0>;        }    }"

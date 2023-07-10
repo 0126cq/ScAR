@@ -1,0 +1,1 @@
+"function skim() external override onlyAuthorized {        <mask0>.safeTransfer(controller, balanceOfWant());        emit Skim();    }"

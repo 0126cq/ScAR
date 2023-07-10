@@ -1,0 +1,1 @@
+"function reclaimERC20(address token, address liquidityAsset, IMapleGlobals globals) external {        require(msg.sender == globals.governor(),               \"L:NOT_GOV\");        require(token != liquidityAsset && token != address(0), \"L:INVALID_TOKEN\");        IERC20(token).<mask0>;    }"

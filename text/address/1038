@@ -1,0 +1,1 @@
+"function depositETH() public payable {        require(address(token1) == weth || <mask0> == weth, \"PostAuction: Launcher not accepting ETH\");        if (msg.value > 0 ) {            IWETH(weth).deposit{value : msg.value}();        }    }"

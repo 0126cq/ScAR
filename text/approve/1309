@@ -1,0 +1,1 @@
+"function enableTransfer() external onlyOwner {\t\ttransferEnabled = true;\t\t<mask0>;\t}"

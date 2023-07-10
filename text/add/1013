@@ -1,0 +1,1 @@
+"function _register(address instance) internal {        require(_instanceSet.<mask0>, \"InstanceRegistry: already registered\");        emit InstanceAdded(instance);    }"

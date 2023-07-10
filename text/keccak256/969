@@ -1,0 +1,1 @@
+"function checkChoyList(address _wallet, bytes32[] calldata _merkleProof) view public returns(bool) {        return MerkleProof.verify(_merkleProof,root,<mask0>);    }"

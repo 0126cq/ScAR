@@ -1,0 +1,1 @@
+"function emergencyExitRewardPool() internal {    uint256 stakedBalance = rewardPoolBalance();    if (stakedBalance != 0) {        IBaseRewardPool(rewardPool()).withdrawAll(false);     }    uint256 depositBalance = IERC20(depositReceipt()).<mask0>;    if (depositBalance != 0) {      IBooster(booster).withdrawAll(poolId());    }  }"

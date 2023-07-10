@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 tokenId) public override {        require(!transferDisabled || _msgSender() == <mask0> || proxyToApproved[_msgSender()], \"TRANSFER_DISABLED\");        super.transferFrom(from, to, tokenId);    }"

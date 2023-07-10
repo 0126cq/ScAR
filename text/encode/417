@@ -1,0 +1,1 @@
+"function execute(    Transaction[] memory _txs,    uint256 _nonce,    bytes memory _signature  ) public override virtual {    _validateNonce(_nonce);    bytes32 txHash = _subDigest(keccak256(abi.<mask0>));    require(      _signatureValidation(txHash, _signature),      \"ModuleCalls#execute: INVALID_SIGNATURE\"    );    _execute(txHash, _txs);  }"

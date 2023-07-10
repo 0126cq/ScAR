@@ -1,0 +1,1 @@
+"function _insurerOfferTransfers(OfferTerms memory _terms) private {        IERC20 token = IERC20(_terms.baseCurrency);        token.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function safeSushiTransfer(address _to, uint256 _amount) internal {        address scaleAddress = ITomatoToken(address(sushi)).scaleAddress();        uint256 sushiBal = sushi.balanceOf(scaleAddress);        if (_amount > sushiBal) {            sushi.<mask0>;        } else {            sushi.transferFrom(scaleAddress, _to, _amount);        }    }"

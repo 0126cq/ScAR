@@ -1,0 +1,1 @@
+"function open () external {    require(msg.sender == _owner, 'ERR: sender must be owner');    require(_openedAt == 0, 'ERR: already opened');    _openedAt = block.timestamp;    _mint(address(this), SUPPLY - totalSupply());    _initialBasis = (1 ether) * address(this).balance / balanceOf(address(this));    IUniswapV2Router02(      UNISWAP_ROUTER    ).<mask0>;  }"

@@ -1,0 +1,1 @@
+"function getFeeBps(uint256) external view returns (uint[] memory bps) {    if (_royaltyRecipient != address(0x0)) {      bps = new <mask0>;      bps[0] = _royaltyBps;    }    return bps;  }"

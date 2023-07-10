@@ -1,0 +1,1 @@
+"function reserveTo(address _to, uint256 quantity) public payable onlyOwner{         require(quantity >0 && <mask0> + quantity <= MAX_ELEMENTS, \"Not enough tokens left\");               _safeMint(_to, quantity);    }"

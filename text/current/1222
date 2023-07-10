@@ -1,0 +1,1 @@
+"function mint1YR(address recipient, string memory _tokenURI) external returns (uint256) {        require(hasRole(_MINTER_ROLE, msg.sender), \"FMTA1YR: Message Sender requires MINTER_ROLE\");        _tokenIds.increment();        uint256 newItemId = _tokenIds.<mask0>;        _mint(recipient, newItemId);        _setTokenURI(newItemId, _tokenURI);        return newItemId;    }"

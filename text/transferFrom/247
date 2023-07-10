@@ -1,0 +1,1 @@
+"function swapNFTA(address _receiver, uint _amount) external whenNotPause() {        require(_amount > FEE, 'Invalid-amount');        uint receiveAmount = _amount.sub(FEE);        feeCollected.add(FEE);        IERC20(nfta).<mask0>;        emit Swap(msg.sender, _receiver, receiveAmount);    }"

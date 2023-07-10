@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 tokenId) public virtual override {                (address owner, bool isApprovedOrOwner) = <mask0>;        require(isApprovedOrOwner, ERROR_NOT_OWNER_NOR_APPROVED);        _transfer(owner, from, to, tokenId);    }"

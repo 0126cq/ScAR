@@ -1,0 +1,1 @@
+"function setSeason(uint256 _id) public onlyAdmin verifySeasonId(_id) {        <mask0>;        SEASON = _id;    }"

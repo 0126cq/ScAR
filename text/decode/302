@@ -1,0 +1,1 @@
+"function safeApprove(address erc20TokenAddress, address spender, uint256 value) internal {        bytes memory returnData = erc20TokenAddress.submit(0, abi.encodeWithSelector(IERC20(erc20TokenAddress).approve.selector, spender, value));        require(returnData.length == 0 || abi.<mask0>, 'APPROVE_FAILED');    }"

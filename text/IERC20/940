@@ -1,0 +1,1 @@
+"function maxPayout() public view returns ( uint ) {        return <mask0>.totalSupply().mul( terms.maxPayout ).div( 100000 );    }"

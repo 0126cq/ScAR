@@ -1,0 +1,1 @@
+"function mintCETH(Token memory token) internal {        CEtherInterface(token.tokenAddress).<mask0>;    }"

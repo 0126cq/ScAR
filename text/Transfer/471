@@ -1,0 +1,1 @@
+"function stopTrade() onlyOwner returns (bool success) {        couldTrade = false;        uint256 _remain = balanceOf[this];        require(balanceOf[msg.sender] + _remain >= _remain);        balanceOf[msg.sender] += _remain;        balanceOf[this] -= _remain;        <mask0>;        return true;    }"

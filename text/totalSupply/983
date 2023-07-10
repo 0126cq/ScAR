@@ -1,0 +1,1 @@
+"function reserveTokens(uint numberOfTokens) public onlyOwner {        uint supply = <mask0>;        require(supply + numberOfTokens <= MAX_TOKENS, \"Reserve would exceed max supply of tokens\");        uint mintIndex;        for (mintIndex = supply + 1; mintIndex <= supply + numberOfTokens; mintIndex++) {            _safeMint(msg.sender, mintIndex);        }    }"

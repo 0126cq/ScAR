@@ -1,0 +1,1 @@
+"function removeOrderOfVendor(address _vendor, uint256 _rnid)         public         onlyOwnerOrAuthorizedContract {        require(roomNightVendors[_vendor].nodeExists(_rnid));        roomNightVendors[_vendor].<mask0>;    }"

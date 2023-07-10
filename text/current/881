@@ -1,0 +1,1 @@
+"function currentMintWithFeesPrice() public view returns (uint256){    return mintWithFeesPriceFor(totalSupply.<mask0> + 1);  }"

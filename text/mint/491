@@ -1,0 +1,1 @@
+"function initLogo() public onlyOwner {        require(isLogoInitied == false);        isLogoInitied = true;        logoId = token.<mask0>;        token.setTokenMetadata(logoId, \"\");        updateTierStatus(100, 0);        emit Minted(msg.sender, logoId, logoX, logoY, 10, 10, 0 ether, 0 ether, now);    }"

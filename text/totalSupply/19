@@ -1,0 +1,1 @@
+"function amountVested() public view returns (uint256) {        return CNV.<mask0> * supplyVested() / 1e18;    }"

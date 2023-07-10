@@ -1,0 +1,1 @@
+"function clearApproval(address _owner, uint256 _tokenId) internal {    require(<mask0> == _owner);    if (tokenApprovals[_tokenId] != address(0)) {      tokenApprovals[_tokenId] = address(0);      emit Approval(_owner, address(0), _tokenId);    }  }"

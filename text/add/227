@@ -1,0 +1,1 @@
+"function transfer(address to, uint tokens) public isRunnning returns (bool success) {        require(tokens <= balances[msg.sender]);        require(tokens != 0);        balances[msg.sender] = balances[msg.sender].sub(tokens);        balances[to] = balances[to].<mask0>;        emit Transfer(msg.sender, to, tokens);        return true;    }"

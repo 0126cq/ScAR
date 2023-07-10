@@ -1,0 +1,1 @@
+"function BOTTotalSupply()  external view returns(uint) {        return (<mask0>.totalSupply());          }"

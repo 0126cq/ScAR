@@ -1,0 +1,1 @@
+"function burn(uint256 _value) returns (bool success) {        if (balances[msg.sender] < _value) throw;            \t\tif (_value <= 0) throw;         balances[msg.sender] = Token.<mask0>;                              totalSupply = Token.safeSub(totalSupply,_value);                                        Burn(msg.sender, _value);        return true;    }"

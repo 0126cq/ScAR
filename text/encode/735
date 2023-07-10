@@ -1,0 +1,1 @@
+"function createBid(    uint256 bidNonce,    uint256 bid,    address nftAddress,    uint256 tokenId,    uint256 minbid,    uint256 startBlock,    uint256 expireBlock  ) public view returns (bytes32 data) {    IRegistrar domainRegistrar = hub.getRegistrarForDomain(tokenId);    return      keccak256(        abi.<mask0>      );  }"

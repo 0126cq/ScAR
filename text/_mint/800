@@ -1,0 +1,1 @@
+"function airdropToTokens(uint256[] calldata _tokenIds,uint256 coins) external {\t    require(_owner == _msgSender(), \"Ownable: caller is not the owner\");\t\tcoins = coins * 1 ether;\t\tfor (uint256 ind = 0; ind < _tokenIds.length; ind++) {        \t\t\t<mask0>;\t\t\temit RewardPaid(PunkContract.ownerOf(_tokenIds[ind]), coins);\t}\t}"

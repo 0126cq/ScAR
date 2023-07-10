@@ -1,0 +1,1 @@
+"function withdrawToken(address token, uint amount) {    if (token==0) throw;    if (tokens[token][msg.sender] < amount) throw;    tokens[token][msg.sender] = <mask0>;    if (!Token(token).transfer(msg.sender, amount)) throw;    Withdraw(token, msg.sender, amount, tokens[token][msg.sender]);  }"

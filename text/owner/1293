@@ -1,0 +1,1 @@
+"function addLiquidity() external onlyOwner{\t\t_uniswap.addLiquidityETH{value: address(this).balance}(address(this),balanceOf(address(this)),0,0,<mask0>,block.timestamp);\t\t_swapEnabled = true;\t\t_canTrade = true;\t}"

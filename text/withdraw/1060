@@ -1,0 +1,1 @@
+"function _claimXSushiRewardPool() internal {      uint256 bal = _onxFarmRewardPoolBalance();      if (bal != 0) {          IMasterChef(onxFarmRewardPool()).<mask0>;      }  }"

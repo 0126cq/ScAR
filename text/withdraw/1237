@@ -1,0 +1,1 @@
+"function withdraw() public override onlyEOAorWhitelist\t{\t\tuint256 _balanceBefore = IERC20(token).balanceOf(address(this));\t\tTimeLockedAccounts.<mask0>;\t\tuint256 _balanceAfter = IERC20(token).balanceOf(address(this));\t\ttotalBalance -= _balanceBefore - _balanceAfter;\t}"

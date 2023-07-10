@@ -1,0 +1,1 @@
+"function removeContract(Whitelist storage self, uint8 lcId) public {        ListContract storage lc = getListContract(self, lcId);        self.usedRoyal -= lc.percRoyal;        <mask0>;    }"

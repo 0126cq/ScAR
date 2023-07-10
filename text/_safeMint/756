@@ -1,0 +1,1 @@
+"function reserveGirlz(address _to, uint256 _reserveAmount) public onlyOwner {                uint supply = totalSupply();        require(_reserveAmount > 0 && _reserveAmount <= girlReserve, \"Not enough reserve left for team\");        for (uint i = 0; i < _reserveAmount; i++) {            <mask0>;        }        girlReserve = girlReserve.sub(_reserveAmount);    }"

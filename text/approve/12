@@ -1,0 +1,1 @@
+"function approve(address _spender, uint _value) public onlyPayloadSize(2 * 32) {        return super.<mask0>;    }"

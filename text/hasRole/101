@@ -1,0 +1,1 @@
+"function setBaseledgerAddress(string memory _address) public {        require(<mask0>, \"admin only\");        nodeBaseledgerAddress = _address;    }"

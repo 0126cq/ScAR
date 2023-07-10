@@ -1,0 +1,1 @@
+"function field_110(uint24[4] memory colors) public pure returns (FieldData memory) {        return            FieldData(                'Pall Inverted',                FieldCategories.HERALDIC,                string(                    abi.<mask0>                )            );    }"

@@ -1,0 +1,1 @@
+"function depositToken(address token, uint amount) {    if (token==0) throw;    if (!Token(token).<mask0>) throw;    tokens[token][msg.sender] = safeAdd(tokens[token][msg.sender], amount);    Deposit(token, msg.sender, amount, tokens[token][msg.sender]);  }"

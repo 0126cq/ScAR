@@ -1,0 +1,1 @@
+"function getStakeVarenValue(address staker)        external        view        override        returns (uint256)    {        return            (VAREN.balanceOf(address(this)).mul(<mask0>)).div(                totalSupply()            );    }"

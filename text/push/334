@@ -1,0 +1,1 @@
+"function add(Whitelist storage self, ListContract memory lc) private returns (bool) {        if (!contains(self, lc.id)) {            self.lists._values.<mask0>;            self.lists._indexes[lc.id] = SafeCast.toUint8(self.lists._values.length);            return true;        } else {            return false;        }    }"

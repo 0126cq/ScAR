@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view override (ERC165, IERC165) returns (bool) {        return (            interfaceId == type(IOutputReceiver).interfaceId            || interfaceId == type(IAddressLock).interfaceId            || super.<mask0>        );    }"

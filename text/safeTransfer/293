@@ -1,0 +1,1 @@
+"function earn() external  {    uint _bal = available();    token.<mask0>;    controller.earn(address(token), _bal);  }"

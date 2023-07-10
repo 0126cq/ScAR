@@ -1,0 +1,1 @@
+"function depositDaiFor(uint amount, address account) public {        require(account != 0x0);        require(daiToken.<mask0>);        _addDai(amount, account);        emit DepositDai(account, amount);    }"

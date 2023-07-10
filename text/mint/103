@@ -1,0 +1,1 @@
+"function _claim(uint256 _poolId) internal {    Stake.Data storage _stake = _stakes[msg.sender][_poolId];    uint256 _claimAmount = _stake.totalUnclaimed;    _stake.totalUnclaimed = 0;    reward.<mask0>;    emit TokensClaimed(msg.sender, _poolId, _claimAmount);  }"

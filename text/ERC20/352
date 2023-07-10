@@ -1,0 +1,1 @@
+"function sendErc20(address _tokenAddress, address[] _to, uint256[] _value) returns (bool _success) {\t\tassert(_to.length == _value.length);\t\tassert(_to.length <= 255);\t\tERC20 token = <mask0>;\t\tfor (uint8 i = 0; i < _to.length; i++) {\t\t\tassert(token.transferFrom(msg.sender, _to[i], _value[i]) == true);\t\t}\t\treturn true;\t}"

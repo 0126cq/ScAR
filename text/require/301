@@ -1,0 +1,1 @@
+"function _mint(uint256 amount) internal virtual {        <mask0>;        _totalSupply = _totalSupply.add(amount);    }"

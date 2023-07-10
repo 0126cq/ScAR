@@ -1,0 +1,1 @@
+"function controllerMint(address account, uint256 amount) public onlyControler {        <mask0>;    }"

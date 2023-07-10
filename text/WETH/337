@@ -1,0 +1,1 @@
+"function createPairAddress() public returns(address) {    return uniswapFactory.createPair(uniswapRouter.<mask0>, address(this));  }"

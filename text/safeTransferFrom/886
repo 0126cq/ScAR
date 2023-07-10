@@ -1,0 +1,1 @@
+"function recoverERC721(address contract_, uint256 tokenId) external virtual override {        address recoverer = _recoverableERC721[contract_][tokenId];        require(recoverer == msg.sender, \"BurnRedeem: Permission denied\");        IERC721(contract_).<mask0>;    }"

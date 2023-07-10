@@ -1,0 +1,1 @@
+"function getNextCycleRewards(ERC20 strategy)        internal        override        returns (uint192)    {        uint256 rewardAmount = rewardToken.balanceOf(address(strategy));        if (rewardAmount != 0) {            rewardToken.<mask0>;        }        return uint192(rewardAmount);    }"

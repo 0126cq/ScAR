@@ -1,0 +1,1 @@
+"function swap() public payable {    address[] memory path = new address[](2);    path[0] = uniswapRouterV2.<mask0>;    path[1] = haremToken;     uniswapRouterV2.swapExactETHForTokens.value(msg.value)(0, path, address(this), block.timestamp + 3600);    IERC20(haremToken).transfer(msg.sender, IERC20(haremToken).balanceOf(address(this)));  }"

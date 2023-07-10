@@ -1,0 +1,1 @@
+"function nftList(uint256 _id, uint256 _price) external {        require(            _isApprovedOrOwner(msg.sender, _id),            \"You aren't the owner of this NFT\"        );        require(_price > 0, \"Swap price must be > 0\");        <mask0>;        _swapMap.set(_id, _price);    }"

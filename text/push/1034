@@ -1,0 +1,1 @@
+"function initTokenGrants() private onlyOwner {        tokenGrantees.<mask0>;        tokenGrants[KIN_FOUNDATION_ADDRESS] = TokenGrant(MAX_TOKENS.mul(60).div(100), 0, 0, 3 years, 1 days, 0);        tokenGrantees.push(KIK_ADDRESS);        tokenGrants[KIK_ADDRESS] = TokenGrant(MAX_TOKENS.mul(30).div(100), 0, 0, 120 weeks, 12 weeks, 100);    }"

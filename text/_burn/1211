@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) external onlyMinter nonReentrant {        <mask0>;    }"

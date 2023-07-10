@@ -1,0 +1,1 @@
+"function appendTypeList(        string memory _typeList    ) external onlyOwner traitsUnlocked{        typeList.<mask0>;    }"

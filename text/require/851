@@ -1,0 +1,1 @@
+"function resetOwner(address _owner) public returns (bool) {        <mask0>;        owner = _owner;        return true;    }"

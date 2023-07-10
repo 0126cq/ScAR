@@ -1,0 +1,1 @@
+"function getTokenOwner(uint256 _tokenId) public view returns(address) {    address _tokenOwner = <mask0>;    return _tokenOwner;  }"

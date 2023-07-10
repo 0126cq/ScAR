@@ -1,0 +1,1 @@
+"function withdraw(address _token, uint256 _amount) public {        require(msg.sender == nPools[_token], \"!nPool\");        IStrategy(strategies[_token]).<mask0>;    }"

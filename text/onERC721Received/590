@@ -1,0 +1,1 @@
+"function _safeTransferFrom(address _from, address _to, uint256 _tokenId, bytes memory _data) private {        transferFrom(_from, _to, _tokenId);        if (isContract(_to)) {            bytes4 retval = ERC721TokenReceiver(_to).<mask0>;            require(retval == 0x150b7a02);        }    }"

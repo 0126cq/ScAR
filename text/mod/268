@@ -1,0 +1,1 @@
+"function divCeil(Unsigned memory a, Unsigned memory b) internal pure returns (Unsigned memory) {    uint256 aScaled = a.rawValue.mul(FP_SCALING_FACTOR);    uint256 divFloor = aScaled.div(b.rawValue);    uint256 mod = aScaled.<mask0>;    if (mod != 0) {      return Unsigned(divFloor.add(1));    } else {      return Unsigned(divFloor);    }  }"

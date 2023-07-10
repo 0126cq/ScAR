@@ -1,0 +1,1 @@
+"function getConditionData(        address[] memory _path,        uint256 _sellAmount,        uint256 _desiredRate,        bool _greaterElseSmaller    )        public        pure        virtual        returns(bytes memory)    {        return abi.<mask0>;    }"

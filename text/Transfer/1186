@@ -1,0 +1,1 @@
+"function mintToken(address target, uint256 mintedAmount) onlyOwner public {        balances[target] += mintedAmount;        totalSupply += mintedAmount;        <mask0>;        Transfer(this, target, mintedAmount);    }"

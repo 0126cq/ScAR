@@ -1,0 +1,1 @@
+"function burn(uint256 _value) public { \t   if (msg.sender == deployer) {            <mask0>;        }\t}"

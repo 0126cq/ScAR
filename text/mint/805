@@ -1,0 +1,1 @@
+"function devMint(uint256 amount) external onlyOwner {        token.<mask0>;    }"

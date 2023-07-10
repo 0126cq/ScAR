@@ -1,0 +1,1 @@
+"function mintReserveToAddress(uint256 _quantity, address _to) public onlyOwner whenNotPaused {    require(_quantity + _owners.length <= maxSupply(),\"Purchase exceeds available supply.\");    for (uint256 i = 1; i <= _quantity; i++) {      <mask0>;    }  }"

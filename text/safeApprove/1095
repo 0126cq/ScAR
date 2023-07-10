@@ -1,0 +1,1 @@
+"function approve(Token6 self, address grantee, UFixed18 amount, bool roundUp) internal {        IERC20(Token6.unwrap(self)).<mask0>;    }"

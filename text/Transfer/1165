@@ -1,0 +1,1 @@
+"function mintTokens(address _who, uint256 _tokens) internal     {        uint256 inv = investors[_who];        if (inv == 0)         {            investorsIter[numberOfInvestors++] = _who;        }        inv = add( inv, _tokens );        balances[_who] = add( balances[_who], _tokens );        <mask0>;        totalSupply = add( totalSupply, _tokens );    }"

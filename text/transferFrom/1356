@@ -1,0 +1,1 @@
+"function doTransferOut(        address underlying,        address to,        uint256 tokenId    ) internal {        ERC721Interface token = ERC721Interface(underlying);        token.<mask0>;    }"

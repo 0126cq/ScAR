@@ -1,0 +1,1 @@
+"function _stakeCurrentLPBalance()        public        onlyGovOrSubGov    {        uint256 amount = <mask0>.balanceOf(address(this));        staking.stake(amount);    }"

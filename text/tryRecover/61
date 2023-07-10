@@ -1,0 +1,1 @@
+"function recover(bytes32 hash, bytes memory signature)    internal    pure    returns (address)  {    (address recovered, RecoverError error) = <mask0>;    _throwError(error);    return recovered;  }"

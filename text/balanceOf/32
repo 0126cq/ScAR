@@ -1,0 +1,1 @@
+"function updatetreasuryVote(address treasury)    public    updatesDividends(msg.sender)    returns (bool)    {        tvote[tvotedaddrs[msg.sender]] -= tvoted[msg.sender];        tvote[treasury] += uint256(balanceOf(msg.sender));        tvotedaddrs[msg.sender] = treasury;        tvoted[msg.sender] = uint256(<mask0>);        return true;    }"

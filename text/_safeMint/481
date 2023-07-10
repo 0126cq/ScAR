@@ -1,0 +1,1 @@
+"function mint(        address _to,        uint256 _blockNumber,        bytes32 _blockHash,        string memory _ipfsHash    ) external onlyMinter {        <mask0>;        _setTokenURI(_blockNumber, _ipfsHash);        blockHashes[_blockNumber] = _blockHash;        emit RoyaltiesSet(_blockNumber, _getRoyalties());    }"

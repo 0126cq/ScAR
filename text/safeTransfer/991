@@ -1,0 +1,1 @@
+"function _mintDistribution(address user, uint amount) internal {        if(amount > 0) {           mintedShare += amount;           TransferHelper.<mask0>;        }    }"

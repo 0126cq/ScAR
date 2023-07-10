@@ -1,0 +1,1 @@
+"function deposit(uint amount, address to) external returns (uint) {        IERC20(underlying).<mask0>;        return _deposit(amount, to);    }"

@@ -1,0 +1,1 @@
+"function totalMintableSupplyBatch(uint256[] calldata ids) external view returns (uint256[] memory) {        uint256[] memory supply = new <mask0>;        for (uint256 i = 0; i < ids.length; i++) {            supply[i] = _totalMintableSupply[ids[i]];        }        return supply;    }"

@@ -1,0 +1,1 @@
+"function reserveNFTs(address _to, string memory tokenURI) public onlyOwner {    uint256 supply = totalSupply();    require(      NFTReserve > 0,      'Not enough reserve left'    );    <mask0>;    _setTokenURI(supply, tokenURI);    NFTReserve = NFTReserve.sub(1);  }"

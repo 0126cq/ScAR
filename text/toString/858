@@ -1,0 +1,1 @@
+"function uri(uint256 tokenId) override public view returns (string memory) { return(string(abi.encodePacked(_BASE_URI, Strings.<mask0>, \".json\"))); }"

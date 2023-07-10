@@ -1,0 +1,1 @@
+"function withdrawETH() external onlyRole(DEFAULT_ADMIN_ROLE) {        require(address(this).balance != 0);        (bool success, ) = _paymentSplitter.<mask0>;        require(success);    }"

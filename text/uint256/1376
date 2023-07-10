@@ -1,0 +1,1 @@
+"function _getWrappedTokens(IERC20 token, bool useWrappers) internal view returns (IERC20[] memory wrappedTokens, uint256[] memory rates) {        if (useWrappers) {            return multiWrapper.getWrappedTokens(token);        }        wrappedTokens = new IERC20[](1);        wrappedTokens[0] = token;        rates = new <mask0>;        rates[0] = uint256(1e18);    }"

@@ -1,0 +1,1 @@
+"function recoverFailedLock() onlyOwner {    if(lockedAt > 0) {      throw;    }    token.transfer(owner, token.<mask0>);  }"

@@ -1,0 +1,1 @@
+"function transferToken(        address token,        address from,        address to,        uint    value)        onlyAuthorized        external    {        if (value > 0 && from != to && to != 0x0) {            require(                <mask0>.transferFrom(from, to, value)            );        }    }"

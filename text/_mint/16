@@ -1,0 +1,1 @@
+"function batchIssue(address[] calldata addresses) external onlyOwner {        for (uint256 i; i < addresses.length; i++) {            _tokenCounter.increment();            <mask0>;        }    }"

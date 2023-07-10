@@ -1,0 +1,1 @@
+"function prepareMigration(address _newStrategy) internal override {        IIdleTokenV3_1(idleYieldToken).redeemIdleToken(IERC20(idleYieldToken).balanceOf(address(this)));        for (uint256 i = 0; i < govTokens.length; i++) {            IERC20 govToken = <mask0>;            govToken.safeTransfer(_newStrategy, govToken.balanceOf(address(this)));        }    }"

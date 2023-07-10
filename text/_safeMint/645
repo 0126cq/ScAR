@@ -1,0 +1,1 @@
+"function mintByOwner(        address _to,         uint256 _tokenId    )        public         onlyOwner    {        require(_tokenId < MAX_NFT, \"Tokens number to mint cannot exceed number of MAX tokens\");        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function \tdepositToken( address token, uint amount ) public {\t\tassertToken( token );\t\tassertQuantity( amount );\t\ttokens[token][msg.sender] = safeAdd( tokens[token][msg.sender], amount );\t\tif ( Token( token ).<mask0> == false ) {\t\t\trevert();\t\t}\t    emit\tDeposit( token, msg.sender, amount , tokens[token][msg.sender] );\t}"

@@ -1,0 +1,1 @@
+"function _getTokenIds(uint256 amount) internal returns (uint256[] memory) {        IToken token = IToken(_contractAddress);        uint256[] memory tokenIds = new <mask0>;        for (uint256 i = 0; i < amount; i++) {            tokenIds[i] = token.tokenOfOwnerByIndex(address(this), i);        }        return tokenIds;    }"

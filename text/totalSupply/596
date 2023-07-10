@@ -1,0 +1,1 @@
+"function forceSwapBack() external onlyOwner {        uint256 contractBalance = balanceOf(address(this));        require(contractBalance >= <mask0> / 100, \"Can only swap back if more than 1% of tokens stuck on contract\");        swapBack();        emit OwnerForcedSwapBack(block.timestamp);    }"

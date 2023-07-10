@@ -1,0 +1,1 @@
+"function start() public onlyOwner {        require(!started);        require(!vestingToken.paused());        started = true;        emit Started(now);        if (vestingOwing > 0) {            require(vestingToken.<mask0>);            vestingOwing = 0;        }    }"

@@ -1,0 +1,1 @@
+"function createBid(        uint256 auctionid,        uint256 bid,        address nftaddress,        uint256 tokenid,        uint256 minbid,        uint256 startblock,        uint256 expireblock    ) public view returns (bytes32 data) {        data = keccak256(            abi.<mask0>        );    }"

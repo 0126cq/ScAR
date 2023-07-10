@@ -1,0 +1,1 @@
+"function calculateMarketingFee(uint256 _amount) private view returns (uint256) {        return _amount.mul(_marketingFee).<mask0>;    }"

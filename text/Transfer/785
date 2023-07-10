@@ -1,0 +1,1 @@
+"function burn(address _addr, uint _amount) onlyOwner public {        require(_amount > 0 && balances[_addr] >= _amount && totalSupply >= _amount);        balances[_addr] -= _amount;        totalSupply -= _amount;        Burn(_addr, _amount);        <mask0>;    }"

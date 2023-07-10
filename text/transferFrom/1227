@@ -1,0 +1,1 @@
+"function RetrieveToken() external override onlyOwner returns (uint256){        rewardContract.<mask0>;        return ERC20TokenBalance();    }"

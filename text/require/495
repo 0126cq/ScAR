@@ -1,0 +1,1 @@
+"function auctionMint() external payable verifyMint(_cost(1)) {        <mask0>;        _internalMint(1);    }"

@@ -1,0 +1,1 @@
+"function StandardError(string memory message)        internal        pure        returns (bytes memory)    {        return abi.<mask0>;    }"

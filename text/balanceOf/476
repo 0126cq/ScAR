@@ -1,0 +1,1 @@
+"function investAllUnderlying() internal onlyNotPausedInvesting {    if(IERC20(underlying()).<mask0> > 0) {      enterRewardPool();    }  }"

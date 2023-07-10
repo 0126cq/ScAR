@@ -1,0 +1,1 @@
+"function _getDecimals(address _token) internal view returns (uint256) {        if (_token == ETH_ADDR) return 18;        return <mask0>.decimals();    }"

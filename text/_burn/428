@@ -1,0 +1,1 @@
+"function burn(address account, uint256 amount) external {        require(msg.sender == cubePool, \"!cubePool\");        <mask0>;    }"

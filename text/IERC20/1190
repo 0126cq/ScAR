@@ -1,0 +1,1 @@
+"function _depositYieldTokenFor(uint256 amount, address creditor)        internal        nonReentrant    {        require(amount > 0, \"!amount\");        _depositFor(amount.sub(1), creditor, false);        <mask0>.safeTransferFrom(msg.sender, address(this), amount);    }"

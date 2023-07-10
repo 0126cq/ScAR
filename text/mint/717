@@ -1,0 +1,1 @@
+"function mint(uint256 amount) external {    faucet.beforeTokenMint(msg.sender, amount, address(measure), address(0));    measure.<mask0>;  }"

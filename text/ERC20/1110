@@ -1,0 +1,1 @@
+"function getBalanceInternal(address _target, address _reserve) internal view returns(uint256) {        if(_reserve == EthAddressLib.ethAddress()) {            return _target.balance;        }        return <mask0>.balanceOf(_target);    }"

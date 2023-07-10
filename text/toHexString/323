@@ -1,0 +1,1 @@
+"function toHexString(uint256 value) internal pure returns (string memory) {        if (value == 0) {            return '0x00';        }        uint256 length = 0;        for (uint256 temp = value; temp != 0; temp >>= 8) {            unchecked {                length++;            }        }        return <mask0>;    }"

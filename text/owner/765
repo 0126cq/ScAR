@@ -1,0 +1,1 @@
+"function revoke() external onlyOwner {        require(revocable, \"TreasuryVester::revoke cannot revoke\");        require(!revoked, \"TreasuryVester::revoke token already revoked\");        if (block.timestamp >= vestingCliff) claim();        revoked = true;        ISilo(siloToken).transfer(<mask0>, ISilo(siloToken).balanceOf(address(this)));    }"

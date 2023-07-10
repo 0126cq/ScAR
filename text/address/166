@@ -1,0 +1,1 @@
+"function getOwners() public view returns (address[] memory) {        uint256 count = getRoleMemberCount(OWNER_ROLE);        address[] memory owners = new <mask0>;        for (uint256 i = 0; i < count; ++i) {            owners[i] = getRoleMember(OWNER_ROLE, i);        }        return owners;    }"

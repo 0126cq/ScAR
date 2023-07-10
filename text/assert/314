@@ -1,0 +1,1 @@
+"function setJoinedCrowdsales(address addr) private onlyOwner {    assert(addr != address(0));    assert(joinedCrowdsalesLen <= joinedCrowdsalesLenMax);    <mask0>;    joinedCrowdsales.push(addr);    joinedCrowdsaleState[addr] = JoinedCrowdsaleStatus({      isJoined: true,      position: joinedCrowdsalesLen    });    joinedCrowdsalesLen++;  }"

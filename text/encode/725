@@ -1,0 +1,1 @@
+"function hash(address target, Permission[] calldata permissions)        external pure        returns (bytes32 txHash)    {        txHash = keccak256(abi.<mask0>);    }"

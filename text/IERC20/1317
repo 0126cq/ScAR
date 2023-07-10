@@ -1,0 +1,1 @@
+"function getReserves()        external        view        returns (uint112, uint112, uint32)    {        return (            uint112(<mask0>.balanceOf(address(this))),            uint112(IERC20(token1).balanceOf(address(this))),            uint32(block.timestamp)        );    }"

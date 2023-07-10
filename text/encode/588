@@ -1,0 +1,1 @@
+"function createChildTyped(VerifyConfig calldata config_)        external        returns (Verify)    {        return Verify(this.createChild(abi.<mask0>));    }"

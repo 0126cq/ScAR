@@ -1,0 +1,1 @@
+"function exit() external override {        <mask0>;        claimReward();    }"

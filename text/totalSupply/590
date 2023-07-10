@@ -1,0 +1,1 @@
+"function userCanMintTotalAmount() public view returns (uint256) {        return maxSupply - (<mask0> + maxAmountForArtist - artistMinted);    }"

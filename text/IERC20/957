@@ -1,0 +1,1 @@
+"function deposit(uint256 _amount) public{    deposit_usdc_amount = deposit_usdc_amount + _amount;    deposit_usdc(_amount);    uint256 cur = <mask0>.balanceOf(address(this));    lp_balance = lp_balance + cur;    deposit_to_gauge();  }"

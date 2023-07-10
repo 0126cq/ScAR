@@ -1,0 +1,1 @@
+"function _mintOne(address account, uint256 id) internal {        require(id > 0, \"id #0 is invalid\");        require(id < _tokenIds.length, \"TokenID too large\");        require(!_tokenIds[id], \"Token already minted\");        <mask0>;        unchecked {            _mintedSupply += 1;        }        _tokenIds[id] = true;    }"

@@ -1,0 +1,1 @@
+"function random(RandomGenerator memory self, uint min, uint max) internal pure returns (uint) {        <mask0>;        return min.add(random(self, max.sub(min)));    }"

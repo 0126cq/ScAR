@@ -1,0 +1,1 @@
+"function checkPresaleEligibility(bytes32 hash, bytes memory signature)        public        view        returns (bool)    {        require(            ECDSA.toEthSignedMessageHash(                keccak256(abi.<mask0>)            ) == hash,            \"XHash\"        );        return ECDSA.recover(hash, signature) == signer;    }"

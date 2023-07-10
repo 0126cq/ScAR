@@ -1,0 +1,1 @@
+"function deleteKey(bytes32 schainId) external allow(\"SkaleDKG\") {        _previousSchainsPublicKeys[schainId].<mask0>;        delete _schainsPublicKeys[schainId];        delete _data[schainId][0];        delete _schainsNodesPublicKeys[schainId];    }"

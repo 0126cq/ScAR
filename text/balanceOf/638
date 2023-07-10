@@ -1,0 +1,1 @@
+"function getBalance(address _tokenAddr) internal view returns (uint balance) {        if (_tokenAddr == KYBER_ETH_ADDRESS) {            balance = address(this).balance;        } else {            balance = ERC20(_tokenAddr).<mask0>;        }    }"

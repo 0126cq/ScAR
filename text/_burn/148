@@ -1,0 +1,1 @@
+"function deleteToken(uint256 id) external virtual {        require(            _msgSender() == ownerOf(id),            \"Must be owner of Token to delete Token\"        );        <mask0>;        emit Deleted(id);    }"

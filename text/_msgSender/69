@@ -1,0 +1,1 @@
+"function transfer(address to, uint256 amount) public virtual override returns (bool) {        address owner = <mask0>;        _transfer(owner, to, amount);        return true;    }"

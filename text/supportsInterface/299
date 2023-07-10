@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceID) virtual override(AddrResolver, ResolverBase) public pure returns(bool) {        return interfaceID == INTERFACE_INTERFACE_ID || super.<mask0>;    }"

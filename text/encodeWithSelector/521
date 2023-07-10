@@ -1,0 +1,1 @@
+"function getAssetPrice(address asset) internal returns (uint) {        bytes memory result = callInternalModule(MODULEID__RISK_MANAGER, abi.<mask0>);        return abi.decode(result, (uint));    }"

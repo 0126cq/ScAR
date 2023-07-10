@@ -1,0 +1,1 @@
+"function withdraw() external payable {     uint256 bal = balances[msg.sender] ;     require(bal > 0, \"No Funds\");        balances[msg.sender] = 0;        (bool check, ) = payable(msg.sender).<mask0>;        require(check);   }"

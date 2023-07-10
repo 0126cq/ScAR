@@ -1,0 +1,1 @@
+"function addLiquidity() internal {        uint256 ethForLiquidity = weiRaised.mul(liquidityPercentage).div(100);        uint256 tokenForLiquidity = ethForLiquidity.div(150).mul(100);        dnesToken.approve(address(UNISWAP), tokenForLiquidity);        UNISWAP.<mask0>;    }"

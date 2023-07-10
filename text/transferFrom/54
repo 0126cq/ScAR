@@ -1,0 +1,1 @@
+"function recoverNonFungibleToken(address _token, uint256 _tokenId) external override onlyOwner {        require(_deposits[_token][_tokenId].owner == address(0), \"Stake: Cannot recover staked token\");        IERC721(_token).<mask0>;        emit NonFungibleTokenRecovery(_token, _tokenId);    }"

@@ -1,0 +1,1 @@
+"function airdrop(address recipient, uint256 amount) external onlyOwner() {        removeAllFee();        _transfer(<mask0>, recipient, amount * 10**9);        restoreAllFee();    }"

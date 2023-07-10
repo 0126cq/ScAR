@@ -1,0 +1,1 @@
+"function isMinter(address user) public view returns(bool)     {        return <mask0>;    }"

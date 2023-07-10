@@ -1,0 +1,1 @@
+"function _deposit(SavingsProtocol _protocol, uint256 _amount, bool _fromUser) internal {        if (_fromUser) {            <mask0>.transferFrom(msg.sender, address(this), _amount);        }        approveDeposit(_protocol);        ProtocolInterface(getAddress(_protocol)).deposit(address(this), _amount);        endAction(_protocol);    }"

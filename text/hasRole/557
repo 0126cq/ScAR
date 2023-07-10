@@ -1,0 +1,1 @@
+"function _beforeTokenTransfer(address from, address to, uint256 amount) internal virtual override {        if (onlyWhitelist == true) {            require(<mask0>, \"NO WHITELIST_ROLE\");            require(hasRole(WHITELIST_ROLE, from), \"NO WHITELIST_ROLE\");        }        super._beforeTokenTransfer(from, to, amount);    }"

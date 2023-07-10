@@ -1,0 +1,1 @@
+"function turnIntoZombie(address stakerAddress) internal {        Staker storage staker = _stakerMap[stakerAddress];        _zombies.<mask0>;        deleteStaker(stakerAddress);    }"

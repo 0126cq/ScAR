@@ -1,0 +1,1 @@
+"function burn(uint id) public {        require(owns(msg.sender, id));        burnCount++;        <mask0>;    }"

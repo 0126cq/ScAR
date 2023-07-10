@@ -1,0 +1,1 @@
+"function burnStake(address account, uint256 amount) external onlyFactory {        locked[account] -= amount;        uint256 currentStake = getCurrentStake(account);        _writeCheckpoint(account, currentStake - amount);        cpool.<mask0>;        emit Burned(account, amount);    }"

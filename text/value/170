@@ -1,0 +1,1 @@
+"function addFunds() external payable {    require(isTeller(msg.sender));    require(bank.addEthTeller.<mask0>);  }"

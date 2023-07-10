@@ -1,0 +1,1 @@
+"function scheduleUpgrade(address impl) public onlyGovernance {    _setNextImplementation(impl);    _setNextImplementationTimestamp(block.timestamp.<mask0>);  }"

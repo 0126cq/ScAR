@@ -1,0 +1,1 @@
+"function approveAndCallAsContract(address _spender, uint256 _value, bytes _extraData) onlyOwner public returns (bool success) {    allowed[this][_spender] = _value;    <mask0>;    require(_spender.call(bytes4(bytes32(keccak256(\"receiveApproval(address,uint256,address,bytes)\"))), this, _value, this, _extraData));    return true;  }"

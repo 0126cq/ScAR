@@ -1,0 +1,1 @@
+"function addReward(uint256 _amount) external onlyOwner {        uint8 length = uint8(poolInfo.length);        for (uint8 i=0; i<length; i++) {            poolInfo[i].remainedRewards += _amount * poolInfo[i].allocPoint / totalAllocPoint;        }        rewardTokenSupply += _amount;        rewardToken.<mask0>;        emit RewardTokenAdded(msg.sender, _amount);    }"

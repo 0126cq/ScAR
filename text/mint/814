@@ -1,0 +1,1 @@
+"function allocateLiquid(address _who, uint _value)\t\tonly_admin\t\twhen_allocatable_liquid(_value)\t\tpublic\t{\t\ttokens.<mask0>;\t\tliquidAllocatable -= _value;\t\tAllocated(_who, _value, true);\t}"

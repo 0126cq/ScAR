@@ -1,0 +1,1 @@
+"function buy(uint256 _usdtAmount) onlyBuyable() external {        uint256 lynAmount = _usdtAmount.mul(LYN_DECIMAL).div(marketPrice);        _safeTransferFrom(address(usdtToken), msg.sender, address(this), _usdtAmount);        <mask0>;        emit Buy(msg.sender, _usdtAmount, lynAmount);    }"

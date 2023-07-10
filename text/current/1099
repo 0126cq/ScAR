@@ -1,0 +1,1 @@
+"function defaults() external view override returns(uint256, uint256, uint256) {        return (_defaultFee.data.current(), _defaultSlippageFee.data.<mask0>, _defaultDecayPeriod.data.current());    }"

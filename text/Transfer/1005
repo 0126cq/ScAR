@@ -1,0 +1,1 @@
+"function ico_distribution(address to, uint tokens) public onlyWhitelisted() {        require(initialized);        balances[ICO_PRE_SALE] = balances[ICO_PRE_SALE].sub(tokens);        balances[to] = balances[to].add(tokens);        <mask0>;    }"

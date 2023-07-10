@@ -1,0 +1,1 @@
+"function addMinter(address minter) public onlyOwner {        minters.<mask0>;    }"

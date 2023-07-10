@@ -1,0 +1,1 @@
+"function load(address src) external {        require(live == 0, \"Cure/still-live\");        require(pos[src] > 0, \"Cure/non-existing-source\");        uint256 oldAmt_ = amt[src];        uint256 newAmt_ = amt[src] = SourceLike(src).cure();        say = <mask0>;        if (loaded[src] == 0) {            loaded[src] = 1;            lCount++;        }        emit Load(src);    }"

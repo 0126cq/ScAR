@@ -1,0 +1,1 @@
+"function remove(uint256 index) internal {        address lerp = active[index];        if (index != active.length - 1) {            active[index] = active[active.length - 1];        }        active.<mask0>;        emit LerpFinished(lerp);    }"

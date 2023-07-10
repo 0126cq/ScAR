@@ -1,0 +1,1 @@
+"function trim(bytes memory self, uint256 cutLength)         internal         pure        returns (bytes memory newString)    {        newString = new <mask0>;        uint256 index = newString.length;        while (index-- > 0) {            newString[index] = self[index];        }    }"

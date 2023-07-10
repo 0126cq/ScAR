@@ -1,0 +1,1 @@
+"function emergencyExit() public onlyGovernance {    if (rewardPool.balanceOf(poolId, address(this)) > 0) {      rewardPool.<mask0>;    }    pausedInvesting = true;  }"

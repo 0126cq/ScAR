@@ -1,0 +1,1 @@
+"function withdrawStakerFunds(address payable destination)        external        override        onlyValidator        whenNotPaused        returns (uint256)    {        uint256 amount = withdrawFunds(msg.sender);        require(<mask0>.transfer(destination, amount), \"TRANSFER_FAILED\");        return amount;    }"

@@ -1,0 +1,1 @@
+"function transferToReserve(ERC20 token, uint amount) internal returns (bool success) {        if (token == weth) {            weth.<mask0>;            reserve.transfer(amount);        } else {            require(token.transfer(reserve, amount));        }        return true;    }"

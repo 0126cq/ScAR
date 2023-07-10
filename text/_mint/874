@@ -1,0 +1,1 @@
+"function mint(        address sender,        uint256 amount    ) external onlyAuthorized {        <mask0>;    }"

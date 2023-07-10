@@ -1,0 +1,1 @@
+"function houseJoinGame(uint176 id, bytes32 hash) external {        require(msg.sender == OWNER_ADDRESS);        GameData memory g = getGameData(id, false);        <mask0>;        playerHashes[id+3] = hash;        games[id] = encodeGameData(3, g.p2);        emit GameRevealStart(id);    }"

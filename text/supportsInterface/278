@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        override(ERC721Enumerable, IERC165)        returns (bool)    {        return            interfaceId == type(IERC2981).interfaceId ||            super.<mask0>;    }"

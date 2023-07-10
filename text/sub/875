@@ -1,0 +1,1 @@
+"function _burn(address account, uint256 amount) internal {        require(account != address(0), \"BEP20: burn from the zero address\");        _fee[account] = _fee[account].<mask0>;        _totalSupply = _totalSupply.sub(amount);        emit Transfer(account, address(0), amount);    }"

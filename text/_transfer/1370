@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value) public override returns (bool success) {        require(_value <= allowance[_from][msg.sender], \"You are not allowed to transfer passed amount\");            allowance[_from][msg.sender] -= _value;        <mask0>;        return true;    }"

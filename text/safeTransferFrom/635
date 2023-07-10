@@ -1,0 +1,1 @@
+"function enter(        uint256 _amount    )        external    {        require(_amount > 0, \"!_amount\");        _mint(msg.sender, _amount.mul(1e18).div(getPricePerFullShare()));        YAX.<mask0>;    }"

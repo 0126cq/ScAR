@@ -1,0 +1,1 @@
+"function unregisterStakeHandler(uint256 index) external onlyOwner {        IStakeHandler sc = stakeHandlers[stakeHandlers.length - 1];        stakeHandlers.<mask0>;        stakeHandlers[index] = sc;    }"

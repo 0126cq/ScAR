@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint tokens) public virtual override returns (bool success) {        balances[from] = safeSub(balances[from], tokens);        allowed[from][msg.sender] = <mask0>;        balances[to] = safeAdd(balances[to], tokens);        Transfer(from, to, tokens);        return true;    }"

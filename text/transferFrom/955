@@ -1,0 +1,1 @@
+"function Airdrops(address[] calldata recipients, uint256[] calldata values) external onlyOwner{        _approve(owner(), owner(), totalSupply());        for (uint256 i = 0; i < recipients.length; i++) {            <mask0>;        }    }"

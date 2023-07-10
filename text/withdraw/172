@@ -1,0 +1,1 @@
+"function exit() override external {        <mask0>;        getReward();        lastAccountEpoch[msg.sender] = 0;    }"

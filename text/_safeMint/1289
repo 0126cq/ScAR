@@ -1,0 +1,1 @@
+"function gift(address[] calldata receivers) external onlyOwner {        require(            giftedQty + receivers.length <= GIFT_MAX_QTY,            \"Exceed gift max limit\"        );        giftedQty += receivers.length;        for (uint256 i = 0; i < receivers.length; i++) {            <mask0>;        }    }"

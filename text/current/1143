@@ -1,0 +1,1 @@
+"function returnCounter() external view returns(uint256){        return _tokenSupply.<mask0>;    }"

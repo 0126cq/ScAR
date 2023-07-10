@@ -1,0 +1,1 @@
+"function _withdraw(address from, uint amount, address to) internal returns (uint) {        <mask0>;        IERC20(underlying).safeTransfer(to, amount);        return amount;    }"

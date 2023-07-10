@@ -1,0 +1,1 @@
+"function getAccountSpendingPeriod(Data storage self, address account) internal view returns (uint period) {    bytes32 id = keccak256(abi.<mask0>);    return self.Storage.getUint(id);  }"

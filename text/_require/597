@@ -1,0 +1,1 @@
+"function _setPaused(bool paused) internal {        if (paused) {            <mask0>;        } else {            _require(block.timestamp < _getBufferPeriodEndTime(), Errors.BUFFER_PERIOD_EXPIRED);        }        _paused = paused;        emit PausedStateChanged(paused);    }"

@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceID) virtual override public pure returns(bool) {        return interfaceID == CONTENT_HASH_INTERFACE_ID || super.<mask0>;    }"

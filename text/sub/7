@@ -1,0 +1,1 @@
+"function _transfer(address sender, address recipient, uint256 amount) private {        s_balances[sender] = s_balances[sender].<mask0>;        s_balances[recipient] = s_balances[recipient].add(amount);        emit Transfer(sender, recipient, amount);    }"

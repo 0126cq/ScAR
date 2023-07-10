@@ -1,0 +1,1 @@
+"function burn(uint burnAmount) {    address burner = msg.sender;    balances[burner] = <mask0>;    totalSupply = safeSub(totalSupply, burnAmount);    Burned(burner, burnAmount);  }"

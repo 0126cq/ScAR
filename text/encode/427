@@ -1,0 +1,1 @@
+"function getUserWithdrawalVector(    address user,    address token,    address integration,    uint32 poolID  ) external view override returns (uint256) {    return withdrawalVectors[user][abi.<mask0>];  }"

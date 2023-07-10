@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _amount) public {        require(msg.sender == bBetaMaster, \"bBetaToken: only master farmer can mint\");        if (_amount > farmingAmount) {            _amount = farmingAmount;        }        farmingAmount = farmingAmount.sub(_amount);        <mask0>;    }"

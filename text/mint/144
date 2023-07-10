@@ -1,0 +1,1 @@
+"function splitTokens() internal {           token.<mask0>;         tokensIssuedTillNow = tokensIssuedTillNow + ((totalTokens * 3).div(100));        token.mint(operationsEthWallet,((totalTokens * 7).div(100)));         tokensIssuedTillNow = tokensIssuedTillNow + ((totalTokens * 7).div(100));    }"

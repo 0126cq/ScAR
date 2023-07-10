@@ -1,0 +1,1 @@
+"function snapshot() public {        require(<mask0>, \"must have snapshot role to snapshot\");        _snapshot();    }"

@@ -1,0 +1,1 @@
+"function withdrawToken(address _tokenAddr,uint256 _value) onlyOwner public {        <mask0>;    }"

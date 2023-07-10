@@ -1,0 +1,1 @@
+"function seal(uint256 tokenId) external {        require(_msgSender() == <mask0>, \"Caller is not the owner\");        uint256 metaHead = FinishHead[tokenId];        require(metaHead > 0, \"Token ID abnormal\");        require(!TokenIds.getSeal(metaHead), \"Token ID is sealed\");        FinishHead[tokenId] = TokenIds.setSeal(metaHead, true);        emit Seal(tokenId);    }"

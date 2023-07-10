@@ -1,0 +1,1 @@
+"function moveCollateral(address collateral, address location, uint256 amount) external onlyOwner {        require(acceptedCollateral[collateral], \"invalid collateral\");        SafeERC20.<mask0>;    }"

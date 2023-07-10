@@ -1,0 +1,1 @@
+"function _withdrawAll() internal {        yERC20(yycrv).<mask0>;        withdrawTUSD(IERC20(ycrv).balanceOf(address(this)));    }"

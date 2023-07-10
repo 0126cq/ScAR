@@ -1,0 +1,1 @@
+"function doTransferOut(        address underlying,        address to,        uint256 tokenId,        uint256 units    ) internal returns (uint256 newTokenId) {        VNFTInterface token = VNFTInterface(underlying);        newTokenId = token.<mask0>;    }"

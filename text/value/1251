@@ -1,0 +1,1 @@
+"function schedule()         private returns (bool)    {        lockedUntil = block.number + paymentInterval;        currentScheduledTransaction = scheduler.schedule.<mask0>;        emit PaymentScheduled(currentScheduledTransaction, recipient, paymentValue);    }"

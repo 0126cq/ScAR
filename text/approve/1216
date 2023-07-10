@@ -1,0 +1,1 @@
+"function lock(address unlocker, uint256 id) public virtual {        address tokenOwner = ownerOf(id);        require(msg.sender == tokenOwner || isApprovedForAll(tokenOwner, msg.sender)        , \"NOT_AUTHORIZED\");        require(unlockers[id] == address(0), \"ALREADY_LOCKED\");         unlockers[id] = unlocker;        super.<mask0>;     }"

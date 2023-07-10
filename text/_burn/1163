@@ -1,0 +1,1 @@
+"function burnFrom(address recipient, uint256 amount) external virtual {        _approve(recipient, msg.sender, allowance(recipient, msg.sender) - amount);        <mask0>;    }"

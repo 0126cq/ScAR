@@ -1,0 +1,1 @@
+"function _withdraw(uint256 _amount, address _to) internal virtual {        IERC20(address(aToken)).safeTransferFrom(pool, address(this), _amount);        address aavePool = aaveAddressesProvider.getLendingPool();        AaveLendingPool(aavePool).<mask0>;        _updateCollateralLocked();    }"

@@ -1,0 +1,1 @@
+"function withdraw() public {        <mask0>;        payable(msg.sender).transfer(address(this).balance);    }"

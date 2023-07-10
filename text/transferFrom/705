@@ -1,0 +1,1 @@
+"function receiveApproval(address from, uint256 value, address token, bytes memory extraData) public {        ERC20(token).<mask0>;        emit ReceivedTokens(from, value, token, extraData);    }"

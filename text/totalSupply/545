@@ -1,0 +1,1 @@
+"function ownerBatchMint(uint256 amt) external onlyOwner  {    require(<mask0> + amt < maxSupply + 1,\"too many!\");    _safeMint(msg.sender, amt);  }"

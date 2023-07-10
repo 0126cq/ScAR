@@ -1,0 +1,1 @@
+"function claimOneOnOnes()     external    onlyOwner    {        uint256 supply = totalSupply();        require(supply == COLLECTION_SUPPLY-TEAM_ONE_ON_ONES);        oneOnOnesClaimed = true;        for(uint i=COLLECTION_SUPPLY-TEAM_ONE_ON_ONES; i<COLLECTION_SUPPLY; i++)        {            <mask0>;        }    }"

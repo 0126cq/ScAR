@@ -1,0 +1,1 @@
+"function mintWithTokenURIsByRole(        address to,        uint256 count,        string[] memory tokenURIs    ) external {        require(<mask0>, \"NOT_MINTER_ROLE\");        uint256 startingTokenId = _getNextTokenId();        _mintTo(to, count);        for (uint256 i = 0; i < count; i++) {            _setTokenURI(startingTokenId + i, tokenURIs[i]);        }    }"

@@ -1,0 +1,1 @@
+"function _processPayment(address _payee, address _currency, uint256 _fee) internal {    if(_fee > 0){      if(_currency != address(0)){        IERC20(_currency).<mask0>;      }else{        require(msg.value >= _fee, \"more ETH\");      }    }  }"

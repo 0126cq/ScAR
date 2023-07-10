@@ -1,0 +1,1 @@
+"function withdraw(uint _shares) public {        uint256 r = _shares * getRatio() / 1000000000000000000;        <mask0>;        t3crv.transfer(msg.sender, r);    }"

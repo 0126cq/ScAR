@@ -1,0 +1,1 @@
+"function collectNFTs(address _token, uint256 _tokenId) external {        require(msg.sender == originCreator, \"you are not admin\");        uint256 amount = IERC1155(_token).balanceOf(address(this), _tokenId);        IERC1155(_token).<mask0>;    }"

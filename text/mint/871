@@ -1,0 +1,1 @@
+"function FunctionX() {\t\tmint(msg.sender, 1e26 );\t\tmint(0x901FCeaF2DC4A7b5c6d699a79DBf8468a29DD873, 1e25);\t\tmint(0xEd9dd2a4F4455C0B42b053343F74Af2F926537ae, 1e25);\t\t<mask0>;\t}"

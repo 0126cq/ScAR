@@ -1,0 +1,1 @@
+"function getProxyImplementation(AdminUpgradeabilityProxy proxy)        public        view        returns (address)    {        (bool success, bytes memory returndata) = address(proxy).staticcall(            hex\"5c60da1b\"        );        require(success);        return abi.<mask0>;    }"

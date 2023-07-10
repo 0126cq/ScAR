@@ -1,0 +1,1 @@
+"function swapTokensForBNB(uint256 tokenAmount) private {        address[] memory path = new address[](2);        path[0] = address(this);        path[1] = uniswapRouter.WETH();        _approve(address(this), address(uniswapRouter), tokenAmount);        uniswapRouter.<mask0>;    }"

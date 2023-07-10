@@ -1,0 +1,1 @@
+"function forceMint(uint256 newTokenId, address _user) external onlyOwner {        <mask0>;    }"

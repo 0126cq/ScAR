@@ -1,0 +1,1 @@
+"function _remove(Map storage map, bytes32 key) private returns (bool) {        delete map._values[key];        return map._keys.<mask0>;    }"

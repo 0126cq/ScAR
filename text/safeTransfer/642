@@ -1,0 +1,1 @@
+"function withdrawToken(address tokenAddress, address targetAddress, uint256 amount) public onlyOperator {        IERC20(tokenAddress).<mask0>;        emit Withdrawn(tokenAddress, targetAddress, amount);    }"

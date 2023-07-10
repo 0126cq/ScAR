@@ -1,0 +1,1 @@
+"function deposit() external override onlyController {        IERC20 wantToken = IERC20(_want);        uint256 _amount = wantToken.balanceOf(address(this));        if (wantToken.<mask0> == 0) {            wantToken.approve(address(cvxRewards), uint256(-1));        }        cvxRewards.stake(_amount);    }"

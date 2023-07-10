@@ -1,0 +1,1 @@
+"function whitelistMint(uint256 _count, bytes calldata _signature) external payable requiresWhitelist(_signature) noContracts requireActiveWhitelist  requireActiveContract {    if(_numberMinted(msg.sender) + _count > maxPerWallet) revert ExceedsMaxPerWallet();    if(msg.value < tokenPrice * _count) revert InsufficientPayment();    <mask0>;  }"

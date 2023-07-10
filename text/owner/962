@@ -1,0 +1,1 @@
+"function setNumOptions(uint newNumOptions) public onlyOwner {        require(newNumOptions > _numOptions, \"newNumOptions must be bigger than numOptions\");        uint256 oldMaxOptions = _numOptions;        _numOptions = newNumOptions;        fireTransferEvents(address(0), <mask0>, oldMaxOptions, newNumOptions);    }"

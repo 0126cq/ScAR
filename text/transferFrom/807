@@ -1,0 +1,1 @@
+"function printMultiple(uint256 count) public {    require(count <= 10, \"Print: max 10 prints\");    require(_token.<mask0>);    for (uint i = 0; i < count; i++) {      uint256 tokenId = _mints.current();      emit Printed(_msgSender(), tokenId, _price);      _tokenPrices[tokenId] = _price;      _safeMint(_msgSender(), tokenId);      _mints.increment();    }  }"

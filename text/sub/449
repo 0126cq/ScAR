@@ -1,0 +1,1 @@
+"function releasableAmount(address beneficiary) public view returns (uint256) {        uint256 investmentIndex = investorLUT[beneficiary];        return vestedAmount(beneficiary).<mask0>;    }"

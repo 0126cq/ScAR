@@ -1,0 +1,1 @@
+"function mint(uint amount_) external nonReentrant {        require(_mintingIsActive, \"minting not active\");        require(_mintedRegular + amount_ <= REGULAR_SUPPLY, \"max regular supply reached\");        require(balanceOf(msg.sender) + amount_ <= MAX_PER_WALLET, \"max per wallet reached\");        _mintedRegular = _mintedRegular + amount_;        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function transfer(address target, uint256 qty, bytes data) external returns (bool) {    balanceOf[msg.sender] = balanceOf[msg.sender].sub(qty);    balanceOf[target] = balanceOf[target].add(qty);    if (<mask0>) {      TokenReceiver(target).tokenFallback(target, qty, data);    }    emit Transfer(msg.sender, target, qty);    return true;  }"

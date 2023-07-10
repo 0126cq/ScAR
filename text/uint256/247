@@ -1,0 +1,1 @@
+"function mintExtensionBatch(address to, uint16 count) public virtual override nonReentrant extensionRequired returns(uint256[] memory tokenIds) {        tokenIds = new <mask0>;        for (uint16 i = 0; i < count; i++) {            tokenIds[i] = _mintExtension(to, \"\");        }        return tokenIds;    }"

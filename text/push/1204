@@ -1,0 +1,1 @@
+"function _mint(string _name, uint256 _price) internal returns (uint256 tokenId) {    require(tokens.length < 250, \"Max amount of superheroes is reached\");      Token memory token = Token({      name: _name,      price: _price,      purchased: now    });    tokenId = tokens.<mask0> - 1;    _transfer(0, owner, tokenId);  }"

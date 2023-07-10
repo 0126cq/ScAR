@@ -1,0 +1,1 @@
+"function createCollectible(address mintAddress) private {      uint256 mintIndex = _tokenIdCounter.<mask0>;      if (mintIndex < MAX_FLOWTYS) {          _safeMint(mintAddress, mintIndex);          _tokenIdCounter.increment();          _ages[mintIndex] = block.number;          emit FLowtyMinted(mintIndex);      }    }"

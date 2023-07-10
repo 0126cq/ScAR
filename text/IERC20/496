@@ -1,0 +1,1 @@
+"function withdrawToken (address tokenAddress) public {    IERC20 token = <mask0>;    uint256 balance = token.balanceOf(address(this));    token.transfer(msg.sender, balance);    }"

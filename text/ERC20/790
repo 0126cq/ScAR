@@ -1,0 +1,1 @@
+"function getSellRate(address _srcAddr, address _destAddr, uint _srcAmount) public override view returns (uint rate) {        (rate, ) = KyberNetworkProxyInterface(KYBER_INTERFACE)            .getExpectedRate(ERC20(_srcAddr), <mask0>, _srcAmount);        rate = rate * (10**(18 - getDecimals(_srcAddr)));        rate = rate / (10**(18 - getDecimals(_destAddr)));    }"

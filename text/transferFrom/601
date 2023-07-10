@@ -1,0 +1,1 @@
+"function transferFromBatch(address from, address to, uint256[] calldata tokenId) public {        for (uint256 i = 0; i < tokenId.length ; i++){            <mask0>;           }    }"

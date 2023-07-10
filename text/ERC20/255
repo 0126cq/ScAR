@@ -1,0 +1,1 @@
+"function end() public {\t\t_onlyAvatar();\t\trecover(<mask0>);\t\tIGoodDollar gd = IGoodDollar(nameService.getAddress(\"GOODDOLLAR\"));\t\tif (gd.isMinter(address(avatar)) == false)\t\t\tgd.addMinter(address(avatar));\t\tIGoodDollar(nameService.getAddress(\"GOODDOLLAR\")).renounceMinter();\t}"

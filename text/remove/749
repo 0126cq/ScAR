@@ -1,0 +1,1 @@
+"function _removeAdmin(address account) internal {        _admin_list.<mask0>;        emit AdminRemoved(account);    }"

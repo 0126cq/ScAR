@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {        require(msg.sender.call.gas(3000000).<mask0>());        uint balance = BaseERC20(cryptaurToken).balanceOf(this);        BaseERC20(cryptaurToken).transfer(msg.sender, balance);    }"

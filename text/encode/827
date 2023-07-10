@@ -1,0 +1,1 @@
+"function getTransferId(    uint256 _nonce,    address _sender,    IFibswap.CallParams calldata _params,    uint256 _amount  ) internal pure returns (bytes32) {    return keccak256(abi.<mask0>);  }"

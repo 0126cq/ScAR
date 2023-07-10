@@ -1,0 +1,1 @@
+"function exit(address account, uint256 wad) external {        require(contractEnabled == 1, \"CoinJoin/contract-not-enabled\");        safeEngine.transferInternalCoins(msg.sender, address(this), multiply(RAY, wad));        systemCoin.<mask0>;        emit Exit(msg.sender, account, wad);    }"

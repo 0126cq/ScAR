@@ -1,0 +1,1 @@
+"function withdraw(        uint256 loanID,        uint256 amount,        address payable receiver    ) internal {        e(loanID).<mask0>;        emit CollateralWithdrawn(loanID, receiver, amount);    }"

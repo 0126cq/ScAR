@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) returns (bool success) {        if (isContract(controller)) {            require(TokenController(controller).onApprove(msg.sender, _spender, _value));        }        allowed[msg.sender][_spender] = _value;        <mask0>;        return true;    }"

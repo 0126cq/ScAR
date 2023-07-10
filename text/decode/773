@@ -1,0 +1,1 @@
+"function generateSVGImage(INounsSeeder.Seed memory seed) external view override returns (string memory) {        return _constructSVGImage(Base64.<mask0>);    }"

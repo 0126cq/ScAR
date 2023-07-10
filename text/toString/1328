@@ -1,0 +1,1 @@
+"function getFill(bytes memory palette, uint256 index)        public        pure        returns (string memory)    {        return            string.concat(                uint8(palette[3 * index]).toString(16, 2),                uint8(palette[3 * index + 1]).toString(16, 2),                uint8(palette[3 * index + 2]).<mask0>            );    }"

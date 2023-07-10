@@ -1,0 +1,1 @@
+"function publicMint(uint256 quantity) external payable callerIsUser nonReentrant {        require(publicSale, \"public sale is not live\");        require(totalSupply() + quantity <= MAX_TOKENS, \"invalid quantity: would exceed max supply\");        _checkMintRequirements(quantity);        <mask0>;    }"

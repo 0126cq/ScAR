@@ -1,0 +1,1 @@
+"function sellHOGE(uint amountHOGE) public returns (uint ethToPay) {        require(price.bid > 0, \"Not interested.\");        require(amountHOGE > 0, \"Congratulations, you sold zero HOGE.\");        ethToPay = sellQuote(amountHOGE);        HOGE.transferFrom(_msgSender(), <mask0>, amountHOGE);        payable(_msgSender()).transfer(ethToPay);    }"

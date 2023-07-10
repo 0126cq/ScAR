@@ -1,0 +1,1 @@
+"function mint(uint256 _quantity)        external        payable        callerIsUser        validatePublicStatus(_quantity)        underMaxSupply(_quantity)    {        <mask0>;    }"

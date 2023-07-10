@@ -1,0 +1,1 @@
+"function _removeMinter(address account) internal {\t\t_minters.<mask0>;\t\temit MinterRemoved(account);\t}"

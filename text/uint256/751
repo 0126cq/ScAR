@@ -1,0 +1,1 @@
+"function _getAssetPrices()        internal        view        returns (uint256[] memory assetPrices)    {        assetPrices = new <mask0>;        IOracle oracle = IOracle(priceProvider);        for (uint256 i = 0; i < allAssets.length; i++) {            assetPrices[i] = oracle.price(allAssets[i]).scaleBy(18, 8);        }    }"

@@ -1,0 +1,1 @@
+"function burn(address account, uint256 amount) public {    require(msg.sender == pool_address, \"must be pool\");    <mask0>;  }"

@@ -1,0 +1,1 @@
+"function mulDown(uint256 a, uint256 b) internal pure returns (uint256) {        uint256 product = a * b;        <mask0>;        return product / ONE;    }"

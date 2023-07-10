@@ -1,0 +1,1 @@
+"function addToCart(uint _id, string memory _productName, string memory _productDescription, uint _price, string memory _productImageURL, string memory _sellerEmail, address _sellerAddress, uint _timeToRevert) payable external {        cart.<mask0>;        updateShop(_id);        payment[msg.sender][_id] = _price;    }"

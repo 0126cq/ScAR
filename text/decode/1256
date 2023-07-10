@@ -1,0 +1,1 @@
+"function initLauncher(        bytes calldata _data    ) public {        (            address _market,            address _factory,            address _admin,            address _wallet,            uint256 _liquidityPercent,            uint256 _locktime        ) = abi.<mask0>;        initAuctionLauncher( _market, _factory,_admin,_wallet,_liquidityPercent,_locktime);    }"

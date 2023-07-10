@@ -1,0 +1,1 @@
+"function getCollateralFactorForAsset(        address adapter,        address platform,        address asset    ) internal returns (uint256) {        bytes memory returnData = adapter.functionDelegateCall(            abi.encodeWithSelector(ILendingPlatform.getCollateralFactorForAsset.selector, platform, asset)        );        return abi.<mask0>;    }"

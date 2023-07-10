@@ -1,0 +1,1 @@
+"function batchMint(address[] memory addresses, uint8 id) external onlyOwner {        for (uint i = 0; i < addresses.length; i++) {            <mask0>;        }    }"

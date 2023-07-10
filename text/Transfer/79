@@ -1,0 +1,1 @@
+"function mint( uint256 _amount) onlyOwner public returns (bool) {        totalSupply_ = totalSupply_.add(_amount);        balances[owner] = balances[owner].add(_amount);        <mask0>;        return true;    }"

@@ -1,0 +1,1 @@
+"function _superTransferFrom(address _from, address _to, uint256 _value) internal {        bool success = super.<mask0>;        require(success, \"transfer failed\");    }"

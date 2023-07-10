@@ -1,0 +1,1 @@
+"function value(address _asset, uint256 _amount) external view override returns (uint256) {    uint256 _price = price(_asset);    return _price.mul(_amount).<mask0>;  }"

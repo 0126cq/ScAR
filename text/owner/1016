@@ -1,0 +1,1 @@
+"function vendorAsk() public view returns (uint amountHOGE, uint amountETH) {        if (price.ask == 0) return (0,0);        uint allowance = HOGE.allowance(owner(), address(this));        uint balance = HOGE.balanceOf(<mask0>);        amountHOGE = (allowance > balance ? balance : allowance);        amountETH =  amountHOGE.mul(10**9).mul(98).div(99).div(price.ask);    }"

@@ -1,0 +1,1 @@
+"function _selfDeposit(uint256 _assets) internal returns (uint256) {        uint256 shares;        if ((shares = previewDeposit(_assets)) == 0) revert DepositReturnsZeroShares();        <mask0>;        aum += _assets;        emit Deposit(msg.sender, address(this), _assets, shares);        return shares;    }"

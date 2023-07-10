@@ -1,0 +1,1 @@
+"function delegate_deposit(ISilo silo, uint256 amount) internal {        address(silo).functionDelegateCall(abi.<mask0>);    }"

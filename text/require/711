@@ -1,0 +1,1 @@
+"function startTrading() external onlyOwner() {        <mask0>;        antiBotEnabled = true;        swapEnabled = true;        tradingOpen = true;        _tradingStartTimestamp = block.timestamp;    }"

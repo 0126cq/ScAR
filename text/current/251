@@ -1,0 +1,1 @@
+"function getMintedOut(uint256 artworkID) public view returns (bool) {        require(artworkInitialized[artworkID] == true, \"artwork hasn't been initialized\");        return artworks[artworkID].maxSupply == artworks[artworkID].editionIDCounter.<mask0>;    }"

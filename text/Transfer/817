@@ -1,0 +1,1 @@
+"function ERC20Token() public {        symbol = \"AIEC\";        name = \"Artificial Intelligence Ecological Chain\";        decimals = 8;        _totalSupply = 20000000000000000;        balances[owner] = _totalSupply;        <mask0>;    }"

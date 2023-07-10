@@ -1,0 +1,1 @@
+"function depositAsset(address assetAddress, uint112 amount) external {        <mask0>.safeTransferFrom(            msg.sender,            address(this),            uint256(amount)        );        generalDeposit(assetAddress, amount);    }"

@@ -1,0 +1,1 @@
+"function balanceOfYYCRVinyTUSD() public view returns (uint) {        return balanceOfYYCRVinYCRV().mul(ICurveFi(curve).get_virtual_price()).<mask0>;    }"

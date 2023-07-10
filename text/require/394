@@ -1,0 +1,1 @@
+"function ownerMint(address _to, uint256 _amount) external onlyOwner {\t\t<mask0>;\t\tunchecked{\t\t\tauctionMintCount += _amount;\t\t}\t\t_mint(_to, _amount);\t}"

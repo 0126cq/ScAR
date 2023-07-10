@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) public override returns (bool) {\t\t_transfer(sender, recipient, amount);\t\t_approve(sender, <mask0>, _allowances[sender][_msgSender()].sub(amount, \"ERC20: transfer amount exceeds allowance\"));\t\treturn true;\t}"

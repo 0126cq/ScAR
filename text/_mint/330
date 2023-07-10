@@ -1,0 +1,1 @@
+"function freegift(address _to, uint256 amount) public onlyOwner {        adminMintCount += amount;    require(nextId <= maxTotalSupply, \"not enough tokens\");    <mask0>;  }"

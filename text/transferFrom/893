@@ -1,0 +1,1 @@
+"function transferFrom(address from, address to, uint256 value) public notLocked(from, value) returns (bool) {    return super.<mask0>;  }"

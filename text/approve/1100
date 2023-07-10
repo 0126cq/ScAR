@@ -1,0 +1,1 @@
+"function approve(address _spender, uint256 _value) public returns (bool) {    if (isContract(owner)) {      require(TokenController(owner).onApprove(msg.sender, _spender, _value));    }    return super.<mask0>;  }"

@@ -1,0 +1,1 @@
+"function retrieve(IERC20 token, address to)        external        auth    {        require(address(token) != address(asset), \"Use exit for asset\");        token.safeTransfer(to, token.<mask0>);    }"

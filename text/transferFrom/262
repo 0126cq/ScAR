@@ -1,0 +1,1 @@
+"function depositERC721ForUser(        address _token,        address _user,        uint256 _tokenId    ) public {        IERC721(_token).<mask0>;        _safeCreateDepositBlock(_user, _token, _tokenId);    }"

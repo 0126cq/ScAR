@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public override {        if (_tokens[tokenId].isStaked) {            revert(\"ERC721: Token is staked\");        }        super.<mask0>;    }"

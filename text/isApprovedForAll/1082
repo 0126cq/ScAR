@@ -1,0 +1,1 @@
+"function isErc721OwnerOrOperator(address contractAddress, uint256 tokenId, address sender) internal view virtual returns (bool) {    IERC721Chargeable tokenInterface = IERC721Chargeable(contractAddress);    address tokenOwner = tokenInterface.ownerOf(tokenId);    return (sender == tokenOwner || tokenInterface.<mask0>);  }"

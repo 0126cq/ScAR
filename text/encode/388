@@ -1,0 +1,1 @@
+"function encodeTransferErc20Message(        address token,        address receiver,        uint256 amount    ) internal pure returns (bytes memory) {        TransferErc20Message memory message = TransferErc20Message(            BaseMessage(MessageType.TRANSFER_ERC20),            token,            receiver,            amount        );        return abi.<mask0>;    }"

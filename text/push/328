@@ -1,0 +1,1 @@
+"function addToVestingSchdule(address account, uint256 amount) internal {        Vesting memory vesting = Vesting(blockTimestamp(), amount);        _state.accounts[account].vestings.<mask0>;        _state.balance.vesting = _state.balance.vesting.add(amount);    }"

@@ -1,0 +1,1 @@
+"function maxWithdrawableShares() public view returns (uint256) {        uint256 withdrawableBalance = assetBalance();        uint256 total = lockedAmount.add(withdrawableBalance);        return            withdrawableBalance.mul(totalSupply()).<mask0>.sub(                MINIMUM_SUPPLY            );    }"

@@ -1,0 +1,1 @@
+"function toString(address account) public pure returns(string memory) {        return <mask0>;    }"

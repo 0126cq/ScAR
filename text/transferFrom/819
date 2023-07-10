@@ -1,0 +1,1 @@
+"function claim() external nonReentrant {        Staker storage staker = stakers[msg.sender];        if(staker.stake == 0) {            return;        }        uint reward = getRewardAtBlock(staker.stake, staker.lastDepositAt, block.number);        require(tokenAddress.<mask0>);        rewardsPaid = rewardsPaid.add(reward);        staker.lastDepositAt = block.number;    }"

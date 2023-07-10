@@ -1,0 +1,1 @@
+"function ownerMint(address _to, uint256 _amount) external onlyOwner {\t\trequire( (auctionMintCount + _amount) <=  auctionSupply, \"Minting would exceed max auction supply\");\t\tunchecked{\t\t\tauctionMintCount += _amount;\t\t}\t\t<mask0>;\t}"

@@ -1,0 +1,1 @@
+"function updatePoolIndex(string memory token, uint64 iVal, uint64 value) external {            poolIndex[token].push(iVal);            orderpool[token].<mask0>;    }"

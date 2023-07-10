@@ -1,0 +1,1 @@
+"function mint(address player, uint playerId)    public    {        require(msg.sender == address(stonk));        if (hasMinted[player]) {            return;        }        hasMinted[player] = true;        uint id = uint256(keccak256(abi.encodePacked(\"main_\", playerId)));        _safeMint(player, id);        _setTokenURI(id, string(abi.<mask0>));    }"

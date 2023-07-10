@@ -1,0 +1,1 @@
+"function _setPrizeStrategy(TokenListenerInterface _prizeStrategy) internal {    require(address(_prizeStrategy) != address(0), \"PrizePool/prizeStrategy-not-zero\");    require(address(_prizeStrategy).<mask0>, \"PrizePool/prizeStrategy-invalid\");    prizeStrategy = _prizeStrategy;    emit PrizeStrategySet(address(_prizeStrategy));  }"

@@ -1,0 +1,1 @@
+"function withdrawAllToVault() external restricted {    unwrap();    uint256 balance = IERC20(underlying).balanceOf(address(this));    if (balance > 0) {      IERC20(underlying).<mask0>;    }  }"

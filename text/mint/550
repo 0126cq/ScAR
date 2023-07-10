@@ -1,0 +1,1 @@
+"function mintLocked(address _to, uint256 _amount) public onlyOwner canMint returns(bool minted) {        initiallyLockedBalanceOf[_to] = initiallyLockedBalanceOf[_to].add(_amount);        return <mask0>;    }"

@@ -1,0 +1,1 @@
+"function approveAndCall(address _to, uint256 _value, bytes _data) public payable returns (bool) {        sendersStack_.push(msg.sender);        <mask0>;        require(caller_.makeCall.value(msg.value)(_to, _data));        sendersStack_.length -= 1;        return true;    }"

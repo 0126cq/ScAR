@@ -1,0 +1,1 @@
+"function _tokenURI(uint256 tokenId) internal view returns (string memory) {        string memory customUri = customTokenUri[tokenId];        if (bytes(customUri).length > 0)            return customUri;        else            return bytes(tokenBaseUri).length > 0 ? string(abi.encodePacked(tokenBaseUri, tokenId.<mask0>, tokenUriExtension)) : \"\";    }"

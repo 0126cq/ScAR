@@ -1,0 +1,1 @@
+"function compareAndApprove(address _spender, uint256 _currentValue, uint256 _newValue) public returns(bool) {    if (allowed[msg.sender][_spender] != _currentValue) {      return false;    }    return <mask0>;  }"

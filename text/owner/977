@@ -1,0 +1,1 @@
+"function openTrading() external onlyOwner() {        require(!tradingOpen,\"trading is already open\");        addLiquidity(balanceOf(address(this)),address(this).balance,<mask0>);        swapEnabled = true;        tradingOpen = true;        time = block.timestamp + (4 minutes);    }"

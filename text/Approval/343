@@ -1,0 +1,1 @@
+"function approveAndCall(Data storage self, address spender, uint tokens, bytes data) public returns (bool success) {        require(!self.accountLocked[msg.sender]);        self.allowed[msg.sender][spender] = tokens;        <mask0>;        ApproveAndCallFallBack(spender).receiveApproval(msg.sender, tokens, address(this), data);        return true;    }"

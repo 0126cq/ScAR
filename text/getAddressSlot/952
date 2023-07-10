@@ -1,0 +1,1 @@
+"function _getBeacon() internal view returns (address) {\t\treturn StorageSlotUpgradeable.<mask0>.value;\t}"

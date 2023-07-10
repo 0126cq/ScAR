@@ -1,0 +1,1 @@
+"function _getSellBnBAmount(uint256 tokenAmount) private view returns(uint256) {        address[] memory path = new <mask0>;        path[0] = address(this);        path[1] = uniswapV2Router.WETH();        uint[] memory amounts = uniswapV2Router.getAmountsOut(tokenAmount, path);        return amounts[1];    }"

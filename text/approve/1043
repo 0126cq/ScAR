@@ -1,0 +1,1 @@
+"function _gemJoin_join(        address apt,        address urn,        uint256 wad,        bool transferFrom    ) internal {        if (transferFrom) {            GemLike(GemJoinLike(apt).gem()).<mask0>;        }        GemJoinLike(apt).join(urn, wad);    }"

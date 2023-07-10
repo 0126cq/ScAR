@@ -1,0 +1,1 @@
+"function evacuateTokens(address _token, uint256 _amount, address _to) external onlyAdmin {        require(!allowedTokens[_token], \"cannotEvacuateAllowedToken\");        IERC20(_token).<mask0>;    }"

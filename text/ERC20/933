@@ -1,0 +1,1 @@
+"function approveToPullOutTokens(address _token, address _receiver, uint256 _amount) external onlyOwner {        <mask0>.approve(_receiver, _amount);    }"

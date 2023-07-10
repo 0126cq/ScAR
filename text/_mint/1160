@@ -1,0 +1,1 @@
+"function generateSourceToken(uint256 sourceNftId, address receiver) external onlyOwner {\t\tsourceNfts[sourceNftId].exists = true;\t\tsourceNfts[sourceNftId].admin = msg.sender;\t\tsourceNfts[sourceNftId].payoutShare = 10000;\t\t<mask0>; \t}"

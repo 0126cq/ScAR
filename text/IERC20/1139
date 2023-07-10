@@ -1,0 +1,1 @@
+"function swap() public onlyApprovedParties {        <mask0>.safeTransferFrom(beneficiary, recipient, receivedAmount);        IERC20(sentToken).safeTransfer(address(beneficiary), sentAmount);    }"

@@ -1,0 +1,1 @@
+"function _getReward() internal virtual {\t\t_updateRewardFor(_msgSender());\t\tuint256 reward = _rewards[_msgSender()];\t\tif (reward > 0) {\t\t\t_rewards[_msgSender()] = 0;\t\t\t_rewardsToken.<mask0>;\t\t\temit RewardPaid(_msgSender(), reward);\t\t}\t}"

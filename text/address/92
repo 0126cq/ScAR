@@ -1,0 +1,1 @@
+"function _swap(        address _from,        address _to,        uint _amount    ) private {        address[] memory path = new <mask0>;        path[0] = _from;        path[1] = WETH;        path[2] = _to;        Uniswap(UNISWAP).swapExactTokensForTokens(            _amount,            1,            path,            address(this),            block.timestamp        );    }"

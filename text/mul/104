@@ -1,0 +1,1 @@
+"function sendETHToFee(uint256 amount) private {        _MarketTax.transfer(amount.div(10).mul(3));        _DevTax.transfer(amount.div(10).<mask0>);    }"

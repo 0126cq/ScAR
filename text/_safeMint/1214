@@ -1,0 +1,1 @@
+"function AdminMint(uint256 numTokens) public payable onlyOwner {        <mask0>;    }"

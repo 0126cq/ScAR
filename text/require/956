@@ -1,0 +1,1 @@
+"function approve(address to, uint256 tokenId) public virtual override {        address owner = ERC721.ownerOf(tokenId);        require(to != owner, \"ERC721: approval to current owner\");        <mask0>;        _approve(to, tokenId);    }"

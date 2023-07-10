@@ -1,0 +1,1 @@
+"function setUpEmergencyModeV2(address spender, bool) external virtual override onlyForge {        IERC20(yieldToken).<mask0>;        IERC20(rewardToken).safeApprove(spender, type(uint256).max);    }"

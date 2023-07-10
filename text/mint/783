@@ -1,0 +1,1 @@
+"function deposit(        address asset,        uint256 amount,        address onBehalfOf,        uint16    ) external {        ERC20 token = ERC20(asset);        token.transferFrom(msg.sender, address(this), amount);        address aTokenAddress = reserveAToken[asset];        ATokenMock aToken = ATokenMock(aTokenAddress);        aToken.<mask0>;    }"

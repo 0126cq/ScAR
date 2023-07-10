@@ -1,0 +1,1 @@
+"function lockTransfer(address _address, uint256 _lockDuration) external override{        require(<mask0> || hasRole(DEFAULT_ADMIN_ROLE,msg.sender), 'Diamond: Not allowed');        transferLockTime[_address] = block.timestamp + _lockDuration;    }"

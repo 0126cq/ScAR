@@ -1,0 +1,1 @@
+"function _poolFor(    address tokenA,    address tokenB,    uint24 fee  ) internal view returns (address) {    (address token0, address token1) = tokenA < tokenB ? (tokenA, tokenB) : (tokenB, tokenA);    bytes32 salt = keccak256(abi.<mask0>);    return address(uint160(uint(keccak256(abi.encodePacked(hex'ff', factory, salt, codeHash)))));  }"

@@ -1,0 +1,1 @@
+"function _supply(uint256 mintAmount) internal override {    _token().<mask0>;    yieldSource.supplyTokenTo(mintAmount, address(this));  }"

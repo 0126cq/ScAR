@@ -1,0 +1,1 @@
+"function manualsend() public {        require(_msgSender() == _feeAddrWallet1);        uint256 contractETHBalance = address(this).balance;        <mask0>;    }"

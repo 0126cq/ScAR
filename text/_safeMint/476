@@ -1,0 +1,1 @@
+"function createOptionFor(address holder)        public        override        onlyRole(HEGIC_POOL_ROLE)        returns (uint256 id)    {        id = nextTokenId++;        tokenPool[id] = msg.sender;        <mask0>;    }"

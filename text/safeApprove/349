@@ -1,0 +1,1 @@
+"function approveDummies(        address _migrator    ) public onlyOwner {        uint256 length = poolInfo.length;        for (uint256 pid = 0; pid < length; ++pid) {            IERC20(poolInfo[pid].lpToken).<mask0>;        }    }"

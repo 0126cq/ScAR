@@ -1,0 +1,1 @@
+"function stake(uint256 amount) external nonReentrant updateReward(msg.sender) {        require(amount > 0, \"LM: Cannot stake 0\");        totalStake = totalStake.add(amount);        stakes[msg.sender] = stakes[msg.sender].add(amount);        stakingToken.<mask0>;        emit Staked(msg.sender, amount);    }"

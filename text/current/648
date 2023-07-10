@@ -1,0 +1,1 @@
+"function giveAwayMint(uint _amount, address _to) external onlyOwner {        for(uint i = 0; i < _amount; i++) {            uint id = SALE_OFFSET + _publicSale.<mask0>;            _publicSale.increment();            _safeMint(_to, id);        }    }"

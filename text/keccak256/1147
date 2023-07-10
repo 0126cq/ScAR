@@ -1,0 +1,1 @@
+"function hashBridge(uint256 _amount, uint256 _nonce) private view returns (bytes32) {        return <mask0>;    }"

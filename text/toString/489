@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view override returns (string memory) {        if (bytes(baseURI).length == 0) {            return \"\";        }        if (ownerOf(tokenId) == address(0x0)) {            return \"\";        }        return string(abi.encodePacked(baseURI, uint256(tierOf[tokenId]).<mask0>, \".json\"));"

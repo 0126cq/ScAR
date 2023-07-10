@@ -1,0 +1,1 @@
+"function getTokenType(address contractAddress, uint256 tokenId) internal view returns (uint256) {    IERC165 tokenInterface = IERC165(contractAddress);    bool is1155 = tokenInterface.<mask0>;    if (!is1155 || (tokenId & TYPE_NFT_BIT != TYPE_NFT_BIT)) { return 0; }    return tokenId & TYPE_MASK;  }"

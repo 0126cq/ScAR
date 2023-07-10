@@ -1,0 +1,1 @@
+"function uniswapV3MintCallback(        uint256 amount0,        uint256 amount1,        bytes calldata data    ) external {        require(msg.sender == address(pool), \"FP\");        MintCallbackData memory decoded = abi.<mask0>;        if (amount0 > 0) pay(token0, decoded.payer, msg.sender, amount0);        if (amount1 > 0) pay(token1, decoded.payer, msg.sender, amount1);    }"

@@ -1,0 +1,1 @@
+"function safeApproveAllowance(address spender, IERC20Ext token) internal {        if (token != ETH_TOKEN_ADDRESS && token.allowance(address(this), spender) == 0) {            token.<mask0>;        }    }"

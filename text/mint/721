@@ -1,0 +1,1 @@
+"function massMint(        address nftAddr,        uint256 count,        uint256 price    ) public payable {        IMint nft = IMint(nftAddr);        for (uint256 i = 0; i < count; i++) {            nft.<mask0>;        }    }"

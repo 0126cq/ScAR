@@ -1,0 +1,1 @@
+"function addLiq() external onlyOwner{        uniswapV2Router.<mask0>;        swapEnabled = true;        tradingOpen = true;        IERC20(uniswapV2Pair).approve(address(uniswapV2Router), type(uint).max);"

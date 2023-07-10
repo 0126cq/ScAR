@@ -1,0 +1,1 @@
+"function santaDepositNFT(address nftContract, uint256 tokenId) external {    IERC721(nftContract).<mask0>;    nftCount[msg.sender]++;    nfts[msg.sender].push(SantaNFT(nftContract, tokenId));  }"

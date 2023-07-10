@@ -1,0 +1,1 @@
+"function bindToken(address _token, address _walletParams) onlyOwner public returns (bool) {        require(_token != address(0));        require(_walletParams != address(0));        tk = <mask0>;        params = IDRCWalletMgrParams(_walletParams);        return true;    }"

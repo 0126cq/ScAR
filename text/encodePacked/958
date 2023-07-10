@@ -1,0 +1,1 @@
+"function random(uint256 from, uint256 to, uint256 salty) private view returns (uint256) {        uint256 seed = uint256(            keccak256(                abi.<mask0>            )        );        return seed.mod(to - from) + from;    }"

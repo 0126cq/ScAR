@@ -1,0 +1,1 @@
+"function _approveDex() internal virtual {        IERC20(crv).approve(dex[0], 0);        IERC20(crv).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function devBatchMint(\t\taddress to,\t\tuint256 fromID,\t\tuint256 amount\t) public onlyOwner {\t\tfor (uint256 id = fromID; id < fromID + amount; id++) {\t\t\t<mask0>;\t\t}\t}"

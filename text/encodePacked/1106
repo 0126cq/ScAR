@@ -1,0 +1,1 @@
+"function setForwardedAccount(Data storage self, address originalAccount, address forwardedAccount) internal returns (bool success) {    bytes32 id = keccak256(abi.<mask0>);    require(      self.Storage.setAddress(id, originalAccount),      \"Error: Unable to set storage value. Please ensure contract interface is allowed by the storage contract.\"    );    return true;  }"

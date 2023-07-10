@@ -1,0 +1,1 @@
+"function initialize(\t\tController _dao,\t\tbytes32[] memory _nameHashes,\t\taddress[] memory _addresses\t) public virtual initializer {\t\tdao = _dao;\t\tfor (uint256 i = 0; i < _nameHashes.length; i++) {\t\t\taddresses[_nameHashes[i]] = _addresses[i];\t\t}\t\taddresses[<mask0>] = address(_dao);\t\taddresses[keccak256(bytes(\"AVATAR\"))] = address(_dao.avatar());\t}"

@@ -1,0 +1,1 @@
+"function getBlackListedAddress()        external        view        onlyRole(DEFAULT_ADMIN_ROLE)        returns(address[] memory)    {        address[] memory wallets = new <mask0>;        for(uint i = 0; i < _blacklisted.length(); i++) {            wallets[i] = _blacklisted.at(i);        }        return wallets;    }"

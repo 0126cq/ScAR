@@ -1,0 +1,1 @@
+"function buyDollarsWithFCM(uint256 _amountFCM) external nonReentrant() {        FCM.transferFrom(msg.sender, address(this), _amountFCM);        stakedErc20Tokens[address(FCM)] += _amountFCM;        <mask0>;        emit FCMConvertedToDollars(msg.sender, _amountFCM * DollarsPerFCM / 100000, _amountFCM);    }"

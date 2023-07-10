@@ -1,0 +1,1 @@
+"function _removeLiquidity(        uint256 lpBalance,        uint8 index,        uint256 minAmount    ) internal override {        <mask0>.safeApprove(address(_DEPOSITOR), 0);        IERC20(LP_ADDRESS).safeApprove(address(_DEPOSITOR), lpBalance);        _DEPOSITOR.remove_liquidity_one_coin(lpBalance, index, minAmount);    }"

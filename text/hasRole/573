@@ -1,0 +1,1 @@
+"function SetTokenCounter(uint256 _tokenCounter) external {        require(            <mask0>,            \"Caller is not a admin\"        );        tokenCounter = _tokenCounter;    }"

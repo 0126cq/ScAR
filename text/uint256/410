@@ -1,0 +1,1 @@
+"function tokensByAuthor(        address author    )         public         view         returns(uint256[] memory)     {        uint256 len = _authoredTokens[author].length();        uint256[] memory ret = new <mask0>;        for (uint256 i = 0; i < len; i++) {            ret[i] = _authoredTokens[author].at(i);        }        return ret;    }"

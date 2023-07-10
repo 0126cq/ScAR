@@ -1,0 +1,1 @@
+"function nameLength(bytes memory self, uint offset) internal pure returns(uint) {        uint idx = offset;        while (true) {            <mask0>;            uint labelLen = self.readUint8(idx);            idx += labelLen + 1;            if (labelLen == 0) {                break;            }        }        return idx - offset;    }"

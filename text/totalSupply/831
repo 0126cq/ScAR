@@ -1,0 +1,1 @@
+"function getEthSuppliers() external view returns (uint256, uint256, uint256, uint256) {        return (_etherLPExtra.underlyingSupply, etherLPToken.<mask0>, _etherLPExtra.feeToNiftex, _etherLPExtra.feeToArtist);    }"

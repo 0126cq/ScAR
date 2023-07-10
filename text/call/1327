@@ -1,0 +1,1 @@
+"function sendValue(address payable account, uint256 amount) internal {        (bool success, ) = account.<mask0>;        require(success, 'AddressUtils: failed to send value');    }"

@@ -1,0 +1,1 @@
+"function mint(string memory uri) external onlyOwner {        <mask0>;    }"

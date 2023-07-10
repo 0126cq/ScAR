@@ -1,0 +1,1 @@
+"function _burn(uint tokenId) public override{        require(msg.sender == Season_2_Address, \"Unauthorized burn\");        <mask0>;    }"

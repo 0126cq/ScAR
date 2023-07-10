@@ -1,0 +1,1 @@
+"function removeFromCart(uint _id) public {        uint index;        for(uint i=0; i < cart.length; i++){            if(cart[i].productId == _id ){                index = i;                break;            }        }        for(uint i=index; i < cart.length -1; i++){            cart[i] = cart[i+1];        }        cart.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function updateVaultApproval() public {\t\taddress _token = vault.underlying();\t\t_token.<mask0>;\t}"

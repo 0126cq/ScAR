@@ -1,0 +1,1 @@
+"function withdrawAll(uint256 _pid) public returns(bool){        address token = poolInfo[_pid].token;        uint256 userBal = IERC20(token).balanceOf(msg.sender);        <mask0>;        return true;    }"

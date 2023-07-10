@@ -1,0 +1,1 @@
+"function lockDevTokens (address _from, uint _amount) public {    require(_from == owner);    require(YLIQToken.balanceOf(_from) >= _amount);    YLIQLockedDev = _amount;    unlockDateDev = now;    YLIQToken.<mask0>;  }"

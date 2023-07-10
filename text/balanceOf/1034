@@ -1,0 +1,1 @@
+"function sellItem() external payable {    require(this.<mask0> == 1);    sold = true;    fraktionalized = false;    indexUsed[fraktionsIndex] = true;    emit ItemSold(_msgSender(), fraktionsIndex);  }"

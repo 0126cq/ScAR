@@ -1,0 +1,1 @@
+"function _swap(    uint256 _amount,    address[] memory _path  ) internal {    IERC20(_path[0]).safeApprove(uniswapV2, 0);    IERC20(_path[0]).<mask0>;    IUniswapV2Router02(uniswapV2).swapExactTokensForTokens(      _amount,      0,      _path,      address(this),      now.add(1800)    );  }"

@@ -1,0 +1,1 @@
+"function addMessageToInbox(bytes32 inbox, bytes32 message) internal pure returns (bytes32) {        return <mask0>;    }"

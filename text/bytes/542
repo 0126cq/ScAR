@@ -1,0 +1,1 @@
+"function addressToBytes(address a) internal pure returns(bytes memory b) {        b = new <mask0>;        assembly {            mstore(add(b, 32), mul(a, exp(256, 12)))        }    }"

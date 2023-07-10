@@ -1,0 +1,1 @@
+"function sweep(address token, address payee) external onlyOwner {    uint256 balance = IERC20(token).balanceOf(address(this));    emit ERC20Swept(token, payee, balance);    SafeERC20.<mask0>;  }"

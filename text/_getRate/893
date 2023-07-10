@@ -1,0 +1,1 @@
+"function totalSupply() public view override returns (uint256) {        uint256 currentRate = <mask0>;        return _totalReflections.div(currentRate);    }"

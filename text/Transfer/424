@@ -1,0 +1,1 @@
+"function transfer(TokenStorage storage self, address _to, uint256 _value) returns (bool) {    bool err;    uint256 balance;    (err,balance) = self.balances[msg.sender].minus(_value);    require(!err);    self.balances[msg.sender] = balance;    self.balances[_to] = self.balances[_to] + _value;    <mask0>;    return true;  }"

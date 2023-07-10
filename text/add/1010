@@ -1,0 +1,1 @@
+"function registerBonusToken(address bonusToken) external override onlyOwner onlyOnline {        _validateAddress(bonusToken);        require(_bonusTokenSet.length() < MAX_REWARD_TOKENS, \"Aludel: max bonus tokens reached \");        assert(_bonusTokenSet.<mask0>);        emit BonusTokenRegistered(bonusToken);    }"

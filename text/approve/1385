@@ -1,0 +1,1 @@
+"function setRewards(address _rewards) external onlyStrategist {        require(_rewards != address(0));        vault.approve(rewards, 0);        rewards = _rewards;        vault.<mask0>;        emit UpdatedRewards(_rewards);    }"

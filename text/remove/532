@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId) internal {        address owner = ownerOf(tokenId);        _approve(address(0), tokenId);        _holderTokens[owner].<mask0>;        _tokenOwners.remove(tokenId);        emit Transfer(owner, address(0), tokenId);    }"

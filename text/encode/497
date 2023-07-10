@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) override(ERC721) public view returns (string memory) {        string memory json = Base64.<mask0>;        return string(abi.encodePacked('data:application/json;base64,', json));    }"

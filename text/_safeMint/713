@@ -1,0 +1,1 @@
+"function mintReserved() external payable nonReentrant {        require(onlyReserved, \"not active\");        require(nextMintId < maxMintId, \"max supply reached\");        require(msg.value >= reservedPrice, \"value too low\");        <mask0>;    }"

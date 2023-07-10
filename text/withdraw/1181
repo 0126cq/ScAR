@@ -1,0 +1,1 @@
+"function _withdrawFromPool(uint256 _amount) internal {        uint256 _pricePerShare = vPool.pricePerShare();        uint256 _shares = (_amount * 1e18) / _pricePerShare;        _shares = _amount > ((_shares * _pricePerShare) / 1e18) ? _shares + 1 : _shares;        uint256 _maxShares = vPool.balanceOf(address(this));        vPool.<mask0>;    }"

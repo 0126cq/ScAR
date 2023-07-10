@@ -1,0 +1,1 @@
+"function preSalesSignature(address _wallet, uint256 _count, uint256 _signatureId, bytes memory _signature) public pure returns(address){        return ECDSA.recover(keccak256(abi.<mask0>), _signature);    }"

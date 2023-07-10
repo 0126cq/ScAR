@@ -1,0 +1,1 @@
+"function _withdraw(        address _asset,        address _to,        uint256 _amount    ) internal returns (uint256) {        if (_amount != 0) {            require(aaveLendingPool.<mask0> == _amount, \"withdrawn-amount-is-not-correct\");        }        return _amount;    }"

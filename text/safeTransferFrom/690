@@ -1,0 +1,1 @@
+"function depositRewards(uint _amount) external nonReentrant {        require(_amount > 0);        uint256 beforeAmt = brews.balanceOf(address(this));        brews.<mask0>;        uint256 afterAmt = brews.balanceOf(address(this));        totalEarned = totalEarned.add(afterAmt).sub(beforeAmt);    }"

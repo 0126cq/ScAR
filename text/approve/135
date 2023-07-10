@@ -1,0 +1,1 @@
+"function gemJoin_join(address apt, address urn, uint256 wad, bool transferFrom) public {        if (transferFrom) {            GemJoinLike(apt).gem().transferFrom(msg.sender, address(this), wad);            GemJoinLike(apt).gem().<mask0>;            GemJoinLike(apt).gem().approve(apt, wad);        }        GemJoinLike(apt).join(urn, wad);    }"

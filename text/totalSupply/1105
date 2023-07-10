@@ -1,0 +1,1 @@
+"function getRandomSeed() internal view returns (uint) {        return uint(keccak256(abi.encodePacked(block.difficulty, randomSeed, block.timestamp, msg.sender, <mask0>)));    }"

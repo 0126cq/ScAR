@@ -1,0 +1,1 @@
+"function setSwapFeePercentage(uint256 newSwapFeePercentage) external authenticate {        <mask0>;        _swapFeePercentage = newSwapFeePercentage;        emit SwapFeePercentageChanged(newSwapFeePercentage);    }"

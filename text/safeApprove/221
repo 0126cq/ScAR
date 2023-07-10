@@ -1,0 +1,1 @@
+"function approveMarkets() public {        address[] memory _markets = COMPTROLLER.getAllMarkets();        for (uint i = 0; i < _markets.length; i++) {            address _underlying = cyToken(_markets[i]).underlying();            IERC20(_underlying).<mask0>;        }    }"

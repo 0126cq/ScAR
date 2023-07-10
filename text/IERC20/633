@@ -1,0 +1,1 @@
+"function getBalance(address token, address recipient) public view returns (uint256) {        IERC20 tokenContract = <mask0>;        return tokenContract.balanceOf(recipient);    }"

@@ -1,0 +1,1 @@
+"function safeApproveNonCompliant(        IERC20 token,        address spender,        uint256 amount    ) internal {        if (address(token) == USDT) {            SafeERC20.<mask0>;        }        SafeERC20.safeApprove(token, spender, amount);    }"

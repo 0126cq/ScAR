@@ -1,0 +1,1 @@
+"function setCanTransfer(bool _canTransfer) public {    if(<mask0>){      b_canTransfer = _canTransfer;      emit TransferStatusChanged(_canTransfer);    }  }"

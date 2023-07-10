@@ -1,0 +1,1 @@
+"function toBase64(string memory input) internal pure returns(string memory) {        return BytesUtilities.toBase64(abi.<mask0>);    }"

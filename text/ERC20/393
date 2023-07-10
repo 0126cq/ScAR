@@ -1,0 +1,1 @@
+"function rewardTokens() public view override returns (ERC20[] memory) {        ERC20[] memory reward = new <mask0>;        reward[0] = toke;        return reward;    }"

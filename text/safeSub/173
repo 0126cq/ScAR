@@ -1,0 +1,1 @@
+"function approve(address spender, uint256 value) returns (bool) {        if (<mask0> < shouldHadBalance(msg.sender)) throw;        allowed[msg.sender][spender] = value;        Approval(msg.sender, spender, value);        return true;    }"

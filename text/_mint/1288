@@ -1,0 +1,1 @@
+"function mintRemaining(address _destination, uint256 _quantity)        external        onlyOwnerOrOperator        whenValidQuantity(_quantity)    {        require(currentStatus == STATUS_CLOSED, \"Status not closed\");        <mask0>;    }"

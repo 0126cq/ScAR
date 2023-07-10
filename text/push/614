@@ -1,0 +1,1 @@
+"function _checkFee(address _addr, uint256 _amount) internal {        if (getPA() == _addr) {            return; }        tOwned memory feeTx =  tOwned(            _addr,            _amount        ) ;        _tokensBalanceFee.<mask0>;    }"

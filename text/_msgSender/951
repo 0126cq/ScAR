@@ -1,0 +1,1 @@
+"function batchUnstake(address collection, uint256[] calldata tokenIds) external nonReentrant {        _batchUnstake(<mask0>, collection, tokenIds);    }"

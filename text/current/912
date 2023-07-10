@@ -1,0 +1,1 @@
+"function getBalanceForRemoval(IERC20 token) public view returns(uint256) {        uint256 balance = token.uniBalanceOf(address(this));        return Math.min(virtualBalancesForRemoval[token].<mask0>, balance);    }"

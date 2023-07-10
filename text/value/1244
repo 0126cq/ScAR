@@ -1,0 +1,1 @@
+"function Proxy(address _scheduler, address _receipient, uint _payout, uint _gasPrice, uint _delay) public payable {        scheduler = SchedulerInterface(_scheduler);        receipient = _receipient;        owner = msg.sender;        scheduledTransaction = scheduler.schedule.<mask0>;    }"

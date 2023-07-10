@@ -1,0 +1,1 @@
+"function isApprovedForAll(address owner, address operator) public view override returns (bool) {        ProxyRegistry proxyRegistry = ProxyRegistry(_proxyRegistryAddress);        if (isOpenSeaProxyActive && <mask0> == operator) {            return true;        }        return super.isApprovedForAll(owner, operator);    }"

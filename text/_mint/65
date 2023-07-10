@@ -1,0 +1,1 @@
+"function create(uint256  token_id,address to) public{    assert(msg.sender==creator);    <mask0>;  }"

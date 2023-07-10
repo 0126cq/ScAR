@@ -1,0 +1,1 @@
+"function airdrop(address _to, uint256 quantity) external onlyOwner {        if (<mask0> + quantity > maxSupply) revert MaxSupplyReached();        _safeMint(_to, quantity);    }"

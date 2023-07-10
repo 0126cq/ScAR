@@ -1,0 +1,1 @@
+"function acceptOwnership() external {        <mask0>;        emit OwnerChanged(owner, nominatedOwner);        owner = nominatedOwner;        nominatedOwner = address(0);    }"

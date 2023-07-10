@@ -1,0 +1,1 @@
+"function CompressTxWithMessage(bytes memory message, bytes memory sig)        public        pure        returns (bytes memory)    {        Types.Transaction memory _tx = TxFromBytes(message);        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function PointPowerCoin() public {        name = \"PointPowerCoin\";        symbol = \"PWR\";        decimals = 18;        initialSupply = 50000000000;        totalSupply_ = initialSupply * 10 ** uint(decimals);        balances[owner] = totalSupply_;        <mask0>;    }"

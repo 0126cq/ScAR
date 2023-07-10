@@ -1,0 +1,1 @@
+"function processPurchase(address _recipient)\t\tonly_during_period\t\tis_valid_buyin\t\tis_under_cap_with(msg.value)\t\tprivate\t{\t\ttokens.<mask0>;\t\tTREASURY.transfer(msg.value);\t\tsaleRevenue += msg.value;\t\ttotalSold += msg.value * STANDARD_BUYIN;\t\tPurchased(_recipient, msg.value);\t}"

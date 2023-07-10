@@ -1,0 +1,1 @@
+"function approveAndCall(        ITokenRecipient _spender,        uint256 _value,        bytes memory _extraData    ) public returns (bool) {         if (<mask0>) {            _spender.receiveApproval(msg.sender, _value, address(this), _extraData);            return true;        }        return false;    }"

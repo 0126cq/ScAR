@@ -1,0 +1,1 @@
+"function _sendFrom(address from, uint volume) virtual override internal {        <mask0>;        if(from != _msgSender() && allowance(from, _msgSender()) != uint(-1))            _approve(from, _msgSender(), allowance(from, _msgSender()).sub(volume, \"ERC20: transfer volume exceeds allowance\"));    }"

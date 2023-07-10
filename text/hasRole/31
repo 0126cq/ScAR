@@ -1,0 +1,1 @@
+"function _authorizeRescue(        address,         address     ) internal view virtual override {        require(<mask0>, \"MoneyMarket: not rescuer\");    }"

@@ -1,0 +1,1 @@
+"function IMDEXdepositToken(address token, uint256 amount) public {    tokens[token][msg.sender] = safeAdd(tokens[token][msg.sender], amount);    lastActiveTransaction[msg.sender] = block.number;    require(IMDEX(token).<mask0>);    emit Deposit(token, msg.sender, amount, tokens[token][msg.sender]);  }"

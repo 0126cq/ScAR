@@ -1,0 +1,1 @@
+"function redrawWithToken(uint256 _tokenId) external payable{    require(mintState > 3, \"No redraws yet\");    require(msg.sender == ownerOf(_tokenId),\"You don't own this Token\");    require(rfacToken.<mask0>, \"Error with token transfer\");    require(nRedrawn < redrawSupply,\"No more cards in Deck\");    redrawnToken[_tokenId] = maxSupply + nRedrawn;    nRedrawn++;  }"

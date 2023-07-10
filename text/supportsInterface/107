@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view override(IERC165, AccessControlEnumerable, UnburnableERC721) returns (bool){        return interfaceId == type(IERC2981).interfaceId || AccessControlEnumerable.<mask0> || UnburnableERC721.supportsInterface(interfaceId);    }"

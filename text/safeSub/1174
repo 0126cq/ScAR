@@ -1,0 +1,1 @@
+"function burn(uint256 amount) stoppable onlyOwner public returns (bool){\t\tif(balances[msg.sender] > amount ){\t\t\tbalances[msg.sender] = safeSub(balances[msg.sender],amount);\t\t\ttotalSupply = <mask0>;\t\t\temit Burn(msg.sender,amount);\t\t\treturn true;\t\t}else{\t\t\treturn false;\t\t}\t}"

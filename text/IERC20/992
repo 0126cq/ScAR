@@ -1,0 +1,1 @@
+"function mint()    external onlyIdle    returns (uint256 tokens) {      tokens = <mask0>.balanceOf(address(this));      AaveLendingPoolV2 lendingPool = AaveLendingPoolV2(provider.getLendingPool());      lendingPool.deposit(underlying, tokens, msg.sender, 29);   }"

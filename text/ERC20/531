@@ -1,0 +1,1 @@
+"function buyOne(        address _token,        address _exchange,        uint256 _value,        bytes _data    )         payable        public    {        balances[msg.sender] = balances[msg.sender].add(msg.value);        buyInternal(<mask0>, _exchange, _value, _data);    }"

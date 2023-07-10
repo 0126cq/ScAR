@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId)        public        view        virtual        override(ERC721, AccessControl, IERC165)        returns (bool)    {        return            interfaceId == type(IOptionsManager).interfaceId ||            AccessControl.<mask0> ||            ERC721.supportsInterface(interfaceId);    }"

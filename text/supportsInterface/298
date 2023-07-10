@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceID) virtual override public pure returns(bool) {        return interfaceID == DNS_RECORD_INTERFACE_ID ||               interfaceID == DNS_ZONE_INTERFACE_ID ||               super.<mask0>;    }"

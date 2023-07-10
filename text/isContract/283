@@ -1,0 +1,1 @@
+"function _setAddressRegistry(address addressRegistry_) internal {        require(addressRegistry_.<mask0>, \"INVALID_ADDRESS\");        addressRegistry = IAddressRegistryV2(addressRegistry_);        emit AddressRegistryChanged(addressRegistry_);    }"

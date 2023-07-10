@@ -1,0 +1,1 @@
+"function controllerTransfer(address _from, address _to, uint _value) onlyController {\t\t<mask0>;\t}"

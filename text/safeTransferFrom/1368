@@ -1,0 +1,1 @@
+"function distributeRewards(uint256 amount) external {    token.<mask0>;    _distributeRewards(amount);  }"

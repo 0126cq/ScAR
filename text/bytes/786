@@ -1,0 +1,1 @@
+"function fromUint(uint256 _num) internal pure returns (bytes memory _ret) {        _ret = new <mask0>;        assembly {            mstore(add(_ret, 32), _num)        }    }"

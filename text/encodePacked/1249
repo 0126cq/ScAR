@@ -1,0 +1,1 @@
+"function whatProposal(bytes32 _whatFunction)        private        view        returns(bytes32)    {        return(keccak256(abi.<mask0>));    }"

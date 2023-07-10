@@ -1,0 +1,1 @@
+"function withdraw(        uint256 _amount    )        public        updateReward(msg.sender)    {        totalSupply = totalSupply.sub(_amount);        stakers[msg.sender].balance = stakers[msg.sender].balance.sub(_amount);        stakingToken.<mask0>;        emit Withdrawn(msg.sender, _amount);    }"

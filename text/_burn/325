@@ -1,0 +1,1 @@
+"function burnFrom(address _account, uint256 _amount) public onlyOwner {        <mask0>;    }"

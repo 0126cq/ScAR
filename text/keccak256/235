@@ -1,0 +1,1 @@
+"function getContract(string memory name) public view returns (address contractAddress) {        contractAddress = contracts[<mask0>];        if (contractAddress == address(0)) {            revert(name.strConcat(\" contract has not been found\"));        }    }"

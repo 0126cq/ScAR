@@ -1,0 +1,1 @@
+"function _addMaxLiquidityEth(address router, address token0) internal {        uint256 _token0Balance = IERC20Upgradeable(token0).balanceOf(address(this));        uint256 _ethBalance = address(this).balance;        _safeApproveHelper(token0, router, _token0Balance);        IUniswapRouterV2(router).<mask0>;    }"

@@ -1,0 +1,1 @@
+"function setWithdrawFee(uint256 _withdrawFee) public {        require(<mask0>, \"Admin only\");        withdrawFee = _withdrawFee;        emit FeeChanged(\"withdraw\", _withdrawFee);    }"

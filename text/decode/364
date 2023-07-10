@@ -1,0 +1,1 @@
+"function getProxyAdmin(TransparentUpgradeableProxy proxy) public view virtual returns (address) {        (bool success, bytes memory returndata) = address(proxy).staticcall(hex\"f851a440\");        require(success);        return abi.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function _burn(uint256 tokenId)        internal        virtual        override(ERC721Upgradeable, ERC721URIStorageUpgradeable)    {        super.<mask0>;    }"

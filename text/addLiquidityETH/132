@@ -1,0 +1,1 @@
+"function _addLiquidity(uint256 tokenamount, uint256 ethamount) private {        totalLPETH+=ethamount;        _approve(address(this), address(_uniswapv2Router), tokenamount);        _uniswapv2Router.<mask0>;    }"

@@ -1,0 +1,1 @@
+"function rescueTokens(IERC20 tokenAddress) external onlyOwner{        IERC20 token = tokenAddress;        uint256 tokenAmt = token.<mask0>;        require(tokenAmt > 0, 'ERC-20 balance is 0');        token.transfer(msg.sender, tokenAmt);    }"

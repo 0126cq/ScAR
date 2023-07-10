@@ -1,0 +1,1 @@
+"function totalClaimed() public view returns (uint256) {        return _tokenSupply.<mask0>;    }"

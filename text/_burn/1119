@@ -1,0 +1,1 @@
+"function claim(uint amount) external returns (uint) {        <mask0>;        return _claim(amount);    }"

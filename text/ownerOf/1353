@@ -1,0 +1,1 @@
+"function tokensOf(address wallet) public view returns (uint256[] memory) {        uint256 supply = totalSupply();        uint256[] memory tokenIds = new uint256[](balanceOf(wallet));        uint256 currIndex = 0;        for (uint256 i = 1; i <= supply; i++) {            if (wallet == <mask0>) tokenIds[currIndex++] = i;        }        return tokenIds;    }"

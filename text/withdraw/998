@@ -1,0 +1,1 @@
+"function withdraw(uint256 shares) external {    require(msg.sender == client, \"Only client allowed to withdraw\");    pos.transferFrom(client, address(this), shares);    pos.<mask0>;  }"

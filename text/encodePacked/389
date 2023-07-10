@@ -1,0 +1,1 @@
+"function hash(AttestFor request) internal pure returns (bytes32) {    return keccak256(      abi.encodePacked(        ATTEST_FOR_TYPEHASH,        keccak256(          abi.<mask0>        )    ));  }"

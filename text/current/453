@@ -1,0 +1,1 @@
+"function totalMLootMinted() public view returns (uint256) {\t\treturn _countTokenMLoot.<mask0>;\t}"

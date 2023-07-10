@@ -1,0 +1,1 @@
+"function removeBlacklisted(address account)        public        onlyRegistered        onlyIdentityAdmin        whenNotPaused    {        blacklist.<mask0>;        emit BlacklistRemoved(account);    }"

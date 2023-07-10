@@ -1,0 +1,1 @@
+"function decFeeDeposit(uint delta) external onlyOwner {        feeDeposit = <mask0>;    }"

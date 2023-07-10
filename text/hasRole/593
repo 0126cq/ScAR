@@ -1,0 +1,1 @@
+"function setMintingCap(uint256 _mintingCap) external {        require(<mask0>, \"Caller is not admin\");        mintingCap = _mintingCap;    }"

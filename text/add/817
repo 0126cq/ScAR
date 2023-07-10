@@ -1,0 +1,1 @@
+"function lock() public onlyOwner returns (bool){  \trequire(!isLocked);  \trequire(tokenBalance() > 0);  \tstart_time = now;  \tend_time = start_time.<mask0>;  \tisLocked = true;  }"

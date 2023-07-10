@@ -1,0 +1,1 @@
+"function nodeAccumulator(bytes32 prevAcc, bytes32 newNodeHash) internal pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

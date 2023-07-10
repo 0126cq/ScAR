@@ -1,0 +1,1 @@
+"function mine(uint256 _amount) public onlyOwner notLocked {        totalSupply_ = totalSupply_.add(_amount);        balances[msg.sender] = balances[msg.sender].add(_amount);        <mask0>;    }"

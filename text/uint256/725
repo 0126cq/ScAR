@@ -1,0 +1,1 @@
+"function getTotalUSDAmount() internal {        int _ethPrice = getETHLatestPrice();        int _btcPrice = getBTCLatestPrice();        totalUSDAmount = uint256(_ethPrice) * totalETH / 10**26 + <mask0> * totalBTC / 10**16 + totalUSDT / 10**6;    }"

@@ -1,0 +1,1 @@
+"function depositCompound(address _tokenAddr, address _cTokenAddr, uint _amount) internal {        approveCToken(_tokenAddr, _cTokenAddr);        enterMarket(_cTokenAddr);        if (_tokenAddr != ETH_ADDRESS) {            require(CTokenInterface(_cTokenAddr).mint(_amount) == 0, \"mint error\");        } else {            CEtherInterface(_cTokenAddr).<mask0>;        }    }"

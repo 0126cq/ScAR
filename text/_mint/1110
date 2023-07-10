@@ -1,0 +1,1 @@
+"function ownerMint(uint256 _amount) external onlyOwner {        require(_amount + ownerMinted <= OwnerCap, \"Owner Mint Limit Exceeded\");        require(            _amount + totalSupply() <= MAX_SUPPLY,            \"Max Supply Limit Exceeded\"        );        ownerMinted += _amount;        <mask0>;    }"

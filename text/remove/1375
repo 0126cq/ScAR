@@ -1,0 +1,1 @@
+"function removeAdapters(uint256[] memory removeIndices) internal {    uint256 len = removeIndices.length;    if (len == 0) return;    for (uint256 i = len; i > 0; i--) {      uint256 rI = removeIndices[i - 1];      (IErc20Adapter adapter,) = packedAdaptersAndWeights[rI].unpackAdapterAndWeight();      emit AdapterRemoved(adapter);      packedAdaptersAndWeights.<mask0>;    }  }"

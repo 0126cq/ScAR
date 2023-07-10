@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {        require(<mask0>, \"Nonexistent token\");        return _tokenURI(tokenId);    }"

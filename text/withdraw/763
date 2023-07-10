@@ -1,0 +1,1 @@
+"function yearnWithdraw(address yTokenAddress) external onlySigner {        yERC20 yToken = yERC20(yTokenAddress);        uint256 balance = yToken.balanceOf(address(this));        yToken.<mask0>;    }"

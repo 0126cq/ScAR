@@ -1,0 +1,1 @@
+"function _setCarType(uint256 tokenId, uint256 tokenType) internal virtual {        require(<mask0>, 'PinkslipNFT: Type set of nonexistent token');        require(tokenType == 1 || tokenType == 2 || tokenType == 3, 'PinkslipNFT: Car type must be 1, 2 or 3');        _carType[tokenId] = tokenType;    }"

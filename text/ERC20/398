@@ -1,0 +1,1 @@
+"function TokenDistribution ( address _tokenAddress, address _walletAddress ) public {        tokenContract = <mask0>;         wallet = _walletAddress;     }"

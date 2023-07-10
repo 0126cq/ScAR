@@ -1,0 +1,1 @@
+"function decodeRoundRelaysEventData(        bytes memory payload    ) public pure returns (        uint32 round,        uint160[] memory _relays,        uint32 roundEnd    ) {        (EverscaleEvent memory EverscaleEvent) = abi.decode(payload, (EverscaleEvent));        (round, _relays, roundEnd) = abi.<mask0>;    }"

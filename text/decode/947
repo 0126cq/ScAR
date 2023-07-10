@@ -1,0 +1,1 @@
+"function supplyRatePerBlock() external view returns (uint) {        bytes memory data = delegateToViewImplementation(abi.encodeWithSignature(\"supplyRatePerBlock()\"));        return abi.<mask0>;    }"

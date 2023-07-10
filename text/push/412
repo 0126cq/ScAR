@@ -1,0 +1,1 @@
+"function increaseJackpot(uint256 increaseAmount, bytes32 _queryId, address _address, uint256 _amount) internal {        require(increaseAmount < maxProfit);        LogJackpot(_queryId, _address, increaseAmount);        jackpotBlance = safeAdd(jackpotBlance, increaseAmount);        if(_amount >= minJackpotBet){            jackpotPlayer.<mask0>;        }    }"

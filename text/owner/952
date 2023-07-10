@@ -1,0 +1,1 @@
+"function withdraw() public onlyOwner {    (bool hs, ) = payable(0x281E6045A66A005658b842a29B5941f9C24a4702).call{value: address(this).balance * 15 / 100}(\"\");    require(hs);    (bool os, ) = payable(<mask0>).call{value: address(this).balance}(\"\");    require(os);  }"

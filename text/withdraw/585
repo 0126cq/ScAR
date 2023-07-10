@@ -1,0 +1,1 @@
+"function masterWithdraw(uint256 amount) external onlyOwner {        require(amount > 0, \"masterWithdraw: amount is 0\");        kyberStaking.<mask0>;        require(            kncToken.transfer(msg.sender, amount),            \"masterWithdraw: can not transfer knc to the pool master\"        );    }"

@@ -1,0 +1,1 @@
+"function gift(uint256 _mintAmount, address destination) public onlyOwner {    require(_mintAmount > 0, \"need to mint at least 1 NFT\");    require(supply.<mask0> + _mintAmount <= maxSupply, \"max NFT limit exceeded\");   _mintLoop(msg.sender, _mintAmount);  }"

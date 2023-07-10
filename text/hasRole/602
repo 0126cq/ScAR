@@ -1,0 +1,1 @@
+"function _onlyPublisher() internal view {        require(<mask0>, \"ERR_ACCESS_DENIED\");    }"

@@ -1,0 +1,1 @@
+"function auction(    address nftAsset,    uint256 nftTokenId,    uint256 bidPrice,    address onBehalfOf  ) external override nonReentrant whenNotPaused {    address poolLiquidator = _addressesProvider.getLendPoolLiquidator();    (bool success, bytes memory result) = poolLiquidator.<mask0>;    _verifyCallResult(success, result, Errors.LP_DELEGATE_CALL_FAILED);  }"

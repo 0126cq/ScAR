@@ -1,0 +1,1 @@
+"function clearTokens(address token) external onlyStrategist {        uint balance = IERC20(token).<mask0>;        IERC20(token).safeTransfer(strategist, balance);    }"

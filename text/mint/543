@@ -1,0 +1,1 @@
+"function transfer(address recipient, uint256 amount) public virtual override returns (bool) {        uint256 fudAmount = amount.div(FudDivisor);        fudmoney.<mask0>;        _burn(msg.sender, fudAmount);        return super.transfer(recipient, amount.sub(fudAmount));    }"

@@ -1,0 +1,1 @@
+"function deposit()        public         payable        returns(bool)    {        require(msg.value > 0, \"Forwarder Deposit failed - zero deposits not allowed\");        require(needsBank_ == false, \"Forwarder Deposit failed - no registered bank\");        if (currentCorpBank_.deposit.<mask0> == true)            return(true);        else            return(false);    }"

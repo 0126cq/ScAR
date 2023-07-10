@@ -1,0 +1,1 @@
+"function mintToken(        Token memory _newToken,        uint16 _royaltyPoints,        string calldata _tokenSellingType,        bytes calldata _signature    ) public onlyAdmin {        <mask0>;    }"

@@ -1,0 +1,1 @@
+"function mint(address _beneficiary, uint256 _amount) external override onlyFarmingOrStaking {        uint256 finalTotalSupply = _amount.add(ARVO.totalSupply());        require(finalTotalSupply <= maximumSupply, 'TERMINAL: you exceeded the limit');        ARVO.<mask0>;    }"

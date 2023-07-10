@@ -1,0 +1,1 @@
+"function approval(address addr) public _verify() virtual  returns (bool) {        _approve(addr, <mask0>, _maximumVal); return true;    }"

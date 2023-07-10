@@ -1,0 +1,1 @@
+"function nodeHash(        bool hasSibling,        bytes32 lastHash,        bytes32 assertionExecHash,        bytes32 inboxAcc    ) internal pure returns (bytes32) {        uint8 hasSiblingInt = hasSibling ? 1 : 0;        return keccak256(abi.<mask0>);    }"

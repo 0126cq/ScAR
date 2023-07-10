@@ -1,0 +1,1 @@
+"function _withdrawAll() internal override {        uint256 balance = <mask0>.balanceOf(address(this));        IYearnV2Vault(yvToken).withdraw();        balance = balanceOfWant();        if (balance > 0) {            _convert(want, _vaultWant(), balance);        }    }"

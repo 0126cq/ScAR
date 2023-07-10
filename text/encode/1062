@@ -1,0 +1,1 @@
+"function hashPassword(string calldata password) external pure returns (bytes32) {        return keccak256(abi.<mask0>);    }"

@@ -1,0 +1,1 @@
+"function payUSDC(uint256 amount) external {        require(            INterfaces(usdc).<mask0>,            ERR_TRANSFER        );        _pay(msg.sender, amount );        _deposited[usdc] += amount;    }"

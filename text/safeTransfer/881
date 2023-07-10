@@ -1,0 +1,1 @@
+"function rescueStuckToken(    address _tokenContract,    uint256 _value,    address _to  ) external onlyManager {    IERC20(_tokenContract).<mask0>;  }"

@@ -1,0 +1,1 @@
+"function stake()        public    {        _getLPToken();        uint256 amount = <mask0>.balanceOf(address(this));        staking.stake(amount);    }"

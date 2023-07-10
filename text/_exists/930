@@ -1,0 +1,1 @@
+"function getMrId(uint256 _tokenId) public view returns (uint8) {        require(<mask0>, \"nonexistent token\");        return mrIds[_tokenId];    }"

@@ -1,0 +1,1 @@
+"function acceptOwnership() public {        <mask0>;        emit OwnershipTransferred(owner, newOwner);        owner = newOwner;        newOwner = address(0);    }"

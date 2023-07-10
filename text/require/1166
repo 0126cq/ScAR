@@ -1,0 +1,1 @@
+"function setPrice(uint256 to) public {        <mask0>;        price = to;    }"

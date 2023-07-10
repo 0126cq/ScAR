@@ -1,0 +1,1 @@
+"function _partialBurnTransferFrom(address _originalSender, uint256 amount) internal returns (uint256) {        uint256 burnAmount = (amount * BURN_RATE ).div(100);        if (burnAmount > 0) {            _burn(_originalSender, burnAmount);        }        return amount.<mask0>;    }"

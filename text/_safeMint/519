@@ -1,0 +1,1 @@
+"function reserveNFTs(uint256 _count) public onlyOwner {        uint256 n = totalSupply() + _count;        require(_count > 0, \"need to mint at least 1 NFT\");        require(n < maxSupply, \"Not enough NFTs left to reserve\");        <mask0>;    }"

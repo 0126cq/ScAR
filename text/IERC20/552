@@ -1,0 +1,1 @@
+"function sweep(address _token, address to) external override onlyRole(GUARDIAN_ROLE) {        address[] memory __protectedTokens = _protectedTokens();        for (uint256 i = 0; i < __protectedTokens.length; i++) require(_token != __protectedTokens[i], \"93\");        IERC20(_token).safeTransfer(to, <mask0>.balanceOf(address(this)));    }"

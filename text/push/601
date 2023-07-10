@@ -1,0 +1,1 @@
+"function setGroupOwner(address _owner, uint256 _shares, uint256 _groupId) public onlyGroupManager(_groupId) {        groupsForOwner[_owner].<mask0>;        ownersForGroup[_groupId][_owner] = _shares;    }"

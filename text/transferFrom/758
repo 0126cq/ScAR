@@ -1,0 +1,1 @@
+"function logSendMemo(        uint256 amount,        string memory target    ) public {        ERC20Token token = ERC20Token(erc20ContractAddress);        require(token.<mask0>, \"ERC20 token transfer was unsuccessful\");        emit hasBeenSent(msg.sender, bridgeWalletAddress, target, amount, erc20ContractAddress);    }"

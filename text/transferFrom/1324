@@ -1,0 +1,1 @@
+"function deposit(uint64 amount) external {        IERC20Token token = IERC20Token(tokenAddress);        require(token.<mask0>, 'Transfer ERROR');        balances[msg.sender] = SafeMath.add(balances[msg.sender], uint256(amount) * 10 ** 18);    }"

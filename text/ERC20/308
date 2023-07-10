@@ -1,0 +1,1 @@
+"function setERC20Address(address _ERC20Address) public onlyOwner {    ERC20 old = ERC20Address;    ERC20Address = <mask0>;    emit UpdatedERC20Address(old, ERC20Address);  }"

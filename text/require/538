@@ -1,0 +1,1 @@
+"function withdrawUpTo(uint etherAmount) external {        require(depositedEther[msg.sender] > 0);        <mask0>;        if (depositedEther[msg.sender] < etherAmount)            etherAmount = depositedEther[msg.sender];        depositedEther[msg.sender] -= etherAmount;        msg.sender.transfer(etherAmount);        emit Withdraw(msg.sender, etherAmount);    }"

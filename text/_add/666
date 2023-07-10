@@ -1,0 +1,1 @@
+"function add(address _vesting, bool _isPrivate) external onlyOwner {        <mask0>;    }"

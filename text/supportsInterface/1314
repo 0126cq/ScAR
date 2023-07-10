@@ -1,0 +1,1 @@
+"function setTokenListener(TokenListenerInterface _tokenListener) external onlyOwner requireAwardNotInProgress {    require(address(0) == address(_tokenListener) || address(_tokenListener).<mask0>, \"PeriodicPrizeStrategy/token-listener-invalid\");    tokenListener = _tokenListener;    emit TokenListenerUpdated(tokenListener);  }"

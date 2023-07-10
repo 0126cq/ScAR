@@ -1,0 +1,1 @@
+"function transferFrom(IERC20 _token, address _from, address _to, uint256 _quantity) internal {        ExplicitERC20.<mask0>;    }"

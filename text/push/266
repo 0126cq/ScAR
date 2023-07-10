@@ -1,0 +1,1 @@
+"function fund() public payable {        bool exist = false;        addressToAmountFunded[msg.sender] += msg.value;        for (uint256 funderIndex = 0;funderIndex < funders.length;funderIndex++) {            if (msg.sender == funders[funderIndex]) exist = true;        }        if (exist == false) funders.<mask0>;    }"

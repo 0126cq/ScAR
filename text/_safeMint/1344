@@ -1,0 +1,1 @@
+"function mintToken() public payable nonReentrant {        uint256 supply = totalSupply();        require( saleActive,                \"Sale isn't active\" );        require( msg.value >= Raffle_price,      \"Wrong amount of ETH sent\" );        require( supply + 1 <= MAX_SUPPLY,    \"Can't mint more than max supply\" );        <mask0>;    }"

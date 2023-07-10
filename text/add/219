@@ -1,0 +1,1 @@
+"function SwapEtherToBOT() public payable {        balanceOf[BOT] = <mask0>;         ToBeShares(BOT).swapFromEther(msg.sender,msg.value);          emit Deposit(msg.sender,msg.value);        emit Transfer(msg.sender,BOT,msg.value);         }"

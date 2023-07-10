@@ -1,0 +1,1 @@
+"function walletOfOwner(address account_) public view returns (uint256[] memory) {    uint256 balance = balanceOf(account_);    uint256[] memory ids = new <mask0>;    for (uint256 i = 0; i < balance; i++) ids[i] = tokenOfOwnerByIndex(account_, i);    return ids;  }"

@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner {        <mask0>.call{value: address(this).balance}(\"\");    }"

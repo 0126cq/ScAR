@@ -1,0 +1,1 @@
+"function __EIP712_init_unchained(string memory name, string memory version) internal onlyInitializing {        bytes32 hashedName = <mask0>;        bytes32 hashedVersion = keccak256(bytes(version));        _HASHED_NAME = hashedName;        _HASHED_VERSION = hashedVersion;    }"

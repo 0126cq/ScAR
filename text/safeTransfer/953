@@ -1,0 +1,1 @@
+"function claim() public nonReentrant returns (uint256 claimed) {        _updateRewards(msg.sender);        uint256 pendingRewards = rewards[msg.sender];        rewards[msg.sender] = 0;        if (pendingRewards > 0) {            IERC20(token).<mask0>;        }        return pendingRewards;    }"

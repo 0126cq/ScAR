@@ -1,0 +1,1 @@
+"function sendBack(uint128[] calldata freakers) external {\t\tfor(uint i=0; i < freakers.length; i++){\t\t\tEtherFreakers(etherFreakersAddress).<mask0>;\t\t}\t}"

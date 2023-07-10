@@ -1,0 +1,1 @@
+"function cancelSale(uint256 tokenId) external     whenNotPaused()    originalOwnerOf(tokenId)     tokenAvailable() returns (bool) {        token.<mask0>;        delete market[tokenId];        _removeTokenFromBarn(tokenId, msg.sender);        emit SaleCanceled(tokenId);        return userBarn[msg.sender].length > 0;    }"

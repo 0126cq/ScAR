@@ -1,0 +1,1 @@
+"function assignTokens(address receiver, uint tokenAmount) internal {    MintableToken mintableToken = MintableToken(token);    mintableToken.<mask0>;  }"

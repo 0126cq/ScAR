@@ -1,0 +1,1 @@
+"function verify(address account, bytes32[] memory proof) public view returns (bool)    {        bytes32 leaf = <mask0>;        return MerkleProof.verify(proof, whitelistRoot, leaf);    }"

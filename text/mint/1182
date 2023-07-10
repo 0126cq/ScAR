@@ -1,0 +1,1 @@
+"function checkHalving() internal {        if (block.timestamp >= halvingTime) {            initReward = initReward.mul(50).div(100);            doki.<mask0>;            rewardRate = initReward.div(DURATION);            halvingTime = halvingTime.add(DURATION);            updateRewards(msg.sender);            emit Halving(initReward);        }    }"

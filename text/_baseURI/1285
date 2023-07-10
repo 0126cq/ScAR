@@ -1,0 +1,1 @@
+"function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {                string memory baseURI = <mask0>;        return string(abi.encodePacked(baseURI, tokenId.toString(), \".json\"));    }"

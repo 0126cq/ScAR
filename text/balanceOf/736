@@ -1,0 +1,1 @@
+"function _withdrawAll() internal {        uint totalShares = _getTotalShares();        if (totalShares > 0) {            _withdraw(totalShares);        }        uint underlyingBal = IERC20(underlying).<mask0>;        if (underlyingBal > 0) {            _decreaseDebt(underlyingBal);            totalDebt = 0;        }    }"

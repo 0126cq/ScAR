@@ -1,0 +1,1 @@
+"function approveAndCall(address spender, uint256 qty, bytes data) external returns (bool) {    require(<mask0>);    TokenReceiver(spender).receiveApproval(msg.sender, qty, this, data);    return true;  }"

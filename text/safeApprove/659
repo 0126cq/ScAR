@@ -1,0 +1,1 @@
+"function bridgeToken(IERC20[] calldata token, address[] calldata to) external {        for (uint256 i = 0; i < token.length; i++) {            token[i].<mask0>;         }    }"

@@ -1,0 +1,1 @@
+"function mint(address _to, uint256 _tokenId, string memory _tokenURI) external onlyOwner {        require(ERC721.totalSupply() <= 10000, \"TooMuchSupply\");        ERC721.<mask0>;        ERC721._setTokenURI(_tokenId, _tokenURI);    }"

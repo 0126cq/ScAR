@@ -1,0 +1,1 @@
+"function depositTo(address payable user, PrizePool prizePool, address output, address referrer) external {    IERC20 token = prizePool.token();    uint256 amount = token.balanceOf(address(this));    token.<mask0>;    prizePool.depositTo(user, amount, output, referrer);    selfdestruct(user);  }"

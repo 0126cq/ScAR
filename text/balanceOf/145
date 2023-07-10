@@ -1,0 +1,1 @@
+"function getFee(address user) public view returns (uint) {        uint fee = feeDeposit * ZFXToken.<mask0> * 10 / ZFXToken.totalSupply();        return fee < feeDeposit ? feeDeposit - fee : 0;    }"

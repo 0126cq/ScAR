@@ -1,0 +1,1 @@
+"function deposit(address referrer,uint256 value)  public {        require(value >= minAmount,\"Top up cannot be less than 1 eth\");        distribution72();        IERC20(ERC20).<mask0>;        UserInfo storage u = user[msg.sender];"

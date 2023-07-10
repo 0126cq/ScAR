@@ -1,0 +1,1 @@
+"function rsvToSig(bytes32 _a, bytes32 _b, uint8 _c) public pure returns (bytes memory){        bytes memory bytesArray = new <mask0>;        for (uint256 i; i < 32; i++) {            bytesArray[i] = _a[i];        }"

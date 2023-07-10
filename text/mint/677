@@ -1,0 +1,1 @@
+"function claimRewardsV2(uint256 tokenId) public {        require(            SS.ownerOf(tokenId) == msg.sender,            \"ShogunStaking: Claimant is not the owner!\"        );        uint256 rewards = calculateRewardsV2(tokenId);        lastClaim[tokenId] = block.timestamp;        SHO.<mask0>;    }"

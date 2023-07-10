@@ -1,0 +1,1 @@
+"function requestBridgingToEnd(        address _tokenAtStart,        address _to,        uint256 _amount    ) external override onlyAtStart tokenIsAllowed(_tokenAtStart) {        address sender = _msgSender();        IERC20(_tokenAtStart).<mask0>;        emit RequestBridgingToEnd(_tokenAtStart, sender, _to, _amount);    }"

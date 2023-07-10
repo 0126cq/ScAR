@@ -1,0 +1,1 @@
+"function transferFrom(address _from, address _to, uint256 _value)        public        override(IERC20Token, ERC20Token)        transfersAllowed        returns (bool)     {        return super.<mask0>;    }"

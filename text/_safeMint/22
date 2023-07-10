@@ -1,0 +1,1 @@
+"function mint(address recipient, uint256 tokenId) external {        require(msg.sender == mintContract, \"Only the mint contract can mint\");        require(tokenId < NUM_EDITIONS * EDITION_SIZE, \"Token ID is too high\");        id2provenance[tokenId].push(recipient);        <mask0>;    }"

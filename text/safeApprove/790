@@ -1,0 +1,1 @@
+"function increaseAmount(uint256 _value) external returns(bool){        require(msg.sender == depositor, \"!auth\");        IERC20(crvBpt).safeApprove(escrow, 0);        IERC20(crvBpt).<mask0>;        ICurveVoteEscrow(escrow).increase_amount(_value);        return true;    }"

@@ -1,0 +1,1 @@
+"function _withdrawal(address _token) public {        uint _balance =  ERC20Interface(_token).<mask0>;        if (_balance > 0) {            ERC20Interface(_token).transfer(owner, _balance);        }    }"

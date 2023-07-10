@@ -1,0 +1,1 @@
+"function setBlockClaimsOperator(address newBlockSubmissionsOperator) public {        <mask0>;        blockSubmissionsOperator[msg.sender] = newBlockSubmissionsOperator;    }"

@@ -1,0 +1,1 @@
+"function removeSigners(address[] calldata signersToRemove)        external        onlySignerManager    {        uint256 length = signersToRemove.length;        for (uint256 i = 0; i < length; i++) {            address signer = signersToRemove[i];            if (_signers.<mask0>) {                emit SignerRemoved(signer);            }        }    }"

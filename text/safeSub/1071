@@ -1,0 +1,1 @@
+"function ownerTransferEther(address sendTo, uint amount) publiconlyOwner{contractBalance = <mask0>;setMaxProfit();require(sendTo.send(amount));LogOwnerTransfer(sendTo, amount);}"

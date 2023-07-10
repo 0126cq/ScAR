@@ -1,0 +1,1 @@
+"function hasMarketMinterRole(address _address) public view returns (bool) {        return accessControls.<mask0>;    }"

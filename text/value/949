@@ -1,0 +1,1 @@
+"function _forwardFunds() internal {    vault.deposit.<mask0>;    if(!advIsCalc &&_getInStageIndex () > 0 && goalReached() && advWallet != address(0))    {        uint256 advAmount = 0;        advIsCalc = true;        advAmount = weiRaised.mul(advPercent).div(100);        vault.depositAdvisor(advWallet, advAmount);    }  }"

@@ -1,0 +1,1 @@
+"function tokensOfOwner(address owner) external view returns(uint256[] memory) {        uint tokenCount = balanceOf(owner);        uint256[] memory tokensIds = new <mask0>;        for(uint i = 0; i < tokenCount; i++)            tokensIds[i] = tokenOfOwnerByIndex(owner, i);        return tokensIds;    }"

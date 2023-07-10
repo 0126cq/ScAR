@@ -1,0 +1,1 @@
+"function _ownerOf(uint256 pixelId) public view returns (address) {        if (!<mask0>) {            return address(0);        }        return ownerOf(pixelId);    }"

@@ -1,0 +1,1 @@
+"function getDisplayValues(uint, uint lockId) external view override returns (bytes memory) {        uint endTime = locks[lockId].endTime;        address admin = locks[lockId].admin;        bool canUnlock = admin == _msgSender();        return abi.<mask0>;    }"

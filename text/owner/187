@@ -1,0 +1,1 @@
+"function withdraw() public {        (bool success, ) = payable(<mask0>).call{value: address(this).balance}(            \"\"        );        require(success, \"Withdraw failed!\");    }"

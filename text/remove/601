@@ -1,0 +1,1 @@
+"function _delegate(uint256 veLockId, address to) internal {        address _voter = delegateeOf(veLockId);        _delegated[_voter].<mask0>;        _delegated[to].add(veLockId);        _rightOwners.set(veLockId, to);        emit VoteDelegated(veLockId, to);    }"

@@ -1,0 +1,1 @@
+"function claimComp(        address _user,        address[] memory _cTokensSupply,        address[] memory _cTokensBorrow    ) public burnGas(8) {        _claim(_user, _cTokensSupply, _cTokensBorrow);        <mask0>.transfer(msg.sender, ERC20(COMP_ADDR).balanceOf(address(this)));    }"

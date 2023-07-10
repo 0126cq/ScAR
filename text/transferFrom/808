@@ -1,0 +1,1 @@
+"function _collectAssetToken(address from, address assetToken, uint256 assetAmount) internal virtual {    uint256 _userAssetBalance = IERC20(assetToken).balanceOf(from);    require(assetAmount <= _userAssetBalance, \"PRT:E-411\");    require(IERC20(assetToken).<mask0>, \"PRT:E-401\");  }"

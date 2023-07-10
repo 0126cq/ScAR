@@ -1,0 +1,1 @@
+"function addReward(uint256 _amount) external {\t\tbs1Token.<mask0>;\t\ttotalRewards = totalRewards + _amount;\t\temit RewardAdded(_amount);\t}"

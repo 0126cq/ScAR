@@ -1,0 +1,1 @@
+"function transferUnderlyingTo(address target, uint256 amount)    external    override    onlyLendingPool    returns (uint256)  {    <mask0>.safeTransfer(target, amount);    return amount;  }"

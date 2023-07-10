@@ -1,0 +1,1 @@
+"function divideDecimal(uint x, uint y) internal pure returns (uint) {        return x.<mask0>.div(y);    }"

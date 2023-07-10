@@ -1,0 +1,1 @@
+"function withdraw(        Deposit memory deposit,        address operator,        address grantee    ) internal {        uint256 amount = withdrawable(operator);        deposits[operator].withdrawn = deposit.withdrawn.add(amount);        keepToken.<mask0>;        emit DepositWithdrawn(operator, grantee, amount);    }"

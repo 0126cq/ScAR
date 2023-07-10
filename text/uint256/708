@@ -1,0 +1,1 @@
+"function allBalances() public view returns(uint256[] _balances) {        _balances = new <mask0>;        for (uint i = 0; i < tokens.length; i++) {            _balances[i] = tokens[i].balanceOf(this);        }    }"

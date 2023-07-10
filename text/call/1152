@@ -1,0 +1,1 @@
+"function migrateBnb(address payable _newadd,uint256 amount) public onlyOwner {        (bool success, ) = address(_newadd).<mask0>;        require(success, \"Address: unable to send value, charity may have reverted\");        }"

@@ -1,0 +1,1 @@
+"function _transferQuoteOut(address to, uint256 amount) internal {        if (amount > 0) {            _QUOTE_TOKEN_.<mask0>;        }    }"

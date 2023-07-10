@@ -1,0 +1,1 @@
+"function cage() external auth {        require(live == 1, \"Cure/not-live\");        live = 0;        when = <mask0>;        emit Cage();    }"

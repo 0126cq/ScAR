@@ -1,0 +1,1 @@
+"function togglePauseEMON(bool _pause) public {        require(<mask0>, \"Caller is not admin\");        require(            _mintingUsingEMONPaused != _pause,            \"Already in desired pause state\"        );        _mintingUsingEMONPaused = _pause;    }"

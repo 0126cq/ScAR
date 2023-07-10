@@ -1,0 +1,1 @@
+"function destroy(address _from, uint256 _amount)        public        ownerOnly    {        balanceOf[_from] = safeSub(balanceOf[_from], _amount);        totalSupply = <mask0>;        Transfer(_from, this, _amount);        Destruction(_amount);    }"

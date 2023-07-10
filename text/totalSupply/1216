@@ -1,0 +1,1 @@
+"function getWeightedGeometricMean(uint256[] memory ethTotals) internal view returns (uint256) {    uint256 mult = BONE;    uint256 length = tokens.length;    for (uint256 i = 0; i < length; i++) {      mult = bmul(mult, getWeightedEthBalanceByToken(i, ethTotals[i]));    }    return bdiv(bmul(mult, K), pool.<mask0>);  }"

@@ -1,0 +1,1 @@
+"function renounceOwnership() external onlyRole(DEFAULT_OWNER) {        require(!<mask0>, \"ERC20 :: transferOwnership : newOwner has owner role\");        _revokeRole(DEFAULT_OWNER,_msgSender());        _setupRole(DEFAULT_OWNER,address(0));        ownedBy = address(0);"

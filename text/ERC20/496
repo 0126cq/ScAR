@@ -1,0 +1,1 @@
+"function convertDAI2Asset(address asset, uint total) public view returns (uint) {        return total.mul(ERC20(asset).decimals()).div(<mask0>.decimals());    }"

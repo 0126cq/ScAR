@@ -1,0 +1,1 @@
+"function updateFeeRecipient(address _newFeeRecipient)        external        mutualUpgrade(manager.operator(), manager.methodologist())    {        bytes memory callData = abi.<mask0>;        invokeManager(address(streamingFeeModule), callData);    }"

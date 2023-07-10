@@ -1,0 +1,1 @@
+"function safeTransferFrom(address from, address to, uint256 id, uint256 amount, bytes memory data) override virtual public {        require(from == address(this) || to == address(this), \"Points can not be transferred out\");        super.<mask0>;    }"

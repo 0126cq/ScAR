@@ -1,0 +1,1 @@
+"function withdraw(uint256 value) public onlyOwner {        uint256 balance = address(this).balance;        require(balance > 0, \"No ether left to withdraw\");        payable(<mask0>).transfer(value);        emit Withdraw(value);    }"

@@ -1,0 +1,1 @@
+"function mintItems(uint256 amount) public payable {        require(_saleActive);        uint256 totalMinted = _tokenIds.<mask0>;        require(totalMinted + amount <= _maxTokens);        require(msg.value >= amount * _price);        for (uint256 i = 0; i < amount; i++) {            _mintItem(msg.sender);        }    }"

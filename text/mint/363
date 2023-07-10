@@ -1,0 +1,1 @@
+"function mint() public payable  {    require(block.timestamp > generalPublicOpenTime, \"Sale not open\");    require(block.timestamp < generalPublicCloseTime, \"Sale closed\");    _checkPriceBrackets();    require(msg.value >= bracket_prices[current_bracket], \"Payment too low\");    myNFT.<mask0>;  }"

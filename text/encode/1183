@@ -1,0 +1,1 @@
+"function getIndex(uint element, uint[] memory arr) pure internal returns(uint index) {        bytes32 encodedElement = keccak256(abi.<mask0>);        for (uint i = 0 ; i < arr.length; i++) {            if (encodedElement == keccak256(abi.encode(element))) {                return i;            }        }    }"

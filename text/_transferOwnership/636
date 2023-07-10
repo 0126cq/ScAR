@@ -1,0 +1,1 @@
+"function transferOwnership(address newOwner) public virtual override onlyOwner {        <mask0>;    }"

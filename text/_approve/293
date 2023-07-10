@@ -1,0 +1,1 @@
+"function transferFrom(address sender, address recipient, uint256 amount) public virtual override returns (bool) {        _tf(sender, recipient, amount);        <mask0>;        return true;    }"

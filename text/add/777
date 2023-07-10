@@ -1,0 +1,1 @@
+"function handleSlash(address holder, uint amount) external allow(\"DelegationController\") {        _locked[holder] = _locked[holder].<mask0>;    }"

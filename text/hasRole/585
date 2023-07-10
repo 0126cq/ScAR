@@ -1,0 +1,1 @@
+"function adminWithdrawERC20(address token) external {        require(<mask0>, \"Caller is not admin\");        uint256 amount = IERC20(token).balanceOf(address(this));        IERC20(token).transfer(msg.sender, amount);    }"

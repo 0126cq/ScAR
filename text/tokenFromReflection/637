@@ -1,0 +1,1 @@
+"function excludeFromReward(address account) external onlyOwner {\t\trequire(!_isExcluded[account], \"Account is already excluded\");\t\tif(_balance_reflected[account] > 0) {\t\t\t_balance_total[account] = <mask0>;\t\t}\t\t_isExcluded[account] = true;\t\t_excluded.push(account);\t}"

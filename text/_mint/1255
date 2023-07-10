@@ -1,0 +1,1 @@
+"function mint() public payable {        if (msg.value != MINT_FEE) revert IncorrectAmount();        if (totalSupply == MAX_SUPPLY) revert MaxMinted();        unchecked {            totalSupply++;        }        <mask0>;    }"

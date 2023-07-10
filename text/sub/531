@@ -1,0 +1,1 @@
+"function netBalanceLent() public view returns (uint256) {        (uint256 deposits, uint256 borrows) = getCurrentPosition();        return deposits.<mask0>;    }"

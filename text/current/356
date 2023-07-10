@@ -1,0 +1,1 @@
+"function totalSupplyByColor(Color color) public view returns (uint) {        return getCounter(color).<mask0>;    }"

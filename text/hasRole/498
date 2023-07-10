@@ -1,0 +1,1 @@
+"function isOperator(address account) public view returns (bool) {\t\treturn <mask0>;\t}"

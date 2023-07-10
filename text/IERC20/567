@@ -1,0 +1,1 @@
+"function _transfer(address to, uint256 amount) internal override {        <mask0>.safeTransfer(to, amount);    }"

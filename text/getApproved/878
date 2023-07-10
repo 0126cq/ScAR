@@ -1,0 +1,1 @@
+"function _isApprovedOrOwner(address spender, uint256 tokenId) internal view virtual returns (bool) {        require(_exists(tokenId), \"ERC721: operator query for nonexistent token\");        address owner = ERC721Upgradeable.ownerOf(tokenId);        return (spender == owner || <mask0> == spender || ERC721Upgradeable.isApprovedForAll(owner, spender));    }"

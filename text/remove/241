@@ -1,0 +1,1 @@
+"function removeExtraContractForAll(address extraContract) external override onlyExtraContractRegistrar {        require(_getRegistryContracts()[bytes32(0)].contains(extraContract), \"Extra contract is not registered\");        _getRegistryContracts()[bytes32(0)].<mask0>;        emit ExtraContractRemoved(bytes32(0), extraContract);    }"

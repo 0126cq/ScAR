@@ -1,0 +1,1 @@
+"function interactManager(address _module, bytes calldata _data) external onlyExtension {        require(_module != address(setToken), \"Extensions cannot call SetToken\");        _module.<mask0>;    }"

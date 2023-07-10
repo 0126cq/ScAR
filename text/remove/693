@@ -1,0 +1,1 @@
+"function _removeExtraContract(        bytes32 chainHash,        address extraContract    )        internal    {        require(_getRegistryContracts()[chainHash].contains(extraContract), \"Extra contract is not registered\");        _getRegistryContracts()[chainHash].<mask0>;        emit ExtraContractRemoved(chainHash, extraContract);    }"

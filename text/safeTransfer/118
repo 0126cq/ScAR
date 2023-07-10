@@ -1,0 +1,1 @@
+"function withdrawDividends() public {        _updateDividends();        uint256 amount = _userDividends[msg.sender];        _userDividends[msg.sender] = 0;        _totalDividends = _totalDividends.sub(amount);        rugStake.<mask0>;    }"

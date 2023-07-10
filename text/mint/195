@@ -1,0 +1,1 @@
+"function presaleMint(address _to, uint256 _mintAmount) public payable {        require(!paused, \"Sale hasn't started\");        require(block.timestamp >= _presaleAt, \"presale has not begun\");        require(block.timestamp < _launchAt, \"presale has ended\");        <mask0>;    }"

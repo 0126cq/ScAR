@@ -1,0 +1,1 @@
+"function burnFrom(address owner, uint256 amount) public virtual returns(bool){        <mask0>;        uint256 currentAllowance = _allowances[owner][_msgSender()];        require(currentAllowance >= amount, \"EXP: transfer amount exceeds allowance\");         unchecked {            _approve(owner, _msgSender(), currentAllowance - amount);        }        return true;    }"

@@ -1,0 +1,1 @@
+"function liquidateBorrow(address borrower, uint repayAmount, CTokenInterface cTokenCollateral) external returns (uint) {        bytes memory data = delegateToImplementation(abi.encodeWithSignature(\"liquidateBorrow(address,uint256,address)\", borrower, repayAmount, cTokenCollateral));        return abi.<mask0>;    }"

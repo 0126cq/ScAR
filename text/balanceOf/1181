@@ -1,0 +1,1 @@
+"function getBalance() public constant returns (uint howManyTokensCurrentlyInVault) {    return token.<mask0>;  }"

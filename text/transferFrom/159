@@ -1,0 +1,1 @@
+"function newStake(uint256 tokenAmount) external onlyValidator whenNotPaused {        _newStake(tokenAmount);        require(            IERC20(stakeToken).<mask0>,            \"TRANSFER_FAIL\"        );    }"

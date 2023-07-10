@@ -1,0 +1,1 @@
+"function withdraw() external onlyOwner() {        (bool sent, bytes memory data) = payable(<mask0>).call{value: address(this).balance}(\"\");        require(sent, \"Failed to send BNB\");    }"

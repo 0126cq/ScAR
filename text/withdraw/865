@@ -1,0 +1,1 @@
+"function triggerWithdrawAll() public {        for (uint256 i = 0; i < lockBoxStructs.length; ++i) {            if (lockBoxStructs[i].releaseTime <= now && lockBoxStructs[i].balance > 0) {                <mask0>;            }        }    }"

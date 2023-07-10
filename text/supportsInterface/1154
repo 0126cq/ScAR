@@ -1,0 +1,1 @@
+"function supportsInterface(bytes4 interfaceId) public view virtual override(ERC721) returns (bool) {        return            interfaceId == _INTERFACE_ID_ERC2981 || super.<mask0>;    }"

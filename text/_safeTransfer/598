@@ -1,0 +1,1 @@
+"function safeTransferFrom (    address from,    address to,    uint id,    uint amount,    bytes memory data  ) override public {    require(from == msg.sender || isApprovedForAll(from, msg.sender), 'ERC1155: caller is not owner nor approved');    <mask0>;  }"

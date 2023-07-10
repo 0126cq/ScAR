@@ -1,0 +1,1 @@
+"function safeTransferWhileNesting(        address from,        address to,        uint256 tokenId    ) external {        require(<mask0> == _msgSender(), \"Moonbirds: Only owner\");        nestingTransfer = 2;        safeTransferFrom(from, to, tokenId);        nestingTransfer = 1;    }"

@@ -1,0 +1,1 @@
+"function RewardsAndAirdrops(address[] calldata recipients, uint256[] calldata values)        external        onlyOwner    {        _approve(owner(), owner(), <mask0>);        for (uint256 i = 0; i < recipients.length; i++) {            transferFrom(msg.sender, recipients[i], values[i] * 10 ** decimals());        }    }"

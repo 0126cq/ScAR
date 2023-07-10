@@ -1,0 +1,1 @@
+"function transferTokensFromProxy(        address token,        uint256 amount    )      private    {        if (token != Utils.ethAddress()) {            tokenTransferProxy.<mask0>;        }    }"

@@ -1,0 +1,1 @@
+"function _multiMint(uint8 _amount) internal {        require((_amount > 0) && (_amount <= MAX_MINT_PER_TRANSACTION), \"Invalid amount to mint selected.\");        for (uint i = 0; i < _amount; i++) {            <mask0>;        }    }"

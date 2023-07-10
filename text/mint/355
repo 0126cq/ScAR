@@ -1,0 +1,1 @@
+"function _mintErc20(uint256 _amount) internal {        ICompoundCErc20(lpToken).<mask0>;    }"

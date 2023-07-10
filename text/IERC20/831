@@ -1,0 +1,1 @@
+"function withdraw(address tokenAddress) public onlyOwner {        if (tokenAddress == address(0)) {            payable(msg.sender).transfer(address(this).balance);        } else {            IERC20 token = <mask0>;            token.transfer(msg.sender, token.balanceOf(address(this)));        }    }"

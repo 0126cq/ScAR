@@ -1,0 +1,1 @@
+"function santaReclaimNFT(uint256 index) external {    if (block.timestamp < RECLAIM_OPEN) revert NotClaimable();    if (index + 1 > nfts[msg.sender].length) revert NotClaimable();    SantaNFT memory nft = nfts[msg.sender][index];    IERC721(nft.nftContract).<mask0>;  }"

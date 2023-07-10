@@ -1,0 +1,1 @@
+"function enterMoneta(address from, uint256 amount) public {        if (from != address(0) && from != address(this)) fiat.<mask0>;        moneta.enter(address(this), amount);    }"

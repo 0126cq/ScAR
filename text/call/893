@@ -1,0 +1,1 @@
+"function safeTransferETH(address payable to, uint256 value) internal {        (bool success, bytes memory data) = to.<mask0>;        if (!success) revert(RevertMsgExtractor.getRevertMsg(data));    }"

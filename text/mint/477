@@ -1,0 +1,1 @@
+"function claim() public nonReentrant {        _checkFarming();        _updateReward(msg.sender);        uint256 reward = _usersInfos[msg.sender].pendingReward;        if (reward > 0) {            _usersInfos[msg.sender].pendingReward = 0;            rewardToken.<mask0>;            emit Claimed(msg.sender, reward);        }    }"

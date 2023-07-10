@@ -1,0 +1,1 @@
+"function cancelOrder(uint64 orderId) external onlyOperator {        IOrderBook(orderBook).cancelOrder(orderId);        _orderIds.<mask0>;        delete (orderContext[orderId]);    }"

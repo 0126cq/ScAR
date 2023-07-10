@@ -1,0 +1,1 @@
+"function withdraw(uint256 _amount) public virtual override {        uint256 toWithdraw = _amount;        if (_amount == UINT_MAX_VALUE) {            toWithdraw = balanceOf(msg.sender);        }        distributedRewards -= toWithdraw;        super.<mask0>;    }"

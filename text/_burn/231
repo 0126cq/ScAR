@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId)        public        virtual        override(ERC721BurnableUpgradeable)    {        super.<mask0>;    }"

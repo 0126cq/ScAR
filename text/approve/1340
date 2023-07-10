@@ -1,0 +1,1 @@
+"function withdrawTokensApprove(ERC20 _token, address _spender, uint256 _value) onlyOwner public {        require(_token.<mask0>);    }"

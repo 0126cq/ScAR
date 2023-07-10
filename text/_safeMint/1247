@@ -1,0 +1,1 @@
+"function mint(uint8 amount) private whenNotPaused {        require(amount <= maxTokensPerTxn, \"Too many mints in a txn\");        for (uint8 i = 0; i < amount; i++) {            <mask0>;        }        mintedPublicTokens += amount;    }"

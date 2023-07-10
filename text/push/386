@@ -1,0 +1,1 @@
+"function lock(uint256 wad) external live {        stake[msg.sender] = add(stake[msg.sender], wad);        gov.pull(msg.sender, wad);        chief.lock(wad);        iou.<mask0>;        emit Lock(msg.sender, wad);    }"

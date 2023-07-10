@@ -1,0 +1,1 @@
+"function getAddressRole(address account) external returns (string memory) {    if (hasRole(DEFAULT_ADMIN_ROLE, account)) {      return 'ADMIN_ROLE';    } else if (<mask0>) {      return 'SUPPORT_ROLE';    }    return 'UNASSIGNED';  }"

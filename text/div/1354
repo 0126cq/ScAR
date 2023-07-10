@@ -1,0 +1,1 @@
+"function _computeNominalCR(uint _coll, uint _debt) internal pure returns (uint) {        if (_debt > 0) {            return _coll.mul(NICR_PRECISION).<mask0>;        }        else {             return 2**256 - 1;        }    }"

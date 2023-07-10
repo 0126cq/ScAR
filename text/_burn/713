@@ -1,0 +1,1 @@
+"function withdraw(uint256 amount) external override {        address sender = _msgSender();        <mask0>;        _tokenContract.transfer(sender, amount);        emit withdrawal(sender, amount);    }"

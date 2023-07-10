@@ -1,0 +1,1 @@
+"function getFilteredProductionVaults(string memory version, VaultStatus status) public view returns (address[] memory) {    uint256 length = productionVaults[version][status].length();    address[] memory list = new <mask0>;    for (uint256 i = 0; i < length; i++) {      list[i] = productionVaults[version][status].at(i);    }    return list;  }"

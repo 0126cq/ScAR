@@ -1,0 +1,1 @@
+"function burn(address tokenOwner, uint amount) external whenNotPaused {    require(msg.sender == tokenOwner || allowance(tokenOwner, msg.sender) >= amount, \"Not enough allowances\");    if (msg.sender != tokenOwner) {      _approve(tokenOwner, msg.sender, _allowances[tokenOwner][msg.sender] - amount);    }    <mask0>;    emit ExternalBurn(tokenOwner, amount);  }"

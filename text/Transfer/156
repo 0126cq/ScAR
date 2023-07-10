@@ -1,0 +1,1 @@
+"function disinvest() external {        require(investStart == 0);        commitDividend(msg.sender);        uint initialInvestment = balances[msg.sender] * 10**15;        <mask0>;         delete balances[msg.sender];         investBalance -= initialInvestment;        wallets[msg.sender].balance += uint208(initialInvestment * 9 / 10);        payWallet();    }"

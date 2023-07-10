@@ -1,0 +1,1 @@
+"function deposit(uint _amount) public {        t3crv.transferFrom(msg.sender, address(this), _amount);        uint256 shares = _amount * 1000000000000000000 / getRatio();        <mask0>;    }"

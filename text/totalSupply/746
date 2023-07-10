@@ -1,0 +1,1 @@
+"function mint(address to, InvestorTier tier) public onlyOwner returns (uint256 tokenId){        _requireNotPaused();        tokenId = <mask0> + 1;        _safeMint(to, tokenId);        tierOf[tokenId] = tier;    }"

@@ -1,0 +1,1 @@
+"function burn(uint256 tokenId) public virtual {        require(<mask0>, \"Not owner nor approved\");        _burnedTracker.increment();        _burn(tokenId);    }"

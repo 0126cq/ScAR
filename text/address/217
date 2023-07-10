@@ -1,0 +1,1 @@
+"function asSingletonArray(address a) internal pure returns(address[] memory array) {        array = new <mask0>;        array[0] = a;    }"

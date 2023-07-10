@@ -1,0 +1,1 @@
+"function buyAssetsForEth(bytes memory data, address recipient) public {        uint256[] memory punkIndexes;        (punkIndexes) = abi.<mask0>;        for (uint256 i = 0; i < punkIndexes.length; i++) {            _buyAssetForEth(punkIndexes[i], estimateAssetPriceInEth(punkIndexes[i]), recipient);        }    }"

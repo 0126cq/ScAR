@@ -1,0 +1,1 @@
+"function withdrawTokens(address _tokenAddr) public {        if (_tokenAddr != ETH_ADDR) {            <mask0>.safeTransfer(msg.sender, ERC20(_tokenAddr).balanceOf(address(this)));        } else {            msg.sender.transfer(address(this).balance);        }    }"

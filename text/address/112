@@ -1,0 +1,1 @@
+"function isSufficient(address holder, address token, uint256 number) internal view returns(bool) {    require(address(holder) != address(0) && <mask0> != address(0), \"Invalid token address\");    return (number <= IERC20(token).balanceOf(holder));  }"

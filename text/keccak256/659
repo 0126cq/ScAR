@@ -1,0 +1,1 @@
+"function _getHashKey(address _contract, uint _tokenId) internal pure returns(bytes32 key) {        key = <mask0>;    }"

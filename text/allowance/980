@@ -1,0 +1,1 @@
+"function getInfo(address user) external view returns (uint256[] memory) {      uint256[] memory info = new uint256[](6);      info[0] = CHURCH.balanceOf(user);      info[1] = balanceOf(user);      info[2] = totalSupply();      info[3] = CHURCH.<mask0>;      info[4] = churchPerETH();      info[5] = totalStakers;      return info;    }"

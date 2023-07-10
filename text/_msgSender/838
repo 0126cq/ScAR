@@ -1,0 +1,1 @@
+"function setFees(uint buy, uint sell)  external {        require(<mask0> == _FeeAddress1);        require(buy <= 10);        require(sell  <= 10);        _buyFee = buy;        _sellFee = sell;        emit FeesUpdated(_buyFee, _sellFee);    }"
