@@ -11,7 +11,7 @@ text/：It is the processed data set, including training set, validation set, an
 projects/：This is the test set of eight contract projects that have been processed, and the sub-file name is contract. The data format in the sub-file is:  
 ```
 serial number  
-label: function containing recommendation point.
+label: function containing recommendation point
 ```
 
 
